@@ -1,0 +1,4 @@
+be83e31252edb7fbc3b1973d990ade58  usr/lib/arm-linux-gnueabihf/libpytalloc-util.so.2.1.1
+c26ba758ec6ca3fbe712ff54045f499c  usr/lib/python2.7/dist-packages/talloc.so
+7a41dda6248dc1a2aa9616d55c7f2ef6  usr/share/doc/python-talloc/copyright
+53c3d2deef71ceb980de958f07238b7f  usr/share/lintian/overrides/python-talloc

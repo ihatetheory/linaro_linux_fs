@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="text-copy" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak vybrat a zkopírovat definici do jiné aplikace.</desc>
+
+  </info>
+
+  <title>Kopírování definice</title>
+
+  <p>Definici můžete ve <app>Slovníku</app> zkopírovat a následně vložit do jiné aplikace.</p>
+
+  <steps>
+    <title>Kopírování definice</title>
+    <item>
+      <p>Vyberte ve <app>Slovníku</app> text, který chcete kopírovat. Případně můžete vybrat úplně celou definici pomocí <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Vybrat vše</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Zvolte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Kopírovat</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Vložte text do jiné aplikace. Obvykle se to dělá pomocí klávesové zkratky <keyseq><key>Ctrl</key> <key>V</key></keyseq> nebo příslušné nabídky.</p>
+    </item>
+  </steps>
+
+</page>

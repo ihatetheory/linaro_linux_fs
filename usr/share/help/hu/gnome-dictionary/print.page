@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Nyomtatási kép és meghatározások nyomtatása.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Meghatározás nyomtatása</title>
+
+  <p>Kinyomtathat egy meghatározást papírra vagy fájlba. Nyomtatás előtt nézze meg a meghatározás nyomtatási képét, hogy miként lesz kinyomtatva, hogy ellenőrizze, ráfér-e a szöveg az oldalra, különösen akkor, ha megváltoztatta a <link xref="print-font">nyomtatási betűkészlet</link> méretét.</p>
+
+  <section id="preview">
+    <title>Nyomtatási kép</title>
+
+    <steps>
+      <item>
+        <p>Válassza a <guiseq><gui style="menu">Fájl</gui> <gui style="menuitem">Előnézet</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Meg fog nyílni a nyomtatási kép ablaka, amely pontosan úgy fogja megjeleníteni a meghatározást, ahogy az nyomtatva lesz.</p>
+      </item>
+      <item>
+	<p>Használja az eszköztárat az oldalak böngészéséhez, a nagyítási szint és az oldalszélesség beállításához.</p>
+      </item>
+      <item>
+        <p>Kattintson <gui style="button">A jelenlegi dokumentum nyomtatása</gui> gombra a meghatározás nyomtatásához, vagy zárja be az ablakot az előnézet elhagyásához.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Az eszköztáron lévő nyomtatás gomb nem mindig működik. Ha nem működik, zárja be az ablakot, és válassza a <guiseq><gui style="menu">Fájl</gui> <gui style="menuitem">Nyomtatás</gui></guiseq> menüpontot.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Nyomtatás</title>
+
+    <p>Szüksége van <link href="help:gnome-help/printing">egy beállított nyomtatóra</link>, hogy képes legyen papírra nyomtatni.</p>
+
+    <steps>
+      <item>
+        <p>Válassza a <guiseq><gui style="menu">Fájl</gui> <gui style="menuitem">Nyomtatás</gui> <gui style="tab">Általános</gui></guiseq> lapot.</p>
+      </item>
+      <item>
+        <p>Válassza ki a használni kívánt nyomtatót a nyomtatók listájából, vagy válassza a <gui href="help:gnome-help/print-to-file">Nyomtatás fájlba</gui> lehetőséget.</p>
+      </item>
+      <item>
+        <p>Válassza ki a <link href="help:gnome-help/printing#paper">nyomtatási beállításokat</link>.</p>
+      </item>
+      <item>
+        <p>Nyomja meg a <gui style="button">Nyomtatás</gui> gombot a meghatározás nyomtatásához.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

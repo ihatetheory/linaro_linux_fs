@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="dictionary-select" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.comm</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Másik szótár kiválasztása</title>
+
+  <p>Az egyes <link xref="sources">szótárforrások</link> számos különböző szótárral rendelkezhetnek. Ezek közül bármelyik szótárban kereshet.</p>
+
+  <steps>
+    <title>Szótár kiválasztása</title>
+    <item>
+      <p>Válassza a <guiseq><gui style="menu">Nézet</gui> <gui style="menuitem">Elérhető adatbázisok</gui></guiseq> menüpontot. Egy olyan oldalsáv fog megnyílni, amely az elérhető szótárakat listázza az aktuálisan kiválasztott szótárforráshoz.</p>
+    </item>
+    <item>
+      <p>Kattintson kétszer arra a szótárra, amelyet használni szeretne.</p>
+    </item>
+  </steps>
+
+  <p>A következő kifejezés, amelyet <link xref="definition">keres</link>, csak a kiválasztott szótárból fog találatot megjeleníteni.</p>
+
+  <note>
+    <p>A szótárkiválasztás nem kerül megőrzésre a <app>Szótár</app> következő használatához.</p>
+  </note>
+
+</page>

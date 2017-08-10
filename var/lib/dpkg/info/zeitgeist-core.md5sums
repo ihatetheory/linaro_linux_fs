@@ -1,0 +1,10 @@
+d5a963a0e4ad6c6f228783615aa8eb5b  usr/bin/zeitgeist-daemon
+e695791f05cca89d55fe39b80428625c  usr/lib/arm-linux-gnueabihf/zeitgeist-fts
+93692cf89e73074012ea118afcec87e9  usr/share/bash-completion/completions/zeitgeist-daemon
+f7f7e82b89d071e0b6b6f9edfce941e6  usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service
+bbc640135c555376e75e751bccabdbe6  usr/share/dbus-1/services/org.gnome.zeitgeist.service
+9498d346332df6d94aafcdfbbbaa921e  usr/share/doc/zeitgeist-core/NEWS.gz
+c412e6bf1e4f25df34a2103e7ede50e6  usr/share/doc/zeitgeist-core/copyright
+7dc54bf18b59c123d3d3b936d7c38dc0  usr/share/man/man1/zeitgeist-daemon.1.gz
+3763506ebcbbf2d1a889cebdc232abd0  usr/share/zeitgeist/doc/AUTHORS
+2fecbfd121b3ffc62f90e77cbf451491  usr/share/zeitgeist/doc/NEWS

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>查找一个词或短语的释义。</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>查询一个词或短语</title>
+
+  <p>您可以使用<app>字典</app>来查询某个<em>词语</em>的意思。词语可以是单个的词比如<input>apple</input>或者复合词如<input>chopping board</input>。查询的结果也可以告诉您词语的来源、重要性和用法。请这样来查询一个词：</p>
+
+  <steps>
+    <item>
+      <p>在<gui>查询</gui>旁输入您希望查询的词语。</p>
+    </item>
+    <item>
+      <p>按下<key>回车</key>键或点<gui style="button">查询：</gui>进行查找。</p>
+    </item>
+  </steps>
+
+  <p><application>字典</application>会在您选择的字典源中进行查找并为您显示来自源里第一部字典的结果。选择<link xref="similar-words"><guiseq><gui style="menu">查看</gui> <gui style="menuitem">相似单词</gui></guiseq></link> 来弹出边栏，显示所有结果。</p>
+
+</page>

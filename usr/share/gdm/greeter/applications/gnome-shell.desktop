@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=GNOME Shell
+Comment=Window management and compositing
+Exec=gnome-shell --mode=gdm
+X-GNOME-Autostart-Notify=true
+X-GNOME-AutoRestart=true
+X-Ubuntu-Gettext-Domain=gdm

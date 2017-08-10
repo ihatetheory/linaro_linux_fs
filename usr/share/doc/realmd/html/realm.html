@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968">
+<title>realm</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="realmd">
+<link rel="up" href="realm-manual.html" title="Command manual pages">
+<link rel="prev" href="realm-manual.html" title="Command manual pages">
+<link rel="next" href="realmd-conf.html" title="realmd.conf">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="realm-manual.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="realm-manual.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">realmd</th>
+<td><a accesskey="n" href="realmd-conf.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="realm"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">realm</span></h2>
+<p>realm &#8212; Manage enrollment in realms</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<div class="cmdsynopsis"><p><code class="command">realm discover</code>  [realm-name]</p></div>
+<div class="cmdsynopsis"><p><code class="command">realm join</code>  [-U user] [realm-name]</p></div>
+<div class="cmdsynopsis"><p><code class="command">realm leave</code>  [-U user] [realm-name]</p></div>
+<div class="cmdsynopsis"><p><code class="command">realm list</code> </p></div>
+<div class="cmdsynopsis"><p><code class="command">realm permit</code>  [-ax] [-R realm] {user@domain...}</p></div>
+<div class="cmdsynopsis"><p><code class="command">realm deny</code>   -a  [-R realm]</p></div>
+</div>
+<div class="refsect1">
+<a name="idp46561028"></a><h2>Description</h2>
+<p><span class="command"><strong>realm</strong></span> is a command line tool that
+	can be used to manage enrollment in kerberos realms, like Active
+	Directory domains or IPA domains.</p>
+<p>See the various sub commands below. The following global options
+	can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--install=/path</code></span></p></td>
+<td><p>Run in install mode. This makes realmd
+			chroot into the specified directory and place files in
+			appropriate locations for use during an installer. No
+			packages will be installed or services will be started
+			when running in this mode.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--unattended</code></span></p></td>
+<td><p>Run in unattended mode without prompting
+			for input.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--verbose, -v</code></span></p></td>
+<td><p>Display verbose diagnostics while doing
+			running commands.</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46565380"></a><h2>Discover</h2>
+<p>Discover a realm and its capabilities.</p>
+<div class="informalexample">
+<pre class="programlisting">
+$ realm discover
+</pre>
+<pre class="programlisting">
+$ realm discover domain.example.com
+</pre>
+</div>
+<p>After discovering a realm,
+	its name, type and capabilities are displayed.</p>
+<p>If no domain is specified, then the domain assigned through
+	DHCP is used as a default.</p>
+<p>The following options can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--all</code></span></p></td>
+<td><p>Show all discovered realms (in various
+			configurations).</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--client-software=xxx</code></span></p></td>
+<td><p>Only discover realms for which we can
+			use the given client software. Possible values include
+			<em class="replaceable"><code>sssd</code></em> or
+			<em class="replaceable"><code>winbind</code></em>.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--server-software=xxx</code></span></p></td>
+<td><p>Only discover realms which run the
+			given server software. Possible values include
+			<em class="replaceable"><code>active-directory</code></em> or
+			<em class="replaceable"><code>ipa</code></em>.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--membership-software=xxx</code></span></p></td>
+<td><p>Only discover realms for which the given
+			membership software can be used to subsequently perform enrollment.
+			Possible values include <em class="replaceable"><code>samba</code></em> or
+			<em class="replaceable"><code>adcli</code></em>. </p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46572860"></a><h2>Join</h2>
+<p>Configure the local machine for use with a realm.</p>
+<div class="informalexample">
+<pre class="programlisting">
+$ realm join domain.example.com
+</pre>
+<pre class="programlisting">
+$ realm join --user=admin --computer-ou=OU=Special domain.example.com
+</pre>
+</div>
+<p>The realm is first discovered, as we would with the
+	<code class="option">discover</code> command. If no domain is specified, then the
+	domain assigned through DHCP is used as a default.</p>
+<p>After a successful join, the computer will be in a state where
+	it is able to resolve remote user and group names from the realm.
+	For kerberos realms, a computer account and host keytab is created.</p>
+<p>Joining arbitrary kerberos realms is not supported. The realm
+	must have a supported mechanism for joining from a client machine, such
+	as Active Directory or IPA.</p>
+<p>Unless a <code class="literal">--user</code> is explicitly specified, an
+	automatic join is attempted first. Automatic joins require pre-configuration
+	on the domain side, and may not be supported by all domains.</p>
+<p>Note that the <code class="literal">--user </code>, <code class="literal">--no-password</code>,
+	and <code class="literal">--one-time-password </code> options are mutually exclusive.
+	At most one of them can be specified.</p>
+<p>It is generally possible to use kerberos credentials to perform
+	a join operation. Use the <span class="command"><strong>kinit</strong></span> command to
+	acquire credentials prior to starting the join. Do not specify the
+	<code class="option">--user</code> argument, the user will be selected automatically
+	from the credential cache. The <span class="command"><strong>realm</strong></span> respects the
+	<code class="literal">KRB5_CCACHE</code> environment variable, but uses the default
+	kerberos credential cache if it's not present. Not all types of servers
+	can be joined using kerberos credentials, some (like IPA) insist on
+	prompting for a password.</p>
+<p>The following options can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--user=xxx</code></span></p></td>
+<td><p>The user name to be used to authenticate
+			with when joining the machine to the realm. You will
+			be prompted for a password.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--computer-ou=OU=xxx</code></span></p></td>
+<td><p>The distinguished name of an organizational
+			unit to create the computer account. The exact format
+			of the distinguished name depends on the client software
+			and membership software. You can usually omit the root
+			DSE portion of distinguished name. This is an Active
+			Directory specific option.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--no-password</code></span></p></td>
+<td><p>Perform the join automatically without
+			a password.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--one-time-password=xxxx</code></span></p></td>
+<td><p>Perform the join using a one time password
+			specified on the command line. This is not possible with
+			all types of realms.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--client-software=xxx</code></span></p></td>
+<td><p>Only join realms for which we can
+			use the given client software. Possible values include
+			<em class="replaceable"><code>sssd</code></em> or
+			<em class="replaceable"><code>winbind</code></em>. Not all values are
+			supported for all realms. By default the client software
+			is automatically selected.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--server-software=xxx</code></span></p></td>
+<td><p>Only join realms for run the
+			given server software. Possible values include
+			<em class="replaceable"><code>active-directory</code></em> or
+			<em class="replaceable"><code>ipa</code></em>.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--membership-software=xxx</code></span></p></td>
+<td><p>The software to use when joining to the
+			realm. Possible values include <em class="replaceable"><code>samba</code></em> or
+			<em class="replaceable"><code>adcli</code></em>. Not all values are
+			supported for all realms. By default the membership software
+			is automatically selected.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--user-principal=<em class="parameter"><code>host/name@REALM</code></em></code></span></p></td>
+<td><p>Set the userPrincipalName field of the
+			computer account to this kerberos principal. If you omit
+			the value for this option, then a principal will be set
+			in the form of <code class="literal">host/shortname@REALM</code></p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46589892"></a><h2>Leave</h2>
+<p>Deconfigure the local machine for use with a realm.</p>
+<div class="informalexample">
+<pre class="programlisting">
+$ realm leave
+</pre>
+<pre class="programlisting">
+$ realm leave domain.example.com
+</pre>
+</div>
+<p>If no realm name is specified, then the first configured realm
+	will be used.</p>
+<p>The following options can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--client-software=xxx</code></span></p></td>
+<td><p>Only leave the realm which is using
+			the given client software. Possible values include
+			<em class="replaceable"><code>sssd</code></em> or
+			<em class="replaceable"><code>winbind</code></em>.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--server-software=xxx</code></span></p></td>
+<td><p>Only leave the realm which is using the
+			given server software. Possible values include
+			<em class="replaceable"><code>active-directory</code></em> or
+			<em class="replaceable"><code>ipa</code></em>.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--remove</code></span></p></td>
+<td><p>Remove or disable computer account from the
+			directory while leaving the realm. This will usually prompt
+			for a pasword.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--user</code></span></p></td>
+<td><p>The user name to be used to authenticate
+			with when leaving the realm. You will be prompted for a
+			password. Implies <code class="option">--remove</code>.</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46596988"></a><h2>List</h2>
+<p>List all the discovered and configured realms.</p>
+<div class="informalexample"><pre class="programlisting">
+$ realm list
+</pre></div>
+<p>By default, realms that have been discovered, but not configured (using
+	the <code class="option">join</code> command), are not displayed. Also, by default, the
+	list of realm details displayed is verbose. The options below can be used to
+	change this default behavior</p>
+<p>The following options can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--all</code></span></p></td>
+<td><p>Show all discovered realms (whether or not
+			they have been configured). </p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--name-only</code></span></p></td>
+<td><p>Display only realm names (as opposed to
+			verbose output).</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46601116"></a><h2>Permit</h2>
+<p>Permit local login by users of the realm.</p>
+<div class="informalexample"><pre class="programlisting">
+$ realm permit --all
+$ realm permit user@example.com
+$ realm permit DOMAIN\\User2
+$ realm permit --withdraw user@example.com
+</pre></div>
+<p>The current login policy and format of the user names can be seen
+	 by using the <span class="command"><strong>realm list</strong></span> command.</p>
+<p>The following options can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--all, -a</code></span></p></td>
+<td><p>Permit logins using realm accounts on
+			the local machine according to the realm policy.This
+			usually defaults to allowing any realm user to log
+			in.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--groups, -g</code></span></p></td>
+<td><p>Treat the specified names as groups
+			rather than user login names. Permit login by users in
+			the specified groups.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--realm, -R</code></span></p></td>
+<td><p>Specify the of the realm to change login
+			policy for.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--withdraw, -x</code></span></p></td>
+<td><p>Remove a login from the list of realm
+			accounts permitted to log into the machine.</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46607172"></a><h2>Deny</h2>
+<p>Deny local login by realm accounts.</p>
+<div class="informalexample"><pre class="programlisting">
+$ realm deny --all
+</pre></div>
+<p>This command prevents realm accounts from logging into the local
+	machine. Use <span class="command"><strong>realm permit</strong></span> to restrict logins to
+	specific accounts.</p>
+<p>The following options can be used:</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">--all, -a</code></span></p></td>
+<td><p>This option should be specified</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--realm, -R</code></span></p></td>
+<td><p>Specify the name of the realm to deny
+			users login to.</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc
+        </div>
+</body>
+</html>

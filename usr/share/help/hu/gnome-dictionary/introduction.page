@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="introduction" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="final"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Mi a <app>Szótár</app>?</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bevezetés</title>
+
+  <p>A <app>Szótár</app> kifejezések meghatározásának kereséséhez használható alkalmazás. A meghatározásokat egy online <app>DICT</app> kiszolgáló használatával keresi meg. Az alapértelmezett <app>DICT</app> kiszolgáló a <sys href="http://dict.org">http://dict.org</sys> címen érhető el.</p>
+
+  <p>Kezdje a <app>Szótár</app> használatát <link xref="definition">egy meghatározás keresésével</link>!</p>
+
+  <figure>
+    <title>Szótár</title>
+    <media type="image" src="figures/gnome-dictionary.png">
+      <p>A <app>Szótár</app> főablakát megjelenítő képernyőkép.</p>
+    </media>
+  </figure>
+
+</page>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.telepathy-account-widgets.ui" path="/org/gnome/telepathy-account-widgets/ui/">
+    <key name="avatar-directory" type="s">
+      <default>''</default>
+      <summary>Default directory to select an avatar image from</summary>
+      <description>The last directory that an avatar image was chosen from.</description>
+    </key>
+  </schema>
+</schemalist>

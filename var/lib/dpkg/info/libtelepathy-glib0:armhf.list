@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libtelepathy-glib.so.0.84.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtelepathy-glib0
+/usr/share/doc/libtelepathy-glib0/NEWS.gz
+/usr/share/doc/libtelepathy-glib0/changelog.Debian.gz
+/usr/share/doc/libtelepathy-glib0/README.gz
+/usr/share/doc/libtelepathy-glib0/copyright
+/usr/share/doc/libtelepathy-glib0/AUTHORS
+/usr/lib/arm-linux-gnueabihf/libtelepathy-glib.so.0

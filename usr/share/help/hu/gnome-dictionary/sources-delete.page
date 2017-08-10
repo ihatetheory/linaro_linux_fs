@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Egy szótárforrás törlése</title>
+
+  <p>Ha többé nincs szüksége egy adott <link xref="sources">szótárforrásra</link>, vagy ha valamelyik nem működik többé, érdemes lehet törölni azt.</p>
+
+  <steps>
+    <title>Egy szótárforrás törlése:</title>
+    <item>
+      <p>Válassza a <guiseq><gui style="menu"><app>Szótár</app></gui> <gui style="menuitem">Beállítások</gui> <gui style="tab">Forrás</gui></guiseq> lapot.</p>
+    </item>
+    <item>
+      <p>Válassza ki azt a szótárforrást, amelyet törölni szeretne.</p>
+    </item>
+    <item>
+      <p>Nyomja meg az <gui style="button">Eltávolítás</gui> gombot.</p>
+    </item>
+    <item>
+      <p>Egy párbeszédablak fog felugrani azt kérve, hogy erősítse meg a kiválasztott forrás végleges törlését. Ha megerősítette, a forrás törlésre kerül.</p>
+    </item>
+  </steps>
+
+</page>

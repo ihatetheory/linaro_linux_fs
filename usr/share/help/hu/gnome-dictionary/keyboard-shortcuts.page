@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A <app>Szótár</app> alkalmazásban való hatékonyabb navigációhoz használhat gyorsbillentyűket is.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gyorsbillentyűk</title>
+
+  <p>A gyorsbillentyűk a billentyűk olyan kombinációi, amelyeket a menüben való navigáció helyett használhat. A következő gyorsbillentyűk érhetők el:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Navigáció a <app>Szótár</app> alkalmazásban</title>
+    <thead>
+      <tr>
+        <td><p>Művelet</p></td>
+        <td><p>Gyorsbillentyű</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Nyomtatási kép</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Nyomtatás</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Oldalsáv megjelenítése</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Egy új <app>Szótár</app> ablak megnyitása</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Az aktuális <app>Szótár</app> ablak bezárása</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Keresési gyorsbillentyűk</title>
+    <thead>
+      <tr>
+        <td><p>Művelet</p></td>
+        <td><p>Gyorsbillentyű</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Keresés egy meghatározáson belül</p></td>
+        <td><p><key>/</key> vagy <keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Következő keresése</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Előző keresése</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Navigáció egy meghatározásban</title>
+    <thead>
+      <tr>
+        <td><p>Művelet</p></td>
+        <td><p>Gyorsbillentyű</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Előző meghatározás</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Következő meghatározás</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Első meghatározás</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Home</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Utolsó meghatározás</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>End</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title><app>Szótár</app> meghatározások gyorsbillentyűi:</title>
+    <thead>
+      <tr>
+        <td><p>Művelet</p></td>
+        <td><p>Gyorsbillentyű</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Hasonló szavak</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Szótárforrások</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Elérhető adatbázisok</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Elérhető stratégiák</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

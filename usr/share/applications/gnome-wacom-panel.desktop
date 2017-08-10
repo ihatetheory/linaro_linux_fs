@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Wacom Tablet
+Comment=Set button mappings and adjust stylus sensitivity for graphics tablets
+Exec=gnome-control-center wacom
+Icon=input-tablet
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=wacom
+X-GNOME-Bugzilla-Version=3.14.2
+# Translators: those are keywords for the wacom tablet control-center panel
+Keywords=Tablet;Wacom;Stylus;Eraser;Mouse;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

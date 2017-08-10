@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+	<id>evolution-bogofilter</id>
+	<extends>evolution.desktop</extends>
+	<name>Bogofilter</name>
+	<name xml:lang="an">Bogofilter</name>
+	<name xml:lang="as">Bogofilter</name>
+	<name xml:lang="ast">Bogofilter</name>
+	<name xml:lang="be">Bogofilter</name>
+	<name xml:lang="bg">Bogofilter</name>
+	<name xml:lang="ca">Bogofilter</name>
+	<name xml:lang="ca@valencia">Bogofilter</name>
+	<name xml:lang="cs">Bogofilter</name>
+	<name xml:lang="da">Bogofilter</name>
+	<name xml:lang="de">Bogofilter</name>
+	<name xml:lang="el">Bogofilter</name>
+	<name xml:lang="en_GB">Bogofilter</name>
+	<name xml:lang="es">Bogofilter</name>
+	<name xml:lang="et">Bogofilter</name>
+	<name xml:lang="eu">Bogofilter</name>
+	<name xml:lang="fi">Bogofilter</name>
+	<name xml:lang="fr">Bogofilter</name>
+	<name xml:lang="gl">Bogofilter</name>
+	<name xml:lang="gu">Bogofilter</name>
+	<name xml:lang="hi">बोगोफिल्टर</name>
+	<name xml:lang="hu">Bogofilter</name>
+	<name xml:lang="id">Bogofilter</name>
+	<name xml:lang="it">Bogofilter</name>
+	<name xml:lang="ja">Bogofilter</name>
+	<name xml:lang="kn">ಬೊಗೊಫಿಲ್ಟರ್</name>
+	<name xml:lang="ko">보고필터</name>
+	<name xml:lang="lt">Bogofilter</name>
+	<name xml:lang="lv">Bogofilter</name>
+	<name xml:lang="mk">Bogofilter</name>
+	<name xml:lang="ml">ബോഗോഫില്‍റ്റര്‍</name>
+	<name xml:lang="mr">बोगोफिल्टर</name>
+	<name xml:lang="nb">Bogofilter</name>
+	<name xml:lang="nl">Bogofilter</name>
+	<name xml:lang="or">Bogofilter</name>
+	<name xml:lang="pa">ਬੋਗੋਲਫਿਲਟਰ</name>
+	<name xml:lang="pl">Bogofilter</name>
+	<name xml:lang="pt">Bogofilter</name>
+	<name xml:lang="pt_BR">Bogofilter</name>
+	<name xml:lang="ro">Bogofiltru</name>
+	<name xml:lang="ru">Bogofilter</name>
+	<name xml:lang="sk">Bogofilter</name>
+	<name xml:lang="sl">Bogofilter</name>
+	<name xml:lang="sr">Богофилтер</name>
+	<name xml:lang="sr@latin">Bogofilter</name>
+	<name xml:lang="sv">Bogofilter</name>
+	<name xml:lang="ta">போகோவடிகட்டி </name>
+	<name xml:lang="te">Bogofilter</name>
+	<name xml:lang="th">Bogofilter</name>
+	<name xml:lang="tr">Bogofilter</name>
+	<name xml:lang="ug">Bogofilter</name>
+	<name xml:lang="uk">Bogofilter</name>
+	<name xml:lang="vi">Bogofilter</name>
+	<name xml:lang="zh_CN">Bogofilter</name>
+	<name xml:lang="zh_HK">Bogofilter</name>
+	<name xml:lang="zh_TW">Bogofilter</name>
+	<summary>Junk filter using Bogofilter</summary>
+	<summary xml:lang="as">Bogofilter ব্যৱহাৰ কৰি আবৰ্জনাৰ ফিল্টাৰ</summary>
+	<summary xml:lang="bg">Програма за защита от спам чрез Bogofilter</summary>
+	<summary xml:lang="cs">Filtr nevyžádané pošty používá Bogofilter</summary>
+	<summary xml:lang="de">Filter für unerwünschte Nachrichten, der den Bogofilter verwendet</summary>
+	<summary xml:lang="el">Φιλτράρισμα ανεπιθύμητων με Bogofilter</summary>
+	<summary xml:lang="es">Filtro de spam usando Bogofilter</summary>
+	<summary xml:lang="fr">Filtre les pourriels avec Bogofilter</summary>
+	<summary xml:lang="gl">Software de filtrado usando Bogofilter</summary>
+	<summary xml:lang="gu">બોગોફિલ્ટરની મદદથી નકામુ ફિલ્ટર</summary>
+	<summary xml:lang="hu">Levélszemétszűrő szoftver Bogofilter használatával</summary>
+	<summary xml:lang="id">Penyaring sampah memakai Bogofilter</summary>
+	<summary xml:lang="it">Filtra indesiderata usando Bogofilter</summary>
+	<summary xml:lang="kn">ಬೊಗೊಫಿಲ್ಟರ್ ಬಳಸಿಕೊಂಡು ರದ್ಧಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ</summary>
+	<summary xml:lang="lt">Šlamšto filtravimas naudojant Bogofilter</summary>
+	<summary xml:lang="lv">Mēstuļu filtrēšanas, izmantojot Bogofilter</summary>
+	<summary xml:lang="nb">Søppelfilter som bruker Bogofilter</summary>
+	<summary xml:lang="pl">Filtrowanie niechcianych wiadomości używając Bogofilter</summary>
+	<summary xml:lang="pt">Filtrar Não solicitado usando Bogofilter</summary>
+	<summary xml:lang="pt_BR">Filtro de lixo usando Bogofilter</summary>
+	<summary xml:lang="sl">Filter za vsiljeno pošto Bogofilter</summary>
+	<summary xml:lang="sr">Пропусник непожељне користећи Богофилтер</summary>
+	<summary xml:lang="sr@latin">Propusnik nepoželjne koristeći Bogofilter</summary>
+	<url type="homepage">https://live.gnome.org/Apps/Evolution</url>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LGPL</project_license>
+	<updatecontact>evolution-hackers_at_gnome.org</updatecontact>
+</component>

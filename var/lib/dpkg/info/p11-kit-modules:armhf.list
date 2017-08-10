@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/pkcs11
+/usr/lib/arm-linux-gnueabihf/pkcs11/p11-kit-trust.so
+/usr/share
+/usr/share/doc
+/usr/lib/arm-linux-gnueabihf/p11-kit-proxy.so
+/usr/share/doc/p11-kit-modules

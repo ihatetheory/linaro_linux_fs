@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="desktop">
+		<dir name="gnome">
+			<dir name="file_sharing">
+				<entry name="bluetooth_notify" mtime="1450157172" type="bool" value="true"/>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

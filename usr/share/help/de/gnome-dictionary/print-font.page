@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wählen Sie die Schrift, mit der Sie die Definitionen drucken möchten.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Druckschrift</title>
+
+  <p>Sie können das Aussehen und die Größe der Schrift ändern, welche genutzt wird, um Definitionen zu suchen.</p>
+
+  <steps>
+    <title>So ändern Sie die Schrift</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Wörterbuch</gui> <gui style="menuitem">Einstellungen</gui> <gui style="tab">Drucken</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf den Knopf zum Wechseln der Schrift</p>
+    </item>
+    <item>
+      <p>Wählen Sie die Schrift, die Sie benutzen möchten.</p>
+    </item>
+    <item>
+      <p>Ziehen Sie den Schieber nach rechts, um die Schrift zu vergrößern, oder nach links, um diese zu verkleinern. Alternativ können Sie die gewünschte Schriftgröße in das Textfeld eingeben, oder nutzen Sie die Knöpfe <gui>-</gui> und <gui>+</gui>, um die Schriftgröße zu vergrößern oder zu verkleinern.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui style="button">Auswählen</gui>, um die Schrifteinstellungen zu speichern.</p>
+    </item>
+  </steps>
+
+  <p>Die Definition ist nicht fürs Drucken angepasst, so dass ein Teil des Textes abgeschnitten werden könnte, falls Sie eine große Schriftgröße wählen</p>
+
+</page>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="empathy">
+  <description>Empathy</description>
+  <desktop-entry>empathy.desktop</desktop-entry>
+  <translations>empathy</translations>
+  <service-types>
+    <service-type id="IM">
+      <description>Integrate your IM accounts</description>
+    </service-type>
+  </service-types>
+</application>

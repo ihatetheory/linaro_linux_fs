@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968">
+<title>Raw DBus Interfaces</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="realmd">
+<link rel="up" href="development.html" title="Part&#160;II.&#160;Developer Reference">
+<link rel="prev" href="gdbus-org.freedesktop.realmd.Service.html" title="org.freedesktop.realmd.Service">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="gdbus-org.freedesktop.realmd.Service.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="development.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">realmd</th>
+<td>&#160;</td>
+</tr></table>
+<div class="chapter">
+<div class="titlepage"><div><div><h2 class="title">
+<a name="dbus-interface-raw"></a>Raw DBus Interfaces</h2></div></div></div>
+<p>These are the current raw DBus interfaces for realmd.</p>
+<pre class="programlisting">
+<span>&lt;node name='/'&gt;
+	&lt;interface name='org.freedesktop.realmd.Provider'&gt;
+		&lt;property name='Name' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;property name='Version' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;property name='Realms' type='ao' access='read'&gt;&lt;/property&gt;
+		&lt;method name='Discover'&gt;
+			&lt;arg name='string' type='s' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='options' type='a{sv}' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='relevance' type='i' direction='out'&gt;&lt;/arg&gt;
+			&lt;arg name='realm' type='ao' direction='out'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+	&lt;/interface&gt;
+	&lt;interface name='org.freedesktop.realmd.Service'&gt;
+		&lt;method name='Cancel'&gt;
+			&lt;arg name='operation' type='s' direction='in'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+		&lt;method name='SetLocale'&gt;
+			&lt;arg name='locale' type='s' direction='in'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+		&lt;signal name='Diagnostics'&gt;
+			&lt;arg name='data' type='s'&gt;&lt;/arg&gt;
+			&lt;arg name='operation' type='s'&gt;&lt;/arg&gt;
+		&lt;/signal&gt;
+		&lt;method name='Release'&gt;
+		&lt;/method&gt;
+	&lt;/interface&gt;
+	&lt;interface name='org.freedesktop.realmd.Realm'&gt;
+		&lt;property name='Name' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;property name='Configured' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;method name='Deconfigure'&gt;
+			&lt;arg name='options' type='a{sv}' direction='in'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+		&lt;property name='SupportedInterfaces' type='as' access='read'&gt;&lt;/property&gt;
+		&lt;property name='Details' type='a(ss)' access='read'&gt;&lt;/property&gt;
+		&lt;property name='RequiredPackages' type='as' access='read'&gt;&lt;/property&gt;
+		&lt;property name='LoginFormats' type='as' access='read'&gt;&lt;/property&gt;
+		&lt;property name='LoginPolicy' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;property name='PermittedLogins' type='as' access='read'&gt;&lt;/property&gt;
+		&lt;property name='PermittedGroups' type='as' access='read'&gt;&lt;/property&gt;
+		&lt;method name='ChangeLoginPolicy'&gt;
+			&lt;arg name='login_policy' type='s' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='permitted_add' type='as' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='permitted_remove' type='as' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='options' type='a{sv}' direction='in'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+	&lt;/interface&gt;
+	&lt;interface name='org.freedesktop.realmd.Kerberos'&gt;
+		&lt;property name='RealmName' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;property name='DomainName' type='s' access='read'&gt;&lt;/property&gt;
+	&lt;/interface&gt;
+	&lt;interface name='org.freedesktop.realmd.KerberosMembership'&gt;
+		&lt;property name='SuggestedAdministrator' type='s' access='read'&gt;&lt;/property&gt;
+		&lt;property name='SupportedJoinCredentials' type='a(ss)' access='read'&gt;&lt;/property&gt;
+		&lt;property name='SupportedLeaveCredentials' type='a(ss)' access='read'&gt;&lt;/property&gt;
+		&lt;method name='Join'&gt;
+			&lt;arg name='credentials' type='(ssv)' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='options' type='a{sv}' direction='in'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+		&lt;method name='Leave'&gt;
+			&lt;arg name='credentials' type='(ssv)' direction='in'&gt;&lt;/arg&gt;
+			&lt;arg name='options' type='a{sv}' direction='in'&gt;&lt;/arg&gt;
+		&lt;/method&gt;
+	&lt;/interface&gt;
+&lt;/node&gt;</span>
+			</pre>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc
+        </div>
+</body>
+</html>

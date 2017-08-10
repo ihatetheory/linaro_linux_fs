@@ -1,0 +1,6 @@
+7a2a9cfe10e169ec4920153fada8e52d  usr/lib/glib-networking/glib-pacrunner
+a79cdc8949354baa1e87326b3fac91d8  usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service
+0f60e46b4016d29e36d75c85aebb363f  usr/share/doc/glib-networking-services/NEWS.gz
+bfab1e096b685273438d3d57eb775dae  usr/share/doc/glib-networking-services/README
+562ea6adbd634f5ae0ff2d9b36207b54  usr/share/doc/glib-networking-services/changelog.Debian.gz
+51f00740e23338d9198a2813e5f0defb  usr/share/doc/glib-networking-services/copyright

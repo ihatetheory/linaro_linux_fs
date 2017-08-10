@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eliminar una fuente de diccionario</title>
+
+  <p>Si ya no necesita una <link xref="sources">fuente de diccionarios</link> específica, o si deja de funcionarle, puede querer eliminarla.</p>
+
+  <steps>
+    <title>Eliminar una fuente de diccionario:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu"><app>Diccionario</app></gui> <gui style="menuitem">Preferencias</gui> <gui style="tab">Fuente</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccione la fuente de diccionarios que quiere eliminar.</p>
+    </item>
+    <item>
+      <p>Pulse <gui style="button">Quitar</gui>.</p>
+    </item>
+    <item>
+      <p>Aparecerá un diálogo pidiéndole que confirme si quiere eliminar permanentemente la fuente seleccionada. Una vez que lo confirme, la fuente se eliminará.</p>
+    </item>
+  </steps>
+
+</page>

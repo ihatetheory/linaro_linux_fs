@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="sources" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="seealso" xref="definition"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak provádět správu různých zdrojů slovníků.</desc>
+
+  </info>
+
+  <title>Zdroje slovníků</title>
+
+  <p><app>Slouvník</app> využívá k vyhledání zadaných výrazů <em>zdroje slovníků</em>. Zdroje slovníků jsou sady jedné nebo více slovníkových databází, obvykle dostupných on-line, ale je možné se je nainstalovat i přímo na svůj počítač.</p>
+
+  <section id="guide" style="2column">
+    <title>Správa vašich zdrojů slovníků</title>
+  </section>
+
+</page>

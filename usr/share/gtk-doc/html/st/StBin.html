@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>StBin: St Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="St Reference Manual">
+<link rel="up" href="containers.html" title="Containers">
+<link rel="prev" href="containers.html" title="Containers">
+<link rel="next" href="StBoxLayout.html" title="StBoxLayout">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#StBin.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#StBin.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#StBin.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#StBin.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="containers.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="containers.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="StBoxLayout.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="StBin"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="StBin.top_of_page"></a>StBin</span></h2>
+<p>StBin — a simple container with one actor</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="StBin.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-new" title="st_bin_new ()">st_bin_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-set-child" title="st_bin_set_child ()">st_bin_set_child</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-get-child" title="st_bin_get_child ()">st_bin_get_child</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-set-alignment" title="st_bin_set_alignment ()">st_bin_set_alignment</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-get-alignment" title="st_bin_get_alignment ()">st_bin_get_alignment</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-set-fill" title="st_bin_set_fill ()">st_bin_set_fill</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StBin.html#st-bin-get-fill" title="st_bin_get_fill ()">st_bin_get_fill</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StBin.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<span class="type">ClutterActor</span> *</td>
+<td class="property_name"><a class="link" href="StBin.html#StBin--child" title="The “child” property">child</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">StAlign</span></td>
+<td class="property_name"><a class="link" href="StBin.html#StBin--x-align" title="The “x-align” property">x-align</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StBin.html#StBin--x-fill" title="The “x-fill” property">x-fill</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">StAlign</span></td>
+<td class="property_name"><a class="link" href="StBin.html#StBin--y-align" title="The “y-align” property">y-align</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StBin.html#StBin--y-fill" title="The “y-fill” property">y-fill</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StBin.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="StBin.html#StBin-struct" title="struct StBin">StBin</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="StBin.html#StBinClass" title="struct StBinClass">StBinClass</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StBin.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> ClutterActor
+            <span class="lineart">╰──</span> <a class="link" href="StWidget.html" title="StWidget">StWidget</a>
+                <span class="lineart">╰──</span> StBin
+                    <span class="lineart">├──</span> <a class="link" href="StButton.html" title="StButton">StButton</a>
+                    <span class="lineart">╰──</span> <a class="link" href="StScrollView.html" title="StScrollView">StScrollView</a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="StBin.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+StBin implements
+ ClutterContainer,  ClutterScriptable,  ClutterAnimatable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1">
+<a name="StBin.description"></a><h2>Description</h2>
+<p><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> is a simple container capable of having only one
+<span class="type">ClutterActor</span> as a child.</p>
+<p><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> inherits from <a class="link" href="StWidget.html" title="StWidget"><span class="type">StWidget</span></a>, so it is fully themable.</p>
+</div>
+<div class="refsect1">
+<a name="StBin.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="st-bin-new"></a><h3>st_bin_new ()</h3>
+<pre class="programlisting"><a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+st_bin_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Creates a new <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a>, a simple container for one child.</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.2.5"></a><h4>Returns</h4>
+<p> the newly created <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> actor</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-bin-set-child"></a><h3>st_bin_set_child ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_bin_set_child (<em class="parameter"><code><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> *bin</code></em>,
+                  <em class="parameter"><code><span class="type">ClutterActor</span> *child</code></em>);</pre>
+<p>Sets <em class="parameter"><code>child</code></em>
+ as the child of <em class="parameter"><code>bin</code></em>
+.</p>
+<p>If <em class="parameter"><code>bin</code></em>
+ already has a child, the previous child is removed.</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.3.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>bin</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>child</p></td>
+<td class="parameter_description"><p> a <span class="type">ClutterActor</span>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-bin-get-child"></a><h3>st_bin_get_child ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+st_bin_get_child (<em class="parameter"><code><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> *bin</code></em>);</pre>
+<p>Retrieves a pointer to the child of <em class="parameter"><code>bin</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>bin</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.4.6"></a><h4>Returns</h4>
+<p> a <span class="type">ClutterActor</span>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-bin-set-alignment"></a><h3>st_bin_set_alignment ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_bin_set_alignment (<em class="parameter"><code><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> *bin</code></em>,
+                      <em class="parameter"><code><span class="type">StAlign</span> x_align</code></em>,
+                      <em class="parameter"><code><span class="type">StAlign</span> y_align</code></em>);</pre>
+<p>Sets the horizontal and vertical alignment of the child
+inside a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>bin</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_align</p></td>
+<td class="parameter_description"><p>horizontal alignment</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_align</p></td>
+<td class="parameter_description"><p>vertical alignment</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-bin-get-alignment"></a><h3>st_bin_get_alignment ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_bin_get_alignment (<em class="parameter"><code><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> *bin</code></em>,
+                      <em class="parameter"><code><span class="type">StAlign</span> *x_align</code></em>,
+                      <em class="parameter"><code><span class="type">StAlign</span> *y_align</code></em>);</pre>
+<p>Retrieves the horizontal and vertical alignment of the child
+inside a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a>, as set by <a class="link" href="StBin.html#st-bin-set-alignment" title="st_bin_set_alignment ()"><code class="function">st_bin_set_alignment()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.6.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>bin</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_align</p></td>
+<td class="parameter_description"><p>return location for the horizontal alignment, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_align</p></td>
+<td class="parameter_description"><p>return location for the vertical alignment, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-bin-set-fill"></a><h3>st_bin_set_fill ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_bin_set_fill (<em class="parameter"><code><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> *bin</code></em>,
+                 <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> x_fill</code></em>,
+                 <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> y_fill</code></em>);</pre>
+<p>Sets whether the child of <em class="parameter"><code>bin</code></em>
+ should fill out the horizontal
+and/or vertical allocation of the parent</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.7.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>bin</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_fill</p></td>
+<td class="parameter_description"><p><a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the child should fill horizontally the <em class="parameter"><code>bin</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_fill</p></td>
+<td class="parameter_description"><p><a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the child should fill vertically the <em class="parameter"><code>bin</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-bin-get-fill"></a><h3>st_bin_get_fill ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_bin_get_fill (<em class="parameter"><code><a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> *bin</code></em>,
+                 <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> *x_fill</code></em>,
+                 <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> *y_fill</code></em>);</pre>
+<p>Retrieves the horizontal and vertical fill settings</p>
+<div class="refsect3">
+<a name="id-1.2.4.2.9.8.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>bin</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_fill</p></td>
+<td class="parameter_description"><p> return location for the horizontal fill, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_fill</p></td>
+<td class="parameter_description"><p> return location for the vertical fill, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="StBin.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="StBin-struct"></a><h3>struct StBin</h3>
+<pre class="programlisting">struct StBin;</pre>
+<p>The <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> struct contains only private data</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StBinClass"></a><h3>struct StBinClass</h3>
+<pre class="programlisting">struct StBinClass {
+};
+</pre>
+<p>The <a class="link" href="StBin.html#StBinClass" title="struct StBinClass"><span class="type">StBinClass</span></a> struct contains only private data</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StBin.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="StBin--child"></a><h3>The <code class="literal">“child”</code> property</h3>
+<pre class="programlisting">  “child”                    <span class="type">ClutterActor</span> *</pre>
+<p>The child <span class="type">ClutterActor</span> of the <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> container.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StBin--x-align"></a><h3>The <code class="literal">“x-align”</code> property</h3>
+<pre class="programlisting">  “x-align”                  <span class="type">StAlign</span></pre>
+<p>The horizontal alignment of the <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> child.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: ST_ALIGN_MIDDLE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StBin--x-fill"></a><h3>The <code class="literal">“x-fill”</code> property</h3>
+<pre class="programlisting">  “x-fill”                   <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Whether the child should fill the horizontal allocation</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StBin--y-align"></a><h3>The <code class="literal">“y-align”</code> property</h3>
+<pre class="programlisting">  “y-align”                  <span class="type">StAlign</span></pre>
+<p>The vertical alignment of the <a class="link" href="StBin.html" title="StBin"><span class="type">StBin</span></a> child.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: ST_ALIGN_MIDDLE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StBin--y-fill"></a><h3>The <code class="literal">“y-fill”</code> property</h3>
+<pre class="programlisting">  “y-fill”                   <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Whether the child should fill the vertical allocation</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

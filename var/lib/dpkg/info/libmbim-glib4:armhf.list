@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libmbim-glib4
+/usr/share/doc
+/usr/share/doc/libmbim-glib4
+/usr/share/doc/libmbim-glib4/changelog.Debian.gz
+/usr/share/doc/libmbim-glib4/NEWS.gz
+/usr/share/doc/libmbim-glib4/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmbim-glib.so.4.0.0
+/usr/lib/arm-linux-gnueabihf/libmbim-glib.so.4

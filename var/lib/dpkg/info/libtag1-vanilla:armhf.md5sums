@@ -1,0 +1,4 @@
+a795c494d0a89f02bf074b5f5c1dfd79  usr/lib/arm-linux-gnueabihf/libtag.so.1.14.0
+05670e21ee50062b69330965b30e5190  usr/share/doc/libtag1-vanilla/changelog.Debian.gz
+06dacb900da418c53b196165e970fb6f  usr/share/doc/libtag1-vanilla/copyright
+6b6e023c9cff7567ed67025fee3402be  usr/share/lintian/overrides/libtag1-vanilla

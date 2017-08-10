@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ähnliche Ergebnisse aus anderen Wörterbüchern betrachten.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Identische Wörter</title>
+
+  <p><app>Wörterbuch</app> zeigt nur eine Definition aus Ihren Wörterbüchern an. So prüfen Sie, ob es Suchergebnisse in anderen Wörterbüchern gibt:</p>
+
+  <steps>
+    <item>
+      <p>Einen gewünschten Begriff <link xref="definition">nachschlagen</link>.</p>
+    </item>
+    <item>
+      <p>Wenn die Seitenleiste nicht schon sichtbar ist, wählen Sie <guiseq><gui style="menu">Ansicht</gui> <gui style="menuitem">Ähnliche Wörter</gui></guiseq> aus.</p>
+    </item>
+    <item>
+      <p>Die <gui>Ähnliche Wörter</gui>-Seitenleiste zeigt Ihnen die Suchergebnisse aus anderen Wörterbüchern aus Ihrer Wörterbuchquelle an. Um ähnliche Wörter zu betrachten, klicken Sie auf den Eintrag doppelt.</p>
+    </item>
+  </steps>
+
+</page>

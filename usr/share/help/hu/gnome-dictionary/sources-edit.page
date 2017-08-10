@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Egy szótárforrás szerkesztése</title>
+
+  <p>Személyre szabhat egy <link xref="sources">szótárforrást</link> olyan részletek frissítéséhez, mint például a leírása vagy a távoli címe.</p>
+
+  <steps>
+    <title>Egy szótárforrás szerkesztéséhez:</title>
+    <item>
+      <p>Válassza a <guiseq><gui style="menu">Szótár</gui> <gui style="menuitem">Beállítások</gui> <gui style="tab">Forrás</gui></guiseq> lapot.</p>
+    </item>
+    <item>
+      <p>Kattintson duplán arra a szótárforrásra, amelyet szerkeszteni szeretne.</p>
+    </item>
+    <item>
+      <p>A következő mezőket szerkesztheti:</p>
+      <list>
+        <item>
+          <p>A <gui>Leírás</gui> a forrás neve, ahogy az Önnek meg lesz jelenítve.</p>
+        </item>
+        <item>
+          <p>Az <gui>Átvitel</gui> a kiszolgáló típusa.</p>
+        </item>
+        <item>
+          <p>A <gui>Gépnév</gui> a szótárforrás helye.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Port</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Tekintse meg a szótárforrásban elérhető szótárakat a <gui style="tab">Szótárak</gui> lap kiválasztásával.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">Bezárás</gui> gombot a beállítások mentéséhez.</p>
+    </item>
+  </steps>
+
+</page>

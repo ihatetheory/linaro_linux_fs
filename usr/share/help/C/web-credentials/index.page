@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="index">
+
+  <info>
+    <revision version="0.1" date="2012-04-03" status="candidate"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email>david.king@canonical.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="copyright">
+      <name>Canonical Ltd.</name>
+      <years>2012</years>
+    </credit>
+    <license>
+      <p>Creative Commons Attribution-ShareAlike 3.0</p>
+    </license>
+
+    <desc>A single way to store and manage your login details for a variety of
+    online services.</desc>
+  </info>
+
+    <title>Online Accounts
+    <!-- TODO: Add image.
+    <media type="image" mime="image/png" src="figures/online-accounts.png" width="40" height="40">
+    </media>
+    --></title>
+
+  <section id="main">
+    <title>Main features</title>
+  </section>
+
+  <section id="information">
+    <title>Additional information</title>
+  </section>
+</page>

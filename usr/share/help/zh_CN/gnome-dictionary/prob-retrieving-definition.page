@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>检索释义时遇到错误</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>无法找到释义</title>
+
+  <p>从任何<link xref="sources-select">选定的字典</link>查询释义时，如果您看到错误信息<sys>检索释义时遇到错误</sys>，问题最有可能是下列之一：</p>
+
+  <list>
+    <item>
+      <p>一个或多个选定的用于查找释义的<app>DICT</app>服务器未工作。您可以尝试在下一次<link xref="definition">查询</link>前等待一段时间。</p>
+    </item>
+    <item>
+      <p>您可能没有可用的因特网连接。要使用<app>字典</app>来查询单词，您的计算机<link href="help:gnome-help/net">务必要连接</link> 到<sys href="http://dict.org">dict.org</sys>。</p>
+    </item>
+  </list>
+
+</page>

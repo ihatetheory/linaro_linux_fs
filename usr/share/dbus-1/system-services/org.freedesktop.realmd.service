@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.realmd
+Exec=/usr/lib/realmd/realmd
+User=root

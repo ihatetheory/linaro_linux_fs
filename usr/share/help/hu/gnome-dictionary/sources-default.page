@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-default" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Alapértelmezett szótárforrás beállítása</title>
+
+  <p>Amikor először használja a <app>Szótárat</app>, rendelkeznie kell néhány előre telepített szótárral, amelyeket használhat. Megváltoztathatja az alapértelmezett <link xref="sources">szótárforrást</link> egy olyanra, amelyet szívesebben használna helyette.</p>
+
+  <steps>
+    <title>Az alapértelmezett szótárforrás megváltoztatása:</title>
+    <item>
+      <p>Válassza a <guiseq><gui><app>Szótár</app></gui> <gui style="menu">Beállítások</gui> <gui style="tab">Forrás</gui></guiseq> lapot.</p>
+    </item>
+    <item>
+      <p>Válassza ki azt a szótárforrást, amelyet alapértelmezettként szeretne beállítani.</p>
+    </item>
+    <item>
+      <p>A változtatása automatikusan mentésre kerül.</p>
+    </item>
+  </steps>
+
+</page>

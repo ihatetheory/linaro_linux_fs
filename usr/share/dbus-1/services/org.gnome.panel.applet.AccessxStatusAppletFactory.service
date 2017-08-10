@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.panel.applet.AccessxStatusAppletFactory
+Exec=/usr/lib/gnome-applets/accessx-status-applet

@@ -1,0 +1,5 @@
+# We have just a couple of reverse-rependencies which usually get released in
+# sync with the library.
+# Tracking symbols version is likely not worth the effort for a library which
+# is expected to to bump its soname relatively often.
+no-symbols-control-file

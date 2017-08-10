@@ -1,0 +1,61 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "triggered" ] && [ "$2" = "perl-major-upgrade" ]; then
+    echo "OK, restarting spamd due to trigger"
+    invoke-rc.d spamassassin restart
+fi
+
+if [ "$1" = "configure" ]; then
+    # If a new install, or an upgrade from 3.3.2-2 or earlier...
+    if ! getent passwd debian-spamd > /dev/null ; then
+        adduser --system --group --shell /bin/sh --disabled-password \
+            --home /var/lib/spamassassin debian-spamd
+    else
+        mkdir -p /var/lib/spamassassin
+    fi
+
+    OWNER=$(stat -c '%U' /var/lib/spamassassin)
+    GROUP=$(stat -c '%G' /var/lib/spamassassin)
+
+    # Lets debian-spamd claim ownership of spamassassin updates on upgrades,
+    # unless the user has overridden.
+    if ! dpkg-statoverride --list /var/lib/spamassassin/* >/dev/null && \
+        [ "$OWNER:$GROUP" != "debian-spamd:debian-spamd" ]; then
+	chown -R debian-spamd:debian-spamd /var/lib/spamassassin
+        OWNER=debian-spamd
+        GROUP=debian-spamd
+    fi
+
+    test -d /var/lib/spamassassin/sa-update-keys || \
+	install -d -o $OWNER -g $GROUP -m 700 /var/lib/spamassassin/sa-update-keys
+	
+    su - $OWNER -c "sa-update --gpghomedir /var/lib/spamassassin/sa-update-keys \
+        --import /usr/share/spamassassin/GPG.KEY"
+fi
+
+# Automatically added by dh_systemd_enable
+if deb-systemd-helper debian-installed spamassassin.service; then
+	# This will only remove masks created by d-s-h on package removal.
+	deb-systemd-helper unmask spamassassin.service >/dev/null || true
+
+	if deb-systemd-helper --quiet was-enabled spamassassin.service; then
+		# Create new symlinks, if any.
+		deb-systemd-helper enable spamassassin.service >/dev/null || true
+	fi
+fi
+
+# Update the statefile to add new symlinks (if any), which need to be cleaned
+# up on purge. Also remove old symlinks.
+deb-systemd-helper update-state spamassassin.service >/dev/null || true
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/spamassassin" ]; then
+	update-rc.d spamassassin defaults 19 21 >/dev/null
+fi
+if [ -x "/etc/init.d/spamassassin" ] || [ -e "/etc/init/spamassassin.conf" ]; then
+	invoke-rc.d spamassassin start || exit $?
+fi
+# End automatically added section
+

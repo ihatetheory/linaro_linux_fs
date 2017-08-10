@@ -1,0 +1,2 @@
+# These are false-positives
+colord: hardening-no-fortify-functions usr/lib/*/colord-sensors/libcolord_sensor_argyll.so

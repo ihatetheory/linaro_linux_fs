@@ -1,0 +1,13 @@
+1bb473ddc49725056193184a4ee072e2  usr/bin/cautious-launcher
+1a14e7014b58737775645966f715aecc  usr/bin/run-mailcap
+33fceb3260d267efa7730a6703fee821  usr/lib/mime/debian-view
+d63e3ff68e343dcfcccbfe1f5141e70d  usr/lib/mime/mailcap
+f4e89420c03460d54a09af43012075db  usr/lib/mime/packages/mime-support
+2d440d8cfa56f0e8901fa1562de87f2f  usr/sbin/update-mime
+6eade55ef38dd9801e218a87f215ea78  usr/share/bug/mime-support/presubj
+fa2d017f949151b06b49cc1a0b914229  usr/share/doc/mime-support/changelog.gz
+ea156a63df8948d1bb28270e223e93ba  usr/share/doc/mime-support/copyright
+977c581a6abe4d2f2b2c2cf9d12340bc  usr/share/man/man1/run-mailcap.1.gz
+60c4455f114937cbf33bbebd5325e8c0  usr/share/man/man5/mailcap.5.gz
+7ff0af0dc9fbd6126534319eb55d8026  usr/share/man/man5/mailcap.order.5.gz
+c3f01ddaf2b2778ea5025f2197ef1eb7  usr/share/man/man8/update-mime.8.gz

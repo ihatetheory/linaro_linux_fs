@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgail18
+/usr/share/doc/libgail18/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libgailutil.so.18.0.1
+/usr/share/doc/libgail18/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libgailutil.so.18

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak používat klávesové zkratky pro rychlejší práci se <app>Slovníkem</app>.</desc>
+
+  </info>
+
+  <title>Klávesové zkratky</title>
+
+  <p>Klávesové zkratky jsou kombinace kláves, které můžete použít namísto nabídek. K dispozici jsou následující klávesové zkratky:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Práce s aplikací <app>Slovník</app></title>
+    <thead>
+      <tr>
+        <td><p>Činnost</p></td>
+        <td><p>Klávesová zkratka</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Náhled tisku</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Tisk</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Zobrazit postranní panel</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Otevřít nové okno se <app>Slovníkem</app></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Zavřít aktuální okno se <app>Slovníkem</app></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Klávesové zkratky hledání</title>
+    <thead>
+      <tr>
+        <td><p>Činnost</p></td>
+        <td><p>Klávesová zkratka</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Hledání v definici</p></td>
+        <td><p><key>/</key> nebo <keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Najít následující</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Najít předchozí</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Pohyb po definicích</title>
+    <thead>
+      <tr>
+        <td><p>Činnost</p></td>
+        <td><p>Klávesová zkratka</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Předchozí definice</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Následující definice</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>První definice</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Home</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Poslední definice</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>End</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Klávesové zkratky <app>slovníkových</app> definic</title>
+    <thead>
+      <tr>
+        <td><p>Činnost</p></td>
+        <td><p>Klávesová zkratka</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Podobná slova</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Zdroje slovníků</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Dostupné databáze</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Dostupné strategie</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

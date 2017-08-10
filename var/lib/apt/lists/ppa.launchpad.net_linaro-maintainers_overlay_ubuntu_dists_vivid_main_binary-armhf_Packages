@@ -1,0 +1,1853 @@
+Package: linux-headers-linaro-omap
+Source: linux-meta-linaro-omap
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-headers-4.3.0-1-linaro-omap
+Filename: pool/main/l/linux-meta-linaro-omap/linux-headers-linaro-omap_4.3.0.1.1_armhf.deb
+Size: 3332
+MD5sum: 41a8d1a74c2ad07796bcdce56840dc2a
+SHA1: 2b81e250db4bf53bb4341bd3d4cf9f7b2263341a
+SHA256: 210561b1011d5ab5e7a307f4bbf3d1be2bba32e5f06a501866e575f1537745ee
+Description: Linux kernel headers for the TI OMAP architecture.
+Description-md5: ef9b42600bff7c96d37a96f3acdd9d6d
+
+Package: linux-image-linaro-omap
+Source: linux-meta-linaro-omap
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-image-4.3.0-1-linaro-omap, linux-firmware
+Filename: pool/main/l/linux-meta-linaro-omap/linux-image-linaro-omap_4.3.0.1.1_armhf.deb
+Size: 3336
+MD5sum: 076cce71fc80712e8adbadd5df63ccd8
+SHA1: 96f02644c8d276ef172afc8a394e59ee6afd8c1f
+SHA256: 3b5ae43ef736bb42966b06598e9f5712cb3bf3ebb97e863ecfbc898dddcfd507
+Description: Linux kernel image for the TI OMAP architecture.
+Description-md5: d908a66c7a83ee65c45ecc8bb53bf35d
+
+Package: linux-headers-linaro-vexpress
+Source: linux-meta-linaro-vexpress
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-headers-4.3.0-1-linaro-vexpress
+Filename: pool/main/l/linux-meta-linaro-vexpress/linux-headers-linaro-vexpress_4.3.0.1.1_armhf.deb
+Size: 3336
+MD5sum: 241a95f30df02dc067013cf90fe8a12c
+SHA1: b23cec1c9dec6f2db3c1431af60089353c49732a
+SHA256: 1f20254d05b46e32563779c7bd04eb25a5b97f6f7c1082e7af93a6e612d9b534
+Description: Linux kernel headers for the ARM Vexpress architecture.
+Description-md5: f6fc8aa890618cd38eda73c9d8f74c46
+
+Package: linux-image-linaro-vexpress
+Source: linux-meta-linaro-vexpress
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-image-4.3.0-1-linaro-vexpress, linux-firmware
+Filename: pool/main/l/linux-meta-linaro-vexpress/linux-image-linaro-vexpress_4.3.0.1.1_armhf.deb
+Size: 3346
+MD5sum: 5cdaa432f90c4af1a6b874a350308642
+SHA1: 4866ba92dde6a26b3293d082ae7c2ccb6f0fc26b
+SHA256: 2b738bd631b164b108f3af960d22d9635e4ecf3dc4af78451d7e142ee33ed9e0
+Description: Linux kernel image for the Vexpress architecture.
+Description-md5: 62050507ace692de15d1ebec769ccc85
+
+Package: arm-ds5-target
+Source: gator
+Priority: extra
+Section: devel
+Installed-Size: 27
+Maintainer: Pawel Moll <pawel.moll@arm.com>
+Architecture: armhf
+Version: 5.21.1-20150511144936
+Depends: gdbserver (>= 6.8), openssh-server | ssh-server, gator (>= 5.9.0)
+Filename: pool/main/g/gator/arm-ds5-target_5.21.1-20150511144936_armhf.deb
+Size: 2938
+MD5sum: 2d15d4c33f133c278e6d8e1047118af9
+SHA1: cace38fe626c6e2d84b1cc7e38d33eaf6f407876
+SHA256: 3dc881d6fdc4b017db6705f52219543bd73facb47aa96027392f47e2351ed5d8
+Description: ARM DS-5 target dependencies
+Description-md5: 6499d29eabbcfe6d0f4dca412b8e7d80
+
+Package: gator
+Priority: extra
+Section: devel
+Installed-Size: 27
+Maintainer: Pawel Moll <pawel.moll@arm.com>
+Architecture: armhf
+Version: 5.21.1-20150511144936
+Depends: gator-daemon (>= 5.9.0)
+Filename: pool/main/g/gator/gator_5.21.1-20150511144936_armhf.deb
+Size: 2884
+MD5sum: 66e77379622064f66cf56d15a7038f08
+SHA1: 1f794a9f31c0cf3f849a3307ed56c5c41a57244d
+SHA256: 4d9c79e659be27d7c76f190b64e1b352334c8bcec2cc099808846de573cdb807
+Description: ARM Streamline gator
+Description-md5: 1c376cbf89fd6415d8c9ad2cf5b13f27
+
+Package: gator-daemon
+Source: gator
+Priority: extra
+Section: devel
+Installed-Size: 551
+Maintainer: Pawel Moll <pawel.moll@arm.com>
+Architecture: armhf
+Version: 5.21.1-20150511144936
+Depends: libc6 (>= 2.10), lsb-base (>= 4.1+Debian11ubuntu7)
+Filename: pool/main/g/gator/gator-daemon_5.21.1-20150511144936_armhf.deb
+Size: 115340
+MD5sum: f6b8e411f0e5eefdea526eca55c7534d
+SHA1: 03595cf35ed9a91abf0d20e1252878460969d84f
+SHA256: 1842793282cab48e7a1788059e5ae372b3aba1f5ac020fe26f19fdd5f7db3ef4
+Description: ARM Streamline gator daemon
+Description-md5: d4ccb6dc63001dc8496ea4eaee2514f9
+
+Package: gator-module-dkms
+Source: gator
+Priority: extra
+Section: kernel
+Installed-Size: 346
+Maintainer: Pawel Moll <pawel.moll@arm.com>
+Architecture: armhf
+Version: 5.21.1-20150511144936
+Depends: dkms (>= 1.95), make
+Filename: pool/main/g/gator/gator-module-dkms_5.21.1-20150511144936_armhf.deb
+Size: 65682
+MD5sum: a062ee5a0b6c91f795af6924face4020
+SHA1: f00e08c25d13734b7044e9579cf38073acd78594
+SHA256: 51da993556b9b03152172e7d59905ef7ddcc77e0bd2a16b9da75bda0e4f00e6d
+Description: ARM Streamline gator module - dkms version
+Description-md5: 8e98ec5bc4d9de9ff6d0c7cf09781050
+
+Package: linux-headers-linaro-lt-vexpress
+Source: linux-meta-linaro-lt-vexpress
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-headers-4.3.0-1-linaro-lt-vexpress
+Filename: pool/main/l/linux-meta-linaro-lt-vexpress/linux-headers-linaro-lt-vexpress_4.3.0.1.1_armhf.deb
+Size: 3344
+MD5sum: 525522031d1ba3539741c52eca5c854e
+SHA1: c7a046dd0c4b11a288abcb8d0f957fffbd533bde
+SHA256: e4f0c5e4fe21bf2add9e87387cf07a52e599685c557b136ccd7f9e88e42e27c7
+Description: Linux kernel headers for the ARM Vexpress architecture.
+Description-md5: f6fc8aa890618cd38eda73c9d8f74c46
+
+Package: linux-image-linaro-lt-vexpress
+Source: linux-meta-linaro-lt-vexpress
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-image-4.3.0-1-linaro-lt-vexpress, linux-firmware
+Filename: pool/main/l/linux-meta-linaro-lt-vexpress/linux-image-linaro-lt-vexpress_4.3.0.1.1_armhf.deb
+Size: 3350
+MD5sum: 04a8b24faa30c761ca939dc296e2fd5e
+SHA1: ebe271cac6d27fbb94d52e3fbf046aa020928b33
+SHA256: 1a8c48da3eaec91707edd26e3d7a975afb12b3f5dc81c6244a709f457b3fe9d7
+Description: Linux kernel image for the Vexpress architecture.
+Description-md5: 62050507ace692de15d1ebec769ccc85
+
+Package: linux-tools-linaro-lt-vexpress
+Source: linux-meta-linaro-lt-vexpress
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-linaro-tools-4.3.0-1-linaro-lt-vexpress
+Filename: pool/main/l/linux-meta-linaro-lt-vexpress/linux-tools-linaro-lt-vexpress_4.3.0.1.1_armhf.deb
+Size: 3342
+MD5sum: 8e4294aab620eca35c8c3d3403d59446
+SHA1: 7fa0e1f8d8123fec130cfef423b019be6875ae48
+SHA256: 41e27ac58420924c0f3999b37fddfdebecc1b773f8e7a2edc630dc6829543730
+Description: Linux kernel tools for the ARM Vexpress architecture.
+Description-md5: edc58bb86db102da6d77414a7de22a8a
+
+Package: linux-tools-linaro-vexpress
+Source: linux-meta-linaro-vexpress
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-linaro-tools-4.3.0-1-linaro-vexpress
+Filename: pool/main/l/linux-meta-linaro-vexpress/linux-tools-linaro-vexpress_4.3.0.1.1_armhf.deb
+Size: 3346
+MD5sum: 61fef510093d46ad68cd15ad505ca7b5
+SHA1: 1e483044ff82b51c8eb3dda97887259ac60272b1
+SHA256: 9b33156f0298f40f9f57fa09cde46a0c901b69cb7721542f7cf4c7eeb0bddda6
+Description: Linux kernel tools for the ARM Vexpress architecture.
+Description-md5: edc58bb86db102da6d77414a7de22a8a
+
+Package: linux-headers-linaro-arndale
+Source: linux-meta-linaro-arndale
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-headers-4.3.0-1-linaro-arndale
+Filename: pool/main/l/linux-meta-linaro-arndale/linux-headers-linaro-arndale_4.3.0.1.1_armhf.deb
+Size: 3334
+MD5sum: 65739315279816c354ea555d660002fd
+SHA1: cf4628528a3f0e8bc0791fea4f53819e477af819
+SHA256: ab83e1110a51f99c937712e7dc25478edaba1ccb802846893147ad1c3cadd414
+Description: Linux kernel headers for the Insignal Arndale architecture.
+Description-md5: 0062735b9085167972c88df2c5243749
+
+Package: linux-image-linaro-arndale
+Source: linux-meta-linaro-arndale
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-image-4.3.0-1-linaro-arndale, linux-firmware
+Filename: pool/main/l/linux-meta-linaro-arndale/linux-image-linaro-arndale_4.3.0.1.1_armhf.deb
+Size: 3344
+MD5sum: 9e482a455d96aa009295bcbe09109a04
+SHA1: a6ebbafd15801f4071eb854471560fba7cb8af05
+SHA256: 13164caa694a13bca340c6ccc757187cf51dc091d183cccac252e8bd82c60406
+Description: Linux kernel image for the Insignal Arndale architecture.
+Description-md5: 3b89e81ffec70fa6546d0fadf1bdbe0d
+
+Package: linux-tools-linaro-arndale
+Source: linux-meta-linaro-arndale
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-linaro-tools-4.3.0-1-linaro-arndale
+Filename: pool/main/l/linux-meta-linaro-arndale/linux-tools-linaro-arndale_4.3.0.1.1_armhf.deb
+Size: 3334
+MD5sum: 3368f38b9928eff8975efaaf304e6483
+SHA1: 6a7f39f55d321f6d8feffcb73263c15b0ec19081
+SHA256: fbf8106a87c33c747176fefcaced2ad198608a4c052e7b797667bed5bda02f5f
+Description: Linux kernel tools for the Insignal Arndale architecture.
+Description-md5: ee2e2edffe39c06ffb43889df56f1a03
+
+Package: linux-tools-linaro-omap
+Source: linux-meta-linaro-omap
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-linaro-tools-4.3.0-1-linaro-omap
+Filename: pool/main/l/linux-meta-linaro-omap/linux-tools-linaro-omap_4.3.0.1.1_armhf.deb
+Size: 3330
+MD5sum: b07d235771b68959de1611679f7997b6
+SHA1: 6b9c642e6c72253923ab00f0a8edc19b38a75eb5
+SHA256: ce6f65a04ef9829b2b691f64192569b9c7155c7146cfb8b54a29378c34a73325
+Description: Linux kernel tools for the TI OMAP architecture.
+Description-md5: b6facd1a72d1147014449c81a2419983
+
+Package: linux-headers-linaro-am335x
+Source: linux-meta-linaro-am335x
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-headers-4.3.0-1-linaro-am335x
+Filename: pool/main/l/linux-meta-linaro-am335x/linux-headers-linaro-am335x_4.3.0.1.1_armhf.deb
+Size: 3334
+MD5sum: a7261b38e35e50fb457ebb18b43bec56
+SHA1: 25461269b0bf01c29d73ee7379d90e464d88d118
+SHA256: a514ec773e8cb3e72b06f86acd35c8a772303cb2bc8329239c02e916c05fd99d
+Description: Linux kernel headers for the TI AM335x architecture.
+Description-md5: 61c95f03f557b739a98f686253a85b13
+
+Package: linux-image-linaro-am335x
+Source: linux-meta-linaro-am335x
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-image-4.3.0-1-linaro-am335x, linux-firmware
+Filename: pool/main/l/linux-meta-linaro-am335x/linux-image-linaro-am335x_4.3.0.1.1_armhf.deb
+Size: 3342
+MD5sum: bc554426ca1a062156386b7534fda120
+SHA1: c95b04c7d1ddaff13d1f80188eef952c0b884438
+SHA256: 7589f6c411bb6c6f5cd8eed83fa2631dd1303dcbb5376b155a6fc3271a71cbb0
+Description: Linux kernel image for the TI AM335x architecture.
+Description-md5: 1b5e52ba5fb0ee8fb4ab5c0f42844c16
+
+Package: linux-tools-linaro-am335x
+Source: linux-meta-linaro-am335x
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-linaro-tools-4.3.0-1-linaro-am335x
+Filename: pool/main/l/linux-meta-linaro-am335x/linux-tools-linaro-am335x_4.3.0.1.1_armhf.deb
+Size: 3340
+MD5sum: 7f42240b3b5c602fa1aaa9ee9a516bf9
+SHA1: 2b53cab62624d8c39592f1b0a1ad92c33dc45e3f
+SHA256: 4729df74b3c4504dc2331988d8dd020f063201db80277149d095358ed3a25042
+Description: Linux kernel tools for the TI AM335x architecture.
+Description-md5: f1d5e08b43c62400b7a538c4ab29cf53
+
+Package: linux-headers-linaro-arndale-octa
+Source: linux-meta-linaro-arndale-octa
+Priority: optional
+Section: devel
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-headers-4.3.0-1-linaro-arndale-octa
+Filename: pool/main/l/linux-meta-linaro-arndale-octa/linux-headers-linaro-arndale-octa_4.3.0.1.1_armhf.deb
+Size: 3350
+MD5sum: 0c2df939ed41815e30bdf9f5521c4781
+SHA1: 362419c8f6c6cdb660c502da40f3623a17e57054
+SHA256: fbf614473c2ece49e93f237b42dd8739e4e2f5f12ab255da3c62b264ee0b9cb4
+Description: Linux kernel headers for the Insignal Arndale Octa architecture.
+Description-md5: c07271097d2a6b249235095f2f35f65f
+
+Package: linux-image-linaro-arndale-octa
+Source: linux-meta-linaro-arndale-octa
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-image-4.3.0-1-linaro-arndale-octa, linux-firmware
+Filename: pool/main/l/linux-meta-linaro-arndale-octa/linux-image-linaro-arndale-octa_4.3.0.1.1_armhf.deb
+Size: 3352
+MD5sum: 15c8c225dfd62aebfcdb18f8cc1c01e3
+SHA1: 9ec475b888d7efd70cd4fe449e6cd7900affd448
+SHA256: 96ac49cd909de3c5a37addb52f4a631fb825ddd3b14a9a89689fc95172420dd0
+Description: Linux kernel image for the Insignal Arndale Octa architecture.
+Description-md5: de8d72d83a47f2cc941c3dbab8b2c187
+
+Package: linux-tools-linaro-arndale-octa
+Source: linux-meta-linaro-arndale-octa
+Priority: optional
+Section: metapackages
+Installed-Size: 27
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 4.3.0.1.1
+Depends: linux-linaro-tools-4.3.0-1-linaro-arndale-octa
+Filename: pool/main/l/linux-meta-linaro-arndale-octa/linux-tools-linaro-arndale-octa_4.3.0.1.1_armhf.deb
+Size: 3352
+MD5sum: 6a74434ff237c13ae41a9312566b0f29
+SHA1: b3d022202f5fb4887e3ad07036bf6eed796cab95
+SHA256: 2d1e09d9d9f39eb0ba2c62db539cd45eb9cd63d3394cbb86e3c3a793cfdaeae0
+Description: Linux kernel tools for the Insignal Arndale Octa architecture.
+Description-md5: 90be540816a506fc3deab16af881ccf0
+
+Package: linux-linaro-tools-3.10.74.0-1-linaro-lsk-vexpress
+Source: linux-linaro-lsk-vexpress-3.10.74
+Priority: optional
+Section: devel
+Installed-Size: 746
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.74.0-1.1ubuntu1~ci+150521101438
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.131), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.74/linux-linaro-tools-3.10.74.0-1-linaro-lsk-vexpress_3.10.74.0-1.1ubuntu1~ci+150521101438_armhf.deb
+Size: 340022
+MD5sum: 705beef1e373faf1537965c2a546d829
+SHA1: 915d482263aa00e0a161f648be5c1f34be16fa6a
+SHA256: ff34c04deff42efd2780f0271b3ccd56dd2943bea08206d1ac59310c2cf583cf
+Description: Linux kernel version specific tools for version 3.10.74.0-1
+Description-md5: 4f48411cdafcb3c8464a1c4f3d2682af
+
+Package: linux-image-3.10.74.0-1-linaro-lsk-vexpress
+Source: linux-linaro-lsk-vexpress-3.10.74
+Priority: optional
+Section: kernel
+Installed-Size: 6897
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.74.0-1.1ubuntu1~ci+150521101438
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-lsk-vexpress-3.10.74-doc-3.10.74.0 | linux-linaro-lsk-vexpress-3.10.74-source-3.10.74.0, linux-linaro-lsk-vexpress-3.10.74-tools, linux-headers-3.10.74.0-1-linaro-lsk-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.74/linux-image-3.10.74.0-1-linaro-lsk-vexpress_3.10.74.0-1.1ubuntu1~ci+150521101438_armhf.deb
+Size: 4739644
+MD5sum: bf86e6eb65914643f667fbb6e1acf2ca
+SHA1: 4159389ffbef5642b96eac855c1facdee3754a2d
+SHA256: 6902a3fd4da5ab85c04f7dbd23bf3ab5465e6c69267a9de6fc206b372389759a
+Description: Linux kernel image for version 3.10.74.0 on ARM VEXPRESS-based systems
+Description-md5: df76230ebe157bbd2cb80a2b54304f1d
+
+Package: linux-headers-3.10.74.0-1-linaro-lsk-vexpress
+Source: linux-linaro-lsk-vexpress-3.10.74
+Priority: optional
+Section: devel
+Installed-Size: 64335
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.74.0-1.1ubuntu1~ci+150521101438
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.74/linux-headers-3.10.74.0-1-linaro-lsk-vexpress_3.10.74.0-1.1ubuntu1~ci+150521101438_armhf.deb
+Size: 9021922
+MD5sum: fb991c0726e352cc314c2b5754092419
+SHA1: 385a3b745f92ae6120b511c35e621ac1ef528868
+SHA256: dcc855dd05de0a13902ba0e20d1a5cc357055867012aaa6b059983e682baa60c
+Description: Linux kernel headers for version 3.10.74.0 on ARM VEXPRESS-based systems
+Description-md5: b47f9e9ccb2e94f5fe3d2689078a90f1
+
+Package: linux-image-3.10.74.0-1-linaro-lsk-vexpress-dbgsym
+Source: linux-linaro-lsk-vexpress-3.10.74
+Priority: optional
+Section: devel
+Installed-Size: 96149
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.74.0-1.1ubuntu1~ci+150521101438
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.74/linux-image-3.10.74.0-1-linaro-lsk-vexpress-dbgsym_3.10.74.0-1.1ubuntu1~ci+150521101438_armhf.deb
+Size: 25597858
+MD5sum: 0d839a2a7dc945b0e1c11c0748daf8ce
+SHA1: 58ba6e0b6048e5300eed11ab291cc79ff1b14ae0
+SHA256: 33917bab0efae2cc9c9843f22d4aa570d459c9818ff0da491742d38ff6114738
+Description: Linux kernel debug image for version 3.10.74.0 on ARM VEXPRESS-based systems
+Description-md5: 40da7701eeec6823965a6edf37689bb4
+
+Package: linux-linaro-tools-4.1.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.1
+Priority: optional
+Section: devel
+Installed-Size: 936
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619162316
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-arndale-octa-4.1/linux-linaro-tools-4.1.0-1-linaro-arndale-octa_4.1.0-1.1ubuntu1~ci+150619162316_armhf.deb
+Size: 409934
+MD5sum: 627b3fbf7a13983fa016053a5b533d92
+SHA1: c99eb9359112fbad94bb396b9356697611780398
+SHA256: 5ac1b910ce34c444cd4bc661c98ae8d46f7c19551c03ac14e7563461fd981d61
+Description: Linux kernel version specific tools for version 4.1.0-1
+Description-md5: 5fa492886748fb69f33eef411cea9068
+
+Package: linux-image-4.1.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.1
+Priority: optional
+Section: kernel
+Installed-Size: 9972
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619162316
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-arndale-octa-4.1-doc-4.1.0 | linux-linaro-arndale-octa-4.1-source-4.1.0, linux-linaro-arndale-octa-4.1-tools, linux-headers-4.1.0-1-linaro-arndale-octa
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-arndale-octa-4.1/linux-image-4.1.0-1-linaro-arndale-octa_4.1.0-1.1ubuntu1~ci+150619162316_armhf.deb
+Size: 6303846
+MD5sum: c33c9d726e281a26fadd57497af22820
+SHA1: 777021845cea2bf8d907dfd110af276c8444e1a6
+SHA256: ee8415dc3fb78b92d26c2e0fdb8c296b417f503aa5a21406321af3a6d0f18ef5
+Description: Linux kernel image for version 4.1.0 on Samsung ARNDALE-based systems
+Description-md5: fe3ba5e1f79355bd37c6f48678cd5fff
+
+Package: linux-headers-4.1.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.1
+Priority: optional
+Section: devel
+Installed-Size: 70096
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619162316
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-arndale-octa-4.1/linux-headers-4.1.0-1-linaro-arndale-octa_4.1.0-1.1ubuntu1~ci+150619162316_armhf.deb
+Size: 9842866
+MD5sum: 03cb98b555bc5b402493cc44f44fabf0
+SHA1: 7f09b22632faded34a15744dec5f8e4e4525e59a
+SHA256: 72cdd71ef693a9ae058fc02955acb2be1f13ac25f4243755fa8da01d1432fc91
+Description: Linux kernel headers for version 4.1.0 on Samsung ARNDALE-based systems
+Description-md5: 960b3cf64279b031869e3457063811d1
+
+Package: linux-image-4.1.0-1-linaro-arndale-octa-dbgsym
+Source: linux-linaro-arndale-octa-4.1
+Priority: optional
+Section: devel
+Installed-Size: 131444
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619162316
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-arndale-octa-4.1/linux-image-4.1.0-1-linaro-arndale-octa-dbgsym_4.1.0-1.1ubuntu1~ci+150619162316_armhf.deb
+Size: 32840214
+MD5sum: de3d8496c97d22d5de5184169a2e6350
+SHA1: e6057f9dff7df4c8df5818676bfdd186626b897e
+SHA256: f507cbd7c2ce48eca9aab08bc947a7a12b9f09c6bcb81d9d94ac50b445677109
+Description: Linux kernel debug image for version 4.1.0 on Samsung ARNDALE-based systems
+Description-md5: 98d707ac5feed941d76c0ec90cb5eb22
+
+Package: linux-linaro-tools-4.1.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.1
+Priority: optional
+Section: devel
+Installed-Size: 936
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619160422
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-am335x-4.1/linux-linaro-tools-4.1.0-1-linaro-am335x_4.1.0-1.1ubuntu1~ci+150619160422_armhf.deb
+Size: 409946
+MD5sum: 3acc0f2201bbd3cea953baafb1c40bc1
+SHA1: 1821ffe0580fbc9a2fa452ccb3ec41ed82692170
+SHA256: 9ae763559427597c2bcedc0e3d732109285113e72fdebf57bb80ee9b18e72748
+Description: Linux kernel version specific tools for version 4.1.0-1
+Description-md5: 5fa492886748fb69f33eef411cea9068
+
+Package: linux-image-4.1.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.1
+Priority: optional
+Section: kernel
+Installed-Size: 19029
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619160422
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-am335x-4.1-doc-4.1.0 | linux-linaro-am335x-4.1-source-4.1.0, linux-linaro-am335x-4.1-tools, linux-headers-4.1.0-1-linaro-am335x
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-am335x-4.1/linux-image-4.1.0-1-linaro-am335x_4.1.0-1.1ubuntu1~ci+150619160422_armhf.deb
+Size: 8233180
+MD5sum: e34d3697c751b9f36f283d0432fdb96b
+SHA1: 4a3d29f817536c6746f5f15d6ac118ea1ea48b87
+SHA256: d81257772d23319adf7415fb79519212078a2eb3d60a7513b8a0213e264b68a9
+Description: Linux kernel image for version 4.1.0 on TI AM335x-based systems
+Description-md5: c1514151764ed346448f758ebd72a8ab
+
+Package: linux-headers-4.1.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.1
+Priority: optional
+Section: devel
+Installed-Size: 70782
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619160422
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-am335x-4.1/linux-headers-4.1.0-1-linaro-am335x_4.1.0-1.1ubuntu1~ci+150619160422_armhf.deb
+Size: 9856308
+MD5sum: fc9f2953522eba4c3d5c0ed319b3f3ac
+SHA1: e7547a3ad1f24de05f1e30a1e2ca446341e33a51
+SHA256: 29d93c80c714d4ae4747a9ba2a8e97fd4eb8c8fb3403603ce7793ffe8ad4b09b
+Description: Linux kernel headers for version 4.1.0 on TI AM335x-based systems
+Description-md5: d07cffac697aa03ba5bebb163a658fc4
+
+Package: linux-image-4.1.0-1-linaro-am335x-dbgsym
+Source: linux-linaro-am335x-4.1
+Priority: optional
+Section: devel
+Installed-Size: 155607
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619160422
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-am335x-4.1/linux-image-4.1.0-1-linaro-am335x-dbgsym_4.1.0-1.1ubuntu1~ci+150619160422_armhf.deb
+Size: 38561012
+MD5sum: 9fd533734f20f3dea92e9a3c7b66a980
+SHA1: 17c0d066735e0e7d97a7ae6bacd30c55731fa075
+SHA256: f16ff26106140221266d5a9f38a54944ef93235e9292051901fd647525504a2a
+Description: Linux kernel debug image for version 4.1.0 on TI AM335x-based systems
+Description-md5: bb1aeb7db8b48969a635b565f0373446
+
+Package: linux-linaro-tools-4.1.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.1
+Priority: optional
+Section: devel
+Installed-Size: 936
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619154554
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-vexpress-4.1/linux-linaro-tools-4.1.0-1-linaro-vexpress_4.1.0-1.1ubuntu1~ci+150619154554_armhf.deb
+Size: 409934
+MD5sum: 330840e90f751e9aad6b5f4edb319885
+SHA1: 16ad0dc49725ed1eaf54679426021bcdbc9e8cb5
+SHA256: 0050ff6cbfe29234926042d4fc53b007cf327bebe51a0e1067078dbaeb54659d
+Description: Linux kernel version specific tools for version 4.1.0-1
+Description-md5: 5fa492886748fb69f33eef411cea9068
+
+Package: linux-image-4.1.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.1
+Priority: optional
+Section: kernel
+Installed-Size: 8674
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619154554
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-vexpress-4.1-doc-4.1.0 | linux-linaro-vexpress-4.1-source-4.1.0, linux-linaro-vexpress-4.1-tools, linux-headers-4.1.0-1-linaro-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-vexpress-4.1/linux-image-4.1.0-1-linaro-vexpress_4.1.0-1.1ubuntu1~ci+150619154554_armhf.deb
+Size: 5841558
+MD5sum: 1473bb9e1d1509e38ec9d741c65d0a71
+SHA1: d24f6207ed63201c809b9566b00b16638c70e633
+SHA256: 47006fe00d53e0fcc778a0db16c14c91a3ab1f473422765ff4c76164d8df253a
+Description: Linux kernel image for version 4.1.0 on ARM VEXPRESS-based systems
+Description-md5: 6b7ed47f57ae00f25d560823a4bdc929
+
+Package: linux-headers-4.1.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.1
+Priority: optional
+Section: devel
+Installed-Size: 69978
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619154554
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-vexpress-4.1/linux-headers-4.1.0-1-linaro-vexpress_4.1.0-1.1ubuntu1~ci+150619154554_armhf.deb
+Size: 9830818
+MD5sum: e830063d648d95c4871e252e788ea81a
+SHA1: 22bb11606aaa5914dc0bc10bf73202fe4539de62
+SHA256: 5d4430fa4b405123b8bc4a23db22a7e120f005dab8b97e6ae59ce03666a54082
+Description: Linux kernel headers for version 4.1.0 on ARM VEXPRESS-based systems
+Description-md5: bbf79c01455485314556139d785df5db
+
+Package: linux-image-4.1.0-1-linaro-vexpress-dbgsym
+Source: linux-linaro-vexpress-4.1
+Priority: optional
+Section: devel
+Installed-Size: 126149
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619154554
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-vexpress-4.1/linux-image-4.1.0-1-linaro-vexpress-dbgsym_4.1.0-1.1ubuntu1~ci+150619154554_armhf.deb
+Size: 31755922
+MD5sum: c8f431a1d8967c63349e07bd77591716
+SHA1: 2a769c06f63530e4c63b83f140e994ecc8509ae2
+SHA256: 0f606157a8652c443247bafd1efe9ca0c5289d287e845335fb2abf39fb7a3cae
+Description: Linux kernel debug image for version 4.1.0 on ARM VEXPRESS-based systems
+Description-md5: 271e43a2c648bc3b9896027b7df27031
+
+Package: linux-linaro-tools-4.1.0-1-linaro-omap
+Source: linux-linaro-omap-4.1
+Priority: optional
+Section: devel
+Installed-Size: 936
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619152613
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-omap-4.1/linux-linaro-tools-4.1.0-1-linaro-omap_4.1.0-1.1ubuntu1~ci+150619152613_armhf.deb
+Size: 409930
+MD5sum: c29cad09b848923f9bd91b10e4a080c6
+SHA1: 288bffa913628bd78763848c36a7509e59569681
+SHA256: d1c0c17b00a5662e642e28c357a491c348e3deecdc0933a4c1a7650ef4de3820
+Description: Linux kernel version specific tools for version 4.1.0-1
+Description-md5: 5fa492886748fb69f33eef411cea9068
+
+Package: linux-image-4.1.0-1-linaro-omap
+Source: linux-linaro-omap-4.1
+Priority: optional
+Section: kernel
+Installed-Size: 18919
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619152613
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-omap-4.1-doc-4.1.0 | linux-linaro-omap-4.1-source-4.1.0, linux-linaro-omap-4.1-tools, linux-headers-4.1.0-1-linaro-omap
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-omap-4.1/linux-image-4.1.0-1-linaro-omap_4.1.0-1.1ubuntu1~ci+150619152613_armhf.deb
+Size: 8963586
+MD5sum: 8415e51e5efbeaf32d7618082d3e4b72
+SHA1: 053d74e547ad29183007bfc3d5ba1811030ec870
+SHA256: c7be9d0307e5a991bef1022192c3e34ac52233cf9fadca5156b6a697925a6a11
+Description: Linux kernel image for version 4.1.0 on TI OMAP-based systems
+Description-md5: 646f93eac71359e25919223411b47a1e
+
+Package: linux-headers-4.1.0-1-linaro-omap
+Source: linux-linaro-omap-4.1
+Priority: optional
+Section: devel
+Installed-Size: 70747
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619152613
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-omap-4.1/linux-headers-4.1.0-1-linaro-omap_4.1.0-1.1ubuntu1~ci+150619152613_armhf.deb
+Size: 9919794
+MD5sum: c7851b610d1de9ec938de722d9f74491
+SHA1: 0f42094dbcad57b84985f6c949712fe111bc71a2
+SHA256: 4e34975724a40dd62b5afe51aff40b2fa47881420973fce0dd800f49a617904b
+Description: Linux kernel headers for version 4.1.0 on TI OMAP-based systems
+Description-md5: 4cd5d72804d392557e37bbd2bd70d3b0
+
+Package: linux-image-4.1.0-1-linaro-omap-dbgsym
+Source: linux-linaro-omap-4.1
+Priority: optional
+Section: devel
+Installed-Size: 185345
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619152613
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-omap-4.1/linux-image-4.1.0-1-linaro-omap-dbgsym_4.1.0-1.1ubuntu1~ci+150619152613_armhf.deb
+Size: 45223038
+MD5sum: 849698642a53cb9cde5c66b5a50b29e0
+SHA1: 93c404d463d7c3de45043acbdd3d47a608513620
+SHA256: 7f3b9a5ecf3f792a85462c7a73d4e36215fea6c19fe6c8afaa7833b81dfd9492
+Description: Linux kernel debug image for version 4.1.0 on TI OMAP-based systems
+Description-md5: 1c121f5c1b37192a8a67a9264d1bfd7f
+
+Package: linux-linaro-tools-4.1.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.1
+Priority: optional
+Section: devel
+Installed-Size: 936
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619171913
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-arndale-4.1/linux-linaro-tools-4.1.0-1-linaro-arndale_4.1.0-1.1ubuntu1~ci+150619171913_armhf.deb
+Size: 409884
+MD5sum: f6e1733d0312016db98123689186474d
+SHA1: a001ac2d676ab36763a46cf5424343c8a9074ee3
+SHA256: 946a3cb91acf143cc7482c1bab2c0a22258869200765e563481ee2b0038abd9d
+Description: Linux kernel version specific tools for version 4.1.0-1
+Description-md5: 5fa492886748fb69f33eef411cea9068
+
+Package: linux-image-4.1.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.1
+Priority: optional
+Section: kernel
+Installed-Size: 10489
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619171913
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-arndale-4.1-doc-4.1.0 | linux-linaro-arndale-4.1-source-4.1.0, linux-linaro-arndale-4.1-tools, linux-headers-4.1.0-1-linaro-arndale
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-arndale-4.1/linux-image-4.1.0-1-linaro-arndale_4.1.0-1.1ubuntu1~ci+150619171913_armhf.deb
+Size: 6688460
+MD5sum: 280da13122b515ae881970e9fcd68960
+SHA1: a819b539e159d3a7979375b29c463ceb23fe0030
+SHA256: dc43441cf26e2ca1c6ac85eb34190b9cc9b678a144f9c8699d45a1f7b1a49761
+Description: Linux kernel image for version 4.1.0 on Samsung ARNDALE-based systems
+Description-md5: 6a0e7ff4e5bfa5cb73833778e1f69521
+
+Package: linux-headers-4.1.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.1
+Priority: optional
+Section: devel
+Installed-Size: 70359
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619171913
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-arndale-4.1/linux-headers-4.1.0-1-linaro-arndale_4.1.0-1.1ubuntu1~ci+150619171913_armhf.deb
+Size: 9846074
+MD5sum: c941309bfdb23cbd5388ff1fbd76f21e
+SHA1: 19b1b87deed35cc1b92e1e7665c0c4807334f7ac
+SHA256: 4c3dd01f6dae8396b854079cc8f17a01359bc93b3c25669b5d28349aca693772
+Description: Linux kernel headers for version 4.1.0 on Samsung ARNDALE-based systems
+Description-md5: 3897c8ad28b046a1702101dca618bbe9
+
+Package: linux-image-4.1.0-1-linaro-arndale-dbgsym
+Source: linux-linaro-arndale-4.1
+Priority: optional
+Section: devel
+Installed-Size: 137736
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619171913
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-arndale-4.1/linux-image-4.1.0-1-linaro-arndale-dbgsym_4.1.0-1.1ubuntu1~ci+150619171913_armhf.deb
+Size: 34673592
+MD5sum: 92074f5b1abdb87520c82f21168a5578
+SHA1: a195ac56cc9307d2b03fb433806b5e4f159fdfbd
+SHA256: 06c9225471dcc563de68a74603c95da9b7bb20bd8678e141eee37174e9721eec
+Description: Linux kernel debug image for version 4.1.0 on Samsung ARNDALE-based systems
+Description-md5: 98d707ac5feed941d76c0ec90cb5eb22
+
+Package: linux-linaro-tools-4.1.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.1
+Priority: optional
+Section: devel
+Installed-Size: 936
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619170040
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.1/linux-linaro-tools-4.1.0-1-linaro-lt-vexpress_4.1.0-1.1ubuntu1~ci+150619170040_armhf.deb
+Size: 409902
+MD5sum: cf561bdec5f6a10318d5a24b8664384a
+SHA1: a5385501f5c1cbecce1c7dce2f774f04f34d1852
+SHA256: 4cb2a107bc708ebf72248ec9396ac2f2b6a12d655014408ec9d4707958ba9782
+Description: Linux kernel version specific tools for version 4.1.0-1
+Description-md5: 5fa492886748fb69f33eef411cea9068
+
+Package: linux-image-4.1.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.1
+Priority: optional
+Section: kernel
+Installed-Size: 7764
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619170040
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-lt-vexpress-4.1-doc-4.1.0 | linux-linaro-lt-vexpress-4.1-source-4.1.0, linux-linaro-lt-vexpress-4.1-tools, linux-headers-4.1.0-1-linaro-lt-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.1/linux-image-4.1.0-1-linaro-lt-vexpress_4.1.0-1.1ubuntu1~ci+150619170040_armhf.deb
+Size: 5218148
+MD5sum: e22249f2b861abf0150380a2c62156ad
+SHA1: 8a1304006389011665aeee42292dc5d26be6d67a
+SHA256: 215a6f89d61d184b0a41d343abd0229188f70ba977f273f2bf53dcf7b7af43a3
+Description: Linux kernel image for version 4.1.0 on ARM VEXPRESS-based systems
+Description-md5: 9944773c30f6c0e46c32109565f2fe4e
+
+Package: linux-headers-4.1.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.1
+Priority: optional
+Section: devel
+Installed-Size: 69671
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619170040
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.1/linux-headers-4.1.0-1-linaro-lt-vexpress_4.1.0-1.1ubuntu1~ci+150619170040_armhf.deb
+Size: 9803340
+MD5sum: 134f392bbabd4a4bc933cafd74e794ee
+SHA1: ee161de03804029c3c8f647ed99877adfadbb6f9
+SHA256: 8fa81748358a8298828a82b4bd26e575da42fd914951123378aa648709f5cc3b
+Description: Linux kernel headers for version 4.1.0 on ARM VEXPRESS-based systems
+Description-md5: af77a51ad9c3db89c7028a52a04c42b8
+
+Package: linux-image-4.1.0-1-linaro-lt-vexpress-dbgsym
+Source: linux-linaro-lt-vexpress-4.1
+Priority: optional
+Section: devel
+Installed-Size: 117471
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.1.0-1.1ubuntu1~ci+150619170040
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.1/linux-image-4.1.0-1-linaro-lt-vexpress-dbgsym_4.1.0-1.1ubuntu1~ci+150619170040_armhf.deb
+Size: 30465074
+MD5sum: f3a3d2f5e4815026335206440d16cee0
+SHA1: 2cfcd7951e3f1c62c1d07222c40c16ab000537bd
+SHA256: 859e5abf065840b3e9c0f82321d51bbdd0480dc4be6ffa80eeb1cf28474c1f5c
+Description: Linux kernel debug image for version 4.1.0 on ARM VEXPRESS-based systems
+Description-md5: 271e43a2c648bc3b9896027b7df27031
+
+Package: linux-linaro-tools-3.10.79.0-1-linaro-lsk-vexpress
+Source: linux-linaro-lsk-vexpress-3.10.79
+Priority: optional
+Section: devel
+Installed-Size: 746
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.79.0-1.1ubuntu1~ci+150617141032
+Depends: libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.131), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.79/linux-linaro-tools-3.10.79.0-1-linaro-lsk-vexpress_3.10.79.0-1.1ubuntu1~ci+150617141032_armhf.deb
+Size: 339826
+MD5sum: ed898b8d2d376564d809c3e8f12fc5f4
+SHA1: c3e54da627df762024f2c06faac69d7661b52b63
+SHA256: b17d6f98e4c157995c51a7d5c576ef142353b238db4c9307825890ac0ff33a27
+Description: Linux kernel version specific tools for version 3.10.79.0-1
+Description-md5: 2a25735b50d271f08b4ac151f8cd27f0
+
+Package: linux-image-3.10.79.0-1-linaro-lsk-vexpress
+Source: linux-linaro-lsk-vexpress-3.10.79
+Priority: optional
+Section: kernel
+Installed-Size: 6898
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.79.0-1.1ubuntu1~ci+150617141032
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-lsk-vexpress-3.10.79-doc-3.10.79.0 | linux-linaro-lsk-vexpress-3.10.79-source-3.10.79.0, linux-linaro-lsk-vexpress-3.10.79-tools, linux-headers-3.10.79.0-1-linaro-lsk-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.79/linux-image-3.10.79.0-1-linaro-lsk-vexpress_3.10.79.0-1.1ubuntu1~ci+150617141032_armhf.deb
+Size: 4737456
+MD5sum: 2aacaff65b1b3b5213ca572fea16aecc
+SHA1: c4f60d07260cccb167071b476afd11d1d6889549
+SHA256: b0b2ae2595457f4d227108867da9938818bf090aa7d71d453b34e24b2f478022
+Description: Linux kernel image for version 3.10.79.0 on ARM VEXPRESS-based systems
+Description-md5: f3a139dde251b5bb1d5335625282ad5d
+
+Package: linux-headers-3.10.79.0-1-linaro-lsk-vexpress
+Source: linux-linaro-lsk-vexpress-3.10.79
+Priority: optional
+Section: devel
+Installed-Size: 64353
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.79.0-1.1ubuntu1~ci+150617141032
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.79/linux-headers-3.10.79.0-1-linaro-lsk-vexpress_3.10.79.0-1.1ubuntu1~ci+150617141032_armhf.deb
+Size: 9030838
+MD5sum: d6e73b4bae9363cbb095f19dc0ef02e5
+SHA1: 7e8456ed9333dfd08c738de210d145f5b9be8b5c
+SHA256: 15a683f41a9e14658d765beea1e14227a537fdefd244cffb4980c1c006ea78f8
+Description: Linux kernel headers for version 3.10.79.0 on ARM VEXPRESS-based systems
+Description-md5: 753790a3bed7e207574100d80b2c268d
+
+Package: linux-image-3.10.79.0-1-linaro-lsk-vexpress-dbgsym
+Source: linux-linaro-lsk-vexpress-3.10.79
+Priority: optional
+Section: devel
+Installed-Size: 96148
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 3.10.79.0-1.1ubuntu1~ci+150617141032
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-lsk-vexpress-3.10.79/linux-image-3.10.79.0-1-linaro-lsk-vexpress-dbgsym_3.10.79.0-1.1ubuntu1~ci+150617141032_armhf.deb
+Size: 25593970
+MD5sum: 7a585bfdc03d1112d92fab34a298501a
+SHA1: 94aa1ec507b27e62f2a1fd96916f8b17d398f453
+SHA256: 8d4ca5b95c3bb0699804bef8368d2847eed9cd159debfb5f215db708a968be79
+Description: Linux kernel debug image for version 3.10.79.0 on ARM VEXPRESS-based systems
+Description-md5: 219f564895dfa33f7e1fb80ac2b53f22
+
+Package: linux-linaro-tools-4.2.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.2
+Priority: optional
+Section: devel
+Installed-Size: 985
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912130741
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-vexpress-4.2/linux-linaro-tools-4.2.0-1-linaro-vexpress_4.2.0-1.1ubuntu1~ci+150912130741_armhf.deb
+Size: 435454
+MD5sum: 32c55c8a718dd11d18948c1519c82608
+SHA1: 332b17a67e774fcdf1a8fb15c6416ee51903c712
+SHA256: 0231b4fd314f5453008db906295be6f781310bc28144794de856e5859259f9a3
+Description: Linux kernel version specific tools for version 4.2.0-1
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+
+Package: linux-image-4.2.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.2
+Priority: optional
+Section: kernel
+Installed-Size: 9148
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912130741
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-vexpress-4.2-doc-4.2.0 | linux-linaro-vexpress-4.2-source-4.2.0, linux-linaro-vexpress-4.2-tools, linux-headers-4.2.0-1-linaro-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-vexpress-4.2/linux-image-4.2.0-1-linaro-vexpress_4.2.0-1.1ubuntu1~ci+150912130741_armhf.deb
+Size: 6146896
+MD5sum: 00aa14f0fdc655cebbe265c430143670
+SHA1: 6b89fa18694da9e58c31c6e8ef5f3d436255a04e
+SHA256: c7d4d768d7a9060224bb339fa2a04b60d5a233d81379946fce0e491ce6ab26e6
+Description: Linux kernel image for version 4.2.0 on ARM VEXPRESS-based systems
+Description-md5: 56adb96a674502cfa63994274cef781e
+
+Package: linux-headers-4.2.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.2
+Priority: optional
+Section: devel
+Installed-Size: 71548
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912130741
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-vexpress-4.2/linux-headers-4.2.0-1-linaro-vexpress_4.2.0-1.1ubuntu1~ci+150912130741_armhf.deb
+Size: 9975930
+MD5sum: 245ef6ed794a42d6668fbd481a652218
+SHA1: 5ebb0044e6c8b08c3c41760e63f64e61397f07d5
+SHA256: b24d357b42a4f1a38bd14c9e58e41f06f45716e4eac73c842c5a9f3e4ba7a5d3
+Description: Linux kernel headers for version 4.2.0 on ARM VEXPRESS-based systems
+Description-md5: ff070ef6984b66f7d8d9754849956503
+
+Package: linux-image-4.2.0-1-linaro-vexpress-dbgsym
+Source: linux-linaro-vexpress-4.2
+Priority: optional
+Section: devel
+Installed-Size: 136856
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912130741
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-vexpress-4.2/linux-image-4.2.0-1-linaro-vexpress-dbgsym_4.2.0-1.1ubuntu1~ci+150912130741_armhf.deb
+Size: 34456206
+MD5sum: aed331018fc18e5cd66cdb74f0e41bf8
+SHA1: 60b0815010c76a72b7fbb1ff3a8a1c7b4ca6372c
+SHA256: 4d104db7d4abf2f9f4e6d05428301a54923722e52a754c30726573ed381f6e41
+Description: Linux kernel debug image for version 4.2.0 on ARM VEXPRESS-based systems
+Description-md5: a085006725462ab3277e1fa7d33adc39
+
+Package: linux-linaro-tools-4.2.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.2
+Priority: optional
+Section: devel
+Installed-Size: 985
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912114354
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.2/linux-linaro-tools-4.2.0-1-linaro-lt-vexpress_4.2.0-1.1ubuntu1~ci+150912114354_armhf.deb
+Size: 435492
+MD5sum: e7ff9b13dd5417331dff4abb03c555cd
+SHA1: 38441fa27d185220c989c2b044502eb65092a7db
+SHA256: 328f662eafc3fb9a60758be10ed78caa8951d36fa60c5461cdd251d4a3cd6df2
+Description: Linux kernel version specific tools for version 4.2.0-1
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+
+Package: linux-image-4.2.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.2
+Priority: optional
+Section: kernel
+Installed-Size: 8215
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912114354
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-lt-vexpress-4.2-doc-4.2.0 | linux-linaro-lt-vexpress-4.2-source-4.2.0, linux-linaro-lt-vexpress-4.2-tools, linux-headers-4.2.0-1-linaro-lt-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.2/linux-image-4.2.0-1-linaro-lt-vexpress_4.2.0-1.1ubuntu1~ci+150912114354_armhf.deb
+Size: 5501880
+MD5sum: 562a8140dc90c23a372545c753532f42
+SHA1: 32767dfc507376d6babddd321d1b1764c71527f9
+SHA256: b34416c48952a288cd5f8b2108a90acad421a3ae94e0af57d4453f752e348ba3
+Description: Linux kernel image for version 4.2.0 on ARM VEXPRESS-based systems
+Description-md5: ebae129bbf6c1ebabae0c38834bc88c7
+
+Package: linux-headers-4.2.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.2
+Priority: optional
+Section: devel
+Installed-Size: 71168
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912114354
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.2/linux-headers-4.2.0-1-linaro-lt-vexpress_4.2.0-1.1ubuntu1~ci+150912114354_armhf.deb
+Size: 9935504
+MD5sum: 4b1d6c7d0c53d916498fb154c391c76d
+SHA1: e2ed9830002b1f1f8198089e2fb2bd4068816847
+SHA256: 68f7196273841fd0b7a5f1fe656c9284a441e447b9609d416d1bc2981dc9607d
+Description: Linux kernel headers for version 4.2.0 on ARM VEXPRESS-based systems
+Description-md5: c8d35b3764a69f37b41222a37a86d1db
+
+Package: linux-image-4.2.0-1-linaro-lt-vexpress-dbgsym
+Source: linux-linaro-lt-vexpress-4.2
+Priority: optional
+Section: devel
+Installed-Size: 127794
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912114354
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.2/linux-image-4.2.0-1-linaro-lt-vexpress-dbgsym_4.2.0-1.1ubuntu1~ci+150912114354_armhf.deb
+Size: 33081126
+MD5sum: 354f7ebda61bcd28c9636c4c00836ace
+SHA1: 6f9fbca418c105a536b6ec31fb126a75433457d1
+SHA256: 09d273c5ace29c1f2b54ba66cc6105307dc455d51d9e2fba3bc8d66612734338
+Description: Linux kernel debug image for version 4.2.0 on ARM VEXPRESS-based systems
+Description-md5: a085006725462ab3277e1fa7d33adc39
+
+Package: linux-linaro-tools-4.2.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.2
+Priority: optional
+Section: devel
+Installed-Size: 985
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912122635
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-arndale-4.2/linux-linaro-tools-4.2.0-1-linaro-arndale_4.2.0-1.1ubuntu1~ci+150912122635_armhf.deb
+Size: 435498
+MD5sum: 085454c56ffb25c635656bb44b20a262
+SHA1: 9b041adc31a545f98a0bfca3c9a16a1f2b4abf6f
+SHA256: 59474fff1232d444534d9ce5395fd5b8ddaffa86337281b28484e92c4c660abc
+Description: Linux kernel version specific tools for version 4.2.0-1
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+
+Package: linux-image-4.2.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.2
+Priority: optional
+Section: kernel
+Installed-Size: 10769
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912122635
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-arndale-4.2-doc-4.2.0 | linux-linaro-arndale-4.2-source-4.2.0, linux-linaro-arndale-4.2-tools, linux-headers-4.2.0-1-linaro-arndale
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-arndale-4.2/linux-image-4.2.0-1-linaro-arndale_4.2.0-1.1ubuntu1~ci+150912122635_armhf.deb
+Size: 6785036
+MD5sum: 55f7f8370bb586457431cec79b3136cd
+SHA1: 3f644c570bfbcea852325c5184d907f8901ce721
+SHA256: 7ada3d1fa3d965569f47121672e2df0fbfc07ac7e4e425b6af37a3547f0db858
+Description: Linux kernel image for version 4.2.0 on Samsung ARNDALE-based systems
+Description-md5: 7a6044c80808fc6edb768aef1a493b2d
+
+Package: linux-headers-4.2.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.2
+Priority: optional
+Section: devel
+Installed-Size: 71800
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912122635
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-arndale-4.2/linux-headers-4.2.0-1-linaro-arndale_4.2.0-1.1ubuntu1~ci+150912122635_armhf.deb
+Size: 9982802
+MD5sum: cbeb6b3cee868effd5da9e8582f06c37
+SHA1: ff47282c868d0d0826644ed61b1856803e3eb86a
+SHA256: 7372e8c9fc4d57182217fa548e3ab021b7b764259c32345f916bb32d14f82476
+Description: Linux kernel headers for version 4.2.0 on Samsung ARNDALE-based systems
+Description-md5: 1085abccc517c0eccfe9e30ebb296f8b
+
+Package: linux-image-4.2.0-1-linaro-arndale-dbgsym
+Source: linux-linaro-arndale-4.2
+Priority: optional
+Section: devel
+Installed-Size: 143699
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912122635
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-arndale-4.2/linux-image-4.2.0-1-linaro-arndale-dbgsym_4.2.0-1.1ubuntu1~ci+150912122635_armhf.deb
+Size: 36210516
+MD5sum: 0b88055699d94e893308a56aeb865a10
+SHA1: 3aa6318e1c9235ec411523154703794f7d91c44a
+SHA256: 550d96192476764f84b228bca850dc6f94404fc8dc70340708f3aeb076d02585
+Description: Linux kernel debug image for version 4.2.0 on Samsung ARNDALE-based systems
+Description-md5: 68f572b11e543862976819c0bd4be160
+
+Package: linux-linaro-tools-4.2.0-1-linaro-omap
+Source: linux-linaro-omap-4.2
+Priority: optional
+Section: devel
+Installed-Size: 985
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912140844
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-omap-4.2/linux-linaro-tools-4.2.0-1-linaro-omap_4.2.0-1.1ubuntu1~ci+150912140844_armhf.deb
+Size: 435544
+MD5sum: c76cb228d15666529e370183bc6e1d35
+SHA1: 5dc6a9c60888c9bf1861f22139a24bb72276302c
+SHA256: 91ef8b8dda02dba14472bbc719cebddbc8b2fd0ab4b62e82755c393f021f2760
+Description: Linux kernel version specific tools for version 4.2.0-1
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+
+Package: linux-image-4.2.0-1-linaro-omap
+Source: linux-linaro-omap-4.2
+Priority: optional
+Section: kernel
+Installed-Size: 19266
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912140844
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-omap-4.2-doc-4.2.0 | linux-linaro-omap-4.2-source-4.2.0, linux-linaro-omap-4.2-tools, linux-headers-4.2.0-1-linaro-omap
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-omap-4.2/linux-image-4.2.0-1-linaro-omap_4.2.0-1.1ubuntu1~ci+150912140844_armhf.deb
+Size: 9075440
+MD5sum: 4b7683e9e6f17b1886b5e057601d6ccf
+SHA1: d706653e259a9c06f9b31be1a2c8b541f10813c0
+SHA256: 7b49c9a8b0126fd107772260fc47a44ec287eeca0c63ae3dc2779d5f87ff411c
+Description: Linux kernel image for version 4.2.0 on TI OMAP-based systems
+Description-md5: 6a2d3455ebeef5d8968dd25b153f3e7f
+
+Package: linux-headers-4.2.0-1-linaro-omap
+Source: linux-linaro-omap-4.2
+Priority: optional
+Section: devel
+Installed-Size: 72186
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912140844
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-omap-4.2/linux-headers-4.2.0-1-linaro-omap_4.2.0-1.1ubuntu1~ci+150912140844_armhf.deb
+Size: 10057726
+MD5sum: c3b7f448d469db743999662ff9614f1c
+SHA1: cfdd68d55e2d66652be742e1fc9f409a81ba643c
+SHA256: 7e108778f52986e39016d69dea8100fef390e2989f17bf5dc62f948bb0c0d428
+Description: Linux kernel headers for version 4.2.0 on TI OMAP-based systems
+Description-md5: 799742f151fa55104cf4662874632199
+
+Package: linux-image-4.2.0-1-linaro-omap-dbgsym
+Source: linux-linaro-omap-4.2
+Priority: optional
+Section: devel
+Installed-Size: 192404
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912140844
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-omap-4.2/linux-image-4.2.0-1-linaro-omap-dbgsym_4.2.0-1.1ubuntu1~ci+150912140844_armhf.deb
+Size: 46763374
+MD5sum: 89348a1d22ea4bfc281c2592c1475d0e
+SHA1: f6658803ffb9f65069e0e9410112da64d6020932
+SHA256: ada92d65b877223f135b61579645c00533622f9085ada131912f5dabf9a30b15
+Description: Linux kernel debug image for version 4.2.0 on TI OMAP-based systems
+Description-md5: fb56e6b4654f53ff38ae190d7969eda8
+
+Package: linux-linaro-tools-4.2.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.2
+Priority: optional
+Section: devel
+Installed-Size: 985
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912120445
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-arndale-octa-4.2/linux-linaro-tools-4.2.0-1-linaro-arndale-octa_4.2.0-1.1ubuntu1~ci+150912120445_armhf.deb
+Size: 435524
+MD5sum: 9b81eb2e6fd490e43a9a08d28e51e4e5
+SHA1: 1d2f3d6dcfca7a4831c4dceee4a31c589db83fac
+SHA256: 672bced9330496785c86428db5284bec029740363c37d7e11a39e20907038d03
+Description: Linux kernel version specific tools for version 4.2.0-1
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+
+Package: linux-image-4.2.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.2
+Priority: optional
+Section: kernel
+Installed-Size: 10240
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912120445
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-arndale-octa-4.2-doc-4.2.0 | linux-linaro-arndale-octa-4.2-source-4.2.0, linux-linaro-arndale-octa-4.2-tools, linux-headers-4.2.0-1-linaro-arndale-octa
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-arndale-octa-4.2/linux-image-4.2.0-1-linaro-arndale-octa_4.2.0-1.1ubuntu1~ci+150912120445_armhf.deb
+Size: 6407118
+MD5sum: 6bf333fb027861b069ed750fee092973
+SHA1: 53a1743ee1ee7fdfcce2243cad0a9956f3ca6c64
+SHA256: 155d232b60479ca5090efb7de035212b3f723b93a719bee07566ee1c409ff669
+Description: Linux kernel image for version 4.2.0 on Samsung ARNDALE-based systems
+Description-md5: 159a723b840779b73502ca3658724a02
+
+Package: linux-headers-4.2.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.2
+Priority: optional
+Section: devel
+Installed-Size: 71537
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912120445
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-arndale-octa-4.2/linux-headers-4.2.0-1-linaro-arndale-octa_4.2.0-1.1ubuntu1~ci+150912120445_armhf.deb
+Size: 9979710
+MD5sum: 93315f2406daf13f69bc6afba8927316
+SHA1: 4141e941c0b6d31629223010b99cb903b58d0337
+SHA256: a614da6c1b91fe6ea79afb42d6deaa49904e7291f94484c54c5fd66c62274536
+Description: Linux kernel headers for version 4.2.0 on Samsung ARNDALE-based systems
+Description-md5: f22b9d2a3db5cd722fc1fc4e8b0e7c0a
+
+Package: linux-image-4.2.0-1-linaro-arndale-octa-dbgsym
+Source: linux-linaro-arndale-octa-4.2
+Priority: optional
+Section: devel
+Installed-Size: 137138
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912120445
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-arndale-octa-4.2/linux-image-4.2.0-1-linaro-arndale-octa-dbgsym_4.2.0-1.1ubuntu1~ci+150912120445_armhf.deb
+Size: 34315064
+MD5sum: 1e8ac7a9f3fff4fad52f2240e903e4b1
+SHA1: 364a4c1234c98deb96aecf4e7ff92d86267b9f08
+SHA256: 9886e16ab8487d633d362bf86e96ecd3b0d43edbbb2dc6d3152f2bcac500f400
+Description: Linux kernel debug image for version 4.2.0 on Samsung ARNDALE-based systems
+Description-md5: 68f572b11e543862976819c0bd4be160
+
+Package: linux-linaro-tools-4.2.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.2
+Priority: optional
+Section: devel
+Installed-Size: 985
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912124724
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-am335x-4.2/linux-linaro-tools-4.2.0-1-linaro-am335x_4.2.0-1.1ubuntu1~ci+150912124724_armhf.deb
+Size: 435616
+MD5sum: de98155ce1ae0db511744d26bab97bf3
+SHA1: 3fcfc0bdb6e9a855393c052c3ba47391bfaf54cf
+SHA256: fd8940a3095904ff7295929de4519f60fd0394b34f0b0b291ae676f3834ec3c6
+Description: Linux kernel version specific tools for version 4.2.0-1
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+
+Package: linux-image-4.2.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.2
+Priority: optional
+Section: kernel
+Installed-Size: 20047
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912124724
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-am335x-4.2-doc-4.2.0 | linux-linaro-am335x-4.2-source-4.2.0, linux-linaro-am335x-4.2-tools, linux-headers-4.2.0-1-linaro-am335x
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-am335x-4.2/linux-image-4.2.0-1-linaro-am335x_4.2.0-1.1ubuntu1~ci+150912124724_armhf.deb
+Size: 8425700
+MD5sum: 4a3347e3d403521a83fd9e1a491f2939
+SHA1: 6ec04a27b2aa1d29584f667335ef731c096510bb
+SHA256: a28a6bf924a7a820b7dd3b95244a50c82d5b0c348d7dac46319e68d281f5789b
+Description: Linux kernel image for version 4.2.0 on TI AM335x-based systems
+Description-md5: 4f73fbc767cc80d5708f95484d2c5b20
+
+Package: linux-headers-4.2.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.2
+Priority: optional
+Section: devel
+Installed-Size: 72222
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912124724
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-am335x-4.2/linux-headers-4.2.0-1-linaro-am335x_4.2.0-1.1ubuntu1~ci+150912124724_armhf.deb
+Size: 9988508
+MD5sum: e111f2fa88bf88a74c4d932cb1558c91
+SHA1: c553e3187f0308440563531201ae59f222ea386e
+SHA256: d582dea08f5a2810c5c4193e326e52a2b9df3cadfc1d66c2e31753c15ad23c83
+Description: Linux kernel headers for version 4.2.0 on TI AM335x-based systems
+Description-md5: a9b0c781c1645af1aaf8fcfde52323a6
+
+Package: linux-image-4.2.0-1-linaro-am335x-dbgsym
+Source: linux-linaro-am335x-4.2
+Priority: optional
+Section: devel
+Installed-Size: 162107
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.2.0-1.1ubuntu1~ci+150912124724
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-am335x-4.2/linux-image-4.2.0-1-linaro-am335x-dbgsym_4.2.0-1.1ubuntu1~ci+150912124724_armhf.deb
+Size: 40197806
+MD5sum: f2995b277335b77317d1756322192e0d
+SHA1: c87ff1deb8569d4b191fb69169e767490fce542a
+SHA256: 2d369f3dfc629be03ee0b660f8cb634f48d02053cece41bc2959e641fb02e813
+Description: Linux kernel debug image for version 4.2.0 on TI AM335x-based systems
+Description-md5: a7c8165dcae0f528d9d85215f753adba
+
+Package: linux-linaro-tools-4.3.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.3
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120064726
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.3/linux-linaro-tools-4.3.0-1-linaro-lt-vexpress_4.3.0-1.1ubuntu1~ci+151120064726_armhf.deb
+Size: 440602
+MD5sum: 56cf2605a2d4dd0a183c8b769ac04f4f
+SHA1: 991f639b3f80e60e937ad0a1c97f06fb8705a6ce
+SHA256: 12edd95cb0fcd58990e62b3a4c3ed804266b336e3c75e7cbd05a9af26738a28c
+Description: Linux kernel version specific tools for version 4.3.0-1
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+
+Package: linux-image-4.3.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.3
+Priority: optional
+Section: kernel
+Installed-Size: 8073
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120064726
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-lt-vexpress-4.3-doc-4.3.0 | linux-linaro-lt-vexpress-4.3-source-4.3.0, linux-linaro-lt-vexpress-4.3-tools, linux-headers-4.3.0-1-linaro-lt-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.3/linux-image-4.3.0-1-linaro-lt-vexpress_4.3.0-1.1ubuntu1~ci+151120064726_armhf.deb
+Size: 5437296
+MD5sum: b7a661fea57f3a2da7894d39ad74de15
+SHA1: ab4a39d322464cc47a4cc9aa400cac18dc84a525
+SHA256: d2333590a4ef69cd3fd33489e76acd1d71da6f3f9520a210831f586fe482d178
+Description: Linux kernel image for version 4.3.0 on ARM VEXPRESS-based systems
+Description-md5: 8ea451e614b2402cb280dba6838a4dd5
+
+Package: linux-headers-4.3.0-1-linaro-lt-vexpress
+Source: linux-linaro-lt-vexpress-4.3
+Priority: optional
+Section: devel
+Installed-Size: 71738
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120064726
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.3/linux-headers-4.3.0-1-linaro-lt-vexpress_4.3.0-1.1ubuntu1~ci+151120064726_armhf.deb
+Size: 10021316
+MD5sum: f5134763f0f0d8461ba8eddbe51cffe9
+SHA1: 7356178c84227c8654f1c57b23d92541f3af61eb
+SHA256: e722cc48f2c2c823fe2abf5cae4db2a8e852275a340d926061a7a1ab516b71dd
+Description: Linux kernel headers for version 4.3.0 on ARM VEXPRESS-based systems
+Description-md5: 0b8974dca0d8290714be38f89a0e7eb4
+
+Package: linux-image-4.3.0-1-linaro-lt-vexpress-dbgsym
+Source: linux-linaro-lt-vexpress-4.3
+Priority: optional
+Section: devel
+Installed-Size: 127809
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120064726
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-lt-vexpress-4.3/linux-image-4.3.0-1-linaro-lt-vexpress-dbgsym_4.3.0-1.1ubuntu1~ci+151120064726_armhf.deb
+Size: 33151566
+MD5sum: 871475cbcfa05b6903597651fa2fc269
+SHA1: ad2a9a60ae42c1c75b302a67db7572bb480c94f6
+SHA256: 2f5053fa4f5f37ebc0b2bfe433812363c9d7d4a4fdd1a52ae1eb72a87bff8151
+Description: Linux kernel debug image for version 4.3.0 on ARM VEXPRESS-based systems
+Description-md5: 65e9642195d21554a2cd21337d18696f
+
+Package: linux-linaro-tools-4.3.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.3
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120055854
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-arndale-4.3/linux-linaro-tools-4.3.0-1-linaro-arndale_4.3.0-1.1ubuntu1~ci+151120055854_armhf.deb
+Size: 440460
+MD5sum: beb8a3910775c7aca30eaf92fa0038ef
+SHA1: 3c36b5810da5dd2d827ed537ac02f7cc54a89f5f
+SHA256: a8bb8169ce20f60c268137442c4b5b3acc2088edd4804479a40406e24f5d9831
+Description: Linux kernel version specific tools for version 4.3.0-1
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+
+Package: linux-image-4.3.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.3
+Priority: optional
+Section: kernel
+Installed-Size: 10603
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120055854
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-arndale-4.3-doc-4.3.0 | linux-linaro-arndale-4.3-source-4.3.0, linux-linaro-arndale-4.3-tools, linux-headers-4.3.0-1-linaro-arndale
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-arndale-4.3/linux-image-4.3.0-1-linaro-arndale_4.3.0-1.1ubuntu1~ci+151120055854_armhf.deb
+Size: 6692796
+MD5sum: 72f4f642d36a5be3f7ab3a0f2aee6cf8
+SHA1: 08ba5161feb3c98f04e1bd745a88f85f48356822
+SHA256: f5b7ce657aa47c43ef0c3dd720719cc44f5d9c67e536b4a5b8210d8c90ac1929
+Description: Linux kernel image for version 4.3.0 on Samsung ARNDALE-based systems
+Description-md5: f7f5a7bcfc1be832fe3e401fd0ea0217
+
+Package: linux-headers-4.3.0-1-linaro-arndale
+Source: linux-linaro-arndale-4.3
+Priority: optional
+Section: devel
+Installed-Size: 72352
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120055854
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-arndale-4.3/linux-headers-4.3.0-1-linaro-arndale_4.3.0-1.1ubuntu1~ci+151120055854_armhf.deb
+Size: 10063514
+MD5sum: e796f97b7e558e2ec84678114528bac9
+SHA1: acc11f6a8764d001809af8139f44c4d2dd887fdf
+SHA256: 829bc5dfae224a8be4fee43a7db909ce1c7d1cf98f73b7ff1fd02522ea9cb2de
+Description: Linux kernel headers for version 4.3.0 on Samsung ARNDALE-based systems
+Description-md5: a21d550b31fc345acd78dddb5414c0cb
+
+Package: linux-image-4.3.0-1-linaro-arndale-dbgsym
+Source: linux-linaro-arndale-4.3
+Priority: optional
+Section: devel
+Installed-Size: 143047
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120055854
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-arndale-4.3/linux-image-4.3.0-1-linaro-arndale-dbgsym_4.3.0-1.1ubuntu1~ci+151120055854_armhf.deb
+Size: 36176364
+MD5sum: 817d6339b939e4960e1aafcd74c99752
+SHA1: f86637f1c55ac367199aa46c21d8819360cf102c
+SHA256: 68c84374d1fef64417f06396117b6d6a77bc872962b05ead909b1a2f02a82ac2
+Description: Linux kernel debug image for version 4.3.0 on Samsung ARNDALE-based systems
+Description-md5: cef60716870e0e23eda6e7c1df59ee02
+
+Package: linux-linaro-tools-4.3.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.3
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120071006
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-vexpress-4.3/linux-linaro-tools-4.3.0-1-linaro-vexpress_4.3.0-1.1ubuntu1~ci+151120071006_armhf.deb
+Size: 440314
+MD5sum: cd23794b80ca95ceff12f839b9f0ec66
+SHA1: 0e4a42b4c90918428ea89038d8c03d4a73dc4f17
+SHA256: 4fc50f83eaa04332dc91f39536f3afad8ccb161e5265d1105c77e59cad3a67d9
+Description: Linux kernel version specific tools for version 4.3.0-1
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+
+Package: linux-image-4.3.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.3
+Priority: optional
+Section: kernel
+Installed-Size: 8995
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120071006
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-vexpress-4.3-doc-4.3.0 | linux-linaro-vexpress-4.3-source-4.3.0, linux-linaro-vexpress-4.3-tools, linux-headers-4.3.0-1-linaro-vexpress
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-vexpress-4.3/linux-image-4.3.0-1-linaro-vexpress_4.3.0-1.1ubuntu1~ci+151120071006_armhf.deb
+Size: 6081792
+MD5sum: 0eff1344d105106329d4603fc496a76c
+SHA1: 63b1996c0b22e863b3354610e03b3570f8662a34
+SHA256: 30962be289db74e8a6a8952ae761ca3539956063335c99219ed2275c620b9ef6
+Description: Linux kernel image for version 4.3.0 on ARM VEXPRESS-based systems
+Description-md5: 30f1dbc7b8ac8b1e10b5169ce980a947
+
+Package: linux-headers-4.3.0-1-linaro-vexpress
+Source: linux-linaro-vexpress-4.3
+Priority: optional
+Section: devel
+Installed-Size: 72109
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120071006
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-vexpress-4.3/linux-headers-4.3.0-1-linaro-vexpress_4.3.0-1.1ubuntu1~ci+151120071006_armhf.deb
+Size: 10056672
+MD5sum: 3bec3f90c393303ba7e79b3be4e9d06a
+SHA1: d6c51154481f1f7c6f740e7d2bc3b9e0f1149ecc
+SHA256: e6f61ed6cb80c24471313815846f6f52eb0a3ac958b583e5099e159f965f9e21
+Description: Linux kernel headers for version 4.3.0 on ARM VEXPRESS-based systems
+Description-md5: b349819ebf8749ac66d0e4db9fad475a
+
+Package: linux-image-4.3.0-1-linaro-vexpress-dbgsym
+Source: linux-linaro-vexpress-4.3
+Priority: optional
+Section: devel
+Installed-Size: 136952
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120071006
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-vexpress-4.3/linux-image-4.3.0-1-linaro-vexpress-dbgsym_4.3.0-1.1ubuntu1~ci+151120071006_armhf.deb
+Size: 34560162
+MD5sum: e07e0021ea7cd36925090d28df3a5924
+SHA1: 8551321b93ead164d25f092df0c9ffb44f9b131e
+SHA256: 9ba2dd905f1d4aedfae47446b916025250123ce549968dcb3d67424cb12a11a7
+Description: Linux kernel debug image for version 4.3.0 on ARM VEXPRESS-based systems
+Description-md5: 65e9642195d21554a2cd21337d18696f
+
+Package: linux-linaro-tools-4.3.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.3
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120053757
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-arndale-octa-4.3/linux-linaro-tools-4.3.0-1-linaro-arndale-octa_4.3.0-1.1ubuntu1~ci+151120053757_armhf.deb
+Size: 440446
+MD5sum: 0e9dcf5870a74c796a260dd2d31e45b1
+SHA1: fd9d310f33bdb540a10bd4e781de0f594b4223f5
+SHA256: d982af1279ef014f238e8d832333e475cc5ac578f29fa1a0babb6cdbeb1b5339
+Description: Linux kernel version specific tools for version 4.3.0-1
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+
+Package: linux-image-4.3.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.3
+Priority: optional
+Section: kernel
+Installed-Size: 10082
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120053757
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-arndale-octa-4.3-doc-4.3.0 | linux-linaro-arndale-octa-4.3-source-4.3.0, linux-linaro-arndale-octa-4.3-tools, linux-headers-4.3.0-1-linaro-arndale-octa
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-arndale-octa-4.3/linux-image-4.3.0-1-linaro-arndale-octa_4.3.0-1.1ubuntu1~ci+151120053757_armhf.deb
+Size: 6322736
+MD5sum: 93288ddcc2cceb8190474623441ae6dc
+SHA1: 610d68639eefd49b155255bc05d9e1610d9fafb9
+SHA256: 0d9e0a887fb78468d0e1bb4b9395c829191d2c4ac4f8e73a863bb0d48b3a01d2
+Description: Linux kernel image for version 4.3.0 on Samsung ARNDALE-based systems
+Description-md5: 6c7e6e97b0bb850c40ce5bc1396e07c6
+
+Package: linux-headers-4.3.0-1-linaro-arndale-octa
+Source: linux-linaro-arndale-octa-4.3
+Priority: optional
+Section: devel
+Installed-Size: 72101
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120053757
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-arndale-octa-4.3/linux-headers-4.3.0-1-linaro-arndale-octa_4.3.0-1.1ubuntu1~ci+151120053757_armhf.deb
+Size: 10061086
+MD5sum: 1a5ddbf930fbeb78e7669943e6b32246
+SHA1: 4960367e9c718e5b0468ed85f04fbba2f75d9d70
+SHA256: c673608b6f71046429caaebe918d37d87f2cb6d82510b52c977701c4d80a8e50
+Description: Linux kernel headers for version 4.3.0 on Samsung ARNDALE-based systems
+Description-md5: ebae67ac5e9b3300e2c5dd0410d4da52
+
+Package: linux-image-4.3.0-1-linaro-arndale-octa-dbgsym
+Source: linux-linaro-arndale-octa-4.3
+Priority: optional
+Section: devel
+Installed-Size: 137035
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120053757
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-arndale-octa-4.3/linux-image-4.3.0-1-linaro-arndale-octa-dbgsym_4.3.0-1.1ubuntu1~ci+151120053757_armhf.deb
+Size: 34369558
+MD5sum: 25ea329329c9cb2a1d1f8e19c903d07b
+SHA1: e93c099fbd9d87193c8b50fd8b7038322d1d13ad
+SHA256: 67719950c42dfdfae73a656f96f8bd83d80743287b9966d2fd92dae63264754b
+Description: Linux kernel debug image for version 4.3.0 on Samsung ARNDALE-based systems
+Description-md5: cef60716870e0e23eda6e7c1df59ee02
+
+Package: linux-linaro-tools-4.3.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.3
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120065925
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-am335x-4.3/linux-linaro-tools-4.3.0-1-linaro-am335x_4.3.0-1.1ubuntu1~ci+151120065925_armhf.deb
+Size: 440212
+MD5sum: dabf8aa90b48603408421980b7605503
+SHA1: 61f714051c2fec58feffe49c7d04d9b34aea5870
+SHA256: bca12abf07268da498716eb4a9807dec71cac55632400b3a830417ce16475de6
+Description: Linux kernel version specific tools for version 4.3.0-1
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+
+Package: linux-image-4.3.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.3
+Priority: optional
+Section: kernel
+Installed-Size: 20767
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120065925
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-am335x-4.3-doc-4.3.0 | linux-linaro-am335x-4.3-source-4.3.0, linux-linaro-am335x-4.3-tools, linux-headers-4.3.0-1-linaro-am335x
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-am335x-4.3/linux-image-4.3.0-1-linaro-am335x_4.3.0-1.1ubuntu1~ci+151120065925_armhf.deb
+Size: 8474612
+MD5sum: b98ce9ef5d53426ef94d5bc967df683e
+SHA1: 3d0faf3fe754301b8ab7e83dfea127a1ddfb89fe
+SHA256: 0ec7f252762a52bc7d484c7e4906dc39d1a265eaac0e75ce16ff20e464492097
+Description: Linux kernel image for version 4.3.0 on TI AM335x-based systems
+Description-md5: 8b24388b31eb23315e8f5f83ae144d8b
+
+Package: linux-headers-4.3.0-1-linaro-am335x
+Source: linux-linaro-am335x-4.3
+Priority: optional
+Section: devel
+Installed-Size: 72779
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120065925
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-am335x-4.3/linux-headers-4.3.0-1-linaro-am335x_4.3.0-1.1ubuntu1~ci+151120065925_armhf.deb
+Size: 10069792
+MD5sum: 9777de382ccaa627a109b8fcc4d7ddd3
+SHA1: d1327a494b86fd55013f68b4b5c2b559d9c1d763
+SHA256: a1466d3de5d0970aa26389168f7a58367d1bc4d8453d025055e1643c7417ddbd
+Description: Linux kernel headers for version 4.3.0 on TI AM335x-based systems
+Description-md5: e96559cb350e32f0733bfc746e80d62c
+
+Package: linux-image-4.3.0-1-linaro-am335x-dbgsym
+Source: linux-linaro-am335x-4.3
+Priority: optional
+Section: devel
+Installed-Size: 162542
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120065925
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-am335x-4.3/linux-image-4.3.0-1-linaro-am335x-dbgsym_4.3.0-1.1ubuntu1~ci+151120065925_armhf.deb
+Size: 40396444
+MD5sum: 3c37058b4ef5d12c34ea8e1a6e85e1f5
+SHA1: 988151d68734c7a09543ea289d11159606ba604d
+SHA256: b62f3c57aedc1ddaa732dcfedbfd1c38134991fe59bcc6fc2b63c22f129d749f
+Description: Linux kernel debug image for version 4.3.0 on TI AM335x-based systems
+Description-md5: 45dc3e955681f4641a8e49c7b35dbd72
+
+Package: linux-linaro-tools-4.3.0-1-linaro-omap
+Source: linux-linaro-omap-4.3
+Priority: optional
+Section: devel
+Installed-Size: 1001
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120062011
+Depends: libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux-linaro-omap-4.3/linux-linaro-tools-4.3.0-1-linaro-omap_4.3.0-1.1ubuntu1~ci+151120062011_armhf.deb
+Size: 440260
+MD5sum: f12ebe1fa60cfe753860b76a77eaaa24
+SHA1: c6463cf4bac27d02216ea8bf87c857464e927674
+SHA256: b51b3371f4b75aef4a6e5e600967512513c5342333b19258ab56ff4cb725d70f
+Description: Linux kernel version specific tools for version 4.3.0-1
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+
+Package: linux-image-4.3.0-1-linaro-omap
+Source: linux-linaro-omap-4.3
+Priority: optional
+Section: kernel
+Installed-Size: 19562
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120062011
+Recommends: uboot-mkimage, flash-kernel
+Suggests: fdutils, linux-linaro-omap-4.3-doc-4.3.0 | linux-linaro-omap-4.3-source-4.3.0, linux-linaro-omap-4.3-tools, linux-headers-4.3.0-1-linaro-omap
+Provides: fuse-module, linux-image, linux-image-3.0
+Depends: initramfs-tools (>= 0.36ubuntu6), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Conflicts: hotplug (<< 0.0.20040105-1)
+Pre-Depends: dpkg (>= 1.10.24)
+Filename: pool/main/l/linux-linaro-omap-4.3/linux-image-4.3.0-1-linaro-omap_4.3.0-1.1ubuntu1~ci+151120062011_armhf.deb
+Size: 9053192
+MD5sum: c02ae8a1bf75a7b6243df72f6b7e9884
+SHA1: 49cf9ff09ec48a8bad8cd6aab00a566b486e5539
+SHA256: 261e8749f7646f88dc4f40cb1456a9220cdfd08d3c19c2f47eb77d5e98b5d8bc
+Description: Linux kernel image for version 4.3.0 on TI OMAP-based systems
+Description-md5: eee5dbb895db5376b3561b6917513e05
+
+Package: linux-headers-4.3.0-1-linaro-omap
+Source: linux-linaro-omap-4.3
+Priority: optional
+Section: devel
+Installed-Size: 72738
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120062011
+Provides: linux-headers, linux-headers-3.0
+Depends: libc6 (>= 2.11)
+Filename: pool/main/l/linux-linaro-omap-4.3/linux-headers-4.3.0-1-linaro-omap_4.3.0-1.1ubuntu1~ci+151120062011_armhf.deb
+Size: 10145864
+MD5sum: 25ff45178afa6548b8df030192437c6a
+SHA1: f44687e6efab1c74c92d82e5e80e0b2162479647
+SHA256: 29ea5ebaa7eaeb504f09f118a55d5c71b52a03d06c94f0b0053d97640b763927
+Description: Linux kernel headers for version 4.3.0 on TI OMAP-based systems
+Description-md5: c3e6327516f3fafd826ac4fbf34a82d0
+
+Package: linux-image-4.3.0-1-linaro-omap-dbgsym
+Source: linux-linaro-omap-4.3
+Priority: optional
+Section: devel
+Installed-Size: 193124
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 4.3.0-1.1ubuntu1~ci+151120062011
+Provides: linux-debug
+Filename: pool/main/l/linux-linaro-omap-4.3/linux-image-4.3.0-1-linaro-omap-dbgsym_4.3.0-1.1ubuntu1~ci+151120062011_armhf.deb
+Size: 47111588
+MD5sum: 53a4c2889f7a3cabd481297fc26db222
+SHA1: 18adb36cf85b64ef946330b82e694a73251856e7
+SHA256: 446013f923c41ffab5be79eeb9228585c29064c72a0127e28b14da42223d11d6
+Description: Linux kernel debug image for version 4.3.0 on TI OMAP-based systems
+Description-md5: 53c6f2c588fc4da77bbb64b131f5a1ca
+

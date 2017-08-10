@@ -1,0 +1,30 @@
+#!/bin/sh
+# Return 0 if in a container, 1 if not
+# if in a container, also print the container type
+
+if [ $# -eq 1 -a "$1" = "--help" ]; then
+	echo "Usage: running-in-container"
+	echo " Exits 0 if in a container, 1 if not."
+	echo " If in a container, also prints the container type."
+	exit 0
+fi
+
+if [ -d /run/systemd/system ]; then
+    type systemd-detect-virt > /dev/null 2>&1 || exit 1
+    if type=$(systemd-detect-virt -c); then
+        echo $type
+        exit 0
+    fi
+    exit 1
+fi
+
+# systemd isn't running, so check upstart
+if [ ! -x /sbin/status ]; then
+    # TODO - we might want to consider detecting in sysvinit or others
+    exit 1
+fi
+if status container-detect 2>/dev/null | grep -q start; then
+    [ -f /run/container_type ] && cat /run/container_type
+    exit 0
+fi
+exit 1

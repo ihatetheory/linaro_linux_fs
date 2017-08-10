@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="text-copy" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>选择一段释义并将其复制到另一个应用程序中。</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>复制释义</title>
+
+  <p>您可以从<app>字典</app>中复制释义并将其粘贴至另一个应用程序中。</p>
+
+  <steps>
+    <title>复制释义</title>
+    <item>
+      <p>在<application>字典</application>中选择您想要复制的文本。或者，您可以通过使用菜单<guiseq><gui style="menu">编辑</gui><gui style="menuitem">全选</gui></guiseq>来选取所有的释义。</p>
+    </item>
+    <item>
+      <p>选择<guiseq><gui style="menu">编辑</gui><gui stype="menuitem">复制</gui></guiseq>。</p>
+    </item>
+    <item>
+      <p>若要把文本粘贴到另一个应用程序中，可以通过使用<keyseq><key>Ctrl</key><key>P</key></keyseq>键盘快捷键或菜单来完成。</p>
+    </item>
+  </steps>
+
+</page>

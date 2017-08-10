@@ -1,0 +1,5 @@
+d6144a8287085a6ecbb59a169cc29e7e  usr/bin/Xephyr
+be35a671f3ce8d59afd539743d8a8640  usr/share/doc/xserver-xephyr/README
+2df796f18ccf5679079872818a22ccf9  usr/share/doc/xserver-xephyr/changelog.Debian.gz
+74df27b6254cc88d2799b5f4f5949c00  usr/share/doc/xserver-xephyr/copyright
+c76df4069be94c4e58d812d9310e560a  usr/share/man/man1/Xephyr.1.gz

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsignon-extension1
+/usr/share/doc/libsignon-extension1/changelog.Debian.gz
+/usr/share/doc/libsignon-extension1/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libsignon-extension.so.1.0.0
+/usr/lib/arm-linux-gnueabihf/libsignon-extension.so.1.0
+/usr/lib/arm-linux-gnueabihf/libsignon-extension.so.1

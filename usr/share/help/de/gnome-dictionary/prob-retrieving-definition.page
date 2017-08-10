@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Fehler beim Erhalten der Definitionen</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Die Definitionen können nicht gefunden werden.</title>
+
+  <p>Wenn Sie die Fehlermeldung <sys>Fehler beim Erhalten der Definitionen</sys> beim Nachschlagen einer Definition in einem der <link xref="sources-select">gewählten Wörterbücher</link> erhalten, so ist das Problem vermutlich eines der folgenden:</p>
+
+  <list>
+    <item>
+      <p>Eine oder mehrere der gewählten <app>DICT</app>-Server, die zum Nachschlagen der Definitionen durchsucht werden, funktionieren möglicherweise nicht. Sie sollen einen Moment warten bevor Sie wieder die Definition <link xref="definition">nachschlagen</link>.</p>
+    </item>
+    <item>
+      <p>Sie besitzen vielleicht keine funktionierende Internetverbindung. <app>Wörterbuch</app> muss zum Nachschlagen mit dem Internet (<link href="help:gnome-help/net">Hilfe: Internetverbindungen</link>) verbunden sein und sich mit <sys href="http://dict.org">dict.org</sys> verbinden können.</p>
+    </item>
+  </list>
+
+</page>

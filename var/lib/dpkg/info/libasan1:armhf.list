@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libasan.so.1.0.0
+/usr/share/doc/libasan1
+/usr/lib/arm-linux-gnueabihf/libasan.so.1

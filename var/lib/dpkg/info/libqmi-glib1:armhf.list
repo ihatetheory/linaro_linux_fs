@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libqmi-glib1
+/usr/share/doc
+/usr/share/doc/libqmi-glib1
+/usr/share/doc/libqmi-glib1/copyright
+/usr/share/doc/libqmi-glib1/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libqmi-glib.so.1.2.0
+/usr/lib/arm-linux-gnueabihf/libqmi-glib.so.1

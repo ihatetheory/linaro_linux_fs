@@ -1,0 +1,951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ShellApp: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="ch02.html" title="Application tracking">
+<link rel="prev" href="ch02.html" title="Application tracking">
+<link rel="next" href="ShellAppUsage.html" title="ShellAppUsage">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ShellApp.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ShellApp.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#ShellApp.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ShellApp.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch02.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ShellAppUsage.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ShellApp"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ShellApp.top_of_page"></a>ShellApp</span></h2>
+<p>ShellApp — Object representing an application</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ShellApp.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-id" title="shell_app_get_id ()">shell_app_get_id</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/gio/unstable/gio-Desktop-file-based-GAppInfo.html#GDesktopAppInfo"><span class="returnvalue">GDesktopAppInfo</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-app-info" title="shell_app_get_app_info ()">shell_app_get_app_info</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-create-icon-texture" title="shell_app_create_icon_texture ()">shell_app_create_icon_texture</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-faded-icon" title="shell_app_get_faded_icon ()">shell_app_get_faded_icon</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-name" title="shell_app_get_name ()">shell_app_get_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-description" title="shell_app_get_description ()">shell_app_get_description</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-is-window-backed" title="shell_app_is_window_backed ()">shell_app_is_window_backed</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-activate-window" title="shell_app_activate_window ()">shell_app_activate_window</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-activate" title="shell_app_activate ()">shell_app_activate</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-activate-full" title="shell_app_activate_full ()">shell_app_activate_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-open-new-window" title="shell_app_open_new_window ()">shell_app_open_new_window</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-can-open-new-window" title="shell_app_can_open_new_window ()">shell_app_can_open_new_window</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellApp.html#ShellAppState" title="enum ShellAppState"><span class="returnvalue">ShellAppState</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-state" title="shell_app_get_state ()">shell_app_get_state</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-request-quit" title="shell_app_request_quit ()">shell_app_request_quit</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-n-windows" title="shell_app_get_n_windows ()">shell_app_get_n_windows</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-windows" title="shell_app_get_windows ()">shell_app_get_windows</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-get-pids" title="shell_app_get_pids ()">shell_app_get_pids</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-is-on-workspace" title="shell_app_is_on_workspace ()">shell_app_is_on_workspace</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-launch" title="shell_app_launch ()">shell_app_launch</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-launch-action" title="shell_app_launch_action ()">shell_app_launch_action</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-compare-by-name" title="shell_app_compare_by_name ()">shell_app_compare_by_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-compare" title="shell_app_compare ()">shell_app_compare</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-update-window-actions" title="shell_app_update_window_actions ()">shell_app_update_window_actions</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellApp.html#shell-app-update-app-menu" title="shell_app_update_app_menu ()">shell_app_update_app_menu</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/gio/unstable/GActionGroup.html"><span class="type">GActionGroup</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellApp.html#ShellApp--action-group" title="The “action-group” property">action-group</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellApp.html#ShellApp--id" title="The “id” property">id</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/gio/unstable/GMenuModel.html"><span class="type">GMenuModel</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellApp.html#ShellApp--menu" title="The “menu” property">menu</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a class="link" href="ShellApp.html#ShellAppState" title="enum ShellAppState"><span class="type">ShellAppState</span></a></td>
+<td class="property_name"><a class="link" href="ShellApp.html#ShellApp--state" title="The “state” property">state</a></td>
+<td class="property_flags">Read</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellApp.html#ShellApp-windows-changed" title="The “windows-changed” signal">windows-changed</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="ShellApp.html#ShellAppState" title="enum ShellAppState">ShellAppState</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="ShellApp.html#ShellAppAction" title="ShellAppAction">ShellAppAction</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GEnum
+    <span class="lineart">╰──</span> ShellAppState
+    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> ShellApp
+</pre>
+</div>
+<div class="refsect1">
+<a name="ShellApp.description"></a><h2>Description</h2>
+<p>This object wraps a <a href="https://developer.gnome.org/gio/unstable/gio-Desktop-file-based-GAppInfo.html#GDesktopAppInfo"><span class="type">GDesktopAppInfo</span></a>, providing methods and signals
+primarily useful for running applications.</p>
+</div>
+<div class="refsect1">
+<a name="ShellApp.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="shell-app-get-id"></a><h3>shell_app_get_id ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+shell_app_get_id (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-app-info"></a><h3>shell_app_get_app_info ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/gio/unstable/gio-Desktop-file-based-GAppInfo.html#GDesktopAppInfo"><span class="returnvalue">GDesktopAppInfo</span></a> *
+shell_app_get_app_info (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.2.9.3.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.2.9.3.5"></a><h4>Returns</h4>
+<p> The <a href="https://developer.gnome.org/gio/unstable/gio-Desktop-file-based-GAppInfo.html#GDesktopAppInfo"><span class="type">GDesktopAppInfo</span></a> for this app, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if backed by a window. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-create-icon-texture"></a><h3>shell_app_create_icon_texture ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+shell_app_create_icon_texture (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                               <em class="parameter"><code><span class="type">int</span> size</code></em>);</pre>
+<p>Look up the icon for this application, and create a <span class="type">ClutterTexture</span>
+for it at the given size.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.4.5"></a><h4>Returns</h4>
+<p> A floating <span class="type">ClutterActor</span>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-faded-icon"></a><h3>shell_app_get_faded_icon ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+shell_app_get_faded_icon (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                          <em class="parameter"><code><span class="type">int</span> size</code></em>,
+                          <em class="parameter"><code><span class="type">ClutterTextDirection</span> direction</code></em>);</pre>
+<p>Return an actor with a horizontally faded look.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>size</p></td>
+<td class="parameter_description"><p>Size in pixels</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>direction</p></td>
+<td class="parameter_description"><p>Whether to fade on the left or right</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.2.9.5.6"></a><h4>Returns</h4>
+<p> A floating <span class="type">ClutterActor</span>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if no icon. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-name"></a><h3>shell_app_get_name ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+shell_app_get_name (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-description"></a><h3>shell_app_get_description ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+shell_app_get_description (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-is-window-backed"></a><h3>shell_app_is_window_backed ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_app_is_window_backed (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<p>A window backed application is one which represents just an open
+window, i.e. there's no .desktop file assocation, so we don't know
+how to launch it again.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-activate-window"></a><h3>shell_app_activate_window ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_activate_window (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/meta/MetaWindow.html"><span class="type">MetaWindow</span></a> *window</code></em>,
+                           <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> timestamp</code></em>);</pre>
+<p>Bring all windows for the given app to the foreground,
+but ensure that <em class="parameter"><code>window</code></em>
+ is on top.  If <em class="parameter"><code>window</code></em>
+ is <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>,
+the window with the most recent user time for the app
+will be used.</p>
+<p>This function has no effect if <em class="parameter"><code>app</code></em>
+ is not currently running.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.9.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>window</p></td>
+<td class="parameter_description"><p> Window to be focused. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>Event timestamp</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-activate"></a><h3>shell_app_activate ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_activate (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<p>Like <a class="link" href="ShellApp.html#shell-app-activate-full" title="shell_app_activate_full ()"><code class="function">shell_app_activate_full()</code></a>, but using the default workspace and
+event timestamp.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.10.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-activate-full"></a><h3>shell_app_activate_full ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_activate_full (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                         <em class="parameter"><code><span class="type">int</span> workspace</code></em>,
+                         <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> timestamp</code></em>);</pre>
+<p>Perform an appropriate default action for operating on this application,
+dependent on its current state.  For example, if the application is not
+currently running, launch it.  If it is running, activate the most
+recently used NORMAL window (or if that window has a transient, the most
+recently used transient for that window).</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.11.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>workspace</p></td>
+<td class="parameter_description"><p>launch on this workspace, or -1 for default. Ignored if
+activating an existing window</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>Event timestamp</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-open-new-window"></a><h3>shell_app_open_new_window ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_open_new_window (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                           <em class="parameter"><code><span class="type">int</span> workspace</code></em>);</pre>
+<p>Request that the application create a new window.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.12.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>workspace</p></td>
+<td class="parameter_description"><p>open on this workspace, or -1 for default</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-can-open-new-window"></a><h3>shell_app_can_open_new_window ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_app_can_open_new_window (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<p>Returns <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the app supports opening a new window through
+<a class="link" href="ShellApp.html#shell-app-open-new-window" title="shell_app_open_new_window ()"><code class="function">shell_app_open_new_window()</code></a> (ie, if calling that function will
+result in actually opening a new window and not something else,
+like presenting the most recently active one)</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.13.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-state"></a><h3>shell_app_get_state ()</h3>
+<pre class="programlisting"><a class="link" href="ShellApp.html#ShellAppState" title="enum ShellAppState"><span class="returnvalue">ShellAppState</span></a>
+shell_app_get_state (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.2.9.14.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.2.9.14.5"></a><h4>Returns</h4>
+<p> State of the application</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-request-quit"></a><h3>shell_app_request_quit ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_app_request_quit (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<p>Initiate an asynchronous request to quit this application.
+The application may interact with the user, and the user
+might cancel the quit request from the application UI.</p>
+<p>This operation may not be supported for all applications.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.15.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.2.9.15.7"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if a quit request is supported for this application</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-n-windows"></a><h3>shell_app_get_n_windows ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>
+shell_app_get_n_windows (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-windows"></a><h3>shell_app_get_windows ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+shell_app_get_windows (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<p>Get the windows which are associated with this application. The
+returned list will be sorted first by whether they're on the
+active workspace, then by whether they're visible, and finally
+by the time the user last interacted with them.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.17.5"></a><h4>Returns</h4>
+<p> List of windows. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> MetaWindow]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-get-pids"></a><h3>shell_app_get_pids ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+shell_app_get_pids (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.2.9.18.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.2.9.18.5"></a><h4>Returns</h4>
+<p> An unordered list of process identifers associated with this application. </p>
+<p><span class="annotation">[<acronym title="Free data container after the code is done."><span class="acronym">transfer container</span></acronym>][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> int]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-is-on-workspace"></a><h3>shell_app_is_on_workspace ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_app_is_on_workspace (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/meta/MetaWorkspace.html"><span class="type">MetaWorkspace</span></a> *workspace</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-launch"></a><h3>shell_app_launch ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_app_launch (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                  <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> timestamp</code></em>,
+                  <em class="parameter"><code><span class="type">int</span> workspace</code></em>,
+                  <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.2.9.20.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>Event timestamp, or 0 for current event timestamp</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>workspace</p></td>
+<td class="parameter_description"><p>Start on this workspace, or -1 for default</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>A <a href="https://developer.gnome.org/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-launch-action"></a><h3>shell_app_launch_action ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_launch_action (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                         <em class="parameter"><code>const <span class="type">char</span> *action_name</code></em>,
+                         <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> timestamp</code></em>,
+                         <em class="parameter"><code><span class="type">int</span> workspace</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.2.9.21.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>action_name</p></td>
+<td class="parameter_description"><p>the name of the action to launch (as obtained by
+<a href="https://developer.gnome.org/gio/unstable/gio-Desktop-file-based-GAppInfo.html#g-desktop-app-info-list-actions"><code class="function">g_desktop_app_info_list_actions()</code></a>)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>Event timestamp, or 0 for current event timestamp</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>workspace</p></td>
+<td class="parameter_description"><p>Start on this workspace, or -1 for default</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-compare-by-name"></a><h3>shell_app_compare_by_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+shell_app_compare_by_name (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                           <em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *other</code></em>);</pre>
+<p>Order two applications by name.</p>
+<div class="refsect3">
+<a name="id-1.3.2.9.22.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>app</p></td>
+<td class="parameter_description"><p>One app</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>other</p></td>
+<td class="parameter_description"><p>The other app</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.2.9.22.6"></a><h4>Returns</h4>
+<p> -1, 0, or 1; suitable for use as a comparison function
+for e.g. <a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#g-slist-sort"><code class="function">g_slist_sort()</code></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-compare"></a><h3>shell_app_compare ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+shell_app_compare (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                   <em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *other</code></em>);</pre>
+<p>Compare one <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> instance to another, in the following way:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p>Running applications sort before not-running applications.</p></li>
+<li class="listitem"><p>The application which the user interacted with most recently
+compares earlier.</p></li>
+</ul></div>
+<div class="refsect3">
+<a name="id-1.3.2.9.23.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>other</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-update-window-actions"></a><h3>shell_app_update_window_actions ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_update_window_actions (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                                 <em class="parameter"><code><a href="/usr/share/gtk-doc/html/meta/MetaWindow.html"><span class="type">MetaWindow</span></a> *window</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-update-app-menu"></a><h3>shell_app_update_app_menu ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_app_update_app_menu (<em class="parameter"><code><a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *app</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/meta/MetaWindow.html"><span class="type">MetaWindow</span></a> *window</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="ShellAppState"></a><h3>enum ShellAppState</h3>
+<div class="refsect3">
+<a name="id-1.3.2.10.2.3"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-APP-STATE-STOPPED:CAPS"></a>SHELL_APP_STATE_STOPPED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-APP-STATE-STARTING:CAPS"></a>SHELL_APP_STATE_STARTING</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-APP-STATE-RUNNING:CAPS"></a>SHELL_APP_STATE_RUNNING</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-APP-STATE-BUSY:CAPS"></a>SHELL_APP_STATE_BUSY</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellAppAction"></a><h3>ShellAppAction</h3>
+<pre class="programlisting">typedef struct _ShellAppAction ShellAppAction;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="ShellApp--action-group"></a><h3>The <code class="literal">“action-group”</code> property</h3>
+<pre class="programlisting">  “action-group”             <a href="https://developer.gnome.org/gio/unstable/GActionGroup.html"><span class="type">GActionGroup</span></a> *</pre>
+<p>The <a href="https://developer.gnome.org/gio/unstable/GDBusActionGroup.html"><span class="type">GDBusActionGroup</span></a> associated with this ShellApp, if any. See the
+documentation of <a href="https://developer.gnome.org/gio/unstable/GApplication.html"><span class="type">GApplication</span></a> and <a href="https://developer.gnome.org/gio/unstable/GActionGroup.html"><span class="type">GActionGroup</span></a> for details.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellApp--id"></a><h3>The <code class="literal">“id”</code> property</h3>
+<pre class="programlisting">  “id”                       <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>The id of this application (a desktop filename, or a special string
+like window:0xabcd1234)</p>
+<p>Flags: Read</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellApp--menu"></a><h3>The <code class="literal">“menu”</code> property</h3>
+<pre class="programlisting">  “menu”                     <a href="https://developer.gnome.org/gio/unstable/GMenuModel.html"><span class="type">GMenuModel</span></a> *</pre>
+<p>The <span class="type">GMenuProxy</span> associated with this ShellApp, if any. See the
+documentation of <a href="https://developer.gnome.org/gio/unstable/GMenuModel.html"><span class="type">GMenuModel</span></a> for details.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellApp--state"></a><h3>The <code class="literal">“state”</code> property</h3>
+<pre class="programlisting">  “state”                    <a class="link" href="ShellApp.html#ShellAppState" title="enum ShellAppState"><span class="type">ShellAppState</span></a></pre>
+<p>The high-level state of the application, effectively whether it's
+running or not, or transitioning between those states.</p>
+<p>Flags: Read</p>
+<p>Default value: SHELL_APP_STATE_STOPPED</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellApp.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ShellApp-windows-changed"></a><h3>The <code class="literal">“windows-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *shellapp,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>  user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

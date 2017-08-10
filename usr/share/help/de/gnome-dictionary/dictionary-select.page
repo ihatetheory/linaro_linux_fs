@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="dictionary-select" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.comm</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ein anderes Wörterbuch wählen</title>
+
+  <p>Eine einzige <link xref="sources">Wörterbuchquelle</link> kann mehrere verschiedene Wörterbücher besitzen. Sie können jedes dieser Wörterbücher durchsuchen.</p>
+
+  <steps>
+    <title>Ein Wörterbuch wählen</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Ansicht</gui> <gui style="menuitem">Verfügbare Datenbanken</gui></guiseq>. Eine Seitenleiste wird geöffnet, die alle verfügbaren Wörterbücher Ihrer aktuell gewählten Wörterbuchquelle auflistet.</p>
+    </item>
+    <item>
+      <p>Klicken Sie zweimal auf das Wörterbuch, das Sie durchsuchen möchten.</p>
+    </item>
+  </steps>
+
+  <p>Der nächste Begriff, den Sie <link xref="definition">nachschlagen</link>, wird das Ergebnis nur aus dem gewählten Wörterbuch anzeigen.</p>
+
+  <note>
+    <p>Ihre Wörterbuchauswahl wird nicht für die nächste Nutzung des <app>Wörterbuchs</app> gespeichert.</p>
+  </note>
+
+</page>

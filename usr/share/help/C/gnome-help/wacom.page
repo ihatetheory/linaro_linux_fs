@@ -1,0 +1,27 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="wacom">
+
+<info>
+  <desc>
+      <link xref="wacom-multi-monitor">Map a monitor</link>,
+      <link xref="wacom-stylus">Configure the stylus</link>,
+      <link xref="wacom-left-handed">Use the tablet left handed</link>…
+  </desc>
+
+  <link type="guide" xref="prefs"/>
+
+  <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+  <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+  <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+  <credit type="author">
+    <name>Michael Hill</name>
+    <email its:translate="no">mdhillca@gmail.com</email>
+  </credit>
+</info>
+
+<title>Wacom Graphics Tablet</title>
+
+</page>

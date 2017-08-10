@@ -1,0 +1,11 @@
+530856bb97c051fc14afeb674f209d14  usr/lib/tracker/tracker-miner-apps
+dd1d172a92148f0a818859f6b44669f1  usr/lib/tracker/tracker-miner-fs
+971d85cdc560a2b5e8c68f1c8b371e64  usr/lib/tracker/tracker-miner-user-guides
+a2cc4625d737d35f4620b451f7ece7c0  usr/share/dbus-1/services/org.freedesktop.Tracker1.Miner.Applications.service
+d3d222f705aa86ebdabf1b4a78413c90  usr/share/dbus-1/services/org.freedesktop.Tracker1.Miner.Files.service
+0aed9cb6ab400373053efe68df62587b  usr/share/dbus-1/services/org.freedesktop.Tracker1.Miner.Userguides.service
+8aaa5ca2929afc1f9cc04bd2d8f9cdbc  usr/share/doc/tracker-miner-fs/copyright
+9a762d0036ba3295f77d15b42a42e151  usr/share/man/man1/tracker-miner-fs.1.gz
+566b8913b3257a58df6da2ded863b3fb  usr/share/tracker/miners/tracker-miner-applications.desktop
+98a5a60807a40d4ecc958c047d26e9cc  usr/share/tracker/miners/tracker-miner-files.desktop
+14da72fbb65b9ddd183918582b3c5b1e  usr/share/tracker/miners/tracker-miner-userguides.desktop

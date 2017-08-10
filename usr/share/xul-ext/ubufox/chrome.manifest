@@ -1,0 +1,41 @@
+content	ubufox	jar:chrome/ubufox.jar!/content/
+
+locale	ubufox	af	jar:chrome/ubufox.jar!/locale/af/
+locale	ubufox	ar	jar:chrome/ubufox.jar!/locale/ar/
+locale	ubufox	ca	jar:chrome/ubufox.jar!/locale/ca/
+locale	ubufox	cs	jar:chrome/ubufox.jar!/locale/cs/
+locale	ubufox	de	jar:chrome/ubufox.jar!/locale/de/
+locale	ubufox	el	jar:chrome/ubufox.jar!/locale/el/
+locale	ubufox	en-US	jar:chrome/ubufox.jar!/locale/en-US/
+locale	ubufox	es	jar:chrome/ubufox.jar!/locale/es/
+locale	ubufox	eu	jar:chrome/ubufox.jar!/locale/eu/
+locale	ubufox	fi	jar:chrome/ubufox.jar!/locale/fi/
+locale	ubufox	fr	jar:chrome/ubufox.jar!/locale/fr/
+locale	ubufox	gl	jar:chrome/ubufox.jar!/locale/gl/
+locale	ubufox	hu	jar:chrome/ubufox.jar!/locale/hu/
+locale	ubufox	it	jar:chrome/ubufox.jar!/locale/it/
+locale	ubufox	ja	jar:chrome/ubufox.jar!/locale/ja/
+locale	ubufox	lt	jar:chrome/ubufox.jar!/locale/lt/
+locale  ubufox  nl  jar:chrome/ubufox.jar!/locale/nl/
+locale	ubufox	pl	jar:chrome/ubufox.jar!/locale/pl/
+locale	ubufox	pt	jar:chrome/ubufox.jar!/locale/pt/
+locale	ubufox	pt-BR	jar:chrome/ubufox.jar!/locale/pt-BR/
+locale	ubufox	pt-PT	jar:chrome/ubufox.jar!/locale/pt-PT/
+locale	ubufox	ro	jar:chrome/ubufox.jar!/locale/ro/
+locale	ubufox	ru	jar:chrome/ubufox.jar!/locale/ru/
+locale	ubufox	sl	jar:chrome/ubufox.jar!/locale/sl/
+locale	ubufox	sv-SE	jar:chrome/ubufox.jar!/locale/sv-SE/
+locale	ubufox	uk	jar:chrome/ubufox.jar!/locale/uk/
+locale	ubufox	zh-CN	jar:chrome/ubufox.jar!/locale/zh-CN/
+locale  ubufox  zh-TW   jar:chrome/ubufox.jar!/locale/zh-TW/
+
+overlay	chrome://browser/content/browser.xul	chrome://ubufox/content/overlay.xul
+
+component {7a2a7a56-827f-4b38-bdac-31aa7ec2971d} components/AboutStartpage.js
+contract @mozilla.org/network/protocol/about;1?what=startpage {7a2a7a56-827f-4b38-bdac-31aa7ec2971d}
+
+component {799a4700-2085-40e8-853a-05dcf8e95e41} components/UpdateNotifier.js
+contract @ubuntu.com/update-notifier;1 {799a4700-2085-40e8-853a-05dcf8e95e41}
+category profile-after-change UpdateNotifier @ubuntu.com/update-notifier;1
+
+resource ubufox jar:chrome/ubufox.jar!/res/

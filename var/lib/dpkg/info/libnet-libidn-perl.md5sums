@@ -1,0 +1,6 @@
+231f460a2ce33eec004893bfb7b1d64c  usr/lib/arm-linux-gnueabihf/perl5/5.20/Net/LibIDN.pm
+82a46537e297b03bb059a252874d06dc  usr/lib/arm-linux-gnueabihf/perl5/5.20/auto/Net/LibIDN/LibIDN.so
+bd9baac57513092e2bb65c9f13f8a489  usr/lib/arm-linux-gnueabihf/perl5/5.20/auto/Net/LibIDN/autosplit.ix
+46f524a57a39b0035743b5f2c50eab4d  usr/share/doc/libnet-libidn-perl/changelog.Debian.gz
+92c39d8eda7d1abec336f900b9dde86c  usr/share/doc/libnet-libidn-perl/copyright
+8bdf4704fe41ade89a380b2c47f98a6b  usr/share/man/man3/Net::LibIDN.3pm.gz

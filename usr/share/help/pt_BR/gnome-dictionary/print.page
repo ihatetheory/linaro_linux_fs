@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Visualize e imprima definições.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Imprimindo uma definição</title>
+
+  <p>Você pode imprimir uma definição para um papel ou arquivo. Antes de imprimir, você deveria visualizar a definição como ela seria impressa para confirmar que o texto cabe na página, especialmente se você tiver alterado o tamanho da <link xref="print-font">fonte de impressão</link>.</p>
+
+  <section id="preview">
+    <title>Imprimir uma visualização</title>
+
+    <steps>
+      <item>
+        <p>Selecione <guiseq><gui style="menu">Arquivo</gui> <gui style="menuitem">Visualizar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Uma janela de visualização de impressão vai ser aberta, o que vai mostrar a definição exatamente como ela será impressa.</p>
+      </item>
+      <item>
+	<p>Use a barra de ferramentas para navegar nas páginas, ajustar o nível de ampliação e largura da página.</p>
+      </item>
+      <item>
+        <p>Clique em <gui style="button">Imprime este documento</gui> para imprimir a definição ou fechar a janela para concluir a visualização.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>O botão de impressão na barra de ferramentas pode não funcionar sempre. Se ele não funcionar para você, feche a janela e selecione <guiseq><gui style="menu">Arquivo</gui> <gui style="menuitem">Imprimir</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Imprimir</title>
+
+    <p>Você precisa <link href="help:gnome-help/printing">ter uma impressora configurada</link> para poder imprimir para o papel.</p>
+
+    <steps>
+      <item>
+        <p>Selecione <guiseq><gui style="menu">Arquivo</gui> <gui style="menuitem">Imprimir</gui> <gui style="tab">Geral</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Selecione a impressora que você deseja usar da lista de impressoras ou selecione <gui href="help:gnome-help/print-to-file">Imprimir para arquivo</gui>.</p>
+      </item>
+      <item>
+        <p>Escolha suas <link href="help:gnome-help/printing#paper">configurações de impressão</link>.</p>
+      </item>
+      <item>
+        <p>Pressione <gui style="button">Imprimir</gui> para imprimir a definição.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

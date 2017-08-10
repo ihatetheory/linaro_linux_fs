@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vexa os resultados relacionados noutros dicionarios.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Palabras semellantes</title>
+
+  <p><app>Dicionario</app> só mostrará a definición para un dos dicionarios. Para comprobar os resultados da busca noutros dicionarios:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Busque</link> o termo desexado.</p>
+    </item>
+    <item>
+      <p>Se a barra lateral non está xa visíbel, seleccione <guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Palabras semellantes</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>A barra lateral <gui>Palabras similares</gui> mostrará os resultados para a busca doutros dicionarios na súa orixe de dicionarios seleccionados. Para ver a palabra similar prema dúas veces sobre a entrada.</p>
+    </item>
+  </steps>
+
+</page>

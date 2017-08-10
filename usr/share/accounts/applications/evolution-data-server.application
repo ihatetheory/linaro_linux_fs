@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="evolution-data-server">
+  <description>Evolution Data Server</description>
+  <desktop-entry>evolution-data-server-uoa.desktop</desktop-entry>
+  <translations>evolution-data-server-3.12</translations>
+  <services>
+    <service id="google-gmail">
+      <description>Access your GMail</description>
+    </service>
+    <service id="google-calendar">
+      <description>Access your Google Calendar</description>
+    </service>
+    <service id="google-contacts">
+      <description>Access your Google Contacts</description>
+    </service>
+    <service id="windows-live-mail">
+      <description>Access your Windows Live Mail</description>
+    </service>
+    <service id="yahoo-mail">
+      <description>Access your Yahoo! Mail</description>
+    </service>
+    <service id="yahoo-calendar">
+      <description>Access your Yahoo! Calendar</description>
+    </service>
+  </services>
+</application>

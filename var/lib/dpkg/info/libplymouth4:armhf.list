@@ -1,0 +1,17 @@
+/.
+/lib
+/lib/arm-linux-gnueabihf
+/lib/arm-linux-gnueabihf/libply-boot-client.so.4.0.0
+/lib/arm-linux-gnueabihf/libply-splash-core.so.4.0.0
+/lib/arm-linux-gnueabihf/libply-splash-graphics.so.4.0.0
+/lib/arm-linux-gnueabihf/libply.so.4.0.0
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libplymouth4
+/usr/share/doc/libplymouth4/copyright
+/usr/share/doc/libplymouth4/changelog.Debian.gz
+/lib/arm-linux-gnueabihf/libply-splash-core.so.4
+/lib/arm-linux-gnueabihf/libply.so.4
+/lib/arm-linux-gnueabihf/libply-boot-client.so.4
+/lib/arm-linux-gnueabihf/libply-splash-graphics.so.4

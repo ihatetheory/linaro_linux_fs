@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Betűkészlet kiválasztása a meghatározások nyomtatásához.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nyomtatási betűkészlet</title>
+
+  <p>Megváltoztathatja a meghatározások nyomtatásához használt alapértelmezett betűkészletet és -méretet.</p>
+
+  <steps>
+    <title>A betűkészlet megváltoztatása</title>
+    <item>
+      <p>Válassza a <guiseq><gui style="menu">Szótár</gui> <gui style="menuitem">Beállítások</gui> <gui style="tab">Nyomtatás</gui></guiseq> lapot.</p>
+    </item>
+    <item>
+      <p>Kattintson a betűkészlet-választó gombra.</p>
+    </item>
+    <item>
+      <p>Válassza ki azt a betűkészletet, amelyet használni szeretne.</p>
+    </item>
+    <item>
+      <p>Húzza jobbra a csúszkát a betűméret növeléséhez vagy balra a betűméret csökkentéséhez. Alternatív megoldásként begépelheti a betűméretet a szövegdobozba, vagy használhatja a <gui>-</gui> és <gui>+</gui> gombokat a betűméret csökkentéséhez vagy növeléséhez.</p>
+    </item>
+    <item>
+      <p>Kattintson a <gui style="button">Kiválasztás</gui> gombra a betűkészlet-beállítások mentéséhez.</p>
+    </item>
+  </steps>
+
+  <p>A meghatározások nincsenek újratördelve a nyomtatáshoz, ezért ha nagy betűkészletet választ, a szöveg egy része levágásra kerülhet.</p>
+
+</page>

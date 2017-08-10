@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+    <track>
+      <title>HBR1.com - I.D.M. Tranceponder</title>
+      <location>http://ubuntu.hbr1.com:19800/trance.ogg</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Trance</genre>
+      </extension>
+    </track>
+    <track>
+      <title>HBR1.com - Tronic Lounge</title>
+      <location>http://ubuntu.hbr1.com:19800/tronic.ogg</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>House</genre>
+      </extension>
+    </track>
+    <track>
+      <title>HBR1.com - Dream Factory</title>
+      <location>http://ubuntu.hbr1.com:19800/ambient.ogg</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Ambient</genre>
+      </extension>
+    </track>
+    <track>
+      <title>StartFM - 94.2MHz, Vilnius University, Lithuania</title>
+      <location>http://eteris.startfm.lt/startfm.ogg</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Underground</genre>
+      </extension>
+    </track>
+    <track>
+      <title>WKNC 88.1 FM (NC State) (Low Quality)</title>
+      <location>http://wknc.sma.ncsu.edu:8000/wkncmq.ogg.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Music</genre>
+      </extension>
+    </track>
+    <track>
+      <title>WKNC 88.1 FM (NC State) (High Quality)</title>
+      <location>http://wknc.sma.ncsu.edu:8000/wknchq.ogg.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Music</genre>
+      </extension>
+    </track>
+    <track>
+      <title>KWUR 90.3 FM St. Louis Underground Radio</title>
+      <location>http://www.kwur.com/icecast/kwurogg.m3u</location>
+    </track>
+    <track>
+      <title>WSUM 91.7 FM (University of Wisconsin)</title>
+      <location>http://vu.wsum.wisc.edu/wsumlive.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>College Radio</genre>
+      </extension>
+    </track>
+    <track>
+      <title>wbur.org - Boston's NPR news source</title>
+      <location>http://audio.wbur.org/stream/live_ogg.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>News</genre>
+      </extension>
+    </track>
+    <track>
+      <title>Radio Paradise (High Quality)</title>
+      <location>http://stream-dc1.radioparadise.com/rp_192m.ogg</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Eclectic</genre>
+      </extension>
+    </track>
+    <track>
+      <title>Radio Paradise (Low Quality)</title>
+      <location>http://stream-dc1.radioparadise.com/rp_96m.ogg</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Eclectic</genre>
+      </extension>
+    </track>
+    <track>
+      <title>Radio GFM - RockPop</title>
+      <location>http://streams.radio-gfm.net/rockpop.ogg.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Pop</genre>
+      </extension>
+    </track>
+    <track>
+      <title>Radio GFM - Electro</title>
+      <location>http://streams.radio-gfm.net/electro.ogg.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Electro</genre>
+      </extension>
+    </track>
+    <track>
+      <title>Radio GFM - Metal</title>
+      <location>http://streams.radio-gfm.net/metal.ogg.m3u</location>
+      <extension application="http://www.rhythmbox.org">
+        <genre>Metal</genre>
+      </extension>
+    </track>
+  </trackList>
+</playlist>

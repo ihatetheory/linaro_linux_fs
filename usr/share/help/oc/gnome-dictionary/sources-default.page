@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-default" xml:lang="oc">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Set a default dictionary source</title>
+
+  <p>When you first use <app>Dictionary</app>, it should have some
+  pre-installed dictionaries that you can use. You can change the default
+  <link xref="sources">dictionary source</link> to one that you would
+  prefer to use instead.</p>
+
+  <steps>
+    <title>Change the default dictionary source:</title>
+    <item>
+      <p>Select <guiseq><gui><app>Dictionary</app></gui>
+      <gui style="menu">Preferences</gui>
+      <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select the dictionary source that you want to set as the default.</p>
+    </item>
+    <item>
+      <p>Your change will be saved automatically.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="introduction" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="final"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>¿Qué es <app>Diccionario</app>?</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introducción</title>
+
+  <p><app>Diccionario</app> es una aplicación para buscar definiciones de términos. Busca definiciones usando un servidor <app>DICT</app> en línea. El servidor <app>DICT</app> predeterminado es <sys href="http://dict.org">http://dict.org</sys>.</p>
+
+  <p>Empiece a usar <app>Diccionario</app> <link xref="definition">buscando una definición</link>.</p>
+
+  <figure>
+    <title>Diccionario</title>
+    <media type="image" src="figures/gnome-dictionary.png">
+      <p>Captura de pantalla de la ventana principal de <app>Diccionario</app>.</p>
+    </media>
+  </figure>
+
+</page>

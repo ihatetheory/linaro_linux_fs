@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libisl13
+/usr/share/doc/libisl13/changelog.Debian.gz
+/usr/share/doc/libisl13/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libisl.so.13.1.0
+/usr/lib/arm-linux-gnueabihf/libisl.so.13

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Seleccione la tipografía para imprimir las definiciones.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tipografía de impresión</title>
+
+  <p>Puede cambiar el nombre de la tipografía y el tamaño usado para imprimir las definiciones.</p>
+
+  <steps>
+    <title>Cambiar la tipografía</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Diccionario</gui> <gui style="menuitem">Preferencias</gui> <gui style="tab">Imprimir</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Pulse el botón de selección de tipografías.</p>
+    </item>
+    <item>
+      <p>Seleccione la tipografía que quiere usar</p>
+    </item>
+    <item>
+      <p>Arrastre el deslizador a la derecha para aumentar el tamaño de la tipografía o a la izquierda para reducirlo. Alternativamente, puede escribir el tamaño en la caja de texto o usar los botones <gui>-</gui> and <gui>+</gui> para aumentar o disminuir el tamaño de la tipografía.</p>
+    </item>
+    <item>
+      <p>Pulse <gui style="button">Seleccionar</gui> para guardar su configuración de la tipografía.</p>
+    </item>
+  </steps>
+
+  <p>La definición no se redimensiona para imprimirla, por lo que si elige una tipografía muy grande, es posible que se pierda algo de texto.</p>
+
+</page>

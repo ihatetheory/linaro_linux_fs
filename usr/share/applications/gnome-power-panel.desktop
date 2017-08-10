@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Power
+Comment=View your battery status and change power saving settings
+Exec=gnome-control-center power
+Icon=gnome-power-manager
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;HardwareSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-control-center
+X-GNOME-Bugzilla-Component=power
+X-GNOME-Bugzilla-Version=3.14.2
+# Translators: those are keywords for the power control-center panel
+Keywords=Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

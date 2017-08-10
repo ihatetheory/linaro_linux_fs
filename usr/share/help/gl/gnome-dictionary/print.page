@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Previsualización de impresión e impresión de definicións.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Imprimir unha definición</title>
+
+  <p>Pode imprimir unha definición a papel ou nun ficheiro. Antes de imprimir debería facer unha previsualización da definiicón para ver como quedaría impresa e se encaixa na páxina, especialmente se cambiou o tamaño do <link xref="print-font">tipo de letra de impresión</link>.</p>
+
+  <section id="preview">
+    <title>Previsualización da impresión</title>
+
+    <steps>
+      <item>
+        <p>Seleccione <guiseq><gui style="menu">Ficheiro</gui> <gui style="menuitem">Previsualizar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Abrirase unha xanela de previsualización da impresión da súa impresión mostrando exactamente como se imprimirá.</p>
+      </item>
+      <item>
+	<p>Use a barra de ferramentas para explorar as páxinas, axuste o nivel de zoom e ancho da páxina.</p>
+      </item>
+      <item>
+        <p>Prema <gui style="button">Imprimir este documento</gui> para imprimir a definición ou peche a xanela para rematar a previsualización.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>O botón de imprimir na barra de ferramentas podería non funcionar sempre. Se non funciona para vostede, peche a xanela e seleccione <guiseq><gui style="menu">Ficheiro</gui> <gui style="menuitem">Imprimir</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Imprimir</title>
+
+    <p>Debe <link href="help:gnome-help/printing">ter unha impresora configurada</link> para poder imprimir en papel.</p>
+
+    <steps>
+      <item>
+        <p>Seleccione <guiseq><gui style="menu">Ficheiro</gui> <gui style="menuitem">Imprimir</gui> <gui style="tab">Xeral</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Seleccione a impresora que quere usar desde a lista de impresoras ou seleccione <gui href="help:gnome-help/print-to-file">Imprimir a ficheiro</gui>.</p>
+      </item>
+      <item>
+        <p>Escolla a súas <link href="help:gnome-help/printing#paper">preferencias de impresión</link>.</p>
+      </item>
+      <item>
+        <p>Prema <gui style="button">Imprimir</gui> para imprimir a definición.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

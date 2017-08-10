@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Εύρεση του ορισμού μιας λέξης ή όρου.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αναζήτηση μίας λέξης ή όρου</title>
+
+  <p>Μπορείτε να χρησιμοποιήσετε το <app>Λεξικό</app> για αναζήτηση της έννοιας ενός <em>όρου</em>. Ένας όρος μπορεί να είναι μια μοναδική λέξη όπως <input>μήλο</input> ή μια σύνθετη λέξη όπως <input>σανίδα κοπής</input>. Το αποτέλεσμα της αναζήτησης μπορεί επίσης να σας εμφανίσει το πρωτότυπο, τη σημασία και τη χρήση μιας λέξης. Για αναζήτηση ενός όρου:</p>
+
+  <steps>
+    <item>
+      <p>Πληκτρολογήστε τον όρο που θέλετε να αναζητήσετε δίπλα στο <gui>Αναζήτηση</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε το πλήκτρο <key>Επιστροφή</key> ή <gui style="button">Αναζήτηση:</gui> για να ψάξετε.</p>
+    </item>
+  </steps>
+
+  <p>Το <app>Λεξικό</app> θα ψάξει την επιλεγμένη πηγή του λεξικού σας και θα εμφανίσει το αποτέλεσμα από το πρώτο λεξικό στην πηγή. Για την προβολή αποτελεσμάτων από τα άλλα λεξικά που είναι στην ίδια πηγή, επιλέξτε <link xref="similar-words"><guiseq><gui style="menu">Προβολή</gui> <gui style="menuitem">Παρόμοιες λέξεις</gui></guiseq></link> για ανάδυση μιας πλευρικής στήλης που εμφανίζει όλα τα αποτελέσματα.</p>
+
+</page>

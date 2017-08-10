@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="disable-account">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <link type="seealso" xref="remove-account"/>
+
+    <revision version="0.1" date="2012-04-03" status="candidate"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email>david.king@canonical.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="copyright">
+      <name>Canonical Ltd.</name>
+      <years>2012</years>
+    </credit>
+    <license>
+      <p>Creative Commons Attribution-ShareAlike 3.0</p>
+    </license>
+
+    <desc>Disable your online accounts for use in Online Accounts.</desc>
+  </info>
+
+  <title>Disable an online account</title>
+
+  <p>Disable your account from <app>Online Accounts</app> if you temporarily
+  do not want to use it in your applications.</p>
+
+  <steps>
+    <item>
+      <p>Open <gui>System Settings</gui> from the <gui>system menu</gui>.</p>
+      <!-- TODO: Link to session menu topic. -->
+    </item>
+    <item>
+      <p>Select the <gui>Online Accounts</gui> panel.</p>
+    </item>
+    <item>
+      <p>Select the account that you wish to disable. Details for the account
+      will be shown, including applications which can make use of it.</p>
+    </item>
+    <item>
+      <p>Click the <gui>enabled switch</gui> and the account will then be
+      disabled immediately. The icon and description for the account in the 
+      list on the left will go translucent to show that it has been disabled.
+      Clicking the switch again will enable the account.
+      </p>
+    </item>
+  </steps>
+
+</page>

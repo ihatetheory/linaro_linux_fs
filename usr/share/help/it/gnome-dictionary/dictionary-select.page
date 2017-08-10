@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="dictionary-select" xml:lang="it">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.comm</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Select a different dictionary</title>
+
+  <p>A single <link xref="sources">dictionary source</link> may have many
+  different dictionaries. You can search any of these
+  dictionaries.</p>
+
+  <steps>
+    <title>Select a dictionary</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">View</gui>
+      <gui style="menuitem">Available Databases</gui></guiseq>. A sidebar
+      listing the available dictionaries for your currently selected dictionary
+      source will open.</p>
+    </item>
+    <item>
+      <p>Click twice on the dictionary that you want to use.</p>
+    </item>
+  </steps>
+
+  <p>The next term that you <link xref="definition">look up</link> will show
+  the result only from the selected dictionary.</p>
+
+  <note>
+    <p>Your dictionary selection will not be remembered next time you use
+    <app>Dictionary</app>.</p>
+  </note>
+
+</page>

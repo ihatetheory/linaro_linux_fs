@@ -1,0 +1,5 @@
+53f4df2611f57a919fd046e1117f7730  usr/lib/libaccount-plugin-1.0/applications/libempathy.so
+a504c6b1286fca5ee2b590644eea7296  usr/lib/libaccount-plugin-1.0/providers/libempathy-accounts-plugin.so
+a0ee4dce41a4db480a1bbc281406924a  usr/lib/mission-control-plugins.0/mcp-account-manager-uoa.so
+73378fcc8584e4c0a55037f69d969384  usr/share/accounts/applications/empathy.application
+e4626eebcd930ad125854407fe24017e  usr/share/doc/mcp-account-manager-uoa/copyright

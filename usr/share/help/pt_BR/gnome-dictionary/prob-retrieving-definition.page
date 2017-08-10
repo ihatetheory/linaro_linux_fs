@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Erro ao recuperar a definição</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Não foi possível localizar definições</title>
+
+  <p>Se você vir a mensagem de erro <sys>Erro ao recuperar a definição</sys> ao consultar uma definição de qualquer dos <link xref="sources-select">dicionários selecionados</link>, o problema é provavelmente um dos a seguir:</p>
+
+  <list>
+    <item>
+      <p>Um ou mais servidores <app>DICT</app> selecionados que são usados para consultar definições pode não estar funcionando. Você pode tentar esperar por um tempo antes de <link xref="definition">consultar</link> a definição novamente.</p>
+    </item>
+    <item>
+      <p>Você pode não ter uma conexão com a Internet. Para que um <app>Dicionário</app> consulte termos, seu computador <link href="help:gnome-help/net">deve ser capaz de se conectar</link> a <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

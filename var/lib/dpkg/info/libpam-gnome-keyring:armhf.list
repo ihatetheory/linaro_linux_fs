@@ -1,0 +1,17 @@
+/.
+/lib
+/lib/arm-linux-gnueabihf
+/lib/arm-linux-gnueabihf/security
+/lib/arm-linux-gnueabihf/security/pam_gnome_keyring.so
+/usr
+/usr/share
+/usr/share/pam-configs
+/usr/share/pam-configs/gnome-keyring
+/usr/share/doc
+/usr/share/doc/libpam-gnome-keyring
+/usr/share/doc/libpam-gnome-keyring/copyright
+/usr/share/doc/libpam-gnome-keyring/changelog.Debian.gz
+/usr/share/doc/libpam-gnome-keyring/README.Debian
+/usr/share/doc/libpam-gnome-keyring/README
+/usr/share/doc/libpam-gnome-keyring/AUTHORS
+/usr/share/doc/libpam-gnome-keyring/NEWS.gz

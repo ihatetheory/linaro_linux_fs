@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Object Hierarchy: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="index.html" title="Shell Reference Manual">
+<link rel="prev" href="ShellTpClient.html" title="ShellTpClient">
+<link rel="next" href="api-index-full.html" title="API Index">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><img src="up-insensitive.png" width="16" height="16" border="0"></td>
+<td><a accesskey="p" href="ShellTpClient.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="api-index-full.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="chapter">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="object-tree"></a>Object Hierarchy</h1></div></div></div>
+<pre class="screen">
+    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">├──</span> GtkActionMuxer
+    <span class="lineart">├──</span> GtkMenuTrackerItem
+    <span class="lineart">├──</span> <a class="link" href="ShellApp.html" title="ShellApp">ShellApp</a>
+    <span class="lineart">├──</span> <a class="link" href="ShellAppSystem.html" title="ShellAppSystem">ShellAppSystem</a>
+    <span class="lineart">├──</span> <a class="link" href="ShellAppUsage.html" title="ShellAppUsage">ShellAppUsage</a>
+    <span class="lineart">├──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+    <span class="lineart">│</span>   <span class="lineart">├──</span> <a href="http://developer.gnome.org/gtk2/GtkWidget.html">GtkWidget</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> <a href="http://developer.gnome.org/gtk2/GtkContainer.html">GtkContainer</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>       <span class="lineart">╰──</span> <a href="http://developer.gnome.org/gtk2/GtkBin.html">GtkBin</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>           <span class="lineart">╰──</span> <a href="http://developer.gnome.org/gtk2/GtkWindow.html">GtkWindow</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>               <span class="lineart">╰──</span> <a class="link" href="ShellEmbeddedWindow.html" title="ShellEmbeddedWindow">ShellEmbeddedWindow</a>
+    <span class="lineart">│</span>   <span class="lineart">├──</span> ClutterActor
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a href="/home/fmuellner/opt/gnome/share/gtk-doc/html/st/StWidget.html">StWidget</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer">ShellGenericContainer</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a href="/home/fmuellner/opt/gnome/share/gtk-doc/html/st/StBin.html">StBin</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="ShellSlicer.html" title="ShellSlicer">ShellSlicer</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="ShellStack.html" title="ShellStack">ShellStack</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> ShellGLSLQuad
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> ClutterClone
+    <span class="lineart">│</span>   <span class="lineart">│</span>       <span class="lineart">╰──</span> <a class="link" href="ShellGtkEmbed.html" title="ShellGtkEmbed">ShellGtkEmbed</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>           <span class="lineart">╰──</span> <a class="link" href="ShellTrayIcon.html" title="ShellTrayIcon">ShellTrayIcon</a>
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> ClutterActorMeta
+    <span class="lineart">│</span>       <span class="lineart">╰──</span> ClutterEffect
+    <span class="lineart">│</span>           <span class="lineart">╰──</span> ClutterOffscreenEffect
+    <span class="lineart">│</span>               <span class="lineart">╰──</span> ShellInvertLightnessEffect
+    <span class="lineart">├──</span> <a class="link" href="ShellGlobal.html" title="ShellGlobal">ShellGlobal</a>
+    <span class="lineart">├──</span> ShellKeyringPrompt
+    <span class="lineart">├──</span> <a href="https://developer.gnome.org/gio/unstable/GMountOperation.html">GMountOperation</a>
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="ShellMountOperation.html" title="ShellMountOperation">ShellMountOperation</a>
+    <span class="lineart">├──</span> ShellPerfLog
+    <span class="lineart">├──</span> PolkitAgentListener
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="shell-shell-polkit-authentication-agent.html#ShellPolkitAuthenticationAgent">ShellPolkitAuthenticationAgent</a>
+    <span class="lineart">├──</span> <a class="link" href="shell-shell-recorder.html#ShellRecorder">ShellRecorder</a>
+    <span class="lineart">├──</span> ShellScreenshot
+    <span class="lineart">├──</span> TpBaseClient
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="ShellTpClient.html" title="ShellTpClient">ShellTpClient</a>
+    <span class="lineart">├──</span> <a class="link" href="ShellTrayManager.html" title="ShellTrayManager">ShellTrayManager</a>
+    <span class="lineart">├──</span> <a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker">ShellWindowTracker</a>
+    <span class="lineart">╰──</span> <a class="link" href="ShellWM.html" title="ShellWM">ShellWM</a>
+    GInterface
+    <span class="lineart">├──</span> GtkActionObservable
+    <span class="lineart">╰──</span> GtkActionObserver
+    GEnum
+    <span class="lineart">├──</span> GtkMenuTrackerItemRole
+    <span class="lineart">├──</span> <a class="link" href="ShellApp.html#ShellAppState" title="enum ShellAppState">ShellAppState</a>
+    <span class="lineart">╰──</span> ShellSnippetHook
+    GBoxed
+    <span class="lineart">├──</span> <a class="link" href="ShellGenericContainer.html#ShellGenericContainerAllocation">ShellGenericContainerAllocation</a>
+    <span class="lineart">├──</span> ShellMenuTracker
+    <span class="lineart">╰──</span> <a class="link" href="ShellWindowTracker.html#ShellStartupSequence">ShellStartupSequence</a>
+    GFlags
+    <span class="lineart">╰──</span> <a class="link" href="shell-shell-keybinding-modes.html#ShellKeyBindingMode" title="enum ShellKeyBindingMode">ShellKeyBindingMode</a>
+</pre>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

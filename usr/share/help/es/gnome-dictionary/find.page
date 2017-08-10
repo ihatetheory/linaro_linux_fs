@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Buscar texto en una definición</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Buscar con una definición</title>
+
+  <p>Algunas entradas de diccionarios puede ser muy largas y pueden contener muchos resultados, por lo que es posible que quiera buscarlos para encontrar la sección que le interesa.</p>
+
+  <steps>
+    <title>Para buscar definiciones:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Editar</gui> <gui style="menitem">Buscar</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>La barra de <gui>Búsqueda</gui> aparecerá en la parte inferior de la ventana de <app>Diccionario</app>. Escriba el término que buscar con la definición mostrada actualmente.</p>
+    </item>
+    <item>
+      <p>Pulse <gui style="button">Anterior</gui> o <gui style="button">Siguiente</gui> para desplazarse por los resultados. La búsqueda no volverá al principio, es decir, no volverá a la parte superior de la página cuando llegue al último resultado y pulse <gui style="button">Siguiente</gui>.</p>
+    </item>
+  </steps>
+
+</page>

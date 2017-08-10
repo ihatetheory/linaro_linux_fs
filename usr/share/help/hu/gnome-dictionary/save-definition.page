@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="save-definition" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A meghatározás másolatának mentése szövegfájlba.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Meghatározás mentése</title>
+
+  <p>Elmenthet egy meghatározást szövegfájlba. Ez akkor lehet hasznos, ha a <app>Szótáron</app> kívül szeretné használni azt.</p>
+
+  <steps>
+    <title>Egy meghatározás mentéséhez:</title>
+    <item>
+      <p>Válassza a <guiseq><gui style="menu">Fájl</gui> <gui style="menuitem">Másolat mentése…</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>Válassza ki, hogy hová szerné elmenteni a meghatározást, és mi legyen a fájl neve. Érdemes lehet hozzáadni a <file>.txt</file> fájlkiterjesztést a fájlnév végéhez.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">Mentés</gui> gombot a meghatározás mentéséhez.</p>
+    </item>
+  </steps>
+
+</page>

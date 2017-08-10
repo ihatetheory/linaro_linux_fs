@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Anda dapat memakai pintasan papan tik untuk menavigasi <app>Kamus</app> secara lebih efisien.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pintasan papan tik</title>
+
+  <p>Pintasan papan tik adalah kombinasi tombol yang dapat Anda pakai sebagai pengganti dari navigasi melalui menu. Pintasan papan tik berikut tersedia:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Menavigasi <app>Kamus</app></title>
+    <thead>
+      <tr>
+        <td><p>Aksi</p></td>
+        <td><p>Pintasan</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Pratinjau cetak</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Cetak</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Lihat bilah sisi</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Membuka jendela <app>Kamus</app> baru</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Tutup jendela <app>Kamus</app> saat ini</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Pintasan pencarian</title>
+    <thead>
+      <tr>
+        <td><p>Aksi</p></td>
+        <td><p>Pintasan</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Mencari di dalam suatu definisi</p></td>
+        <td><p><key>/</key> atau <keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Cari selanjutnya</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Cari sebelumnya</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Menavigasi dalam suatu definisi</title>
+    <thead>
+      <tr>
+        <td><p>Aksi</p></td>
+        <td><p>Pintasan</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Definisi sebelumnya</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Definisi selanjutnya</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Definisi pertama</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Home</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Definisi terakhir</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>End</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Pintasan definisi <app>Kamus</app>:</title>
+    <thead>
+      <tr>
+        <td><p>Aksi</p></td>
+        <td><p>Pintasan</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Kata serupa</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Sumber-Sumber kamus</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Basis data yang tersedia</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Strategi yang tersedia</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Μπορείτε να χρησιμοποιήσετε συντομεύσεις πληκτρολογίου για πιο αποτελεσματική περιήγηση στο <app>Λεξικό</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Συντομεύσεις πληκτρολογίου</title>
+
+  <p>Οι συντομεύσεις πληκτρολογίου είναι συνδυασμοί πλήκτρων που μπορείτε να χρησιμοποιήσετε για περιήγηση μέσα από το μενού. Οι παρακάτω συντομεύσεις είναι διαθέσιμες:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Περιήγηση στο <app>Λεξικό</app></title>
+    <thead>
+      <tr>
+        <td><p>Ενέργεια</p></td>
+        <td><p>Συντόμευση</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Προεπισκόπηση εκτύπωσης</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Εκτύπωση</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Προβολή πλευρικής στήλης</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Άνοιγμα νέου παραθύρου του <app>Λεξικού</app></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Κλείσιμο τρέχοντος παραθύρου του <app>Λεξικού</app></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Αναζήτηση συντομεύσεων</title>
+    <thead>
+      <tr>
+        <td><p>Ενέργεια</p></td>
+        <td><p>Συντόμευση</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Αναζήτηση σε έναν ορισμό</p></td>
+        <td><p><key>/</key> ή <keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Εύρεση επομένου</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Εύρεση προηγούμενου</p></td>
+        <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Περιήγηση στον ορισμό</title>
+    <thead>
+      <tr>
+        <td><p>Ενέργεια</p></td>
+        <td><p>Συντόμευση</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Προηγούμενος ορισμός</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Επόμενος ορισμός</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Πρώτος ορισμός</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Home</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Τελευταίος ορισμός</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>End</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Οι συντομεύσεις ορισμών του <app>Λεξικού</app>:</title>
+    <thead>
+      <tr>
+        <td><p>Ενέργεια</p></td>
+        <td><p>Συντόμευση</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Παρόμοιες λέξεις</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Πηγές λεξικού</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Διαθέσιμες βάσεις δεδομένων</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Διαθέσιμες στρατηγικές</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

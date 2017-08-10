@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968">
+<title>org.freedesktop.realmd.Realm</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="realmd">
+<link rel="up" href="dbus-interface-reference.html" title="DBus Interface Reference">
+<link rel="prev" href="gdbus-org.freedesktop.realmd.Provider.html" title="org.freedesktop.realmd.Provider">
+<link rel="next" href="gdbus-org.freedesktop.realmd.Kerberos.html" title="org.freedesktop.realmd.Kerberos">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gdbus-org.freedesktop.realmd.Provider.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="dbus-interface-reference.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">realmd</th>
+<td><a accesskey="n" href="gdbus-org.freedesktop.realmd.Kerberos.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gdbus-org.freedesktop.realmd.Realm.synopsis" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#gdbus-org.freedesktop.realmd.Realm.description" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#gdbus-org.freedesktop.realmd.Realm.properties" class="shortcut">Properties</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="gdbus-org.freedesktop.realmd.Realm"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gdbus-interface-org-freedesktop-realmd-Realm.top_of_page"></a>org.freedesktop.realmd.Realm</span></h2>
+<p>org.freedesktop.realmd.Realm &#8212; a realm</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Methods</h2>
+<pre class="synopsis">
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Realm.Deconfigure">Deconfigure</GTKDOCLINK>       (IN  a{sv} options);
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Realm.ChangeLoginPolicy">ChangeLoginPolicy</GTKDOCLINK> (IN  s     login_policy,
+                   IN  as    permitted_add,
+                   IN  as    permitted_remove,
+                   IN  a{sv} options);
+</pre>
+</div>
+<div class="refsect1">
+<a name="idp46718948"></a><h2>Properties</h2>
+<pre class="synopsis">
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.Name">Name</GTKDOCLINK>                 readable   s
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.Configured">Configured</GTKDOCLINK>           readable   s
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.SupportedInterfaces">SupportedInterfaces</GTKDOCLINK>  readable   as
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.Details">Details</GTKDOCLINK>              readable   a(ss)
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.RequiredPackages">RequiredPackages</GTKDOCLINK>     readable   as
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.LoginFormats">LoginFormats</GTKDOCLINK>         readable   as
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.LoginPolicy">LoginPolicy</GTKDOCLINK>          readable   s
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.PermittedLogins">PermittedLogins</GTKDOCLINK>      readable   as
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.PermittedGroups">PermittedGroups</GTKDOCLINK>      readable   as
+</pre>
+</div>
+<div class="refsect1">
+<a name="gdbus-interface-org-freedesktop-realmd-Realm"></a><h2>Description</h2>
+<p>	  Represents one realm.
+</p>
+<p>	  Contains generic information about a realm, and useful properties for
+	  introspecting what kind of realm this is and how to work with
+	  the realm.
+</p>
+<p>	  Use <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Provider.Realms">"Realms"</GTKDOCLINK> or
+	  #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Provider.Discover">Discover()</GTKDOCLINK> to get access to some
+	  kerberos realm objects.
+</p>
+<p>	  Realms will always implement additional interfaces, such as
+	  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>.  Do not assume that all realms
+	  implement that kerberos interface. Use the
+	  <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.SupportedInterfaces">"SupportedInterfaces"</GTKDOCLINK> property to see
+	  which interfaces are supported.
+</p>
+<p>	  Different realms support various ways to configure them on the
+	  system. Use the <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.Configured">"Configured"</GTKDOCLINK> property
+	  to determine if a realm is configured. If it is configured, the
+	  property will be set to the interface of the mechanism that was
+	  used to configure it.
+</p>
+<p>	  To configure a realm, look in the
+	  <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.SupportedInterfaces">"SupportedInterfaces"</GTKDOCLINK> property for a
+	  recognized purpose-specific interface that can be used for
+	  configuration, such as the
+	  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-KerberosMembership.top_of_page">org.freedesktop.realmd.KerberosMembership</GTKDOCLINK> interface and its
+	  #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-KerberosMembership.Join">Join()</GTKDOCLINK> method.
+</p>
+<p>	  To deconfigure a realm from the current system, you can use the
+	  #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Realm.Deconfigure">Deconfigure()</GTKDOCLINK> method. In addition, some
+	  of the configuration specific interfaces provide methods to
+	  deconfigure a realm in a specific way, such as the
+	  #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-KerberosMembership.Leave">Leave()</GTKDOCLINK> method.
+</p>
+<p>	  The various properties are guaranteed to have been updated before
+	  the operation methods return, if they change state.
+</p>
+</div>
+<div class="refsect1">
+<a name="gdbus-methods-org.freedesktop.realmd.Realm"></a><h2>Method Details</h2>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-Realm.Deconfigure"></a><h3>The Deconfigure() method</h3>
+<pre class="programlisting">
+Deconfigure (IN  a{sv} options);
+</pre>
+<p>deconfigure this realm</p>
+<p>		  Deconfigure this realm from the local machine with standard
+		  default behavior.
+</p>
+<p>		  The behavior of this method depends on the which configuration
+		  interface is present in the
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Realm.top_of_page">org.freedesktop.realmd.Realm</GTKDOCLINK>.Configured property. It does not
+		  always delete membership accounts in the realm, but just
+		  reconfigures the local machine so it no longer is configured
+		  for the given realm. In some cases the implementation may try
+		  to update membership accounts, but this is not guaranteed.
+</p>
+<p>		  Various configuration interfaces may support more specific ways
+		  to deconfigure a realm in a specific way, such as the
+		  #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-KerberosMembership.Leave">Leave()</GTKDOCLINK> method.
+</p>
+<p>		  <em class="parameter"><code>options</code></em> can contain, but is not limited to, the following values:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p><code class="literal">operation</code>: a string
+		      identifier chosen by the client, which can then later be
+		      passed to <GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Cancel">Cancel()</GTKDOCLINK> in order
+		      to cancel the operation</p></li></ul></div>
+<p>
+</p>
+<p>		  This method requires authorization for the PolicyKit action
+		  called <code class="literal">org.freedesktop.realmd.deconfigure-realm</code>.
+</p>
+<p>		  In addition to common DBus error results, this method may return:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Failed</code>:
+		      may be returned if the deconfigure failed for a generic reason.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Cancelled</code>:
+		      returned if the operation was cancelled.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotAuthorized</code>:
+		      returned if the calling client is not permitted to deconfigure a
+		      realm.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotConfigured</code>:
+		      returned if this realm is not configured on the machine.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Busy</code>:
+		      returned if the service is currently performing another operation like
+		      join or leave.</p></li>
+</ul></div>
+<p>
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><code class="literal">IN a{sv} <em class="parameter"><code>options</code></em></code>:</span></p></td>
+<td><p></p></td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-Realm.ChangeLoginPolicy"></a><h3>The ChangeLoginPolicy() method</h3>
+<pre class="programlisting">
+ChangeLoginPolicy (IN  s     login_policy,
+                   IN  as    permitted_add,
+                   IN  as    permitted_remove,
+                   IN  a{sv} options);
+</pre>
+<p>		  Change the login policy and/or permitted logins for this realm.
+</p>
+<p>		  Not all realms support all the various login policies. An
+		  error will be returned if the new login policy is not supported.
+		  You may specify an empty string for the <em class="parameter"><code>login_policy</code></em> argument
+		  which will cause no change in the policy itself. If the policy
+		  is changed, it will be reflected in the
+		  <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.LoginPolicy">"LoginPolicy"</GTKDOCLINK> property.
+</p>
+<p>		  The <em class="parameter"><code>permitted_add</code></em> and <em class="parameter"><code>permitted_remove</code></em> arguments represent
+		  lists of login names that should be added and removed from
+		  the <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>:PermittedLogins property.
+</p>
+<p>		  <em class="parameter"><code>options</code></em> can contain, but is not limited to, the following values:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">operation</code>: a string
+		      identifier chosen by the client, which can then later be
+		      passed to <GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Cancel">Cancel()</GTKDOCLINK> in order
+		      to cancel the operation</p></li>
+<li class="listitem"><p><code class="literal">groups</code>: boolean which if
+		    set to <code class="literal">TRUE</code> means that the names in
+		    <em class="parameter"><code>permitted_add</code></em> and <em class="parameter"><code>permitted_remove</code></em> are group names instead
+		    of login names.</p></li>
+</ul></div>
+<p>
+</p>
+<p>		  This method requires authorization for the PolicyKit action
+		  called <code class="literal">org.freedesktop.realmd.login-policy</code>.
+</p>
+<p>		  In addition to common DBus error results, this method may return:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Failed</code>:
+		      may be returned if the policy change failed for a generic reason.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Cancelled</code>:
+		      returned if the operation was cancelled.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotAuthorized</code>:
+		      returned if the calling client is not permitted to change login policy
+		      operation.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotConfigured</code>:
+		      returned if the realm is not configured.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Busy</code>:
+		      returned if the service is currently performing another operation like
+		      join or leave.</p></li>
+</ul></div>
+<p>
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="literal">IN s <em class="parameter"><code>login_policy</code></em></code>:</span></p></td>
+<td><p>the new login policy, or an empty string</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="literal">IN as <em class="parameter"><code>permitted_add</code></em></code>:</span></p></td>
+<td><p>a list of logins to permit</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="literal">IN as <em class="parameter"><code>permitted_remove</code></em></code>:</span></p></td>
+<td><p>a list of logins to not permit</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="literal">IN a{sv} <em class="parameter"><code>options</code></em></code>:</span></p></td>
+<td><p>options for this operation</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1">
+<a name="gdbus-properties-org.freedesktop.realmd.Realm"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.Name"></a><h3>The "Name" property</h3>
+<pre class="programlisting">
+Name  readable   s
+</pre>
+<p>the realm name</p>
+<p>		  This is the name of the realm, appropriate for display to
+		  end users where necessary.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.Configured"></a><h3>The "Configured" property</h3>
+<pre class="programlisting">
+Configured  readable   s
+</pre>
+<p>whether this domain is configured and how</p>
+<p>		  If this property is an empty string, then the realm is not
+		  configured. Otherwise the realm is configured, and contains
+		  a string which is the interface that represents how it was
+		  configured, for example <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-KerberosMembership.top_of_page">org.freedesktop.realmd.KerberosMembership</GTKDOCLINK>.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.SupportedInterfaces"></a><h3>The "SupportedInterfaces" property</h3>
+<pre class="programlisting">
+SupportedInterfaces  readable   as
+</pre>
+<p>		  Additional supported interfaces of this realm. This includes
+		  interfaces that contain more information about the realm,
+		  such as <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK> and interfaces
+		  which contain methods for configuring a realm, such as
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-KerberosMembership.top_of_page">org.freedesktop.realmd.KerberosMembership</GTKDOCLINK>.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.Details"></a><h3>The "Details" property</h3>
+<pre class="programlisting">
+Details  readable   a(ss)
+</pre>
+<p>informational details about the realm</p>
+<p>		  Informational details about the realm. The following values
+		  should be present:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">server-software</code>:
+		      identifier of the software running on the server (e.g.
+		      <code class="literal">active-directory</code>).</p></li>
+<li class="listitem"><p><code class="literal">client-software</code>:
+		      identifier of the software running on the client (e.g.
+		      <code class="literal">sssd</code>).</p></li>
+</ul></div>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.RequiredPackages"></a><h3>The "RequiredPackages" property</h3>
+<pre class="programlisting">
+RequiredPackages  readable   as
+</pre>
+<p>prerequisite software</p>
+<p>		  Software packages that are required in order for a join to
+		  succeed. These are either simple strings like <code class="literal">sssd</code>,
+		  or strings with an operator and version number like
+		  <code class="literal">sssd &gt;= 1.9.0</code>
+</p>
+<p>		  These values are specific to the packaging system that is
+		  being run.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.LoginFormats"></a><h3>The "LoginFormats" property</h3>
+<pre class="programlisting">
+LoginFormats  readable   as
+</pre>
+<p>supported formats for login names</p>
+<p>		  Supported formats for login to this realm. This is only
+		  relevant once the realm has been enrolled. The formats
+		  will contain a <code class="literal"><code class="constant">U</code></code> in the string, which
+		  indicate where the user name should be placed. The formats
+		  may contain a <code class="literal"><code class="constant">D</code></code> in the string which
+		  indicate where a domain name should be placed.
+</p>
+<p>		  The first format in the list is the preferred format for
+		  login names.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.LoginPolicy"></a><h3>The "LoginPolicy" property</h3>
+<pre class="programlisting">
+LoginPolicy  readable   s
+</pre>
+<p>the policy for logins using this realm</p>
+<p>		  The policy for logging into this computer using this realm.
+</p>
+<p>		  The policy can be changed using the
+		  #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Realm.ChangeLoginPolicy">ChangeLoginPolicy()</GTKDOCLINK> method.
+</p>
+<p>		  The following policies are predefined. Not all providers
+		  support all these policies and there may be provider specific
+		  policies or multiple policies represented in the string:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">allow-any-login</code>: allow
+		      login by any authenticated user present in this
+		      realm.</p></li>
+<li class="listitem"><p><code class="literal">allow-realm-logins</code>: allow
+		      logins according to the realm or domain policy for logins
+		      on this machine. This usually defaults to allowing any realm
+		      user to log in.</p></li>
+<li class="listitem"><p><code class="literal">allow-permitted-logins</code>:
+		      only allow the logins permitted in the
+		      <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.PermittedLogins">"PermittedLogins"</GTKDOCLINK>
+		      property.</p></li>
+<li class="listitem"><p><code class="literal">deny-any-login</code>:
+		      don't allow any logins via authenticated users of this
+		      realm.</p></li>
+</ul></div>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.PermittedLogins"></a><h3>The "PermittedLogins" property</h3>
+<pre class="programlisting">
+PermittedLogins  readable   as
+</pre>
+<p>the permitted login names</p>
+<p>		  The list of permitted authenticated users allowed to login
+		  into this computer. This is only relevant if the
+		  <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.LoginPolicy">"LoginPolicy"</GTKDOCLINK> property
+		  contains the <code class="literal">allow-permitted-logins</code>
+		  string.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-Realm.PermittedGroups"></a><h3>The "PermittedGroups" property</h3>
+<pre class="programlisting">
+PermittedGroups  readable   as
+</pre>
+<p>the permitted group names</p>
+<p>		  The list of groups which users need to be in to be allowed
+		  to log into this computer. This is only relevant if the
+		  <GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-Realm.LoginPolicy">"LoginPolicy"</GTKDOCLINK> property
+		  contains the <code class="literal">allow-permitted-logins</code>
+		  string.
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc
+        </div>
+</body>
+</html>

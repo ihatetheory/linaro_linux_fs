@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsignon-plugins-common1
+/usr/share/doc/libsignon-plugins-common1/changelog.Debian.gz
+/usr/share/doc/libsignon-plugins-common1/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libsignon-plugins-common.so.1.0.0
+/usr/lib/arm-linux-gnueabihf/libsignon-plugins.so.1.0.0
+/usr/lib/arm-linux-gnueabihf/libsignon-plugins-common.so.1.0
+/usr/lib/arm-linux-gnueabihf/libsignon-plugins.so.1.0
+/usr/lib/arm-linux-gnueabihf/libsignon-plugins-common.so.1
+/usr/lib/arm-linux-gnueabihf/libsignon-plugins.so.1

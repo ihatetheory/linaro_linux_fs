@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -*- indent-tabs-mode: nil -*- -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.9.7">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "Character Palette">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002 
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="cs">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<articleinfo> 
+  <title>Příručka k appletu Paleta znaků</title>
+  <abstract role="description">
+    <para>Paleta znaků poskytuje pohodlný způsob přístupu ke znakům, které nejsou obsaženy na vaší klávesnici jako například akcentovaná písmena, matematické symboly, zvláštní znaky a interpunkční znaménka.</para>
+  </abstract>
+  <copyright><year>2005</year> <holder>Davyd Madeley</holder></copyright>
+  <copyright><year>2004</year> <holder>Angela Boyle</holder></copyright>
+  <copyright><year>2002</year> <year>2003</year> <year>2004</year> <holder>Sun Microsystems</holder></copyright>
+  <copyright><year>2000</year> <holder>Dan Mueth</holder></copyright>
+  <publisher role="maintainer">
+    <publishername>Dokumentační projekt GNOME</publishername>
+  </publisher>
+
+     <legalnotice id="legalnotice">
+         <para>Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License (GFDL) ve verzi 1.1 nebo v jakékoli další verzi vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopii licence GFDL naleznete pod <ulink type="help" url="help:fdl">tímto odkazem</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou.</para>
+          <para>Tato příručka je součástí sbírky příruček GNOME šířených za podmínek licence GNU FDL. Pokud chcete tento dokument šířit odděleně od sbírky, musíte přiložit kopii licence dle popisu v oddílu 6 dané licence.</para>
+ 
+         <para>Mnoho užívaných názvů určených k zviditelnění produktů nebo služeb jsou ochranné známky. Na místech, kde jsou tato jména v dokumentaci užita a členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se jedná o ochrannou známku, je takové jméno psáno velkými písmeny celé nebo s velkým písmenem na začátku.</para>
+ 
+         <para>DOKUMENT A JEHO UPRAVENÉ VERZE JSOU ŠÍŘENY V SOULADU SE ZNĚNÍM LICENCE GNU FREE DOCUMENTATION LICENSE S NÁSLEDUJÍCÍM USTANOVENÍM: <orderedlist>
+                 <listitem>
+                   <para>DOKUMENT JE POSKYTOVÁN V PODOBĚ „JAK JE“, BEZ ZÁRUKY JAKÉHOKOLIV DRUHU, NEPOSKYTUJÍ SE ANI ODVOZENÉ ZÁRUKY, ZÁRUKY, ŽE DOKUMENT, NEBO JEHO UPRAVENÁ VERZE, JE BEZCHYBNÝ, NEBO ZÁRUKY PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL, NEBO NEPORUŠENOSTI. RIZIKO NEKVALITY, NEPŘESNOSTI A ŠPATNÉHO PROVEDENÍ DOKUMENTU, NEBO JEHO UPRAVENÉ VERZE, NESETE VY. POKUD JE TENTO DOKUMENT NEBO JEHO UPRAVENÁ VERZE VADNÁ V JAKÉMKOLIV SMYSLU, VY (NIKOLIV PŮVODCE, AUTOR NEBO JAKÝKOLIV PŘISPĚVATEL) PŘEBÍRÁTE ODPOVĚDNOST ZA JAKÉKOLIV NÁKLADY NA NUTNÉ ÚPRAVY, OPRAVY ČI SLUŽBY. TOTO PROHLÁŠENÍ O ZÁRUCE PŘEDSTAVUJE ZÁKLADNÍ SOUČÁST TÉTO LICENCE. BEZ TOHOTO PROHLÁŠENÍ NENÍ PODLE TÉTO DOHODY POVOLENO UŽÍVÁNÍ ANI ÚPRAVY TOHOTO DOKUMENTU; DÁLE</para>
+                 </listitem>
+                 <listitem>
+                   <para>ZA ŽÁDNÝCH OKOLNOSTÍ A ŽÁDNÝCH PRÁVNÍCH PŘEDPOKLADŮ, AŤ SE JEDNÁ O PŘEČIN (VČETNĚ NEDBALOSTNÍCH), SMLOUVU NEBO JINÉ, NENÍ AUTOR, PŮVODNÍ PISATEL, KTERÝKOLIV PŘISPĚVATEL NEBO KTERÝKOLIV DISTRIBUTOR TOHOTO DOKUMENTU NEBO UPRAVENÉ VERZE DOKUMENTU NEBO KTERÝKOLIV DODAVATEL NĚKTERÉ Z TĚCHTO STRAN ODPOVĚDNÝ NĚJAKÉ OSOBĚ ZA PŘÍMÉ, NEPŘÍMÉ, SPECIÁLNÍ, NAHODILÉ NEBO NÁSLEDNÉ ŠKODY JAKÉHOKOLIV CHARAKTERU, VČETNĚ, ALE NEJEN, ZA POŠKOZENÍ ZE ZTRÁTY DOBRÉHO JMÉNA, PŘERUŠENÍ PRÁCE, PORUCHY NEBO NESPRÁVNÉ FUNKCE POČÍTAČE NEBO JINÉHO A VŠECH DALŠÍCH ŠKOD NEBO ZTRÁT VYVSTÁVAJÍCÍCH Z NEBO VZTAHUJÍCÍCH SE K POUŽÍVÁNÍ TOHOTO DOKUMENTU NEBO UPRAVENÝCH VERZÍ DOKUMENTU, I KDYŽ BY TAKOVÁTO STRANA BYLA INFORMOVANÁ O MOŽNOSTI TAKOVÉHOTO POŠKOZENÍ.</para>
+                 </listitem>
+           </orderedlist></para>
+   </legalnotice>
+ 
+
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+   <authorgroup>
+     <author><firstname>Sun</firstname> <surname>Dokumentační tým GNOME</surname> <affiliation><orgname>Sun Microsystems</orgname></affiliation></author>
+     <author><firstname>Dan</firstname> <surname>Mueth</surname> <affiliation><orgname>Dokumentační projekt GNOME</orgname></affiliation> <email>d-mueth@uchicago.edu</email></author>
+     <author><firstname>Angela</firstname> <surname>Boyle</surname> <affiliation><orgname>Dokumentační projekt GNOME</orgname></affiliation></author>
+     <editor><firstname>Shaun</firstname> <surname>McCance</surname> <affiliation><orgname>Dokumentační projekt GNOME</orgname></affiliation> <email>shaunm@gnome.org</email></editor>
+     <editor><firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation><orgname>Projekt GNOME</orgname> </affiliation> <email>davyd@madeley.id.au</email></editor>
+   </authorgroup>
+   
+   <releaseinfo revision="2.26" role="review"/>
+
+   <revhistory>
+     <revision><revnumber>Verze 2.10</revnumber> <date>březen 2005</date> <revdescription>
+         <para role="author">Davyd Madeley</para>
+       </revdescription></revision>
+     <revision><revnumber>Verze 2.8</revnumber> <date>neznámý</date> <revdescription>
+	 <para role="author">Angela Boyle</para>
+	 <para role="publisher">Dokumentační projekt GNOME</para>
+       </revdescription></revision>
+		<revision><revnumber>Příručka V2.6 k apletu Paleta znaků</revnumber> <date>srpen 2004</date> <revdescription> 
+			 <para role="author">Sun Microsystems</para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+		<revision><revnumber>Příručka V2.4 k apletu Paleta znaků</revnumber> <date>srpen 2003</date> <revdescription> 
+			 <para role="author">Sun Microsystems</para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+		<revision><revnumber>Příručka V2.3 k apletu Paleta znaků</revnumber> <date>říjen 2002</date> <revdescription> 
+			 <para role="author">Sun Microsystems</para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+		<revision><revnumber>Příručka V2.2 k apletu Paleta znaků</revnumber> <date>srpen 2002</date> <revdescription> 
+			 <para role="author">Sun Microsystems</para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+		<revision><revnumber>Příručka V2.1 k apletu Paleta znaků</revnumber> <date>červenec 2002</date> <revdescription> 
+			 <para role="author">Sun Microsystems</para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+		<revision><revnumber>Příručka V2.0 k apletu Paleta znaků</revnumber> <date>březen 2002</date> <revdescription> 
+			 <para role="author">Sun Microsystems</para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+		<revision><revnumber>Aplet Paleta znaků</revnumber> <date>2000</date> <revdescription> 
+			 <para role="author">Dan Mueth <email>d-mueth@uchicago.edu</email></para>
+			 <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision>
+	 </revhistory>
+	 <releaseinfo>Tato příručka popisuje Paletu znaků ve verzi 2.9.7</releaseinfo>
+	 <legalnotice> 
+		<title>Ohlasy</title>
+		<para>Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci Paleta znaků nebo této příručce, postupujte dle instrukcí na stránce <ulink url="ghelp:gnome-feedback" type="help">Stránka s ohlasy na GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+	 </legalnotice>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Lucas Lommer</firstname>
+      </personname>
+      <email>llommer@svn.gnome.org</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2009</year>
+      
+      <holder>Lucas Lommer</holder>
+    </copyright>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Marek Černocký</firstname>
+      </personname>
+      <email>marek@manet.cz</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2013</year>
+      
+      <holder>Marek Černocký</holder>
+    </copyright>
+  </articleinfo>
+  <indexterm><primary>Paleta znaků</primary></indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="charpick-introduction"> 
+	 <title>Úvod</title> 
+       <!-- ==== Figure ============================================= -->
+	 <figure id="applet-fig"> 
+		<title>Paleta znaků</title>
+		<screenshot> 
+		  <mediaobject><imageobject><imagedata fileref="figures/charpalette_applet.png" format="PNG"/></imageobject> <textobject><phrase>Paleta znaků</phrase></textobject></mediaobject>
+		</screenshot>
+	 </figure> 
+       <!-- ==== End of Figure ======================================= -->
+       <para><application>Paleta znaků</application> poskytuje pohodlný způsob přístupu ke znakům, které nejsou obsaženy na vaší klávesnici jako například akcentovaná písmena, matematické symboly, zvláštní znaky a interpunkční znaménka. Znaky lze vkládat přímo z appletu do textových řetězců například v textových dokumentech nebo na příkazovou řádku. Seznam znaků obsažených v appletu lze upravit vlastním potřebám.</para>
+       <para><application>Paleta znaků</application> podporuje znaky v kódování UTF-8 takže lze použít paletu k zobrazení nebo kopírování libovolného znaku Unicode.</para>
+
+       <sect2 id="charpick-introduction-add">       
+         <title>Přidání Palety znaků na panel</title>
+	 <para>Pokud chcete přidat <application>Paletu znaků</application> na panel, klepněte na něj pravým tlačítkem a zvolte <guimenuitem>Přidat na panel...</guimenuitem>. V okně <application>Přidat na panel</application> vyberte <application>Paleta znaků</application> a klepněte na tlačítko <guibutton>Přidat</guibutton>.</para>
+       </sect2> 
+  </sect1>
+<!-- ================ Usage ================================ -->
+  <sect1 id="charpick-usage"> 
+	 <title>Práce s paletou</title>
+	 <para>Když přidáte <application>Paletu znaků</application> na panel poprvé, zobrazí se výchozí paleta, ze které můžete znaky vybírat. Také můžete volit znaky z některé z dalších předdefinovaných palet, každá je asociována se standardním znakem na vaší klávesnici.</para>
+	 <!-- ================ Usage Subsection ================================ -->
+	 <sect2 id="charpick-charselect"> 
+		<title>Výběr znaku</title>
+		<para>Pokud chcete z palety vybrat znak a vložit jej do textového řetězce, proveďte následující kroky:</para>
+		  <orderedlist> 
+		    <listitem><para>Na paletě klepněte na požadovaný znak. Tlačítko znaku zůstane stisknuté, což indikuje, že byl znak vybrán.</para></listitem>
+                    <listitem>
+                      <para>Přesuňte se na cílovou pozici v aplikaci, kam chcete znak vložit a stisknutím prostředního tlačítka jej vložíte. Znak lze také vložit ze schránky, pokud aplikace tuto metodu vkládání podporuje.</para>
+                      <para>Pomocí prostředního tlačítka můžete vložení znaku libovolně opakovat dokud nezrušíte výběr znaku v paletě a nebo nezvolíte jiný text v nějaké aplikaci. Pomocí vkládání ze schránky můžete vložení znaku libovolně opakovat dokud nezrušíte výběr znaku v paletě a nebo nevložíte do schránky obsah z jiné aplikace.</para>
+                    </listitem>
+                </orderedlist>
+                <para>Pokud chcete zrušit výběr znaku v paletě, klepněte na něj znovu nebo zvolte znak jiný.</para>
+                <note><para>Některé aplikace nemusejí umožňovat vložení některých znaků.</para></note>
+	 </sect2> 
+	 <sect2 id="charpick-display-chargroup"> 
+		<title>Zobrazení předdefinované palety znaků</title>
+		<para>Seznam zobrazených znaků v appletu lze měnit z výchozího na některou z předdefinovaných palet znaků. Pokud chcete zobrazit některou z předdefinovaných palet, proveďte následující kroky:</para>
+		  <orderedlist> 
+			 <listitem> 
+				<para>Klepněte na tlačítko <guibutton>Dostupné palety</guibutton>, to s šipkou dolů umístěné na appletu vlevo.</para>
+			 </listitem>
+			 <listitem> 
+				<para>Klepněte na paletu, kterou chcete zobrazit.</para>
+			 </listitem>
+		  </orderedlist>
+		<para>Požadovaný znak zvolte z palety zobrazené v appletu a můžete jej začít vkládat do textových řetězců.</para>
+	</sect2>
+	<sect2 id="charpick-charkeys">
+		<title>Klávesy znaků</title>
+		<para>Následující tabulka ukazuje seznam kláves na klávesnici a s nimi asociované skupiny znaků. Klávesy klávesnice jsou v každé části tabulky v levém sloupci a skupiny znaků jsou ve sloupci druhém, vpravo.</para>
+		<figure id="charpick-characters"> 
+		  <title>Skupiny znaků asociované s klávesami klávesnice</title>
+		  <screenshot> 
+			 <mediaobject><imageobject><imagedata fileref="figures/charpick_characters.png" format="PNG"/></imageobject> <textobject><phrase>Ukazuje skupiny znaků přidružené k různým klávesám na klávesnici.</phrase></textobject></mediaobject>
+		  </screenshot>
+		</figure> 
+
+	 </sect2> 
+    
+
+
+  </sect1>
+<!-- ============= Preferences ============================= -->
+  <sect1 id="charpick-prefs"> 
+	 <title>Vlastní úpravy palet znaků</title>
+	<figure id="fig-prefs"> 
+	  <title>Předvolby palety znaků</title>
+	  <screenshot> 
+	  <mediaobject><imageobject><imagedata fileref="figures/charpick-preferences.png" format="PNG"/></imageobject> <textobject><phrase>Předvolby palety znaků</phrase></textobject></mediaobject>
+		</screenshot>
+	 </figure> 
+	<sect2 id="charpicks-prefs-prefs">
+		<title>Nastavení palet</title>
+	 	<para>Pokud chcete změnit nastavení <application>Palety znaků</application>, klepněte pravým tlačítkem na applet a zvolte z nabídky položku <guimenuitem>Nastavení</guimenuitem>. Okno <guilabel>Předvolby palety znaků</guilabel> obsahuje seznam <guilabel>Palety</guilabel> obsahující aktuálně v appletu dostupné palety. Okno <guilabel>Předvolby palety znaků</guilabel> zavřete klepnutím na tlačítko <guibutton>Zavřít</guibutton>.</para>
+		<itemizedlist>
+			<listitem><para>Pokud chcete přidat do výběru appletu novou paletu, klepněte na tlačítko <guibutton>Přidat</guibutton>. Více informací popisuje <xref linkend="charpick-default-new"/>.</para></listitem>
+			<listitem><para>Pokud chcete nějakou paletu z výběru appletu vymazat, zvolte ze seznamu danou paletu a klepněte na tlačítko <guibutton>Smazat</guibutton>.</para></listitem>
+			<listitem><para>Pokud chcete některou z palet upravit, zvolte ji ze seznamu a klepněte na tlačítko <guibutton>Upravit</guibutton>. V okně <guilabel>Upravit paletu</guilabel> proveďte úpravy a klepněte na tlačítko <guibutton>Budiž</guibutton>.</para></listitem>
+		</itemizedlist>
+	</sect2>
+	 <sect2 id="charpick-default-new"> 
+		<title>Vytváření nové palety znaků</title>
+		<para>K tvorbě nové palety můžete použít nějakou aplikaci s výběrem znaků jako <application>Mapa znaků</application>. Pokud se <application>Mapu znaků</application> rozhodnete použít, vytvoření nové palety bude vypadat takto:</para>
+		<orderedlist> 
+		  <listitem> 
+			 <para>Klikněte na applet pravým tlačítkem a zvolte <guimenuitem>Předvolby</guimenuitem>. Zobrazí se dialogové okno <guilabel>Předvolby Palety znaků</guilabel>.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Klepněte na tlačítko <guibutton>Přidat</guibutton> a zobrazí se dialogové okno <guilabel>Přidat paletu</guilabel>.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Spusťte aplikaci <application>Mapa znaků</application>, vyberte postupně všechny znaky, které chcete do nové palety vložit. Vybrat můžete nejvýše 25 znaků.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>V okně <application>Mapy znaků</application> zkopírujte obsah pole <guilabel>Text ke zkopírování</guilabel> do textového pole v okně <guilabel>Přidat paletu</guilabel>.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Klepněte na tlačítko <guibutton>Budiž</guibutton>.</para>
+		  </listitem>
+		</orderedlist>
+		<para>Nová paleta bude přidána do seznamu palet aplikace <application>Paleta znaků</application>.</para>
+	 </sect2>
+  </sect1>
+</article>

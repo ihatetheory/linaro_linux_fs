@@ -1,0 +1,12 @@
+2f5504a8acbc0912d445291f442be1cf  usr/lib/libgsl.so.0.17.0
+d2793c193a0aa5861dac2c756acac137  usr/lib/libgslcblas.so.0.0.0
+4934379d68ebf4d6b989b05df2d3ef15  usr/share/doc/libgsl0ldbl/AUTHORS
+586b4d224dbaf3bc3ad10fa71a46f824  usr/share/doc/libgsl0ldbl/BUGS.gz
+4dc2d0dff2ffddf9cbba64129c009d88  usr/share/doc/libgsl0ldbl/NEWS.gz
+1835ceb06399b4b5d82ede6c801959ed  usr/share/doc/libgsl0ldbl/README
+27dd4014e4af407c70574d1d487f843d  usr/share/doc/libgsl0ldbl/README.Debian
+41301059a6fffdd0ce52959d5d59c22b  usr/share/doc/libgsl0ldbl/THANKS.gz
+b4c096b80910c275e3c774766138b93c  usr/share/doc/libgsl0ldbl/TODO.gz
+446623dd4cfef08161aae7cb5d4e0326  usr/share/doc/libgsl0ldbl/changelog.Debian.gz
+483957b0bddd159c4d33fdab64bb7fff  usr/share/doc/libgsl0ldbl/copyright
+437342d73c40c893af5f2c2b46f02826  usr/share/lintian/overrides/libgsl0ldbl

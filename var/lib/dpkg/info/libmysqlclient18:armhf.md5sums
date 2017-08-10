@@ -1,0 +1,4 @@
+b163901e2a911ccb0581210baf7faa35  usr/lib/arm-linux-gnueabihf/libmysqlclient.so.18.1.0
+8877a8a155fbb6fba8e8a7dde482a241  usr/share/doc/libmysqlclient18/changelog.Debian.gz
+72e1ebaf001e1ecfffc70618c11381b1  usr/share/doc/libmysqlclient18/copyright
+16b6e6c6c1bd75e9d81d58ebb29b7b0d  usr/share/lintian/overrides/libmysqlclient18

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<legalnotice id="legalnotice">
+         <para>Se concede permiso para copiar, distribuir o modificar este documento según las condiciones de la GNU Free Documentation License (GFDL), Versión 1.1 o cualquier versión posterior publicada por la Free Software Foundation sin Secciones invariantes, Textos de portada y Textos de contraportada. Encontrará una copia de la GFDL en este <ulink type="help" url="help:fdl">enlace</ulink> o en el archivo COPYING-DOCS distribuido con este manual.</para>
+          <para>Este manual forma parte de una colección de documentos de GNOME distribuidos según la GFDL. Si quiere distribuir este manual de forma independiente de la colección, puede hacerlo agregando una copia de la licencia al documento, según se describe en la sección 6 de la misma.</para>
+ 
+         <para>Muchos de los nombres utilizados por las empresas para distinguir sus productos y servicios se consideran marcas comerciales. Cuando estos nombres aparezcan en la documentación de GNOME, y siempre que se haya informado a los miembros del Proyecto de documentación de GNOME de dichas marcas comerciales, los nombres aparecerán en mayúsculas o con las iniciales en mayúsculas.</para>
+ 
+         <para>EL DOCUMENTO Y LAS VERSIONES MODIFICADAS DEL MISMO SE PROPORCIONAN CON SUJECIÓN A LOS TÉRMINOS DE LA GFDL, QUEDANDO BIEN ENTENDIDO, ADEMÁS, QUE: <placeholder-1/></para>
+   </legalnotice>

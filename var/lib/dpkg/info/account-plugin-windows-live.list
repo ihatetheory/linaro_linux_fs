@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/accounts
+/usr/share/accounts/services
+/usr/share/accounts/services/wlm.service
+/usr/share/accounts/providers
+/usr/share/accounts/providers/windows-live.provider
+/usr/share/doc
+/usr/share/doc/account-plugin-windows-live
+/usr/share/doc/account-plugin-windows-live/copyright
+/etc
+/etc/signon-ui
+/etc/signon-ui/webkit-options.d
+/etc/signon-ui/webkit-options.d/login.live.com.conf
+/usr/share/doc/account-plugin-windows-live/changelog.Debian.gz

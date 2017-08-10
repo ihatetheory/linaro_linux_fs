@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Find text in a definition.</desc>
+
+  </info>
+
+  <title>Search within a definition</title>
+
+  <p>Some dictionary entries can be very long and can contain many results, so
+  you may wish to search them to find the section that is relevant to you.</p>
+
+  <steps>
+    <title>To find definitions:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Find</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>The <gui>Find</gui> bar will appear at the bottom of the
+      <app>Dictionary</app> window. Type in your search term to search within
+      the definition that is currently displayed.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Previous</gui> or
+      <gui style="button">Next</gui> to scroll through the results. The search
+      will not wrap around: in other words, it will not go to the top of the
+      page when you are on the last result and click
+      <gui style="button">Next</gui>.</p>
+    </item>
+  </steps>
+
+</page>

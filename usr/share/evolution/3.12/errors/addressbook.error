@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-list domain="addressbook">
+
+  <error type="error" id="ldap-init">
+    <primary>This address book could not be opened.</primary>
+    <secondary>This address book server might be unreachable or the server name may be misspelled or your network connection could be down.</secondary>
+  </error>
+
+  <error type="error" id="ldap-auth">
+    <primary>Failed to authenticate with LDAP server.</primary>
+    <secondary>Check to make sure your password is spelled correctly and that you are using a supported login method. Remember that many passwords are case sensitive; your caps lock might be on.</secondary>
+  </error>
+
+  <error type="error" id="ldap-search-base">
+    <primary>This address book server does not have any suggested search bases.</primary>
+    <secondary>This LDAP server may use an older version of LDAP, which does not support this functionality or it may be misconfigured. Ask your administrator for supported search bases.</secondary>
+  </error>
+
+  <error type="error" id="ldap-v3-schema">
+    <primary>This server does not support LDAPv3 schema information.</primary>
+  </error>
+
+  <error type="error" id="ldap-get-schema">
+    <primary>Could not get schema information for LDAP server.</primary>
+  </error>
+
+  <error type="error" id="ldap-invalid-schema">
+    <primary>LDAP server did not respond with valid schema information.</primary>
+  </error>
+
+  <error type="error" id="remove-addressbook">
+    <primary>Could not remove address book.</primary>
+  </error>
+
+  <error type="question" id="ask-delete-addressbook" default="GTK_RESPONSE_CANCEL">
+    <primary>Delete address book '{0}'?</primary>
+    <secondary>This address book will be removed permanently.</secondary>
+    <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_YES"/>
+  </error>
+
+ <error type="question" id="ask-delete-remote-addressbook" default="GTK_RESPONSE_CANCEL">
+   <primary>Delete remote address book &quot;{0}&quot;?</primary>
+   <secondary>This will permanently remove the address book &quot;{0}&quot; from the server. Are you sure you want to proceed?</secondary>
+   <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+   <button response="GTK_RESPONSE_YES" label="_Delete From Server"></button>
+ </error>
+
+  <error type="error" id="edit-categories">
+    <primary>Category editor not available.</primary>
+  </error>
+
+  <error type="error" id="generic-error">
+    <primary>{0}</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+  <error type="error" id="load-error">
+    <primary>Unable to open address book '{0}'</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+  <error type="error" id="search-error">
+    <primary>Unable to perform search.</primary>
+    <secondary>{0}</secondary>
+  </error>
+
+  <error type="question" id="prompt-save" default="GTK_RESPONSE_YES">
+    <primary>Would you like to save your changes?</primary>
+    <secondary>You have made modifications to this contact. Do you want to save these changes?</secondary>
+    <button response="GTK_RESPONSE_NO" label="_Discard"></button>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button stock="gtk-save" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="question" id="prompt-move" default="GTK_RESPONSE_NO">
+    <primary>Cannot move contact.</primary>
+    <secondary>You are attempting to move a contact from one address book to another but it cannot be removed from the source. Do you want to save a copy instead?</secondary>
+    <button stock="gtk-no" response="GTK_RESPONSE_NO"/>
+    <button stock="gtk-yes" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="question" id="prompt-resize" default="GTK_RESPONSE_YES">
+    <primary>The image you have selected is large. Do you want to resize and store it?</primary>
+    <button response="GTK_RESPONSE_YES" label="_Resize"></button>
+    <button response="GTK_RESPONSE_NO" label="_Use as it is"></button>
+    <button response="GTK_RESPONSE_CANCEL" label="_Do not save"></button>
+  </error>
+
+  <error type="error" id="save-error">
+    <primary>Unable to save {0}.</primary>
+    <secondary>Error saving {0} to {1}: {2}</secondary>
+  </error>
+
+  <error type="question" id="ask-list-add-exists" default="GTK_RESPONSE_NO">
+    <primary>Address '{0}' already exists.</primary>
+    <secondary>A contact already exists with this address. Would you like to add a new card with the same address anyway?</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button stock="gtk-ok" response="GTK_RESPONSE_YES" label="_Add"></button>
+  </error>
+
+  <error type="question" id="ask-list-add-some-mails-exist" default="GTK_RESPONSE_CANCEL">
+    <primary>Some addresses already exist in this contact list.</primary>
+    <secondary>You are trying to add addresses that are part of this list already. Would you like to add them anyway?</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_NO" label="Skip duplicates"></button>
+    <button response="GTK_RESPONSE_YES" label="Add with duplicates"></button>
+  </error>
+
+  <error type="question" id="ask-list-add-list-exists" default="GTK_RESPONSE_NO">
+    <primary>List '{0}' is already in this contact list.</primary>
+    <secondary>A contact list named '{0}' is already in this contact list. Would you like to add it anyway?</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button stock="gtk-ok" response="GTK_RESPONSE_YES" label="_Add"></button>
+  </error>
+
+  <error type="warning" id="contact-delete-error-perm">
+    <primary>Failed to delete contact</primary>
+    <secondary>You do not have permission to delete contacts in this address book.</secondary>
+  </error>
+
+  <error type="error" id="error-read-only" default="GTK_RESPONSE_YES">
+    <primary>Cannot add new contact</primary>
+    
+    <secondary>'{0}' is a read-only address book and cannot be modified. Please select a different address book from the side bar in the Contacts view.</secondary>
+  </error>
+
+  <error type="error" id="error-still-opening" default="GTK_RESPONSE_YES">
+    <primary>Cannot save a contact, address book is still opening</primary>
+    
+    <secondary>Cannot save a contact to the address book '{0}', because it is still opening. Either wait till it's opened, or select a different address book.</secondary>
+  </error>
+
+</error-list>

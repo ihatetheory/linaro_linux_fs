@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Error al obtener definiciones</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>No se pudieron encontrar definiciones</title>
+
+  <p>Si ve el mensaje de error <sys>Error al obtener definiciones</sys> al buscar una definición de cualquiera de los <link xref="sources-select">diccionarios seleccionados</link>, el problema es seguramente uno lo de los siguientes:</p>
+
+  <list>
+    <item>
+      <p>Uono o más servidores <app>DICT</app> seleccionados usados para buscar definiciones pueden no estar funcionando correctamente. Puede esperar un poco antes de <link xref="definition">buscar</link> la definición otra vez.</p>
+    </item>
+    <item>
+      <p>Es posible que su conexión a Internet no funcione. Para que <app>Diccionario</app>pueda buscar términos, su equipo <link href="help:gnome-help/net">debe poder conectarse</link> a <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

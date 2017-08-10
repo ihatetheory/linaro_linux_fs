@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-select" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="sources-default"/>
+    <link type="seealso" xref="dictionary-select"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Výběr zdroje slovníků</title>
+
+  <p>Můžete si změnit <link xref="sources">zdroj slovníků</link>, který chcete zrovna použít, aniž byste museli měnit své výchozí předvolby.</p>
+
+  <steps>
+    <title>Dočasná změna zdroje slovníků se provede následovně:</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Zobrazit</gui> <gui style="menuitem">Zdroje slovníků</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Dvojitě klikněte na zdroj slovníků, který chcete použít.</p>
+    </item>
+  </steps>
+
+</page>

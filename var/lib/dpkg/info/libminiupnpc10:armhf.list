@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libminiupnpc10
+/usr/share/doc/libminiupnpc10/copyright
+/usr/share/doc/libminiupnpc10/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libminiupnpc.so.10

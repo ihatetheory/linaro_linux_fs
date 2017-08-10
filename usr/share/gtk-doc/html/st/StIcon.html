@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>StIcon: St Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="St Reference Manual">
+<link rel="up" href="widgets.html" title="Widgets">
+<link rel="prev" href="StEntry.html" title="StEntry">
+<link rel="next" href="StLabel.html" title="StLabel">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#StIcon.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#StIcon.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#StIcon.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#StIcon.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="widgets.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="StEntry.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="StLabel.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="StIcon"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="StIcon.top_of_page"></a>StIcon</span></h2>
+<p>StIcon — a simple styled icon actor</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="StIcon.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-new" title="st_icon_new ()">st_icon_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-get-icon-name" title="st_icon_get_icon_name ()">st_icon_get_icon_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-set-icon-name" title="st_icon_set_icon_name ()">st_icon_set_icon_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-get-icon-size" title="st_icon_get_icon_size ()">st_icon_get_icon_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-set-icon-size" title="st_icon_set_icon_size ()">st_icon_set_icon_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-set-gicon" title="st_icon_set_gicon ()">st_icon_set_gicon</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/gio/unstable/GIcon.html"><span class="returnvalue">GIcon</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StIcon.html#st-icon-get-gicon" title="st_icon_get_gicon ()">st_icon_get_gicon</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StIcon.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/gio/unstable/GIcon.html"><span class="type">GIcon</span></a> *</td>
+<td class="property_name"><a class="link" href="StIcon.html#StIcon--gicon" title="The “gicon” property">gicon</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="StIcon.html#StIcon--icon-name" title="The “icon-name” property">icon-name</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a></td>
+<td class="property_name"><a class="link" href="StIcon.html#StIcon--icon-size" title="The “icon-size” property">icon-size</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StIcon.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="StIcon.html#StIcon-struct" title="StIcon">StIcon</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StIcon.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> ClutterActor
+            <span class="lineart">╰──</span> <a class="link" href="StWidget.html" title="StWidget">StWidget</a>
+                <span class="lineart">╰──</span> StIcon
+</pre>
+</div>
+<div class="refsect1">
+<a name="StIcon.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+StIcon implements
+ ClutterContainer,  ClutterScriptable,  ClutterAnimatable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1">
+<a name="StIcon.description"></a><h2>Description</h2>
+<p><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> is a simple styled texture actor that displays an image from
+a stylesheet.</p>
+</div>
+<div class="refsect1">
+<a name="StIcon.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="st-icon-new"></a><h3>st_icon_new ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+st_icon_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Create a newly allocated <a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a></p>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.2.5"></a><h4>Returns</h4>
+<p> A newly allocated <a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-icon-get-icon-name"></a><h3>st_icon_get_icon_name ()</h3>
+<pre class="programlisting">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+st_icon_get_icon_name (<em class="parameter"><code><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> *icon</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-icon-set-icon-name"></a><h3>st_icon_set_icon_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_icon_set_icon_name (<em class="parameter"><code><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> *icon</code></em>,
+                       <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *icon_name</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-icon-get-icon-size"></a><h3>st_icon_get_icon_size ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+st_icon_get_icon_size (<em class="parameter"><code><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> *icon</code></em>);</pre>
+<p>Gets the size explicit size on the icon. This is not necesariily
+ the size that the icon will actually be displayed at.</p>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p>an icon</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.5.6"></a><h4>Returns</h4>
+<p> the size explicitly set, or -1 if no size has been set</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-icon-set-icon-size"></a><h3>st_icon_set_icon_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_icon_set_icon_size (<em class="parameter"><code><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> *icon</code></em>,
+                       <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a> size</code></em>);</pre>
+<p>Sets an explicit size for the icon.</p>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.6.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p>an icon</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>size</p></td>
+<td class="parameter_description"><p>if positive, the new size, otherwise the size will be
+derived from the current style</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-icon-set-gicon"></a><h3>st_icon_set_gicon ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_icon_set_gicon (<em class="parameter"><code><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> *icon</code></em>,
+                   <em class="parameter"><code><a href="https://developer.gnome.org/gio/unstable/GIcon.html"><span class="type">GIcon</span></a> *gicon</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.7.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p>an icon</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>gicon</p></td>
+<td class="parameter_description"><p> a <a href="https://developer.gnome.org/gio/unstable/GIcon.html"><span class="type">GIcon</span></a> to override :icon-name. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-icon-get-gicon"></a><h3>st_icon_get_gicon ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/gio/unstable/GIcon.html"><span class="returnvalue">GIcon</span></a> *
+st_icon_get_gicon (<em class="parameter"><code><a class="link" href="StIcon.html" title="StIcon"><span class="type">StIcon</span></a> *icon</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.8.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p>an icon</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.5.9.8.5"></a><h4>Returns</h4>
+<p> the override GIcon, if set, or NULL. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="StIcon.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="StIcon-struct"></a><h3>StIcon</h3>
+<pre class="programlisting">typedef struct _StIcon StIcon;</pre>
+<p>The contents of this structure are private and should only be accessed
+through the public API.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StIcon.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="StIcon--gicon"></a><h3>The <code class="literal">“gicon”</code> property</h3>
+<pre class="programlisting">  “gicon”                    <a href="https://developer.gnome.org/gio/unstable/GIcon.html"><span class="type">GIcon</span></a> *</pre>
+<p>The GIcon shown by this icon actor.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StIcon--icon-name"></a><h3>The <code class="literal">“icon-name”</code> property</h3>
+<pre class="programlisting">  “icon-name”                <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>An icon name.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StIcon--icon-size"></a><h3>The <code class="literal">“icon-size”</code> property</h3>
+<pre class="programlisting">  “icon-size”                <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a></pre>
+<p>The size if the icon, if positive. Otherwise the size will be derived from the current style.</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

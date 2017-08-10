@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python2.7/dist-packages/UbuntuSystemService/__init__.py
+072e8d8ac089d3f4e3b69d3935c30b35  usr/lib/python2.7/dist-packages/UbuntuSystemService/backend.py
+b3e3687b949651cc71f5716d5d232cac  usr/lib/python2.7/dist-packages/UbuntuSystemService/utils.py
+dcbbe82385c7c40ac424ea2a8c6fc8a9  usr/lib/python2.7/dist-packages/system_service-0.1.6.egg-info
+51013351d72706477df866adb6efa686  usr/lib/system-service/system-service-d
+314ef4de872971d05ff1935663ea2a14  usr/share/dbus-1/system-services/com.ubuntu.SystemService.service
+b3ff8c5386bf57b55a30b9ca3cc3ceaa  usr/share/doc/ubuntu-system-service/changelog.gz
+cb9f4ab6aac39c6f48238aa78e818cab  usr/share/doc/ubuntu-system-service/copyright
+b829c6f721899aed362018ff21f2d1d1  usr/share/polkit-1/actions/com.ubuntu.systemservice.policy

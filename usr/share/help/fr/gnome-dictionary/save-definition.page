@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="save-definition" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Enregistrer une copie d'une définition dans un fichier texte.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enregistrement d'une définition</title>
+
+  <p>Vous pouvez enregistrer une définition dans un fichier texte. Cela peut être utile si vous voulez l'utiliser en dehors du <app>Dictionnaire</app>.</p>
+
+  <steps>
+    <title>Pour enregistrer une définition :</title>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu">Fichier</gui> <gui style="menuitem">Enregistrer une copie…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Choisissez l'endroit où vous souhaitez enregistrer la définition et un nom pour le fichier. Vous pouvez aussi ajouter l'extension de fichier <file>.txt</file> à la fin du nom de fichier.</p>
+    </item>
+    <item>
+      <p>Appuyez sur <gui style="button">Enregistrer</gui> pour sauvegarder la définition.</p>
+    </item>
+  </steps>
+
+</page>

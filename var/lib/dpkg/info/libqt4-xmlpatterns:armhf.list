@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqt4-xmlpatterns
+/usr/share/doc/libqt4-xmlpatterns/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libqt4-xmlpatterns
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libQtXmlPatterns.so.4.8.6
+/usr/share/doc/libqt4-xmlpatterns/changelog.Debian.gz
+/usr/share/doc/libqt4-xmlpatterns/LGPL_EXCEPTION.txt
+/usr/lib/arm-linux-gnueabihf/libQtXmlPatterns.so.4.8
+/usr/lib/arm-linux-gnueabihf/libQtXmlPatterns.so.4

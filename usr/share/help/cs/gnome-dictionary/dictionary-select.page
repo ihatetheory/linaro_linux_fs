@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="dictionary-select" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.comm</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Výběr jiného slovníku</title>
+
+  <p>Jeden <link xref="sources">zdroj slovníků</link> může obsahovat řadu různých slovníků. Hledat můžete v kterémkoliv z nich.</p>
+
+  <steps>
+    <title>Výběr slovníku</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Zobrazit</gui> <gui style="menuitem">Dostupné slovníky</gui></guiseq>. Otevře se postranní panel se seznamem dostupných slovníků v aktuálně vybrané zdroji slovníků.</p>
+    </item>
+    <item>
+      <p>Klikněte dvojitě na slovník, který chcete použít.</p>
+    </item>
+  </steps>
+
+  <p>Pro následující výraz, který budete <link xref="definition">hledat</link>, se zobrazí výsledky z tohoto vybraného slovníku.</p>
+
+  <note>
+    <p>Výběr slovníku se nezapamatovává pro příští spuštění <app>Slovníku</app>.</p>
+  </note>
+
+</page>

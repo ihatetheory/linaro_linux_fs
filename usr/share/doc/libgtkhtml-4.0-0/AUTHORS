@@ -1,0 +1,28 @@
+Based on the KHTMLW widget from KDE 1.x by:
+
+	Torben Weis <weis@stud.uni-frankfurt.de>
+	Josip A. Gracin <grac@fly.cc.fer.hr>
+	Martin Jones <mjones@kde.org>
+
+Main authors:
+
+	Anders Carlsson <andersca@gnu.org> (initial KHTMLW port)
+	Ettore Perazzoli <ettore@ximian.com> (generic hacking, editing)
+	Jonas Borgström <jonas_b@bitsmart.com> (form support)
+	Radek Doulik <rodo@ximian.com> (bug fixes)
+	Larry Ewing <lewing@ximian.com> (bug fixes)
+	Miguel de Icaza <miguel@ximian.com> (HTMLPainter)
+
+Other contributors:
+
+	Ariel Rios <jarios@usa.net>
+	Havoc Pennington <hp@pobox.com>
+	Elliot Lee  <sopwith@redhat.com>
+	Richard Hult <rhult@hem.passagen.se>
+	Martijn van Beers <martijn@earthling.net>
+
+The glibwww library used by `testgtkhtml' was independently written
+by:
+
+	James Henstridge <james@daa.com.au>
+	Ariel Rios <ariel@galway.com.mx>

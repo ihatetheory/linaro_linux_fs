@@ -1,0 +1,17 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ubuntu-touch-sounds
+Upstream-Contact: Jouni Helminen <jouni.helminen@canonical.com>
+
+Files: *
+Copyright: 2013, Canonical Ltd.
+License: CC-BY-SA-3.0
+
+Files: ringtones/Sam's\ Song.ogg
+Copyright: 2013, Sam Hulick
+License: CC-BY-SA-3.0
+
+License: CC-BY-SA-3.0
+ This work is licensed under the Creative Commons Attribution-ShareAlike 3.0
+ Unported License. To view a copy of this license, visit
+ http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative
+ Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.

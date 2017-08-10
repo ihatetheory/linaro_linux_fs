@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/xdg/autostart/gnome-power-manager.desktop 2.32.0-1~ gnome-power-manager -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/gnome-power-manager.conf 2.24.4-2~ gnome-power-manager -- "$@"
+# End automatically added section
+# Automatically added by dh_icons
+if which update-icon-caches >/dev/null 2>&1 ; then
+	update-icon-caches /usr/share/icons/HighContrast
+fi
+# End automatically added section

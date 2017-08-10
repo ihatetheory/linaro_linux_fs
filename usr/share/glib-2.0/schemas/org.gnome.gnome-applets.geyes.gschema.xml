@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-applets-3.0">
+	<schema id="org.gnome.gnome-applets.geyes">
+		<key type="s" name="theme-path">
+			<default>''</default>
+			<summary>Directory in which the theme is located</summary>
+		</key>
+	</schema>
+</schemalist>

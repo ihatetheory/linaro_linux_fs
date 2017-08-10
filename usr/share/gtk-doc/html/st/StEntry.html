@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>StEntry: St Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="St Reference Manual">
+<link rel="up" href="widgets.html" title="Widgets">
+<link rel="prev" href="StDrawingArea.html" title="StDrawingArea">
+<link rel="next" href="StIcon.html" title="StIcon">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#StEntry.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#StEntry.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#StEntry.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#StEntry.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#StEntry.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="widgets.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="StDrawingArea.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="StIcon.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="StEntry"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="StEntry.top_of_page"></a>StEntry</span></h2>
+<p>StEntry — Widget for displaying text</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="StEntry.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-new" title="st_entry_new ()">st_entry_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-get-text" title="st_entry_get_text ()">st_entry_get_text</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-text" title="st_entry_set_text ()">st_entry_set_text</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-get-clutter-text" title="st_entry_get_clutter_text ()">st_entry_get_clutter_text</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-hint-text" title="st_entry_set_hint_text ()">st_entry_set_hint_text</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-get-hint-text" title="st_entry_get_hint_text ()">st_entry_get_hint_text</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-input-purpose" title="st_entry_set_input_purpose ()">st_entry_set_input_purpose</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputPurpose"><span class="returnvalue">GtkInputPurpose</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-get-input-purpose" title="st_entry_get_input_purpose ()">st_entry_get_input_purpose</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-input-hints" title="st_entry_set_input_hints ()">st_entry_set_input_hints</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputHints"><span class="returnvalue">GtkInputHints</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-get-input-hints" title="st_entry_get_input_hints ()">st_entry_get_input_hints</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-primary-icon" title="st_entry_set_primary_icon ()">st_entry_set_primary_icon</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-secondary-icon" title="st_entry_set_secondary_icon ()">st_entry_set_secondary_icon</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="StEntry.html#StEntryCursorFunc" title="StEntryCursorFunc ()">*StEntryCursorFunc</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StEntry.html#st-entry-set-cursor-func" title="st_entry_set_cursor_func ()">st_entry_set_cursor_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StEntry.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<span class="type">ClutterText</span> *</td>
+<td class="property_name"><a class="link" href="StEntry.html#StEntry--clutter-text" title="The “clutter-text” property">clutter-text</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="StEntry.html#StEntry--hint-text" title="The “hint-text” property">hint-text</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputHints"><span class="type">GtkInputHints</span></a></td>
+<td class="property_name"><a class="link" href="StEntry.html#StEntry--input-hints" title="The “input-hints” property">input-hints</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputPurpose"><span class="type">GtkInputPurpose</span></a></td>
+<td class="property_name"><a class="link" href="StEntry.html#StEntry--input-purpose" title="The “input-purpose” property">input-purpose</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="StEntry.html#StEntry--text" title="The “text” property">text</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StEntry.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="StEntry.html#StEntry-primary-icon-clicked" title="The “primary-icon-clicked” signal">primary-icon-clicked</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="StEntry.html#StEntry-secondary-icon-clicked" title="The “secondary-icon-clicked” signal">secondary-icon-clicked</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StEntry.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="StEntry.html#StEntry-struct" title="struct StEntry">StEntry</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StEntry.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> ClutterActor
+            <span class="lineart">╰──</span> <a class="link" href="StWidget.html" title="StWidget">StWidget</a>
+                <span class="lineart">╰──</span> StEntry
+</pre>
+</div>
+<div class="refsect1">
+<a name="StEntry.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+StEntry implements
+ ClutterContainer,  ClutterScriptable,  ClutterAnimatable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1">
+<a name="StEntry.description"></a><h2>Description</h2>
+<p><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> is a simple widget for displaying text. It derives from
+<a class="link" href="StWidget.html" title="StWidget"><span class="type">StWidget</span></a> to add extra style and placement functionality over
+<span class="type">ClutterText</span>. The internal <span class="type">ClutterText</span> is publicly accessibly to allow
+applications to set further properties.</p>
+<p><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> supports the following pseudo style states:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p>focus: the widget has focus</p></li>
+<li class="listitem"><p>indeterminate: the widget is showing the hint text</p></li>
+</ul></div>
+</div>
+<div class="refsect1">
+<a name="StEntry.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="st-entry-new"></a><h3>st_entry_new ()</h3>
+<pre class="programlisting"><a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+st_entry_new (<em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *text</code></em>);</pre>
+<p>Create a new <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> with the specified entry</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p>text to set the entry to</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.2.6"></a><h4>Returns</h4>
+<p> a new <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-get-text"></a><h3>st_entry_get_text ()</h3>
+<pre class="programlisting">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+st_entry_get_text (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>);</pre>
+<p>Get the text displayed on the entry</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.3.6"></a><h4>Returns</h4>
+<p> the text for the entry. This must not be freed by the application</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-text"></a><h3>st_entry_set_text ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_text (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                   <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *text</code></em>);</pre>
+<p>Sets the text displayed on the entry</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p> text to set the entry to. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-get-clutter-text"></a><h3>st_entry_get_clutter_text ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+st_entry_get_clutter_text (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>);</pre>
+<p>Retrieve the internal <span class="type">ClutterText</span> so that extra parameters can be set</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.5.6"></a><h4>Returns</h4>
+<p> the <span class="type">ClutterText</span> used by <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a>. The entry is
+owned by the <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> and should not be unref'ed by the application. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-hint-text"></a><h3>st_entry_set_hint_text ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_hint_text (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                        <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *text</code></em>);</pre>
+<p>Sets the text to display when the entry is empty and unfocused. When the
+entry is displaying the hint, it has a pseudo class of "indeterminate".
+A value of NULL unsets the hint.</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.6.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p> text to set as the entry hint. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-get-hint-text"></a><h3>st_entry_get_hint_text ()</h3>
+<pre class="programlisting">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+st_entry_get_hint_text (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>);</pre>
+<p>Gets the text that is displayed when the entry is empty and unfocused</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.7.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.7.6"></a><h4>Returns</h4>
+<p> the current value of the hint property. This string is owned by the
+<a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> and should not be freed or modified.</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-input-purpose"></a><h3>st_entry_set_input_purpose ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_input_purpose (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                            <em class="parameter"><code><a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputPurpose"><span class="type">GtkInputPurpose</span></a> purpose</code></em>);</pre>
+<p>Sets the <a class="link" href="StEntry.html#StEntry--input-purpose" title="The “input-purpose” property"><span class="type">“input-purpose”</span></a> property which
+can be used by on-screen keyboards and other input
+methods to adjust their behaviour.</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.8.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>purpose</p></td>
+<td class="parameter_description"><p>the purpose</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-get-input-purpose"></a><h3>st_entry_get_input_purpose ()</h3>
+<pre class="programlisting"><a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputPurpose"><span class="returnvalue">GtkInputPurpose</span></a>
+st_entry_get_input_purpose (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>);</pre>
+<p>Gets the value of the <a class="link" href="StEntry.html#StEntry--input-purpose" title="The “input-purpose” property"><span class="type">“input-purpose”</span></a> property.</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.9.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-input-hints"></a><h3>st_entry_set_input_hints ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_input_hints (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                          <em class="parameter"><code><a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputHints"><span class="type">GtkInputHints</span></a> hints</code></em>);</pre>
+<p>Sets the <a class="link" href="StEntry.html#StEntry--input-hints" title="The “input-hints” property"><span class="type">“input-hints”</span></a> property, which
+allows input methods to fine-tune their behaviour.</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.10.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>hints</p></td>
+<td class="parameter_description"><p>the hints</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-get-input-hints"></a><h3>st_entry_get_input_hints ()</h3>
+<pre class="programlisting"><a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputHints"><span class="returnvalue">GtkInputHints</span></a>
+st_entry_get_input_hints (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>);</pre>
+<p>Gets the value of the <a class="link" href="StEntry.html#StEntry--input-hints" title="The “input-hints” property"><span class="type">“input-hints”</span></a> property.</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.11.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-primary-icon"></a><h3>st_entry_set_primary_icon ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_primary_icon (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                           <em class="parameter"><code><span class="type">ClutterActor</span> *icon</code></em>);</pre>
+<p>Set the primary icon of the entry to <em class="parameter"><code>icon</code></em>
+</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.12.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p> a <span class="type">ClutterActor</span>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-secondary-icon"></a><h3>st_entry_set_secondary_icon ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_secondary_icon (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                             <em class="parameter"><code><span class="type">ClutterActor</span> *icon</code></em>);</pre>
+<p>Set the secondary icon of the entry to <em class="parameter"><code>icon</code></em>
+</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.10.13.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>entry</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p> an <span class="type">ClutterActor</span>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StEntryCursorFunc"></a><h3>StEntryCursorFunc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*StEntryCursorFunc<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *entry</code></em>,
+                      <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> use_ibeam</code></em>,
+                      <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> data</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-entry-set-cursor-func"></a><h3>st_entry_set_cursor_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_entry_set_cursor_func (<em class="parameter"><code><a class="link" href="StEntry.html#StEntryCursorFunc" title="StEntryCursorFunc ()"><span class="type">StEntryCursorFunc</span></a> func</code></em>,
+                          <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data</code></em>);</pre>
+<p>This function is for private use by libgnome-shell.
+Do not ever use.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StEntry.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="StEntry-struct"></a><h3>struct StEntry</h3>
+<pre class="programlisting">struct StEntry;</pre>
+<p>The contents of this structure is private and should only be accessed using
+the provided API.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StEntry.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="StEntry--clutter-text"></a><h3>The <code class="literal">“clutter-text”</code> property</h3>
+<pre class="programlisting">  “clutter-text”             <span class="type">ClutterText</span> *</pre>
+<p>Internal ClutterText actor.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StEntry--hint-text"></a><h3>The <code class="literal">“hint-text”</code> property</h3>
+<pre class="programlisting">  “hint-text”                <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>Text to display when the entry is not focused and the text property is empty.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StEntry--input-hints"></a><h3>The <code class="literal">“input-hints”</code> property</h3>
+<pre class="programlisting">  “input-hints”              <a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputHints"><span class="type">GtkInputHints</span></a></pre>
+<p>Hints for the text field behaviour.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StEntry--input-purpose"></a><h3>The <code class="literal">“input-purpose”</code> property</h3>
+<pre class="programlisting">  “input-purpose”            <a href="http://developer.gnome.org/gtk2/GtkEntry.html#GtkInputPurpose"><span class="type">GtkInputPurpose</span></a></pre>
+<p>Purpose of the text field.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: GTK_INPUT_PURPOSE_FREE_FORM</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StEntry--text"></a><h3>The <code class="literal">“text”</code> property</h3>
+<pre class="programlisting">  “text”                     <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>Text of the entry.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StEntry.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="StEntry-primary-icon-clicked"></a><h3>The <code class="literal">“primary-icon-clicked”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *self,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data)</pre>
+<p>Emitted when the primary icon is clicked</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.13.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>the <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StEntry-secondary-icon-clicked"></a><h3>The <code class="literal">“secondary-icon-clicked”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a> *self,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data)</pre>
+<p>Emitted when the secondary icon is clicked</p>
+<div class="refsect3">
+<a name="id-1.2.3.4.13.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>the <a class="link" href="StEntry.html" title="StEntry"><span class="type">StEntry</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

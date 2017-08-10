@@ -1,0 +1,6 @@
+9db47e39966c8940ef1b9c69a3aa7af6  usr/bin/dvd+rw-format
+e20d27b92d784c108365ad70ed8bfba1  usr/bin/growisofs
+f69bc41ebfe1e6bf2bc566fb71c57052  usr/share/doc/growisofs/changelog.Debian.gz
+b1a9e4fdfa77508c7eba408d3d5a2f75  usr/share/doc/growisofs/copyright
+8a6b9f4b8344dcb671ba29afd22f79d1  usr/share/man/man1/dvd+rw-format.1.gz
+09765cebf019a0ebcccd0d79e2a01691  usr/share/man/man1/growisofs.1.gz

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Hiba a meghatározás letöltése közben</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nem találhatók meghatározások</title>
+
+  <p>Ha a <sys>Hiba a meghatározás letöltése közben</sys> hibaüzenetet látja, amikor egy meghatározást keres bármely <link xref="sources-select">kiválasztott szótárban</link>, a probléma leginkább a következők egyike lehet:</p>
+
+  <list>
+    <item>
+      <p>A meghatározások kereséséhez használt kiválasztott <app>DICT</app> kiszolgálók közül egy vagy több nem működik. Megpróbálhat várakozni egy ideig, mielőtt a meghatározást ismét <link xref="definition">keresné</link>.</p>
+    </item>
+    <item>
+      <p>Nincsen működő internetkapcsolata. A kifejezések <app>Szótárban</app> való kereséséhez a számítógépének <link href="help:gnome-help/net">képesnek kell lennie csatlakozni</link> a <sys href="http://dict.org">dict.org</sys> címhez.</p>
+    </item>
+  </list>
+
+</page>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pilih fonta untuk mencetak definisi.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fonta cetak</title>
+
+  <p>Anda dapat mengubah muka dan ukuran fonta baku yang dipakai ketika mencetak definisi.</p>
+
+  <steps>
+    <title>Mengubah fonta</title>
+    <item>
+      <p>Pilih <guiseq><gui style="menu">Kamus</gui> <gui style="menuitem">Preferensi</gui> <gui style="tab">Cetak</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Klik tombol pemilih fonta.</p>
+    </item>
+    <item>
+      <p>Pilih fonta yang ingin Anda pakai.</p>
+    </item>
+    <item>
+      <p>Seret penggeser ke kanan untuk memperbesar ukuran fonta atau ke kiri untuk memperkecilnya. Sebagai alternatif, Anda dapat mengetikkan ukuran fonta dalam kotak teks, atau memakai tombol <gui>-</gui> dan <gui>+</gui> untuk mengurangi dan meningkatkan ukuran fonta.</p>
+    </item>
+    <item>
+      <p>Klik <gui style="button">Pilih</gui> untuk menyimpan pengaturan fonta Anda.</p>
+    </item>
+  </steps>
+
+  <p>Definisi tak ditata ulang untuk pencetakan, sehingga bila Anda memilih suatu ukuran fonta yang besar, sebagian teks mungkin terpotong.</p>
+
+</page>

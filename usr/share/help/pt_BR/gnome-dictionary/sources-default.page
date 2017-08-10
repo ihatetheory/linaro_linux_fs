@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-default" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Definindo uma fonte de dicionário padrão</title>
+
+  <p>Quando você usar o <app>Dicionário</app> pela primeira vez, ele deveria ter alguns dicionários instalados previamente que você pode usar. Você pode alterar <link xref="sources">fonte de dicionário</link> padrão que você gostaria de usar.</p>
+
+  <steps>
+    <title>Altere a fonte do dicionário padrão:</title>
+    <item>
+      <p>Selecione <guiseq><gui><app>Dicionário</app></gui> <gui style="menu">Preferências</gui> <gui style="tab">Fonte</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Selecione a fonte de dicionário que você deseja definir como padrão.</p>
+    </item>
+    <item>
+      <p>Sua alteração será salva automaticamente.</p>
+    </item>
+  </steps>
+
+</page>

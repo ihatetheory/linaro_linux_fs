@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vous pouvez utiliser des raccourcis clavier pour naviguer dans <app>Dictionnaire</app> plus efficacement.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Raccourcis clavier</title>
+
+  <p>Les raccourcis clavier sont des combinaisons de touche qui peuvent être utilisées au lieu d'utiliser les menus. Les raccourcis clavier suivants sont disponibles :</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Naviguer dans <app>Dictionnaire</app></title>
+    <thead>
+      <tr>
+        <td><p>Action</p></td>
+        <td><p>Raccourci</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Aperçu avant impression</p></td>
+        <td><p><keyseq><key>Majuscule</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Impression</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Afficher la barre latérale</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Ouvrir une nouvelle fenêtre de <app>Dictionnaire</app></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Fermer la fenêtre de <app>Dictionnaire</app> actuelle</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Raccourcis de recherche</title>
+    <thead>
+      <tr>
+        <td><p>Action</p></td>
+        <td><p>Raccourci</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Recherche dans une définition</p></td>
+        <td><p><key>/</key> ou <keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Rechercher le suivant</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Rechercher le précédent</p></td>
+        <td><p><keyseq><key>Majuscule</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Naviguer dans une définition</title>
+    <thead>
+      <tr>
+        <td><p>Action</p></td>
+        <td><p>Raccourci</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Définition précédente</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page haut</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Définition suivante</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Page bas</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Première définition</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Origine</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Dernière définition</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Fin</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Raccourcis des définitions du <app>Dictionnaire</app> :</title>
+    <thead>
+      <tr>
+        <td><p>Action</p></td>
+        <td><p>Raccourci</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Mots similaires</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Sources de dictionnaires</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Bases de données disponibles</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Stratégies disponibles</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

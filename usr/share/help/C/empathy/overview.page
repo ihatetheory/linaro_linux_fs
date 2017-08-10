@@ -1,0 +1,60 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="overview">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>
+      What instant messaging is and how you can use it.
+    </desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Overview of instant messaging</title>
+
+  <p>
+    Instant messaging, sometimes abbreviated to IM, is a text-based means to
+    communicate instantly over the internet and the local network. While some
+    IM applications work with only one type of account, others, including
+    <link xref="introduction">Empathy</link>, provide IM facilities by using
+    <link xref="add-account">accounts</link> from different service providers.
+    Some of these even support audio and video calling.
+  </p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no" /></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no" /></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no" /></p></td>
+     </tr>
+     <tr>
+       <td><p>Video Conference</p></td>
+       <td><p>Group chats</p></td>
+       <td><p>Chat rooms</p></td>
+      </tr>
+  </table>
+
+  <p>
+    Some instant messaging applications can be used to connect to chat rooms,
+    online places where like-minded people meet to talk. One popular means to
+    connect to several chat rooms is the Internet Relay Chat, also known as
+    <link xref="irc-manage">IRC</link>. IRC provides
+    <link xref="irc-join-room">public</link> chat rooms, which are open to
+    anyone who creates an account on the IRC Server, and private chat rooms,
+    which are <link xref="irc-join-pwd">password protected</link>
+    and open only to a select few.
+  </p>
+
+</page>

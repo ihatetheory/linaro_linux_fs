@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.2.2">
+<!ENTITY manrevision "2.5">
+<!ENTITY date "June 2010">
+<!ENTITY app "GStreamer Properties">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+  
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="el">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Οδηγός Ιδιοτήτων GStreamer V2.5</title>       
+
+    <copyright>
+      <year>2003</year> 
+      <holder>Christian Fredrik Kalager Schaller</holder> 
+    </copyright> 
+
+    <abstract role="description">
+      <para>Οι ιδιότητες του Gstreamer σας επιτρέπουν να τροποποιήσετε παραμέτρους σχετικές με το υλικό και τα πολυμέσα</para>
+    </abstract>
+
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+    <publisher> 
+      <publishername>Έργο Τεκμηρίωσης GNOME</publishername> 
+    </publisher> 
+
+     <legalnotice id="legalnotice">
+	<para>Δίνεται άδεια για αντιγραφή, διανομή και/ή τροποποίηση του εγγράφου υπό τους όρους της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), Έκδοση 1.1 ή μεταγενέστερη εκδιδόμενη από το Ίδρυμα Ελεύθερου Λογισμικού χωρίς Σταθερά Εδάφια, χωρίς Εξώφυλλα Κειμένου, και χωρίς Οπισθόφυλλα Κειμένου. Μπορείτε να βρείτε ένα αντίγραφο της GFDL σε αυτόν τον <ulink type="help" url="ghelp:fdl">σύνδεσμο</ulink> ή στο αρχείο COPYING-DOCS που διανεμήθηκε με αυτόν τον οδηγό.</para>
+         <para>Αυτή η τεκμηρίωση είναι μέρος της συλλογής τεκμηρίωσης του GNOME όπως διανέμεται υπό τους όρους του GFDL. Εάν επιθυμείτε να διανείμετε αυτή την τεκμηρίωση ξεχωριστά από την συλλογή, μπορείτε να το κάνετε εάν η τεκμηρίωση συνοδεύεται από αντίγραφο της άδειας (GFDL) όπως περιγράφεται στον τομέα 6 της άδειας.</para>
+
+	<para>Πολλά από τα ονόματα που χρησιμοποιούνται από εταιρίες για να ξεχωρίσουν τα προϊόντα και τις υπηρεσίες είναι σήματα κατατεθέν. Όπου αυτά τα ονόματα εμφανίζονται στην τεκμηρίωση GNOME, και τα μέλη της ομάδας τεκμηρίωσης GNOME έχουν γνώση αυτών, τότε αυτά αναγράφονται με κεφαλαίους χαρακτήρες ή με αρχικούς κεφαλαίους χαρακτήρες.</para>
+
+	<para>ΤΟ ΈΓΓΡΑΦΟ ΚΑΙ ΤΡΟΠΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΑΔΕΙΑΣ GNU FREE DOCUMENTATION ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <orderedlist>
+		<listitem>
+		  <para>Η ΤΕΚΜΗΡΙΩΣΗ ΑΥΤΗ ΠΑΡΕΧΕΤΑΙ "ΩΣ ΕΧΕΙ", ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ ΟΤΙ ΜΠΟΡΕΙ ΝΑ ΕΞΥΠΗΡΕΤΗΣΕΙ ΚΑΠΟΙΟ ΣΚΟΠΟ Η ΟΤΙ ΕΙΝΑΙ ΧΩΡΙΣ ΣΦΑΛΜΑ. ΟΛΟΚΛΗΡΗ Η ΕΥΘΥΝΗ ΓΙΑ ΤΗΝ ΠΟΙΟΤΗΤΑ, ΑΚΡΙΒΕΙΑ ΚΑΙ ΛΕΙΤΟΥΡΓΙΚΟΤΗΤΑ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ Ή ΠΑΡΑΛΛΑΓΩΝ ΑΥΤΗΣ ΑΝΗΚΕΙ ΣΕ ΕΣΑΣ. ΕΑΝ Η ΤΕΚΜΗΡΙΩΣΗ ΑΥΤΗ Ή ΠΑΡΑΛΛΑΓΗ ΑΥΤΗΣ ΕΙΝΑΙ ΛΑΘΟΣ ΚΑΤΑ ΚΑΠΟΙΟ ΤΡΟΠΟ ΕΣΕΙΣ ΑΝΑΛΑΜΒΑΝΕΤΕ ΤΗΝ ΕΥΘΥΝΗ ΤΗΣ ΔΙΟΡΘΩΣΗΣ. Η ΑΠΑΛΛΑΓΗ ΕΥΘΥΝΗΣ ΠΟΥ ΣΥΝΟΔΕΥΕΙ ΑΥΤΗ ΤΗΝ ΤΕΚΜΗΡΙΩΣΗ ΕΙΝΑΙ ΑΝΑΠΟΣΠΑΣΤΟ ΚΟΜΜΑΤΙ ΑΥΤΗΣ. ΚΑΜΙΑ ΧΡΗΣΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ Ή ΠΑΡΑΛΛΑΓΩΝ ΑΥΤΗΣ ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΠΑΡΑ ΜΟΝΟ ΕΑΝ ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΑΛΛΑΓΗ ΕΥΘΥΝΗΣ.</para>
+		</listitem>
+		<listitem>
+		  <para>ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΝΟΜΙΚΗ ΣΥΝΘΗΚΗ, ΕΙΤΕ ΜΕΣΩ ΣΥΜΒΟΛΑΙΩΝ Ή ΑΛΛΙΩΣ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ Ο ΣΥΓΓΡΑΦΕΑΣ, Ο ΔΙΑΝΟΜΕΑΣ, Η ΑΛΛΟΣ ΣΥΝΥΠΕΥΘΥΝΟΣ ΓΙΑ ΤΗΝ ΣΥΓΓΡΑΦΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ, ΓΙΑ ΕΜΜΕΣΕΣ Η ΑΜΕΣΕΣ, ΤΥΧΑΙΕΣ Ή ΜΗ ΖΗΜΙΕΣ ΠΑΝΤΩΣ ΦΥΣΕΩΣ ΠΟΥ ΠΡΟΕΡΧΟΝΤΑΙ ΑΠΟ ΤΗΝ ΧΡΗΣΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ ΚΑΙ/Ή ΠΑΡΑΛΛΑΓΩΝ ΑΥΤΗΣ ΑΚΟΜΑ ΚΑΙ ΕΑΝ ΕΧΕΙ ΥΠΑΡΞΕΙ ΠΡΟΕΙΔΟΠΟΙΗΣΗ ΓΙΑ ΤΗΝ ΠΙΘΑΝΟΤΗΤΑ ΥΠΑΡΞΗΣ ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+
+    <authorgroup> 
+      <author role="maintainer"> 
+	<firstname>Christian Fredrik</firstname> 
+	<surname>Kalager Schaller</surname> 
+	<affiliation> 
+	  <orgname>gnome.org</orgname> 
+	  <address/> 
+	</affiliation> 
+      </author> 
+
+<!-- This is appropriate place for other contributors: translators,
+      maintainers,  etc. Commented out by default.
+       <othercredit role="translator">
+	<firstname>Latin</firstname> 
+	<surname>Translator 1</surname> 
+	<affiliation> 
+	  <orgname>Latin Translation Team</orgname> 
+	  <address> <email>translator@gnome.org</email> </address> 
+	</affiliation>
+	<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+    <revhistory>
+      <revision> 
+			<revnumber>Οδηγός Ιδιοτήτων GStreamer V2.5</revnumber> 
+			<date>Ιούνιος 2010</date> 
+			<revdescription> 
+	  			<para role="author">Marc-Andre Lureau</para>
+	  			<para role="publisher">Έργο Τεκμηρίωσης GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>Οδηγός Ιδιοτήτων GStreamer V2.4</revnumber> 
+			<date>Δεκέμβριος 2003</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">Έργο Τεκμηρίωσης GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>Οδηγός Ιδιοτήτων GStreamer V1.0</revnumber> 
+			<date>Σεπτέμβριος 2003</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">Έργο Τεκμηρίωσης GNOME</para>
+			</revdescription> 
+      </revision>
+         </revhistory> 
+
+    <releaseinfo>Αυτός ο οδηγός περιγράφει την έκδοση 2.2.2 των ιδιοτήτων του GStreamer.</releaseinfo> 
+    <legalnotice> 
+      <title>Ανάδραση</title> 
+      <para>Για να αναφέρετε ένα σφάλμα ή να κάνετε μια εισήγηση σχετικά με την εφαρμογή Ιδιότητες του GStreamer ή με αυτό το εγχειρίδιο, ακολουθήστε τις οδηγίες στη <ulink url="ghelp:gnome-feedback" type="help">Σελίδα ανάδρασης του GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm> 
+    <primary>Ιδιότητες του GStreamer</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+
+  <sect1 id="gstreamer-properties-introduction"> 
+    <title>Εισαγωγή</title> 
+    <para>Η εφαρμογή <application>Ιδιότητες του GStreamer</application> σας επιτρέπει να τροποποιήσετε παραμέτρους σχετικές με το υλικό και συστήματα πολυμέσων στο σύστημά σας.</para>
+    <note><para>Κανονικά μόνο προχωρημένοι χρήστες θα το χρειαστούν αυτό καθώς ο προμηθευτής του λειτουργικού σας συστήματος πρέπει να συνοδεύει το σύστημα με τις σωστές προεπιλογές.</para></note>
+  </sect1>
+
+  <sect1 id="gstreamer-properties-getting-started">
+    <title>Ξεκινώντας</title> 
+
+    <para>Μπορείτε να εκκινήσετε τις <application>Ιδιότητες του GStreamer</application> με τους ακόλουθους τρόπους:</para> 
+    <variablelist>
+    	<varlistentry>
+    		<term>Μενού <guimenu>Εφαρμογές</guimenu></term>
+    		<listitem>
+    		<para>Επιλέξτε <menuchoice><guisubmenu>Προτιμήσεις</guisubmenu><guimenuitem>Ιδιότητες του GStreamer</guimenuitem></menuchoice>.</para>
+    		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Γραμμή εντολών</term>
+    		<listitem>
+    		<para>Πληκτρολογήστε <command>gstreamer-properties</command>, μετά πατήστε <keycap>Return</keycap>.</para>
+    		<para> 		 
+    		</para> 
+    		</listitem>
+    	</varlistentry>
+    </variablelist>
+
+    <para>Όταν εκκινείτε τις <application>Ιδιότητες του GStreamer</application>, το ακόλουθο παράθυρο εμφανίζεται.</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="gstreamer-properties-fig"> 
+	<title>Παράθυρο ιδιοτήτων του GStreamer</title> 
+	<screenshot> 
+	  <mediaobject> 
+	    <imageobject>
+	    <imagedata fileref="figures/gstreamer_properties_window.png" format="PNG"/> 
+	    </imageobject>
+	    <textobject> 
+	      <phrase>Εμφανίζει το κεντρικό παράθυρο των Ιδιοτήτων του GStreamer. Περιέχει μπάρα μενού, μπάρα εργαλείων, </phrase> 
+	    </textobject> 
+	  </mediaobject> 
+	</screenshot> 
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+  </sect1>
+
+<!-- ================ Usage ================================ -->
+
+  <sect1 id="gstreamer-properties-usage"> 
+    <title>Χρήση</title>
+	<para>Η μικροεφαρμογή Ιδιότητες του GStreamer προσφέρει τέσσερα πτυσσόμενα μενού σε δύο καρτέλες. Υπάρχουν δύο πτυσσόμενα μενού για τον ήχο και δύο για το βίντεο. Αυτές οι επιλογές αποτελούν την προεπιλογή για τις περισσότερες εφαρμογές GNOME για έξοδο και είσοδο ήχου και βίντεο.</para>
+
+    <sect2 id="gstreamer-properties-concepts">
+    	<title>Κατανόηση των επιλογών μενού</title>
+
+    	<para>Αν κοιτάξετε στην οθόνη για την ρύθμιση των επιλογών ήχου θα προσέξετε πως οι δύο ενότητες ονομάζονται Προεπιλεγμένη έξοδος και Προεπιλεγμένη είσοδος. Αυτοί είναι οι όροι που χρησιμοποιούνται στην πλατφόρμα GStreamer που χρησιμοποιεί  το GNOME για να περιγράψει το που τα δεδομένα στέλνονται και από που έρχονται. Η Προεπιλεγμένη έξοδος είναι με άλλα λόγια το μέρος που οι εφαρμογές GNOME πρέπει να στέλνουν τον ήχο τους, ενώ η Προεπιλεγμένη είσοδος είναι το από πού έρχεται ο ήχος.</para>
+
+	<para>Ο λόγος που μπορεί να θέλετε να αλλάξετε αυτές τις επιλογές είναι επειδή στο Unix υπάρχουν πολλά διαφορετικά συστήματα ήχου και εξυπηρετητές ήχου στους οποίους μπορεί να θέλετε να στείλετε έξοδο. Για παράδειγμα στο Linux, δημοφιλείς εναλλακτικές είναι ο εξυπηρετητής ήχου PulseAudio και το σύστημα ήχου ALSA.</para>
+
+	<para>Για παράδειγμα αν θέλετε οι εφαρμογές σας GNOME να στέλνουν τον ήχο τους στον εξυπηρετητή ήχου PulseAudio ορίζετε την Προεπιλεγμένη έξοδο να χρησιμοποιεί το PulseAudio. Και αν θέλετε οι εφαρμογές σας GNOME που έχουν δυνατότητες εγγραφής ήχου να χρησιμοποιούν το σύστημα ήχου ALSA επιλέγετε το ALSA σαν την Προεπιλεγμένη είσοδο.</para>
+
+	<note><para>Όπως αναφέρεται και αλλού σε αυτόν τον οδηγό χρήστη, αυτές οι ρυθμίσεις προορίζονται για χρήση σαν εργαλείο από προχωρημένους χρήστες που έχουν ειδικευμένες ανάγκες. Ένας μέσος χρήστης δεν θα χρειαστεί να ρυθμίσει αυτές τις επιλογές, αφού ο προμηθευτής της διανομής σας θα πρέπει να τις έχει ρυθμίσει για σας στις βέλτιστες προεπιλογές.</para></note>
+    	
+    </sect2>
+  </sect1>  
+
+
+</article>

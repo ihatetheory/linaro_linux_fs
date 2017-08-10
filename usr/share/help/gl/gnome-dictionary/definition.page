@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Buscar a definición dunha palabra ou termo.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Buscar unha palabra ou termo</title>
+
+  <p>Pode usar o <app>Dicionario</app> para buscar o significado dun <em>termo</em>. Un termo pode ser unha única palabra como <input>mazá</input> ou unha palabra composta como <input>táboa de cortar</input>. Os resultados da busca tamén poderían mostrar a orixe, importancia e uso dunha palabra. Para buscar un termo:</p>
+
+  <steps>
+    <item>
+      <p>Escriba o termo que quere buscar ao lado de <gui>Buscar</gui>.</p>
+    </item>
+    <item>
+      <p>Prema <key>Intro</key> ou <gui style="button">Buscar:</gui> para buscar.</p>
+    </item>
+  </steps>
+
+  <p><app>Dicionario</app> buscará a súa orixe de dicionario seleccionada e mostraralle o resultado desde o primeiro dicionario na orixe. Para ver os resultados doutros dicionarios que están na mesma orixe, seleccione <link xref="similar-words"><guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Palabras parecidas</gui></guiseq></link> para mostralas na barra lateral que mostra todos os resultados.</p>
+
+</page>

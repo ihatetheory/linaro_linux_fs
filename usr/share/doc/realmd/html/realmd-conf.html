@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968">
+<title>realmd.conf</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="realmd">
+<link rel="up" href="realm-manual.html" title="Command manual pages">
+<link rel="prev" href="realm.html" title="realm">
+<link rel="next" href="guide-active-directory.html" title="Using with Active Directory">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="realm.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="realm-manual.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">realmd</th>
+<td><a accesskey="n" href="guide-active-directory.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="realmd-conf"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">realmd.conf</span></h2>
+<p>realmd.conf &#8212; Tweak behavior of realmd</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="idp46195780"></a><h2>Configuration File</h2>
+<p><span class="command"><strong>realmd</strong></span> can be tweaked by network administrators
+	to act in specific ways. This is done by placing settings in a
+	<code class="filename">/etc/realmd.conf</code>. This file does not exist by
+	default. The syntax of this file is the same as an INI file or
+	Desktop Entry file.</p>
+<p>In general, settings in this file only apply at the point of
+	joining a domain or realm. Once the realm has been setup the settings
+	have no effect. You may choose to configure
+	<a class="ulink" href="https://fedorahosted.org/sssd/" target="_top">SSSD</a> or
+	<a class="ulink" href="http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/winbind.html" target="_top">Winbind</a>
+	directly.</p>
+<p>Only specify the settings you wish to override in the
+	<code class="filename">/etc/realmd.conf</code> file. Settings not specified will
+	be loaded from their packaged defaults. Only override the settings
+	below. You may find other settings if you look through the
+	<span class="command"><strong>realmd</strong></span> source code. However these are not guaranteed
+	to remain stable.</p>
+<p>There are various sections in the config file. Some sections are
+	global topic sections, and are listed below. Other sections are specific
+	to a given realm. These realm specific sections should always contain
+	the domain name in lower case as their section header.</p>
+<p>Examples of each setting is found below, including the header
+	of the section it should be placed in. However in the resulting file
+	only include each section once, and combine the various section setting
+	together as lines underneath the section. For example</p>
+<div class="informalexample"><pre class="programlisting">
+[users]
+default-home = /home/%U
+default-shell = /bin/bash
+</pre></div>
+</div>
+<div class="refsect1">
+<a name="realmd-conf-active-directory"></a><h2>active-directory</h2>
+<p>These options should go in an <code class="option">[active-directory]</code>
+	section of the <code class="filename">/etc/realmd.conf</code> file. Only
+	specify the settings you wish to override.</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">default-client</code></span></p></td>
+<td>
+<p>Specify the <code class="option">default-client</code> setting in
+		order to control which client software is the preferred default
+		for use with Active Directory.</p>
+<div class="informalexample"><pre class="programlisting">
+[active-directory]
+default-client = sssd
+# default-client = winbind
+
+</pre></div>
+<p>The default setting for this is
+		<code class="option">sssd</code> which uses
+		<a class="ulink" href="https://fedorahosted.org/sssd/" target="_top">SSSD</a> as
+		the Active Directory client. You can also specify
+		<code class="option">winbind</code> to use
+		<a class="ulink" href="http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/winbind.html" target="_top">Samba Winbind</a>.
+		</p>
+<p>Some callers of <span class="command"><strong>realmd</strong></span> such as the
+		<a class="link" href="realm.html" title="realm"><span class="command"><strong>realm</strong></span></a>
+		command line tool allow specifying which client software should
+		be used. Others, such as GNOME Control Center, simplify choose
+		the default.</p>
+<p>You can verify the preferred default client softawre by
+		running the following command. The realm with the preferred
+		client software will be listed first.</p>
+<div class="informalexample"><pre class="screen">
+$ <span class="command"><strong>realm discover domain.example.com</strong></span>
+domain.example.com
+  configured: no
+  server-software: active-directory
+  client-software: sssd
+  type: kerberos
+  realm-name: AD.THEWALTER.LAN
+  domain-name: ad.thewalter.lan
+domain.example.com
+  configured: no
+  server-software: active-directory
+  client-software: winbind
+  type: kerberos
+  realm-name: AD.THEWALTER.LAN
+  domain-name: ad.thewalter.lan
+</pre></div>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">os-name</code></span></p></td>
+<td><p>(see below)</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">os-version</code></span></p></td>
+<td>
+<p>Specify the <code class="option">os-name</code> and/or
+		<code class="option">os-version</code> settings to control the values that
+		are placed in the computer account <code class="option">operatingSystem</code> and
+		<code class="option">operatingSystemVersion</code> attributes.</p>
+<p>This is an Active Directory specific option.</p>
+<div class="informalexample"><pre class="programlisting">
+[active-directory]
+os-name = Gentoo Linux
+os-version = 9.9.9.9.9
+</pre></div>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="realmd-conf-service"></a><h2>service</h2>
+<p>These options should go in an <code class="option">[service]</code>
+	section of the <code class="filename">/etc/realmd.conf</code> file. Only
+	specify the settings you wish to override.</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><code class="option">automatic-install</code></span></p></td>
+<td>
+<p>Set this to <em class="parameter"><code>no</code></em> to disable automatic
+		installation of packages via package-kit.</p>
+<div class="informalexample"><pre class="programlisting">
+[service]
+automatic-install = no
+# automatic-install = yes
+</pre></div>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="realmd-conf-users"></a><h2>users</h2>
+<p>These options should go in an <code class="option">[users]</code>
+	section of the <code class="filename">/etc/realmd.conf</code> file. Only
+	specify the settings you wish to override.</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">default-home</code></span></p></td>
+<td>
+<p>Specify the <code class="option">default-home</code> setting in
+		order to control how to set the home directory for accounts
+		that have no home directory explicitly set.</p>
+<div class="informalexample"><pre class="programlisting">
+[users]
+default-home = /home/%D/%U
+# default-home = /nfs/home/%D-%U
+
+</pre></div>
+<p>The default setting for this is <code class="option">/home/%D/%U</code>. The
+		<code class="option">%D</code> format is replaced by the domain name. The <code class="option">%U</code>
+		format is replaced by the user name.</p>
+<p>You can verify the home directory for a user by running the
+		following command.</p>
+<div class="informalexample"><pre class="screen">
+$ <span class="command"><strong>getent passwd 'DOMAIN/User'</strong></span>
+DOMAIN\user:*:13445:13446:Name:/home/DOMAIN/user:/bin/bash
+</pre></div>
+<p>Note that in the case of IPA domains, most users already have a
+		home directory configured in the domain. Therefore this configuration
+		setting may rarely show through.</p>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">default-shell</code></span></p></td>
+<td>
+<p>Specify the <code class="option">default-shell</code> setting in
+		order to control how to set the Unix shell for accounts that
+		have no shell explicitly set.</p>
+<div class="informalexample"><pre class="programlisting">
+[users]
+default-shell = /bin/bash
+# default-shell = /bin/sh
+
+</pre></div>
+<p>The default setting for this is <code class="option">/bin/bash</code> shell. The
+		shell should be a valid shell if you expect the domain users be able to log
+		in. For example it should exist in the <code class="filename">/etc/shells</code> file.</p>
+<p>You can verify the shell for a user by running the
+		following command.</p>
+<div class="informalexample"><pre class="screen">
+$ <span class="command"><strong>getent passwd 'DOMAIN/User'</strong></span>
+DOMAIN\user:*:13445:13446:Name:/home/DOMAIN/user:/bin/bash
+</pre></div>
+<p>Note that in the case of IPA domains, most users already have a
+		shell configured in the domain. Therefore this configuration setting
+		may rarely show through.</p>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="idp46736820"></a><h2>Realm specific settings</h2>
+<p>These options should go in an section with the same name
+	as the realm in the <code class="filename">/etc/realmd.conf</code> file.
+	For example for the <code class="option">domain.example.com</code> domain
+	the section would be called <code class="option">[domain.example.com]</code>.
+	To figure out the canonical name for a realm use the
+	<span class="command"><strong>realm</strong></span> command:</p>
+<div class="informalexample"><pre class="screen">
+$ <span class="command"><strong>realm discover --name DOMAIN.example.com</strong></span>
+domain.example.com
+...
+</pre></div>
+<p>Only specify the settings you wish to override.</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">computer-ou</code></span></p></td>
+<td>
+<p>Specify this option to create directory computer accounts
+		in a location other than the default. This currently only works
+		with Active Directory domains.</p>
+<div class="informalexample"><pre class="programlisting">
+[domain.example.com]
+computer-ou = OU=Linux Computers,DC=domain,DC=example,DC=com
+# computer-ou = OU=Linux Computers,
+
+</pre></div>
+<p>Specify the OU as an LDAP DN. It can be relative to the
+		Root DSE, or a complete LDAP DN. Obviously the OU must exist
+		in the directory.</p>
+<p>It is also possible to use the <code class="option">--computer-ou</code>
+		argument of the <span class="command"><strong>realm</strong></span> command to
+		create a computer account at a specific OU.</p>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">user-prinicpal</code></span></p></td>
+<td>
+<p>Set the <code class="option">user-prinicpal</code> to <code class="code">yes</code>
+		to create <code class="option">userPrincipalName</code> attributes for the
+		computer account in the realm, in the form
+		<code class="code">host/computer@REALM</code></p>
+<div class="informalexample"><pre class="programlisting">
+[domain.example.com]
+user-principal = yes
+</pre></div>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">automatic-id-mapping</code></span></p></td>
+<td>
+<p>This option is on by default for Active Directory realms.
+		Turn it off to use UID and GID information stored in the
+		directory (as-per RFC2307) rather than automatically generating
+		UID and GID numbers.</p>
+<p>This option only makes sense for Active Directory
+		realms.</p>
+<div class="informalexample"><pre class="programlisting">
+[domain.example.com]
+automatic-id-mapping = no
+# automatic-id-mapping = yes
+</pre></div>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">manage-system</code></span></p></td>
+<td>
+<p>This option is on by default. Normally joining a realm
+		affects many aspects of the configuration and management of the
+		system. Turning this off limits the interaction with the realm
+		or domain to authentication and identity.</p>
+<div class="informalexample"><pre class="programlisting">
+[domain.example.com]
+manage-system = no
+# manage-system = yes
+
+</pre></div>
+<p>When this option is turned on <span class="command"><strong>realmd</strong></span>
+		defaults to using domain policy to control who can log into
+		this machine. Further adjustments to login policy can be made
+		with the <span class="command"><strong>realm permit</strong></span> command.</p>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">fully-qualified-names</code></span></p></td>
+<td>
+<p>This option is on by default. If turned off then realm
+		user and group names are not qualified their name. This may
+		cause them to conflict with local user and group names.</p>
+<div class="informalexample"><pre class="programlisting">
+[domain.example.com]
+fully-qualified-names = no
+# fully-qualified-names = yes
+</pre></div>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc
+        </div>
+</body>
+</html>

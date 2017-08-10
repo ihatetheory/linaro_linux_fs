@@ -1,0 +1,7 @@
+b8316fccad1c88cfa75229cb35d89ab9  lib/udev/rules.d/70-printers.rules
+9cda4cd4f7e5692bbaeaee24d34ea9a1  lib/udev/udev-add-printer
+e25f6d3b549f96e4bdca449a245ab7de  lib/udev/udev-configure-printer
+064e5594f11b0aae103b5476960f027d  usr/share/doc/system-config-printer-udev/AUTHORS
+cdb0b35e39297755436176827d12d8a8  usr/share/doc/system-config-printer-udev/README
+2e3a23741ddca79df6a193476c9f4468  usr/share/doc/system-config-printer-udev/changelog.Debian.gz
+8c3a7450f6e04120d3102343f4695be8  usr/share/doc/system-config-printer-udev/copyright

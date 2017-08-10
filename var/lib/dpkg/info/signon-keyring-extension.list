@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/signon-keyring-extension
+/usr/share/doc/signon-keyring-extension/changelog.Debian.gz
+/usr/share/doc/signon-keyring-extension/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/signon
+/usr/lib/arm-linux-gnueabihf/signon/extensions
+/usr/lib/arm-linux-gnueabihf/signon/extensions/libkeyring.so
+/usr/bin

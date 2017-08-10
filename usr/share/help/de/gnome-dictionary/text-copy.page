@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="text-copy" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wählen und kopieren Sie eine Definition in eine andere Anwendung.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Definition kopieren</title>
+
+  <p>Sie können Definitionen aus <app>Wörterbuch</app> kopieren und in eine andere Anwendung einfügen.</p>
+
+  <steps>
+    <title>Eine Definition kopieren</title>
+    <item>
+      <p>Wählen Sie den Text, den Sie in <app>Wörterbuch</app> kopieren möchten. Alternativ können Sie die vollständige Definition auswählen, indem Sie <guiseq><gui style="menu">Bearbeiten</gui> <gui style="menuitem">Alles auswählen</gui></guiseq> nutzen.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui> <gui style="menuitem">Kopieren</gui></guiseq> aus.</p>
+    </item>
+    <item>
+      <p>Fügen Sie den Text in eine andere Anwendung ein. Dies können Sie normalerweise durchführen, indem Sie die Tastenkombination <keyseq><key>Strg</key><key>P</key></keyseq> drücken oder durch eines der Menüs.</p>
+    </item>
+  </steps>
+
+</page>

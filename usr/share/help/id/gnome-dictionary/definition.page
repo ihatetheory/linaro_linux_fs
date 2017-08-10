@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cari definisi dari suatu kata atau istilah.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mencari suatu kata atau istilah</title>
+
+  <p>Anda dapat memakai <app>Kamus</app> untuk melihat arti dari suatu <em>istilah</em>. Suatu istilah bisa berupa kata tunggal seperti misalnya <input>apple</input> atau kata kompon seperti misalnya <input>chopping board</input>. Hasil pencarian mungkin juga menunjukkan asal, kepentingan, dan pemakaian dari suatu kata. Untuk mencari suatu istilah:</p>
+
+  <steps>
+    <item>
+      <p>Ketikkan istilah yang ingin Anda cari di sebelah <gui>Cari</gui>.</p>
+    </item>
+    <item>
+      <p>Tekan <key>Return</key> atau <gui style="button">Cari:</gui> untuk mencari.</p>
+    </item>
+  </steps>
+
+  <p><app>Kamus</app> akan mencari sumber kamus yang Anda pilih dan menampilkan hasil dari kamus pertama dalam sumber. Untuk melihat hasil dari kamus lain yang ada dalam sumber yang sama, pilih <link xref="similar-words"><guiseq><gui style="menu">Tilik</gui> <gui style="menuitem">Kata Serupa</gui></guiseq></link> untuk memunculkan suatu bilah sisi yang menampilkan semua hasil.</p>
+
+</page>

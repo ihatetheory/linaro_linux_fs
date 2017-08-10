@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Christian Fredrik Kalager Schaller)</creator>
+    <maintainer>(Christian Fredrik Kalager Schaller)</maintainer>
+    <title>Příručka V2.5 k aplikaci Výběr systému multimédií</title>
+    <date>Září 2003</date>
+    <version identifier="Příručka V1.0 k aplikaci Výběr systému multimédií" date="Září 2003"/>
+    <subject category="GNOME|Applications|Sound and Video"/>
+    <description>
+      Pomocí aplikace Výběr systému multimédií můžete nastavovat volby vztahující se hardware a multimédiím
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/gstreamer-properties/cs/gstreamer-properties.xml"/>
+    <language code="cs"/>
+    <relation seriesid="4b74e078-eebf-11dc-9b4b-a29c33073fb7"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Sun Microsystems"/>
+  </resource>
+</omf>

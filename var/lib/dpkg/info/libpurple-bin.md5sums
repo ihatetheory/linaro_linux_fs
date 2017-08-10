@@ -1,0 +1,7 @@
+136a4ae194a45ad2ebdccb015b3b641c  usr/bin/purple-remote
+d81ebd4813a7ed043ab8576e469297e6  usr/bin/purple-send
+703ee67ecef2c047cc5c934d0861ed44  usr/bin/purple-send-async
+82427ba4c6171b956f020676759f4569  usr/bin/purple-url-handler
+85787b136b6cdc6f87f9276e879e979f  usr/share/doc/libpurple-bin/changelog.Debian.gz
+370065bf75496b39cb7a6bbeeb51a7a1  usr/share/doc/libpurple-bin/copyright
+ae62aa672a3992735296317840332e5a  usr/share/man/man1/purple-remote.1.gz

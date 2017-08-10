@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-panel-3.0">
+  <schema id="org.gnome.gnome-panel.launcher">
+    <key type="s" name="location">
+      <default>''</default>
+      <summary>Launcher location</summary>
+      <description>The location of the .desktop file describing the launcher. This key is only relevant if the object_type key is "launcher-object".</description>
+    </key>
+  </schema>
+</schemalist>

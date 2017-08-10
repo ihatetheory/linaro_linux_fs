@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="introduction" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="final"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>什么是<app>字典</app>？</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>介绍</title>
+
+  <p><app>字典</app>是用于查询词语释义的应用程序。它使用在线的<app>DICT</app>服务器查找释义。默认的<app>DICT</app>服务器在<sys href="http://dict.org">http://dict.org</sys>。</p>
+
+  <p>开始使用<app>字典</app><link xref="definition">查词</link>吧！</p>
+
+  <figure>
+    <title>字典</title>
+    <media type="image" src="figures/gnome-dictionary.png">
+      <p><application>字典</application>主窗口截图。</p>
+    </media>
+  </figure>
+
+</page>

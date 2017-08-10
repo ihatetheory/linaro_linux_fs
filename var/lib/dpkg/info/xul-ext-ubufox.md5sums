@@ -1,0 +1,10 @@
+6ee5de481fd1ad3bbef7e22325b81336  usr/share/doc/xul-ext-ubufox/changelog.Debian.gz
+355e99a408b1f6b7476ba4ca21859ac3  usr/share/doc/xul-ext-ubufox/copyright
+3424997061523b34beb5c4f877c8fd8c  usr/share/doc/xul-ext-ubufox/example-homepage.properties
+cd8d7461f60350c449454b633b88b612  usr/share/xul-ext/ubufox/chrome.manifest
+e1ff164eb623429861464088789edd6a  usr/share/xul-ext/ubufox/chrome/ubufox.jar
+42a239d141f62f440536d1413b625f27  usr/share/xul-ext/ubufox/components/AboutStartpage.js
+bcac10e3a137d210ae13e93622c9c45f  usr/share/xul-ext/ubufox/components/UpdateNotifier.js
+508adfbccfb250d0508ed9ee0ff8f9eb  usr/share/xul-ext/ubufox/defaults/preferences/ubufox.js
+6ba5d9265a87538c73ab161dd7b4d8f5  usr/share/xul-ext/ubufox/defaults/preferences/ubuntu-mods.js
+89873b8ea95e8b649552805d248adaa8  usr/share/xul-ext/ubufox/install.rdf

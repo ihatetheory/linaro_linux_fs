@@ -1,0 +1,1239 @@
+Package: arndale-octa-pre-boot
+Version: 0.0.1.20131211-0linaro2
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 310
+Priority: extra
+Section: admin
+Filename: pool/main/a/arndale-octa-pre-boot/arndale-octa-pre-boot_0.0.1.20131211-0linaro2_all.deb
+Size: 27132
+SHA256: 47e5366fe51704ed2b3df7a3cb734bde3b141e4e0c6b41873b8c05694cfd8839
+SHA1: bd8f3df749b332094fd7736815761d87c5b9f5ba
+MD5sum: 7a27eda08a97086c549452bb76a38496
+Description: Binary pre-bootloader for Arndale Octa (BL1 and TrustZone)
+ This package contains the BL1 binary and the TrustZone software binary for
+ Arndale Octa board, a chip-specific pre-bootloader provided by Samsung.
+
+Package: arndale-pre-boot
+Priority: extra
+Section: admin
+Installed-Size: 47
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: all
+Version: 0.0.2.20130101-0ubuntu1~linaro1
+Filename: pool/main/a/arndale-pre-boot/arndale-pre-boot_0.0.2.20130101-0ubuntu1~linaro1_all.deb
+Size: 4012
+SHA256: 1c03ac4a19a08986885a7f067535abb9c1d80191ca0df19b9769bec2ebe8f5d9
+SHA1: f5aae6d88bb6bd2d0f9023908d6d4d6b1f25269f
+MD5sum: 9af074ffb8f4ed733bd3c9541d925e11
+Description: Binary pre-bootloader for Arndale (BL1)
+ This package contains the BL1 binary for Arndale board, a chip-specific
+ pre-bootloader provided by Samsung.
+
+Package: fvp-pre-boot
+Version: 0.2.20150617+git54+789c220-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 2643
+Priority: extra
+Section: admin
+Filename: pool/main/f/fvp-pre-boot/fvp-pre-boot_0.2.20150617+git54+789c220-0linaro1_all.deb
+Size: 529530
+SHA256: ae8a156d49ece8fecb08dc39de930bc8924229c190829f832abcdb9ff791ab37
+SHA1: d159f9746de529141acbed360d692b26cb2c93cc
+MD5sum: 92f1e028e6c4108f1478b0ae908f8684
+Description: Binary pre-bootloader for FVP Base models
+ This package contains ARM Trusted Firmware binaries for the FVP Base Models.
+
+Package: hello
+Version: 2.10-1.linarovivid.1
+Architecture: armhf
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 519
+Depends: libc6 (>= 2.4)
+Conflicts: hello-traditional
+Breaks: hello-debhelper (<< 2.9)
+Replaces: hello-debhelper (<< 2.9), hello-traditional
+Homepage: http://www.gnu.org/software/hello/
+Priority: optional
+Section: devel
+Filename: pool/main/h/hello/hello_2.10-1.linarovivid.1_armhf.deb
+Size: 49384
+SHA256: 64430c2008132359991c651825c31f7d6837d1fdf33d6a666fabd944bf32b266
+SHA1: 6a8d4ac41cb18e9031ad15ba7504e4f324c70473
+MD5sum: cc5755a865c6ceb02b7aa0f74441d814
+Description: example package based on GNU hello
+ The GNU hello program produces a familiar, friendly greeting.  It
+ allows non-programmers to use a classic computer science tool which
+ would otherwise be unavailable to them.
+ .
+ Seriously, though: this is an example of how to do a Debian package.
+ It is the Debian version of the GNU Project's `hello world' program
+ (which is itself an example for the GNU Project).
+
+Package: juno-pre-boot
+Version: 0.11.6.20151112
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 27
+Depends: juno-pre-boot-0.11.6
+Priority: extra
+Section: admin
+Filename: pool/main/j/juno-pre-boot/juno-pre-boot_0.11.6.20151112_all.deb
+Size: 2560
+SHA256: e541685c7df1a726f2e8cca7ee4694a5b37a4c6beaea1f3d1f8c6b5660741891
+SHA1: 13675c5345db7329f449b8ec675edcd15daee8e0
+MD5sum: bd5d9afba679a11cda04c6608d81fd93
+Description: Binary pre-bootloader for Juno (meta)
+ This is a meta package for ARM Trusted Firmware binaries for Juno.
+
+Package: juno-pre-boot-0.11.3
+Version: 0.11.3.20150520-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 5869
+Priority: extra
+Section: admin
+Filename: pool/main/j/juno-pre-boot-0.11.3/juno-pre-boot-0.11.3_0.11.3.20150520-0linaro1_all.deb
+Size: 1092080
+SHA256: 9557bf473a6a1d665c3dce28481cfb8bdf112173b3c2539b38886a2d333c31d3
+SHA1: c82d465c0edf6658900a5532c9ce6c91c1774aa9
+MD5sum: 9414401c17ac38111e642854e654e5e4
+Description: Binary pre-bootloader for Juno
+ This package contains ARM Trusted Firmware binaries for Juno.
+
+Package: juno-pre-boot-0.11.4
+Version: 0.11.4.20150904-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 9
+Priority: extra
+Section: admin
+Filename: pool/main/j/juno-pre-boot-0.11.4/juno-pre-boot-0.11.4_0.11.4.20150904-0linaro1_all.deb
+Size: 2562
+SHA256: 8cf46dfdf6d83ec8cd5b875c5318354133b690ab4e45f634f4c2a9f89dd1d8ac
+SHA1: 0d49e0fe7fc8722fe01f951bf9d940b3763be2fc
+MD5sum: c14b01d01f51674f666eca648b2c7e47
+Description: Binary pre-bootloader for Juno
+ This package contains ARM Trusted Firmware binaries for Juno.
+
+Package: juno-pre-boot-0.11.6
+Version: 0.11.6.20151112-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 7629
+Priority: extra
+Section: admin
+Filename: pool/main/j/juno-pre-boot-0.11.6/juno-pre-boot-0.11.6_0.11.6.20151112-0linaro1_all.deb
+Size: 1290126
+SHA256: b06aabd64d9a43864df91b043eefb18fda7e26b39439d218bc72d11bc86801fd
+SHA1: 0925131fc1236e321147991e2522f02ee83ac41e
+MD5sum: 3de1ffae85c8b1a4b0a92a2cb7c14998
+Description: Binary pre-bootloader for Juno
+ This package contains ARM Trusted Firmware binaries for Juno.
+
+Package: kvm-boot-wrapper
+Version: 0.1~ppa1+bzr48+bzr16~saucy1
+Architecture: armhf
+Maintainer: Michael Hope <michael.hope@linaro.org>
+Installed-Size: 113
+Priority: extra
+Section: misc
+Filename: pool/main/k/kvm-boot-wrapper/kvm-boot-wrapper_0.1~ppa1+bzr48+bzr16~saucy1_armhf.deb
+Size: 14154
+SHA256: 2b74f06467342c0899e002fcadce7921db9774699625099366e95b5bd647a49d
+SHA1: 4254f5e111035c11dac49fa469da6d78fd119b56
+MD5sum: 6dd4ea8e99fbe4bc99bdcd85c063e7d9
+Description: KVM Fast Model boot wrapper
+ A pre-built version of the boot wrapper used for starting a KVM
+ kernel inside an ARM Inc. Fast Model.
+
+Package: kvmtool
+Version: 0.20151018-41linaro+sid.linarovivid.1
+Architecture: armhf
+Maintainer: Riku Voipio <riku.voipio@linaro.org>
+Installed-Size: 614
+Depends: libaio1 (>= 0.3.93), libc6 (>= 2.15), libfdt1, zlib1g (>= 1:1.1.4)
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/will/kvmtool.git/
+Priority: optional
+Section: kernel
+Filename: pool/main/k/kvmtool/kvmtool_0.20151018-41linaro+sid.linarovivid.1_armhf.deb
+Size: 276616
+SHA256: 9854f2b51289d385124e866785d3d5920f5691ae2295fe2fa9ec1a9f3fd7f1a8
+SHA1: 01ecc8dc6a76c6dbbea6ac3fdd950e324030ff46
+MD5sum: 562393697139b4d15ffe32ca8e2a01da
+Description: Native Linux KVM TOOL
+ kvmtool is a lightweight tool for hosting KVM guests. As a pure virtualization
+ tool it only supports guests using the same architecture, though it supports
+ running 32-bit guests on those 64-bit architectures that allow this.
+
+Package: libopenni2-0
+Source: openni2
+Version: 2.2.0.33+dfsg-5.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1023
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libjpeg8 (>= 8c), libstdc++6 (>= 4.3.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8)
+Homepage: http://structure.io/openni
+Priority: optional
+Section: libs
+Filename: pool/main/o/openni2/libopenni2-0_2.2.0.33+dfsg-5.linarovivid.1_armhf.deb
+Size: 335898
+SHA256: 1a4f0cf79687870422349e1471129f3a5664f23afd9769944f21670357030021
+SHA1: 64bb2030ea9e2eae21df83e2f8bc81cef623792d
+MD5sum: 5109702b443e1998b3cb06bfe976d961
+Description: framework for sensor-based 'Natural Interaction'
+ OpenNI2 is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. OpenNI2 provides the interface for physical devices and for
+ middleware components. The API enables modules to be registered in the OpenNI2
+ framework, which then produce sensory data. OpenNI2 also allows selection of
+ different hardware and middleware modules.
+
+Package: libopenni2-dev
+Source: openni2
+Version: 2.2.0.33+dfsg-5.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 423
+Depends: libopenni2-0 (= 2.2.0.33+dfsg-5.linarovivid.1)
+Suggests: openni2-doc
+Homepage: http://structure.io/openni
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/openni2/libopenni2-dev_2.2.0.33+dfsg-5.linarovivid.1_armhf.deb
+Size: 75376
+SHA256: 5356644499f79277e0b117b3eb796e7cd3627a9a11bf80b65ec74c99adf2b4e8
+SHA1: 245a61862d21d703ee433f4f57bb76ab39a6142c
+MD5sum: 7bf5ecff32b9da080592d378c7263f05
+Description: headers for OpenNI 'Natural Interaction' frameworks
+ OpenNI is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. OpenNI provides the interface for physical devices and for
+ middleware components. The API enables modules to be registered in the OpenNI
+ framework, which then produce sensory data. OpenNI also allows selection of
+ different hardware and middleware modules.
+
+Package: libusbip-dev
+Source: linux-tools (4.0.2-1.1.linarovivid.1)
+Version: 2.0+4.0.2-1.1.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 103
+Priority: optional
+Section: libdevel
+Filename: pool/main/l/linux-tools/libusbip-dev_2.0+4.0.2-1.1.linarovivid.1_armhf.deb
+Size: 24818
+SHA256: 4971e18ac1f3c984d793dc91f5f246235e6660773f2044ca4f992e72a37b2968
+SHA1: 782562e6b71d600bbe298d6ef18f902be27093c7
+MD5sum: 075ffe42729fcc5c6cc6de87b7758aba
+Description: USB device sharing system over IP network (development files)
+ USB/IP is a system for sharing USB devices over the network.
+ .
+ This package provides headers for the libusbip library and the library
+ itself for static linking.
+
+Package: linaro-alip
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: abiword, adduser, alsa-base, alsa-utils, anacron, apt, apt-utils, bc, btrfs-tools, bzip2, ca-certificates, chromium-browser, console-setup, dbus-x11, debconf-i18n, desktop-file-utils, eject, evince, fonts-dejavu-core, fonts-freefont-ttf, foomatic-db-compressed-ppds, galculator, gdbserver, gecko-mediaplayer, genisoimage, ghostscript-x, gnome-disk-utility, gnome-mplayer, gnumeric, gnupg, ifupdown, initramfs-tools, inputattach, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, leafpad, less, libpam-systemd, libsasl2-modules, libxp6, lightdm, lightdm-gtk-greeter, lsb-release, lubuntu-artwork, lubuntu-default-settings, lxlauncher, lxpanel, lxpanel-indicator-applet-plugin, lxsession, lxterminal, net-tools, netbase, netcat-openbsd, network-manager-gnome, ntpdate, openbox, openprinting-ppds, openssh-server, openssl, pcmanfm, plymouth-theme-lubuntu-logo, plymouth-theme-lubuntu-text, printer-driver-pnm2ppa, python3, resolvconf, rfkill, rsyslog, sudo, synaptic, ubuntu-drivers-common, ubuntu-keyring, ubuntu-minimal, udev, unzip, ureadahead, usbutils, vim-tiny, whiptail, wireless-tools, wpasupplicant, x11-utils, xdg-user-dirs, xkb-data, xorg, xscreensaver, xterm, zip
+Recommends: avahi-daemon, bluez, bluez-alsa, bluez-cups, cups, cups-bsd, cups-client, cups-filters, fonts-kacst-one, fonts-khmeros-core, fonts-lao, fonts-lklug-sinhala, fonts-sil-abyssinica, fonts-sil-padauk, fonts-takao-pgothic, fonts-thai-tlwg, fonts-tibetan-machine, hplip, kerneloops-daemon, laptop-detect, libnss-mdns, linaro-overlay-minimal, pcmciautils, policykit-desktop-privileges, printer-driver-c2esp, printer-driver-foo2zjs, printer-driver-min12xxw, printer-driver-ptouch, printer-driver-pxljr, printer-driver-sag-gdi, printer-driver-splix, smemcap, ttf-indic-fonts-core, ttf-punjabi-fonts, ttf-ubuntu-font-family
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-alip_041-vivid1_armhf.deb
+Size: 8916
+SHA256: ee4eb2d54aeeabc6c3447923cd33cfca77dbfdf0966532b5976717dbc030ef54
+SHA1: ec938f6dcbd60ba978541ed913843d9cf3baaa85
+MD5sum: b306f30eca28e1f4ebbf37e33937f03a
+Description: Linaro ALIP profile
+ This package depends on all of the packages in the Linaro alip profile.
+ .
+ It delivers a basic xfce desktop with a small selection of default apps
+
+Package: linaro-alip-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, autotools-dev, binutils-dev, bzip2, console-setup, debconf-i18n, dictionaries-common-dev, eject, gnupg, gsettings-desktop-schemas-dev, ifupdown, initramfs-tools, iproute2, iptables-dev, iputils-ping, isc-dhcp-client, kbd, kmod, less, libaa1-dev, libaccountsservice-dev, libapm-dev, libappindicator-dev, libappindicator3-dev, libasound2-dev, libasyncns-dev, libatk1.0-dev, libaudio-dev, libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libavahi-core-dev, libavahi-glib-dev, libavahi-gobject-dev, libavahi-qt4-dev, libavahi-ui-dev, libbind-dev, libbluetooth-dev, libbsd-dev, libcairo2-dev, libcanberra-dev, libcanberra-gtk-common-dev, libcanberra-gtk-dev, libcanberra-gtk3-dev, libcap-dev, libcap-ng-dev, libcdparanoia-dev, libck-connector-dev, libcroco3-dev, libcups2-dev, libcupscgi1-dev, libcupsimage2-dev, libcupsmime1-dev, libcupsppdc1-dev, libcurl4-gnutls-dev, libdaemon-dev, libdatrie-dev, libdbus-glib-1-dev, libdbusmenu-glib-dev, libdbusmenu-gtk-dev, libdbusmenu-gtk3-dev, libdbusmenu-jsonloader-dev, libdconf-dbus-1-dev, libdconf-dev, libdmx-dev, libdv4-dev, libegl1-mesa-dev, libevent-dev, libexif-dev, libexo-1-dev, libfindlib-ocaml-dev, libflac++-dev, libflac-dev, libfontconfig1-dev, libfontenc-dev, libfreetype6-dev, libfs-dev, libfuse-dev, libgail-3-dev, libgail-dev, libgbm-dev, libgck-1-dev, libgconf2-dev, libgcr-3-dev, libgcrypt11-dev, libgd2-xpm-dev, libgdbm-dev, libgdk-pixbuf2.0-dev, libgeoip-dev, libgif-dev, libgirepository1.0-dev, libgl1-mesa-dev, libgles1-mesa-dev, libgles2-mesa-dev, libglu1-mesa-dev, libgmp-dev, libgmp3-dev, libgnome-bluetooth-dev, libgnome-keyring-dev, libgnutls-dev, libgpg-error-dev, libgpm-dev, libgsl0-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk-3-dev, libgtk-vnc-1.0-dev, libgtk-vnc-2.0-dev, libgtk2.0-dev, libgvnc-1.0-dev, libice-dev, libidn11-dev, libiec61883-dev, libindicator-dev, libindicator3-dev, libiw-dev, libjasper-dev, libjson-glib-dev, libjson0-dev, libkeyutils-dev, libkrb5-dev, liblcms2-dev, libldap2-dev, libledit-ocaml-dev, libltdl-dev, libmng-dev, libmpc-dev, libmpfr-dev, libmysqlclient-dev, libnetfilter-conntrack-dev, libnfnetlink-dev, libnl-3-dev, libnl-cli-3-dev, libnl-genl-3-dev, libnl-nf-3-dev, libnl-route-3-dev, libnm-glib-dev, libnm-glib-vpn-dev, libnm-gtk-dev, libnm-util-dev, libnotify-dev, libnspr4-dev, libnss3-dev, libogg-dev, liborc-0.4-dev, libosmesa6-dev, libp11-kit-dev, libpango1.0-dev, libparted0-dev, libpcap-dev, libpcap0.8-dev, libpcsclite-dev, libpipeline-dev, libpixman-1-dev, libplist++-dev, libplist-dev, libpolkit-agent-1-dev, libpolkit-backend-1-dev, libpolkit-gobject-1-dev, libpoppler-cpp-dev, libpoppler-dev, libpoppler-glib-dev, libpoppler-private-dev, libpoppler-qt4-dev, libproxy-dev, libpthread-stubs0-dev, libpulse-dev, libqt4-dev, libqt4-opengl-dev, libqt4-private-dev, libqtwebkit-dev, libraw1394-dev, librsvg2-dev, librtmp-dev, libsasl2-dev, libsepol1-dev, libshout3-dev, libsm-dev, libsmbclient-dev, libsndfile1-dev, libspeex-dev, libspeexdsp-dev, libstartup-notification0-dev, libsysfs-dev, libtag1-dev, libtagc0-dev, libtalloc-dev, libtdb-dev, libthai-dev, libtheora-dev, libthunarx-2-dev, libunistring-dev, libusb-1.0-0-dev, libusbmuxd-dev, libvisual-0.4-dev, libvorbis-dev, libvte-2.90-dev, libvte-dev, libwavpack-dev, libwayland-dev, libwbclient-dev, libwnck-3-dev, libwnck-dev, libwrap0-dev, libx11-dev, libx11-xcb-dev, libxatracker-dev, libxau-dev, libxaw7-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-util0-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfce4ui-1-dev, libxfce4util-dev, libxfconf-0-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxklavier-dev, libxml2-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, lsb-release, mesa-common-dev, net-tools, netbase, netcat-openbsd, network-manager-dev, ntpdate, ppp-dev, python-cairo-dev, python-gi-dev, python-gobject-2-dev, python-gobject-dev, python-talloc-dev, python3, resolvconf, rsyslog, sudo, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail, x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev, xorg-dev, xserver-xorg-dev, xtrans-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-alip-dev_041-vivid1_armhf.deb
+Size: 9580
+SHA256: 4cd8987580ecb3c95ebfb9596d2286f14104b573160740e19478fa8444e22f14
+SHA1: 05d442fe3ca3b1af7f4f89ef9b8b2a13aabd12a4
+MD5sum: 7cf93d96a5857ace3a0b90b560961d03
+Description: Linaro ALIP profile
+ This package depends on all of the packages in the Linaro alip profile.
+ .
+ It delivers a basic xfce desktop with a small selection of default apps
+
+Package: linaro-development
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, alsa-utils, apt, apt-utils, babeltrace, btrfs-tools, build-essential, bzip2, console-setup, cpufrequtils, curl, debconf-i18n, devmem2, eject, fbset, gator, gdb, gdbserver, git, gnupg, i2c-tools, idlestat, ifupdown, initramfs-tools, input-utils, iotop, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, latrace, less, lm-sensors, lsb-release, lsof, ltrace, mutrace, net-tools, netbase, netcat-openbsd, ntpdate, openssh-client, openssh-server, oprofile, powerdebug, powertop, python3, resolvconf, rsyslog, rt-app, strace, sudo, trace-cmd, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, usbutils, vim, vim-tiny, wget, whiptail, wireless-tools, wpasupplicant, xen-tools
+Recommends: linaro-overlay-minimal, smemcap
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-development_041-vivid1_armhf.deb
+Size: 8372
+SHA256: be57ce8993aee13589ad8ff3c07b4bfea707ae7951d250b809ab8cb9f56db32b
+SHA1: ec760c9e9f318e9b1f22e2dbf81c2781a6597489
+MD5sum: 69a78634832f5a1df91751ba0f578224
+Description: Linaro Development profile
+ This package profiles a collection of tools useful to developers
+
+Package: linaro-development-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, binutils-dev, bzip2, console-setup, debconf-i18n, eject, gnupg, ifupdown, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, libasm-dev, libatk1.0-dev, libaudio-dev, libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libavahi-core-dev, libavahi-glib-dev, libavahi-gobject-dev, libavahi-qt4-dev, libavahi-ui-dev, libbind-dev, libbsd-dev, libcairo2-dev, libcurl4-gnutls-dev, libdaemon-dev, libdconf-dbus-1-dev, libdconf-dev, libdw-dev, libedit-dev, libelf-dev, libfreetype6-dev, libgail-3-dev, libgcrypt11-dev, libgdbm-dev, libgdk-pixbuf2.0-dev, libgmp-dev, libgmp3-dev, libgnutls-dev, libgpm-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk-3-dev, libice-dev, libkeyutils-dev, libldap2-dev, libmpfr-dev, libnss3-dev, libp11-kit-dev, libpci-dev, libpixman-1-dev, libpthread-stubs0-dev, libqtwebkit-dev, libusb-1.0-0-dev, libwayland-dev, libx11-dev, libx11-xcb-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcursor-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxi-dev, libxml2-dev, libxrender-dev, libxxf86vm-dev, lsb-release, manpages-dev, net-tools, netbase, netcat-openbsd, ntpdate, python3, resolvconf, rsyslog, sudo, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail, x11proto-composite-dev, x11proto-damage-dev, x11proto-fixes-dev, x11proto-input-dev, x11proto-randr-dev, x11proto-xext-dev, x11proto-xinerama-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-development-dev_041-vivid1_armhf.deb
+Size: 8636
+SHA256: da40c4adc00e143e2f81fef4bf9edf92b2c2bb792dc56f81c782ba95d6b76eb5
+SHA1: 059a98eef146c6b7b61b1d113d5b27b1afde8447
+MD5sum: 029f83f4ccd700f1ca6645cc91d5d734
+Description: Linaro Development profile
+ This package profiles a collection of tools useful to developers
+
+Package: linaro-graphical-engineering
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, alsa-base, alsa-utils, anacron, apt, apt-utils, babeltrace, bc, btrfs-tools, build-essential, bzip2, ca-certificates, command-not-found, console-setup, cpufrequtils, curl, dc, debconf-i18n, devmem2, eject, fbset, freeglut3-dev, gator, gdb, gdbserver, genisoimage, git, glmemperf, gnupg, i2c-tools, idlestat, ifupdown, initramfs-tools, input-utils, inputattach, iotop, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, latrace, less, lftp, libdrm-dev, libgl1-mesa-dev, libglew-dev, libglu1-mesa-dev, libice-dev, libpam-ck-connector, libqt4-dev, libqtwebkit-dev, libsasl2-modules, libsdl1.2-dev, libsm-dev, libx11-dev, libxau-dev, libxcb1-dev, libxdmcp-dev, libxext-dev, libxp6, libxt-dev, lm-sensors, lsb-release, lsof, ltrace, mesa-common-dev, mutrace, net-tools, netbase, netcat-openbsd, ntpdate, openssh-client, openssh-server, oprofile, powerdebug, powertop, python3, resolvconf, rfkill, rsyslog, rt-app, screen, smbclient, strace, sudo, trace-cmd, ttf-dejavu-core, ttf-freefont, ubuntu-desktop, ubuntu-keyring, ubuntu-minimal, udev, unzip, ureadahead, usbutils, vim, vim-tiny, wget, whiptail, wireless-tools, wpasupplicant, x11proto-core-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-xext-dev, xen-tools, xkb-data, xserver-xorg-video-fbdev, xtrans-dev, zip
+Recommends: avahi-daemon, bluez, bluez-alsa, bogofilter, kerneloops-daemon, laptop-detect, libegl1-mesa-drivers, libgles1-mesa, libgles2-mesa, libnss-mdns, linaro-overlay-minimal, pcmciautils, policykit-desktop-privileges, smemcap
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-graphical-engineering_041-vivid1_armhf.deb
+Size: 8808
+SHA256: c147ffebcf196a44077a62c33aaa535556a505cce09ec3200ec54d86a66548a2
+SHA1: d595992c42f05b46cd89a442d0a8f4963664b59b
+MD5sum: d395a21caa22a0a94ff6e851127867c8
+Description: Linaro Graphical Engineering profile
+ This package depends on the Linaro netbook efl profile and the
+ linaro-development profile.
+ .
+ It delivers an engineering profile for developers working on graphical
+ engineering with tools, compilers, and dev packages
+
+Package: linaro-graphical-engineering-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, autotools-dev, binutils-dev, bzip2, compiz-dev, console-setup, debconf-i18n, dictionaries-common-dev, eject, eog-dev, evolution-data-server-dev, gedit-dev, gnome-control-center-dev, gnupg, gsettings-desktop-schemas-dev, ifupdown, initramfs-tools, iproute2, iptables-dev, iputils-ping, isc-dhcp-client, kbd, kmod, less, libaa1-dev, libaccountsservice-dev, libapm-dev, libappindicator-dev, libappindicator3-dev, libarchive-dev, libart-2.0-dev, libasm-dev, libasound2-dev, libaspell-dev, libasyncns-dev, libatasmart-dev, libatk1.0-dev, libaudio-dev, libaudiofile-dev, libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libavahi-core-dev, libavahi-glib-dev, libavahi-gobject-dev, libavahi-qt4-dev, libavahi-ui-dev, libavc1394-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbamf3-dev, libbind-dev, libbluetooth-dev, libbonobo2-dev, libbonoboui2-dev, libbrasero-media3-dev, libbsd-dev, libburn-dev, libcaca-dev, libcairo2-dev, libcairomm-1.0-dev, libcamel1.2-dev, libcanberra-dev, libcanberra-gtk-common-dev, libcanberra-gtk-dev, libcanberra-gtk3-dev, libcap-dev, libcap-ng-dev, libcdparanoia-dev, libck-connector-dev, libcolord-dev, libcroco3-dev, libcups2-dev, libcupscgi1-dev, libcupsimage2-dev, libcupsmime1-dev, libcupsppdc1-dev, libcurl4-gnutls-dev, libdaemon-dev, libdatrie-dev, libdbus-glib-1-dev, libdbusmenu-glib-dev, libdbusmenu-gtk-dev, libdbusmenu-gtk3-dev, libdbusmenu-jsonloader-dev, libdbusmenu-qt-dev, libdc1394-22-dev, libdconf-dbus-1-dev, libdconf-dev, libdecoration0-dev, libdee-dev, libdjvulibre-dev, libdmapsharing-3.0-dev, libdmx-dev, libdotconf-dev, libdv4-dev, libdw-dev, libebackend1.2-dev, libebook1.2-dev, libecal1.2-dev, libedata-book1.2-dev, libedata-cal1.2-dev, libedataserver1.2-dev, libedit-dev, libegl1-mesa-dev, libelf-dev, libenchant-dev, libesd0-dev, libevince-dev, libexempi-dev, libexif-dev, libexiv2-dev, libfindlib-ocaml-dev, libflac++-dev, libflac-dev, libfolks-dev, libfolks-eds-dev, libfolks-telepathy-dev, libfontconfig1-dev, libfontenc-dev, libfreetype6-dev, libfs-dev, libfuse-dev, libgail-3-dev, libgail-dev, libgamin-dev, libgbm-dev, libgccxml-dev, libgck-1-dev, libgconf2-dev, libgcr-3-dev, libgcrypt11-dev, libgd2-xpm-dev, libgdata-dev, libgdbm-dev, libgdk-pixbuf2.0-dev, libgee-dev, libgeoip-dev, libgexiv2-dev, libgif-dev, libgirepository1.0-dev, libgl1-mesa-dev, libglade2-dev, libgles1-mesa-dev, libgles2-mesa-dev, libglew-dev, libglewmx-dev, libglibmm-2.4-dev, libglu1-mesa-dev, libgmp-dev, libgmp3-dev, libgnome-control-center-dev, libgnome-desktop-3-dev, libgnome-desktop-dev, libgnome-keyring-dev, libgnome-menu-3-dev, libgnome2-dev, libgnomecanvas2-dev, libgnomekbd-dev, libgnomeui-dev, libgnomevfs2-dev, libgnutls-dev, libgoa-1.0-dev, libgpg-error-dev, libgphoto2-2-dev, libgpm-dev, libgrip-dev, libgs-dev, libgsl0-dev, libgsm1-dev, libgssdp-1.0-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk-3-dev, libgtk2.0-dev, libgtksourceview-3.0-dev, libgtkspell-dev, libgtop2-dev, libgucharmap-2-90-dev, libgupnp-1.0-dev, libgupnp-igd-1.0-dev, libgutenprint-dev, libgutenprintui2-dev, libgweather-3-dev, libhpmud-dev, libhunspell-dev, libical-dev, libice-dev, libicu-dev, libidl-dev, libidn11-dev, libiec61883-dev, libieee1284-3-dev, libijs-dev, libimobiledevice-dev, libindicate-dev, libindicate-gtk-dev, libindicate-gtk3-dev, libindicator-dev, libindicator3-dev, libisofs-dev, libiw-dev, libjack-jackd2-dev, libjasper-dev, libjavascriptcoregtk-1.0-dev, libjavascriptcoregtk-3.0-dev, libjbig2dec0-dev, libjpeg-dev, libjson-glib-dev, libjson0-dev, libjte-dev, libkeyutils-dev, libkpathsea-dev, libkrb5-dev, liblcms2-dev, libldap2-dev, libledit-ocaml-dev, liblightdm-gobject-1-dev, liblouis-dev, libltdl-dev, liblua5.1-0-dev, libmeanwhile-dev, libmetacity-dev, libmng-dev, libmpc-dev, libmpfr-dev, libmtdev-dev, libmtp-dev, libmysqlclient-dev, libnatpmp-dev, libneon27-gnutls-dev, libnfnetlink-dev, libnice-dev, libnm-glib-dev, libnm-glib-vpn-dev, libnm-util-dev, libnotify-dev, libnspr4-dev, libnss3-dev, libogg-dev, libopencc-dev, libopenobex1-dev, liborbit2-dev, liborc-0.4-dev, libosmesa6-dev, libp11-kit-dev, libpango1.0-dev, libpangomm-1.4-dev, libpaper-dev, libparted0-dev, libpci-dev, libpeas-dev, libpipeline-dev, libpixman-1-dev, libplist++-dev, libplist-dev, libpolkit-agent-1-dev, libpolkit-backend-1-dev, libpolkit-gobject-1-dev, libpoppler-cpp-dev, libpoppler-dev, libpoppler-glib-dev, libpoppler-private-dev, libpoppler-qt4-dev, libpostproc-dev, libprotobuf-dev, libprotoc-dev, libproxy-dev, libpspell-dev, libpth-dev, libpthread-stubs0-dev, libpulse-dev, libqt4-dev, libqt4-opengl-dev, libqt4-private-dev, libqtbamf-dev, libqtgconf-dev, libqtwebkit-dev, libquvi-dev, librarian-dev, libraw-dev, libraw1394-dev, librest-dev, librest-extras-dev, librsvg2-dev, librsync-dev, librtmp-dev, libsamplerate0-dev, libsane-dev, libsasl2-dev, libschroedinger-dev, libsdl1.2-dev, libsensors4-dev, libsepol1-dev, libsgutils2-dev, libshout3-dev, libsigc++-2.0-dev, libslp-dev, libsm-dev, libsmbclient-dev, libsndfile1-dev, libsnmp-dev, libsoup-gnome2.4-dev, libsoup2.4-dev, libspectre-dev, libspeex-dev, libspeexdsp-dev, libstartup-notification0-dev, libswscale-dev, libsysfs-dev, libtag1-dev, libtagc0-dev, libtalloc-dev, libtdb-dev, libtelepathy-glib-dev, libtelepathy-logger-dev, libthai-dev, libtheora-dev, libtotem-dev, libtotem-plparser-dev, libunique-3.0-dev, libunistring-dev, libunity-dev, libunity-misc-dev, libupower-glib-dev, libusb-1.0-0-dev, libusbmuxd-dev, libv4l-dev, libva-dev, libvisual-0.4-dev, libvorbis-dev, libvpx-dev, libvte-dev, libwavpack-dev, libwayland-dev, libwbclient-dev, libwebkit-dev, libwebkitgtk-3.0-dev, libwebkitgtk-dev, libwmf-dev, libwnck-3-dev, libwnck-dev, libwrap0-dev, libx11-dev, libx11-xcb-dev, libxapian-dev, libxatracker-dev, libxau-dev, libxaw7-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-util0-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxklavier-dev, libxml2-dev, libxmu-dev, libxmuu-dev, libxp-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxslt1-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, libyelp-dev, libzeitgeist-dev, libzephyr-dev, lsb-release, manpages-dev, mesa-common-dev, net-tools, netbase, netcat-openbsd, network-manager-dev, ntfs-3g-dev, ntpdate, portaudio19-dev, ppp-dev, python-apt-dev, python-cairo-dev, python-dbus-dev, python-egenix-mx-base-dev, python-gi-dev, python-gnome2-desktop-dev, python-gnome2-dev, python-gobject-2-dev, python-gobject-dev, python-gtk2-dev, python-pyorbit-dev, python-talloc-dev, python-webkit-dev, python3, resolvconf, rhythmbox-dev, rsyslog, sudo, thunderbird-dev, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail, x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-print-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev, xorg-dev, xserver-xorg-dev, xserver-xorg-input-evdev-dev, xserver-xorg-input-synaptics-dev, xtrans-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-graphical-engineering-dev_041-vivid1_armhf.deb
+Size: 10458
+SHA256: 645102117daf2b84228125275f43731d6dd2859b432b82f0d3a1b7e760f9847f
+SHA1: c4558b4a213e8d317f7a27e85c3a8c67b4ce1629
+MD5sum: 018835396c0b979f9671d42d552582f1
+Description: Linaro Graphical Engineering profile
+ This package depends on the Linaro netbook efl profile and the
+ linaro-development profile.
+ .
+ It delivers an engineering profile for developers working on graphical
+ engineering with tools, compilers, and dev packages
+
+Package: linaro-headless
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, btrfs-tools, bzip2, console-setup, debconf-i18n, eject, gdbserver, gnupg, ifupdown, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, lsb-release, net-tools, netbase, netcat-openbsd, ntpdate, openssh-server, python3, resolvconf, rsyslog, sudo, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, usbutils, vim-tiny, whiptail
+Recommends: linaro-overlay-minimal, smemcap
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-headless_041-vivid1_armhf.deb
+Size: 8380
+SHA256: 03872dafebdd98cc1d2b8f99478b2ac514f080e6a4f303ccc2ffc4de2822116f
+SHA1: 5377033383911d1f08ddc79c59b1e4533805c6e9
+MD5sum: 839aa956d70cf841e4a6dd0ad4350dd7
+Description: Linaro Headless profile
+ This package depends on all of the packages in the Linaro headless profile,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: linaro-headless-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, binutils-dev, bzip2, console-setup, debconf-i18n, eject, gnupg, ifupdown, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, libgmp-dev, libgmp3-dev, libmpfr-dev, libusb-1.0-0-dev, lsb-release, net-tools, netbase, netcat-openbsd, ntpdate, python3, resolvconf, rsyslog, sudo, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-headless-dev_041-vivid1_armhf.deb
+Size: 8374
+SHA256: 0d8800f12d3f5b73dcfeea79c85f8af2cbdee118856081e2735c6a6ee710611e
+SHA1: 9e5dcc3808a0358bcba55f0bba2fe10bec16f36e
+MD5sum: 31e0bad2266ce48b9c19340a4f75abff
+Description: Linaro Headless profile
+ This package depends on all of the packages in the Linaro headless profile,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: linaro-lamp-server
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apache2, apache2-mpm-prefork, apt, apt-utils, at, btrfs-tools, busybox-static, bzip2, console-setup, cpio, cron, debconf-i18n, dmidecode, dnsutils, dosfstools, ed, eject, file, ftp, gator, gdbserver, gnupg, hdparm, ifupdown, info, initramfs-tools, iproute2, iptables, iputils-ping, isc-dhcp-client, kbd, kmod, language-selector-common, less, libapache2-mod-php5, logrotate, lsb-release, lshw, lsof, ltrace, man-db, mime-support, mysql-server, net-tools, netbase, netcat-openbsd, ntpdate, openssh-client, openssh-server, parted, pciutils, php5-mysql, popularity-contest, psmisc, python3, resolvconf, rsync, rsyslog, strace, sudo, time, ubuntu-keyring, ubuntu-minimal, ubuntu-standard, udev, ureadahead, usbutils, vim-tiny, wget, whiptail
+Recommends: apparmor, apt-transport-https, bash-completion, command-not-found, friendly-recovery, iputils-tracepath, irqbalance, linaro-overlay-minimal, manpages, mlocate, mtr-tiny, nano, ntfs-3g, plymouth, plymouth-theme-ubuntu-text, ppp, pppconfig, pppoeconf, smemcap, tcpdump, telnet, ufw, update-manager-core, uuid-runtime
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-lamp-server_041-vivid1_armhf.deb
+Size: 8684
+SHA256: 6b15f214da22afd4a3e48b19f8cd017b57a35fe42ee905dfa8bfcce928204e7c
+SHA1: 87ae19fe7d94cfca90d0f7fd65f6a8592d1ec89c
+MD5sum: 3d1c82543303dcc85c4ba8acf5683140
+Description: Linaro LAMP Server profile
+ This package depends on all of the packages in the Linaro headless profile,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boots
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+  - Includes LAMP stack
+
+Package: linaro-lamp-server-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apache2-dev, apt, apt-utils, at, binutils-dev, busybox-static, bzip2, console-setup, cpio, cron, debconf-i18n, dmidecode, dnsutils, dosfstools, ed, eject, file, ftp, gnupg, hdparm, ifupdown, info, initramfs-tools, iproute2, iptables, iputils-ping, isc-dhcp-client, kbd, kmod, language-selector-common, less, libapr1-dev, libaprutil1-dev, libbsd-dev, libcap-dev, libdmx-dev, libecpg-dev, libedit-dev, libfontconfig1-dev, libfontenc-dev, libfreetype6-dev, libfs-dev, libgcrypt11-dev, libgdbm-dev, libgmp-dev, libgmp3-dev, libgnutls-dev, libgpg-error-dev, libice-dev, libkeyutils-dev, libkrb5-dev, libldap2-dev, libmpfr-dev, libmysqlclient-dev, libp11-kit-dev, libpixman-1-dev, libpq-dev, libpthread-stubs0-dev, libsasl2-dev, libsm-dev, libusb-1.0-0-dev, libx11-dev, libx11-xcb-dev, libxau-dev, libxaw7-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, logrotate, lsb-release, lshw, lsof, ltrace, man-db, mime-support, net-tools, netbase, netcat-openbsd, ntpdate, parted, pciutils, popularity-contest, psmisc, python3, resolvconf, rsync, rsyslog, strace, sudo, time, ubuntu-keyring, ubuntu-minimal, ubuntu-standard, udev, ureadahead, usbutils, vim-tiny, wget, whiptail, x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev, xorg-dev, xserver-xorg-dev, xtrans-dev
+Recommends: apparmor, apt-transport-https, bash-completion, command-not-found, friendly-recovery, iputils-tracepath, irqbalance, manpages, mlocate, mtr-tiny, nano, ntfs-3g, openssh-client, plymouth, plymouth-theme-ubuntu-text, ppp, pppconfig, pppoeconf, tcpdump, telnet, ufw, update-manager-core, uuid-runtime
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-lamp-server-dev_041-vivid1_armhf.deb
+Size: 9128
+SHA256: 96ad93297ef20b29c0c56aea8b87518296aeb5189db742c61c7857d759d1d3da
+SHA1: 7d797be03a4b25ef3dc784f5f47fb80cc792bcfa
+MD5sum: 9c5bce201c7c57fe314896a4cc411867
+Description: Linaro LAMP Server profile
+ This package depends on all of the packages in the Linaro headless profile,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boots
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+  - Includes LAMP stack
+
+Package: linaro-nano
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: apt, apt-utils, console-setup, debconf, gnupg, ifupdown, initramfs-tools, initscripts, iproute, iputils-ping, isc-dhcp-client, kbd, linaro-overlay-minimal, makedev, mawk, module-init-tools, mountall, net-tools, netbase, netcat-openbsd, ntpdate, procps, python-minimal, rsyslog, sudo, ubuntu-keyring, udev, upstart, whiptail
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-nano_041-vivid1_armhf.deb
+Size: 8344
+SHA256: 6f281bf3a50199419f6f2c67d0a830cbd4865f0785a3d68610001e0fb9ba7ab9
+SHA1: 19f8a6c235454a22732a97f8bc63a75b31dad6dc
+MD5sum: 7804b4d5e20f63aa693a213065bbc9cc
+Description: Linaro Nano profile
+ This package depends on all of the packages in the Linaro nano profile,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed. This profile is a minimal and small system.
+
+Package: linaro-nano-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: binutils-dev, comerr-dev, dpkg-dev, e2fslibs-dev, gcc-4.6-plugin-dev, libacl1-dev, libapt-pkg-dev, libatm1-dev, libattr1-dev, libblkid-dev, libbz2-dev, libcryptsetup-dev, libdb-dev, libdbus-1-dev, libdevmapper-dev, libdpkg-dev, libdrm-dev, libecryptfs-dev, libexpat1-dev, libffi-dev, libgcrypt11-dev, libgdbm-dev, libgirepository1.0-dev, libglib2.0-dev, libgmp-dev, libgmp3-dev, libgpg-error-dev, libgpm-dev, libgudev-1.0-dev, libkeyutils-dev, libklibc-dev, liblvm2-dev, liblzma-dev, libmagic-dev, libmount-dev, libmpc-dev, libmpfr-dev, libncurses5-dev, libncursesw5-dev, libnih-dbus-dev, libnih-dev, libnspr4-dev, libnss3-dev, libpam0g-dev, libpciaccess-dev, libpcre3-dev, libperl-dev, libplymouth-dev, libpng12-dev, libpopt-dev, libreadline-dev, libreadline6-dev, libselinux1-dev, libsepol1-dev, libsigsegv-dev, libslang2-dev, libsqlite3-dev, libssl-dev, libstdc++6-4.6-dev, libtinfo-dev, libudev-dev, libxml2-dev, linux-libc-dev, manpages-dev, python-dev, python2.7-dev, ss-dev, uuid-dev, zlib1g-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-nano-dev_041-vivid1_armhf.deb
+Size: 8522
+SHA256: 6a0923af35542c28729a464fbd8b2dab2248891b53b2c34006b4761b082630db
+SHA1: 37631585e99a9f99e8724511c5d7dc7354e99eaa
+MD5sum: 1acf4a10350672387b211c53cb811510
+Description: Linaro Nano profile - development packages
+ This package depends on all of the packages in the Linaro nano profile,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed. This profile is a minimal and small system.
+
+Package: linaro-overlay-minimal
+Source: linaro-overlay
+Version: 1112.9
+Architecture: all
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Installed-Size: 42
+Priority: optional
+Section: utils
+Filename: pool/main/l/linaro-overlay/linaro-overlay-minimal_1112.9_all.deb
+Size: 5232
+SHA256: 8441f3606b2fc53fed8afeb7c6660ae927d86f51016650d29b53e3a562c0b78a
+SHA1: 091ea7bd20925efd63d3dd7a2ecec5b72b8f44fd
+MD5sum: fc1cb2ca2ac25f12feb211591972191c
+Description: Linaro Overlay for Linaro headless/minimal images
+ ships a autologinroot systemd conf
+
+Package: linaro-ubuntu-desktop
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, btrfs-tools, bzip2, command-not-found, console-setup, debconf-i18n, eject, gdbserver, gnupg, ifupdown, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, lsb-release, net-tools, netbase, netcat-openbsd, ntpdate, openssh-server, python3, resolvconf, rsyslog, sudo, ubuntu-desktop, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, usbutils, vim-tiny, whiptail
+Recommends: linaro-overlay-minimal, smemcap
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-ubuntu-desktop_041-vivid1_armhf.deb
+Size: 8276
+SHA256: f87351fbef4af5bd9b292bcd86d48650c04aa355ff6e417ad7def3034822652a
+SHA1: bd84d4cb7b785768dbdcd4c1e5c591cf0600b857
+MD5sum: f6d0537e72acb90911706738ff5e696e
+Description: Linaro Ubuntu Desktop profile
+ This package depends on the Linaro headless profile.
+ .
+ It delivers an Ubuntu desktop environment with Linaro configuration added.
+
+Package: linaro-ubuntu-desktop-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, autotools-dev, binutils-dev, bzip2, compiz-dev, console-setup, debconf-i18n, dictionaries-common-dev, eject, eog-dev, evolution-data-server-dev, gedit-dev, gnome-control-center-dev, gnupg, gsettings-desktop-schemas-dev, ifupdown, initramfs-tools, iproute2, iptables-dev, iputils-ping, isc-dhcp-client, kbd, kmod, less, libaa1-dev, libaccountsservice-dev, libapm-dev, libappindicator-dev, libappindicator3-dev, libarchive-dev, libart-2.0-dev, libasound2-dev, libaspell-dev, libasyncns-dev, libatasmart-dev, libatk1.0-dev, libaudio-dev, libaudiofile-dev, libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libavahi-core-dev, libavahi-glib-dev, libavahi-gobject-dev, libavahi-qt4-dev, libavahi-ui-dev, libavc1394-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbamf3-dev, libbind-dev, libbluetooth-dev, libbonobo2-dev, libbonoboui2-dev, libbrasero-media3-dev, libbsd-dev, libburn-dev, libcaca-dev, libcairo2-dev, libcairomm-1.0-dev, libcamel1.2-dev, libcanberra-dev, libcanberra-gtk-common-dev, libcanberra-gtk-dev, libcanberra-gtk3-dev, libcap-dev, libcap-ng-dev, libcdparanoia-dev, libck-connector-dev, libcolord-dev, libcroco3-dev, libcups2-dev, libcupscgi1-dev, libcupsimage2-dev, libcupsmime1-dev, libcupsppdc1-dev, libcurl4-gnutls-dev, libdaemon-dev, libdatrie-dev, libdbus-glib-1-dev, libdbusmenu-glib-dev, libdbusmenu-gtk-dev, libdbusmenu-gtk3-dev, libdbusmenu-jsonloader-dev, libdbusmenu-qt-dev, libdc1394-22-dev, libdconf-dbus-1-dev, libdconf-dev, libdecoration0-dev, libdee-dev, libdjvulibre-dev, libdmapsharing-3.0-dev, libdmx-dev, libdotconf-dev, libdv4-dev, libebackend1.2-dev, libebook1.2-dev, libecal1.2-dev, libedata-book1.2-dev, libedata-cal1.2-dev, libedataserver1.2-dev, libedit-dev, libegl1-mesa-dev, libenchant-dev, libesd0-dev, libevince-dev, libexempi-dev, libexif-dev, libexiv2-dev, libfindlib-ocaml-dev, libflac++-dev, libflac-dev, libfolks-dev, libfolks-eds-dev, libfolks-telepathy-dev, libfontconfig1-dev, libfontenc-dev, libfreetype6-dev, libfs-dev, libfuse-dev, libgail-3-dev, libgail-dev, libgamin-dev, libgbm-dev, libgccxml-dev, libgck-1-dev, libgconf2-dev, libgcr-3-dev, libgcrypt11-dev, libgd2-xpm-dev, libgdata-dev, libgdbm-dev, libgdk-pixbuf2.0-dev, libgee-dev, libgeoip-dev, libgexiv2-dev, libgif-dev, libgirepository1.0-dev, libgl1-mesa-dev, libglade2-dev, libgles1-mesa-dev, libgles2-mesa-dev, libglew-dev, libglewmx-dev, libglibmm-2.4-dev, libglu1-mesa-dev, libgmp-dev, libgmp3-dev, libgnome-control-center-dev, libgnome-desktop-3-dev, libgnome-desktop-dev, libgnome-keyring-dev, libgnome-menu-3-dev, libgnome2-dev, libgnomecanvas2-dev, libgnomekbd-dev, libgnomeui-dev, libgnomevfs2-dev, libgnutls-dev, libgoa-1.0-dev, libgpg-error-dev, libgphoto2-2-dev, libgpm-dev, libgrip-dev, libgs-dev, libgsm1-dev, libgssdp-1.0-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk-3-dev, libgtk2.0-dev, libgtksourceview-3.0-dev, libgtkspell-dev, libgtop2-dev, libgucharmap-2-90-dev, libgupnp-1.0-dev, libgupnp-igd-1.0-dev, libgutenprint-dev, libgutenprintui2-dev, libgweather-3-dev, libhpmud-dev, libhunspell-dev, libical-dev, libice-dev, libicu-dev, libidl-dev, libidn11-dev, libiec61883-dev, libieee1284-3-dev, libijs-dev, libimobiledevice-dev, libindicate-dev, libindicate-gtk-dev, libindicate-gtk3-dev, libindicator-dev, libindicator3-dev, libisofs-dev, libjack-jackd2-dev, libjasper-dev, libjavascriptcoregtk-1.0-dev, libjavascriptcoregtk-3.0-dev, libjbig2dec0-dev, libjpeg-dev, libjson-glib-dev, libjson0-dev, libjte-dev, libkeyutils-dev, libkpathsea-dev, libkrb5-dev, liblcms2-dev, libldap2-dev, libledit-ocaml-dev, liblightdm-gobject-1-dev, liblouis-dev, libltdl-dev, liblua5.1-0-dev, libmeanwhile-dev, libmetacity-dev, libmng-dev, libmpc-dev, libmpfr-dev, libmtdev-dev, libmtp-dev, libmysqlclient-dev, libnatpmp-dev, libneon27-gnutls-dev, libnfnetlink-dev, libnice-dev, libnm-glib-dev, libnm-glib-vpn-dev, libnm-util-dev, libnotify-dev, libnspr4-dev, libnss3-dev, libogg-dev, libopencc-dev, libopenobex1-dev, liborbit2-dev, liborc-0.4-dev, libosmesa6-dev, libp11-kit-dev, libpango1.0-dev, libpangomm-1.4-dev, libpaper-dev, libparted0-dev, libpeas-dev, libpipeline-dev, libpixman-1-dev, libplist++-dev, libplist-dev, libpolkit-agent-1-dev, libpolkit-backend-1-dev, libpolkit-gobject-1-dev, libpoppler-cpp-dev, libpoppler-dev, libpoppler-glib-dev, libpoppler-private-dev, libpoppler-qt4-dev, libpostproc-dev, libprotobuf-dev, libprotoc-dev, libproxy-dev, libpspell-dev, libpth-dev, libpthread-stubs0-dev, libpulse-dev, libqt4-dev, libqt4-opengl-dev, libqt4-private-dev, libqtbamf-dev, libqtgconf-dev, libqtwebkit-dev, libquvi-dev, librarian-dev, libraw-dev, libraw1394-dev, librest-dev, librest-extras-dev, librsvg2-dev, librsync-dev, librtmp-dev, libsamplerate0-dev, libsane-dev, libsasl2-dev, libschroedinger-dev, libsdl1.2-dev, libsensors4-dev, libsepol1-dev, libsgutils2-dev, libshout3-dev, libsigc++-2.0-dev, libslp-dev, libsm-dev, libsndfile1-dev, libsnmp-dev, libsoup-gnome2.4-dev, libsoup2.4-dev, libspectre-dev, libspeex-dev, libspeexdsp-dev, libstartup-notification0-dev, libswscale-dev, libsysfs-dev, libtag1-dev, libtagc0-dev, libtalloc-dev, libtdb-dev, libtelepathy-glib-dev, libtelepathy-logger-dev, libthai-dev, libtheora-dev, libtotem-dev, libtotem-plparser-dev, libunique-3.0-dev, libunistring-dev, libunity-dev, libunity-misc-dev, libupower-glib-dev, libusb-1.0-0-dev, libusbmuxd-dev, libv4l-dev, libva-dev, libvisual-0.4-dev, libvorbis-dev, libvpx-dev, libvte-dev, libwavpack-dev, libwayland-dev, libwebkit-dev, libwebkitgtk-3.0-dev, libwebkitgtk-dev, libwmf-dev, libwnck-3-dev, libwnck-dev, libwrap0-dev, libx11-dev, libx11-xcb-dev, libxapian-dev, libxatracker-dev, libxau-dev, libxaw7-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-util0-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxklavier-dev, libxml2-dev, libxmu-dev, libxmuu-dev, libxp-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxslt1-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, libyelp-dev, libzeitgeist-dev, libzephyr-dev, lsb-release, manpages-dev, mesa-common-dev, net-tools, netbase, netcat-openbsd, network-manager-dev, ntfs-3g-dev, ntpdate, portaudio19-dev, ppp-dev, python-apt-dev, python-cairo-dev, python-dbus-dev, python-egenix-mx-base-dev, python-gi-dev, python-gnome2-desktop-dev, python-gnome2-dev, python-gobject-2-dev, python-gobject-dev, python-gtk2-dev, python-pyorbit-dev, python-talloc-dev, python-webkit-dev, python3, resolvconf, rhythmbox-dev, rsyslog, sudo, thunderbird-dev, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail, x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-print-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev, xorg-dev, xserver-xorg-dev, xserver-xorg-input-evdev-dev, xserver-xorg-input-synaptics-dev, xtrans-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-ubuntu-desktop-dev_041-vivid1_armhf.deb
+Size: 10382
+SHA256: dfcb68c26cbdadb9b83bfcec198c1601506616f4c728ffd7285a7bec941641d3
+SHA1: 5f3e4facdd27a582ab031ee131d2a3f0a2de9566
+MD5sum: 9f76a1918e3d0354a55d8d7577f14a0c
+Description: Linaro Ubuntu Desktop profile
+ This package depends on the Linaro headless profile.
+ .
+ It delivers an Ubuntu desktop environment with Linaro configuration added.
+
+Package: linaro-x11-base
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, alsa-base, alsa-utils, anacron, apt, apt-utils, bc, btrfs-tools, bzip2, ca-certificates, console-setup, dc, debconf-i18n, eject, gdbserver, genisoimage, gnupg, ifupdown, initramfs-tools, inputattach, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, lftp, libpam-ck-connector, libsasl2-modules, libxp6, lsb-release, net-tools, netbase, netcat-openbsd, ntpdate, openssh-server, python3, resolvconf, rfkill, rsyslog, screen, smbclient, sudo, ttf-dejavu-core, ttf-freefont, ubuntu-keyring, ubuntu-minimal, udev, unzip, ureadahead, usbutils, vim-tiny, whiptail, wireless-tools, wpasupplicant, xkb-data, xserver-xorg-video-fbdev, zip
+Recommends: avahi-daemon, bluez, bluez-alsa, bogofilter, kerneloops-daemon, laptop-detect, libegl1-mesa-drivers, libgles1-mesa, libgles2-mesa, libnss-mdns, linaro-overlay-minimal, pcmciautils, policykit-desktop-privileges, smemcap
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-x11-base_041-vivid1_armhf.deb
+Size: 8516
+SHA256: 8cc66374697a1ec5d2e9d37b473b65a11a22ff4738306835af660e15d0e9f53e
+SHA1: ad7cfd77e009f50a9f4d26374c6732b4b6efc911
+MD5sum: 9c73690ce5c02d1b9d40769ad991f16c
+Description: Linaro x11 base profile
+ This package depends on all of the packages in the Linaro x11 base profile.
+ .
+ It delivers a full netbook environment using the efl based launcher shipped
+ by ubuntu
+
+Package: linaro-x11-base-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, binutils-dev, bzip2, console-setup, debconf-i18n, eject, gnupg, ifupdown, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, libapm-dev, libbluetooth-dev, libcairo2-dev, libcap-dev, libcap-ng-dev, libcurl4-gnutls-dev, libdaemon-dev, libdbus-glib-1-dev, libdmx-dev, libfindlib-ocaml-dev, libfontconfig1-dev, libfontenc-dev, libfreetype6-dev, libfs-dev, libgcrypt11-dev, libgdbm-dev, libgirepository1.0-dev, libgmp-dev, libgmp3-dev, libgnutls-dev, libgpg-error-dev, libgsl0-dev, libice-dev, libidn11-dev, libiw-dev, libkeyutils-dev, libkrb5-dev, libldap2-dev, libledit-ocaml-dev, libmpc-dev, libmpfr-dev, libp11-kit-dev, libpipeline-dev, libpixman-1-dev, libpthread-stubs0-dev, librtmp-dev, libsasl2-dev, libsm-dev, libsmbclient-dev, libtalloc-dev, libtdb-dev, libusb-1.0-0-dev, libwbclient-dev, libx11-dev, libx11-xcb-dev, libxau-dev, libxaw7-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, lsb-release, net-tools, netbase, netcat-openbsd, ntpdate, python-cairo-dev, python-gi-dev, python-gobject-2-dev, python-gobject-dev, python-talloc-dev, python3, resolvconf, rsyslog, sudo, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail, x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev, xorg-dev, xserver-xorg-dev, xtrans-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-x11-base-dev_041-vivid1_armhf.deb
+Size: 8830
+SHA256: de05a3bc6cf2669b5d13b23ea5994d3d3f340ea7ab863af15825ffca263bbca5
+SHA1: d837f59ec4d011134b7247dc6cb71579c42b1973
+MD5sum: 5d542efd6fdd130277e0df5a8036cebf
+Description: Linaro x11 base profile
+ This package depends on all of the packages in the Linaro x11 base profile.
+ .
+ It delivers a full netbook environment using the efl based launcher shipped
+ by ubuntu
+
+Package: linaro-xfce-base
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, alsa-base, alsa-utils, anacron, apt, apt-utils, bc, btrfs-tools, bzip2, ca-certificates, console-setup, dc, debconf-i18n, dmz-cursor-theme, doc-base, eject, gdbserver, genisoimage, gnupg, gtk2-engines, gtk2-engines-murrine, gtk2-engines-pixbuf, gtk2-engines-xfce, ifupdown, initramfs-tools, inputattach, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, lftp, libasound2-plugins, libpam-ck-connector, libsasl2-modules, libxp6, lightdm, lightdm-gtk-greeter, lsb-release, net-tools, netbase, netcat-openbsd, ntpdate, openssh-server, python3, resolvconf, rfkill, rsyslog, screen, smbclient, sudo, tango-icon-theme, tango-icon-theme-common, thunar, thunar-volman, ttf-dejavu-core, ttf-freefont, tumbler, ubuntu-keyring, ubuntu-minimal, udev, unzip, ureadahead, usbutils, vim-tiny, whiptail, wireless-tools, wpasupplicant, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfdesktop4, xfwm4, xkb-data, xserver-xorg-video-fbdev, xterm, zip
+Recommends: avahi-autoipd, avahi-daemon, bluez, bluez-alsa, bogofilter, fonts-opensymbol, gstreamer0.10-alsa, gstreamer0.10-plugins-base-apps, ibus-gtk, im-config, kerneloops-daemon, laptop-detect, libegl1-mesa-drivers, libgles1-mesa, libgles2-mesa, libnss-mdns, linaro-overlay-minimal, network-manager-gnome, network-manager-pptp, network-manager-pptp-gnome, pcmciautils, policykit-desktop-privileges, smemcap, ttf-liberation
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-xfce-base_041-vivid1_armhf.deb
+Size: 8732
+SHA256: c7ebd1d5d184e6a00bd980d88086a9328029a6e88bd674300b67ee5efe384a1b
+SHA1: a6bb5a8105ee0a69ae26b6dc953bab02f026e239
+MD5sum: b149d7f53333360d4a0dd2297dc04f64
+Description: Linaro xfce base profile
+ This package depends on all of the packages in the Linaro xfce base profile.
+ .
+ It delivers a raw xfce package set which can be used for linaro-alip etc.
+
+Package: linaro-xfce-base-dev
+Source: linaro-meta
+Version: 041-vivid1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 32
+Depends: adduser, apt, apt-utils, autotools-dev, binutils-dev, bzip2, console-setup, debconf-i18n, dictionaries-common-dev, eject, gnupg, ifupdown, initramfs-tools, iproute2, iptables-dev, iputils-ping, isc-dhcp-client, kbd, kmod, less, libaccountsservice-dev, libapm-dev, libappindicator-dev, libappindicator3-dev, libasound2-dev, libasyncns-dev, libatk1.0-dev, libaudio-dev, libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libavahi-core-dev, libavahi-glib-dev, libavahi-gobject-dev, libavahi-qt4-dev, libavahi-ui-dev, libbind-dev, libbluetooth-dev, libcairo2-dev, libcanberra-dev, libcanberra-gtk-common-dev, libcanberra-gtk-dev, libcanberra-gtk3-dev, libcap-dev, libcap-ng-dev, libck-connector-dev, libcroco3-dev, libcups2-dev, libcupscgi1-dev, libcupsimage2-dev, libcupsmime1-dev, libcupsppdc1-dev, libcurl4-gnutls-dev, libdaemon-dev, libdatrie-dev, libdbus-glib-1-dev, libdbusmenu-glib-dev, libdbusmenu-gtk-dev, libdbusmenu-gtk3-dev, libdbusmenu-jsonloader-dev, libdconf-dbus-1-dev, libdconf-dev, libdmx-dev, libegl1-mesa-dev, libexif-dev, libexo-1-dev, libfindlib-ocaml-dev, libflac++-dev, libflac-dev, libfontconfig1-dev, libfontenc-dev, libfreetype6-dev, libfs-dev, libfuse-dev, libgail-3-dev, libgail-dev, libgbm-dev, libgconf2-dev, libgcrypt11-dev, libgd2-xpm-dev, libgdbm-dev, libgdk-pixbuf2.0-dev, libgeoip-dev, libgif-dev, libgirepository1.0-dev, libgl1-mesa-dev, libgles1-mesa-dev, libgles2-mesa-dev, libglu1-mesa-dev, libgmp-dev, libgmp3-dev, libgnome-bluetooth-dev, libgnome-keyring-dev, libgnutls-dev, libgpg-error-dev, libgsl0-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk-3-dev, libgtk2.0-dev, libice-dev, libidn11-dev, libindicator-dev, libindicator3-dev, libiw-dev, libjasper-dev, libjson-glib-dev, libjson0-dev, libkeyutils-dev, libkrb5-dev, liblcms2-dev, libldap2-dev, libledit-ocaml-dev, libltdl-dev, libmng-dev, libmpc-dev, libmpfr-dev, libmysqlclient-dev, libnetfilter-conntrack-dev, libnfnetlink-dev, libnl-3-dev, libnl-cli-3-dev, libnl-genl-3-dev, libnl-nf-3-dev, libnl-route-3-dev, libnm-glib-dev, libnm-glib-vpn-dev, libnm-gtk-dev, libnm-util-dev, libnotify-dev, libnspr4-dev, libnss3-dev, libogg-dev, liborc-0.4-dev, libosmesa6-dev, libp11-kit-dev, libpango1.0-dev, libparted0-dev, libpcap-dev, libpcap0.8-dev, libpcsclite-dev, libpipeline-dev, libpixman-1-dev, libplist++-dev, libplist-dev, libpolkit-agent-1-dev, libpolkit-backend-1-dev, libpolkit-gobject-1-dev, libpoppler-cpp-dev, libpoppler-dev, libpoppler-glib-dev, libpoppler-private-dev, libpoppler-qt4-dev, libpthread-stubs0-dev, libpulse-dev, libqt4-dev, libqt4-opengl-dev, libqt4-private-dev, libqtwebkit-dev, librsvg2-dev, librtmp-dev, libsasl2-dev, libsepol1-dev, libsm-dev, libsmbclient-dev, libsndfile1-dev, libspeex-dev, libspeexdsp-dev, libstartup-notification0-dev, libsysfs-dev, libtalloc-dev, libtdb-dev, libthai-dev, libthunarx-2-dev, libunistring-dev, libusb-1.0-0-dev, libusbmuxd-dev, libvorbis-dev, libwayland-dev, libwbclient-dev, libwnck-dev, libwrap0-dev, libx11-dev, libx11-xcb-dev, libxatracker-dev, libxau-dev, libxaw7-dev, libxcb-composite0-dev, libxcb-damage0-dev, libxcb-dpms0-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-randr0-dev, libxcb-record0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-screensaver0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-util0-dev, libxcb-xevie0-dev, libxcb-xf86dri0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xprint0-dev, libxcb-xtest0-dev, libxcb-xv0-dev, libxcb-xvmc0-dev, libxcb1-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfce4ui-1-dev, libxfce4util-dev, libxfconf-0-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxklavier-dev, libxml2-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, lsb-release, mesa-common-dev, net-tools, netbase, netcat-openbsd, network-manager-dev, ntpdate, ppp-dev, python-cairo-dev, python-gi-dev, python-gobject-2-dev, python-gobject-dev, python-talloc-dev, python3, resolvconf, rsyslog, sudo, ubuntu-keyring, ubuntu-minimal, udev, ureadahead, vim-tiny, whiptail, x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev, xorg-dev, xserver-xorg-dev, xtrans-dev
+Priority: optional
+Section: metapackages
+Filename: pool/main/l/linaro-meta/linaro-xfce-base-dev_041-vivid1_armhf.deb
+Size: 9466
+SHA256: c5f321ba386ab38f4b94e54a367e05ebeeec6197917fab5c353f8125c22cf4d6
+SHA1: ca5e03501d9df1db6135dff14b9a830d0afd04e6
+MD5sum: 6895a06ebe2224eb16ceac4cf5ec1aaa
+Description: Linaro xfce base profile
+ This package depends on all of the packages in the Linaro xfce base profile.
+ .
+ It delivers a raw xfce package set which can be used for linaro-alip etc.
+
+Package: linux-firmware
+Version: 1.143.1+linaro1
+Architecture: all
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 59386
+Conflicts: atmel-firmware
+Replaces: atmel-firmware, linux-restricted-common
+Provides: atmel-firmware
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-firmware/linux-firmware_1.143.1+linaro1_all.deb
+Size: 19611924
+SHA256: 51a2d9ee3c72309286ba47268e557bcbe5b4d3956e5b34d52f790d373791f94a
+SHA1: 64709a822fb30d447f6755be09a9246e89ea3cf2
+MD5sum: b9e2fdbf79cbfc93a11bda57c8726372
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
+
+Package: linux-kbuild-4.0
+Source: linux-tools
+Version: 4.0.2-1.1.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 596
+Depends: libc6 (>= 2.11)
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-tools/linux-kbuild-4.0_4.0.2-1.1.linarovivid.1_armhf.deb
+Size: 161396
+SHA256: 1e05bab7bcbd0039c3653253f31017a8f7057e5cba6d9334800d39cb3558dca7
+SHA1: ffbc7c10af4c9aee6a96fd35e4657c833b9f55ee
+MD5sum: 5a2174532fbbddf07a129aa17d413734
+Description: Kbuild infrastructure for Linux 4.0
+ This package provides the kbuild infrastructure for the headers packages
+ for Linux kernel version 4.0.
+
+Package: linux-tools
+Version: 4.0.2-1.1.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1429
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libperl5.20 (>= 5.20.2), libpython2.7 (>= 2.7), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), perl
+Recommends: linux-base (>= 3.4~)
+Suggests: linux-doc-4.0
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-tools/linux-tools_4.0.2-1.1.linarovivid.1_armhf.deb
+Size: 585416
+SHA256: 3a394c2a4a7b5f5f2c5b60a0b01755a648585f6efdc9249313156519276d9556
+SHA1: 6c6a2f88d564c287d336467c2c204fd0fa152d5e
+MD5sum: d3f84ab937819313a63f1acd26128566
+Description: Performance analysis tools for Linux 4.0
+ This package contains the 'perf' performance analysis tools for Linux
+ kernel version 4.0.
+ .
+ The linux-base package contains a 'perf' command which will invoke the
+ appropriate version for the running kernel.
+
+Package: linux-tools-4.0
+Source: linux-tools
+Version: 4.0.2-1
+Architecture: armhf
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1430
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libdw1 (>= 0.143), libelf1 (>= 0.144), libgcc1 (>= 1:4.4.0), libperl5.20 (>= 5.20.2), libpython2.7 (>= 2.7), libslang2 (>= 2.2.4), libunwind8, zlib1g (>= 1:1.1.4), perl
+Recommends: linux-base (>= 3.4~)
+Suggests: linux-doc-4.0
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-tools/linux-tools-4.0_4.0.2-1_armhf.deb
+Size: 585554
+SHA256: ff13400733e9eef2fdb8580f04ab9b76d8d7dbf20d643552f3d7377e2dec038d
+SHA1: d68da3fd8798f05e1619e8e1b25e851ead4699c6
+MD5sum: 0d0fa1331535efefc512fe3ef0816a54
+Description: Performance analysis tools for Linux 4.0
+ This package contains the 'perf' performance analysis tools for Linux
+ kernel version 4.0.
+ .
+ The linux-base package contains a 'perf' command which will invoke the
+ appropriate version for the running kernel.
+
+Package: openni2-doc
+Source: openni2
+Version: 2.2.0.33+dfsg-5.linarovivid.1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1947
+Homepage: http://structure.io/openni
+Priority: optional
+Section: doc
+Filename: pool/main/o/openni2/openni2-doc_2.2.0.33+dfsg-5.linarovivid.1_all.deb
+Size: 331910
+SHA256: 8ef278737f608b316188ff15e740291cc48f67bf2b077ed95e56cd7dbd01b0cc
+SHA1: 7d52c15ec080d169b1adcd4c9dcc127196a3f561
+MD5sum: cb2e37b4a60f6d3a0e02699b1fe07a82
+Description: developer documentation for OpenNI frameworks
+ OpenNI is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. OpenNI provides the interface for physical devices and for
+ middleware components. The API enables modules to be registered in the OpenNI
+ framework, which then produce sensory data. OpenNI also allows selection of
+ different hardware and middleware modules.
+ .
+ This package provides developer documentation for developing using the OpenNI2
+ frameworks.
+
+Package: openni2-utils
+Source: openni2
+Version: 2.2.0.33+dfsg-5.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 168
+Depends: freeglut3, libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libopenni2-0, libstdc++6 (>= 4.6)
+Homepage: http://structure.io/openni
+Priority: optional
+Section: utils
+Filename: pool/main/o/openni2/openni2-utils_2.2.0.33+dfsg-5.linarovivid.1_armhf.deb
+Size: 62736
+SHA256: 1bd550faa31a07aff668b7bd1ad049557d25d91919eca42331e5a4306ad68b0f
+SHA1: b506a1b17ee08306beb805f25d51099c6b305a03
+MD5sum: 25658292144a3cd8d75ff18de51f40de
+Description: debug and test utilities OpenNI2 framework
+ OpenNI2 is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. OpenNI2 provides the interface for physical devices and for
+ middleware components. The API enables modules to be registered in the OpenNI2
+ framework, which then produce sensory data. OpenNI2 also allows selection of
+ different hardware and middleware modules.
+ .
+ This package provides a number of related utilities for debugging, testing,
+ and view the results of the sensor modules.
+
+Package: qemu-linaro-keymaps
+Source: qemu-linaro
+Version: 2.4.0+git1843+g3c07587-1.linarovivid.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 135
+Breaks: qemu (<< 0.11.0-2), qemu-system (<< 0.12.4+dfsg-4)
+Replaces: qemu (<< 0.11.0-2), qemu-keymaps, qemu-system (<< 0.12.4+dfsg-4)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-linaro-keymaps_2.4.0+git1843+g3c07587-1.linarovivid.1_all.deb
+Size: 23774
+SHA256: ef41a7c21c95da6b9eb02eb828e7a8fa8c506f5fea611bfc45725f9f4efb4072
+SHA1: 2f765f1b613a59e4057b083ace2167f316b330da
+MD5sum: 3d82f4c8efd4444f49aa7a0d832265ce
+Description: QEMU keyboard maps
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides keyboard maps to be used by the qemu-system
+ package or QEMU derivatives.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-system
+Source: qemu-linaro
+Version: 2.4.0+git1843+g3c07587-1.linarovivid.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 77998
+Depends: qemu-linaro-keymaps, libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libbrlapi0.6, libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.3), libfdt1, libgcc1 (>= 1:4.7), libglib2.0-0 (>= 2.31.8), libgnutls-deb0-28 (>= 3.3.0), libncurses5 (>= 5.5-5~), libnettle4, libpixman-1-0 (>= 0.19.6), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libsasl2-2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), libtinfo5, libuuid1 (>= 2.16), libvdeplug2, libx11-6, zlib1g (>= 1:1.2.0)
+Suggests: samba
+Breaks: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Replaces: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-system_2.4.0+git1843+g3c07587-1.linarovivid.1_armhf.deb
+Size: 10424956
+SHA256: 70fc038aafacf06f77e0fa1b06a8f70b8524160964e1137e41fa57fed4322662
+SHA1: 478be768b35b0e363e6193332e272e3f54b69e93
+MD5sum: 2869e64a8fac25f464e8bc9826eef927
+Description: QEMU full system emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the full system emulation binaries for targets other
+ than x86 and x86-64.  In this mode QEMU emulates a full system, including a
+ processor and various peripherals.  It enables easier testing and debugging
+ of system code.  It can also be used to provide virtual hosting of several
+ virtual machines on a single server.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-user
+Source: qemu-linaro
+Version: 2.4.0+git1843+g3c07587-1.linarovivid.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 912
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.24.0), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Breaks: qemu (<< 0.11.0-2), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Replaces: qemu (<< 0.11.0-2), qemu-kvm (<< 0.13.0+noroms-0ubuntu13), qemu-kvm-extras (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-user_2.4.0+git1843+g3c07587-1.linarovivid.1_armhf.deb
+Size: 368868
+SHA256: a73619555c9f4630f118e092bedd2f7e4ac00ed4b50a8890c1cbf0066ad6cb89
+SHA1: 4a7744a4995eb7d3df2628f436fca20548960c31
+MD5sum: 69cb211ee0aa11d3f978bacf477b8eaf
+Description: QEMU user mode emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries for targets other
+ than x86 and x86-64.  In this mode QEMU can launch Linux processes compiled
+ for one CPU on another CPU.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-user-static
+Source: qemu-linaro
+Version: 2.4.0+git1843+g3c07587-1.linarovivid.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 52402
+Recommends: binfmt-support, debootstrap
+Suggests: sudo
+Breaks: qemu-kvm-extras-static (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Replaces: qemu-kvm-extras-static (<< 0.13.50-2011.02-0~rc1-0ubuntu1)
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-user-static_2.4.0+git1843+g3c07587-1.linarovivid.1_armhf.deb
+Size: 5723580
+SHA256: bc715f7c1609796ad85ea406cc2363169f65a2eacf443756f3b541f65513f07e
+SHA1: 368a07e402a0ea32c51f2f49e99fa13a4cb3ecf7
+MD5sum: 921a25c7c84a19032940a9c7e204aae6
+Description: QEMU user mode emulation binaries (static version)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries, built
+ statically. In this mode QEMU can launch Linux processes compiled for
+ one CPU on another CPU.
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: qemu-utils
+Source: qemu-linaro
+Version: 2.4.0+git1843+g3c07587-1.linarovivid.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1824
+Depends: libc6 (>= 2.13-31), libcurl3-gnutls (>= 7.16.3), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.3.0), libnettle4, libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: sharutils
+Suggests: debootstrap
+Multi-Arch: foreign
+Homepage: https://launchpad.net/qemu-linaro/
+Priority: optional
+Section: misc
+Filename: pool/main/q/qemu-linaro/qemu-utils_2.4.0+git1843+g3c07587-1.linarovivid.1_armhf.deb
+Size: 397800
+SHA256: d9e9df8263b2529bbf73d37ba2d74e5741b73a91f026dd51fd41cc71ee3e49be
+SHA1: 16409f0f1bef109d3759d0e458f812ddc45fb3f7
+MD5sum: 52b99336b8241adcc425487336ae96c1
+Description: QEMU utilities
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides QEMU related utilities:
+  * qemu-img: QEMU disk image utility
+  * qemu-io:  QEMU disk exerciser
+  * qemu-nbd: QEMU disk network block device server
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: ti-omap-ehci
+Priority: optional
+Section: misc
+Installed-Size: 39
+Maintainer: Linaro Maintainers <linaro-dev@lists.linaro.org>
+Architecture: all
+Version: 0.0~20121108-0ubuntu1~linaro1
+Filename: pool/main/t/ti-omap-ehci/ti-omap-ehci_0.0~20121108-0ubuntu1~linaro1_all.deb
+Size: 2360
+SHA256: 7df971609a1c6deceff9c01410f9ade3e1c031c762469aa9edfd7303f3394d2f
+SHA1: f73c5660d4643608d64ac0129d02c96d405af261
+MD5sum: e86203e1885b3088ea0a70744680b7cc
+Description: udev rule for OMAP-EHCI Host Controller
+ This package provides an udev rules to load ehci-hcd module automatically.
+ It is needed to properly get the ethernet link up on Pandaboard (smsc95xx).
+
+Package: u-boot-linaro-am335x-evm
+Source: u-boot-linaro
+Priority: extra
+Section: misc
+Installed-Size: 546
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2013.01+7646+50+201307101117~raring1
+Filename: pool/main/u/u-boot-linaro/u-boot-linaro-am335x-evm_2013.01+7646+50+201307101117~raring1_armhf.deb
+Size: 277286
+SHA256: 385ba556e32aa3c90d37ce406b481d971ab4f05ed430e0c2092c0017ad5e3c65
+SHA1: 1ca3a3252d0d4ec347f9302044e1a0dc65265c76
+MD5sum: d1dc21ff84e9761173ad9b48786b7135
+Description: U-Boot bootloader binary for the TI AM335x EVM
+ This package contains the U-Boot bootloader which is responsible for
+ loading and executing the Linux kernel on this board. This package
+ contains the u-boot binary blob, and is not usually needed on a normal
+ system
+Original-Maintainer: John Rigby <john.rigby@linaro.org>
+
+Package: u-boot-linaro-arndale-octa
+Version: 2012.07+3+20140214-linaro1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 363
+Priority: extra
+Section: misc
+Filename: pool/main/u/u-boot-linaro-arndale-octa/u-boot-linaro-arndale-octa_2012.07+3+20140214-linaro1_armhf.deb
+Size: 169614
+SHA256: 31ea9c0951b3137292d45f5ccdcd4431d6fffcfa284b9eb0cddee5d294d38a64
+SHA1: 4a50a18b6040adff6519326c08b2287999f81c83
+MD5sum: 2ec0744384c879849b2a31afcf74b01d
+Description: U-Boot bootloader binary for the SAMSUNG Arndale Octa
+ This package contains the U-Boot bootloader which is responsible for
+ loading and executing the Linux kernel on this board. This package
+ contains the u-boot binary blob, and is not usually needed on a normal
+ system
+Original-Maintainer: Fathi Boudra <fathi.boudra@linaro.org>
+
+Package: u-boot-linaro-arndale5250
+Source: u-boot-linaro
+Priority: extra
+Section: misc
+Installed-Size: 308
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2013.01+7646+50+201307101117~raring1
+Filename: pool/main/u/u-boot-linaro/u-boot-linaro-arndale5250_2013.01+7646+50+201307101117~raring1_armhf.deb
+Size: 144254
+SHA256: 913b3b4bbbbeec3de276cad67d060a777890199519168aeecc010a5d9b440afd
+SHA1: b99c382a97fd1780554aad67c222c1cdcda7e423
+MD5sum: cbf8887bdbf038d1d5f598b29ad73676
+Description: U-Boot bootloader binary for the SAMSUNG arndale5250
+ This package contains the U-Boot bootloader which is responsible for
+ loading and executing the Linux kernel on this board. This package
+ contains the u-boot binary blob, and is not usually needed on a normal
+ system
+Original-Maintainer: John Rigby <john.rigby@linaro.org>
+
+Package: u-boot-linaro-omap4-panda
+Source: u-boot-linaro
+Priority: extra
+Section: misc
+Installed-Size: 892
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2013.01+7646+50+201307101117~raring1
+Filename: pool/main/u/u-boot-linaro/u-boot-linaro-omap4-panda_2013.01+7646+50+201307101117~raring1_armhf.deb
+Size: 533796
+SHA256: 7e40babdb595bb8854ce179c0cac1b48d1d9e998486a095ad3cb2d6530c18cde
+SHA1: 994d88cdbb88c5c55b0f48452749d678bca7c1d5
+MD5sum: ddc40ac50c57ba6571377b0c23bfae27
+Description: U-Boot bootloader binary for the TI OMAP4 Panda board
+ This package contains the U-Boot bootloader which is responsible for
+ loading and executing the Linux kernel on this board. This package
+ contains the u-boot binary blob, and is not usually needed on a normal
+ system
+Original-Maintainer: John Rigby <john.rigby@linaro.org>
+
+Package: u-boot-linaro-omap4-panda-splusb
+Source: u-boot-linaro
+Priority: extra
+Section: misc
+Installed-Size: 473
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2013.01+7646+50+201307101117~raring1
+Filename: pool/main/u/u-boot-linaro/u-boot-linaro-omap4-panda-splusb_2013.01+7646+50+201307101117~raring1_armhf.deb
+Size: 270618
+SHA256: ac49b6570b2babdfaec5b1bb5e1ed77808d5feba1f90a8664d4abe36a6d92b3a
+SHA1: b4ad7383adf58f60a7d483a53b5fb22c06b6fc43
+MD5sum: 14e742e2a1e594f804e5dc4d2edd775e
+Description: U-Boot usbspl bootloader binary for the TI OMAP4 Panda board
+ This package contains a special purpose U-Boot bootloader for booting
+ via a usb connection from a development host to usb peripheral connector on
+ the Panda target.  This is useful for developers and for recovering a board
+ with bad boot media.
+Multi-Arch: foreign
+Original-Maintainer: John Rigby <john.rigby@linaro.org>
+
+Package: u-boot-linaro-omap4-sdp4430
+Source: u-boot-linaro
+Priority: extra
+Section: misc
+Installed-Size: 372
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2013.01+7646+50+201307101117~raring1
+Filename: pool/main/u/u-boot-linaro/u-boot-linaro-omap4-sdp4430_2013.01+7646+50+201307101117~raring1_armhf.deb
+Size: 218812
+SHA256: 94d476681efe4eb601b99ad828c75dc71ac65179c2bb49eda9b8bddc090c8e12
+SHA1: fd11aef5e70008e28db88d290af83d254ce7930c
+MD5sum: f3d3db929bbade623cb69dade0267fcd
+Description: U-Boot bootloader binary for the TI OMAP4 SDP4430 board
+ This package contains the U-Boot bootloader which is responsible for
+ loading and executing the Linux kernel on this board. This package
+ contains the u-boot binary blob, and is not usually needed on a normal
+ system
+Original-Maintainer: John Rigby <john.rigby@linaro.org>
+
+Package: u-boot-linaro-smdk5250
+Source: u-boot-linaro
+Priority: extra
+Section: misc
+Installed-Size: 47
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2013.01+7646+50+201307101117~raring1
+Filename: pool/main/u/u-boot-linaro/u-boot-linaro-smdk5250_2013.01+7646+50+201307101117~raring1_armhf.deb
+Size: 11658
+SHA256: cce86fe888e280e771d3ac57368621c6d073cfe929ed70c693aebe72e32ce7a6
+SHA1: 45a4b75831bd04bcff1f0ad6b9a2e3b3842a83ee
+MD5sum: f1d22d8789cd7fcd370df4e8cbcce560
+Description: U-Boot bootloader binary for the SAMSUNG smdk5250
+ This package contains the U-Boot bootloader which is responsible for
+ loading and executing the Linux kernel on this board. This package
+ contains the u-boot binary blob, and is not usually needed on a normal
+ system
+Original-Maintainer: John Rigby <john.rigby@linaro.org>
+
+Package: ubuntu-vexpress-extras-config
+Version: 0.5
+Architecture: all
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Installed-Size: 58
+Priority: extra
+Section: utils
+Filename: pool/main/u/ubuntu-vexpress-extras-config/ubuntu-vexpress-extras-config_0.5_all.deb
+Size: 3952
+SHA256: e2c09a3cc932273fe973956541c3a0e4579f22e81d91ac177fca0ff8e6442b5f
+SHA1: ffadc8c9577a47e02548e8b7973de27a1ab46fbe
+MD5sum: 87e8211c022166d1c019eab3813c2a6c
+Description: This is the ARM vexpress configuration package
+ It provides additinal configuration files and settings for a better
+ vexpress usage with Ubuntu.
+
+Package: uefi-image-arndale
+Source: edk2-uefi
+Version: 1:0.2+git18+20140522+4a54859-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 2693
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-arndale_0.2+git18+20140522+4a54859-0linaro1_armhf.deb
+Size: 478098
+SHA256: 93e7cc614eb0ebc9d8e4641863d56f0d62fc91fd46597f76adda027375b8e0ce
+SHA1: e37cfb5167b6554cecf3d99f29476d189c27f830
+MD5sum: df5fdb79868b12ca35d25e373d7534ee
+Description: UEFI image for Samsung Arndale
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for Samsung Arndale.
+
+Package: uefi-image-juno
+Version: 0.3.20140404-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 997
+Priority: extra
+Section: admin
+Filename: pool/main/u/uefi-image-juno/uefi-image-juno_0.3.20140404-0linaro1_all.deb
+Size: 428614
+SHA256: 11aa542d02cbff375ce30dc49a75e3ce86a793f0bc169c435a55400044505764
+SHA1: 636af6f61043fa31291483d59c5adf4c6cdbe197
+MD5sum: 46d70345c12e1dce3091b7229f6c7f66
+Description: UEFI image for Juno
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI image for Juno.
+
+Package: uefi-image-origen
+Source: edk2-uefi
+Version: 1:0.2+git18+20140522+4a54859-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 25
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-origen_0.2+git18+20140522+4a54859-0linaro1_armhf.deb
+Size: 1892
+SHA256: 20438f14c4a488933597b02ab635b858c576a074fb526a7286d091772d381b2e
+SHA1: d18e5faa511017d891de1c1bcfee0eb35c848947
+MD5sum: 33dfafe74686df7c31ff51e315f9c985
+Description: UEFI image for Samsung Origen
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for Samsung Origen.
+
+Package: uefi-image-panda
+Source: edk2-uefi
+Version: 1:0.2+git18+20140522+4a54859-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 25
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-panda_0.2+git18+20140522+4a54859-0linaro1_armhf.deb
+Size: 1894
+SHA256: cb8d174c6f1f9ffc8d617cde45b962496fc39da4b06a78f17e2ee7f15e569a07
+SHA1: 264ac6ebe14e111baf328d0500512b34080f47cd
+MD5sum: e4391f47778e22282992a0626e2b0492
+Description: UEFI image file for TI PandaBoard
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for TI PandaBoard.
+
+Package: uefi-image-startup-nsh
+Version: 0.0.1.20140214-0linaro1
+Architecture: all
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 35
+Priority: extra
+Section: admin
+Filename: pool/main/u/uefi-image-startup-nsh/uefi-image-startup-nsh_0.0.1.20140214-0linaro1_all.deb
+Size: 2278
+SHA256: 1d1c5273b4d129de2f2d116c613ed206cb622a914e81753c9491f50ea72432c4
+SHA1: dc45387c9640dbf34e78fca437ee7aeebb80ee4f
+MD5sum: 920b491d4ee431eae61f4b4d922b87c7
+Description: UEFI startup script
+ This package contains a startup script used to boot with UEFI.
+
+Package: uefi-image-vexpress
+Source: edk2-uefi
+Version: 1:0.2+git18+20140522+4a54859-0linaro1
+Architecture: armhf
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Installed-Size: 23372
+Priority: extra
+Section: admin
+Filename: pool/main/e/edk2-uefi/uefi-image-vexpress_0.2+git18+20140522+4a54859-0linaro1_armhf.deb
+Size: 4136658
+SHA256: 8c9f743552080ee5b2e0bc2dde773808aea8ed20d6d431f642d3212bb8ddf54e
+SHA1: b2a96526ed7e1e6e05e301fc0b52bd47d0fc6248
+MD5sum: 2bb1a68b9abb2694dfee443233b52cf9
+Description: UEFI image for Versatile Express
+ EDK II is a modern, feature-rich, cross-platform firmware development
+ environment for the UEFI and PI specifications.
+ .
+ This package contains UEFI images for Versatile Express (v2p-ca15-tc2,
+ v2p-ca15-tc1, v2p-ca15-tc2, v2p-ca5s and v2p-ca9).
+
+Package: usbip
+Source: linux-tools (4.0.2-1.1.linarovivid.1)
+Version: 2.0+4.0.2-1.1.linarovivid.1
+Architecture: armhf
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 128
+Depends: usbutils, libc6 (>= 2.7), libudev1 (>= 183), libwrap0 (>= 7.6-4~)
+Priority: optional
+Section: admin
+Filename: pool/main/l/linux-tools/usbip_2.0+4.0.2-1.1.linarovivid.1_armhf.deb
+Size: 35550
+SHA256: aa758129dc3699850c418ece77ae03dd7c09e6da07d274d5044f3d5ad5a5c1b0
+SHA1: 007449162bca4e79b2efb8a15a4a7a4f713e6f7d
+MD5sum: ce71680edb65ef8a1082adcffb2deaa7
+Description: USB device sharing system over IP network
+ USB/IP is a system for sharing USB devices over the network.
+ .
+ To share USB devices between computers with their full functionality,
+ USB/IP encapsulates "USB requests" into IP packets and transmits them
+ between computers.
+ .
+ Original USB device drivers and applications can be used for remote USB
+ devices without any modification of them.  A computer can use remote USB
+ devices as if they were directly attached.
+ .
+ Currently USB/IP provides no access control or encryption.  It should only
+ be used in trusted environments.
+ .
+ This package provides the server component 'usbipd' and the client tool
+ 'usbip'.
+

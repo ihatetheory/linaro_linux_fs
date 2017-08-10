@@ -1,0 +1,1074 @@
+Package: linux-headers-linaro-omap
+Description-md5: ef9b42600bff7c96d37a96f3acdd9d6d
+Description-en: Linux kernel headers for the TI OMAP architecture.
+ This package will always depend on the latest kernel headers available
+ for TI OMAP systems.
+
+Package: linux-image-linaro-omap
+Description-md5: d908a66c7a83ee65c45ecc8bb53bf35d
+Description-en: Linux kernel image for the TI OMAP architecture.
+ This package will always depend on the latest kernel image available
+ for TI OMAP systems.
+
+Package: linux-headers-linaro-vexpress
+Description-md5: f6fc8aa890618cd38eda73c9d8f74c46
+Description-en: Linux kernel headers for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Vexpress systems.
+
+Package: linux-image-linaro-vexpress
+Description-md5: 62050507ace692de15d1ebec769ccc85
+Description-en: Linux kernel image for the Vexpress architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Vexpress systems.
+
+Package: arm-ds5-target
+Description-md5: 6499d29eabbcfe6d0f4dca412b8e7d80
+Description-en: ARM DS-5 target dependencies
+ This meta-package depends on all components required to receive
+ full ARM DS-5 experience.
+
+Package: gator
+Description-md5: 1c376cbf89fd6415d8c9ad2cf5b13f27
+Description-en: ARM Streamline gator
+ This meta-package depends on gator target packages required to use
+ ARM Streamline Performance Analyzer.
+
+Package: gator-daemon
+Description-md5: d4ccb6dc63001dc8496ea4eaee2514f9
+Description-en: ARM Streamline gator daemon
+ The target-side daemon gathering data for ARM Streamline
+ Performance Analyzer.
+
+Package: gator-module-dkms
+Description-md5: 8e98ec5bc4d9de9ff6d0c7cf09781050
+Description-en: ARM Streamline gator module - dkms version
+ The target-side kernel module gathering data for ARM Streamline
+ Performance Analyzer.
+ .
+ This package contains the source to be built with dkms.
+
+Package: linux-headers-linaro-lt-vexpress
+Description-md5: f6fc8aa890618cd38eda73c9d8f74c46
+Description-en: Linux kernel headers for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM Vexpress systems.
+
+Package: linux-image-linaro-lt-vexpress
+Description-md5: 62050507ace692de15d1ebec769ccc85
+Description-en: Linux kernel image for the Vexpress architecture.
+ This package will always depend on the latest kernel image available
+ for ARM Vexpress systems.
+
+Package: linux-tools-linaro-lt-vexpress
+Description-md5: edc58bb86db102da6d77414a7de22a8a
+Description-en: Linux kernel tools for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-vexpress
+Description-md5: edc58bb86db102da6d77414a7de22a8a
+Description-en: Linux kernel tools for the ARM Vexpress architecture.
+ This package will always depend on the latest kernel versioned
+ tools available.
+
+Package: linux-headers-linaro-arndale
+Description-md5: 0062735b9085167972c88df2c5243749
+Description-en: Linux kernel headers for the Insignal Arndale architecture.
+ This package will always depend on the latest kernel headers available
+ for Insignal Arndale systems.
+
+Package: linux-image-linaro-arndale
+Description-md5: 3b89e81ffec70fa6546d0fadf1bdbe0d
+Description-en: Linux kernel image for the Insignal Arndale architecture.
+ This package will always depend on the latest kernel image available
+ for Insignal Arndale systems.
+
+Package: linux-tools-linaro-arndale
+Description-md5: ee2e2edffe39c06ffb43889df56f1a03
+Description-en: Linux kernel tools for the Insignal Arndale architecture.
+ This package will always depend on the latest Arndale Linux kernel versioned
+ tools available.
+
+Package: linux-tools-linaro-omap
+Description-md5: b6facd1a72d1147014449c81a2419983
+Description-en: Linux kernel tools for the TI OMAP architecture.
+ This package will always depend on the latest TI OMAP Linux kernel versioned
+ tools available.
+
+Package: linux-headers-linaro-am335x
+Description-md5: 61c95f03f557b739a98f686253a85b13
+Description-en: Linux kernel headers for the TI AM335x architecture.
+ This package will always depend on the latest kernel headers available
+ for TI AM335x systems.
+
+Package: linux-image-linaro-am335x
+Description-md5: 1b5e52ba5fb0ee8fb4ab5c0f42844c16
+Description-en: Linux kernel image for the TI AM335x architecture.
+ This package will always depend on the latest kernel image available
+ for TI AM335x systems.
+
+Package: linux-tools-linaro-am335x
+Description-md5: f1d5e08b43c62400b7a538c4ab29cf53
+Description-en: Linux kernel tools for the TI AM335x architecture.
+ This package will always depend on the latest TI AM335x Linux kernel versioned
+ tools available.
+
+Package: linux-headers-linaro-arndale-octa
+Description-md5: c07271097d2a6b249235095f2f35f65f
+Description-en: Linux kernel headers for the Insignal Arndale Octa architecture.
+ This package will always depend on the latest kernel headers available
+ for Insignal Arndale Octa systems.
+
+Package: linux-image-linaro-arndale-octa
+Description-md5: de8d72d83a47f2cc941c3dbab8b2c187
+Description-en: Linux kernel image for the Insignal Arndale Octa architecture.
+ This package will always depend on the latest kernel image available
+ for Insignal Arndale Octa systems.
+
+Package: linux-tools-linaro-arndale-octa
+Description-md5: 90be540816a506fc3deab16af881ccf0
+Description-en: Linux kernel tools for the Insignal Arndale Octa architecture.
+ This package will always depend on the latest Arndale Octa Linux kernel versioned
+ tools available.
+
+Package: linux-linaro-tools-3.10.74.0-1-linaro-lsk-vexpress
+Description-md5: 4f48411cdafcb3c8464a1c4f3d2682af
+Description-en: Linux kernel version specific tools for version 3.10.74.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.10.74.0-1 on
+ ARM (hard float).
+
+Package: linux-image-3.10.74.0-1-linaro-lsk-vexpress
+Description-md5: df76230ebe157bbd2cb80a2b54304f1d
+Description-en: Linux kernel image for version 3.10.74.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 3.10.74.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-lsk-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-3.10.74.0-1-linaro-lsk-vexpress
+Description-md5: b47f9e9ccb2e94f5fe3d2689078a90f1
+Description-en: Linux kernel headers for version 3.10.74.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 3.10.74.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-lsk-vexpress-3.10.74-headers-3.10.74.0-1/debian.README.gz for details.
+
+Package: linux-image-3.10.74.0-1-linaro-lsk-vexpress-dbgsym
+Description-md5: 40da7701eeec6823965a6edf37689bb4
+Description-en: Linux kernel debug image for version 3.10.74.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 3.10.74.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.1.0-1-linaro-arndale-octa
+Description-md5: 5fa492886748fb69f33eef411cea9068
+Description-en: Linux kernel version specific tools for version 4.1.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.1.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.1.0-1-linaro-arndale-octa
+Description-md5: fe3ba5e1f79355bd37c6f48678cd5fff
+Description-en: Linux kernel image for version 4.1.0 on Samsung ARNDALE-based systems
+ This package contains the Linux kernel image for version 4.1.0 on
+ Samsung ARNDALE-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Samsung ARNDALE processors.
+ .
+ Targeted towards boards such as arndale-octa, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-arndale-octa meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.1.0-1-linaro-arndale-octa
+Description-md5: 960b3cf64279b031869e3457063811d1
+Description-en: Linux kernel headers for version 4.1.0 on Samsung ARNDALE-based systems
+ This package provides kernel header files for version 4.1.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-arndale-octa-4.1-headers-4.1.0-1/debian.README.gz for details.
+
+Package: linux-image-4.1.0-1-linaro-arndale-octa-dbgsym
+Description-md5: 98d707ac5feed941d76c0ec90cb5eb22
+Description-en: Linux kernel debug image for version 4.1.0 on Samsung ARNDALE-based systems
+ This package provides a kernel debug image for version 4.1.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.1.0-1-linaro-am335x
+Description-md5: 5fa492886748fb69f33eef411cea9068
+Description-en: Linux kernel version specific tools for version 4.1.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.1.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.1.0-1-linaro-am335x
+Description-md5: c1514151764ed346448f758ebd72a8ab
+Description-en: Linux kernel image for version 4.1.0 on TI AM335x-based systems
+ This package contains the Linux kernel image for version 4.1.0 on
+ TI AM335x-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI AM335x processors.
+ .
+ Targeted towards boards such as beaglebone, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-am335x meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.1.0-1-linaro-am335x
+Description-md5: d07cffac697aa03ba5bebb163a658fc4
+Description-en: Linux kernel headers for version 4.1.0 on TI AM335x-based systems
+ This package provides kernel header files for version 4.1.0 on
+ TI AM335x-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-am335x-4.1-headers-4.1.0-1/debian.README.gz for details.
+
+Package: linux-image-4.1.0-1-linaro-am335x-dbgsym
+Description-md5: bb1aeb7db8b48969a635b565f0373446
+Description-en: Linux kernel debug image for version 4.1.0 on TI AM335x-based systems
+ This package provides a kernel debug image for version 4.1.0 on
+ TI AM335x-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.1.0-1-linaro-vexpress
+Description-md5: 5fa492886748fb69f33eef411cea9068
+Description-en: Linux kernel version specific tools for version 4.1.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.1.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.1.0-1-linaro-vexpress
+Description-md5: 6b7ed47f57ae00f25d560823a4bdc929
+Description-en: Linux kernel image for version 4.1.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 4.1.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.1.0-1-linaro-vexpress
+Description-md5: bbf79c01455485314556139d785df5db
+Description-en: Linux kernel headers for version 4.1.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 4.1.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-vexpress-4.1-headers-4.1.0-1/debian.README.gz for details.
+
+Package: linux-image-4.1.0-1-linaro-vexpress-dbgsym
+Description-md5: 271e43a2c648bc3b9896027b7df27031
+Description-en: Linux kernel debug image for version 4.1.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 4.1.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.1.0-1-linaro-omap
+Description-md5: 5fa492886748fb69f33eef411cea9068
+Description-en: Linux kernel version specific tools for version 4.1.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.1.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.1.0-1-linaro-omap
+Description-md5: 646f93eac71359e25919223411b47a1e
+Description-en: Linux kernel image for version 4.1.0 on TI OMAP-based systems
+ This package contains the Linux kernel image for version 4.1.0 on
+ TI OMAP-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI OMAP processors.
+ .
+ Targeted towards boards such as panda, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-omap meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.1.0-1-linaro-omap
+Description-md5: 4cd5d72804d392557e37bbd2bd70d3b0
+Description-en: Linux kernel headers for version 4.1.0 on TI OMAP-based systems
+ This package provides kernel header files for version 4.1.0 on
+ TI OMAP-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-omap-4.1-headers-4.1.0-1/debian.README.gz for details.
+
+Package: linux-image-4.1.0-1-linaro-omap-dbgsym
+Description-md5: 1c121f5c1b37192a8a67a9264d1bfd7f
+Description-en: Linux kernel debug image for version 4.1.0 on TI OMAP-based systems
+ This package provides a kernel debug image for version 4.1.0 on
+ TI OMAP-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.1.0-1-linaro-arndale
+Description-md5: 5fa492886748fb69f33eef411cea9068
+Description-en: Linux kernel version specific tools for version 4.1.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.1.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.1.0-1-linaro-arndale
+Description-md5: 6a0e7ff4e5bfa5cb73833778e1f69521
+Description-en: Linux kernel image for version 4.1.0 on Samsung ARNDALE-based systems
+ This package contains the Linux kernel image for version 4.1.0 on
+ Samsung ARNDALE-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Samsung ARNDALE processors.
+ .
+ Targeted towards boards such as arndale, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-arndale meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.1.0-1-linaro-arndale
+Description-md5: 3897c8ad28b046a1702101dca618bbe9
+Description-en: Linux kernel headers for version 4.1.0 on Samsung ARNDALE-based systems
+ This package provides kernel header files for version 4.1.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-arndale-4.1-headers-4.1.0-1/debian.README.gz for details.
+
+Package: linux-image-4.1.0-1-linaro-arndale-dbgsym
+Description-md5: 98d707ac5feed941d76c0ec90cb5eb22
+Description-en: Linux kernel debug image for version 4.1.0 on Samsung ARNDALE-based systems
+ This package provides a kernel debug image for version 4.1.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.1.0-1-linaro-lt-vexpress
+Description-md5: 5fa492886748fb69f33eef411cea9068
+Description-en: Linux kernel version specific tools for version 4.1.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.1.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.1.0-1-linaro-lt-vexpress
+Description-md5: 9944773c30f6c0e46c32109565f2fe4e
+Description-en: Linux kernel image for version 4.1.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 4.1.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-lt-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.1.0-1-linaro-lt-vexpress
+Description-md5: af77a51ad9c3db89c7028a52a04c42b8
+Description-en: Linux kernel headers for version 4.1.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 4.1.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-lt-vexpress-4.1-headers-4.1.0-1/debian.README.gz for details.
+
+Package: linux-image-4.1.0-1-linaro-lt-vexpress-dbgsym
+Description-md5: 271e43a2c648bc3b9896027b7df27031
+Description-en: Linux kernel debug image for version 4.1.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 4.1.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-3.10.79.0-1-linaro-lsk-vexpress
+Description-md5: 2a25735b50d271f08b4ac151f8cd27f0
+Description-en: Linux kernel version specific tools for version 3.10.79.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.10.79.0-1 on
+ ARM (hard float).
+
+Package: linux-image-3.10.79.0-1-linaro-lsk-vexpress
+Description-md5: f3a139dde251b5bb1d5335625282ad5d
+Description-en: Linux kernel image for version 3.10.79.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 3.10.79.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-lsk-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-3.10.79.0-1-linaro-lsk-vexpress
+Description-md5: 753790a3bed7e207574100d80b2c268d
+Description-en: Linux kernel headers for version 3.10.79.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 3.10.79.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-lsk-vexpress-3.10.79-headers-3.10.79.0-1/debian.README.gz for details.
+
+Package: linux-image-3.10.79.0-1-linaro-lsk-vexpress-dbgsym
+Description-md5: 219f564895dfa33f7e1fb80ac2b53f22
+Description-en: Linux kernel debug image for version 3.10.79.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 3.10.79.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.2.0-1-linaro-vexpress
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+Description-en: Linux kernel version specific tools for version 4.2.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.2.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.2.0-1-linaro-vexpress
+Description-md5: 56adb96a674502cfa63994274cef781e
+Description-en: Linux kernel image for version 4.2.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 4.2.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.2.0-1-linaro-vexpress
+Description-md5: ff070ef6984b66f7d8d9754849956503
+Description-en: Linux kernel headers for version 4.2.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 4.2.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-vexpress-4.2-headers-4.2.0-1/debian.README.gz for details.
+
+Package: linux-image-4.2.0-1-linaro-vexpress-dbgsym
+Description-md5: a085006725462ab3277e1fa7d33adc39
+Description-en: Linux kernel debug image for version 4.2.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 4.2.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.2.0-1-linaro-lt-vexpress
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+Description-en: Linux kernel version specific tools for version 4.2.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.2.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.2.0-1-linaro-lt-vexpress
+Description-md5: ebae129bbf6c1ebabae0c38834bc88c7
+Description-en: Linux kernel image for version 4.2.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 4.2.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-lt-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.2.0-1-linaro-lt-vexpress
+Description-md5: c8d35b3764a69f37b41222a37a86d1db
+Description-en: Linux kernel headers for version 4.2.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 4.2.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-lt-vexpress-4.2-headers-4.2.0-1/debian.README.gz for details.
+
+Package: linux-image-4.2.0-1-linaro-lt-vexpress-dbgsym
+Description-md5: a085006725462ab3277e1fa7d33adc39
+Description-en: Linux kernel debug image for version 4.2.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 4.2.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.2.0-1-linaro-arndale
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+Description-en: Linux kernel version specific tools for version 4.2.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.2.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.2.0-1-linaro-arndale
+Description-md5: 7a6044c80808fc6edb768aef1a493b2d
+Description-en: Linux kernel image for version 4.2.0 on Samsung ARNDALE-based systems
+ This package contains the Linux kernel image for version 4.2.0 on
+ Samsung ARNDALE-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Samsung ARNDALE processors.
+ .
+ Targeted towards boards such as arndale, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-arndale meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.2.0-1-linaro-arndale
+Description-md5: 1085abccc517c0eccfe9e30ebb296f8b
+Description-en: Linux kernel headers for version 4.2.0 on Samsung ARNDALE-based systems
+ This package provides kernel header files for version 4.2.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-arndale-4.2-headers-4.2.0-1/debian.README.gz for details.
+
+Package: linux-image-4.2.0-1-linaro-arndale-dbgsym
+Description-md5: 68f572b11e543862976819c0bd4be160
+Description-en: Linux kernel debug image for version 4.2.0 on Samsung ARNDALE-based systems
+ This package provides a kernel debug image for version 4.2.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.2.0-1-linaro-omap
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+Description-en: Linux kernel version specific tools for version 4.2.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.2.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.2.0-1-linaro-omap
+Description-md5: 6a2d3455ebeef5d8968dd25b153f3e7f
+Description-en: Linux kernel image for version 4.2.0 on TI OMAP-based systems
+ This package contains the Linux kernel image for version 4.2.0 on
+ TI OMAP-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI OMAP processors.
+ .
+ Targeted towards boards such as panda, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-omap meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.2.0-1-linaro-omap
+Description-md5: 799742f151fa55104cf4662874632199
+Description-en: Linux kernel headers for version 4.2.0 on TI OMAP-based systems
+ This package provides kernel header files for version 4.2.0 on
+ TI OMAP-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-omap-4.2-headers-4.2.0-1/debian.README.gz for details.
+
+Package: linux-image-4.2.0-1-linaro-omap-dbgsym
+Description-md5: fb56e6b4654f53ff38ae190d7969eda8
+Description-en: Linux kernel debug image for version 4.2.0 on TI OMAP-based systems
+ This package provides a kernel debug image for version 4.2.0 on
+ TI OMAP-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.2.0-1-linaro-arndale-octa
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+Description-en: Linux kernel version specific tools for version 4.2.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.2.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.2.0-1-linaro-arndale-octa
+Description-md5: 159a723b840779b73502ca3658724a02
+Description-en: Linux kernel image for version 4.2.0 on Samsung ARNDALE-based systems
+ This package contains the Linux kernel image for version 4.2.0 on
+ Samsung ARNDALE-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Samsung ARNDALE processors.
+ .
+ Targeted towards boards such as arndale-octa, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-arndale-octa meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.2.0-1-linaro-arndale-octa
+Description-md5: f22b9d2a3db5cd722fc1fc4e8b0e7c0a
+Description-en: Linux kernel headers for version 4.2.0 on Samsung ARNDALE-based systems
+ This package provides kernel header files for version 4.2.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-arndale-octa-4.2-headers-4.2.0-1/debian.README.gz for details.
+
+Package: linux-image-4.2.0-1-linaro-arndale-octa-dbgsym
+Description-md5: 68f572b11e543862976819c0bd4be160
+Description-en: Linux kernel debug image for version 4.2.0 on Samsung ARNDALE-based systems
+ This package provides a kernel debug image for version 4.2.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.2.0-1-linaro-am335x
+Description-md5: 8cc8d3a6b376c88aefa5952df7f9f15b
+Description-en: Linux kernel version specific tools for version 4.2.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.2.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.2.0-1-linaro-am335x
+Description-md5: 4f73fbc767cc80d5708f95484d2c5b20
+Description-en: Linux kernel image for version 4.2.0 on TI AM335x-based systems
+ This package contains the Linux kernel image for version 4.2.0 on
+ TI AM335x-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI AM335x processors.
+ .
+ Targeted towards boards such as beaglebone, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-am335x meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.2.0-1-linaro-am335x
+Description-md5: a9b0c781c1645af1aaf8fcfde52323a6
+Description-en: Linux kernel headers for version 4.2.0 on TI AM335x-based systems
+ This package provides kernel header files for version 4.2.0 on
+ TI AM335x-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-am335x-4.2-headers-4.2.0-1/debian.README.gz for details.
+
+Package: linux-image-4.2.0-1-linaro-am335x-dbgsym
+Description-md5: a7c8165dcae0f528d9d85215f753adba
+Description-en: Linux kernel debug image for version 4.2.0 on TI AM335x-based systems
+ This package provides a kernel debug image for version 4.2.0 on
+ TI AM335x-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.3.0-1-linaro-lt-vexpress
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+Description-en: Linux kernel version specific tools for version 4.3.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.3.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.3.0-1-linaro-lt-vexpress
+Description-md5: 8ea451e614b2402cb280dba6838a4dd5
+Description-en: Linux kernel image for version 4.3.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 4.3.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-lt-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.3.0-1-linaro-lt-vexpress
+Description-md5: 0b8974dca0d8290714be38f89a0e7eb4
+Description-en: Linux kernel headers for version 4.3.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 4.3.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-lt-vexpress-4.3-headers-4.3.0-1/debian.README.gz for details.
+
+Package: linux-image-4.3.0-1-linaro-lt-vexpress-dbgsym
+Description-md5: 65e9642195d21554a2cd21337d18696f
+Description-en: Linux kernel debug image for version 4.3.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 4.3.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.3.0-1-linaro-arndale
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+Description-en: Linux kernel version specific tools for version 4.3.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.3.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.3.0-1-linaro-arndale
+Description-md5: f7f5a7bcfc1be832fe3e401fd0ea0217
+Description-en: Linux kernel image for version 4.3.0 on Samsung ARNDALE-based systems
+ This package contains the Linux kernel image for version 4.3.0 on
+ Samsung ARNDALE-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Samsung ARNDALE processors.
+ .
+ Targeted towards boards such as arndale, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-arndale meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.3.0-1-linaro-arndale
+Description-md5: a21d550b31fc345acd78dddb5414c0cb
+Description-en: Linux kernel headers for version 4.3.0 on Samsung ARNDALE-based systems
+ This package provides kernel header files for version 4.3.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-arndale-4.3-headers-4.3.0-1/debian.README.gz for details.
+
+Package: linux-image-4.3.0-1-linaro-arndale-dbgsym
+Description-md5: cef60716870e0e23eda6e7c1df59ee02
+Description-en: Linux kernel debug image for version 4.3.0 on Samsung ARNDALE-based systems
+ This package provides a kernel debug image for version 4.3.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.3.0-1-linaro-vexpress
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+Description-en: Linux kernel version specific tools for version 4.3.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.3.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.3.0-1-linaro-vexpress
+Description-md5: 30f1dbc7b8ac8b1e10b5169ce980a947
+Description-en: Linux kernel image for version 4.3.0 on ARM VEXPRESS-based systems
+ This package contains the Linux kernel image for version 4.3.0 on
+ ARM VEXPRESS-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ARM VEXPRESS processors.
+ .
+ Targeted towards boards such as vexpress, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-vexpress meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.3.0-1-linaro-vexpress
+Description-md5: b349819ebf8749ac66d0e4db9fad475a
+Description-en: Linux kernel headers for version 4.3.0 on ARM VEXPRESS-based systems
+ This package provides kernel header files for version 4.3.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-vexpress-4.3-headers-4.3.0-1/debian.README.gz for details.
+
+Package: linux-image-4.3.0-1-linaro-vexpress-dbgsym
+Description-md5: 65e9642195d21554a2cd21337d18696f
+Description-en: Linux kernel debug image for version 4.3.0 on ARM VEXPRESS-based systems
+ This package provides a kernel debug image for version 4.3.0 on
+ ARM VEXPRESS-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.3.0-1-linaro-arndale-octa
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+Description-en: Linux kernel version specific tools for version 4.3.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.3.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.3.0-1-linaro-arndale-octa
+Description-md5: 6c7e6e97b0bb850c40ce5bc1396e07c6
+Description-en: Linux kernel image for version 4.3.0 on Samsung ARNDALE-based systems
+ This package contains the Linux kernel image for version 4.3.0 on
+ Samsung ARNDALE-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Samsung ARNDALE processors.
+ .
+ Targeted towards boards such as arndale-octa, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-arndale-octa meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.3.0-1-linaro-arndale-octa
+Description-md5: ebae67ac5e9b3300e2c5dd0410d4da52
+Description-en: Linux kernel headers for version 4.3.0 on Samsung ARNDALE-based systems
+ This package provides kernel header files for version 4.3.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-arndale-octa-4.3-headers-4.3.0-1/debian.README.gz for details.
+
+Package: linux-image-4.3.0-1-linaro-arndale-octa-dbgsym
+Description-md5: cef60716870e0e23eda6e7c1df59ee02
+Description-en: Linux kernel debug image for version 4.3.0 on Samsung ARNDALE-based systems
+ This package provides a kernel debug image for version 4.3.0 on
+ Samsung ARNDALE-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.3.0-1-linaro-am335x
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+Description-en: Linux kernel version specific tools for version 4.3.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.3.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.3.0-1-linaro-am335x
+Description-md5: 8b24388b31eb23315e8f5f83ae144d8b
+Description-en: Linux kernel image for version 4.3.0 on TI AM335x-based systems
+ This package contains the Linux kernel image for version 4.3.0 on
+ TI AM335x-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI AM335x processors.
+ .
+ Targeted towards boards such as beaglebone, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-am335x meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.3.0-1-linaro-am335x
+Description-md5: e96559cb350e32f0733bfc746e80d62c
+Description-en: Linux kernel headers for version 4.3.0 on TI AM335x-based systems
+ This package provides kernel header files for version 4.3.0 on
+ TI AM335x-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-am335x-4.3-headers-4.3.0-1/debian.README.gz for details.
+
+Package: linux-image-4.3.0-1-linaro-am335x-dbgsym
+Description-md5: 45dc3e955681f4641a8e49c7b35dbd72
+Description-en: Linux kernel debug image for version 4.3.0 on TI AM335x-based systems
+ This package provides a kernel debug image for version 4.3.0 on
+ TI AM335x-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+
+Package: linux-linaro-tools-4.3.0-1-linaro-omap
+Description-md5: 36252ff7e0d4ee99b9ca9c89d2a73b3e
+Description-en: Linux kernel version specific tools for version 4.3.0-1
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.3.0-1 on
+ ARM (hard float).
+
+Package: linux-image-4.3.0-1-linaro-omap
+Description-md5: eee5dbb895db5376b3561b6917513e05
+Description-en: Linux kernel image for version 4.3.0 on TI OMAP-based systems
+ This package contains the Linux kernel image for version 4.3.0 on
+ TI OMAP-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI OMAP processors.
+ .
+ Targeted towards boards such as panda, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-linaro-omap meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-headers-4.3.0-1-linaro-omap
+Description-md5: c3e6327516f3fafd826ac4fbf34a82d0
+Description-en: Linux kernel headers for version 4.3.0 on TI OMAP-based systems
+ This package provides kernel header files for version 4.3.0 on
+ TI OMAP-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-linaro-omap-4.3-headers-4.3.0-1/debian.README.gz for details.
+
+Package: linux-image-4.3.0-1-linaro-omap-dbgsym
+Description-md5: 53c6f2c588fc4da77bbb64b131f5a1ca
+Description-en: Linux kernel debug image for version 4.3.0 on TI OMAP-based systems
+ This package provides a kernel debug image for version 4.3.0 on
+ TI OMAP-based systems.
+ .
+ This is for sites that wish to debug the kernel.
+ .
+ The kernel image contained in this package is NOT meant to boot from. It
+ is uncompressed, and unstripped. This package also includes the
+ unstripped modules.
+

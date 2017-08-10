@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/pkgconfig
+/usr/lib/pkgconfig/dbus-python.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-dbus-dev
+/usr/share/doc/python-dbus-dev/copyright
+/usr/share/doc/python-dbus-dev/changelog.Debian.gz
+/usr/include
+/usr/include/dbus-1.0
+/usr/include/dbus-1.0/dbus
+/usr/include/dbus-1.0/dbus/dbus-python.h

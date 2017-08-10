@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcheese7
+/usr/share/doc/libcheese7/changelog.Debian.gz
+/usr/share/doc/libcheese7/NEWS.gz
+/usr/share/doc/libcheese7/copyright
+/usr/share/doc/libcheese7/README
+/usr/share/doc/libcheese7/AUTHORS
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcheese.so.7.0.30
+/usr/lib/arm-linux-gnueabihf/libcheese.so.7

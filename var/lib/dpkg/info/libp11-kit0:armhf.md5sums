@@ -1,0 +1,4 @@
+523e149cedfe9b87ba0806ff043ca54a  usr/lib/arm-linux-gnueabihf/libp11-kit.so.0.0.0
+f06fb09af1a29cb393231e57ce25a91e  usr/share/doc/libp11-kit0/changelog.Debian.gz
+0edfe3321f5d2e962763232dbd316017  usr/share/doc/libp11-kit0/copyright
+161f8ec95326f47d853cb7c1ee76c7b8  usr/share/doc/libp11-kit0/examples/pkcs11.conf.example

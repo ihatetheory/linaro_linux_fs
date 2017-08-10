@@ -1,0 +1,1 @@
+/etc/systemd/system/reboot.target.wants/plymouth-reboot.service

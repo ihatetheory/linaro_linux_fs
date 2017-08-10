@@ -1,0 +1,83 @@
+#!/bin/sh
+
+set -e
+
+rm_conffile() {
+  PKGNAME="gdm"
+  CONFFILE="$1"
+
+  if [ -e "$CONFFILE" ]; then
+   md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
+   old_md5sum="`dpkg-query -W -f='${Conffiles}' $PKGNAME | sed -n -e \"\\\\' $CONFFILE'{s/ obsolete$//;s/.* //p}\"`"
+   if [ "$md5sum" != "$old_md5sum" ]; then
+     echo "Obsolete conffile $CONFFILE has been modified by you."
+     echo "Saving as $CONFFILE.dpkg-bak ..."
+     mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+   else
+     echo "Removing obsolete conffile $CONFFILE ..."
+     rm -f "$CONFFILE"
+   fi
+ fi
+}
+
+if [ "$1" = "upgrade" ] || [ "$1" = "install" ] && \
+    # earlier releases used /etc/gdm/gdm.conf-custom, but upstream uses
+    # custom.conf
+    dpkg --compare-versions "$2" le-nl "2.26.1-0ubuntu5"; then
+    if [ -f /etc/gdm/gdm.conf-custom ]; then
+	echo "Renaming /etc/gdm/gdm.conf-custom to /etc/gdm/custom.conf" >&2
+	mv /etc/gdm/gdm.conf-custom /etc/gdm/custom.conf
+    fi
+
+    # migrate autologin settings
+    if ! egrep -q '^(Automatic|Timed)Login(Enable|Delay|)=' /etc/gdm/custom.conf; then
+	settings="`egrep '^((Automatic|Timed)LoginEnable=[^f])|^((Automatic|Timed)Login=.)|^TimedLoginDelay=[^3]' /etc/gdm/gdm.conf`" || true
+	if [ -n "$settings" ]; then
+	    echo '[daemon]' >> /etc/gdm/custom.conf
+	    echo "$settings" >> /etc/gdm/custom.conf
+	fi
+    fi
+
+    # obsolete conffiles
+    rm_conffile /etc/gdm/gdm.conf
+    rm_conffile /etc/gdm/locale.conf
+    rm_conffile /etc/gdm/gdmprefetchlist
+    rm_conffile /etc/gdm/XKeepsCrashing
+    rm_conffile /etc/gdm/modules/AccessKeyMouseEvents
+    rm_conffile /etc/gdm/modules/factory-AccessKeyMouseEvents
+    rm_conffile /etc/gdm/modules/AccessDwellMouseEvents
+    rm_conffile /etc/gdm/modules/factory-AccessDwellMouseEvents
+fi
+
+#clean up old dconf conffiles
+if [ "$1" = "upgrade" ] || [ "$1" = "install" ]; then      
+    #remove if empty
+    dist_settings=/etc/dconf/db/gdm.d/90-debian-settings
+    if [ -f $dist_settings ] && ! egrep -q '\[.*\]' $dist_settings; then
+        rm -f $dist_settings
+    fi
+
+    rm_conffile /etc/dconf/db/gdm.d/00-upstream-settings
+    rm_conffile /etc/dconf/db/gdm.d/locks/00-upstream-settings-locks
+    rm_conffile /etc/dconf/profile/gdm
+fi
+
+
+if dpkg-maintscript-helper supports rm_conffile 2>/dev/null; then
+    dpkg-maintscript-helper rm_conffile /etc/X11/Xsession.d/60xdg_path-on-session 3.0.4-0ubuntu4 -- "$@"
+fi
+
+# Automatically added by dh_installinit
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/gdm" ] && [ -L "/etc/init.d/gdm" ] \
+	   && [ $(readlink -f "/etc/init.d/gdm") = /lib/init/upstart-job ]
+	then
+		rm -f "/etc/init.d/gdm"
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/gdm/greeter.gconf-defaults 3.4 -- "$@"
+# End automatically added section
+
+

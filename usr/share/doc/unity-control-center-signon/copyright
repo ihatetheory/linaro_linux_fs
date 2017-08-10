@@ -1,0 +1,16 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: gnome-control-center-signon
+Upstream-Contact: Alberto Mardegan <alberto.mardegan@canonical.com>
+Source: https://launchpad.net/gnome-control-center-signon
+
+Files: *
+Copyright: 2012 Canonical Ltd.
+License: GPL-3
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+Files: libaccount-plugin/*
+Copyright: 2012 Canonical Ltd.
+License: LGPL-3
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".

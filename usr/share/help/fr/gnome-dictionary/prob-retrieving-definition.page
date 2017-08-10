@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Erreur lors de la récupération des définitions</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Définitions introuvables</title>
+
+  <p>Si vous voyez le message d'erreur <sys>Erreur lors de la récupération de la définition</sys> pendant la recherche d'une définition à partir de l'un des <link xref="sources-select">dictionnaires utilisés</link>, le problème est susceptible d'être l'un de ceux qui suivent :</p>
+
+  <list>
+    <item>
+      <p>Un ou plusieurs des serveurs <app>DICT</app> sélectionnés qui sont utilisés pour rechercher des définitions peuvent ne pas fonctionner. Vous pouvez attendre un petit peu avant de <link xref="definition">rechercher</link> la définition à nouveau.</p>
+    </item>
+    <item>
+      <p>Vous n'avez peut-être pas de connexion Internet. Afin que le <app>Dictionnaire</app> puisse rechercher des définitions, votre ordinateur <link href="help:gnome-help/net">doit être capable de se connecter</link> à <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak vybrat písmo pro tisk definic.</desc>
+
+  </info>
+
+  <title>Písmo tisku</title>
+
+  <p>Můžete si změnit výchozí typ a velikost písma, které se použije při tisku definice.</p>
+
+  <steps>
+    <title>Změna písma</title>
+    <item>
+      <p>Zvolte <guiseq><gui style="menu">Slovník</gui> <gui style="menuitem">Předvolby</gui> <gui style="tab">Tisk</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Klikněte na tlačítko pro výběr písma.</p>
+    </item>
+    <item>
+      <p>Vyberte písmo, které si přejete používat.</p>
+    </item>
+    <item>
+      <p>Posunem táhla doprava zvětšete nebo doleva zmenšete velikost písma. Případně můžete velikost uvést přímo číselně ve vedlejším poli nebo použít tlačítka <gui>-</gui> a <gui>+</gui> pro postupné zmenšování či zvětšování.</p>
+    </item>
+    <item>
+      <p>Kliknutím na <gui style="button">Vybrat</gui> nastavení písma uložíte.</p>
+    </item>
+  </steps>
+
+  <p>Definice se pro potřebu tisku znovu nezalamují, takže pokud zvolíte příliš velké písmo, může být část textu oříznutá.</p>
+
+</page>

@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="http-warning">
+
+  <info>
+    <link type="guide" xref="index#information"/>
+
+    <revision version="0.1" date="2012-09-25" status="candidate"/>
+
+    <credit type="author">
+      <name>Alberto Mardegan</name>
+      <email>alberto.mardegan@canonical.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright">
+      <name>Canonical Ltd.</name>
+      <years>2013</years>
+    </credit>
+    <license>
+      <p>Creative Commons Attribution-ShareAlike 3.0</p>
+    </license>
+
+    <desc>Explanation of the HTTP security warning.</desc>
+  </info>
+
+  <title>Sites using insecure connections</title>
+
+  <p>When performing the web-based authentication, you might be warned of a
+  security risk caused by the use of an insecure connection.</p>
+
+  <section id="http-warning-meaning">
+    <title>Meaning of the security warning</title>
+
+<title>Security warning</title>
+    <p>Web-based authentications usually require the user to enter
+    personal indentification information, such as a username and password. The
+    information is then transmitted to the authenticating website over an
+    encrypted connection, which guarantees that the information provided won't
+    be accessible to other, potentially malicious, third parties.</p>
+
+    <p>Sometimes an encrypted connection cannot be established; this can happen
+    when the site itself does not implement all the requirements for setting up
+    such a channel, or when your internet connection does not allow the
+    transmission of encrypted data.</p>
+
+    <p>If you fully trust the internet connection you are using, there's a good
+    chance that the warning is shown because the website itself doesn't support
+    the encrypted channel, and in this case the associated security risk is
+    relatively low. If, on the other hand, you cannot trust your internet
+    provider or if you are using a public wireless network (also known as WLAN
+    or WI-FI), there's a higher risk that a malicious third party could steal
+    your account information.</p>
+
+    <p>In particular, if you start seeing this warning when authenticating to a
+    website for which you have previously never seen such a warning, it's
+    highly recommended that you don't continue with the authentication and
+    press the <gui>Cancel</gui> button instead.</p>
+  </section>
+</page>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>预览并打印释义。</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>打印释义</title>
+
+  <p>您可以将一条释义打印到纸上或输出到文件中。在打印之前，您可以预览它将被打印成的样子，看文本是否适合纸张。特别是当您更改过 <link xref="print-font">打印字体</link>大小时。</p>
+
+  <section id="preview">
+    <title>打印预览</title>
+
+    <steps>
+      <item>
+        <p>选择<guiseq><gui style="menu">文件</gui> <gui style="menuitem">预览</gui></guiseq>。</p>
+      </item>
+      <item>
+        <p>打印预览窗口将会打开，上面显示了释义将被打印成的模样。</p>
+      </item>
+      <item>
+	<p>使用工具条来浏览页面，调整缩放级别和页宽。</p>
+      </item>
+      <item>
+        <p>要打印这条释义，请单击 <gui style="button">打印这份文档</gui>。如果您想结束预览，请关闭这个窗口。</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>工具条上的打印按钮有时可能会不工作。如果它不正常工作，请关闭窗口并选择 <guiseq><gui style="menu">文件</gui> <gui style="menuitem">打印</gui></guiseq>。</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>打印</title>
+
+    <p> 要打印到纸张上，您需要<link href="help:gnome-help/printing">设置一台打印机</link>。</p>
+
+    <steps>
+      <item>
+        <p>选择<guiseq><gui style="menu">文件</gui> <gui style="menuitem">打印</gui> <gui style="tab">常规</gui></guiseq>。</p>
+      </item>
+      <item>
+        <p>从打印机列表中选择您希望使用的打印机，或者选择 <gui href="help:gnome-help/print-to-file">打印到文件</gui>。</p>
+      </item>
+      <item>
+        <p>选择您的<link href="help:gnome-help/printing#paper">打印设置</link>。</p>
+      </item>
+      <item>
+        <p>按下<gui style="button">打印</gui>开始打印。</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

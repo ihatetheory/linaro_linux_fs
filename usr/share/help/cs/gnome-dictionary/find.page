@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak najít text v rámci definice.</desc>
+
+  </info>
+
+  <title>Hledání v definici</title>
+
+  <p>Některé položky ve slovníku mohou být hodně dlouhé a obsahovat řadu výsledků, takže pak můžete chtít v nich vyhledat část, která vás zajímá.</p>
+
+  <steps>
+    <title>Definici vyhledáte takto:</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Najít</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>V dolní části okna <app>Slovníku</app> se objeví <gui>vyhledávací lišta</gui>. Napište do ní výraz, který chcete najít v rámci právě zobrazené definice.</p>
+    </item>
+    <item>
+      <p>Kliknutím na <gui style="button">Předchozí</gui> nebo <gui style="button">Následující</gui> můžete přecházet mezi výsledky. Při hledání se nepřechází přes okraj, tzn. že když jste na posledním výsledku a kliknete na <gui style="button">Následující</gui> nepřejdete na začátek na první výsledek.</p>
+    </item>
+  </steps>
+
+</page>

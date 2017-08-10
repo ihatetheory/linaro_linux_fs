@@ -1,0 +1,16 @@
+e6a151231ec37c95836e4e79e6760578  lib/systemd/system/wacom-inputattach@.service/wacom-inputattach@.service
+18940bd7e15e572ed44bb1931765dab2  lib/udev/rules.d/69-wacom.rules/wacom.rules
+8d948a7a08411fa7ce9911d96d5a4cc0  usr/bin/isdv4-serial-debugger
+af3c699e61f84a7bdcda2eefa59d0462  usr/bin/isdv4-serial-inputattach
+14f77c1858f4aaa069dfdd0cafdfcde1  usr/bin/xsetwacom
+6eb936150499c17e7ad9250890bd2d73  usr/include/xorg/Xwacom.h
+342ccc3d9b7786b94f3d6dba0aeba8d8  usr/include/xorg/isdv4.h
+84c1f1581eca62dad38b59e51aa3b9a6  usr/include/xorg/wacom-properties.h
+d0ef78815824e8a3a4a6625465ff2599  usr/include/xorg/wacom-util.h
+1d02ce0347849172726a33aad0eef275  usr/lib/pkgconfig/xorg-wacom.pc
+1eb0498258971c1e8e11c54a59395c73  usr/lib/xorg/modules/input/wacom_drv.so
+5fd4bb5efb0be7bc3d8e21e193965465  usr/share/X11/xorg.conf.d/50-wacom.conf
+758c2bd6ea9e53372088e9904c786762  usr/share/doc/xserver-xorg-input-wacom/changelog.Debian.gz
+673c8549a677804eaad4ca27b8c2d34e  usr/share/doc/xserver-xorg-input-wacom/copyright
+39f7e1f8aa4207cdb75bd6c64f511c45  usr/share/man/man1/xsetwacom.1.gz
+5f4405feb176ed0a1be1f3e312efa943  usr/share/man/man4/wacom.4.gz

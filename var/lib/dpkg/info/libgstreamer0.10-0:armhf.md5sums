@@ -1,0 +1,15 @@
+21912bb9b1c17da58ecf0796fdf5605e  usr/lib/arm-linux-gnueabihf/gstreamer-0.10/libgstcoreelements.so
+f362f2d90b08909c1638df4f3d70fd99  usr/lib/arm-linux-gnueabihf/gstreamer-0.10/libgstcoreindexers.so
+a1069e26baf34add7ce255f88196fc5c  usr/lib/arm-linux-gnueabihf/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner
+297989218a1dfe5167e362bf648083cc  usr/lib/arm-linux-gnueabihf/libgstbase-0.10.so.0.30.0
+c30bc929d4635369381177a5f3adde0d  usr/lib/arm-linux-gnueabihf/libgstcheck-0.10.so.0.30.0
+36e8ce9b45d214a62c367f7d80b07407  usr/lib/arm-linux-gnueabihf/libgstcontroller-0.10.so.0.30.0
+847587d2d02d67d7c369e22cde82eaaa  usr/lib/arm-linux-gnueabihf/libgstdataprotocol-0.10.so.0.30.0
+5ac56b630ecb56cdaa024c0b7e876fb3  usr/lib/arm-linux-gnueabihf/libgstnet-0.10.so.0.30.0
+75968bad43785b9e2042b247edc52f32  usr/lib/arm-linux-gnueabihf/libgstreamer-0.10.so.0.30.0
+18728550cf69534a157d3e39af9281ea  usr/share/doc/libgstreamer0.10-0/AUTHORS
+1cf06e03758505648ab3be8135c59f1c  usr/share/doc/libgstreamer0.10-0/NEWS.gz
+5bafd23836a2eb87b9d8f5341a9114e3  usr/share/doc/libgstreamer0.10-0/README.Debian
+ce9247eebc3efe0c0287568c4f369c42  usr/share/doc/libgstreamer0.10-0/README.gz
+f409b5f48253c0f27532200a9a7b8cdf  usr/share/doc/libgstreamer0.10-0/changelog.Debian.gz
+58afe71a3df11ad72a42613606ecd6a7  usr/share/doc/libgstreamer0.10-0/copyright

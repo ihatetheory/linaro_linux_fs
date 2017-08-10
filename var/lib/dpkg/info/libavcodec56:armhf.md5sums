@@ -1,0 +1,5 @@
+c120f3c58a6d39e7cb55a4f7ccdce5c5  usr/lib/arm-linux-gnueabihf/libavcodec.so.56.1.0
+a7e157c2d17a3c25f2284878100f0105  usr/lib/arm-linux-gnueabihf/neon/vfp/libavcodec.so.56.1.0
+bd6217c476b2a95f7f773daccbcbbc36  usr/share/doc/libavcodec56/codecs-armhf.txt.gz
+323125fc98bc748defccc624b74fd752  usr/share/doc/libavcodec56/copyright
+954f773f7f877dcc577c99eac4e54808  usr/share/lintian/overrides/libavcodec56

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libimobiledevice4
+/usr/share/doc/libimobiledevice4/changelog.Debian.gz
+/usr/share/doc/libimobiledevice4/NEWS.gz
+/usr/share/doc/libimobiledevice4/copyright
+/usr/share/doc/libimobiledevice4/README
+/usr/share/doc/libimobiledevice4/AUTHORS
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libimobiledevice.so.4.0.1
+/usr/lib/arm-linux-gnueabihf/libimobiledevice.so.4

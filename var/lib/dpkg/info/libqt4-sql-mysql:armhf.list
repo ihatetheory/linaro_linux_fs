@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqt4-sql-mysql
+/usr/share/doc/libqt4-sql-mysql/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/qt4
+/usr/lib/arm-linux-gnueabihf/qt4/plugins
+/usr/lib/arm-linux-gnueabihf/qt4/plugins/sqldrivers
+/usr/lib/arm-linux-gnueabihf/qt4/plugins/sqldrivers/libqsqlmysql.so
+/usr/share/doc/libqt4-sql-mysql/changelog.Debian.gz
+/usr/share/doc/libqt4-sql-mysql/LGPL_EXCEPTION.txt

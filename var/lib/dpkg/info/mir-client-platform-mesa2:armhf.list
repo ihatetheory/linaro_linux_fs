@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/mir-client-platform-mesa2
+/usr/share/doc/mir-client-platform-mesa2/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/mir
+/usr/lib/arm-linux-gnueabihf/mir/client-platform
+/usr/lib/arm-linux-gnueabihf/mir/client-platform/mesa.so.2
+/usr/share/doc/mir-client-platform-mesa2/changelog.Debian.gz

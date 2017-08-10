@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/Disks/" id="org.gnome.Disks" gettext-domain="gnome-disk-utility">
+    <key type="s" name="image-dir-uri">
+      <default>''</default>
+      <summary>Default location for the Create/Restore disk image dialogs</summary>
+      <description>Default location for the Create/Restore disk image dialogs. If blank the ~/Documents folder is used.</description>
+    </key>
+  </schema>
+</schemalist>

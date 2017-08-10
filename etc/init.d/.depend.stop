@@ -1,0 +1,11 @@
+TARGETS = cgmanager spamassassin alsa-utils cgproxy resolvconf kerneloops bluetooth cups-browsed cups gdm urandom avahi-daemon sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+avahi-daemon: cups-browsed
+sendsigs: spamassassin bluetooth avahi-daemon cups-browsed alsa-utils gdm
+rsyslog: bluetooth sendsigs avahi-daemon cups-browsed kerneloops cups
+umountnfs.sh: spamassassin bluetooth rsyslog sendsigs avahi-daemon cups-browsed alsa-utils gdm
+hwclock.sh: rsyslog cups-browsed
+networking: umountnfs.sh cups-browsed
+umountfs: spamassassin bluetooth networking hwclock.sh umountnfs.sh avahi-daemon cups-browsed alsa-utils resolvconf urandom gdm
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Aperçu avant impression et impression des définitions.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Impression d'une définition</title>
+
+  <p>Vous pouvez imprimer une définition sur papier ou dans un fichier. Avant l'impression, vous devriez prévisualiser la définition telle qu'elle sera imprimée afin de vérifier que le texte tienne sur la page, surtout si vous avez changé la taille de la <link xref="print-font">police d'impression</link>.</p>
+
+  <section id="preview">
+    <title>Aperçu avant impression</title>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Fichier</gui> <gui style="menuitem">Aperçu</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Une fenêtre d'aperçu avant impression vous affichera la définition exactement telle qu'elle sera imprimée.</p>
+      </item>
+      <item>
+	<p>Utilisez la barre d'outils pour naviguer à travers les pages, régler le niveau de zoom et la largeur de la page.</p>
+      </item>
+      <item>
+        <p>Cliquez sur <gui style="button">Imprimer ce document</gui> pour imprimer la définition ou bien fermez la fenêtre pour arrêter la prévisualisation.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Le bouton d'impression dans la barre d'outils ne fonctionne pas toujours. Si cela ne fonctionne pas pour vous, fermez la fenêtre et sélectionnez <guiseq><gui style="menu">Fichier</gui> <gui style="menuitem">Imprimer</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Impression</title>
+
+    <p>Vous devez <link href="help:gnome-help/printing">avoir une imprimante configurée</link> pour être en mesure d'imprimer sur papier.</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Fichier</gui> <gui style="menuitem">Imprimer</gui> <gui style="tab">Général</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez l'imprimante que vous souhaitez utiliser à partir de la liste des imprimantes ou sélectionnez <gui href="help:gnome-help/print-to-file">Imprimer dans un fichier</gui>.</p>
+      </item>
+      <item>
+        <p>Choisissez vos <link href="help:gnome-help/printing#paper">paramètres d'impression</link>.</p>
+      </item>
+      <item>
+        <p>Appuyez sur <gui style="button">Imprimer</gui> afin d'imprimer la définition.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eliminar unha orixe de dicionario</title>
+
+  <p>Se non precisa máis unha <link xref="sources">orixe de dicionario</link> específica ou se deixou de funcionar para vostede pode querer eliminala.</p>
+
+  <steps>
+    <title>Eliminar unha orixe de dicionario:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu"><app>Dicionario</app></gui> <gui style="menuitem">Preferencias</gui> <gui style="tab">Orixe</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccione o orixe de dicionario que quere eliminar.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">Eliminar</gui>.</p>
+    </item>
+    <item>
+      <p>Aparecerá un diálogo que lle solicitará a confirmación de que quere eliminar permanentemente a orixe seleccionada. Unha vez confirmada, a orixe eliminarase.</p>
+    </item>
+  </steps>
+
+</page>

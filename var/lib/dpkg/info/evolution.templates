@@ -1,0 +1,188 @@
+Template: evolution/needs_shutdown
+Type: error
+Description: Running instances of Evolution detected
+ You are currently upgrading Evolution to a version with an incompatible
+ index format. However, it has been detected that Evolution is
+ currently running. Upgrading it before shutting it down could lead to
+ crashes or to serious data loss in some cases.
+ .
+ You need to shut down all running instances of Evolution using the
+ "evolution --force-shutdown" command before the upgrade can proceed.
+ .
+ If this command isn't sufficient, you might want to quit all desktop
+ environments before upgrading.
+Description-ca.UTF-8: Hi ha instàncies de l'Evolution en execució
+ Estau actualitzant l'Evolution a una versió amb un format d'índex incompatible. Tanmateix, l'Evolution s'està executant en aquest moment. L'actualització del programa sense aturar la instància en execució podria provocar errades o bé la pèrdua de dades.
+ .
+ Cal aturar totes les instàncies en execució de l'Evolution fent servir l'ordre «evolution --force-shutdown» abans d'iniciar l'actualització.
+ .
+ Si l'execució de l'ordre no és suficient, és possible que vulgueu aturar l'execució de tots els entorns d'escriptori abans de l'actualització.
+Description-cs.UTF-8: Detekováno spuštění Evolution
+ Nyní provádíte aktualizaci Evolution na novou verzi s nekompatibilním formátem rejstříku. Přesto detekuji, že máte Evolution nyní spuštěn. To může v některých případech vést k selhání aplikace nebo k vážné ztrátě dat.
+ .
+ Před aktualizací programu Evolution je třeba ukončit všechny spuštěné instance programu pomocí příkazu "evolution --force-shutdown".
+ .
+ Někdy nemusí tento příkaz uspět a tak bude třeba nutné se navíc odhlásit z desktopového prostředí ještě před vlastní aktualizací.
+Description-da.UTF-8: Kørende instanser af Evolution detekteret
+ Du opgraderer aktuelt Evolution til en version med et inkompatibelt indeksformat. Det er dog blevet detekteret, at Evolution aktuelt kører. Opgradering før denne lukkes ned kan i nogle tilfælde medføre nedbrug eller til alvorlige tab af data.
+ .
+ Du skal lukke alle kørende instanser af Evolution med brug af kommandoen »evolution --force-shutdown«, før opgraderingen kan fortsætte.
+ .
+ Hvis denne kommando ikke er tilstrækkelig, skal du måske forlade alle skrivebordsmiljøer før opgraderingen.
+Description-de.UTF-8: Laufende Instanzen von Evolution erkannt
+ Sie führen derzeit ein Upgrade von Evolution auf eine Version mit einem inkompatiblen Indexformat durch. Es wurde allerdings erkannt, dass Evolution derzeit läuft. Wird das Upgrade durchgeführt, bevor Evolution beendet wurde, können in Einzelfällen ernsthafte Datenverluste auftreten.
+ .
+ Sie müssen alle laufenden Instanzen von Evolution mittels des Befehls »evolution --force-shutdown« beenden, bevor das Upgrade durchgeführt werden kann.
+ .
+ Falls dieser Befehl nicht ausreicht, könnte es sinnvoll sein, dass Sie alle Desktop-Umgebungen vor dem Upgrade beenden.
+Description-es.UTF-8: Se han detectado instancias de Evolution en ejecución
+ Está actualizando Evolution a una versión con un formato de índice incompatible. Sin embargo, se ha detectado que Evolution se está ejecutando en este momento. Actualizar el programa sin cerrarlo antes podría provocar fallos, o la pérdida importante de datos en algunos casos.
+ .
+ Debe cerrar todas las instancias en ejecución de Evolution utilizando la orden «evolution --force-shutdown» antes de proceder con la actualización.
+ .
+ Si esta orden no es suficiente, puede que quiera abandonar cualquier entorno de escritorio antes de actualizar.
+Description-fi.UTF-8: Joitain Evolutionin instansseja ajetaan parhaillaan
+ Olet päivittämässä Evolutionia versioon, jonka hakemistomuoto ei ole yhteensopiva nykyisen kanssa. Evolutionia kuitenkin ajetaan parhaillaan järjestelmässä. Jos ohjelma päivitetään ennen sen sulkemista, se saattaa kaatua ja jossain tapauksissa saatetaan menettää tärkeitä tietoja.
+ .
+ Kaikki ajossa olevat Evolutionin instanssit pitää sammuttaa komennon ”evolution --force-shutdown” avulla ennen kuin päivitystä voidaan jatkaa.
+ .
+ Jos tämä komento ei riitä, saatat haluta sulkea kaikki työpöytäymäristöt ennen päivitystä.
+Description-fr.UTF-8: Evolution est actuellement utilisé
+ Vous êtes en train de mettre à jour Evolution vers une version avec un format d'index incompatible avec celui que vous utilisez. Cependant, Evolution semble être actuellement en cours d'exécution. Effectuer sa mise à jour sans l'arrêter peut conduire à des instabilités ou parfois à d'importantes pertes de données.
+ .
+ Vous devez arrêter toutes les instances actuelles d'Evolution avec la commande « evolution --force-shutdown » avant d'effectuer la mise à jour.
+ .
+ Si cette commande ne suffit pas, il peut être nécessaire de fermer tous les environnements graphique de bureau avant d'effectuer la mise à jour.
+Description-it.UTF-8: Rilevate delle istanze attive di Evolution
+ È in corso l'aggiornamento di Evolution a una versione con un formato degli indici non compatibile con l'attuale. Sono state rilevate delle istanze attive di Evolution, se non vengono chiuse l'aggiornamento potrebbe causare dei crash e, in qualche caso, anche la perdita di dati.
+ .
+ È necessario chiudere tutte le istanze di Evolution attive usando il comando "evolution --force-shutdown" prima di procedere con l'aggiornamento.
+ .
+ Se questo comando non fosse sufficiente, provare a chiudere tutti gli ambienti desktop prima dell'aggiornamento.
+Description-nl.UTF-8: Actieve instanties van Evolution gevonden
+ Evolution wordt opgewaarderd naar een versie met een niet-compatibele index-indeling. Er is geconstateerd dat Evolution nog actief is. Opwaarderen voordat deze is afgesloten kan crashes of verlies van gegevens veroorzaken.
+ .
+ U dient alle actieve Evolution-instanties af te sluiten door middel van "evolution --force-shutdown" voordat het opwaarderen verder kan gaan.
+ .
+ Als dit commando niet afdoende is helpt het wellicht om alle bureaubladomgevingen af te sluiten voor het opwaarderen.
+Description-pl.UTF-8: Wykryto uruchomione kopie Evolution
+ Aktualizowana jest wersja Evolution z niekompatybilnym formatem indeksu. Wykryto jednak uruchomiony program Evolution. Aktualizacja przed wyłączeniem go może, w niektórych przypadkach, spowodować awarię bądź istotną utratę danych.
+ .
+ Przed kontynuowaniem aktualizacji należy zamknąć wszystkie uruchomione kopie Evolution, za pomocą polecenia "evolution --force-shutdown".
+ .
+ Jeśli sugerowane polecenie jest niewystarczające, przed próbą kontynuowania można zamknąć wszystkie środowiska graficzne.
+Description-pt.UTF-8: Detectadas instâncias do Evolution em funcionamento
+ Você está actualmente a actualizar o Evolution para uma versão com um formato de índice incompatível. No entanto, foi detectado que o Evolution está actualmente em funcionamento. Efectuar a actualização antes de o parar pode levar a crashes ou a perdas de dados sérias em alguns casos.
+ .
+ Você precisa de terminar todas as instâncias do Evolution em funcionamento usando o comando "evolution --force-shutdown" antes que a actualização possa prosseguir.
+ .
+ Se este comando não for suficiente, deverá ser melhor abandonar todos os ambientes de trabalho antes de actualizar.
+Description-ru.UTF-8: Обнаружены работающие экземпляры Evolution
+ В данный момент выполняется обновление Evolution до версии, которая имеет несовместимый с предыдущими версиями формат индексов. Однако, обнаружено, что в системе есть работающий Evolution. Если его не остановить, то обновление приведёт к его падению или даже потере данных.
+ .
+ Перед тем как процесс обновления сможет продолжиться вам нужно остановить все запущенные экземпляры Evolution с помощью команды «evolution --force-shutdown».
+ .
+ Если этой команды окажется недостаточно, то перед обновлением, возможно, придётся завершить работу всего окружения рабочего стола.
+Description-sk.UTF-8: Zistená spustená iná inštancia Evolution
+ Momentálne aktualizujete Evolution na verziu s nekompatibilným formátom indexu, ale bolo zistené, že Evolution je spustené. Jeho aktualizácia pri spustenej inštancii môže mať za následok pád aplikácie alebo, v niektorých prípadoch, vážnu stratu dát.
+ .
+ Pred vykonaním aktualizácie musíte vypnúť všetky bežiace inštancie Evolution pomocou príkazu "evolution --force-shutdown".
+ .
+ Ak tento príkaz nie je postačujúci, môžete pred aktualizáciou opustiť všetky prostredia plochy.
+Description-sv.UTF-8: Det finns aktiva instanser av Evolution körandes
+ Du uppgraderar nu Evolution till en version med ett indexformat som inte är kompatibel med tidigare versioner, dessutom körs minst en instans av Evolution. Om du genomför en uppgradering innan du stänger ned Evolution kan det leda till krascher eller stora dataförluster.
+ .
+ Du måste stänga ned alla instanser av Evolution som körs, använd "evolution --force-shutdown" innan du fortsätter med uppgraderingen.
+ .
+ Om detta kommando inte räcker kan det innebära att alla inloggade skrivbordsmiljöer måste stängas ned före uppgradering.
+Description-zh_CN.UTF-8: 正在运行检测到的 Evolution 程序
+ 您当前正在将 Evolution 升级为一个索引格式不兼容的版本。而且，还探测到 Evolution 目前正在运行。若未退出程序就升级，在某些情况下有可能导致程序崩溃或是严重的数据丢失。
+ .
+ 在开始升级前，您需要使用 "evolution --force-shutdown" 命令来关闭所有正在运行的 Evolution 程序。
+ .
+ 若此命令效果不明显，您可能需要在升级前退出所有桌面环境。
+
+Template: evolution/kill_processes
+Type: select
+Choices: Abort, Kill processes and proceed
+Choices-ca.UTF-8: Avorta, Mata els processos i continua
+Choices-cs.UTF-8: Zrušit, Ukončit proces a pokračovat
+Choices-da.UTF-8: Afbryd, Dræb processer og fortsæt
+Choices-de.UTF-8: Abbruch, Prozesse töten und fortfahren
+Choices-es.UTF-8: Cancelar, Cancelar los procesos y continuar
+Choices-fi.UTF-8: Keskeytä, Tapa prosessit ja jatka
+Choices-fr.UTF-8: Abandonner, Tuer les processus et continuer
+Choices-it.UTF-8: Interrompi, Chiudi i processi e continua
+Choices-nl.UTF-8: Afbreken, Processen geforceerd afsluiten en verdergaan
+Choices-pl.UTF-8: Przerwij, Zabij wszystkie procesy i kontynuuj
+Choices-pt.UTF-8: Abortar, Matar todos os processos e prosseguir
+Choices-ru.UTF-8: Прервать, Завершить процессы и продолжить
+Choices-sk.UTF-8: Zrušiť, Zabiť procesy a pokračovať
+Choices-sv.UTF-8: Avbryt, Döda processer och fortsätt
+Choices-zh_CN.UTF-8: 退出, 关闭进程再继续
+Description: Action for remaining Evolution processes:
+ Evolution processes are still present on this system, preventing a safe
+ upgrade. 
+ .
+ You can either abort the upgrade to work on the situation, or have the
+ processes killed automatically, with a possible impact on running sessions.
+Description-ca.UTF-8: Acció per als processos de l'Evolution restants:
+ Encara hi ha processos de l'Evolution en execució en el sistema que impedeixen l'actualització segura.
+ .
+ Podeu avortar l'actualització per resoldre aquesta situació, o matar els processos automàticament, amb possibles conseqüències sobre les sessions en execució.
+Description-cs.UTF-8: Akce s procesem Evolution:
+ Procesy Evolution jsou dále spuštěny a brání jeho bezpečné aktualizaci.
+ .
+ Aktualizaci můžete buď zrušit a vyřešit situaci ručně, nebo ukončit proces automaticky, což ale může mít vliv na běžící sezení.
+Description-da.UTF-8: Handling for tilbageværende Evolutionprocesser:
+ Evolutionprocesser er stadig til stede på dette system, hvilket forhindrer en sikker opgradering.
+ .
+ Du kan enten beslutte at afbryde opgraderingen for at løse situationen eller lade opgraderingen dræbe processerne og fortsætte med opgraderingen.
+Description-de.UTF-8: Aktion für verbleibende Evolution-Prozesse:
+ Im System gibt es noch Prozesse von Evolution, wodurch ein sicheres Upgrade verhindert wird.
+ .
+ Sie können entweder das Upgrade abbrechen, um an der Situation zu arbeiten, oder die Prozesse automatisch töten lassen, wobei das möglicherweise Auswirkungen auf die laufende Sitzung hat.
+Description-es.UTF-8: Acción para los procesos restantes de Evolution:
+ Se ha detectado la presencia de procesos de Evolution en el sistema, evitando una actualización segura.
+ .
+ Puede decidir cancelar la actualización para salir de esta situación, o que se cancelen los procesos automáticamente, con un posible impacto en la sesión actual.
+Description-fi.UTF-8: Toimintatapa aktiivisten Evolution-prosessien kanssa:
+ Järjestelmässä on edelleen Evolution-prosesseja, jotka estävät turvallisen päivityksen.
+ .
+ Voit joko keskeyttää päivityksen korjataksesi tilanteen tai tappaa prosessit automaattisesti. Jälkimmäinen saattaa vaikuttaa nykyisiin istuntoihin.
+Description-fr.UTF-8: Action à effectuer pour les processus restants d'Evolution :
+ Des processus d'Evolution sont toujours actifs sur ce système, ce qui empêche d'effectuer une mise à jour sûre.
+ .
+ Vous pouvez soit décider d'abandonner la mise à jour pour résoudre ce problème, soit laisser les processus être terminés automatiquement, ce qui peut avoir un impact sur les sessions actuellement ouvertes.
+Description-it.UTF-8: Cosa fare con i processi di Evolution rimasti:
+ Su questo sistema sono ancora presenti dei processi di Evolution che impediscono un aggiornamento sicuro.
+ .
+ È possibile interrompere l'aggiornamento oppure risolvere la situazione lasciando che il programma d'aggiornamento chiuda i processi e poi continui con l'aggiornamento.
+Description-nl.UTF-8: Actie voor overgebleven Evolution-processen:
+ Er zijn nog steeds Evolution-processen aanwezig op dit systeem. Hierdoor is veilig opwaarderen niet mogelijk.
+ .
+ U kunt het opwaarderen afbreken om hier aan te werken of u kunt de processen automatisch laten afsluiten, mogelijk met negatieve gevolgen voor actieve sessies.
+Description-pl.UTF-8: Akcja dla uruchomionych procesów Evolution:
+ Nadal są uruchomione procesy Evolution, co wstrzymuje bezpieczną aktualizację.
+ .
+ Można przerwać aktualizację i naprawić sytuację ręcznie bądź pozwolić na automatyczne zabicie procesów, co może odbić się na uruchomionych obecnie sesjach.
+Description-pt.UTF-8: Acção para os processos do Evolution restantes:
+ Ainda há processos do Evolution presentes no sistema, prevenindo uma actualização segura.
+ .
+ Você pode ou abortar a actualização para trabalhar na situação, ou matar os processos automaticamente, com um possível impacto para as sessões em execução.
+Description-ru.UTF-8: Действие над оставшимися процессами Evolution:
+ В системе всё ещё запущены процессы Evolution, из-за этого нельзя выполнить безопасное обновление.
+ .
+ Вы можете прервать процесс обновления для разрешения ситуации или позволить программе обновления автоматически завершить эти процессы, что, возможно, повлияет на запущенные сеансы.
+Description-sk.UTF-8: Akcia s pretrvávajúcimi procesmi Evolution:
+ Procesy Evolution stále v tomto systéme existujú, čo bráni bezpečnej aktualizácii.
+ .
+ Môžete sa rozhodnúť zrušiť aktualizáciu (na vyriešenie situácie) alebo nechať automaticky zabiť všetky procesy, s rizikom dopadeu na bežiace relácie.
+Description-sv.UTF-8: Åtgärd för återstående Evolution-processer:
+ Det finns fortfarande körande Evolutionprocesser på systemet, det medför att den säker uppgradering inte kan genomföras.
+ .
+ Antingen kan du avbryta uppgraderingen för att lösa situationen eller låta döda processerna automatiskt, vilket kan leda till problem för de körande processerna.
+Description-zh_CN.UTF-8: 所遗 Evolution 进程的处理方式:
+ Evolution 进程仍在此系统中运行，这阻碍了顺利升级。
+ .
+ 您可以选择退出升级进程，然后继续工作。或是用可行的方法自动关闭正在运行的会话。

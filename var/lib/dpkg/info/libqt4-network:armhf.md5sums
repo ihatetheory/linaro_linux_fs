@@ -1,0 +1,6 @@
+32cb64bf186804c0a4bfd09c49be3881  usr/lib/arm-linux-gnueabihf/libQtNetwork.so.4.8.6
+f5aa1888c4ca8cca845d900f936ab5dc  usr/lib/arm-linux-gnueabihf/qt4/plugins/bearer/libqconnmanbearer.so
+09fad48eaebe5e3d437ce398122d26bb  usr/lib/arm-linux-gnueabihf/qt4/plugins/bearer/libqgenericbearer.so
+af9e6a979f675223d340b2cbd27c7771  usr/lib/arm-linux-gnueabihf/qt4/plugins/bearer/libqnmbearer.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqt4-network/copyright
+5841018376fa976a03dc54ea98a6eeeb  usr/share/lintian/overrides/libqt4-network

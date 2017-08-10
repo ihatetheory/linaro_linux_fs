@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.10">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY app "<application>Disk Mounter</application>">
+<!ENTITY appname "Disk Mounter">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="ro">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Manualul Utilitarului de disc</title>
+    <abstract role="description">
+      <para>Utilitarul de disc vă permite a monta sau demonta rapid diverse tipuri de unități sau sisteme de fișiere chiar din panou.</para>
+    </abstract>
+    <copyright><year>2005</year> <holder>Trent Lloyd</holder></copyright>
+    <copyright><year>2004</year> <holder>Sun Microsystems</holder></copyright>
+    <copyright><year>2002</year> <holder>John Fleck</holder></copyright> 
+    <copyright><year>2000</year> <holder>Dan Mueth</holder></copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2002</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+    <publisher role="maintainer"> 
+      <publishername>Proiectul de documentație GNOME</publishername> 
+    </publisher> 
+
+     <legalnotice id="legalnotice">
+	<para>Se acordă permisiunea de a copia, distribui și/sau modifica acest document în conformitate cu termenii licenței GNU Free Documentation License (GFDL), Versiunea 1.1 sau altă versiune ulterioară publicată de Free Software Foundation, fără Invariant Sections, Front-Cover Texts sau Back-Cover Texts. Puteți găsi o copie a licenței GFDL la acestă <ulink type="help" url="help:fdl">legatură</ulink> sau în fișierul COPYING-DOCS distribuit cu acest manual.</para>
+         <para>Acest manual face parte din colecția de manuale GNOME distribuite sub licența GFDL. Dacă doriți să distribuiți acest manual separat de colecție, aveți posibilitatea de a face acest lucru adăugând o copie a licenței manualului, așa cum este descris în secțiunea 6 din licență.</para>
+
+	<para>Multe dintre numele folosite de companii pentru a distinge produsele și serviciile lor sunt declarate ca mărci comerciale. În cazul în care aceste nume apar în orice documente GNOME, și membrii proiectului de documentație GNOME sunt conștienți de aceste mărci, numele sunt scrise în majuscule sau cu primele litere mari.</para>
+
+	<para>DOCUMENTUL SAU VERSIUNILE MODIFICATE ALE ACESTUIA SUNT FURNIZATE SUB TERMENII LICENȚEI GNU FREE DOCUMENTATION LICENSE, ÎNȚELEGÂNDU-SE URMATOARELE: <orderedlist>
+		<listitem>
+		  <para>DOCUMENTUL ESTE OFERIT "CA ATARE", FĂRĂ NICIUN FEL DE GARANȚIE, FIE EXPLICITĂ SAU IMPLICITĂ, INCLUZÂND, FĂRĂ LIMITARE, GARANȚII CĂ DOCUMENTUL SAU VERSIUNEA MODIFICATĂ A ACESTUIA ESTE FĂRĂ DEFECTE, POTRIVITĂ PENTRU UN SCOP PARTICULAR SAU PENTRU A NU ÎNCĂLCA NICIUN DREPT. ÎNTREGUL RISC PRIVIND CALITATEA, PRECIZIA ȘI PERFORMANȚA DOCUMENTULUI SAU A VERSIUNII MODIFICATE A ACESTUIA ESTE AL DUMNEAVOASTRĂ. ÎN CAZ CĂ ORICE DOCUMENT SAU VERSIUNE MODIFICATĂ SE DOVEDEȘTE A FI DEFECTĂ ÎN ORICE PRIVINȚĂ, DUMNEAVOASTRĂ (NU SCRIITORUL INIȚIAL, AUTOR SAU ORICE CONTRIBUABIL) VĂ ASUMAȚI COSTUL NECESAR ÎNTREȚINERII, REPARAȚIILOR SAU CORECTURILOR. ACEST CERTIFICAT DE NEGARANȚIE REPREZINTĂ O PARTE ESENȚIALA A ACESTEI LICENȚE. NICIO FOLOSIRE A ORICĂRUI DOCUMENT SAU A UNEI VERSIUNI MODIFICATE A UNUIA NU ESTE AUTORIZATĂ DECÂT ÎN ACEST CERTIFICAT DE NEGARANȚIE; ȘI</para>
+		</listitem>
+		<listitem>
+		  <para>ÎN NICIUN CAZ ȘI SUB NICIO TEORIE JURIDICĂ, FIE CĂ ESTE VORBA DE INJURII (INCLUZÂND NEGLIJENȚA), CONTRACT, SAU ALTFEL, AUTORUL, SCRIITOR INIȚIAL, ORICE CONTRIBUABIL, SAU ORICE DISTRIBUITOR AL DOCUMENTULUI SAU A UNEI VERSIUNI MODIFICATE A DOCUMENTULUI, SAU ORICE FURNIZOR AL ACESTOR PARȚI, NU VA FI SUPUS NICIUNEI PERSOANE PENTRU ORICE DAUNE DIRECTE, INDIRECTE, SPECIALE, ACCIDENTALE SAU CAUZATE DE ORICE CARACTER, INCLUZÂND, FĂRĂ LIMITARE, DAUNE DE PIERDERE A BUNĂVOINȚEI, ÎNTRERUPEREA LUCRULUI, DEFECTAREA SAU NEFUNCȚIONAREA CALCULATORULUI, SAU ORICE ALTE DAUNE SAU PIERDERI REZULTATE PRIN, SAU ÎN LEGĂTURĂ CU FOLOSIREA ACESTUI DOCUMENT SAU A UNEI VERSIUNI MODIFICATE A ACESTUIA, CHIAR DACĂ O PARTE AR FI FOST INFORMATĂ DE POSIBILITĂȚILE ACESTOR DAUNE.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+
+    <authorgroup> 
+      <author><firstname>Trent</firstname> <surname>Lloyd</surname> <affiliation> <orgname>Proiectul de documentație GNOME</orgname> <address><email>lathiat@bur.st</email></address> </affiliation></author>
+        
+      <author><firstname>Sun</firstname> <surname>Echipa de documentație GNOME</surname> <affiliation><orgname>Sun Microsystems</orgname></affiliation></author>
+      <author><firstname>John </firstname> <surname> Fleck</surname> <affiliation> <orgname>Proiectul de documentație GNOME</orgname> <address> <email>jfleck@inkstain.net</email> </address> </affiliation></author> 
+      <author><firstname>Dan </firstname> <surname> Mueth</surname> <affiliation> <orgname>Proiectul de documentație GNOME</orgname> <address> <email>muet@alumni.uchicago.edu</email> </address> </affiliation></author> 
+<!-- This is appropriate place for other contributors: translators,
+      maintainers,  etc. Commented out by default.
+       <othercredit role="translator">
+	<firstname>Latin</firstname> 
+	<surname>Translator 1</surname> 
+	<affiliation> 
+	  <orgname>Latin Translation Team</orgname> 
+	  <address> <email>translator@gnome.org</email> </address> 
+	</affiliation>
+	<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+	
+	<releaseinfo revision="2.26" role="review"/>
+
+
+    <revhistory>
+      <revision><revnumber>Versiunea 2.10</revnumber> <date>Martie 2005</date> <revdescription> 
+          <para role="author">Trent Lloyd</para>
+          <para role="publisher">Proiectul de documentație GNOME</para>
+	</revdescription></revision> 
+      <revision><revnumber>Manualul Utilitarului de disc V2.1</revnumber> <date>Februarie 2004</date> <revdescription> 
+          <para role="author">Echipa de documentație Sun GNOME</para>
+          <para role="publisher">Proiectul de documentație GNOME</para>
+	</revdescription></revision> 
+      <revision><revnumber>Manualul Utilitarului de disc V2.0</revnumber> <date>Martie 2002</date> <revdescription> 
+	  <para role="author">John Fleck <email>jfleck@inkstain.net</email></para>
+	  <para role="publisher">Proiectul de documentație GNOME</para>
+	</revdescription></revision> 
+      <revision><revnumber>Manualul miniaplicației Montare Dispozitiv</revnumber> <date>Aprilie 2000</date> <revdescription> 
+	  <para role="author">Dan Mueth <email>muet@alumni.uchicago.edu</email></para>
+	  <para role="publisher">Proiectul de documentație GNOME</para>
+	</revdescription></revision> 
+    </revhistory> 
+
+    <releaseinfo>Acest manual descrie versiunea 2.10 a Utilitarului de disc.</releaseinfo>
+    <legalnotice> 
+      <title>Sugestii</title> 
+      <para>Pentru a raporta o disfuncționalitate sau pentru a face o sugestie privind miniaplicația <application>Utilitar de disc</application> sau acest manual, urmăriți instrucțiunile de pe <ulink url="ghelp:gnome-feedback" type="help">pagina pentru sugestii GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index"><primary>Utilitar de disc</primary></indexterm> 
+  
+
+  <!-- ============= Introduction  ================================ -->
+  <sect1 id="drivemountapplet-intro">
+    <title>Introducere</title>
+
+    <figure id="drivemountapplet-fig"> 
+      <title>Utilitar de disc</title> 
+      <screenshot> 
+        <mediaobject><imageobject><imagedata fileref="figures/drivemount-applet_example.png" format="PNG"/> </imageobject> <textobject> <phrase>Utilitarul de disc.</phrase> </textobject></mediaobject> 
+      </screenshot> 
+    </figure>
+
+    <para>Miniaplicația <application>Utilitar de disc</application> vă permite să montați sau demontați rapid diverse tipuri de unități sau sisteme de fișiere.</para>
+    <para>Pentru ca aplicația <application>Utilitar de disc</application> să funcționeze în mod corespunzător, administratorul de sistem trebuie să configureze sistemul dumneavoastră corespunzător. Pentru mai multe informații privind sarcinile necesare de administrare ale sistemului, consultați <ulink url="man:fstab" type="man"><citerefentry><refentrytitle>fstab</refentrytitle><manvolnum>5</manvolnum></citerefentry></ulink>.</para>
+
+    <sect2 id="drivemount-intro-add">
+     <title>Adăugarea Utilitarului de disc într-un panou.</title>
+     <para>Pentru a adăuga aplicația <application>Utilitar de disc</application> într-un panou, apăsați clic dreapta pe panou, apoi selectați  <guimenuitem>Adăugare în panou</guimenuitem>. Selectați aplicația <application>Utilitar de disc</application> din dialogul <application>Adăugare în panou</application>, apoi apăsați clic pe <guibutton>OK</guibutton>.</para>
+    </sect2>
+ 
+    <sect2 id="drivemount-intro-mount">
+      <title>Montarea sau demontarea manuală a sistemelor de fișiere</title>
+      <para>Multe sisteme de fișiere de pe sisteme GNU+Linux și UNIX trebuiesc montate și demontate manual.</para>
+      <para>Când un sistem de fișiere este montat, puteți citi și scrie pe acel sistem de fișiere. După ce terminați lucrul cu un sistem de fișiere, trebuie să îl demontați.</para>
+      <para>Trebuie să demontați unitățile detașabile, cum ar fi dischetele și unitățile tip Zip, înainte să eliminați mediul, deoarece sistemele Linux și UNIX nu scriu mereu modificările imediat. Sistemele de acest gen de obicei preîncarcă modificările pe disc, pentru a îmbunătăți timpul de răspuns al sistemului.</para>
+      <para>Partițiile de pe discuri fixe, cum ar fi discul dur, de obicei sunt montate automat când se pornește calculatorul și demontate când calculatorul se oprește.</para>
+      <para>Unele sisteme ar putea să monteze automat și unitățile detașabile (cum ar fi discurile tip USB și IEEE1394), aceste dispozitive pot apărea în aplicația <application>Utilitar de disc</application> pentru a vă oferi posibilitatea de a le demonta când terminați și furnizează o indicație vizuală când sunt prezente.</para>
+    </sect2>
+
+  </sect1>
+
+  <!-- ============= Usage  ================================ -->
+  <sect1 id="drivemount-usage">
+    <title>Utilizare</title>
+
+    <sect2 id="drivemount-usage-tooltip">
+    <title>Afișarea numelui și stării montării unei unități</title>
+      <para>Pentru a afișa numele și starea montării a unei unități, mișcați cursorul pe iconița unității din panou. Un indiciu va afișa numele și starea montării a unității.</para>
+      <screenshot><mediaobject><imageobject>
+       <imagedata fileref="figures/drivemount-applet_status.png" format="PNG"/>
+      </imageobject></mediaobject></screenshot>
+    </sect2>
+
+    <sect2 id="drivemount-usage-mount">
+    <title>Montarea, demontarea sau scoaterea unei unități</title>
+      <para>Pentru a monta o unitate, apăsați clic pe iconița unității din panou și selectați opțiunea <guimenuitem>Montează unitatea</guimenuitem>.</para>
+      <screenshot><mediaobject><imageobject>
+       <imagedata fileref="figures/drivemount-applet_mount.png" format="PNG"/>
+      </imageobject></mediaobject></screenshot>
+      <para>Pentru a demonta o unitate, apăsați clic pe iconița unității din panou și selectați opțiunea <guimenuitem>Demontează unitatea</guimenuitem>, sau, dacă dispozitivul este o unitate CD-ROM, poate fi etichetată ca <guimenuitem>Scoate unitatea</guimenuitem></para>
+      <screenshot><mediaobject><imageobject>
+       <imagedata fileref="figures/drivemount-applet_eject.png" format="PNG"/>
+      </imageobject></mediaobject></screenshot>
+    </sect2>
+
+    <sect2 id="drivemount-usage-browse">
+    <title>Navigarea conținutului unei unități</title>
+      <para>Pentru a folosi un gestionar de fișiere pentru a naviga prin conținutul unei unități, apăsați clic pe iconița unității din panou, apoi selectați <guimenuitem>Deschide unitatea</guimenuitem>.</para>
+      <screenshot><mediaobject><imageobject>
+       <imagedata fileref="figures/drivemount-applet_open.png" format="PNG"/>
+      </imageobject></mediaobject></screenshot>
+      <para>Puteți naviga doar prin conținutul unei unități montate.</para>
+    </sect2>
+  </sect1>
+</article>

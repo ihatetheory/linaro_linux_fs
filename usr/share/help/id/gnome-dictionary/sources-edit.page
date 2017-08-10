@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Menyunting suatu sumber kamus</title>
+
+  <p>Anda dapat menggubah suatu <link xref="sources">sumber kamus</link> untuk memutakhirkan rincian seperti keterangannya atau alamatnya.</p>
+
+  <steps>
+    <title>Untuk menyunting suatu sumber kamus:</title>
+    <item>
+      <p>Pilih <guiseq><gui style="menu">Kamus</gui> <gui style="menuitem">Preferensi</gui> <gui style="tab">Sumber</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Klik ganda pada sumber kamus yang ingin Anda sunting.</p>
+    </item>
+    <item>
+      <p>Anda dapat menyunting ruas berikut:</p>
+      <list>
+        <item>
+          <p><gui>Deskripsi</gui> adalah nama sumber sebagaimana akan ditampilkan ke Anda.</p>
+        </item>
+        <item>
+          <p><gui>Transport</gui> adalah tipe server.</p>
+        </item>
+        <item>
+          <p><gui>Nama host</gui> adalah lokasi dari sumber kamus.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Port</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Lihat kamus yang tersedia dalam sumber kamus dengan memilih tab <gui style="tab">Kamus</gui>.</p>
+    </item>
+    <item>
+      <p>Tekan <gui style="button">Tutup</gui> untuk menyimpan pengaturan.</p>
+    </item>
+  </steps>
+
+</page>

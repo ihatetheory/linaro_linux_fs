@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.2.2">
+<!ENTITY manrevision "2.5">
+<!ENTITY date "June 2010">
+<!ENTITY app "GStreamer Properties">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+  
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="th">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>GStreamer Properties Manual V2.5</title>       
+
+    <copyright>
+      <year>2546</year> 
+      <holder>Christian Fredrik Kalager Schaller</holder> 
+    </copyright><copyright><year>2008</year><holder>Pongsatorn Parnpreeda (emailaee@gmail.com)</holder></copyright><copyright><year>2008</year><holder>Theppitak Karoonboonyanan (thep@linux.thai.net)</holder></copyright> 
+
+    <abstract role="description">
+      <para>เครื่องมือเลือกระบบสื่อผสม ช่วยคุณตั้งค่าตัวแปรที่เกี่ยวข้องกับฮาร์ดแวร์และสื่อผสม</para>
+    </abstract>
+
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+    <publisher> 
+      <publishername>โครงการเอกสาร GNOME</publishername> 
+    </publisher> 
+
+     <legalnotice id="legalnotice">
+	<para>อนุญาตให้ทำซ้ำ เผยแพร่ และ/หรือ ดัดแปลงเอกสารนี้ได้ ภายใต้เงื่อนไขของ GNU Free Documentation License (GFDL) รุ่น 1.1 หรือรุ่นถัดมารุ่นใดๆ ที่เผยแพร่โดยมูลนิธิซอฟต์แวร์เสรี (Free Software Foundation) โดยไม่มี "หัวข้อห้ามเปลี่ยน" (Invariant Sections), ไม่มี "ข้อความปกหน้า" (Front-Cover Texts) และไม่มี "ข้อความปกหลัง" (Back-Cover Texts) คุณสามารถอ่านสำเนาของ GFDL ได้จาก <ulink type="help" url="ghelp:fdl">ลิงก์นี้</ulink> หรือในแฟ้ม COPYING-DOCS ที่เผยแพร่มาพร้อมกับคู่มือนี้</para>
+         <para>คู่มือนี้ เป็นส่วนหนึ่งของชุดคู่มือ GNOME ที่เผยแพร่ภายใต้ GFDL ถ้าคุณต้องการเผยแพร่คู่มือนี้แยกต่างหากจากชุด คุณสามารถทำได้โดยเพิ่มสำเนาของสัญญาอนุญาตไปกับคู่มือ ตามที่อธิบายในข้อ 6 ของสัญญาอนุญาต</para>
+
+	<para>มีชื่อหลายชื่อที่บริษัทต่างๆ ใช้แยกความแตกต่างของผลิตภัณฑ์และบริการของตนจากบริษัทอื่น และอ้างเป็นเครื่องหมายการค้า ที่ใดก็ตามที่ชื่อเหล่านั้นปรากฏในเอกสารของ GNOME และสมาชิกโครงการเอกสาร GNOME ได้รับทราบเกี่ยวกับเครื่องหมายการค้าเหล่านั้น ชื่อเหล่านั้นจะเขียนด้วยตัวพิมพ์ใหญ่ หรือขึ้นต้นด้วยตัวพิมพ์ใหญ่</para>
+
+	<para>เอกสารนี้และฉบับดัดแปลงของเอกสารนี้ เผยแพร่ภายใต้เงื่อนไขของ GNU FREE DOCUMENTATION LICENSE พร้อมด้วยความเข้าใจในสิ่งต่อไปนี้: <orderedlist>
+		<listitem>
+		  <para>เอกสารนี้ เผยแพร่ตามสภาพที่เป็น โดยไม่มีการรับประกันใดๆ ทั้งสิ้น ไม่ว่าจะโดยชัดแจ้งหรือโดยนัย ซึ่งรวมถึงโดยไม่ได้จำกัดเพียงการรับประกันว่าเอกสารนี้หรือฉบับดัดแปลงของเอกสารนี้จะปลอดจากข้อผิดพลาดที่อาจเรียกร้องความเสียหายได้ หรือเหมาะกับวัตถุประสงค์เฉพาะใดๆ หรือไม่มีการละเมิดสิทธิ์ ความเสี่ยงทั้งหมดเกี่ยวกับคุณภาพ ความถูกต้อง และประสิทธิภาพของเอกสารนี้หรือฉบับดัดแปลงของเอกสารนี้ อยู่ที่ตัวคุณ หากมีการพิสูจน์พบว่าเอกสารนี้หรือฉบับดัดแปลงมีข้อบกพร่องในแง่ใดๆ ก็ตาม คุณ (ไม่ใช่ผู้เขียนเริ่มแรก หรือผู้ร่วมสมทบใดๆ) จะรับภาระค่าใช้จ่ายของการให้บริการ การซ่อมแซมหรือแก้ไขที่จำเป็น คำปฏิเสธความรับผิดชอบเกี่ยวกับการรับประกันนี้ เป็นส่วนสำคัญของสัญญาอนุญาตนี้ ไม่อนุญาตให้ใช้เอกสารนี้หรือฉบับดัดแปลงของเอกสารนี้ นอกจากจะอยู่ภายใต้คำปฏิเสธความรับผิดชอบนี้ และ</para>
+		</listitem>
+		<listitem>
+		  <para>ไม่มีสภาวะใดและทฤษฎีทางกฎหมายใด ไม่ว่าจะในการล่วงละเมิด (รวมถึงการละเลย), ในสัญญา หรืออื่นๆ ที่ผู้เขียน ผู้เขียนเริ่มแรก ผู้ร่วมสมทบใดๆ หรือผู้เผยแพร่เอกสารนี้หรือฉบับดัดแปลง หรือผู้สนับสนุนแก่กลุ่มคนดังกล่าว จะมีภาระผูกพันต่อบุคคลใดในความเสียหายโดยตรง โดยอ้อม โดยพิเศษ โดยบังเอิญ หรือโดยผลพวง ของสิ่งใด รวมถึงโดยไม่จำกัดเพียงความเสียหายในเรื่องความสูญเสียเจตนาดี การสะดุดของงาน ความล้มเหลวหรือการทำงานผิดพลาดของคอมพิวเตอร์ หรือความเสียหายหรือความสูญเสียอื่นใดทั้งหมด ที่เกิดขึ้นจาก หรือเกี่ยวข้องกับการใช้เอกสารนี้หรือฉบับดัดแปลง แม้กลุ่มบุคคลเหล่านั้นจะได้รับทราบความเป็นไปได้ของความเสียหายดังกล่าวก็ตาม</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+
+    <authorgroup> 
+      <author role="maintainer"> 
+	<firstname>Christian Fredrik</firstname> 
+	<surname>Kalager Schaller</surname> 
+	<affiliation> 
+	  <orgname>gnome.org</orgname> 
+	  <address/> 
+	</affiliation> 
+      </author> 
+
+<!-- This is appropriate place for other contributors: translators,
+      maintainers,  etc. Commented out by default.
+       <othercredit role="translator">
+	<firstname>Latin</firstname> 
+	<surname>Translator 1</surname> 
+	<affiliation> 
+	  <orgname>Latin Translation Team</orgname> 
+	  <address> <email>translator@gnome.org</email> </address> 
+	</affiliation>
+	<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+    <revhistory>
+      <revision> 
+			<revnumber>GStreamer Properties Manual V2.5</revnumber> 
+			<date>June 2010</date> 
+			<revdescription> 
+	  			<para role="author">Marc-Andre Lureau</para>
+	  			<para role="publisher">โครงการเอกสาร GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>คู่มือเครื่องมือเลือกระบบสื่อผสม รุ่น 2.4</revnumber> 
+			<date>ธันวาคม 2546</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">โครงการเอกสาร GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>คู่มือเครื่องมือเลือกระบบสื่อผสม รุ่น 1.0</revnumber> 
+			<date>กันยายน 2546</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">โครงการเอกสาร GNOME</para>
+			</revdescription> 
+      </revision>
+         </revhistory> 
+
+    <releaseinfo>คู่มือนี้อธิบายเครื่องมือเลือกระบบสื่อผสม รุ่น 2.2.2</releaseinfo> 
+    <legalnotice> 
+      <title>ข้อเสนอแนะ</title> 
+      <para>หากพบปัญหาหรือมีข้อเสนอแนะสำหรับโปรแกรมเครื่องมือเลือกระบบสื่อผสม หรือเกี่ยวกับคู่มือนี้ กรุณาแจ้งให้เราทราบ ตามขั้นตอนใน <ulink url="ghelp:gnome-feedback" type="help">หน้าเสนอแนะ GNOME</ulink></para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm> 
+    <primary>เครื่องมือเลือกระบบสื่อผสม</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+
+  <sect1 id="gstreamer-properties-introduction"> 
+    <title>เกริ่นนำ</title> 
+    <para>The <application>GStreamer Properties</application> application enables you
+    to configure parameters related to the hardware and multimedia
+    systems on your system.</para>
+    <note><para>Only advanced users should normally need
+    this as your OS vendor should be shipping the system with the
+    correct defaults.</para></note>
+  </sect1>
+
+  <sect1 id="gstreamer-properties-getting-started">
+    <title>เริ่มใช้โปรแกรม</title> 
+
+    <para>คุณสามารถเปิดเครื่องมือ <application>เลือกระบบสื่อผสม</application> ได้ด้วยวิธีต่าง ๆ ต่อไปนี้:</para> 
+    <variablelist>
+    	<varlistentry>
+    		<term>เมนู <guimenu>ระบบ</guimenu></term>
+    		<listitem>
+    		<para>เลือก <menuchoice><guisubmenu>ปรับแต่งพื้นโต๊ะ</guisubmenu><guimenuitem>เลือกระบบสื่อผสม</guimenuitem></menuchoice></para>
+    		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>บรรทัดคำสั่ง</term>
+    		<listitem>
+    		<para>พิมพ์คำสั่ง <command>gstreamer-properties</command> แล้วกด <keycap>Enter</keycap></para>
+    		<para> 		 
+    		</para> 
+    		</listitem>
+    	</varlistentry>
+    </variablelist>
+
+    <para>เมื่อคุณเปิดเครื่องมือ <application>เลือกระบบสื่อผสม</application> จะแสดงหน้าต่างดังนี้</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="gstreamer-properties-fig"> 
+	<title>หน้าต่างเครื่องมือเลือกระบบสื่อผสม</title> 
+	<screenshot> 
+	  <mediaobject> 
+	    <imageobject>
+	    <imagedata fileref="figures/gstreamer_properties_window.png" format="PNG"/> 
+	    </imageobject>
+	    <textobject> 
+	      <phrase>แสดงหน้าต่างหลักของเครื่องมือเลือกระบบสื่อผสม ประกอบด้วย แถบเมนู แถบเครื่องมือ และเมนูแบบดึงลงสำหรับเลือกอุปกรณ์สัญญาณเข้าและสัญญาณออก</phrase> 
+	    </textobject> 
+	  </mediaobject> 
+	</screenshot> 
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+  </sect1>
+
+<!-- ================ Usage ================================ -->
+
+  <sect1 id="gstreamer-properties-usage"> 
+    <title>วิธีใช้</title>
+	<para>The GStreamer properties applet offers four drop down
+	menus spread over two tabs.  There are two drop-menues for
+	audio and two for video. These choices set the default for
+	most GNOME applications for output and input of Sound and
+	Video.</para>
+
+    <sect2 id="gstreamer-properties-concepts">
+    	<title>ทำความเข้าใจกับตัวเลือกในเมนู</title>
+
+    	<para>Looking at the screen for setting audio options you
+    	notice that the two sections are called Default Sink and
+    	Default Source. These are terms used in the GStreamer
+    	framework that GNOME uses to describe where data is sent and
+    	where it comes from. The Default sink is in other words where
+    	GNOME apps should output their sound, while Default source is
+    	where the sound comes from.</para>
+
+	<para>The reason you might want to alter these settings is
+	because under Unix there are many different audio systems and
+	sound server which you might want to output to. For instance
+	on Linux popular alternatives are the PulseAudio sound server
+	or ALSA.</para>
+
+	<para>If you wish that your GNOME applcations output their
+	sound to the PulseAudio sound server you set the Default Sink
+	to use PulseAudio. And if you wish that your GNOME
+	applications which has sound recording capabilities use the
+	ALSA sound system, choose ALSA as the Default Source.</para>
+
+	<note><para>As mentioned elsewhere in this user guide. These setting
+	are meant for as a tool for advanced users who have
+	specialized need. As an ordinary user, you should not need to
+	set these as the vendor of your distribution should have set
+	them to sensible defaults for you.
+        </para></note>
+    	
+    </sect2>
+  </sect1>  
+
+
+</article>

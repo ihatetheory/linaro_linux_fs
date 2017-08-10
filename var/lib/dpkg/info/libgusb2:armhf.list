@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libgusb.so.2.0.6
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgusb2
+/usr/share/doc/libgusb2/changelog.Debian.gz
+/usr/share/doc/libgusb2/copyright
+/usr/lib/arm-linux-gnueabihf/libgusb.so.2

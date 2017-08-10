@@ -1,0 +1,50 @@
+FIXME: This list is incomplete.
+
+Table problems
+--------------
+
+- ROWSPAN/COLSPAN does not (always) work.
+
+* Form problems
+---------------
+
+- Resizing messes up forms, and then scrolling behaves erratically.
+
+- Entries and buttons are not responsive to mouse clicks.
+
+* Misc problems
+---------------
+
+- The API needs some loving.  (FIXME: come up with a list of things
+  that are ugly/broken/etc.)
+
+- We might want to speed up redraw on expose.
+
+- If a page renders with a link under the cursor, the link cannot be
+  clicked unless you move the cursor off the link and then back on
+
+- Remaining Memory leaks:
+   * new_context in gdk_pixbuf - loader need to be fixed to know when
+     to stop, send animation_done and free context
+   * sometimes there are some lost TextSlaves
+   * leak in test_cb - don't worry about it, it is only debugging stuff
+   * any more? sure :-)
+
+- We store images in ImageFactory by name and not by complete URL, so when
+  you have equaly named images on different sites, we don't load new ones
+  and happily using old "incorrect" ones (try freshmeat.net and
+  then helixcode.com and you will see what I am talking about)
+
+- `html_object_draw_background()' can be very slow sometimes.  This
+  makes selection very very slow.  Look at http://www.breakupgirl.com/
+  for an example.
+
+* Editor bugs
+-------------
+
+- Setting the paragraph style in a region is kind of broken in many
+  cases.
+
+- Pasting misbehaves in some cases.
+
+- The amount of scrolling performed by PageUp/PageDown is not correct.

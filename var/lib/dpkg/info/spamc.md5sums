@@ -1,0 +1,13 @@
+6b67a05cfffdb9c55f745220993b1ebc  usr/bin/spamc
+f40f9e40a7a54a6c211b6d3a3a02a9ce  usr/share/doc/spamc/CREDITS.gz
+e48a1d81b14e9382517efb6015c54bed  usr/share/doc/spamc/NEWS.Debian.gz
+bf6568b37fa0a72d5c6bab1038060d3e  usr/share/doc/spamc/README.Debian
+51d3a15b846a50220f4ad86e78d22ce5  usr/share/doc/spamc/README.gz
+a383214f4b37a0df5bc78359f39e2a1d  usr/share/doc/spamc/TRADEMARK
+c109116169db8b99f24ad0ac7e4f4569  usr/share/doc/spamc/USAGE.gz
+104ce913d473e18cbeff5592e6508f03  usr/share/doc/spamc/changelog.Debian.gz
+785a1a7ee0588d11f03f47f55c7db4b4  usr/share/doc/spamc/copyright
+94b5c3770f23594baceba77a9003b30c  usr/share/doc/spamc/procmailrc.example
+0ff08949774abbb48bd0ec2bf632195c  usr/share/doc/spamc/sample-nonspam.txt.gz
+23de00e370e172bf1131549161f4971b  usr/share/doc/spamc/sample-spam.txt
+71319923c51dd4d6155a998bfec1dc71  usr/share/man/man1/spamc.1.gz

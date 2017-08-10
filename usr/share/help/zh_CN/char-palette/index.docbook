@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -*- indent-tabs-mode: nil -*- -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.9.7">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "Character Palette">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002 
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="zh-CN">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<articleinfo> 
+  <title>字符板手册</title>
+  <abstract role="description">
+    <para>字符板提供了一个简便的方法，让您来访问键盘上没有的字符集，像重音字符、数学符号、特殊符号，以及标点符号。</para>
+  </abstract>
+  <copyright lang="en">
+    <year>2005</year>
+    <holder>Davyd Madeley</holder>
+  </copyright>
+  <copyright lang="en">
+    <year>2004</year>
+    <holder>Angela Boyle</holder>
+  </copyright>
+  <copyright lang="en"> 
+    <year>2002</year>
+    <year>2003</year>
+    <year>2004</year>
+  <holder>Sun Microsystems</holder> </copyright>
+  <copyright lang="en"> 
+    <year>2000</year>
+    <holder>Dan Mueth</holder>
+  </copyright>
+  <publisher role="maintainer">
+    <publishername>GNOME 文档项目</publishername>
+  </publisher>
+
+     <legalnotice id="legalnotice">
+         <para>对于本文档的复制、分发和/或修改必须遵循自由软件基金会 (Free Software Foundation) 发布的 GNU 自由文档许可证 (GFDL) 版本 1.1 或更高版本，该许可证没有固定的部分、没有封面和背页文本。您可以在此<ulink type="help" url="ghelp:fdl">链接</ulink>上或在随本手册一起分发的 COPYING-DOCS 文件中找到 GFDL 的副本。</para>
+          <para>本手册是在 GFDL 许可之下分发的 GNOME 手册集合的一部分。如果想要单独分发此手册，可以在手册中添加该许可证的一份副本然后分发，如该许可证的第 6 部分所述。</para>
+ 
+         <para>各个公司使用的许多用于区别它们产品和服务的名称都声明为商标。在所有的 GNOME 文档以及 GNOME 文档项目的成员中，这些名称都是以全大写字母或首字母大写显示，从而表明它们是商标。</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+   <authorgroup>
+     <author lang="en">
+       <firstname>Sun</firstname>
+       <surname>GNOME Documentation Team</surname>
+       <affiliation>
+	 <orgname>Sun Microsystems</orgname>
+       </affiliation>
+     </author>
+     <author lang="en">
+       <firstname>Dan</firstname>
+       <surname>Mueth</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>d-mueth@uchicago.edu</email>
+     </author>
+     <author lang="en">
+       <firstname>Angela</firstname>
+       <surname>Boyle</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+     </author>
+     <editor lang="en">
+       <firstname>Shaun</firstname>
+       <surname>McCance</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>shaunm@gnome.org</email>
+     </editor>
+     <editor lang="en">
+       <firstname>Davyd</firstname>
+       <surname>Madeley</surname>
+       <affiliation>
+         <orgname>GNOME Project</orgname>
+       </affiliation>
+       <email>davyd@madeley.id.au</email>
+     </editor>
+   </authorgroup>
+   
+   <releaseinfo revision="2.26" role="review"/>
+
+   <revhistory>
+     <revision lang="en">
+       <revnumber>Version 2.10</revnumber>
+       <date>March 2005</date>
+       <revdescription>
+         <para role="author" lang="en">Davyd Madeley</para>
+       </revdescription>
+     </revision>
+     <revision lang="en">
+       <revnumber>Version 2.8</revnumber>
+       <date>Unknown</date>
+       <revdescription>
+	 <para role="author" lang="en">Angela Boyle</para>
+	 <para role="publisher" lang="en">GNOME Documentation Project</para>
+       </revdescription>
+     </revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.6</revnumber>
+		  <date>August 2004</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.4</revnumber>
+		  <date>August 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.3</revnumber>
+		  <date>October 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.2</revnumber>
+		  <date>August 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.1</revnumber>
+		  <date>July 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.0</revnumber>
+		  <date>March 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems	</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Picker Applet</revnumber>
+		  <date>2000</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Dan Mueth <email>d-mueth@uchicago.edu</email>
+				</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+	 </revhistory>
+	 <releaseinfo>本手册讲述的是字符板小程序手册 2.9.7 版。</releaseinfo>
+	 <legalnotice> 
+		<title>反馈</title>
+		<para>要报告关于字符板程序或本手册的错误或提出建议，请参照 <ulink url="ghelp:gnome-feedback" type="help">GNOME 反馈页</ulink> 中的指导。</para>
+<!-- Translators may also add here feedback address for translations -->
+	 </legalnotice>
+  </articleinfo>
+  <indexterm lang="en"> <primary>Character Palette</primary> </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="charpick-introduction"> 
+	 <title>介绍</title> 
+       <!-- ==== Figure ============================================= -->
+	 <figure id="applet-fig"> 
+		<title>字符板</title>
+		<screenshot> 
+		  <mediaobject lang="en"> 
+			 <imageobject><imagedata fileref="figures/charpalette_applet.png" format="PNG"/> </imageobject>
+			 <textobject> <phrase>Character Palette</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+       <!-- ==== End of Figure ======================================= -->
+       <para><application>字符板</application> 提供了一个简便的方法，让您可以访问键盘上没有的字符集，像重音字符、数学符号、特殊符号，以及标点符号。您可以从小程序里插入字符到文本字符串中，例如在文本文档或命令行中。您可以根据自己的需要设置小程序的内容。</para>
+       <para><application>字符板</application> 支持 UTF-8 字符编码，因此，您可以用它显示或复制 Unicode 字符。</para>
+
+       <sect2 id="charpick-introduction-add">       
+         <title>添加字符板小程序到面板上</title>
+	 <para>要将 <application>字符板</application> 小程序添加到面板上，在面板上点右键，然后选 <guimenuitem>添加到面板</guimenuitem>，在出现的 <application>添加到面板</application> 对话框里，选中 <application>字符板</application>，然后点 <guibutton>添加</guibutton>。</para>
+       </sect2> 
+  </sect1>
+<!-- ================ Usage ================================ -->
+  <sect1 id="charpick-usage"> 
+	 <title>获取字符</title>
+	 <para>当您首次添加 <application>字符板</application> 小程序到面板上，程序显示的是默认的字符板。您可以从默认的字符板中选择字符，或者您可以从预定义的字符集中选择一个。每个预定义的字符集与您键盘上的一个标准字符相关联。</para>
+	 <!-- ================ Usage Subsection ================================ -->
+	 <sect2 id="charpick-charselect"> 
+		<title>选择一个字符</title>
+		<para>要从字符板中选择一个字符，并且把它插到一个文本字符串中，请按下面的步骤操作：</para>
+		  <orderedlist> 
+		    <listitem><para>在字符板中，点击您需要的字符。字符按钮按下，表示这个字符已经被选中了。</para></listitem>
+                    <listitem>
+                      <para>移动指针到您想插入字符的位置，然后按鼠标中键，插入这个字符。您也可以粘贴这个字符到应用程序里，如果应用程序允许您从剪贴板粘贴的话。</para>
+                      <para>您可以重复使用中键来多次插入这个字符，直到您不选中这个字符，或者在其他地方选中了文本。您也可以多次粘贴，直到您不选中这个字符，或者在其他地方复制内容到剪贴板里。</para>
+                    </listitem>
+                </orderedlist>
+                <para>要取消选中的字符，再次点击这个字符，或者点击别的字符。</para>
+                <note><para>一些应用程序可能不允许您粘贴当前的字符。</para></note>
+	 </sect2> 
+	 <sect2 id="charpick-display-chargroup"> 
+		<title>要显示预定义的字符板</title>
+		<para>您可以更改默认显示的字符板，选择其它预定义的字符板。要显示一个预定义的字符盘，请按下面的步骤操作：</para>
+		  <orderedlist> 
+			 <listitem> 
+				<para>在小程序上点击 <guibutton>可用的字符板</guibutton> 按钮，它在左边是一个向下的箭头。</para>
+			 </listitem>
+			 <listitem> 
+				<para>点击一个您想要显示的字符板。</para>
+			 </listitem>
+		  </orderedlist>
+		<para>您可以选择一个显示在字符板中的字符，然后把它插入到您的文本字符串里。</para>
+	</sect2>
+	<sect2 id="charpick-charkeys">
+		<title>字符的按键</title>
+		<para>下表列出了键盘上的字符，以及跟它关联的一组字符。键盘字符排在最左边一列，跟它关联的字符组显示在其他列。</para>
+		<figure id="charpick-characters"> 
+		  <title>字符组与键盘按键相关联</title>
+		  <screenshot> 
+			 <mediaobject lang="en"> 
+				<imageobject> 
+				  <imagedata fileref="figures/charpick_characters.png" format="PNG"/> </imageobject>
+				<textobject> <phrase>Shows character groups associated
+				with various keyboard keys. </phrase> </textobject> </mediaobject>
+		  </screenshot>
+		</figure> 
+
+	 </sect2> 
+    
+
+
+  </sect1>
+<!-- ============= Preferences ============================= -->
+  <sect1 id="charpick-prefs"> 
+	 <title>自定义字符板</title>
+	<figure id="fig-prefs"> 
+	  <title>字符板首选项</title>
+	  <screenshot> 
+	  <mediaobject lang="en"> 
+	   <imageobject><imagedata fileref="figures/charpick-preferences.png" format="PNG"/> </imageobject>
+	<textobject> <phrase>Character Palette Preferences</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+	<sect2 id="charpicks-prefs-prefs">
+		<title>配置字符板</title>
+	 	<para>要配置 <application>字符板</application>，在小程序上点右键，然后选 <guimenuitem>首选项</guimenuitem>。<guilabel>字符板首选项</guilabel> 对话框包含 <guilabel>字符板</guilabel> 列表框，里面列出了小程序中可用的字符板。要关闭 <guilabel>字符板首选项</guilabel> 对话框，点 <guibutton>关闭</guibutton> 按钮。</para>
+		<itemizedlist>
+			<listitem><para>要添加新的字符板到小程序中，点 <guibutton>添加</guibutton> 按钮。更多相关信息，请参阅：<xref linkend="charpick-default-new"/>。</para></listitem>
+			<listitem><para>要从小程序中删除一个字符板，点 <guibutton>删除</guibutton> 按钮。</para></listitem>
+			<listitem><para>要设置字符板，选中它然后点 <guibutton>编辑</guibutton> 按钮。在 <guilabel>编辑字符板</guilabel> 对话框里设置，然后点<guibutton>确定</guibutton>。</para></listitem>
+		</itemizedlist>
+	</sect2>
+	 <sect2 id="charpick-default-new"> 
+		<title>设置一个新的字符板</title>
+		<para>您可以使用字符选择程序，像 <application>字符映射</application> 来设置一个新的字符板。例如，要用 <application>字符映射</application> 创建一个新的字符板，请按下面的步骤操作：</para>
+		<orderedlist> 
+		  <listitem> 
+			 <para>在小程序上点右键，然后选 <guimenuitem>首选项</guimenuitem> 命令，出现 <guilabel>字符板首选项</guilabel>  对话框。</para>
+		  </listitem>
+		  <listitem> 
+			 <para>点 <guibutton>添加</guibutton> 按钮，出来一个 <guilabel>添加字符板</guilabel> 对话框。</para>
+		  </listitem>
+		  <listitem> 
+			 <para>打开 <application>字符映射</application>，然后双击选择您想要显示在新字符板里的字符。您可以最多选择 25 个字符。</para>
+		  </listitem>
+		  <listitem> 
+			 <para>从 <application>字符映射</application> 的 <guilabel>要复制的文本</guilabel> 文本框里，复制字符到 <guilabel>添加字符板</guilabel> 窗口的 <guilabel>字符板</guilabel> 文本框里。</para>
+		  </listitem>
+		  <listitem> 
+			 <para>点 <guibutton>确定</guibutton>。</para>
+		  </listitem>
+		</orderedlist>
+		<para><application>字符板</application> 程序添加一个新的字符板到可用字符板列表中。</para>
+	 </sect2>
+  </sect1>
+</article>

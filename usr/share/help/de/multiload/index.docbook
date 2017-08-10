@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.10">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "System Monitor">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="de">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Systemmonitor-Handbuch</title> 
+    <abstract role="description">
+      <para>Der Systemmonitor zeigt Informationen zur Systemlast in Form von Grafiken im Panel.</para>
+    </abstract>
+    <copyright lang="en">
+     <year>2005</year>
+     <holder>Davyd Madeley</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2004</year>
+      <holder>Sun Microsystems</holder>
+    </copyright>
+
+    <copyright lang="en"> 
+      <year>2003</year> 
+      <year>2004</year> 
+      <holder>Chee Bin HOH</holder> 
+    </copyright> 
+
+<!-- translators: uncomment this:
+    <copyright>
+    <year>2002</year>
+    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+    </copyright>
+-->
+
+    <publisher role="maintainer"> 
+      <publishername>GNOME-Dokumentationsprojekt</publishername> 
+    </publisher> 
+
+      <legalnotice id="legalnotice">
+	<para>Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Documentation License (GFDL), Version 1.1 oder jeder späteren, von der Free Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt und/oder modifiziert werden. Eine Kopie der GFDL finden Sie unter diesem <ulink type="help" url="help:fdl">Link</ulink> oder in der mit diesem Handbuch gelieferten Datei COPYING-DOCS.</para>
+         <para>Das vorliegende Handbuch ist Teil einer Reihe von GNOME-Handbüchern, die unter der GFDL verteilt werden. Wenn Sie dieses Handbuch separat verteilen möchten, können Sie dies tun, indem Sie dem Handbuch eine Kopie der Lizenz, wie in Abschnitt 6 der Lizenz beschrieben, hinzufügen.</para>
+
+	<para>Bei vielen der von Firmen zur Unterscheidung ihrer Produkte und Dienstleistungen verwendeten Namen handelt es sich um Marken. An den Stellen, an denen derartige Namen in einer GNOME-Dokumentation vorkommen und wenn die Mitglieder des GNOME Documentation Project über diese Marken informiert wurden, sind die Namen in Grossbuchstaben oder mit großen Anfangsbuchstaben geschrieben.</para>
+
+	<para lang="en">
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+	  UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+	  WITH THE FURTHER UNDERSTANDING THAT:
+
+	  <orderedlist>
+		<listitem>
+		  <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                    WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                    IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                    THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                    A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                    RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                    OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                    MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                    YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                    CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                    SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                    OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                    LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                    VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                    EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                       THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                       CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                       INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                       DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                       OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                       PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                       DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                       CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                       INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                       OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                       MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                       LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                       DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                       EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                       THE POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+
+
+<!-- This file  contains link to license for the documentation (GNU FDL), and 
+     other legal stuff such as "NO WARRANTY" statement. Please do not change 
+     any of this. -->
+
+    <authorgroup> 
+
+      <author lang="en">
+        <firstname>Angela</firstname>
+        <surname>Boyle</surname>
+	<affiliation><address>
+	 <email>aboyle@aboyle.com</email>
+	</address></affiliation>
+      </author>
+
+      <author lang="en"> 
+	<firstname>Chee Bin</firstname> 
+	<surname>HOH</surname> 
+	<affiliation> 
+	  <orgname>GNOME Documentation Project</orgname> 
+	  <address><email>cbhoh@mimos.my</email></address>
+	</affiliation> 
+      </author>
+
+      <author lang="en">
+       <firstname>Davyd</firstname><surname>Madeley</surname>
+       <affiliation>
+        <orgname>GNOME Project</orgname>
+        <address><email>davyd@madeley.id.au</email></address>
+       </affiliation>
+      </author>
+
+      <!-- This is appropriate place for other contributors: translators,
+           maintainers,  etc. Commented out by default.
+      <othercredit role="translator">
+        <firstname>Latin</firstname> 
+        <surname>Translator 1</surname> 
+        <affiliation> 
+          <orgname>Latin Translation Team</orgname> 
+          <address> <email>translator@gnome.org</email> </address> 
+        </affiliation>
+        <contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+	
+	<releaseinfo revision="2.26" role="review"/>
+
+    <revhistory>
+      <revision lang="en">
+        <revnumber>Version 2.10</revnumber>
+	<date>March 2005</date>
+	<revdescription>
+	  <para role="author" lang="en">Davyd Madeley</para>
+	</revdescription>
+      </revision>
+    
+      <revision lang="en">
+	<revnumber>Version 2.8</revnumber> 
+	<date>August 2004</date> 
+	<revdescription> 
+          <para role="author" lang="en">Angela Boyle</para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+	</revdescription> 
+      </revision> 
+
+      <revision lang="en"> 
+	<revnumber>System Monitor Applet Manual V2.1</revnumber> 
+	<date>February 2004</date> 
+	<revdescription> 
+          <para role="author" lang="en">Sun GNOME Documentation Team</para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+	</revdescription> 
+      </revision> 
+
+      <revision lang="en"> 
+	<revnumber>System Monitor Applet Manual V2.0</revnumber> 
+	<date>July 2003</date> 
+	<revdescription> 
+	  <para role="author" lang="en">Chee Bin HOH
+	    <email>cbhoh@mimos.my</email>
+          </para> 
+	  <para role="publisher" lang="en">GNOME Documentation Project</para> 
+	</revdescription> 
+      </revision> 
+
+    </revhistory> 
+
+    <releaseinfo>Dieses Handbuch beschreibt die Version 2.10 von Systemmonitor</releaseinfo> 
+    <legalnotice> 
+      <title>Rückmeldungen</title> 
+      <para>Um Fehler zu berichten oder Vorschläge zum Systemmonitor-Applet zu machen folgen Sie den Anweisungen in der <ulink url="ghelp:gnome-feedback" type="help">GNOME-Seite für Rückmeldungen</ulink>.</para>
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index" lang="en"> 
+    <primary>System Monitor Applet</primary> 
+  </indexterm> 
+  <indexterm zone="index" lang="en"> 
+    <primary>System Monitor</primary> 
+  </indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="multiload-introduction"> 
+    <title>Einführung</title> 
+
+      <!-- ==== Figure ============================================= -->
+      <figure id="system-monitor-applet-fig"> 
+        <title>Systemmonitor</title> 
+        <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/system-monitor-applet_window.png" format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Shows System Monitor. Displays a graph for system CPU load.
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+      <!-- ==== End of Figure ======================================= -->
+
+      <para>Der <application>Systemmonitor</application> zeigt Informationen über die Systemlast in grafischer Form im Panel an. Sie können den  <application>Systemmonitor</application> anpassen, um folgende Systeminformationen anzeigen zu lassen:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Verwendung von CPU-Zeit (Hauptprozessor-Zeit)</para>
+        </listitem>
+        <listitem>
+          <para>Speicherverbrauch</para>
+        </listitem>
+        <listitem>
+          <para>Netzwerk-Verkehr</para>
+        </listitem>
+        <listitem>
+          <para>Verwendung von Auslagerungsspeicher</para>
+        </listitem>
+        <listitem>
+          <para>Durchschnittliche Systemlast</para>
+        </listitem>
+	<listitem><para>Datenträgerlast</para></listitem>
+      </itemizedlist>
+
+      <sect2 id="multiload-introduction-add"> 
+        <title>So fügen Sie den Systemmonitor einem Panel hinzu</title> 
+	<para>Um den <application>Systemmonitor</application> zu einem Panel hinzuzufügen klicken Sie mit der rechten Maustaste auf das Panel und wählen Sie <guimenuitem>Zum Panel hinzufügen</guimenuitem>. Wählen Sie dann <application>Systemmonitor</application> im Dialogfenster  <application>Zum Panel hinzufügen</application>, und wählen Sie anschließend <guibutton>Hinzufügen</guibutton>.</para>
+        <para>Das Erscheinungsbild des <application>Systemmonitors</application> variiert mit Größe und Art des Panels, in dem sich das Applet befindet.</para>     
+      </sect2>
+
+  </sect1>
+
+<!-- ================ Usage ================================ -->
+<!-- Use this section to describe how to use the applet to perform the tasks for 
+     which the applet is designed. -->
+  <sect1 id="multiload-usage"> 
+    <title>So betrachten Sie Graphen</title> 
+	<!-- ================ displaying addistional graphics======================== -->
+    <sect2 id="multiload-usage-graphs"> 
+      <title>So werden zusätzliche Graphen angezeigt</title> 
+      <para>Um das <application>Systemmonitor</application>-Applet zu konfigurieren, klicken Sie mit der rechten Maustaste auf das Applet und wählen Sie  <guimenuitem>Einstellungen</guimenuitem>. Sie können mit dem Feld  <guilabel>Überwachte Ressourcen</guilabel> festlegen, welche Graphen angezeigt werden:</para>
+          <itemizedlist>
+            <listitem>
+              <para lang="en">
+                <guilabel>Processor</guilabel>
+              </para>
+              <para>Wählen Sie diese Option, um den Graphen zur CPU-Auslastung anzuzeigen.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Memory</guilabel>
+              </para>
+              <para>Wählen Sie diese Option, um den Graphen zur Speicherauslastung  anzuzeigen.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Network</guilabel>
+              </para>
+              <para>Wählen Sie diese Option, um den Graphen zum Netzwerkverkehr anzuzeigen.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Swap Space</guilabel>
+              </para>
+              <para>Wählen Sie diese Option, um den Graphen zur Verwendung des Auslagerungsspeichers anzuzeigen.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Load</guilabel>
+              </para>
+              <para>Wählen Sie diese Option, um den Graphen zur durchschnittlichen Systemlast  anzuzeigen.</para>
+            </listitem>
+	    <listitem>
+	     <para lang="en"><guilabel>Harddisk</guilabel></para>
+	     <para>Wählen Sie diese Option, um den Graphen zur Festplattenauslastung  anzuzeigen.</para>
+	    </listitem>
+          </itemizedlist>
+    </sect2>
+	<!-- ================ displaying current usage of system resources================== -->
+    <sect2 id="multiload-usage-current"> 
+      <title>So lassen Sie die aktuelle Auslastung einer Systemressource darstellen</title> 
+      <para>Um die aktuelle Auslastung einer Systemressource abzulesen platzieren Sie den Mauszeiger über den dazugehörigen Graphen im Applet. Eine Minihilfe erscheint daraufhin und zeigt den aktuellen Wert in Prozent an.</para>
+    </sect2>
+	<!-- ================ displaying additional info================== -->
+    <sect2 id="multiload-usage-extra"> 
+      <title>So lassen Sie zusätzliche Systeminformationen darstellen</title>
+      <para>Um zusätzliche Informationen im Systemmonitor darstellen zu lassen klicken Sie mit der rechten Maustaste auf das Applet und wählen Sie <guimenuitem>Systemmonitor öffnen</guimenuitem>, um den  <application>Systemmonitor</application> zu starten.</para>
+      <para>Die Anwendung <application>Systemmonitor</application> ermöglicht es Systemprozesse und Ressourcenauslastungen zu überwachen. Sie können <application>Systemmonitor</application> verwenden, um das Verhalten Ihres Systems zu ändern.</para>
+    </sect2>
+
+  </sect1>
+
+<!-- ============= Preferences =========================== -->
+  <sect1 id="multiload-prefs">
+    <title>Erscheinungsbild anpassen</title> 
+      <figure id="system-monitor-prefs-fig"> 
+        <title>Einstellungsdialog</title> 
+        <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/multiload-preferences.png" format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Preferences Dialog
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+    <sect2 id="multiload-size">
+        <title>So ändern Sie die Breite</title>
+              <para>Klicken Sie mit der rechten Maustaste auf das Applet und wählen Sie <guimenuitem>Einstellungen</guimenuitem>. Verwenden Sie im Bereich  <guilabel>Einstellungen</guilabel> das Einstellfeld <guilabel>Breite des Systemmonitors</guilabel>, um die Breite jedes Graphen in Pixel im <application>Systemmonitor</application> festzulegen.</para>
+  </sect2>
+  <sect2 id="multiload-update">
+        <title>So wird in regelmäßigen Abständen aktualisiert</title>
+              <para>Klicken Sie mit der rechten Maustaste auf das Applet und wählen Sie <guimenuitem>Einstellungen</guimenuitem>. Verwenden Sie im Bereich  <guilabel>Einstellungen</guilabel> das Einstellfeld <guilabel>Aktualisierungsintervall des Systemmonitors</guilabel>, um das Intervall zwischen Aktualisierungen des Graphen in Milisekunden festzulegen.</para>
+    </sect2>
+	<!-- ================ changing graph colors======================== -->
+    <sect2 id="multiload-usage-colors"> 
+      <title>So ändern Sie die Farbe eines Graphen</title>
+      <para>Führen Sie die folgenden Schritte durch, um die Farbe eines Graphen zu ändern:</para>
+      <orderedlist>
+        <listitem>
+          <para>Klicken Sie mit der rechten Maustaste auf das Applet und wählen Sie dann <guimenuitem>Einstellungen</guimenuitem>.</para>
+        </listitem>
+        <listitem>
+          <para>Wählen Sie den entsprechenden Karteireiter im Bereich <guilabel>Farben</guilabel> des Dialogs <guilabel>Einstellunggen des Systemmonitors</guilabel>.</para>
+        </listitem>
+        <listitem>
+          <para>Klicken Sie auf den gewünschten Farbwahlknopf im ausgewählten Bereich.</para>
+        </listitem>
+        <listitem>
+          <para>Verwenden Sie im Dialog <guilabel>Wählen Sie eine Farbe</guilabel>.das Farbwahlrad oder die Einstellfelder, um die Farbe des Graphen für den entsprechenden Parameter festzulegen.</para>
+        </listitem>
+        <listitem>
+          <para>Klicken Sie auf <guibutton>Schließen</guibutton>.</para>
+        </listitem>
+      </orderedlist>
+      <para>Der Karteireiter einer jeden Ressource enthält Farbwahlknöpfe, die Sie verwenden könnnen, um die Farbdarstellung der Parameter jeder Ressource festzulegen.</para>
+          <itemizedlist>
+            <listitem>
+              <para lang="en">
+                <guilabel>Processor</guilabel>
+              </para>
+              <para>Wählen Sie diesen Karteireiter um die Farbknöpfe für die folgenden Parameter anzuzeigen:</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Parameter</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Beschreibung</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>User</guilabel></para></entry>
+                      <entry><para>Durch kernelfremde Aktivitäten belegte Prozessorzeit</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>System</guilabel></para></entry>
+                      <entry><para>Durch Kernelaktivitäten belegte Prozessorzeit</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Nice</guilabel></para></entry>
+                      <entry><para>Durch niederpriore Prozesse belegte Prozessorzeit</para></entry>
+                    </row>
+		    <row valign="top">
+		      <entry><para lang="en"><guilabel>IOWait</guilabel></para></entry>
+		      <entry>
+		       <para>Durch Warten auf Ein-/Ausgabe belegte Prozessorzeit</para>
+		      </entry>
+		    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Idle</guilabel></para></entry>
+                      <entry><para>Ungenutzte Prozessorleistung</para></entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Memory</guilabel>
+              </para>
+              <para>Wählen Sie diesen Karteireiter um die Farbknöpfe für die folgenden Parameter anzuzeigen:</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Parameter</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Beschreibung</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>User</guilabel></para></entry>
+                      <entry><para>Durch kernelfremde Aktivitäten belegter Arbeitsspeicher</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Shared</guilabel></para></entry>
+                      <entry><para>Durch mehrere Anwendungen genutzter Arbeitsspeicher</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Buffers</guilabel></para></entry>
+                      <entry><para>Zeitweise zum Senden oder Empfangen von Daten belegter Speicher</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Cached</guilabel></para></entry>
+                      <entry><para>Zum Speichern von Daten für schnellen Zugriff verwendeter Arbeitsspeicher</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Free</guilabel></para></entry>
+                      <entry><para>Derzeit nicht belegter Arbeitsspeicher</para></entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Network</guilabel>
+              </para>
+              <para>Wählen Sie diesen Karteireiter um die Farbknöpfe für die folgenden Parameter anzuzeigen:</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Parameter</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Beschreibung</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>SLIP</guilabel></para></entry>
+                      <entry><para>Serial Line Internet Protocol-Netzwerkverbindung</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>PLIP</guilabel></para></entry>
+                      <entry><para>Parallel Line Internet Protocol-Netzwerkverbindung</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Ethernet</guilabel></para></entry>
+                      <entry><para>Ethernet-Netwerkverbindung</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Other</guilabel></para></entry>
+                      <entry><para>Andere Netzwerkverbindungen außer SLIP, PLIP und Ethernet</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Background</guilabel></para></entry>
+                      <entry><para>Keine Netzwerkverbindung</para></entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Swap Space</guilabel>
+              </para>
+              <para>Wählen Sie diesen Karteireiter um die Farbknöpfe für die folgenden Parameter anzuzeigen:</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Parameter</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Beschreibung</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+		     <entry><para lang="en"><guilabel>Used</guilabel></para></entry>
+		     <entry>
+		      <para>Vom System belegter Auslagerungsspeicher</para>
+		     </entry>
+		    </row>
+		    <row valign="top">
+		     <entry><para lang="en"><guilabel>Free</guilabel></para></entry>
+		     <entry>
+		      <para>Zur Verfügung stehender Auslagerungsspeicher</para>
+		     </entry>
+		    </row>
+		  </tbody>
+		</tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Load</guilabel>
+              </para>
+              <para>Wählen Sie diesen Karteireiter um die Farbknöpfe für die folgenden Parameter anzuzeigen:</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Parameter</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Beschreibung</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+		     <entry><para lang="en"><guilabel>Average</guilabel></para></entry>
+		     <entry><para>Systemlast</para></entry>
+		    </row>
+		    <row valign="top">
+		     <entry><para lang="en"><guilabel>Background</guilabel></para></entry>
+		     <entry><para>Keine Last</para></entry>
+		    </row>
+		  </tbody>
+		</tgroup>
+	      </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Harddisk</guilabel>
+              </para>
+              <para>Wählen Sie diesen Karteireiter um die Farbknöpfe für die folgenden Parameter anzuzeigen:</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Parameter</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Beschreibung</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Read</guilabel></para></entry>
+                      <entry><para>Leserate vom Datenträger</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Write</guilabel></para></entry>
+                      <entry><para>Schreibrate auf den Datenträger</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Background</guilabel></para></entry>
+                      <entry><para>Datenträger im Leerlauf</para></entry>
+                    </row>
+		  </tbody>
+		</tgroup>
+	      </informaltable>
+	    </listitem>
+          </itemizedlist>
+    </sect2>
+  </sect1>
+</article>

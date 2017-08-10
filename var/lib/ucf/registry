@@ -1,0 +1,2 @@
+samba-common 	 /etc/samba/smb.conf
+rsyslog 	 /etc/rsyslog.d/50-default.conf

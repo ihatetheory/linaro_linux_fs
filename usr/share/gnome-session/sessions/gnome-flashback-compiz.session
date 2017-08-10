@@ -1,0 +1,14 @@
+[GNOME Session]
+Name=GNOME Flashback (Compiz)
+Name[cs]=GNOME historické (Compiz)
+Name[de]=GNOME Flashback (Compiz)
+Name[es]=GNOME Flashback (Compiz)
+Name[hu]=GNOME Flashback (Compiz)
+Name[id]=GNOME Flashback (Compiz)
+Name[pl]=Tradycyjne środowisko GNOME (Compiz)
+Name[pt_BR]=GNOME Flashback (Compiz)
+Name[ru]=GNOME Flashback (Compiz)
+Name[sl]=GNOME Flashback (Compiz)
+Name[sr]=Стари Гном (Компиз)
+Name[sr@latin]=Stari Gnom (Kompiz)
+RequiredComponents=gnome-flashback-init;gnome-flashback;gnome-panel;compiz;unity-settings-daemon;gnome-flashback-services;

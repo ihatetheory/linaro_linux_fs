@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="sources" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="seealso" xref="definition"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Xestionar varias orixes de dicionario.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Orixes do dicionario</title>
+
+  <p><app>Dicionario</app> usa <em>orixes de dicionario</em> para buscar palabras polas que buscar. As orixes de dicionario son coleccións de unha ou máis bases de datos de dicionarios que normalmente están en liña, pero que poden instalarse na súa máquina tamén.</p>
+
+  <section id="guide" style="2column">
+    <title>Xestionar as súas orixes de dicionario.</title>
+  </section>
+
+</page>

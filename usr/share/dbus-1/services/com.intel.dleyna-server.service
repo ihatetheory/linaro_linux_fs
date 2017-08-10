@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.intel.dleyna-server
+Exec=/usr/lib/dleyna-server/dleyna-server-service
+

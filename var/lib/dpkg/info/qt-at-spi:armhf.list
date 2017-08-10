@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/qt-at-spi
+/usr/share/doc/qt-at-spi/changelog.Debian.gz
+/usr/share/doc/qt-at-spi/README
+/usr/share/doc/qt-at-spi/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/qt4
+/usr/lib/arm-linux-gnueabihf/qt4/plugins
+/usr/lib/arm-linux-gnueabihf/qt4/plugins/accessiblebridge
+/usr/lib/arm-linux-gnueabihf/qt4/plugins/accessiblebridge/libqspiaccessiblebridge.so

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="save-definition" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Gardar unha copia dunha definición nun ficheiro de texto.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gardar unha definición</title>
+
+  <p>Pode gardar unha definición nun ficheiro de texto. Isto podería ser útil se quere usala fóra de <app>Dicionario</app>.</p>
+
+  <steps>
+    <title>Para gardar unha definición:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Ficheiro</gui> <gui style="menuitem">Gardar unha copia…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Escolla onde quere gardar a definición e un nome para o ficheiro. Podería querer engadir unha extensión de ficheiro <file>.txt</file> ao final do nome do ficheiro.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">Gardar</gui> para gardar a definición.</p>
+    </item>
+  </steps>
+
+</page>

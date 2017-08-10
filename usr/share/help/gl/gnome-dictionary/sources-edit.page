@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Editar unha orixe de dicionario</title>
+
+  <p>Pode personalizar unha <link xref="sources">orixe de dicionario</link> para actualizar os detalles como a descrición ou o enderezo remoto.</p>
+
+  <steps>
+    <title>Para editar unha orixe de dicionario:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Dicionario </gui><gui style="menuitem">Preferencias </gui><gui style="tab">Orixe</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Prema dúas veces sobre a orixe de dicionario que quere editar.</p>
+    </item>
+    <item>
+      <p>Pode editar os seguintes campos:</p>
+      <list>
+        <item>
+          <p><gui>Descrición</gui> é o nome da orixe que se lle mostra.</p>
+        </item>
+        <item>
+          <p><gui>Transporte</gui> é o tipo de servidor.</p>
+        </item>
+        <item>
+          <p><gui>Nome do host</gui> é a localización da orixe do dicionario.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Porto</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Vexa os dicionarios que están dispoñíbeis na orixe de dicionarios seleccionando a lapela <gui style="tab">Dicionarios</gui>.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">Pechar</gui> para gardar as preferencias.</p>
+    </item>
+  </steps>
+
+</page>

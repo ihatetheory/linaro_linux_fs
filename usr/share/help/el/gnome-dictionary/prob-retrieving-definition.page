@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Σφάλμα κατά την ανάκτηση ορισμών</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αδύνατη η εύρεση ορισμών</title>
+
+  <p>Αν δείτε το μήνυμα σφάλματος <sys>Σφάλμα κατά την ανάκτηση ορισμού</sys> όταν αναζητάτε έναν ορισμό από οποιοδήποτε <link xref="sources-select">επιλεγμένο λεξικό</link>, το πρόβλημα είναι πιο πιθανό να είναι ένα από τα παρακάτω:</p>
+
+  <list>
+    <item>
+      <p>Ένας ή περισσότεροι από τους επιλεγμένους εξυπηρετητές του <app>DICT</app> που χρησιμοποιούνται για αναζήτηση ορισμών μπορεί να μην δουλεύει. Μπορείτε να δοκιμάσετε αφού περιμένετε κάμποσο πριν να <link xref="definition">αναζητήσετε</link> τον ορισμό πάλι.</p>
+    </item>
+    <item>
+      <p>Μπορεί να μην έχετε μια σύνδεση διαδικτύου που να λειτουργεί. Για να αναζητήσει όρους το <app>Λεξικό</app>, ο υπολογιστής σας <link href="help:gnome-help/net">πρέπει να μπορεί να συνδεθεί</link> με το <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

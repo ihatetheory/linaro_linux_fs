@@ -1,0 +1,60 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="add-account">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <link type="seealso" xref="disable-account"/>
+    <link type="seealso" xref="remove-account"/>
+
+    <revision version="0.1" date="2012-04-02" status="candidate"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email>david.king@canonical.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="copyright">
+      <name>Canonical Ltd.</name>
+      <years>2012</years>
+    </credit>
+    <license>
+      <p>Creative Commons Attribution-ShareAlike 3.0</p>
+    </license>
+
+    <desc>Setup your online accounts with Online Accounts.</desc>
+  </info>
+
+  <title>Add an online account</title>
+
+  <p>Online Accounts provides a single way to store and manage your login
+  details for a variety of online services.</p>
+
+  <steps>
+    <item>
+      <p>Open <gui>System Settings</gui> from the <gui>system menu</gui>.</p>
+      <!-- TODO: Link to session menu topic. -->
+    </item>
+    <item>
+      <p>Select the <gui>Online Accounts</gui> panel.</p>
+    </item>
+    <item>
+      <p>Select <gui>Add account…</gui>.</p>
+    </item>
+    <item>
+      <p>Select the account provider for the online account that you want.</p>
+      <note style="tip">
+        <p>Use the drop-down list at the top of the panel to filter the list of
+        providers by application.</p>
+      </note>
+    </item>
+    <item>
+      <p>Follow the instructions to enter your login details. This normally
+      involves entering your username and password.</p>
+    </item>
+  </steps>
+
+  <p>If the authentication process was successful, you will be returned to the
+  <gui>Online Accounts</gui> panel and the account will be ready to use. Launch
+  a supporting application to test your account.</p>
+</page>

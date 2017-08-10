@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libqpdf.so.13.1.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqpdf13
+/usr/share/doc/libqpdf13/copyright
+/usr/share/doc/libqpdf13/changelog.Debian.gz
+/usr/share/doc/libqpdf13/TODO.gz
+/usr/share/doc/libqpdf13/README.gz
+/usr/lib/arm-linux-gnueabihf/libqpdf.so.13

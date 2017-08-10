@@ -1,0 +1,5 @@
+bcae4531e5f52671ce13b08b89b48456  usr/bin/p11-kit
+dc88bcc46a6d90bd17edad07d832f8aa  usr/bin/trust
+0edfe3321f5d2e962763232dbd316017  usr/share/doc/p11-kit/copyright
+4fdc7c28554dd210f003242482b720f6  usr/share/man/man1/p11-kit.1.gz
+3b4433707e795559b45eef02e0ec064b  usr/share/p11-kit/modules/p11-kit-trust.module

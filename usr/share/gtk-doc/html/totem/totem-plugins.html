@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Totem Reference Manual: Writing Totem Plugins</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Totem Reference Manual">
+<link rel="up" href="tutorials.html" title="Tutorials">
+<link rel="prev" href="tutorials.html" title="Tutorials">
+<link rel="next" href="core-api.html" title="Core API">
+<meta name="generator" content="GTK-Doc V1.21 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="tutorials.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="tutorials.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="core-api.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="totem-plugins"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="totem-plugins.top_of_page"></a>Writing Totem Plugins</span></h2>
+<p>Writing Totem Plugins — brief tutorial on writing Totem plugins</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="id-1.2.2.3"></a><h2>Introduction</h2>
+<p>Totem is extensible by means of small, dynamically-loadable plugins, which add functionality wanted by some but not others.</p>
+<div class="refsect2">
+<a name="id-1.2.2.3.3"></a><h3>Locations</h3>
+<p>Totem plugins can either be installed in the system path
+				(e.g. <code class="filename">/usr/lib/totem/plugins/</code>), or in a user's home directory
+				(e.g. <code class="filename">~/.local/share/totem/plugins/</code>). In either case, each plugin resides in a
+				subdirectory named after the plugin itself.</p>
+<p>In addition, each plugin needs a <code class="filename">.plugin</code> index file, residing inside the plugin
+				directory. This gives the code name of the plugin, as well as some metadata about the plugin such as its human-readable
+				name, description and author.</p>
+<div class="example">
+<a name="id-1.2.2.3.3.4"></a><p class="title"><b>Example 1. Example Plugin Directory</b></p>
+<div class="example-contents">
+<p>A system-installed plugin called <code class="literal">subtitle-downloader</code> would reside in
+					<code class="filename">/usr/lib/totem/plugins/subtitle-downloader</code>, and would (at a
+					minimum) have the following files:
+					</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><code class="filename">subtitle-downloader.plugin</code></li>
+<li class="listitem"><code class="filename">libsubtitle-downloader.so</code></li>
+</ul></div>
+<p>
+				</p>
+<p>If installed in a user's home directory, it would reside in
+					<code class="filename">~/.local/share/totem/plugins/subtitle-downloader</code> and have the same
+					files.</p>
+</div>
+</div>
+<br class="example-break">
+</div>
+<hr>
+<div class="refsect2">
+<a name="id-1.2.2.3.4"></a><h3>The <code class="filename">.plugin</code> File</h3>
+<p>The file should use the following template:
+				</p>
+<pre class="programlisting">[Plugin]
+	Module=<em class="replaceable"><code>plugin-name</code></em>
+	IAge=<em class="replaceable"><code>plugin interface age (starting at 1)</code></em>
+	Builtin=<em class="replaceable"><code><code class="literal">true</code> or <code class="literal">false</code></code></em>
+	Name=<em class="replaceable"><code>Human-Readable Plugin Name</code></em>
+	Description=<em class="replaceable"><code>Simple sentence describing the plugin's functionality.</code></em>
+	Authors=<em class="replaceable"><code>Plugin Author Name</code></em>
+	Copyright=Copyright © <em class="replaceable"><code>year</code></em> <em class="replaceable"><code>Copyright Holder</code></em>
+	Website=<em class="replaceable"><code>http://plugin/website/</code></em></pre>
+<p>
+				Most of the values in the template are fairly self-explanatory. One thing to note is that the plugin name should be
+				in lowercase, and contain no spaces. The plugin interface age should start at <code class="literal">1</code>, and only be
+				incremented when the binary interface of the plugin (as used by Totem) changes. If the plugin does not have its own
+				website, Totem's website (<code class="literal">https://wiki.gnome.org/Apps/Videos</code>) can be used.</p>
+<p>The library file containing the plugin's code should be named
+				<code class="filename">lib<em class="replaceable"><code>plugin-name</code></em>.so</code> (for C, or other compiled language, plugins) or
+				<code class="filename"><em class="replaceable"><code>pluginname</code></em>.py</code> (for Python plugins).</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="id-1.2.2.3.5"></a><h3>Writing a Plugin</h3>
+<p>Writing a plugin in C is a matter of creating a new <span class="type">GObject</span> which inherits
+				from <span class="type">PeasExtensionBase</span> and which implements
+				<span class="type">PeasActivatable</span>. The following code will create a simple plugin
+				called <code class="literal">foobar</code>:
+				</p>
+<div class="example">
+<a name="id-1.2.2.3.5.2.5"></a><p class="title"><b>Example 2. Example Plugin Code</b></p>
+<div class="example-contents"><pre class="programlisting">
+#define TOTEM_TYPE_FOOBAR_PLUGIN		(totem_foobar_plugin_get_type ())
+#define TOTEM_FOOBAR_PLUGIN(o)			(G_TYPE_CHECK_INSTANCE_CAST ((o), TOTEM_TYPE_FOOBAR_PLUGIN, TotemFoobarPlugin))
+#define TOTEM_FOOBAR_PLUGIN_CLASS(k)		(G_TYPE_CHECK_CLASS_CAST((k), TOTEM_TYPE_FOOBAR_PLUGIN, TotemFoobarPluginClass))
+#define TOTEM_IS_FOOBAR_PLUGIN(o)		(G_TYPE_CHECK_INSTANCE_TYPE ((o), TOTEM_TYPE_FOOBAR_PLUGIN))
+#define TOTEM_IS_FOOBAR_PLUGIN_CLASS(k)		(G_TYPE_CHECK_CLASS_TYPE ((k), TOTEM_TYPE_FOOBAR_PLUGIN))
+#define TOTEM_FOOBAR_PLUGIN_GET_CLASS(o)	(G_TYPE_INSTANCE_GET_CLASS ((o), TOTEM_TYPE_FOOBAR_PLUGIN, TotemFoobarPluginClass))
+
+typedef struct {
+	/* Plugin private member variables */
+} TotemFoobarPluginPrivate;
+
+TOTEM_PLUGIN_REGISTER (TOTEM_TYPE_FOOBAR_PLUGIN, TotemFoobarPlugin, totem_foobar_plugin);
+
+static void
+impl_activate (PeasActivatable *plugin)
+{
+	TotemFoobarPlugin *self = TOTEM_FOOBAR_PLUGIN (plugin);
+	TotemFoobarPluginPrivate *priv = self-&gt;priv;
+	TotemObject *totem = g_object_get_data (G_OBJECT (plugin), "object");
+
+	/* Initialise resources, connect to events, create menu items and UI, etc., here.
+	 * Note that impl_activate() and impl_deactivate() can be called multiple times in one
+	 * Totem instance, though impl_activate() will always be followed by impl_deactivate() before
+	 * it is called again. Similarly, impl_deactivate() cannot be called twice in succession. */
+}
+
+static void
+impl_deactivate (PeasActivatable *plugin)
+{
+	TotemFoobarPlugin *self = TOTEM_FOOBAR_PLUGIN (plugin);
+
+	/* Destroy resources created in impl_activate() here. e.g. Disconnect from signals
+	 * and remove menu entries and UI. */
+}</pre></div>
+</div>
+<p><br class="example-break"></p>
+<p>Once resources have been created, and the plugin has been connected to Totem's UI in the <code class="function">impl_activate</code>
+				function, the plugin is free to go about its tasks as appropriate. If the user deactivates the plugin, or Totem decides
+				to deactivate it, the <code class="function">impl_deactivate</code> will be called. The plugin should free any resources
+				grabbed or allocated in the <code class="function">impl_activate</code> function, and remove itself from the Totem
+				interface.</p>
+<p>Note that plugins can be activated and deactivated (e.g. from Totem's plugin manager) many times during one Totem session,
+				so the <code class="function">impl_activate</code> and <code class="function">impl_deactivate</code> functions must be able to cope with
+				this.</p>
+<p>Any of the API documented in the rest of the Totem API reference can be used by plugins. Python plugins are written in
+				the same way as C plugins, and are similarly implemented as classes derived from
+				<span class="type">PeasExtensionBase</span> and implementing
+				<span class="type">PeasActivatable</span>.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  style="task"
+  id="link-contacts">
+      
+  <info>
+    <link type="guide" xref="index#contacts" />
+    <link type="seealso" xref="send-message" />
+    <link type="seealso" xref="audio-call" />
+    <link type="seealso" xref="video-call" />
+    <desc>Merge and separate different contacts into a single one.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>
+        Creative Commons Share Alike 3.0
+      </p>
+    </license>
+  </info>
+
+  <title>Link and unlink contacts</title>
+  <p>
+    If one or more of your contacts has multiple accounts with different
+    messaging services, you can combine these accounts into a single contact.
+  </p>
+  <p>
+    The resulting contact is called a <em>meta-contact</em>: a contact composed
+    from different single contacts.
+  </p>
+  <p>
+    Suppose you have a contact called Jane Smith who is using three different
+    messaging services like:
+  </p>
+  <list>
+    <item>
+      <p>
+        jane.smith@gmail
+      </p>
+    </item>
+    <item>
+      <p>
+        jane_smith@hotmail
+      </p>
+    </item>
+    <item>
+      <p>
+        janes@yahoo
+      </p>
+    </item>
+  </list>
+  <p>
+    You can combine these contacts into a single Jane Smith one.
+  </p>
+  <section id="linking">
+  <title>Link contacts</title>
+  <p>
+    The way you can link your contacts is as follows:
+  </p>
+    <steps>
+      <item>
+        <p>
+          Press the tick button to select entries you want to link. This will enable
+          <em>selection mode</em> and you can see a checkbox for each entry.
+        </p>
+      </item>
+      <item>
+        <p>
+	  Tick the checkboxes that correspond to the <app>Contacts</app> entries which
+	  belong to the same contact.
+        </p>
+      </item>
+      <item>
+        <p>
+          Press <gui style="button">Link</gui>.
+        </p>
+      </item>
+    </steps>
+    <p>
+      Repeat steps 3 and 4 in order to link other contacts.
+    </p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Unlink contacts</title>
+  <p>
+    To unlink a linked contact:
+  </p>
+    <steps>
+      <item>
+        <p>
+          Select the contact from your list.
+        </p>
+      </item>
+      <item>
+        <p>
+          Press <gui style="button">Edit</gui> in the top-right corner of <app>Contacts</app>.
+	</p>
+      </item>
+      <item>
+	<p>
+	  Press <gui style="button">Linked Contacts</gui>.
+        </p>
+      </item>
+      <item>
+	<p>
+	  Press <gui style="button">Remove</gui> to unlink an entry from the linked contact.
+        </p>
+      </item>
+      <item>
+        <p>
+          Press <gui style="button">Close</gui> if you do not want to unlink any more contacts.
+        </p>
+      </item>
+      <item>
+        <p>
+	  Finally, press <gui style="button">Done</gui> to finish editing.
+	</p>
+      </item>
+    </steps>
+  </section>
+</page>

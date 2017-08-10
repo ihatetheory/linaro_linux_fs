@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>选择打印释义的字体。</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>打印字体</title>
+
+  <p>如果您想更改打印时的默认字体和字号，请按下面的步骤操作：</p>
+
+  <steps>
+    <title>更换字体</title>
+    <item>
+      <p>选择<guiseq><gui style="menu">字典</gui> <gui style="menuitem">首选项</gui> <gui style="tab">打印</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>单击字体选择按钮。</p>
+    </item>
+    <item>
+      <p>选择一个您想要的字体。</p>
+    </item>
+    <item>
+      <p>通过向右或向左拖动滑块以增大或减小字体尺寸。或者，您可以在文本框内输入字号，也可以使用 <gui>-</gui> <gui>+</gui>按钮来减小和增大字号。</p>
+    </item>
+    <item>
+      <p>单击<gui style="button">选择</gui> 以保存您的字体设置。</p>
+    </item>
+  </steps>
+
+  <p>释义不会为打印而重排，所以如果您使用了较大的字号，部分文本可能会被截掉。</p>
+
+</page>

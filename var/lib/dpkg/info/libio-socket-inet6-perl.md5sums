@@ -1,0 +1,4 @@
+0517fd166b5278867ae5fee674d7e9b8  usr/share/doc/libio-socket-inet6-perl/changelog.Debian.gz
+f0eb0c2142bc9534440c89cb06185edb  usr/share/doc/libio-socket-inet6-perl/copyright
+5e84d9525ad5d4b1d225111cbd1cd2fe  usr/share/man/man3/IO::Socket::INET6.3pm.gz
+89bf9d50314fe7a502d6efb867bb141f  usr/share/perl5/IO/Socket/INET6.pm

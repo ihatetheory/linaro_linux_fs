@@ -1,0 +1,9 @@
+c0c0fccc7405ee6481536c3544ed40cb  usr/bin/broadwayd
+2c51c29fd06442c55fc33d628195ee0d  usr/bin/gtk-launch
+6a2ca9da3d9e2cbb106f36a54a782ac6  usr/sbin/update-icon-caches
+ef7d88464a428a619cb83d82bd26028f  usr/share/doc/libgtk-3-bin/copyright
+750f053e715d991f0904dafd4deaf426  usr/share/man/man1/broadwayd.1.gz
+d587793db70afb15d60ff95adcbb80f1  usr/share/man/man1/gtk-launch.1.gz
+3fe507f3ac9ffcc38f196ccba64adad0  usr/share/man/man1/gtk-query-immodules-3.0.1.gz
+b1ed84e8a5e7437fdb64830c49ad3ba3  usr/share/man/man1/gtk-update-icon-cache-3.0.1.gz
+7a8d5cc34c66f4b3cc0fe1a08067946c  usr/share/man/man8/update-icon-caches.8.gz

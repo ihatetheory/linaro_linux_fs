@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.freedesktop.Tracker1.Miner.Applications
+Exec=/usr/lib/tracker/tracker-miner-apps

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Find the definition of a word or term.</desc>
+
+  </info>
+
+  <title>Look up a word or term</title>
+
+  <p>You can use <app>Dictionary</app> to look up the meaning of a
+  <em>term</em>. A term can be a single word such as <input>apple</input> or a
+  compound word such as <input>chopping board</input>. The search result may
+  also show you the origin, importance and usage of a word. To look up a
+  term:</p>
+
+  <steps>
+    <item>
+      <p>Type in the term that you want to search for next to
+      <gui>Look up</gui>.</p>
+    </item>
+    <item>
+      <p>Press <key>Return</key> or <gui style="button">Look up:</gui> to
+      search.</p>
+    </item>
+  </steps>
+
+  <p><app>Dictionary</app> will search your selected dictionary source and
+  show you the result from the first dictionary in the source. To view results
+  from the other dictionaries that are in the same source, select
+  <link xref="similar-words"><guiseq><gui style="menu">View</gui>
+  <gui style="menuitem">Similar Words</gui></guiseq></link> to pop up a
+  sidebar that shows all the results.</p>
+
+</page>

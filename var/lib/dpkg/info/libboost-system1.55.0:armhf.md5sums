@@ -1,0 +1,4 @@
+aa45e2adb09b00bd12a104823aa8bb8b  usr/lib/arm-linux-gnueabihf/libboost_system.so.1.55.0
+26de7e129db4dcb010135641e894c3fd  usr/share/doc/libboost-system1.55.0/changelog.Debian.gz
+2f516f3e3c0736b25cc324033945e8ad  usr/share/doc/libboost-system1.55.0/copyright
+7e46c5281835413f9829be8642e7e5b3  usr/share/lintian/overrides/libboost-system1.55.0

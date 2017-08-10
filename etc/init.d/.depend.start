@@ -1,0 +1,17 @@
+TARGETS = rsyslog cgmanager killprocs apport spamassassin dbus cgproxy kerneloops single ssh cron anacron bluetooth avahi-daemon cups-browsed cups gdm rc.local ondemand
+INTERACTIVE =
+spamassassin: rsyslog
+dbus: rsyslog
+cgproxy: cgmanager
+kerneloops: rsyslog
+single: killprocs
+ssh: rsyslog
+cron: rsyslog
+anacron: rsyslog
+bluetooth: rsyslog dbus
+avahi-daemon: dbus rsyslog
+cups-browsed: rsyslog
+cups: rsyslog
+gdm: dbus
+rc.local: spamassassin rsyslog bluetooth dbus avahi-daemon cups-browsed cgproxy cgmanager kerneloops cups apport ssh cron anacron gdm
+ondemand: spamassassin rsyslog bluetooth dbus avahi-daemon cups-browsed cgproxy cgmanager kerneloops cups apport ssh cron anacron gdm

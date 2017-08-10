@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.12.0">
+<!ENTITY applet "Battery Charge Monitor">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="cs">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Příručka k appletu Sledování stavu baterie</title> 
+    <abstract role="description">
+      <para>Applet Sledování stavu baterie ukazuje stav nabití baterie a poskytne upozornění, pokud nabití klesne pod určitou úroveň.</para>
+    </abstract>
+    <copyright lang="en">
+      <year>2005</year>
+      <holder>Davyd Madeley</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2004</year>
+      <holder>Angela Boyle</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2004</year>
+      <holder>Sun Microsystems</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2002</year>
+      <holder>Trevor Curtis</holder>
+    </copyright>
+    <copyright lang="en"> 
+      <year>1999</year> 
+      <year>2000</year> 
+      <holder>Jorgen Pehrson</holder> 
+    </copyright>
+<!-- translators: uncomment this:
+
+    <copyright>
+     <year>2002</year>
+     <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+    </copyright>
+
+   -->
+
+    <publisher role="maintainer"> 
+      <publishername>Dokumentační projekt GNOME</publishername> 
+    </publisher> 
+  
+      <legalnotice id="legalnotice">
+	<para>Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License, verze 1.1 nebo jakékoli další verze vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu jménem <ulink type="help" url="help:fdl">GNU Free Documentation License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou.</para>
+         <para>Tato příručka je součástí kolekce příruček GNOME, distribuovaných pod licencí GNU FDL. Pokud chcete tento dokument šířit odděleně od kolekce, musíte přiložit kopii licence dle popisu v sekci 6 dané licence.</para>
+
+	<para>Mnoho užívaných jmen určených k zviditelnění produktů nebo služeb jsou ochranné známky. Na místech, kde jsou tato jména v dokumentaci užita a členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se jedná o ochrannou známku, je takové jméno psáno velkými písmeny celé nebo s velkým písmenem na začátku.</para>
+
+	<para lang="en">
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+	  UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+	  WITH THE FURTHER UNDERSTANDING THAT:
+
+	  <orderedlist>
+		<listitem>
+		  <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                    WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                    IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                    THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                    A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                    RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                    OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                    MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                    YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                    CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                    SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                    OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                    LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                    VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                    EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                       THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                       CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                       INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                       DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                       OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                       PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                       DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                       CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                       INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                       OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                       MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                       LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                       DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                       EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                       THE POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+
+
+<!-- This file  contains link to license for the documentation (GNU FDL), and 
+     other legal stuff such as "NO WARRANTY" statement. Please do not change 
+     any of this. -->
+
+    <authorgroup> 
+      <author lang="en">
+        <firstname>Sun</firstname>
+        <surname>GNOME Documentation Team</surname>
+        <affiliation><orgname>Sun Microsystems</orgname></affiliation>
+      </author>
+      <author lang="en">
+        <firstname>Trevor</firstname>
+        <surname>Curtis</surname>
+        <affiliation>
+          <orgname>GNOME Documentation Project</orgname>
+          <address> <email>tcurtis@somaradio.ca</email> </address>
+        </affiliation>
+      </author>
+      <author lang="en"> 
+        <firstname>Jorgen </firstname> 
+        <surname> Pehrson</surname> 
+        <affiliation> 
+          <orgname>GNOME Documentation Project</orgname> 
+          <address> <email>jp@spektr.eu.org</email> </address> 
+        </affiliation> 
+      </author> 
+      <author lang="en">
+	<firstname>Angela</firstname>
+	<surname>Boyle</surname>
+	<affiliation>
+	  <orgname>GNOME Documentation Project</orgname>
+	</affiliation>
+      </author>
+      <author lang="en">
+        <firstname>Davyd</firstname>
+	<surname>Madeley</surname>
+	<affiliation>
+	  <orgname>GNOME Project</orgname>
+	</affiliation>
+      </author>
+        <!-- This is appropriate place for other contributors: translators,
+             maintainers,  etc. Commented out by default.
+             <othercredit role="translator">
+	       <firstname>Latin</firstname> 
+	       <surname>Translator 1</surname> 
+	       <affiliation> 
+	         <orgname>Latin Translation Team</orgname> 
+	         <address> <email>translator@gnome.org</email> </address> 
+	       </affiliation>
+	       <contrib>Latin translation</contrib>
+             </othercredit>
+-->
+
+    </authorgroup>
+	
+	<releaseinfo revision="2.26" role="review"/>
+
+    <revhistory>
+      <revision lang="en">
+        <revnumber>Version 2.12</revnumber>
+	<date>September 2005</date>
+	<revdescription>
+	  <para role="author" lang="en">Davyd Madeley</para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+        <revnumber>Version 2.10</revnumber>
+	<date>March 2005</date>
+	<revdescription>
+	 <para role="author" lang="en">Davyd Madeley</para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+	<revnumber>Version 2.8</revnumber>
+	<date>September 2004</date>
+	<revdescription>
+	  <para role="author" lang="en">Angela Boyle</para>
+	  <para role="publisher" lang="en">GNOME Documentation Project</para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+        <revnumber>Battery Charge Monitor Applet Manual V2.2</revnumber>
+        <date>August 2004</date>
+        <revdescription>
+          <para role="author" lang="en">Sun GNOME Documentation Team</para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+      <revision lang="en">
+        <revnumber>Battery Charge Monitor Applet Manual V2.0</revnumber>
+        <date>May 2002</date>
+        <revdescription>
+          <para role="author" lang="en">Trevor Curtis
+            <email>tcurtis@somaradio.ca</email>
+          </para>
+          <para role="author" lang="en">Jorgen Pehrson
+            <email>jp@spektr.eu.org</email>
+          </para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+    </revhistory>
+                                                                                                  
+    <releaseinfo>Tato příručka popisuje applet Sledování stavu baterie ve verzi 2.12.0</releaseinfo>
+                                                                                                  
+    <legalnotice>
+      <title>Ohlasy</title>
+      <para> Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k appletu Sledování stavu baterie nebo této příručce, postupujte dle instrukcí na stránce <ulink url="ghelp:gnome-feedback" type="help">Stránka s ohlasy na GNOME</ulink>.</para>
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index" lang="en"> 
+	 <primary>Battery Charge Monitor Applet</primary> 
+  </indexterm> 
+
+  <indexterm zone="index" lang="en"> 
+	 <primary>Battstat Applet</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="battstat-introduction"> 
+    <title>Úvod</title> 
+
+    <figure id="battstat-applet-fig"> 
+      <title>Applet Sledování stavu baterie</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-applet.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>The Battery Charge Monitor applet.</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+
+    <para>Applet <application>Sledování stavu baterie</application> ukazuje stav baterií vašeho notebooku. Umí vám říci kolik kapacity zbývá a to jak graficky a v procentech, tak v podobě odhadu zbývajícího času při současné úrovni spotřeby.</para>
+
+    <sect2 id="battstat-introduction-add">
+      <title>Přidání Sledování stavu baterie na panel</title>
+      <para>Pokud chcete applet <application>Sledování stavu baterie</application> přidat na panel, klikněte na panelu pravým tlačítkem a zvolte <guimenuitem>Přidat na panel</guimenuitem>. V dialogovém okně <application>Přidat na panel</application> vyberte <application>Sledování stavu baterie</application> a klikněte na <guibutton>Přidat</guibutton>.</para>
+      <para>Vzhled appletu <application>Sledování stavu baterie</application> se liší v závislosti na velikosti a typu panelu, na kterém je umístěný.</para>
+    </sect2>
+
+    <sect2 id="battstat-power-backends">
+     <title>Podpůrná vrstva správy napájení</title>
+
+     <para>Applet Sledování stavu baterie umí spolupracovat s různými podpůrnými vrstvami správy napájení. Applet se pokusí použít, pokud je dostupné, rozhraní <ulink url="http://upower.freedesktop.org/">upower</ulink> od freedesktop.org. Pokud dostupné není, nebo není na vaší platformě podporováno, vrátí se k použití <ulink url="http://freedesktop.org/Software/hal">HAL – Hardware Abstraction Layer (abstraktní vrstva hardwaru)</ulink> od freedesktop.org. Pokud ani ta není dostupná, bude se aplet snažit o přímý přístup k systému správy napájení.</para>
+     <para>Ne všichni výrobci podporují všechny podpůrné vrstvy správy napájení a někteří výrobci přidávají své vlastní podpůrné vrstvy pro určité platformy a hardware. V případě, že applet Sledování stavu baterie nemůže získat informace o vaší baterii, zkuste si pročíst <xref linkend="battstat-troubleshooting"/>.</para>
+    </sect2>
+
+    <sect2 id="battstat-getting-help">
+      <title>Kde získat pomoc</title>
+      <para>Pokud applet Sledování stavu baterie nepracuje, jak má, můžete hledat radu na těchto místech:</para>
+      <itemizedlist>
+       <listitem><para><xref linkend="battstat-troubleshooting"/></para></listitem>
+       <listitem><para lang="en">
+        <ulink url="http://mail.gnome.org/archives/">GNOME mailing
+	lists</ulink>
+       </para></listitem>
+      </itemizedlist>
+    </sect2>
+
+</sect1>
+
+<!-- ================ Customizing the Appearance ========================= -->
+
+  <sect1 id="battstat-appearance">
+    <title>Předvolby</title>
+          <para>Pokud chcete změnit předvolby sledování, klikněte pravým tlačítkem na applet Sledování stavu baterie na panelu a zvolte <guimenuitem>Předvolby</guimenuitem>.</para>
+    <figure id="battstat-applet-prefs-menu"> 
+      <title>Kontextová nabídka Sledování stavu baterie, vyvolaná kliknutím pravým tlačítkem</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/context-menu.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Battery Charge Monitor context menu</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+    <figure id="battstat-applet-prefs"> 
+      <title>Dialogové okno s předvolbami</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-preferences.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Preferences Dialog</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+      <variablelist>
+        <varlistentry>
+          <term lang="en"><guilabel>Appearance</guilabel></term>
+	  <listitem>
+	  <variablelist>
+	    <varlistentry>
+	      <term lang="en"><guilabel>Compact view</guilabel></term>
+	      <listitem><para lang="en">
+	       This view shows only a single graphic in the panel, either an
+	       upright battery to indicate remaining capacity or a plug to
+	       indicate your laptop is connected to an external power source.
+    <figure id="battstat-applet-compact"> 
+      <title lang="en">Compact view</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-applet.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Compact View</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+              </para>
+	      <para>Kompaktní zobrazení je výchozí zobrazení pro Sledování stavu baterie od GNOME 2.12.</para></listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term lang="en"><guilabel>Expanded view</guilabel></term>
+	      <listitem><para lang="en">
+	       The expanded view is old look from previous versions of GNOME. It
+	       has the larger graphic for the battery as well as a separate
+	       graphic to indicate what state the battery is in.
+    <figure id="battstat-applet-expanded"> 
+      <title lang="en">Expanded view</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-applet-expanded.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Expanded View</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+	      </para></listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term lang="en"><guilabel>Show time/percentage</guilabel></term>
+	      <listitem><para>Tato volba způsobí zobrazení jedné ze dvou informací. <guilabel>Zobrazovat zbývající čas</guilabel> vám říká, kolik hodin a minut zbývá do plného nabití nebo vybytí baterie. <guilabel>Zobrazovat zbývající procenta</guilabel> ukazuje úroveň nabití v procentech.</para></listitem>
+	    </varlistentry>
+	  </variablelist>
+	  </listitem>
+        </varlistentry>
+	<varlistentry>
+	 <term lang="en"><guilabel>Notifications</guilabel></term>
+	  <listitem>
+	  <itemizedlist>
+	   <listitem><para lang="en"><guilabel>
+	    Warn when battery charge drops to
+	   </guilabel></para>
+	   <para>Pokud zapnete tuto volbu, objeví se varovný dialog pokaždé, když baterie vašeho notebooku dosáhne určité úrovně zadané buď v procentech zbývající kapacity nebo ve zbývajících minutách. Tím se dává najevo, že úroveň nabití baterie dosáhla kriticky nízké úrovně. Varování můžete ručně potvrdit nebo notebook připojit na napájení a varování zmizí automaticky.</para>
+	   </listitem>
+	   <listitem>
+	    <para lang="en"><guilabel>
+	     Notify when the battery is fully recharged
+	    </guilabel></para>
+	    <para>Pokud zapnete tuto volbu, bude se objevovat upozornění po plném dobití baterie. V případě, že je applet Sledování stavu baterie přeložený s podporou knihovnou libnotify, bude se u appletu na panelu zobrazovat oznamovací bublina, která nenaruší vaši práci.</para>
+	   </listitem>
+	  </itemizedlist>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+   </sect1>
+
+   <sect1 id="battstat-troubleshooting">
+    <title>Řešení problémů</title>
+    
+    <para>Kvůli komplikovanosti správy napájení a velkým rozdílům mezi různými dostupnými systémy správy napájení je hledání chyb v appletu Sledování stavu baterie obtížné. Pokud se vyskytne chyba, potřebujete určit, jestli vzniká v appletu nebo chybné informace poskytuje váš počítač.</para>
+    <para>Následující informace vám mohou pomoci při hledání příčin problémů se sledováním baterie. Rozhodně ale nejsou zcela vyčerpávající. V případě, že najdete v appletu Sledování stavbu baterie chybu (která není způsobená chybnými informacemi od systému ACPI), tak ji prosím <ulink url="http://bugzilla.gnome.org/">nahlaste</ulink>.</para>
+
+    <sect2 id="battstat-troubleshooting-backends">
+     <title>Určení podpůrné vrstvy</title>
+     <para lang="en">
+       If you are using the upower interface, or the Hardware
+       Abstraction Layer (see <xref linkend="battstat-power-backends"/>) then
+       that will be indicated in the about dialog by placing a star next to the
+       author of the HAL backend.
+    <figure id="battstat-credits-hal"> 
+      <title lang="en">Check you're using the HAL backend</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-credits-hal.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Expanded View</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+     </para>
+
+     <para>U ostatní podpůrných vrstev v současné době není nijak prezentováno, že se používají, takže musíte provést odhad podle vašeho hardware. Většina moderních notebooků kompatibilních s PC používá podpůrnou vrstvu ACPI. Což je zároveň podpůrná vrstva s největším počtem nekonzistentností.</para>
+    </sect2>
+
+    <sect2 id="battstat-troubleshooting-acpi">
+      <title>Kontrola informací z ACPI</title>
+      <para>V případě, že používáte pro applet Sledování stavu baterie podpůrnou vrstvu ACPI, je důležité zkontrolovat, zda ACPI poskytuje pravdivé informace. Pokud tomu tak není, musíte se podívat po aktualizaci vašeho DSDT nebo jiných věcí ze systému ACPI.</para>
+      <example><title>Příklad výstup z ACPI</title>
+       <screen>
+[franta@notebook ~]$ cat /proc/acpi/battery/BAT1/info
+present:                 yes
+design capacity:         41040 mWh
+last full capacity:      37044 mWh
+battery technology:      rechargeable
+design voltage:          10800 mV
+design capacity warning: 745 mWh
+design capacity low:     0 mWh
+capacity granularity 1:  10 mWh
+capacity granularity 2:  10 mWh
+model number:            G71C00056110
+serial number:           0000000008
+battery type:            Li-ION
+OEM info:
+[franta@notebook ~]$ cat /proc/acpi/battery/BAT1/state
+present:                 yes
+capacity state:          ok
+charging state:          discharging
+present rate:            11232 mW
+remaining capacity:      27140 mWh
+present voltage:         11400 mV
+[franta@notebook ~]$</screen>
+      </example>
+      <para>Zbývající kapacitu v procentech si můžete rychle vypočítat jako <guilabel>remaining capacity</guilabel> (zbývající kapacita) děleno <guilabel>last full capacity</guilabel> (poslední plná kapacita) a zbývající čas jako <guilabel>remaining capacity</guilabel> (zbývající kapacita) děleno <guilabel>present rate</guilabel> (současná spotřeba).</para>
+    </sect2>
+
+    <sect2 id="battstat-troubleshooting-nohal">
+      <title>Abstraktní vrstva hardwaru HAL</title>
+      <para>Můžete si zkontrolovat, jestli HAL detekuje vaši baterii, pomocí příkazu <command>hal-device-manager</command>. Pokud HAL baterii nedetekuje nebo podává nesprávné informace, můžete zkusit podpůrnou vrstvu HAL zakázat nastavením klíče GConf.</para>
+      <para>Zvolte <guimenuitem>Editor nastavení</guimenuitem> v nabídce <guimenu>Aplikace</guimenu> a v podnabídce <guisubmenu>Systémové nástroje</guisubmenu>. Najděte klíčovou hodnotu <prompt>OAFIID:GNOME_BattstatApplet</prompt>, která by se měla nacházet v <filename>/apps/panel/applets</filename>.</para>
+      <para>Předpokládejme cestu <filename>/apps/panel/applets/applet_1</filename>. V <filename>/apps/panel/applets/applet_1/prefs</filename> přidejte <guimenuitem>Nový klíč</guimenuitem> nazvaný <guilabel>no_hal</guilabel> a nastavte jej na pravdivostní hodnotu „true“. Tím se zakáže používání HAL (jak provést kontrolu popisuje <xref linkend="battstat-troubleshooting-backends"/>).</para>
+    </sect2>
+    
+   </sect1>
+
+</article>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Διαγραφή προέλευσης λεξικού</title>
+
+  <p>Αν δεν χρειαζόσαστε πια μια συγκεκριμένη <link xref="sources">πηγή λεξικού</link> ή αν κάποιο σταματά να δουλεύει για σας, ίσως θελήσετε να το διαγράψετε.</p>
+
+  <steps>
+    <title>Διαγραφή πηγής λεξικού:</title>
+    <item>
+      <p>Επιλέξτε <guiseq><gui style="menu"><app>Λεξικό</app></gui> <gui style="menuitem">Προτιμήσεις</gui> <gui style="tab">Πηγή</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε την πηγή λεξικού που θέλετε να διαγράψετε.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui style="button">Αφαίρεση</gui>.</p>
+    </item>
+    <item>
+      <p>Ένας διάλογος θα εμφανιστεί ζητώντας σας να επιβεβαιώσετε ότι επιθυμείτε να διαγράψετε μόνιμα την επιλεγμένη πηγή. Μόλις επιβεβαιώσετε, η πηγή θα διαγραφεί.</p>
+    </item>
+  </steps>
+
+</page>

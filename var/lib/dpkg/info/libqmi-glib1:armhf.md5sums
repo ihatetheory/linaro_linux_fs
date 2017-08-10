@@ -1,0 +1,4 @@
+af1fecb930b44c02ae4c49f2c934ab91  usr/lib/arm-linux-gnueabihf/libqmi-glib.so.1.2.0
+ace1e328beb1ce03edb7ebd569994912  usr/share/doc/libqmi-glib1/changelog.Debian.gz
+887a409ca8734113dcf944055930e168  usr/share/doc/libqmi-glib1/copyright
+e23c4b3e5fadd5628c83d1dfed23d9c1  usr/share/lintian/overrides/libqmi-glib1

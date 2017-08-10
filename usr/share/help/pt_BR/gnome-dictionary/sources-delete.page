@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Excluindo uma fonte de dicionário</title>
+
+  <p>Se você não precisa mais de uma <link xref="sources">fonte de dicionários</link> específica, se uma parar de funcionar, você pode querer exclui-la.</p>
+
+  <steps>
+    <title>Para excluir uma fonte de dicionário:</title>
+    <item>
+      <p>Selecione <guiseq><gui style="menu"><app>Dicionário</app></gui> <gui style="menuitem">Preferências</gui> <gui style="tab">Fonte</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Selecione a fonte de dicionário que você deseja excluir.</p>
+    </item>
+    <item>
+      <p>Pressione <gui style="button">Remover</gui>.</p>
+    </item>
+    <item>
+      <p>Um diálogo vai aparecer pedindo que você confirme que você gostaria de excluir permanentemente a fonte selecionada. Assim que você confirmar, a fonte vai ser excluída.</p>
+    </item>
+  </steps>
+
+</page>

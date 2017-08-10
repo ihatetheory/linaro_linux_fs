@@ -1,0 +1,13 @@
+f524c44106c7f3ba0eec913c3ebcf5eb  usr/lib/python3/dist-packages/pkg_resources/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/pkg_resources/_vendor/__init__.py
+051e09899ae7f47ec1c2c5214f9afd5a  usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/__about__.py
+476b7473a5a7490e1049ff98361cfec5  usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/__init__.py
+79a1b53ecfd83a1aa119306addd04a6a  usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/_compat.py
+446b7aee9878fc4b6695f9d2444adf69  usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/_structures.py
+92e906e053704aa24208097f7f903982  usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/specifiers.py
+d5724ad64fff90ddab03cd23643d688e  usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/pkg_resources/tests/__init__.py
+675daf361be2a7e21e1b159a467b487c  usr/lib/python3/dist-packages/pkg_resources/tests/test_pkg_resources.py
+54c794e29b1c67368310ed85a2065f04  usr/lib/python3/dist-packages/pkg_resources/tests/test_resources.py
+6e7d758bfd210b22e458f84b19075a05  usr/share/doc/python3-pkg-resources/changelog.Debian.gz
+330b9dde0b00b295f5c3f73815e255f2  usr/share/doc/python3-pkg-resources/copyright

@@ -1,0 +1,6 @@
+87a771634ab2d9085f323c401e90a75c  usr/lib/cups/filter/pdftoippprinter
+2285f804f37179cc05ac5f4daab64060  usr/lib/cups/filter/pdftopdf
+9c79bc31cc2ad1f1f9cc442e25c5b5e0  usr/lib/cups/filter/pdftops
+3234778e7d108488152e48532905dc47  usr/lib/cups/filter/pdftoraster
+8558e55f41be8619e321fc5c8c2d7109  usr/lib/cups/filter/rastertopclx
+cae1182abecc9fdff24d88de660b8017  usr/share/doc/cups-filters-core-drivers/copyright

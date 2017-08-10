@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.10">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "System Monitor">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="fr">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Moniteur système</title> 
+    <abstract role="description">
+      <para>Le Moniteur système affiche des informations sur la charge système de manière graphique dans un tableau de bord.</para>
+    </abstract>
+    <copyright lang="en">
+     <year>2005</year>
+     <holder>Davyd Madeley</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2004</year>
+      <holder>Sun Microsystems</holder>
+    </copyright>
+
+    <copyright lang="en"> 
+      <year>2003</year> 
+      <year>2004</year> 
+      <holder>Chee Bin HOH</holder> 
+    </copyright> 
+
+<!-- translators: uncomment this:
+    <copyright>
+    <year>2002</year>
+    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+    </copyright>
+-->
+
+    <publisher role="maintainer"> 
+      <publishername>Projet de documentation GNOME</publishername> 
+    </publisher> 
+
+      <legalnotice id="legalnotice">
+	<para>Permission vous est donnée de copier, distribuer et/ou modifier ce document selon les termes de la Licence GNU Free Documentation License, Version 1.1 ou ultérieure publiée par la Free Software Foundation sans section inaltérable, sans texte de première page de couverture ni texte de dernière page de couverture. Vous trouverez un exemplaire de cette licence en suivant ce <ulink type="help" url="help:fdl">lien</ulink> ou dans le fichier COPYING-DOCS fourni avec le présent manuel.</para>
+         <para>Ce manuel fait partie de la collection de manuels GNOME distribués selon les termes de la licence de documentation libre GNU. Si vous souhaitez distribuer ce manuel indépendamment de la collection, vous devez joindre un exemplaire de la licence au document, comme indiqué dans la section 6 de celle-ci.</para>
+
+	<para>La plupart des noms utilisés par les entreprises pour distinguer leurs produits et services sont des marques déposées. Lorsque ces noms apparaissent dans la documentation GNOME et que les membres du projet de Documentation GNOME sont informés de l'existence de ces marques déposées, soit ces noms entiers, soit leur première lettre est en majuscule.</para>
+
+	<para lang="en">
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+	  UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+	  WITH THE FURTHER UNDERSTANDING THAT:
+
+	  <orderedlist>
+		<listitem>
+		  <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                    WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                    IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                    THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                    A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                    RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                    OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                    MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                    YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                    CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                    SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                    OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                    LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                    VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                    EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                       THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                       CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                       INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                       DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                       OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                       PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                       DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                       CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                       INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                       OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                       MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                       LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                       DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                       EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                       THE POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+
+
+<!-- This file  contains link to license for the documentation (GNU FDL), and 
+     other legal stuff such as "NO WARRANTY" statement. Please do not change 
+     any of this. -->
+
+    <authorgroup> 
+
+      <author lang="en">
+        <firstname>Angela</firstname>
+        <surname>Boyle</surname>
+	<affiliation><address>
+	 <email>aboyle@aboyle.com</email>
+	</address></affiliation>
+      </author>
+
+      <author lang="en"> 
+	<firstname>Chee Bin</firstname> 
+	<surname>HOH</surname> 
+	<affiliation> 
+	  <orgname>GNOME Documentation Project</orgname> 
+	  <address><email>cbhoh@mimos.my</email></address>
+	</affiliation> 
+      </author>
+
+      <author lang="en">
+       <firstname>Davyd</firstname><surname>Madeley</surname>
+       <affiliation>
+        <orgname>GNOME Project</orgname>
+        <address><email>davyd@madeley.id.au</email></address>
+       </affiliation>
+      </author>
+
+      <!-- This is appropriate place for other contributors: translators,
+           maintainers,  etc. Commented out by default.
+      <othercredit role="translator">
+        <firstname>Latin</firstname> 
+        <surname>Translator 1</surname> 
+        <affiliation> 
+          <orgname>Latin Translation Team</orgname> 
+          <address> <email>translator@gnome.org</email> </address> 
+        </affiliation>
+        <contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+	
+	<releaseinfo revision="2.26" role="review"/>
+
+    <revhistory>
+      <revision lang="en">
+        <revnumber>Version 2.10</revnumber>
+	<date>March 2005</date>
+	<revdescription>
+	  <para role="author" lang="en">Davyd Madeley</para>
+	</revdescription>
+      </revision>
+    
+      <revision lang="en">
+	<revnumber>Version 2.8</revnumber> 
+	<date>August 2004</date> 
+	<revdescription> 
+          <para role="author" lang="en">Angela Boyle</para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+	</revdescription> 
+      </revision> 
+
+      <revision lang="en"> 
+	<revnumber>System Monitor Applet Manual V2.1</revnumber> 
+	<date>February 2004</date> 
+	<revdescription> 
+          <para role="author" lang="en">Sun GNOME Documentation Team</para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+	</revdescription> 
+      </revision> 
+
+      <revision lang="en"> 
+	<revnumber>System Monitor Applet Manual V2.0</revnumber> 
+	<date>July 2003</date> 
+	<revdescription> 
+	  <para role="author" lang="en">Chee Bin HOH
+	    <email>cbhoh@mimos.my</email>
+          </para> 
+	  <para role="publisher" lang="en">GNOME Documentation Project</para> 
+	</revdescription> 
+      </revision> 
+
+    </revhistory> 
+
+    <releaseinfo>Ce manuel documente la version 2.10 du Moniteur système.</releaseinfo> 
+    <legalnotice> 
+      <title>Votre avis</title> 
+      <para>Pour signaler une anomalie ou émettre une suggestion concernant l'applet Moniteur système ou ce manuel, procédez comme indiqué sur la <ulink url="ghelp:gnome-feedback" type="help">Page de réactions sur GNOME</ulink>.</para>
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index" lang="en"> 
+    <primary>System Monitor Applet</primary> 
+  </indexterm> 
+  <indexterm zone="index" lang="en"> 
+    <primary>System Monitor</primary> 
+  </indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="multiload-introduction"> 
+    <title>Introduction</title> 
+
+      <!-- ==== Figure ============================================= -->
+      <figure id="system-monitor-applet-fig"> 
+        <title>Moniteur système</title> 
+        <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/system-monitor-applet_window.png" format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Shows System Monitor. Displays a graph for system CPU load.
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+      <!-- ==== End of Figure ======================================= -->
+
+      <para>Le <application>Moniteur système</application> affiche des informations sur la charge système de manière graphique dans un tableau de bord. <application>Moniteur système</application> peut être configuré pour afficher les informations suivantes de votre système :</para>
+      <itemizedlist>
+        <listitem>
+          <para>Temps d'utilisation du processeur</para>
+        </listitem>
+        <listitem>
+          <para>Utilisation de la mémoire</para>
+        </listitem>
+        <listitem>
+          <para>Trafic réseau</para>
+        </listitem>
+        <listitem>
+          <para>Utilisation du fichier d'échange (swap)</para>
+        </listitem>
+        <listitem>
+          <para>Charge moyenne du système</para>
+        </listitem>
+	<listitem><para>Charge du disque</para></listitem>
+      </itemizedlist>
+
+      <sect2 id="multiload-introduction-add"> 
+        <title>Ajout du Moniteur système à un tableau de bord</title> 
+	<para>Pour ajouter <application>Moniteur système</application> à un tableau de bord, cliquez sur celui-ci avec le bouton droit, puis choisissez <guimenuitem>Ajouter au tableau de bord</guimenuitem>. Sélectionnez <application>Moniteur système</application> dans la boîte de dialogue <application>Ajouter au tableau de bord</application>, puis cliquez sur le bouton <guibutton>Ajouter</guibutton>.</para>
+        <para>L'agencement du <application>Moniteur système</application> varie en fonction de la taille et du type de tableau de bord dans lequel il se trouve.</para>     
+      </sect2>
+
+  </sect1>
+
+<!-- ================ Usage ================================ -->
+<!-- Use this section to describe how to use the applet to perform the tasks for 
+     which the applet is designed. -->
+  <sect1 id="multiload-usage"> 
+    <title>Vue des graphiques</title> 
+	<!-- ================ displaying addistional graphics======================== -->
+    <sect2 id="multiload-usage-graphs"> 
+      <title>Affichage de graphiques supplémentaires</title> 
+      <para>Pour configurer l'applet <application>Moniteur système</application>, cliquez dessus avec le bouton droit, puis choisissez <guimenuitem>Préférences</guimenuitem>. Dans la section <guilabel>Ressources surveillées</guilabel>, vous pouvez choisir quels graphiques afficher :</para>
+          <itemizedlist>
+            <listitem>
+              <para lang="en">
+                <guilabel>Processor</guilabel>
+              </para>
+              <para>Cochez cette option pour afficher le graphique représentant l'utilisation du processeur.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Memory</guilabel>
+              </para>
+              <para>Cochez cette option pour afficher le graphique représentant l'utilisation de la mémoire.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Network</guilabel>
+              </para>
+              <para>Cochez cette option pour afficher le graphique représentant le trafic réseau.</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Swap Space</guilabel>
+              </para>
+              <para>Cochez cette option pour afficher le graphique représentant l'utilisation du fichier d'échange (swap).</para>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Load</guilabel>
+              </para>
+              <para>Cochez cette option pour afficher le graphique représentant la charge moyenne du système.</para>
+            </listitem>
+	    <listitem>
+	     <para lang="en"><guilabel>Harddisk</guilabel></para>
+	     <para>Cochez cette option pour afficher le graphique représentant l'utilisation du disque dur.</para>
+	    </listitem>
+          </itemizedlist>
+    </sect2>
+	<!-- ================ displaying current usage of system resources================== -->
+    <sect2 id="multiload-usage-current"> 
+      <title>Affichage du niveau d'utilisation courant d'une ressource système</title> 
+      <para>Pour afficher le niveau d'utilisation courant d'une ressource système, placez le pointeur de la souris sur le graphique correspondant. Une bulle d'aide affiche un pourcentage représentant le niveau d'utilisation courant.</para>
+    </sect2>
+	<!-- ================ displaying additional info================== -->
+    <sect2 id="multiload-usage-extra"> 
+      <title>Affichage d'informations supplémentaires du Moniteur système</title>
+      <para>Pour afficher d'autres informations du système, cliquez sur l'applet avec le bouton droit de la souris, puis choisissez <guimenuitem>Ouvrir le moniteur système</guimenuitem> pour lancer l'application <application>Moniteur système</application>.</para>
+      <para>L'application <application>Moniteur système</application> permet de surveiller les processus du système et l'utilisation de ses ressources. Vous pouvez utiliser l'application <application>Moniteur système</application> pour modifier le comportement de votre système.</para>
+    </sect2>
+
+  </sect1>
+
+<!-- ============= Preferences =========================== -->
+  <sect1 id="multiload-prefs">
+    <title>Personnalisation de l'interface</title> 
+      <figure id="system-monitor-prefs-fig"> 
+        <title>Boîte de dialogue des préférences</title> 
+        <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/multiload-preferences.png" format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Preferences Dialog
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+    <sect2 id="multiload-size">
+        <title>Modification de la largeur</title>
+              <para>Depuis le menu contextuel de l'applet, sélectionnez <guimenuitem>Préférences</guimenuitem>. Dans la section <guilabel>Options</guilabel>, utilisez le champ de saisie <guilabel>Largeur du moniteur système</guilabel> pour spécifier la largeur en pixels de chaque graphique du <application>Moniteur système</application>.</para>
+  </sect2>
+  <sect2 id="multiload-update">
+        <title>Mise à jour à intervalles réguliers</title>
+              <para>Depuis le menu contextuel de l'applet, sélectionnez <guimenuitem>Préférences</guimenuitem>. Dans la section <guilabel>Options</guilabel>, utilisez le champ de saisie <guilabel>Fréquence de mise à jour du moniteur système</guilabel> pour spécifier l'intervalle de temps en millisecondes séparant chaque mise à jour des graphiques.</para>
+    </sect2>
+	<!-- ================ changing graph colors======================== -->
+    <sect2 id="multiload-usage-colors"> 
+      <title>Modification des couleurs d'un graphique</title>
+      <para>Pour modifier les couleurs d'un graphique, procédez comme suit :</para>
+      <orderedlist>
+        <listitem>
+          <para>Cliquez sur l'applet avec le bouton droit de la souris, puis choisissez <guimenuitem>Préférences</guimenuitem>.</para>
+        </listitem>
+        <listitem>
+          <para>Dans la section <guilabel>Couleurs</guilabel> de la boîte de dialogue <guilabel>Préférences de Moniteur système</guilabel>, sélectionnez l'onglet correspondant au graphique.</para>
+        </listitem>
+        <listitem>
+          <para>Dans l'onglet sélectionné, cliquez sur le bouton correspondant à la couleur que vous voulez modifier.</para>
+        </listitem>
+        <listitem>
+          <para>Dans la boîte de dialogue <guilabel>Choisissez une couleur</guilabel>, utilisez l'anneau de couleurs ou les champs de saisie pour déterminer la nouvelle couleur à utiliser pour l'élément sélectionné.</para>
+        </listitem>
+        <listitem>
+          <para>Cliquez sur le bouton <guibutton>Valider</guibutton>.</para>
+        </listitem>
+      </orderedlist>
+      <para>L'onglet de chaque ressource fournit des boutons de sélection de couleur que vous pouvez utiliser pour modifier la couleur des paramètres de chaque ressource.</para>
+          <itemizedlist>
+            <listitem>
+              <para lang="en">
+                <guilabel>Processor</guilabel>
+              </para>
+              <para>Cet onglet affiche les boutons de couleur des éléments suivants :</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Paramètre</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Signification</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>User</guilabel></para></entry>
+                      <entry><para>Temps processeur utilisé par des activités externes au noyau</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>System</guilabel></para></entry>
+                      <entry><para>Temps processeur utilisé par les activités du noyau</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Nice</guilabel></para></entry>
+                      <entry><para>Temps processeur utilisé par les processus à basse priorité</para></entry>
+                    </row>
+		    <row valign="top">
+		      <entry><para lang="en"><guilabel>IOWait</guilabel></para></entry>
+		      <entry>
+		       <para>Temps processeur utilisé à attendre les Entrées/Sorties</para>
+		      </entry>
+		    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Idle</guilabel></para></entry>
+                      <entry><para>Capacité du processeur inutilisée</para></entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Memory</guilabel>
+              </para>
+              <para>Cet onglet affiche les boutons de couleur des éléments suivants :</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Paramètre</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Signification</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>User</guilabel></para></entry>
+                      <entry><para>Mémoire utilisée par des activités externes au noyau</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Shared</guilabel></para></entry>
+                      <entry><para>Mémoire utilisée par plus d'une application</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Buffers</guilabel></para></entry>
+                      <entry><para>Mémoire utilisée pour stocker ou recevoir temporairement des données</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Cached</guilabel></para></entry>
+                      <entry><para>Mémoire utilisée pour stocker des données et y accéder rapidement</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Free</guilabel></para></entry>
+                      <entry><para>Mémoire inutilisée actuellement</para></entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Network</guilabel>
+              </para>
+              <para>Cet onglet affiche les boutons de couleur des éléments suivants :</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Paramètre</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Signification</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>SLIP</guilabel></para></entry>
+                      <entry><para>Communication réseau utilisant SLIP (Serial Line Internet Protocol)</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>PLIP</guilabel></para></entry>
+                      <entry><para>Communication réseau utilisant PLIP (Parallel Line Internet Protocol)</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Ethernet</guilabel></para></entry>
+                      <entry><para>Communication réseau sur Ethernet</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Other</guilabel></para></entry>
+                      <entry><para>Communication réseau utilisant un autre protocole que SLIP, PLIP ou Ethernet</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Background</guilabel></para></entry>
+                      <entry><para>Aucune communication réseau</para></entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Swap Space</guilabel>
+              </para>
+              <para>Cet onglet affiche les boutons de couleur des éléments suivants :</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Paramètre</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Signification</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+		     <entry><para lang="en"><guilabel>Used</guilabel></para></entry>
+		     <entry>
+		      <para>Fichier d'échange utilisé par le système</para>
+		     </entry>
+		    </row>
+		    <row valign="top">
+		     <entry><para lang="en"><guilabel>Free</guilabel></para></entry>
+		     <entry>
+		      <para>Fichier d'échange disponible à l'utilisation</para>
+		     </entry>
+		    </row>
+		  </tbody>
+		</tgroup>
+              </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Load</guilabel>
+              </para>
+              <para>Cet onglet affiche les boutons de couleur des éléments suivants :</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Paramètre</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Signification</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+		     <entry><para lang="en"><guilabel>Average</guilabel></para></entry>
+		     <entry><para>Charge système</para></entry>
+		    </row>
+		    <row valign="top">
+		     <entry><para lang="en"><guilabel>Background</guilabel></para></entry>
+		     <entry><para>Aucune charge</para></entry>
+		    </row>
+		  </tbody>
+		</tgroup>
+	      </informaltable>
+            </listitem>
+            <listitem>
+              <para lang="en">
+                <guilabel>Harddisk</guilabel>
+              </para>
+              <para>Cet onglet affiche les boutons de couleur des éléments suivants :</para>
+              <informaltable frame="all">
+                <tgroup cols="2" colsep="1" rowsep="1">
+                  <colspec colname="COLSPEC0" colwidth="50*"/>
+                  <colspec colname="COLSPEC1" colwidth="50*"/>
+                  <thead>
+                    <row valign="top">
+                      <entry colname="COLSPEC0">
+                        <para>Paramètre</para></entry>
+                      <entry colname="COLSPEC1">
+                        <para>Signification</para></entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Read</guilabel></para></entry>
+                      <entry><para>Taux de lecture disque</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Write</guilabel></para></entry>
+                      <entry><para>Taux d'écriture disque</para></entry>
+                    </row>
+                    <row valign="top">
+                      <entry><para lang="en"><guilabel>Background</guilabel></para></entry>
+                      <entry><para>Le disque est au repos</para></entry>
+                    </row>
+		  </tbody>
+		</tgroup>
+	      </informaltable>
+	    </listitem>
+          </itemizedlist>
+    </sect2>
+  </sect1>
+</article>

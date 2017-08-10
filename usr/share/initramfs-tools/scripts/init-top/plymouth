@@ -1,0 +1,21 @@
+#!/bin/sh
+
+OPTION=FRAMEBUFFER
+PREREQ="framebuffer console_setup brltty"
+
+prereqs()
+{
+        echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+        prereqs
+        exit 0
+        ;;
+esac
+
+printf '\033[?25l' > /dev/tty7
+mkdir /run/plymouth
+/sbin/plymouthd --mode=boot --attach-to-session --pid-file=/run/plymouth/pid
+/bin/plymouth show-splash

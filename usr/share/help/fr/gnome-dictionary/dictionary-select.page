@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="dictionary-select" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.comm</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sélection d'un dictionnaire différent</title>
+
+  <p>Une seule <link xref="sources">source de dictionnaire</link> peut contenir plusieurs dictionnaires. Vous pouvez chercher dans celui que vous voulez.</p>
+
+  <steps>
+    <title>Sélection d'un dictionnaire</title>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu">Affichage</gui> <gui style="menuitem">Bases de données disponibles</gui></guiseq>. Une barre latérale liste les dictionnaires disponibles par rapport à la source de dictionnaires actuellement choisie s'affichera.</p>
+    </item>
+    <item>
+      <p>Double-cliquez sur le dictionnaire que vous souhaitez utiliser.</p>
+    </item>
+  </steps>
+
+  <p>Le mot suivant que vous <link xref="definition">recherchez</link> affiche le résultat uniquement à partir du dictionnaire sélectionné.</p>
+
+  <note>
+    <p>Le choix du dictionnaire ne sera pas mémorisé la prochaine fois que vous utiliserez <app>Dictionnaire</app>.</p>
+  </note>
+
+</page>

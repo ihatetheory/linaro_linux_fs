@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.gnome-applets.window-picker-applet">
+        <key type="b" name="show-all-windows">
+            <default>true</default>
+            <summary>Show windows from all workspaces.</summary>
+        </key>
+        <key type="b" name="show-home-title">
+            <default>false</default>
+            <summary>Show the home title and logout button in the window title if no window is selected and active (maximized)</summary>
+        </key>
+        <key type="b" name="show-application-title">
+            <default>false</default>
+            <summary>Show the application title when an application is active and maximized</summary>
+        </key>
+        <key type="b" name="icons-greyscale">
+            <default>false</default>
+            <summary>All icons except the current active window icon are greyed out.
+            Disable to have colored icons for all windows</summary>
+        </key>
+        <key type="b" name="expand-task-list">
+            <default>false</default>
+            <summary>Whether the task list will expand automatically and use all available space.</summary>
+        </key>
+    </schema>
+</schemalist>

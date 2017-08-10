@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="save-definition" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Eine Kopie einer Definition in eine Textdatei speichern.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eine Definition speichern</title>
+
+  <p>Sie können eine Definition in eine Textdatei abspeichern. Dies kann praktisch sein, wenn Sie diese außerhalb von <app> Wörterbuch </app> nutzen möchten.</p>
+
+  <steps>
+    <title>Um eine Definition zu speichern:</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Datei</gui> <gui style="menuitem">Eine Kopie speichern</gui></guiseq> aus.</p>
+    </item>
+    <item>
+      <p>Wählen Sie den Speicherort und einen Namen für die Datei. Sie möchten womöglich die <file>.txt</file> Dateiendung hinzufügen.</p>
+    </item>
+    <item>
+      <p>Drücken Sie <gui style="button">Speichern</gui>, um die Definition abzuspeichern.</p>
+    </item>
+  </steps>
+
+</page>

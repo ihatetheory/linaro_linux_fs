@@ -1,0 +1,41 @@
+* Missing features in GtkHTML the renderer
+------------------------------------------
+
+- Cursor keys do not work with the scrollbars.
+
+- Numbered lists are not implemented.
+
+- The HTML non-editing component is not finished.
+
+- Table captions are not supported.
+
+* Missing features in GtkHTML the editor
+----------------------------------------
+
+- We need hooks to edit links.
+
+- We need a command to turn a whole region into a link.
+
+- Keybindings should be somewhat configurable.
+
+- The horizontal size of the document is not updated correctly if the
+  minimum size of the current edited line becomes larger than it.
+
+- File names entered in text fields through GTK GUI come to us as
+  UTF-8. They should be converted to the locale file name encoding
+  (see g_get_filename_charsets()) using g_filename_from_utf8() before
+  attempting to open the file. As to what encoding to use in the URIs
+  in HTML, there are two choices, either use UTF-8 or the locale file
+  name encoding. Maybe it should be an option? Most modern Linux
+  distributions presumably use UTF-8 if freshly installed, but there
+  are loads of sites where legacy charsets like ISO-8859-1 still are
+  used. (Note that on Windows, GLib provides an UTF-8 API, including
+  the gstdio wrappers, even though the C library uses system codepage
+  for file names (or UTF-16, if you use the wchar_t versions.)
+
+- If editing an HTML file loaded (or already saved at least once) where
+  we thus know its location in the file system, pathnames for images,
+  background pixmaps, and links that point to files in the same file
+  system subtree should be automatically converted to relative URIs
+  instead of full absolute path file: URIs. That would be much more
+  useful.

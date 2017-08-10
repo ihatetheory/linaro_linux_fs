@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="ru">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Select the font for printing definitions.</desc>
+
+  </info>
+
+  <title>Print font</title>
+
+  <p>You can change the default font face and size that are used for printing
+  the definitions.</p>
+
+  <steps>
+    <title>Change the font</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">Dictionary</gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Print</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Click font selector button.</p>
+    </item>
+    <item>
+      <p>Select the font that you wish to use.</p>
+    </item>
+    <item>
+      <p>Drag the slider to the right to increase the font size or left to
+      decrease it. Alternatively, you can type in the font size in the text box,
+      or use the <gui>-</gui> and <gui>+</gui> buttons to decrease and increase
+      the font size.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Select</gui> to save your font settings.</p>
+    </item>
+  </steps>
+
+  <p>The definition is not reflowed for printing, so if you choose a large font
+  size, some of the text may be cut off.</p>
+
+</page>

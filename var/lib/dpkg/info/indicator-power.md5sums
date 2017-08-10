@@ -1,0 +1,8 @@
+fcdede279c5a3100850cde6259a2664c  usr/lib/arm-linux-gnueabihf/indicator-power/indicator-power-service
+41b71c3623a889eeb186788e7abb9584  usr/share/apport/package-hooks/source_indicator-power.py
+3d087a4b32caa5fb856bd175f9059707  usr/share/doc/indicator-power/changelog.Debian.gz
+4851f094838f4278f27ac9eeed3fa9d1  usr/share/doc/indicator-power/copyright
+23d3fc578c96fb485131f55ea10a67b8  usr/share/glib-2.0/schemas/com.canonical.indicator.power.gschema.xml
+b955c5fc410ef7e9e0511995d7f6337f  usr/share/unity/indicators/com.canonical.indicator.power
+05854c1368dcc6ce65c47746c72fe30c  usr/share/upstart/sessions/indicator-power.conf
+5720370c558605cd9a2adeffcbee12c0  usr/share/upstart/xdg/autostart/indicator-power.desktop

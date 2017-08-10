@@ -1,0 +1,4 @@
+5e2216ca5cd0a3a8830c13444bf8fda3  usr/lib/NetworkManager/nm-pptp-auth-dialog
+e3f6db9c2bacfae121ae329549a79b45  usr/lib/arm-linux-gnueabihf/NetworkManager/libnm-pptp-properties.so
+0d11e3806e64dcf17bff7290a1e2f3a0  usr/share/doc/network-manager-pptp-gnome/copyright
+ce52e7714d48822a82f8257ff6dd7ed6  usr/share/gnome-vpn-properties/pptp/nm-pptp-dialog.ui

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Default Background</name>
+    <name xml:lang="an">Fondo predeterminau</name>
+    <name xml:lang="as">অবিকল্পিত পটভূমি</name>
+    <name xml:lang="bg">Стандартни фонове</name>
+    <name xml:lang="bs">Podrazumijevana pozadina radne površine</name>
+    <name xml:lang="ca">Fons d'escriptori per defecte</name>
+    <name xml:lang="ca@valencia">Fons d'escriptori per defecte</name>
+    <name xml:lang="cs">výchozí pozadí</name>
+    <name xml:lang="da">Standardbaggrund</name>
+    <name xml:lang="de">Standard-Hintergrund</name>
+    <name xml:lang="el">Προεπιλεγμένο παρασκήνιο</name>
+    <name xml:lang="es">Fondo predeterminado</name>
+    <name xml:lang="eu">Atzeko plano lehenetsia</name>
+    <name xml:lang="fi">Oletustaustakuva</name>
+    <name xml:lang="fr">Arrière-plan par défaut</name>
+    <name xml:lang="gl">Fondo de escritorio predeterminado</name>
+    <name xml:lang="gu">મૂળભૂત પાશ્ર્વભાગ</name>
+    <name xml:lang="he">רקע בררת מחדל</name>
+    <name xml:lang="hi">तयशुदा पृष्ठभूमि</name>
+    <name xml:lang="hu">Alapértelmezett háttér</name>
+    <name xml:lang="id">Latar Belakang Baku</name>
+    <name xml:lang="it">Sfondo predefinito</name>
+    <name xml:lang="kn">ಪೂರ್ವನಿಯೋಜಿತ ಹಿನ್ನೆಲೆ</name>
+    <name xml:lang="ko">기본 배경 화면</name>
+    <name xml:lang="lt">Numatytasis fonas</name>
+    <name xml:lang="lv">Noklusējuma fons</name>
+    <name xml:lang="mr">पूर्वनिर्धारित पार्श्वभूमी</name>
+    <name xml:lang="nb">Forvalgt bakgrunn</name>
+    <name xml:lang="ne">पूर्वनिर्धारित पृष्ठभूमि</name>
+    <name xml:lang="or">ପୂର୍ବନିର୍ଦ୍ଧାରିତ ପୃଷ୍ଠଭୂମି</name>
+    <name xml:lang="pa">ਮੂਲ ਬੈਕਗਰਾਊਂਡ</name>
+    <name xml:lang="pl">Domyślne tło</name>
+    <name xml:lang="pt">Fundo predefinido</name>
+    <name xml:lang="pt_BR">Fundo de tela padrão</name>
+    <name xml:lang="ru">Стандартный фон</name>
+    <name xml:lang="sk">Predvolené pozadie</name>
+    <name xml:lang="sl">Privzeto ozadje</name>
+    <name xml:lang="sr">Основна позадина</name>
+    <name xml:lang="sr@latin">Osnovna pozadina</name>
+    <name xml:lang="sv">Standardbakgrund</name>
+    <name xml:lang="ta">முன்னிருப்பு பின்னணி</name>
+    <name xml:lang="te">అప్రమేయ బ్యాక్‌గ్రౌండ్</name>
+    <name xml:lang="tr">Öntanımlı Arka Plan</name>
+    <name xml:lang="uk">Типове тло</name>
+    <name xml:lang="vi">Nền mặc định</name>
+    <name xml:lang="zh_HK">預設背景</name>
+    <name xml:lang="zh_TW">預設背景</name>
+    <filename>/usr/share/backgrounds/gnome/adwaita-timed.xml</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3465a4</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>

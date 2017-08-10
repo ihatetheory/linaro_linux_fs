@@ -1,0 +1,11 @@
+7f03e488e91101e882f7dde255ddf59b  usr/lib/arm-linux-gnueabihf/libQtGui.so.4.8.6
+6913e9d3719dcb95de37b6500d8026be  usr/lib/arm-linux-gnueabihf/qt4/plugins/accessible/libqtaccessiblewidgets.so
+352f1b5fbed7c8b1aab96b475e520e09  usr/lib/arm-linux-gnueabihf/qt4/plugins/graphicssystems/libqtracegraphicssystem.so
+783960c3bdd2ed97467259c20f5aa998  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqgif.so
+0e73821ae39b7ed70c923a913d84bff0  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqico.so
+2508b9f7646899130949f742c857dd38  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqjpeg.so
+01afbc1c5319158a944881836da36e31  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqmng.so
+883c35a6d5b1722ff280587c5d47f9ec  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqtga.so
+427772208301ccb9bf3d7a20a9a9b395  usr/lib/arm-linux-gnueabihf/qt4/plugins/imageformats/libqtiff.so
+0b353cfbc9850c756a77a02c09580914  usr/lib/arm-linux-gnueabihf/qt4/plugins/inputmethods/libqimsw-multi.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqtgui4/copyright

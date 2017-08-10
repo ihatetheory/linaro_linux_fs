@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcanberra-0.30
+/usr/lib/arm-linux-gnueabihf/libcanberra-0.30/libcanberra-pulse.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcanberra-pulse
+/usr/share/doc/libcanberra-pulse/copyright
+/usr/share/doc/libcanberra-pulse/README.gz
+/usr/share/doc/libcanberra-pulse/changelog.Debian.gz

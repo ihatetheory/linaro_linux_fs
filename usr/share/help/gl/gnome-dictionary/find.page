@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Buscar texto na definición.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Buscar dentro dunha definición</title>
+
+  <p>Algunhas entradas de dicionario poden ser moi longas e conter varios resultados polo que pode que queira buscalas para atopar a sección que sexa relevante para vostede.</p>
+
+  <steps>
+    <title>Para buscar nas definicións:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Editar</gui> <gui style="menuitem">Buscar</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>A barra <gui>Buscar</gui> aparecerá na parte inferior da xanela de <app>Dicionario</app>. Escriba o seu termo de busca para buscar dentro da definición que está mostrándose actualmente.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">Anterior</gui> ou <gui style="button">Seguinte</gui> para desprazarse polos resultados. A busca non voltará ao inicio: noutras palabras non se voltará á parte de arriba da páxina cando estea no último resultado e preme <gui style="button">Seguinte</gui>.</p>
+    </item>
+  </steps>
+
+</page>

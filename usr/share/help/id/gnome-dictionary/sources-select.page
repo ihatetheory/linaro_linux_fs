@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-select" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="sources-default"/>
+    <link type="seealso" xref="dictionary-select"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pilih suatu sumber kamus</title>
+
+  <p>Anda dapat mengubah <link xref="sources">sumber kamus</link> yang sedang Anda pakai tanpa mengubah preferensi baku Anda.</p>
+
+  <steps>
+    <title>Mengubah sementara sumber kamus:</title>
+    <item>
+      <p>Pilih <guiseq><gui style="menu">Tilikan</gui> <gui style="menuitem">Sumber Kamus</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Klik ganda pada sumber kamus yang ingin Anda pakai.</p>
+    </item>
+  </steps>
+
+</page>

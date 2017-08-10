@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Επεξεργασία πηγής λεξικού</title>
+
+  <p>Μπορείτε να προσαρμόσετε μια <link xref="sources">πηγή λεξικού</link> για να ενημερώσετε λεπτομέρειες όπως την περιγραφή του ή την απομακρυσμένη διεύθυνση.</p>
+
+  <steps>
+    <title>Για επεξεργασία πηγής λεξικού:</title>
+    <item>
+      <p>Επιλέξτε <guiseq><gui style="menu">Λεξικό</gui> <gui style="menuitem">Προτιμήσεις</gui> <gui style="tab">Πηγή</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Διπλοπατήστε στην πηγή λεξικού που θέλετε να επεξεργαστείτε.</p>
+    </item>
+    <item>
+      <p>Μπορείτε να επεξεργαστείτε τα παρακάτω πεδία:</p>
+      <list>
+        <item>
+          <p><gui>Περιγραφή</gui> είναι το όνομα της πηγής όπως θα εμφανιστεί σε σας.</p>
+        </item>
+        <item>
+          <p><gui>Μεταφορά</gui> είναι ο τύπος του εξυπηρετητή.</p>
+        </item>
+        <item>
+          <p><gui>Οικοδεσπότης</gui> είναι η τοποθεσία της πηγής λεξικού.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Θύρα</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Προβάλετε τα λεξικά που είναι διαθέσιμα στην πηγή του λεξικού επιλέγοντας την καρτέλα <gui style="tab">Λεξικά</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui style="button">Κλείσιμο</gui> για να αποθηκεύσετε τις ρυθμίσεις.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcloog-isl4
+/usr/share/doc/libcloog-isl4/changelog.Debian.gz
+/usr/share/doc/libcloog-isl4/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcloog-isl.so.4.0.0
+/usr/lib/arm-linux-gnueabihf/libcloog-isl.so.4

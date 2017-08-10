@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Lihat hasil terkait di kamus lain.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kata serupa</title>
+
+  <p><app>Kamus</app> hanya akan menampilkan definisi dari salah satu kamus Anda. Untuk memeriksa apakah ada hasil pencarian di kamus lain:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Cari</link> butir yang diinginkan.</p>
+    </item>
+    <item>
+      <p>Bila bilah sisi belum nampak, pilih <guiseq><gui style="menu">Tilikan</gui> <gui style="menuitem">Kata Serupa</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Bilah sisi <gui>Kata Serupa</gui> akan menampilkan hasil pencarian dari kamus lain dalam sumber kamus yang dipilih. Untuk melihat kata yang serupa, klik ganda pada entri.</p>
+    </item>
+  </steps>
+
+</page>

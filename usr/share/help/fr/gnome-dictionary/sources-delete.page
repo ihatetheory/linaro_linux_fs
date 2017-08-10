@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Suppression d'une source de dictionnaires</title>
+
+  <p>Si vous n'avez plus besoin d'une <link xref="sources">source de dictionnaires</link> spécifique ou si celle-ci a arrêté de fonctionner, vous pouvez la supprimer.</p>
+
+  <steps>
+    <title>Supprimer une source de dictionnaires :</title>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu"><app>Dictionnaire</app></gui> <gui style="menuitem">Préférences</gui> <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez la source de dictionnaires à supprimer.</p>
+    </item>
+    <item>
+      <p>Appuyez sur <gui style="button">Enlever</gui>.</p>
+    </item>
+    <item>
+      <p>Une boîte de dialogue apparaîtra vous demandant de confirmer que vous souhaitez supprimer définitivement la source sélectionnée. Une fois confirmé, la source de dictionnaires sera supprimée.</p>
+    </item>
+  </steps>
+
+</page>

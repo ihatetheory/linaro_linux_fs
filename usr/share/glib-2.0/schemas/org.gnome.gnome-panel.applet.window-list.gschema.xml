@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-panel-3.0">
+  <enum id="org.gnome.gnome-panel.applet.window-list.grouping">
+    <value value='0' nick='never-group'/>
+    <value value='1' nick='auto-group'/>
+    <value value='2' nick='always-group'/>
+  </enum>
+
+  <schema id="org.gnome.gnome-panel.applet.window-list">
+    <key type="b" name="display-all-workspaces">
+      <default>false</default>
+      <summary>Show windows from all workspaces</summary>
+      <description>If true, the window list will show windows from all workspaces. Otherwise it will only display windows from the current workspace.</description>
+    </key>
+    <key name="group-windows" enum="org.gnome.gnome-panel.applet.window-list.grouping">
+      <default>'never-group'</default>
+      <summary>When to group windows</summary>
+      <description>Decides when to group windows from the same application on the window list. Possible values are "never", "auto" and "always".</description>
+    </key>
+    <key type="b" name="move-unminimized-windows">
+      <default>true</default>
+      <summary>Move windows to current workspace when unminimized</summary>
+      <description>If true, then when unminimizing a window, move it to the current workspace. Otherwise, switch to the workspace of the window.</description>
+    </key>
+  </schema>
+</schemalist>

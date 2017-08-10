@@ -1,0 +1,4 @@
+96c35d87e0aa709ba0fb14baa83d24cc  usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5.4.1
+60a78d1377935ac9126e3ef50c89b8d8  usr/lib/arm-linux-gnueabihf/qt5/plugins/qmltooling/libqmldbg_qtquick2.so
+64e7925289ac9256b688fdbacde0dfa6  usr/share/doc/libqt5quick5/copyright
+11c55b12d5f2eed4763d6c0d9d5b2bf7  usr/share/lintian/overrides/libqt5quick5

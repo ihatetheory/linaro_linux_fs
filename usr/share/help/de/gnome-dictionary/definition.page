@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Die Bedeutung eines Wortes oder eines Begriff finden.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ein Wort oder einen Begriff nachschlagen</title>
+
+  <p>Sie können das <app>Wörterbuch</app> nutzen, um die Bedeutung von <em>Begriffen</em> nachzuschlagen Ein Begriff kann ein einzelnes Wort wie <input>Apfel</input> oder ein zusammengesetzes Wort wie <input>Küchenbrett</input> sein. Das Suchergebnis zeigt Ihnen auch die Quelle, Wichtigkeit und die Nutzung eines Wortes an. Um einen Begriff zu suchen:</p>
+
+  <steps>
+    <item>
+      <p>Tippen Sie einen Begriff, den Sie suchen, neben <gui>Suchen</gui>.</p>
+    </item>
+    <item>
+      <p>Drücken Sie die <key>Eingabetaste</key> oder <gui style="bottom">Nachschlagen:</gui>, um die Suche zu starten.</p>
+    </item>
+  </steps>
+
+  <p>Das <app>Wörterbuch</app> wird in den gewählten Wörterbuchquellen suchen und Ihnen das Ergebnis aus dem ersten Wörterbuch in der Quelle anzeigen. Um die Ergebnisse aus anderen Wörterbüchern zu zeigen, die aus der selben Quelle stammen, anzuschauen, wählen Sie <link xref="similar-words"><guiseq><gui style="menu">Ansicht</gui> <gui style="menuitem">Ähnliche Wörter</gui></guiseq></link>, um diese anzuzeigen.</p>
+
+</page>

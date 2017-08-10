@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+	<id>evolution-spamassassin</id>
+	<extends>evolution.desktop</extends>
+	<name>SpamAssassin</name>
+	<name xml:lang="an">SpamAssassin</name>
+	<name xml:lang="ar">قاتل السخام</name>
+	<name xml:lang="as">SpamAssassin</name>
+	<name xml:lang="ast">SpamAssassin</name>
+	<name xml:lang="be">SpamAssassin</name>
+	<name xml:lang="bg">SpamAssassin</name>
+	<name xml:lang="ca">SpamAssassin</name>
+	<name xml:lang="ca@valencia">SpamAssaren</name>
+	<name xml:lang="cs">SpamAssassin</name>
+	<name xml:lang="da">SpamAssassin</name>
+	<name xml:lang="de">SpamAssassin</name>
+	<name xml:lang="el">SpamAssassin</name>
+	<name xml:lang="en_GB">SpamAssassin</name>
+	<name xml:lang="es">SpamAssassin</name>
+	<name xml:lang="et">SpamAssassin</name>
+	<name xml:lang="eu">SpamAssassin</name>
+	<name xml:lang="fi">SpamAssassin</name>
+	<name xml:lang="fr">SpamAssassin</name>
+	<name xml:lang="ga">SpamAssassin</name>
+	<name xml:lang="gl">SpamAssassin</name>
+	<name xml:lang="gu">SpamAssassin</name>
+	<name xml:lang="hi">SpamAssassin</name>
+	<name xml:lang="hu">SpamAssassin</name>
+	<name xml:lang="id">SpamAssassin</name>
+	<name xml:lang="it">SpamAssassin</name>
+	<name xml:lang="ja">SpamAssassin</name>
+	<name xml:lang="kn">ಸ್ಪ್ಯಾಮ್‌ಅಸಾಸಿನ್</name>
+	<name xml:lang="ko">스팸어새신</name>
+	<name xml:lang="lt">SpamAssassin</name>
+	<name xml:lang="lv">SpamAssassin</name>
+	<name xml:lang="mk">SpamAssassin</name>
+	<name xml:lang="ml">സ്പാംഅസാസിന്‍</name>
+	<name xml:lang="mr">SpamAssassin</name>
+	<name xml:lang="nb">SpamAssassin</name>
+	<name xml:lang="nl">SpamAssassin</name>
+	<name xml:lang="or">SpamAssassin</name>
+	<name xml:lang="pa">SpamAssassin</name>
+	<name xml:lang="pl">SpamAssassin</name>
+	<name xml:lang="pt">SpamAssassin</name>
+	<name xml:lang="pt_BR">SpamAssassin</name>
+	<name xml:lang="ro">SpamAssasin</name>
+	<name xml:lang="ru">SpamAssassin</name>
+	<name xml:lang="sk">SpamAssassin</name>
+	<name xml:lang="sl">SpamAssassin</name>
+	<name xml:lang="sr">Убица спама</name>
+	<name xml:lang="sr@latin">Ubica spama</name>
+	<name xml:lang="sv">SpamAssassin</name>
+	<name xml:lang="ta">ஸ்பாம் அஸாஸின்</name>
+	<name xml:lang="te">SpamAssassin</name>
+	<name xml:lang="th">SpamAssassin</name>
+	<name xml:lang="tr">SpamAssassin</name>
+	<name xml:lang="ug">SpamAssassin</name>
+	<name xml:lang="uk">SpamAssassin</name>
+	<name xml:lang="vi">SpamAssassin</name>
+	<name xml:lang="zh_CN">SpamAssassin</name>
+	<name xml:lang="zh_HK">SpamAssassin</name>
+	<name xml:lang="zh_TW">SpamAssassin</name>
+	<summary>Junk filter using SpamAssassin</summary>
+	<summary xml:lang="as">SpamAssassin ব্যৱহাৰ কৰি আবৰ্জনাৰ ফিল্টাৰ</summary>
+	<summary xml:lang="bg">Програма за защита от спам чрез SpamAssasin</summary>
+	<summary xml:lang="cs">Filtr nevyžádané pošty používá SpamAssassin</summary>
+	<summary xml:lang="de">Filter für unerwünschte Nachrichten, der den SpamAssassin-Filter verwendet</summary>
+	<summary xml:lang="el">Φιλτράρισμα ανεπιθύμητων με SpamAssassin</summary>
+	<summary xml:lang="es">Filtro de spam usando SpamAssassin</summary>
+	<summary xml:lang="fr">Filtre les pourriels avec SpamAssassin</summary>
+	<summary xml:lang="gl">Filtra os correos non desexados usando SpamAssassin.</summary>
+	<summary xml:lang="gu"> SpamAssassin મદદથી નકામુ ફિલ્ટર</summary>
+	<summary xml:lang="hu">Levélszemétszűrő szoftver SpamAssassin használatával</summary>
+	<summary xml:lang="id">Penyaring sampah memakai SpamAssassin</summary>
+	<summary xml:lang="it">Filtra indesiderata usando SpamAssassin</summary>
+	<summary xml:lang="kn">ಸ್ಪ್ಯಾಮ್‌ಅಸಾಸಿನ್ ಬಳಸಿಕೊಂಡು ರದ್ದಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡು</summary>
+	<summary xml:lang="lt">Šlamšto filtravimas naudojant SpamAssassin</summary>
+	<summary xml:lang="lv">Mēstuļu filtrēšanas, izmantojot SpamAssassin</summary>
+	<summary xml:lang="nb">Søppelfilter som bruker SpamAssassin</summary>
+	<summary xml:lang="pl">Filtrowanie niechcianych wiadomości używając SpamAssassin</summary>
+	<summary xml:lang="pt">Filtrar lixo usando SpamAssassin</summary>
+	<summary xml:lang="pt_BR">Filtro de lixo usando SpamAssassin</summary>
+	<summary xml:lang="sl">Filter za vsiljeno pošto SpamAssassin</summary>
+	<summary xml:lang="sr">Пропусник непожељне користећи Убицу спама</summary>
+	<summary xml:lang="sr@latin">Propusnik nepoželjne koristeći Ubicu spama</summary>
+	<url type="homepage">https://live.gnome.org/Apps/Evolution</url>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LGPL</project_license>
+	<updatecontact>evolution-hackers_at_gnome.org</updatecontact>
+</component>

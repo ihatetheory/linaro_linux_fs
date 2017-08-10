@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.2.2">
+<!ENTITY manrevision "2.5">
+<!ENTITY date "June 2010">
+<!ENTITY app "GStreamer Properties">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+  
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="da">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Manual til GStreamer-egenskaber version 2.5</title>       
+
+    <copyright>
+      <year>2003</year> 
+      <holder>Christian Fredrik Kalager Schaller</holder> 
+    </copyright><copyright><year>2010</year><holder>Anders Jenbo (anders@jenbo.dk)</holder></copyright><copyright><year>2010</year><holder>Joe Dalton (joedalton2@yahoo.dk)</holder></copyright> 
+
+    <abstract role="description">
+      <para>GStreamer-egenskaber lader dig konfigurere indstillinger i forbindelse med hardware og multimedia</para>
+    </abstract>
+
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+    <publisher> 
+      <publishername>Dokumentationsprojekt for GNOME</publishername> 
+    </publisher> 
+
+     <legalnotice id="legalnotice">
+	<para>Tilladelse er givet til at kopiere, distribuere og/eller ændre dette dokument under betingelserne for GNU Free Documentation License (GFDL), version 1.1 eller andre senere versioner udgivet af Free Software Foundation med ikke indholdte sektioner, ingen frontomslagstekster, og ingen bagsideomslagstekster. Du kan finde en kopi af GFDL her <ulink type="help" url="ghelp:fdl">link</ulink> eller i filen COPYING-DOCS der er distribueret med denne manual.</para>
+         <para>Denne manual er en del af GNOME-manualsamlingen distribueret under GFDL. Hvis du vil distribuere denne manual separat fra denne samling, kan du gøre det ved at tilføje en kopi af licensen til manualen, som beskrevet i sektion 6 af licensen.</para>
+
+	<para>Mange af navnene brugt af firmaer til at skelne deres produkter og tjenester er betegnet som mærkevarer. Der hvor de navne optræder i en GNOME-dokumentation, og medlemmerne af GNOME-dokumentationsprojektet er blevet gjort opmærksomme på disse varemærker, så er navnene skrevet med store bogstaver eller store forbogstaver.</para>
+
+	<para>DETTE DOKUMENT OG MODIFICEREDE VERSIONER GØRES TILGÆNGELIGT UNDER BETINGELSERNE I GNU FREE DOKUMENTATION LICENS UNDER DEN FORUDSÆTNING AT: <orderedlist>
+		<listitem>
+		  <para>DETTE DOKUMENT GØRES TILGÆNGELIGT SÅDAN SOM DET ER, UDEN NOGEN FORM FOR GARANTI, HVERKEN UDTALT ELLER ANTYDET, DERIBLANDT, UDEN BEGRÆNSNINGER, GARANTIER OM AT DOKUMENTET ELLER ÆNDREDE VERSIONER AF DOKUMENTET ER FRIT FOR DEFEKTER, PASSENDE TIL ET BESTEMT FORMÅL ELLER IKKE-KRÆNKENDE. DU HÆFTER SELV FOR HELE RISIKOEN VEDRØRENDE KVALITET, KORREKTHED OG YDELSE FOR DOKUMENTET ELLER ÆNDREDE VERSIONER AF DOKUMENTET. SKULLE ET DOKUMENT, ELLER EN ÆNDRET VERSION AF ET DOKUMENT VISE SIG AT VÆRE DEFEKT PÅ EN HVILKEN SOM HELST MÅDE, HÆFTER DU FOR BETALING FOR EVENTUEL NØDVENDIG SERVICE, REPARATION ELLER KORREKTION (OG IKKE HVERKEN DEN OPRINDELIGE FORFATTER, SKRIBENT ELLER NOGEN ANDEN BIDRAGSYDER). DENNE ERKLÆRING OM GARANTIFORBEHOLD ER EN ESSENTIEL DEL AF DENNE LICENS. INGEN BRUG AF NOGET DOKUMENT ELLER ÆNDRET VERSION AF DOKUMENTET ER AUTORISERET HERUNDER BORTSET FRA DENNE FORBEHOLDSERKLÆRING; OG</para>
+		</listitem>
+		<listitem>
+		  <para>UNDER INGEN OMSTÆNDIGHEDER OG UNDER INGEN JURIDISK TEORI, UANSET OM DET ER EN BEVIDSTE SKADENDE HANDLING (INKLUSIV UFORSVARLIGHED) ELLER PÅ HVILKEN SOM HELST ANDEN MÅDE, KAN FORFATTEREN, SKRIBENT, BIDRAGYDERE, DISTRIBUTØRER ELLER FORSYNER AF DETTE DOKUMENT ELLER MODIFICEREDE VERSIONER GØRES ANSVARLIG OVERFOR NOGEN PERSON FOR NOGEN DIREKTE, INDIREKTE, SPECIEL, TILFÆLDIG ELLER FØLGENDE SKADE PÅFØRT NOGEN INKLUSIV, UDEN BEGRÆNSNING, SKADE SOM FØLGE AF TAB AF RYGTE, ARBEJDSSTOP, COMPUTER-FEJL ELLER -SVIGT, ELLER ENHVER ANDEN FORM FOR SKADE ELLER TAB SOM ER OPSTÅET I FORBINDELSE MED BRUG AF DETTE DOKUMENT ELLER MODIFICEREDE VERSIONER HERAF, SELV HVIS EN SÅDAN PART HAR VÆRET INFORMERET OM MULIGHEDEN FOR SÅDANNE SKADER.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+
+    <authorgroup> 
+      <author role="maintainer"> 
+	<firstname>Christian Fredrik</firstname> 
+	<surname>Kalager Schaller</surname> 
+	<affiliation> 
+	  <orgname>gnome.org</orgname> 
+	  <address/> 
+	</affiliation> 
+      </author> 
+
+<!-- This is appropriate place for other contributors: translators,
+      maintainers,  etc. Commented out by default.
+       <othercredit role="translator">
+	<firstname>Latin</firstname> 
+	<surname>Translator 1</surname> 
+	<affiliation> 
+	  <orgname>Latin Translation Team</orgname> 
+	  <address> <email>translator@gnome.org</email> </address> 
+	</affiliation>
+	<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+    <revhistory>
+      <revision> 
+			<revnumber>Manual til GStreamer-egenskaber version 2.5</revnumber> 
+			<date>Juli 2010</date> 
+			<revdescription> 
+	  			<para role="author">Marc-Andre Lureau</para>
+	  			<para role="publisher">Dokumentationsprojekt for GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>Manual til GStreamer-egenskaber version 2.4</revnumber> 
+			<date>December 2003</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">Dokumentationsprojekt for GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>Manual til GStreamer-egenskaber version 1.0</revnumber> 
+			<date>September 2003</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">Dokumentationsprojekt for GNOME</para>
+			</revdescription> 
+      </revision>
+         </revhistory> 
+
+    <releaseinfo>Denne manual beskriver version 2.2.2 af GStreamer-egenskaber.</releaseinfo> 
+    <legalnotice> 
+      <title>Tilbagemelding</title> 
+      <para>For at rapportere fejl eller foreslå forbedringer vedrørende GStreamer-egenskaber-programmet eller denne manual, bør du følge instruktionerne på siden for <ulink url="ghelp:user-guide?feedback-bugs" type="help">GNOME-tilbagemeldinger</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm> 
+    <primary>GStreamer-egenskaber</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+
+  <sect1 id="gstreamer-properties-introduction"> 
+    <title>Indledning</title> 
+    <para>Programmet <application>GStreamer-egenskaber</application> gør dig i stand til at konfigurere parametre med relation til hardware- og multimediesystemer på dit system.</para>
+    <note><para>Normalt vil kun avancerede brugere benytte dette da din styresystems leverandør bør udlevere systemet med den rigtige standard.</para></note>
+  </sect1>
+
+  <sect1 id="gstreamer-properties-getting-started">
+    <title>Kom godt i gang</title> 
+
+    <para>Du kan starte <application>GStreamer-egenskaber</application> på følgende måder:</para> 
+    <variablelist>
+    	<varlistentry>
+    		<term>Menuen <guimenu>Programmer</guimenu></term>
+    		<listitem>
+    		<para>Vælg <menuchoice><guisubmenu>Indstillinger</guisubmenu><guimenuitem>GStreamer-egenskaber</guimenuitem></menuchoice>.</para>
+    		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Kommandolinje</term>
+    		<listitem>
+    		<para>Skriv <command>gstreamer-properties</command>, tryk derefter på <keycap>Enter</keycap>.</para>
+    		<para> 		 
+    		</para> 
+    		</listitem>
+    	</varlistentry>
+    </variablelist>
+
+    <para>Når du starter <application>GStreamer-egenskaber</application>, vil du blive mødt af dette billede.</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="gstreamer-properties-fig"> 
+	<title>GStreamer-egenskaber vindue</title> 
+	<screenshot> 
+	  <mediaobject> 
+	    <imageobject>
+	    <imagedata fileref="figures/gstreamer_properties_window.png" format="PNG"/> 
+	    </imageobject>
+	    <textobject> 
+	      <phrase>Viser GStreamer-egenskabers hovedvindu. Indeholder menulinje, værktøjslinje, rullemenuer for lydindstillinger til ind- og uddata.</phrase> 
+	    </textobject> 
+	  </mediaobject> 
+	</screenshot> 
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+  </sect1>
+
+<!-- ================ Usage ================================ -->
+
+  <sect1 id="gstreamer-properties-usage"> 
+    <title>Brug</title>
+	<para>Panelprogrammet til GStreamer egenskaber tilbyder fire rullemenuer der strækker sig over to faner. Der er to rullemenuer for lyd og to for video. Disse valg indstiller standarden for de fleste GNOME-programmers output og input af lyd og video.</para>
+
+    <sect2 id="gstreamer-properties-concepts">
+    	<title>Forståelse af menupunkterne</title>
+
+    	<para>Når du ser på skærmen for opsætning af lydindstillinger, vil du lægge mærke til, at de to dele kaldes standarddatamodtager og standardkilde. Disse er begreber, der anvendes i GStreamer rammen, Gnome bruger til at beskrive, hvor data sendes, og hvor det kommer fra. Standard kanalen er med andre ord hvor GNOME-programmer skal sende deres lyd, mens Standard kilde er, hvor lyden kommer fra.</para>
+
+	<para>Grunden til at du måske ønsker at ændre disse indstillinger er, at der under Unix er mange forskellige lydsystemer og lydservere, som du måske ønsker at sende til. For eksempel er populære alternativer på Linux PulseAudio eller ALSA.</para>
+
+	<para>Hvis du ønsker at dine GNOME-programmers sender deres lyd til PulseAudio-lydserveren, sætter du Standard kanalen til at bruge PulseAudio. Og hvis du ønsker at dine GNOME-programmer, som har lydoptagelsekapacitet, bruger ALSA-lydsystemet til at optage, vælger du ALSA som Standard kilden.</para>
+
+	<note><para>Som nævnt andetsteds i denne brugervejledning. Disse indstillinger er tiltænkt som et redskab til avancerede brugere, der har specialiseret behov. Som almindelig bruger, bør det ikke være nødvendigt at sætte disse, da udbyderen af din distribution burde have fastsat dem, til fornuftige standarder, for dig.</para></note>
+    	
+    </sect2>
+  </sect1>  
+
+
+</article>

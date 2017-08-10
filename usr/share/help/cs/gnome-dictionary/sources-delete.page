@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Smazání zdroje slovníků</title>
+
+  <p>Pokud některý konkrétní <link xref="sources">zdroj slovníků</link> již nepotřebujete nebo vám přestal fungovat, můžete jej smazat.</p>
+
+  <steps>
+    <title>Smazání se provede takto:</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu"><app>Slovník</app></gui> <gui style="menuitem">Předvolby</gui> <gui style="tab">Zdroj</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Vyberte zdroj slovníků, který si přejete smazat.</p>
+    </item>
+    <item>
+      <p>Zmáčkněte <gui style="button">Odstranit</gui>.</p>
+    </item>
+    <item>
+      <p>Objeví se dialogové okno požadující potvrzení, že vybraný zdroj slovníků chcete trvale smazat. Pokud to potvrdíte, bude vymazán.</p>
+    </item>
+  </steps>
+
+</page>

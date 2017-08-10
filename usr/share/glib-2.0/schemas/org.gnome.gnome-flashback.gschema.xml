@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-flashback">
+	<schema path="/org/gnome/gnome-flashback/" id="org.gnome.gnome-flashback">
+		<key type="b" name="automount-manager">
+			<default>true</default>
+			<summary>Automount manager</summary>
+			<description>If set to true, then GNOME Flashback application will be used to automount removable media.</description>
+		</key>
+		<key type="b" name="desktop-background">
+			<default>true</default>
+			<summary>Desktop background</summary>
+			<description>If set to true, then GNOME Flashback application will be used to draw desktop background.</description>
+		</key>
+		<key type="b" name="display-config">
+			<default>false</default>
+			<summary>Display config</summary>
+			<description>If set to true, then GNOME Flashback application will be used to provide display configuration.</description>
+		</key>
+		<key type="b" name="end-session-dialog">
+			<default>true</default>
+			<summary>End session dialog</summary>
+			<description>If set to true, then GNOME Flashback application will be used to show end session dialog.</description>
+		</key>
+		<key type="b" name="idle-monitor">
+			<default>true</default>
+			<summary>Idle monitor</summary>
+			<description>If set to true, then GNOME Flashback application will be used for user activity monitoring.</description>
+		</key>
+		<key type="b" name="sound-applet">
+			<default>true</default>
+			<summary>Sound applet</summary>
+			<description>If set to true, then GNOME Flashback application will be used to show sound applet. This is same sound applet that used to be part of GNOME Control Center.</description>
+		</key>
+
+		<child schema="org.gnome.gnome-flashback.desktop-background" name="desktop-background"/>
+	</schema>
+
+	<schema path="/org/gnome/gnome-flashback/desktop-background/" id="org.gnome.gnome-flashback.desktop-background">
+		<key type="b" name="fade">
+			<default>true</default>
+			<summary>Fade the background on change</summary>
+			<description>If set to true, then fade effect will be used to change the desktop background.</description>
+		</key>
+	</schema>
+</schemalist>

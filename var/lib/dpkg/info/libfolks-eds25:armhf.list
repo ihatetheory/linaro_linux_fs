@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/folks
+/usr/lib/arm-linux-gnueabihf/folks/42
+/usr/lib/arm-linux-gnueabihf/folks/42/backends
+/usr/lib/arm-linux-gnueabihf/folks/42/backends/eds
+/usr/lib/arm-linux-gnueabihf/folks/42/backends/eds/eds.so
+/usr/lib/arm-linux-gnueabihf/libfolks-eds.so.25.17.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfolks-eds25
+/usr/share/doc/libfolks-eds25/copyright
+/usr/lib/arm-linux-gnueabihf/libfolks-eds.so.25
+/usr/share/doc/libfolks-eds25/changelog.Debian.gz

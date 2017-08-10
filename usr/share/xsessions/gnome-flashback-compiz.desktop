@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GNOME Flashback (Compiz)
+Comment=This session logs you into GNOME Flashback with Compiz
+Exec=/usr/lib/gnome-flashback/gnome-flashback-compiz
+TryExec=compiz
+Icon=
+Type=Application
+DesktopNames=GNOME-Flashback;Unity;
+X-Ubuntu-Gettext-Domain=gnome-flashback

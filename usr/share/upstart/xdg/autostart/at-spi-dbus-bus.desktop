@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=AT-SPI D-Bus Bus
+Exec=/usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+Hidden=true

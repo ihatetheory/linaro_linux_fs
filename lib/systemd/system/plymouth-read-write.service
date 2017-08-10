@@ -1,0 +1,13 @@
+[Unit]
+Description=Tell Plymouth To Write Out Runtime Data
+DefaultDependencies=no
+After=local-fs.target
+Before=sysinit.target
+ConditionPathExists=!/etc/initrd-release
+
+[Service]
+ExecStart=-/bin/plymouth update-root-fs --read-write
+Type=oneshot
+[Install]
+Alias=plymouth-log.service
+WantedBy=sysinit.target

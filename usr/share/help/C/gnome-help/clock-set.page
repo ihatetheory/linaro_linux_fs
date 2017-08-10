@@ -1,0 +1,55 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="clock-set">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Click the clock on the top bar and go into the <gui>Date &amp; Time Settings</gui> to alter the date/time.</desc>
+  </info>
+
+<title>Change the date and time</title>
+
+  <p>If the date and time displayed on the top bar are incorrect or in the
+  wrong format, you can change them:</p>
+
+  <steps>
+    <item>
+      <p>Click on the clock in the middle of the top bar and select <gui>Date
+      &amp; Time Settings</gui>.</p>
+    </item>
+    <item>
+      <p>If you have a standard account, you will need to click
+      <gui>Unlock</gui> and type the
+      <link xref="user-admin-explain">administrator password</link>.</p>
+    </item>
+    <item>
+      <p>If you have an internet connection, you can set your date, time and
+      time zone to update automatically by switching <gui>Automatic Date &amp;
+      Time</gui> and <gui>Automatic Time Zone</gui> to <gui>ON</gui>.</p>
+      <p>If you do not have an internet connection, you can update these
+      manually by switching them to <gui>OFF</gui>, then clicking <gui>Date
+      &amp; Time</gui> and <gui>Time Zone</gui> to update.</p>
+    </item>
+    <item>
+      <p>You can also change how the hour is displayed by selecting
+      <gui>24-hour</gui> or <gui>AM/PM</gui> format.</p>
+    </item>
+  </steps>
+
+</page>

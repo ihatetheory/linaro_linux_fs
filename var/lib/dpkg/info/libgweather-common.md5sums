@@ -1,0 +1,9 @@
+ab67ef7da6f8ed7cfbb56bad98330ac8  usr/share/doc/libgweather-common/AUTHORS
+a47e401a19cb2f2c6200be7f3d8cb6c4  usr/share/doc/libgweather-common/NEWS.gz
+d4354b2d04a5bd8e834e9c127f837de8  usr/share/doc/libgweather-common/README
+5741e54fd138898df9f581bf4e9f6bd9  usr/share/doc/libgweather-common/changelog.Debian.gz
+abd413e751cfa6ff971ca2196da4dc73  usr/share/doc/libgweather-common/copyright
+7648267df1bb4997c73530bc4a049051  usr/share/glib-2.0/schemas/org.gnome.GWeather.enums.xml
+5ad02f29b8203a21fe684612176178c2  usr/share/glib-2.0/schemas/org.gnome.GWeather.gschema.xml
+ae26fbf17279027a0e8dc6c469266555  usr/share/libgweather/Locations.xml
+fd8e3f205fa925fd930116de28eee6a8  usr/share/libgweather/locations.dtd

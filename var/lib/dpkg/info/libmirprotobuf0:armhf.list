@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmirprotobuf0
+/usr/share/doc/libmirprotobuf0/changelog.Debian.gz
+/usr/share/doc/libmirprotobuf0/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmirprotobuf.so.0

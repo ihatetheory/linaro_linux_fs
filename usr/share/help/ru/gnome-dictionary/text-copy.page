@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="text-copy" xml:lang="ru">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Select and copy a definition to another application.</desc>
+
+  </info>
+
+  <title>Copy definition</title>
+
+  <p>You can copy and paste definitions from <app>Dictionary</app> to another
+  application.</p>
+
+  <steps>
+    <title>Copy a definition</title>
+    <item>
+      <p>Select the text that you want to copy in <app>Dictionary</app>.
+      Alternatively, you can select the whole definition using
+      <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Select All</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Copy</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Paste the text into another application. This can usually be done
+      using the <keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut
+      or through one of the menus.</p>
+    </item>
+  </steps>
+
+</page>

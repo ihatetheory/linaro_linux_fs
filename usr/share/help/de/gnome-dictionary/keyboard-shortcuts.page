@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Sie können Tastenkombinationen einsetzen, um <app>Wörterbuch</app> effizienter zu nutzen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tastenkombinationen</title>
+
+  <p>Sie können Tastenkombinationen anstelle der Navigation durch die Menüs nutzen. Die folgenden Tastenkombinationen sind verfügbar:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Navigieren innerhalb von <app>Wörterbuch</app></title>
+    <thead>
+      <tr>
+        <td><p>Aktion</p></td>
+        <td><p>Tastenkombination</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Druckvorschau</p></td>
+        <td><p><keyseq><key>Umschalttaste</key><key>Strg</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Drucken</p></td>
+        <td><p><keyseq><key>Strg</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Seitenleiste anzeigen</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Ein neues Fenster von <app>Wörterbuch</app> öffnen</p></td>
+        <td><p><keyseq><key>Strg</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Aktuelles <app>Wörterbuch</app>-Fenster schließen</p></td>
+        <td><p><keyseq><key>Strg</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Tastenkombinationen durchsuchen</title>
+    <thead>
+      <tr>
+        <td><p>Aktion</p></td>
+        <td><p>Tastenkombination</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Innerhalb einer Definition suchen</p></td>
+        <td><p><key>/</key> oder <keyseq><key>Strg</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Nächste finden</p></td>
+        <td><p><keyseq><key>Strg</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Vorherige finden</p></td>
+        <td><p><keyseq><key>Umschalttaste</key><key>StrG</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Innerhalb von Definition navigieren</title>
+    <thead>
+      <tr>
+        <td><p>Aktion</p></td>
+        <td><p>Tastenkombination</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Vorherige Definition</p></td>
+        <td><p><keyseq><key>Strg</key><key>Bild↑-Taste</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Nächste Definition</p></td>
+        <td><p><keyseq><key>Strg</key><key>Bild↓-Taste</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Erste Definition</p></td>
+        <td><p><keyseq><key>Strg</key><key>Pos1</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Letzte Definition</p></td>
+        <td><p><keyseq><key>Strg</key><key>Ende</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Die Tastenkombinationen in <app>Wörterbuch</app> für Definitionen:</title>
+    <thead>
+      <tr>
+        <td><p>Aktion</p></td>
+        <td><p>Tastenkombination</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Identische Wörter</p></td>
+        <td><p><keyseq><key>Strg</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Wörterbuchquellen</p></td>
+        <td><p><keyseq><key>Strg</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Verfügbare Datenbanken</p></td>
+        <td><p><keyseq><key>Strg</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Verfügbare Methoden</p></td>
+        <td><p><keyseq><key>Strg</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

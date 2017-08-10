@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+
+  
+
+  <vendor>GNOME Settings Daemon</vendor>
+  <vendor_url>http://git.gnome.org/browse/gnome-settings-daemon</vendor_url>
+  <icon_name>input-tablet</icon_name>
+
+  <action id="org.gnome.settings-daemon.plugins.wacom.wacom-led-helper">
+    
+    <description gettext-domain="gnome-settings-daemon">Modify the lit LED for a Wacom tablet</description>
+    <message gettext-domain="gnome-settings-daemon">Authentication is required to modify the lit LED for a Wacom tablet</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/gnome-settings-daemon/gsd-wacom-led-helper</annotate>
+  </action>
+
+  <action id="org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper">
+    
+    <description gettext-domain="gnome-settings-daemon">Modify the OLED image for a Wacom tablet</description>
+    <message gettext-domain="gnome-settings-daemon">Authentication is required to modify the OLED image for a Wacom tablet</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/gnome-settings-daemon/gsd-wacom-oled-helper</annotate>
+  </action>
+
+</policyconfig>

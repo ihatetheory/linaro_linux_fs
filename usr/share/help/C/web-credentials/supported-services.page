@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="supported-services">
+
+  <info>
+    <link type="guide" xref="index#information"/>
+    <revision version="0.1" date="2012-04-03" status="candidate"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email>david.king@canonical.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="copyright">
+      <name>Canonical Ltd.</name>
+      <years>2012</years>
+    </credit>
+    <license>
+      <p>Creative Commons Attribution-ShareAlike 3.0</p>
+    </license>
+
+    <desc>Find out which online service providers are supported by <app>Online
+    Accounts</app>.</desc>
+  </info>
+
+<title>Supported online services</title>
+
+  <terms>
+    <title>Online services supported by <app>Online Accounts</app></title>
+    <item>
+      <title>Google</title>
+      <p>Google Docs lens for Unity.</p>
+      <!-- TODO: Detail application support for Google accounts. -->
+    </item>
+    <item>
+      <title>Facebook</title>
+      <p></p>
+      <!-- TODO: Detail application support for Facebook accounts. -->
+    </item>
+  </terms>
+</page>

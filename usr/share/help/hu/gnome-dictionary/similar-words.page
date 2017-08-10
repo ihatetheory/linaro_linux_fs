@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Kapcsolódó találatok megtekintése más szótárakban.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hasonló szavak</title>
+
+  <p>A <app>Szótár</app> csak a szótárai egyikéből fogja megjeleníteni a meghatározást. Annak ellenőrzéséhez, hogy vannak-e más szótárakban is találatok:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Keressen rá</link> a kívánt kifejezésre.</p>
+    </item>
+    <item>
+      <p>Ha az oldalsáv még nem látható, válassza a <guiseq><gui style="menu">Nézet</gui> <gui style="menuitem">Hasonló szavak</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>A <gui>Hasonló szavak</gui> oldalsáv meg fogja jeleníteni a találatokat a kiválasztott szótárforrásokban lévő egyéb szótárakban. A hasonló szó megtekintéséhez kattintson duplán a bejegyzésre.</p>
+    </item>
+  </steps>
+
+</page>

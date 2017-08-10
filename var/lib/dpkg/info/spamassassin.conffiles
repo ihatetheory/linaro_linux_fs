@@ -1,0 +1,11 @@
+/etc/cron.daily/spamassassin
+/etc/default/spamassassin
+/etc/init.d/spamassassin
+/etc/spamassassin/65_debian.cf
+/etc/spamassassin/init.pre
+/etc/spamassassin/local.cf
+/etc/spamassassin/v310.pre
+/etc/spamassassin/v312.pre
+/etc/spamassassin/v320.pre
+/etc/spamassassin/v330.pre
+/etc/spamassassin/v340.pre

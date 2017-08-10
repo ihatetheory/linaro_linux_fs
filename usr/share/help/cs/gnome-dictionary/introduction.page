@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="introduction" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="final"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Co je to <app>Slovník</app>?</desc>
+
+  </info>
+
+  <title>Úvod</title>
+
+  <p><app>Slovník</app> je aplikace sloužící k vyhledávání definic výrazů. Využívá k tomu on-line servery <app>DICT</app>. Výchozím serverem <app>DICT</app> je <sys href="http://dict.org">http://dict.org</sys>.</p>
+
+  <p>Začněte <app>Slovník</app> používat jednoduše tak, že si <link xref="definition">vyhledáte definici</link>.</p>
+
+  <figure>
+    <title>Slovník</title>
+    <media type="image" src="figures/gnome-dictionary.png">
+      <p>Snímek obrazovky s hlavním oknem aplikace <app>Slovník</app>.</p>
+    </media>
+  </figure>
+
+</page>

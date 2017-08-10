@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="introduction" xml:lang="uk">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="final"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>What is <app>Dictionary</app>?</desc>
+
+  </info>
+
+  <title>Введення</title>
+
+  <p><app>Dictionary</app> is an application for looking up term definitions.
+  It searches for definitions using an online <app>DICT</app> server. The
+  default <app>DICT</app> server is at
+  <sys href="http://dict.org">http://dict.org</sys>.</p>
+
+  <p>Start using <app>Dictionary</app> by
+  <link xref="definition">looking up a definition</link>!</p>
+
+  <figure>
+    <title>Словник</title>
+    <media type="image" src="figures/gnome-dictionary.png">
+      <p>Screenshot showing the <app>Dictionary</app> main window.</p>
+    </media>
+  </figure>
+
+</page>

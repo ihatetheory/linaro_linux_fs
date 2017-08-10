@@ -1,0 +1,16 @@
+b97915426425bfd09fb0c87fdc57aadc  usr/bin/t1ascii
+d43889c42eb230411a07aee32a17cbd4  usr/bin/t1asm
+081bae0e411e1452f593996b2ceb926c  usr/bin/t1binary
+950df2142df9fbaf780e4ac510e59f8f  usr/bin/t1disasm
+425a6a59d45deaf74b83215674c78cd2  usr/bin/t1mac
+2518041ea068d9b41c2b5beeb2cab660  usr/bin/t1unmac
+767d6d3e04a3b8317b2e5af27c68e890  usr/share/doc/t1utils/README
+b20d7ab05c8a3b6a84993649fc1744a9  usr/share/doc/t1utils/README.Debian
+7fc12ddc49d8bf835e9bdf5327d33cb6  usr/share/doc/t1utils/changelog.Debian.gz
+073c47bbb78e90a35eaafb662b36f202  usr/share/doc/t1utils/copyright
+340603b552a641cc638476cd688c6e6e  usr/share/man/man1/t1ascii.1.gz
+d642b6e01172373241a155ade2134864  usr/share/man/man1/t1asm.1.gz
+6dc940fd05176d88dc7c8d42cb0bd208  usr/share/man/man1/t1binary.1.gz
+6ee6445372be19699ea560803b84df63  usr/share/man/man1/t1disasm.1.gz
+d436caf20db4f401fd7a9b0996107576  usr/share/man/man1/t1mac.1.gz
+64599607a27e918ffb1c0ff91d997270  usr/share/man/man1/t1unmac.1.gz

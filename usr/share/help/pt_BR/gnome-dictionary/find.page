@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Localize um texto em uma definição.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pesquisar dentro de uma definição</title>
+
+  <p>Algumas entradas de dicionário podem ser bem grandes e conter muitos resultados. Deste modo, você pode desejar pesquisá-los para localizar a seção que é relevante para você.</p>
+
+  <steps>
+    <title>Para localizar definições:</title>
+    <item>
+      <p>Selecione <guiseq><gui style="menu">Editar</gui> <gui style="menuitem">Localizar</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>A barra <gui>Localizar</gui> vai aparecer na parte inferior da janelado <app>Dicionário</app>. Digite seu termo de pesquisa a ser pesquisado dentro da definição que está sendo exibida.</p>
+    </item>
+    <item>
+      <p>Clique <gui style="button">Anterior</gui> ou <gui style="button">Próximo</gui> para rolar pelos resultados. A pesquisa não vai ajustar os resultados: em outras palavras, não vai para o topo da página quando você está no último resultado e clica <gui style="button">Próximo</gui>.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,22 @@
+=head2 Tue Dec 15 05:27:00 2015: C<Module> L<Mail::SpamAssassin::CompiledRegexps::body_0|Mail::SpamAssassin::CompiledRegexps::body_0>
+
+=over 4
+
+=item *
+
+C<installed into: /tmp/.spamassassin18274CkaUictmp/ignored/share/perl/5.20.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.0>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

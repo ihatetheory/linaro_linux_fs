@@ -1,0 +1,17 @@
+/.
+/var
+/var/lib
+/var/lib/nssdb
+/var/lib/nssdb/pkcs11.txt
+/var/lib/nssdb/key4.db
+/var/lib/nssdb/secmod.db
+/var/lib/nssdb/cert9.db
+/etc
+/etc/pki
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libnss3-nssdb
+/usr/share/doc/libnss3-nssdb/copyright
+/etc/pki/nssdb
+/usr/share/doc/libnss3-nssdb/changelog.Debian.gz

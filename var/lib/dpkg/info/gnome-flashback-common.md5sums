@@ -1,0 +1,15 @@
+b4295d98563119f17dce9c778c1f2a68  usr/share/doc/gnome-flashback-common/changelog.Debian.gz
+191c01ceb02976d30a87ffa1cc33fdec  usr/share/doc/gnome-flashback-common/copyright
+3dc86ee4f9f7937b87725be7b3001cd4  usr/share/glib-2.0/schemas/10_gnome-flashback-common.gschema.override
+2f3f442af491a27f20512421fdb90adc  usr/share/glib-2.0/schemas/org.gnome.gnome-flashback.gschema.xml
+efe570c2c5683e0269a18d33e9836f81  usr/share/locale/cs/LC_MESSAGES/gnome-flashback.mo
+579cb926938fd55a417728f1d81f6b13  usr/share/locale/de/LC_MESSAGES/gnome-flashback.mo
+f245ab2ea90cddac5cf06b0bac7ee25b  usr/share/locale/es/LC_MESSAGES/gnome-flashback.mo
+35092d24c8dd1ab616b4b2c96347552e  usr/share/locale/hu/LC_MESSAGES/gnome-flashback.mo
+b494bbb56d0ed9f36cf30ab743d29e14  usr/share/locale/id/LC_MESSAGES/gnome-flashback.mo
+a588ddab9a948295c9401e3713d0253c  usr/share/locale/pl/LC_MESSAGES/gnome-flashback.mo
+122bfc80df286484418eaa8e2a41d533  usr/share/locale/pt_BR/LC_MESSAGES/gnome-flashback.mo
+977c6dfa75c26534dbc225d5d77f9288  usr/share/locale/ru/LC_MESSAGES/gnome-flashback.mo
+232a28fb7082727caa14385ecb3ecabf  usr/share/locale/sl/LC_MESSAGES/gnome-flashback.mo
+e233b446124e459dc85a6c24c64b1f49  usr/share/locale/sr/LC_MESSAGES/gnome-flashback.mo
+eec9a475cac7b491d9e0c46cc810e5b6  usr/share/locale/sr@latin/LC_MESSAGES/gnome-flashback.mo

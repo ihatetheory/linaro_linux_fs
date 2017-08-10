@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libegl1-mesa-drivers
+/usr/share/doc/libegl1-mesa-drivers/copyright
+/usr/share/doc/libegl1-mesa-drivers/changelog.Debian.gz
+/usr/share/bug
+/usr/share/bug/libegl1-mesa-drivers
+/usr/share/bug/libegl1-mesa-drivers/script
+/usr/share/bug/libegl1-mesa-drivers/control

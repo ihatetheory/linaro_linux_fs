@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=GNOME Shell (wayland compositor)
+Comment=Window management and application launching
+Exec=/usr/bin/gnome-shell --wayland --display-server
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-shell
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.14.4
+Categories=GNOME;GTK;Core;
+OnlyShowIn=GNOME;
+NoDisplay=true
+X-GNOME-Autostart-Phase=DisplayServer
+X-GNOME-Autostart-Notify=true
+X-GNOME-AutoRestart=false
+X-Ubuntu-Gettext-Domain=gnome-shell

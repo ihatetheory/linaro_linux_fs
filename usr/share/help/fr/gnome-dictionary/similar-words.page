@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Voir les résultats connexes dans les autres dictionnaires.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mots similaires</title>
+
+  <p><app>Dictionnaire</app> affiche uniquement la définition à partir d'un de vos dictionnaires. Pour vérifier s'il y a des résultats dans d'autres dictionnaires :</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Rechercher</link> le mot souhaité.</p>
+    </item>
+    <item>
+      <p>Si la barre latérale n'est pas visible, sélectionnez <guiseq><gui style="menu">Affichage</gui> <gui style="menuitem">Mots similaires</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>La barre latérale <gui>Mots similaires</gui> affiche les résultats de recherche des autres dictionnaires à partir de la source de dictionnaires sélectionnée. Pour afficher le mot similaire, double-cliquez sur celui-ci.</p>
+    </item>
+  </steps>
+
+</page>

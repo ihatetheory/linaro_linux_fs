@@ -1,0 +1,18 @@
+GNOME Media is deprecated, although some programs still relies on some
+libraries it offers, and some people still use some of the tools.
+
+GNOME media contains the following tools & library:
+
+grecord                 - GNOME Sound Recorder
+profiles                - Audio Profile library
+gstreamer-properties    - GStreamer Properties Capplet
+gst-mixer               - GNOME GStreamer-based audio mixer  (deprecated in favour of control-center PulseAudio volume control)
+
+Refer to the following files for license information for each sub-component
+of gnome-media:
+
+gstreamer-properties - COPYING
+grecord              - COPYING.grecord
+gst-mixer            - COPYING.gst-mixer
+profiles             - COPYING.profiles
+documentation        - COPYING-DOCS

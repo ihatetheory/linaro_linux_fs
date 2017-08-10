@@ -1,0 +1,9 @@
+fe81db06a8b2d2fbaf7bfdf1c067a324  usr/lib/gnome-flashback/gnome-flashback-compiz
+d7c53f03f0453a96754d474ba3e30e6b  usr/lib/gnome-flashback/gnome-flashback-metacity
+1de496adf459f8d438c8d97c481530b2  usr/share/applications/gnome-flashback-services.desktop
+93e0270f07e9eafa78b1d91987cc1a53  usr/share/doc/gnome-session-flashback/changelog.Debian.gz
+191c01ceb02976d30a87ffa1cc33fdec  usr/share/doc/gnome-session-flashback/copyright
+b7d0dfa02ed957688a7ec3af8d6ecb88  usr/share/gnome-session/sessions/gnome-flashback-compiz.session
+955e8d0abc6917ce3f61cdef111f8d22  usr/share/gnome-session/sessions/gnome-flashback-metacity.session
+8fb851b848772641680b9e92ed9aa2db  usr/share/xsessions/gnome-flashback-compiz.desktop
+a5be4e0ea3d1357f925d18307d51389d  usr/share/xsessions/gnome-flashback-metacity.desktop

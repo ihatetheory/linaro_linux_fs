@@ -1,0 +1,6 @@
+9374bcf2f6a011a9c8c8dd0243ef9e36  usr/bin/gdbserver
+2497afaf20e943033e3a77486794696e  usr/share/doc/gdbserver/NEWS.Debian.gz
+508e32f70c6edb08e03a15c8d024383d  usr/share/doc/gdbserver/README.gz
+a96afe34179b83f9af817cd4bb003e07  usr/share/doc/gdbserver/changelog.Debian.gz
+5485f9a5c6fddde82fa248b7f4ff3cb2  usr/share/doc/gdbserver/copyright
+edad6bfe3c48e839b05a4c7ece80c8b7  usr/share/man/man1/gdbserver.1.gz

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/xdg/autostart/gnome-volume-control-applet.desktop -- "$@"
+# End automatically added section

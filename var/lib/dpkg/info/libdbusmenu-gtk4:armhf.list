@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdbusmenu-gtk4
+/usr/share/doc/libdbusmenu-gtk4/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libdbusmenu-gtk.so.4.0.12
+/usr/share/doc/libdbusmenu-gtk4/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libdbusmenu-gtk.so.4

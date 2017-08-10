@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<legalnotice id="legalnotice">
+	<para>Permissão concedida para copiar, distribuir e/ou modificar este documento sob os termos da Licença de Documentação Livre GNU (GNU Free Documentation License), Versão 1.1 ou qualquer versão mais recente publicada pela Free Software Foundation; sem Seções Invariantes, Textos de Capa Frontal, e sem Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL neste <ulink type="help" url="help:fdl">link</ulink> ou no arquivo COPYING-DOCS distribuído com este manual.</para>
+         <para>Este manual faz parte da coleção de manuais da GNOME, distribuídos sob licença GFDL. Se você deseja distribuir este manual separadamente desta coleção, pode fazê-lo adicionando ao manual uma cópia da licença, como é descrito na seção 6 da licença.</para>
+
+	<para>Muitos dos nomes utilizados pelas empresas para distinguir seus produtos e serviços são marcas registradas. Quando estes nomes aparecem em qualquer documentação GNOME, e os membros do Projeto de Documentação GNOME estão cientes dessas marcas registradas, os nomes aparecem em letras maiúsculas ou com iniciais em maiúsculas.</para>
+
+	<para>O DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDOS SOB OS TERMOS DA GNU FREE DOCUMENTATION LICENSE COM O ENTENDIMENTO ADICIONAL DE QUE: <orderedlist>
+		<listitem>
+		  <para>O DOCUMENTO É FORNECIDO SOB UMA BASE "TAL QUAL", SEM GARANTIAS DE NENHUM TIPO, NEM EXPRESSAS NEM IMPLÍCITAS, INCLUINDO, SEM LIMITAÇÃO, QUALQUER GARANTIA DE QUE O DOCUMENTO OU UMA VERSÃO MODIFICADA DO MESMO ESTEJAM LIVRE DE DEFEITOS COMERCIAIS, SEJA DESTINADO PARA UM FIM PARTICULAR OU QUE NÃO INFRINJAM AS REGRAS. TODO O RISCO PELA QUALIDADE, PRECISÃO E UTILIDADE DO DOCUMENTO OU DE QUALQUER OUTRA VERSÃO MODIFICADA DO MESMO CORRESPONDE AOS SEUS ATOS. NO CASO DE QUALQUER DOCUMENTO OU VERSÃO MODIFICADA DO MESMO RESULTAR DEFEITO, SERÁ VOCÊ (E NÃO O REDATOR INICIAL, NEM O AUTOR, NEM QUALQUER OUTRA PESSOA QUE TENHA CONTRIBUÍDO) QUE ASSUMIRÁ O CUSTO DE QUALQUER SERVIÇO TÉCNICO, REPARAÇÃO OU CORREÇÃO NECESSÁRIOS. ESTA LIMITAÇÃO DAS GARANTIAS CONSTITUI UMA PARTE ESSENCIAL DESTA LICENÇA. NÃO É AUTORIZADO NENHUM USO DE QUALQUER DOCUMENTO OU VERSÃO MODIFICADA DO MESMO SE NÃO ESTÁ DE ACORDO A ESTA LIMITAÇÃO DAS GARANTIAS; E</para>
+		</listitem>
+		<listitem>
+		  <para>EM NENHUMA CIRCUNSTÂNCIA OU SOB NENHUMA TEORIA LEGAL, SEJA POR MOTIVOS CRIMINAIS (INCLUINDO NEGLIGÊNCIA), CONTRATUAIS OU DE OUTRO TIPO, NEM O AUTOR, NEM O ESCRITOR INICIAL, NEM QUALQUER COLABORADOR, NEM QUALQUER DISTRIBUIDOR DO DOCUMENTO OU VERSÃO MODIFICADA DO MESMO, NEM QUALQUER FORNECEDOR DE QUALQUER DAS PARTES CITADAS, SERÃO RESPONSÁVEIS DIRETAMENTE, INDIRETAMENTE, ESPECIALMENTE, ACIDENTALMENTE, OU CONSEQÜENTES ERROS DE QUALQUER OUTRO CARÁTER INCLUINDO, SEM LIMITAÇÃO, DANOS POR FALTA DE GARANTIA, INTERRUPÇÃO DE TRABALHO, FALHA OU MAL FUNCIONAMENTO COMPUTADORIZADO, OU QUALQUER E TODOS OS OUTROS DANOS OU PERDAS DERIVADOS DO USO DO DOCUMENTO E AS VERSÕES MODIFICADAS DO MESMO, MESMO SE A PARTE DENEGRIDA FORA INFORMADA DA POSSIBILIDADE DE TAIS ERROS.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>

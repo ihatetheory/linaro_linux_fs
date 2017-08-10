@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/smbc
+/usr/lib/python3/dist-packages/smbc/__init__.py
+/usr/lib/python3/dist-packages/smbc/xattr.py
+/usr/lib/python3/dist-packages/pysmbc-1.0.15.3.egg-info
+/usr/lib/python3/dist-packages/_smbc.cpython-34m-arm-linux-gnueabihf.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-smbc
+/usr/share/doc/python3-smbc/copyright
+/usr/share/doc/python3-smbc/changelog.Debian.gz
+/usr/share/doc/python3-smbc/NEWS.gz

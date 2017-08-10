@@ -1,0 +1,5 @@
+415c1b2b27585d771c4383efc198e85f  usr/bin/session-migration
+6bc5be89b373740cfc4d050303d497a1  usr/share/doc/session-migration/changelog.gz
+5c505118de2f08f477b7494fcc6845ba  usr/share/doc/session-migration/copyright
+f125e722a794bac87e0eb52eaa067176  usr/share/man/man1/session-migration.1.gz
+b80df1b7e8b4dfd47b7a5f751478f857  usr/share/upstart/sessions/session-migration.conf

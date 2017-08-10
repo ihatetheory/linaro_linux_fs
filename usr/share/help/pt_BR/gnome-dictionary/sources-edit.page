@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Editando uma fonte de dicionário</title>
+
+  <p>Você pode personalizar uma <link xref="sources">fonte de dicionário</link> para atualizar detalhes como sua descrição ou endereço remoto.</p>
+
+  <steps>
+    <title>Para editar uma fonte de dicionário:</title>
+    <item>
+      <p>Selecione <guiseq><gui style="menu">Dicionário</gui> <gui style="menuitem">Preferências</gui> <gui style="tab">Fonte</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Clique duas vezes na fonte de dicionário que você deseja editar.</p>
+    </item>
+    <item>
+      <p>Você pode editar os seguintes campos:</p>
+      <list>
+        <item>
+          <p><gui>Descrição</gui> é o nome da fonte que vai ser exibida a você.</p>
+        </item>
+        <item>
+          <p><gui>Transporte</gui> é o tipo de servidor.</p>
+        </item>
+        <item>
+          <p><gui>Nome de máquina</gui> é a localização da fonte de dicionário.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Porta</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Veja os dicionários que estão disponíveis na fonte de dicionário selecionando a aba <gui style="tab">Dicionários</gui>.</p>
+    </item>
+    <item>
+      <p>Pressione <gui style="button">Fechar</gui> para salvar as configurações.</p>
+    </item>
+  </steps>
+
+</page>

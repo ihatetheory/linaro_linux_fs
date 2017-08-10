@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libboost_filesystem.so.1.55.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libboost-filesystem1.55.0
+/usr/share/doc
+/usr/share/doc/libboost-filesystem1.55.0
+/usr/share/doc/libboost-filesystem1.55.0/copyright
+/usr/share/doc/libboost-filesystem1.55.0/changelog.Debian.gz

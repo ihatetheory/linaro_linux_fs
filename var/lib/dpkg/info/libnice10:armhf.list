@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libnice10
+/usr/share/doc/libnice10/TODO
+/usr/share/doc/libnice10/copyright
+/usr/share/doc/libnice10/changelog.Debian.gz
+/usr/share/doc/libnice10/README
+/usr/share/doc/libnice10/AUTHORS
+/usr/share/doc/libnice10/NEWS.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libnice.so.10.4.1
+/usr/lib/arm-linux-gnueabihf/libnice.so.10

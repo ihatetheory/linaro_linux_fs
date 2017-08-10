@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="task"
+      id="prob-retrieving-definition">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc><sys>Error while retrieving definitions</sys>.</desc>
+
+  </info>
+
+  <title>Cannot find definitions</title>
+
+  <p>If you see the error message
+  <sys>Error while retrieving definition</sys> when looking up a definition
+  from any of the <link xref="sources-select">selected dictionaries</link>,
+  the problem is more likely one of the following:</p>
+
+  <list>
+    <item>
+      <p>One or more of the selected <app>DICT</app> servers that are used to
+      look up definitions may not be working. You can try waiting a while
+      before <link xref="definition">looking up</link> the definition
+      again.</p>
+    </item>
+    <item>
+      <p>You may not have a working Internet connection. For
+      <app>Dictionary</app> to look up terms, your computer
+      <link href="help:gnome-help/net">must be able to connect</link> to
+      <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

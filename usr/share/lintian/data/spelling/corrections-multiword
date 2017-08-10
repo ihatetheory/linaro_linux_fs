@@ -1,0 +1,16 @@
+# A list of spelling corrections where the text to be corrected consists
+# of multiple words and thus can't be corrected by the standard single word
+# checks.
+#
+# The format of each line is:
+# SPELLING_MISTAKE_REGEX||correction
+
+(?i)allows to||allows one to
+(?i)an other||another
+(?i)debian/gnu linux||Debian GNU/Linux
+(?i)gnu public license||GNU General Public License
+(?i)gnu lesser public license||GNU Lesser General Public License
+(?i)is not enable||is not enabled
+(?i)permits to||permits one to
+(?i)these package||this package
+(?i)this packages||these packages

@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ShellWindowTracker: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="ch02.html" title="Application tracking">
+<link rel="prev" href="ShellAppUsage.html" title="ShellAppUsage">
+<link rel="next" href="ch03.html" title="Search">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ShellWindowTracker.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ShellWindowTracker.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#ShellWindowTracker.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ShellWindowTracker.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ShellAppUsage.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch03.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ShellWindowTracker"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ShellWindowTracker.top_of_page"></a>ShellWindowTracker</span></h2>
+<p>ShellWindowTracker — Associate windows with applications</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ShellWindowTracker.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="returnvalue">ShellWindowTracker</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-window-tracker-get-default" title="shell_window_tracker_get_default ()">shell_window_tracker_get_default</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellApp.html" title="ShellApp"><span class="returnvalue">ShellApp</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-window-tracker-get-window-app" title="shell_window_tracker_get_window_app ()">shell_window_tracker_get_window_app</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellApp.html" title="ShellApp"><span class="returnvalue">ShellApp</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-window-tracker-get-app-from-pid" title="shell_window_tracker_get_app_from_pid ()">shell_window_tracker_get_app_from_pid</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-window-tracker-get-startup-sequences" title="shell_window_tracker_get_startup_sequences ()">shell_window_tracker_get_startup_sequences</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-startup-sequence-get-id" title="shell_startup_sequence_get_id ()">shell_startup_sequence_get_id</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellApp.html" title="ShellApp"><span class="returnvalue">ShellApp</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-startup-sequence-get-app" title="shell_startup_sequence_get_app ()">shell_startup_sequence_get_app</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-startup-sequence-get-name" title="shell_startup_sequence_get_name ()">shell_startup_sequence_get_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-startup-sequence-get-completed" title="shell_startup_sequence_get_completed ()">shell_startup_sequence_get_completed</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-startup-sequence-get-workspace" title="shell_startup_sequence_get_workspace ()">shell_startup_sequence_get_workspace</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellWindowTracker.html#shell-startup-sequence-create-icon" title="shell_startup_sequence_create_icon ()">shell_startup_sequence_create_icon</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody><tr>
+<td class="property_type">
+<a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellWindowTracker.html#ShellWindowTracker--focus-app" title="The “focus-app” property">focus-app</a></td>
+<td class="property_flags">Read</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellWindowTracker.html#ShellWindowTracker-startup-sequence-changed" title="The “startup-sequence-changed” signal">startup-sequence-changed</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellWindowTracker.html#ShellWindowTracker-tracked-windows-changed" title="The “tracked-windows-changed” signal">tracked-windows-changed</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="ShellStartupSequence"></a><div class="refsect1">
+<a name="ShellWindowTracker.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GBoxed
+    <span class="lineart">╰──</span> ShellStartupSequence
+    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> ShellWindowTracker
+</pre>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.description"></a><h2>Description</h2>
+<p>Maintains a mapping from windows to applications (.desktop file ids).
+It currently implements this with some heuristics on the WM_CLASS X11
+property (and some static override regexps); in the future, we want to
+have it also track through startup-notification.</p>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="shell-window-tracker-get-default"></a><h3>shell_window_tracker_get_default ()</h3>
+<pre class="programlisting"><a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="returnvalue">ShellWindowTracker</span></a> *
+shell_window_tracker_get_default (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.4.9.2.4"></a><h4>Returns</h4>
+<p> The global <a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="type">ShellWindowTracker</span></a> instance. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-window-tracker-get-window-app"></a><h3>shell_window_tracker_get_window_app ()</h3>
+<pre class="programlisting"><a class="link" href="ShellApp.html" title="ShellApp"><span class="returnvalue">ShellApp</span></a> *
+shell_window_tracker_get_window_app (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="type">ShellWindowTracker</span></a> *tracker</code></em>,
+                                     <em class="parameter"><code><a href="/usr/share/gtk-doc/html/meta/MetaWindow.html"><span class="type">MetaWindow</span></a> *metawin</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.4.9.3.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>tracker</p></td>
+<td class="parameter_description"><p>An app monitor instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>metawin</p></td>
+<td class="parameter_description"><p>A <a href="/usr/share/gtk-doc/html/meta/MetaWindow.html"><span class="type">MetaWindow</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.9.3.5"></a><h4>Returns</h4>
+<p> Application associated with window. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-window-tracker-get-app-from-pid"></a><h3>shell_window_tracker_get_app_from_pid ()</h3>
+<pre class="programlisting"><a class="link" href="ShellApp.html" title="ShellApp"><span class="returnvalue">ShellApp</span></a> *
+shell_window_tracker_get_app_from_pid (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="type">ShellWindowTracker</span></a> *tracker</code></em>,
+                                       <em class="parameter"><code><span class="type">int</span> pid</code></em>);</pre>
+<p>Look up the application corresponding to a process.</p>
+<div class="refsect3">
+<a name="id-1.3.4.9.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>tracker</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellAppSystem.html" title="ShellAppSystem"><span class="type">ShellAppSystem</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>pid</p></td>
+<td class="parameter_description"><p>A Unix process identifier</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.9.4.6"></a><h4>Returns</h4>
+<p> A <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if none. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-window-tracker-get-startup-sequences"></a><h3>shell_window_tracker_get_startup_sequences ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+shell_window_tracker_get_startup_sequences
+                               (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="type">ShellWindowTracker</span></a> *tracker</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.4.9.5.4"></a><h4>Returns</h4>
+<p> Currently active startup sequences. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> ShellStartupSequence]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-startup-sequence-get-id"></a><h3>shell_startup_sequence_get_id ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+shell_startup_sequence_get_id (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *sequence</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-startup-sequence-get-app"></a><h3>shell_startup_sequence_get_app ()</h3>
+<pre class="programlisting"><a class="link" href="ShellApp.html" title="ShellApp"><span class="returnvalue">ShellApp</span></a> *
+shell_startup_sequence_get_app (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *sequence</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.4.9.7.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>sequence</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.9.7.5"></a><h4>Returns</h4>
+<p> The application being launched, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if unknown. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-startup-sequence-get-name"></a><h3>shell_startup_sequence_get_name ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+shell_startup_sequence_get_name (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *sequence</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-startup-sequence-get-completed"></a><h3>shell_startup_sequence_get_completed ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_startup_sequence_get_completed (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *sequence</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-startup-sequence-get-workspace"></a><h3>shell_startup_sequence_get_workspace ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+shell_startup_sequence_get_workspace (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *sequence</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-startup-sequence-create-icon"></a><h3>shell_startup_sequence_create_icon ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+shell_startup_sequence_create_icon (<em class="parameter"><code><a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *sequence</code></em>,
+                                    <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> size</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.4.9.11.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>size</p></td>
+<td class="parameter_description"><p>Size in pixels of icon</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.9.11.5"></a><h4>Returns</h4>
+<p> A new <span class="type">ClutterTexture</span> containing an icon for the sequence. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.other_details"></a><h2>Types and Values</h2>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="ShellWindowTracker--focus-app"></a><h3>The <code class="literal">“focus-app”</code> property</h3>
+<pre class="programlisting">  “focus-app”                <a class="link" href="ShellApp.html" title="ShellApp"><span class="type">ShellApp</span></a> *</pre>
+<p>Focused application.</p>
+<p>Flags: Read</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellWindowTracker.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ShellWindowTracker-startup-sequence-changed"></a><h3>The <code class="literal">“startup-sequence-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="type">ShellWindowTracker</span></a>   *shellwindowtracker,
+               <a class="link" href="ShellWindowTracker.html#ShellStartupSequence"><span class="type">ShellStartupSequence</span></a> *arg1,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>              user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellWindowTracker-tracked-windows-changed"></a><h3>The <code class="literal">“tracked-windows-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellWindowTracker.html" title="ShellWindowTracker"><span class="type">ShellWindowTracker</span></a> *shellwindowtracker,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>            user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

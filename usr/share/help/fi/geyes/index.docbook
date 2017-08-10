@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.8">
+<!ENTITY manrevision "2.8">
+<!ENTITY date "September 2004">
+<!ENTITY applet "Geyes">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Mar 12, 2002  
+-->
+<article id="index" lang="fi">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+	 <title>Silmät -sovelluksen käyttöohje</title> 
+	 <abstract role="description">
+	   <para>Silmät -sovellus tarjoaa viihdyttävän tavan seurata hiiren liikkeitä ympäri näyttöä silmäparilla, joka liikkuu.</para>
+	 </abstract>
+	 <copyright lang="en"> 
+		<year>2002</year>
+		<year>2003</year> 
+		<year>2004</year> 
+		<holder>Sun Microsystems</holder> 
+	 </copyright>  
+	 <copyright lang="en"> 
+		<year>2000</year> 
+		<holder>Telsa Gwynne</holder> 
+	 </copyright>
+	 <copyright lang="en"> 
+		<year>2000</year> 
+		<holder>Arjan Scherpenisse</holder> 
+	 </copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+
+	 <publisher role="maintainer"> 
+		<publishername>Gnome dokumentointiprojekti</publishername> 
+	 </publisher> 
+   <legalnotice id="legalnotice">
+         <para>Tätä asiakirjaa saa kopioida, jakaa edelleen ja/tai muokata Free Software Foundationin julkaiseman GNU Free Documentation Licensen (GFDL) version 1.1 tai valinnaisesti myöhemmän version mukaisesti, ilman vaatimuksia muuttamattomista osioista ja etu- tai takakansiteksteistä. Kopion GFDL:stä voi nähdä napsauttamalla <ulink type="help" url="help:fdl">tätä linkkiä</ulink>, tai lukemalla ohjeen mukana toimitetun COPYING-DOCS-nimisen tiedoston.</para>
+          <para>Tämä käyttöohje on osa Gnomen käyttöohjekokoelmaa ja levitetään GFDL-lisenssin alaisena. Jos haluat levittää tätä käyttöohjetta erillään kokoelmasta, voit tehdä sen liittämällä lisenssin kopion ohjeen mukaan, kuten lisenssin luku 6 sanelee.</para>
+ 
+         <para>Monet tuotteiden ja palveluiden nimet ovat tuotemerkkejä. Gnomen dokumentointiprojektissa nämä nimet pyritään kirjoittamaan suuraakkosin tai isolla alkukirjaimella, sikäli kun projektin jäsenet tietävät kyseisistä tuotemerkeistä.</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+	 <authorgroup> 
+		<author lang="en"> 
+		  <firstname>Sun</firstname> 
+		  <surname>GNOME Documentation Team</surname> 
+		  <affiliation> 
+			 <orgname>Sun Microsystems</orgname> 
+			 <address/> 
+		  </affiliation> 
+		</author> 
+		<author lang="en"> 
+		  <firstname>Telsa</firstname> 
+		  <surname>Gwynne</surname> 
+		  <affiliation> 
+			 <orgname>GNOME Documentation Project</orgname> 
+			 <address> <email>hobbit@aloss.ukuu.org.uk</email> </address> 
+		  </affiliation> 
+		</author>
+		<author lang="en"> 
+		  <firstname>Arjan</firstname> 
+		  <surname>Scherpenisse</surname> 
+		  <affiliation> 
+			 <orgname>GNOME Documentation Project</orgname> 
+			 <address> <email>acscherp@wins.uva.nl</email> </address> 
+		  </affiliation> 
+		</author> 
+      <!-- This is appropriate place for other contributors: translators,
+           maintainers,  etc. Commented out by default.
+           <othercredit role="translator">
+	     <firstname>Latin</firstname> 
+	     <surname>Translator 1</surname> 
+	     <affiliation> 
+	       <orgname>Latin Translation Team</orgname> 
+	       <address> <email>translator@gnome.org</email> </address> 
+	     </affiliation>
+	     <contrib>Latin translation</contrib>
+           </othercredit>
+-->
+	 </authorgroup>
+	 
+	 <releaseinfo revision="2.26" role="review"/>
+
+	 <revhistory>
+	   <revision lang="en">
+	     <revnumber>Version 2.8</revnumber>
+	     <date>September 2004</date>
+	     <revdescription>
+	       <para role="author" lang="en">GNOME Documentation Team</para>
+	       <para role="publisher" lang="en">GNOME Documentation Project</para>
+	     </revdescription>
+	   </revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.6</revnumber> 
+		  <date>February 2004</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.5</revnumber> 
+		  <date>September 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.4</revnumber> 
+		  <date>August 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.3</revnumber> 
+		  <date>January 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.2</revnumber> 
+		  <date>August 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.1</revnumber> 
+		  <date>June 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.0</revnumber> 
+		  <date>March 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision lang="en"> 
+		  <revnumber>gEyes Applet</revnumber> 
+		  <date>2000</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Telsa Gwynne
+				<email>hobbit@aloss.ukuu.org.uk</email></para> 
+			 <para role="author" lang="en">Arjan Scherpenisse
+				<email>acscherp@wins.uva.nl</email></para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+	 </revhistory> 
+	 <releaseinfo>Tämä manuaali kattaa Silmät -sovelluksen version 2.8</releaseinfo> 
+	 <legalnotice> 
+		<title>Palaute</title> 
+		<para>Ilmoittaaksesi viasta tai tehdäksesi ehdotuksen koskien Silmät -sovellusta tai tätä käyttöohjetta, seuraa ohjeita <ulink url="ghelp:gnome-feedback" type="help">Gnome palautesivulla</ulink>.</para>
+		
+	 </legalnotice> 
+  </articleinfo> 
+  <indexterm lang="en"> 
+	 <primary>Geyes</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<sect1 id="geyes-introduction">
+<title>Johdanto</title>
+<!-- ==== Figure ============================================= -->
+	 <figure id="geyes-fig"> 
+		<title>Silmät -sovellus</title> 
+		<screenshot> 
+		  <mediaobject lang="en"> 
+			 <imageobject><imagedata fileref="figures/geyes_applet.png" format="PNG"/> 
+			 </imageobject>
+			 <textobject> 
+				<phrase>Shows Geyes applet.</phrase> 
+			 </textobject> 
+		  </mediaobject> 
+		</screenshot> 
+	 </figure> 
+    <!-- ==== End of Figure ======================================= -->
+<para><application>Silmät</application> -sovellus mahdollistaa viihdyttävän tavat seurata hiiren liikkeitä ympäri näyttöä. Sovellus on kuva yhdestä tai useammasta silmästä, joka/jotka seuraa hiiren liikkeitä ympäri näyttöä.</para>
+<para>Lisätäksesi <application>Silmät</application> -sovelluksen paneeliin, paina hiiren oikeata näppäintä paneelin päällä ja valitse <guimenuitem>Lisää paneeliin</guimenuitem>. Valitse <application>Silmät</application>, <application>Lisää paneeliin</application> -valintaikkunasta ja napsauta <guibutton>OK</guibutton>.</para>
+</sect1>
+<!-- ============= Preferences  ================================ -->
+<sect1 id="geyes-settings">
+<title>Asetukset</title>
+<para>Muokataksesi <application>Silmät</application> -sovelluksen asetuksia, napsauta hiiren oikealla näppäimellä <application>Silmät</application> -sovelluksen päällä ja valitse avautuvasta ponnahdusvalikosta <guimenuitem>Asetukset</guimenuitem>. Voit valita monen eri teeman väliltä. Jokainen eri teema vaikutta siihen, miltä silmät näyttävät.</para>
+</sect1>
+</article>

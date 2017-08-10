@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="oc">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Edit a dictionary source</title>
+
+  <p>You can customize a <link xref="sources">dictionary source</link> to
+  update details such as its description or remote address.</p>
+
+  <steps>
+    <title>To edit a dictionary source:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">Dictionary</gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Double click on the dictionary source you want to edit.</p>
+    </item>
+    <item>
+      <p>You can edit the following fields:</p>
+      <list>
+        <item>
+          <p><gui>Description</gui> is the name of the source as it will be
+          displayed to you.</p>
+        </item>
+        <item>
+          <p><gui>Transport</gui> is the type of server.</p>
+        </item>
+        <item>
+          <p><gui>Hostname</gui> is the location of the dictionary source.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Port</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>View the dictionaries that are available in the dictionary source by
+      selecting the <gui style="tab">Dictionaries</gui> tab.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Close</gui> to save the settings.</p>
+    </item>
+  </steps>
+
+</page>

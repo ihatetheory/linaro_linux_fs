@@ -1,0 +1,5 @@
+18ad84f1bc14be81a273d028a14fd846  usr/lib/arm-linux-gnueabihf/indicator-applet-complete
+9e0d59b05367f0891ddaab1dad4b434c  usr/share/dbus-1/services/org.gnome.panel.applet.IndicatorAppletCompleteFactory.service
+eacefb302ea0149e9e1722604a2b4be5  usr/share/doc/indicator-applet-complete/changelog.Debian.gz
+eb7db6e5794b8ca6c3e538b5929a134b  usr/share/doc/indicator-applet-complete/copyright
+3309b1b4b6847dda5ee7128a3ca20a9e  usr/share/gnome-panel/5.0/applets/org.ayatana.panel.IndicatorAppletComplete.panel-applet

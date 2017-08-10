@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="text-copy" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Selecione e copie uma definição para outro aplicativo.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Copiando uma definição</title>
+
+  <p>Você pode copiar e colar definições do <app>Dicionário</app> para outro aplicativo.</p>
+
+  <steps>
+    <title>Para copiar uma definição:</title>
+    <item>
+      <p>Selecione o texto que você deseja copiar no <app>Dicionário</app>. Alternativamente, você pode selecionar toda uma definição usando <guiseq><gui style="menu">Editar</gui> <gui style="menuitem">Selecionar tudo</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Selecione <guiseq><gui style="menu">Editar</gui> <gui style="menuitem">Copiar</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Cola o texto em outro aplicativo. Isso normalmente pode ser feito usando o atalho de teclado <keyseq><key>Ctrl</key><key>P</key></keyseq> ou por meio de um dos menus.</p>
+    </item>
+  </steps>
+
+</page>

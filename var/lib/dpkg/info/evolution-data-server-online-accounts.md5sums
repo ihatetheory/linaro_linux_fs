@@ -1,0 +1,14 @@
+03093d53a055d35d3c724a098f902366  usr/lib/evolution-data-server/registry-modules/module-gnome-online-accounts.so
+29364c92563d5f9d9b606c6c52a46304  usr/lib/evolution-data-server/registry-modules/module-ubuntu-online-accounts.so
+9266c4497254996996b069238c4d2243  usr/share/accounts/applications/evolution-data-server.application
+adf5bb7220a1ead26194ed1cc4d407b0  usr/share/accounts/service_types/calendar.service-type
+e2440cc218ad80565e2fbe1b52e173ea  usr/share/accounts/service_types/contacts.service-type
+77cc9ee82bf3a6fd472379aba80857bc  usr/share/accounts/service_types/mail.service-type
+9694bf11a51cbec242477fdab4ba3d03  usr/share/accounts/services/google-calendar.service
+4fce615e321df1d1f7d30e5ffa438640  usr/share/accounts/services/google-contacts.service
+edf8697ed52a810341e37868fa65454a  usr/share/accounts/services/google-gmail.service
+c94107cd301823f20c18bcc3ad0d16ae  usr/share/accounts/services/windows-live-mail.service
+72ef07f3031d36865ac55674eae170c5  usr/share/accounts/services/yahoo-calendar.service
+0495dfa711b9d94a70ad248681e8bac7  usr/share/accounts/services/yahoo-mail.service
+536a4b37b38d4e7ef8a30b2816d2d08f  usr/share/applications/evolution-data-server-uoa.desktop
+e07b25cb2e7e2716951a3c828d582c94  usr/share/doc/evolution-data-server-online-accounts/copyright

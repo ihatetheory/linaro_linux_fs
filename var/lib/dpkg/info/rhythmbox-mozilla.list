@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/mozilla
+/usr/lib/mozilla/plugins
+/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/rhythmbox-mozilla
+/usr/share/doc/rhythmbox-mozilla/copyright
+/usr/share/doc/rhythmbox-mozilla/THANKS
+/usr/share/doc/rhythmbox-mozilla/NEWS.Debian.gz
+/usr/share/doc/rhythmbox-mozilla/changelog.Debian.gz
+/usr/share/doc/rhythmbox-mozilla/NEWS.gz
+/usr/share/doc/rhythmbox-mozilla/AUTHORS
+/usr/share/doc/rhythmbox-mozilla/README

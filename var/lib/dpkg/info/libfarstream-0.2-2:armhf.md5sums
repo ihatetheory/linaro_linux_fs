@@ -1,0 +1,17 @@
+6f8ee96d1698f9de0069564b17bc58d1  usr/lib/arm-linux-gnueabihf/farstream-0.2/libmulticast-transmitter.so
+f29680c82dd4acb313012c259bfe0e71  usr/lib/arm-linux-gnueabihf/farstream-0.2/libnice-transmitter.so
+65171fd1d7fc0b50f75d6e4ed3ea9fba  usr/lib/arm-linux-gnueabihf/farstream-0.2/librawudp-transmitter.so
+f694e27d5eed0b66126493542259df72  usr/lib/arm-linux-gnueabihf/farstream-0.2/libshm-transmitter.so
+4238a92c993887033d2c32a6a9d597b4  usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libfsmsnconference.so
+df30ac94d0fe2373869e7bf6a950c5ed  usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libfsrawconference.so
+a8a6c06f0c298f690cfb66d35c9134f4  usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libfsrtcpfilter.so
+f7f083f2c2b13012c9748605b54e17c6  usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libfsrtpconference.so
+cd845a7085c863aa29e4bd608ce6e6d3  usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libfsvideoanyrate.so
+eeea89be3d2a332205e4c96e8aa1711c  usr/lib/arm-linux-gnueabihf/libfarstream-0.2.so.2.1.1
+6e9fc8f8d59fc32864a523dd1ca43883  usr/share/doc/libfarstream-0.2-2/NEWS.gz
+83458e54e7f7b15a95af2663c18185e9  usr/share/doc/libfarstream-0.2-2/README
+a121f41b8508d3d79b50504346b2a613  usr/share/doc/libfarstream-0.2-2/changelog.Debian.gz
+da7021b5749f5d3637b3ce9e71f2246f  usr/share/doc/libfarstream-0.2-2/copyright
+4bd04cf2d9fc22b4fd1746def7d77b18  usr/share/farstream/0.2/fsrawconference/default-element-properties
+8c6a7c84e4ba5c2f0a09172684f18221  usr/share/farstream/0.2/fsrtpconference/default-codec-preferences
+8a39a0dac4fef0dabf05b22f499116d2  usr/share/farstream/0.2/fsrtpconference/default-element-properties

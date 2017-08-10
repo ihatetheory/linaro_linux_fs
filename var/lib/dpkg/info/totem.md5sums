@@ -1,0 +1,15 @@
+7e91eda7fa2faa411591a3e4701b42b6  usr/bin/totem
+f840342de7b669a23717c3c1c8187543  usr/bin/totem-audio-preview
+6eed63eead2994b8f18016f17a4ed098  usr/bin/totem-video-thumbnailer
+a0c3f5463568c3bde4d5b6ee114aa99e  usr/lib/nautilus/extensions-3.0/libtotem-properties-page.so
+d28a2b67853d88770b2e81fc98107707  usr/lib/totem/totem/totem-bugreport.py
+12384de6e243f0e5590d0ecb722ae01b  usr/share/appdata/org.gnome.Totem.appdata.xml
+a2c88976633fe610d21c75ff23fb39db  usr/share/applications/org.gnome.Totem.desktop
+3417499398a755c353ce7238f5a38bb4  usr/share/applications/totem.desktop
+94966dfd107c79d38dc9f7c7c1e2e9c6  usr/share/bug/totem/control
+07caf874be261379cf54f2a25fe55ecb  usr/share/dbus-1/services/org.gnome.Totem.service
+f69e1e4c3db9f7adb5efcf6d4dcc9285  usr/share/doc/totem/README.Debian
+895062c3f6b7fb6b09b39fca8cbaacab  usr/share/doc/totem/copyright
+8c4d1e68184098a236965b6320c2f5ea  usr/share/lintian/overrides/totem
+3fa43afa23f09a2c06773195d554c910  usr/share/menu/totem
+17e8cd2b663d36fbe8a40d260bd40510  usr/share/python/runtime.d/totem.rtupdate

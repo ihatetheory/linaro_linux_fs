@@ -1,0 +1,10 @@
+DBus service for configuring kerberos and other online identities.
+
+How Active Directory domains are discovered
+============================================
+
+AD servers are located using the standard DNS kerberos SRV records
+and the Microsoft standard subzone for the domain. For example:
+
+ * A SRV record: _kerberos._udp.example.com
+ * An MSDCS subzone: _msdcs.example.com

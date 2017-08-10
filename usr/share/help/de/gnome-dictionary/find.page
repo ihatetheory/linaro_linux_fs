@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Text in einer Definition suchen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Innerhalb einer Definition suchen</title>
+
+  <p>Manche Wörterbucheinträge sind sehr groß und enthalten viele Ergebnisse. Es bietet sich an sie zu durchsuchen, um den Abschnitt zu finden, der für Sie relevant ist.</p>
+
+  <steps>
+    <title>So finden Sie eine Definition:</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui> <gui style="menitem">Suchen</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Die <gui>Such</gui>leiste wird am unteren Rand des <app>Wörterbuch</app>-Fensters erscheinen. Tippen Sie Ihren gesuchten Begriff, um innerhalb der Definition, die angezeigt wird, zu suchen.</p>
+    </item>
+    <item>
+      <p>Klicken Sie <gui style="button">Vorheriges</gui> oder <gui style="button">Nächstes</gui>, um zwischen den Suchergebnissen zu wechseln. Die Auswahl springt dabei nicht automatisch beim Erreichen der letzten Definition wieder an den Anfang, wenn man <gui style="button">Nächstes</gui> drückt.</p>
+    </item>
+  </steps>
+
+</page>

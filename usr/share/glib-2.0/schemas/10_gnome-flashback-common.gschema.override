@@ -1,0 +1,5 @@
+[org.gnome.gnome-flashback]
+automount-manager=false
+desktop-background=false
+idle-monitor=false
+sound-applet=false

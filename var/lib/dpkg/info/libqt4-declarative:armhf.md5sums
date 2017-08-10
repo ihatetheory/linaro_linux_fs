@@ -1,0 +1,6 @@
+ed889cca492ef29f04468576c42a8679  usr/lib/arm-linux-gnueabihf/libQtDeclarative.so.4.8.6
+087d469bdead08cb5e3500aab6fad188  usr/lib/arm-linux-gnueabihf/qt4/plugins/designer/libqdeclarativeview.so
+7aa13786f521ec026145ee341da59a02  usr/lib/arm-linux-gnueabihf/qt4/plugins/qmltooling/libqmldbg_inspector.so
+c07ae507ad074be1fd884f98cfbcfc62  usr/lib/arm-linux-gnueabihf/qt4/plugins/qmltooling/libqmldbg_tcp.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqt4-declarative/copyright
+d8a68ca459c6937aad86e03b8b689e5e  usr/share/lintian/overrides/libqt4-declarative

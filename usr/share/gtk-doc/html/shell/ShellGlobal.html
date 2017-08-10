@@ -1,0 +1,1622 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ShellGlobal: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="ch06.html" title="Integration helpers and utilities">
+<link rel="prev" href="gdbus-org.gnome.Shell.SearchProvider2.html" title="org.gnome.Shell.SearchProvider2">
+<link rel="next" href="shell-shell-keybinding-modes.html" title="shell-keybinding-modes">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ShellGlobal.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ShellGlobal.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#ShellGlobal.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ShellGlobal.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch06.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="gdbus-org.gnome.Shell.SearchProvider2.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="shell-shell-keybinding-modes.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ShellGlobal"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ShellGlobal.top_of_page"></a>ShellGlobal</span></h2>
+<p>ShellGlobal</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ShellGlobal.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="returnvalue">ShellGlobal</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get" title="shell_global_get ()">shell_global_get</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterStage</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-stage" title="shell_global_get_stage ()">shell_global_get_stage</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/meta/MetaScreen.html"><span class="returnvalue">MetaScreen</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-screen" title="shell_global_get_screen ()">shell_global_get_screen</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="http://developer.gnome.org/gdk2/GdkScreen.html"><span class="returnvalue">GdkScreen</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-gdk-screen" title="shell_global_get_gdk_screen ()">shell_global_get_gdk_screen</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/meta/MetaDisplay.html"><span class="returnvalue">MetaDisplay</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-display" title="shell_global_get_display ()">shell_global_get_display</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="returnvalue">GList</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-window-actors" title="shell_global_get_window_actors ()">shell_global_get_window_actors</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/gio/unstable/GSettings.html"><span class="returnvalue">GSettings</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-settings" title="shell_global_get_settings ()">shell_global_get_settings</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/gio/unstable/GSettings.html"><span class="returnvalue">GSettings</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-overrides-settings" title="shell_global_get_overrides_settings ()">shell_global_get_overrides_settings</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="returnvalue">guint32</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-current-time" title="shell_global_get_current_time ()">shell_global_get_current_time</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-begin-modal" title="shell_global_begin_modal ()">shell_global_begin_modal</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-end-modal" title="shell_global_end_modal ()">shell_global_end_modal</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-freeze-keyboard" title="shell_global_freeze_keyboard ()">shell_global_freeze_keyboard</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-set-stage-input-region" title="shell_global_set_stage_input_region ()">shell_global_set_stage_input_region</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-pointer" title="shell_global_get_pointer ()">shell_global_get_pointer</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-begin-work" title="shell_global_begin_work ()">shell_global_begin_work</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-end-work" title="shell_global_end_work ()">shell_global_end_work</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="ShellGlobal.html#ShellLeisureFunction" title="ShellLeisureFunction ()">*ShellLeisureFunction</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-run-at-leisure" title="shell_global_run_at_leisure ()">shell_global_run_at_leisure</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-sync-pointer" title="shell_global_sync_pointer ()">shell_global_sync_pointer</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/gio/unstable/GAppInfo.html#GAppLaunchContext"><span class="returnvalue">GAppLaunchContext</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-create-app-launch-context" title="shell_global_create_app_launch_context ()">shell_global_create_app_launch_context</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-play-theme-sound" title="shell_global_play_theme_sound ()">shell_global_play_theme_sound</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-play-theme-sound-full" title="shell_global_play_theme_sound_full ()">shell_global_play_theme_sound_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-play-sound-file" title="shell_global_play_sound_file ()">shell_global_play_sound_file</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-play-sound-file-full" title="shell_global_play_sound_file_full ()">shell_global_play_sound_file_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-cancel-theme-sound" title="shell_global_cancel_theme_sound ()">shell_global_cancel_theme_sound</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-notify-error" title="shell_global_notify_error ()">shell_global_notify_error</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-init-xdnd" title="shell_global_init_xdnd ()">shell_global_init_xdnd</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-reexec-self" title="shell_global_reexec_self ()">shell_global_reexec_self</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-session-mode" title="shell_global_get_session_mode ()">shell_global_get_session_mode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-set-runtime-state" title="shell_global_set_runtime_state ()">shell_global_set_runtime_state</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="returnvalue">GVariant</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-runtime-state" title="shell_global_get_runtime_state ()">shell_global_get_runtime_state</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-set-persistent-state" title="shell_global_set_persistent_state ()">shell_global_set_persistent_state</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="returnvalue">GVariant</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellGlobal.html#shell-global-get-persistent-state" title="shell_global_get_persistent_state ()">shell_global_get_persistent_state</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--datadir" title="The “datadir” property">datadir</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="/usr/share/gtk-doc/html/meta/MetaDisplay.html"><span class="type">MetaDisplay</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--display" title="The “display” property">display</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">StFocusManager</span> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--focus-manager" title="The “focus-manager” property">focus-manager</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--frame-finish-timestamp" title="The “frame-finish-timestamp” property">frame-finish-timestamp</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--frame-timestamps" title="The “frame-timestamps” property">frame-timestamps</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="http://developer.gnome.org/gdk2/GdkScreen.html"><span class="type">GdkScreen</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--gdk-screen" title="The “gdk-screen” property">gdk-screen</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--imagedir" title="The “imagedir” property">imagedir</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="/usr/share/gtk-doc/html/meta/MetaScreen.html"><span class="type">MetaScreen</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--screen" title="The “screen” property">screen</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a></td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--screen-height" title="The “screen-height” property">screen-height</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a></td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--screen-width" title="The “screen-width” property">screen-width</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--session-mode" title="The “session-mode” property">session-mode</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/gio/unstable/GSettings.html"><span class="type">GSettings</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--settings" title="The “settings” property">settings</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">ClutterActor</span> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--stage" title="The “stage” property">stage</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">ClutterActor</span> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--top-window-group" title="The “top-window-group” property">top-window-group</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--userdatadir" title="The “userdatadir” property">userdatadir</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">ClutterActor</span> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--window-group" title="The “window-group” property">window-group</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<a class="link" href="ShellWM.html" title="ShellWM"><span class="type">ShellWM</span></a> *</td>
+<td class="property_name"><a class="link" href="ShellGlobal.html#ShellGlobal--window-manager" title="The “window-manager” property">window-manager</a></td>
+<td class="property_flags">Read</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGlobal.html#ShellGlobal-notify-error" title="The “notify-error” signal">notify-error</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGlobal.html#ShellGlobal-xdnd-enter" title="The “xdnd-enter” signal">xdnd-enter</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGlobal.html#ShellGlobal-xdnd-leave" title="The “xdnd-leave” signal">xdnd-leave</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGlobal.html#ShellGlobal-xdnd-position-changed" title="The “xdnd-position-changed” signal">xdnd-position-changed</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="ShellGlobal.html#ShellMemoryInfo" title="ShellMemoryInfo">ShellMemoryInfo</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> ShellGlobal
+</pre>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="shell-global-get"></a><h3>shell_global_get ()</h3>
+<pre class="programlisting"><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="returnvalue">ShellGlobal</span></a> *
+shell_global_get (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Gets the singleton global object that represents the desktop.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.2.5"></a><h4>Returns</h4>
+<p> the singleton global object. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-stage"></a><h3>shell_global_get_stage ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterStage</span> *
+shell_global_get_stage (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.7.4.9.3.4"></a><h4>Returns</h4>
+<p> The default <span class="type">ClutterStage</span>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-screen"></a><h3>shell_global_get_screen ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/meta/MetaScreen.html"><span class="returnvalue">MetaScreen</span></a> *
+shell_global_get_screen (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.7.4.9.4.4"></a><h4>Returns</h4>
+<p> The default <a href="/usr/share/gtk-doc/html/meta/MetaScreen.html"><span class="type">MetaScreen</span></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-gdk-screen"></a><h3>shell_global_get_gdk_screen ()</h3>
+<pre class="programlisting"><a href="http://developer.gnome.org/gdk2/GdkScreen.html"><span class="returnvalue">GdkScreen</span></a> *
+shell_global_get_gdk_screen (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.7.4.9.5.4"></a><h4>Returns</h4>
+<p> Gdk screen object for the shell. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-display"></a><h3>shell_global_get_display ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/meta/MetaDisplay.html"><span class="returnvalue">MetaDisplay</span></a> *
+shell_global_get_display (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.7.4.9.6.4"></a><h4>Returns</h4>
+<p> The default <a href="/usr/share/gtk-doc/html/meta/MetaDisplay.html"><span class="type">MetaDisplay</span></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-window-actors"></a><h3>shell_global_get_window_actors ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="returnvalue">GList</span></a> *
+shell_global_get_window_actors (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Gets the list of <a href="/usr/share/gtk-doc/html/meta/MetaWindowActor.html"><span class="type">MetaWindowActor</span></a> for the plugin's screen</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.7.5"></a><h4>Returns</h4>
+<p> the list of windows. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> Meta.WindowActor][<acronym title="Free data container after the code is done."><span class="acronym">transfer container</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-settings"></a><h3>shell_global_get_settings ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/gio/unstable/GSettings.html"><span class="returnvalue">GSettings</span></a> *
+shell_global_get_settings (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Get the global GSettings instance.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.8.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.8.6"></a><h4>Returns</h4>
+<p> The GSettings object. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-overrides-settings"></a><h3>shell_global_get_overrides_settings ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/gio/unstable/GSettings.html"><span class="returnvalue">GSettings</span></a> *
+shell_global_get_overrides_settings (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Get the session overrides GSettings instance.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.9.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.9.6"></a><h4>Returns</h4>
+<p> The GSettings object. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-current-time"></a><h3>shell_global_get_current_time ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="returnvalue">guint32</span></a>
+shell_global_get_current_time (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.7.4.9.10.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.10.5"></a><h4>Returns</h4>
+<p> the current X server time from the current Clutter, Gdk, or X
+event. If called from outside an event handler, this may return
+<code class="literal">Clutter</code>.CURRENT_TIME (aka 0), or it may return a slightly
+out-of-date timestamp.</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-begin-modal"></a><h3>shell_global_begin_modal ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_global_begin_modal (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                          <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> timestamp</code></em>,
+                          <em class="parameter"><code><a href="/usr/share/gtk-doc/html/meta/MetaPlugin.html#MetaModalOptions"><span class="type">MetaModalOptions</span></a> options</code></em>);</pre>
+<p>Grabs the keyboard and mouse to the stage window. The stage will
+receive all keyboard and mouse events until <a class="link" href="ShellGlobal.html#shell-global-end-modal" title="shell_global_end_modal ()"><code class="function">shell_global_end_modal()</code></a>
+is called. This is used to implement "modes" for the shell, such as the
+overview mode or the "looking glass" debug overlay, that block
+application and normal key shortcuts.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.11.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.11.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if we succesfully entered the mode. <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if we couldn't
+enter the mode. Failure may occur because an application has the pointer
+or keyboard grabbed, because Mutter is in a mode itself like moving a
+window or alt-Tab window selection, or because <a class="link" href="ShellGlobal.html#shell-global-begin-modal" title="shell_global_begin_modal ()"><code class="function">shell_global_begin_modal()</code></a>
+was previouly called.</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-end-modal"></a><h3>shell_global_end_modal ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_end_modal (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                        <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> timestamp</code></em>);</pre>
+<p>Undoes the effect of <a class="link" href="ShellGlobal.html#shell-global-begin-modal" title="shell_global_begin_modal ()"><code class="function">shell_global_begin_modal()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.12.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-freeze-keyboard"></a><h3>shell_global_freeze_keyboard ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_freeze_keyboard (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                              <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint32"><span class="type">guint32</span></a> timestamp</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-set-stage-input-region"></a><h3>shell_global_set_stage_input_region ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_set_stage_input_region (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                     <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="type">GSList</span></a> *rectangles</code></em>);</pre>
+<p>Sets the area of the stage that is responsive to mouse clicks when
+we don't have a modal or grab.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.14.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>rectangles</p></td>
+<td class="parameter_description"><p> a list of <a href="/usr/share/gtk-doc/html/meta/MetaRectangle.html"><span class="type">MetaRectangle</span></a>
+describing the input region. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> Meta.Rectangle]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-pointer"></a><h3>shell_global_get_pointer ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_get_pointer (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                          <em class="parameter"><code><span class="type">int</span> *x</code></em>,
+                          <em class="parameter"><code><span class="type">int</span> *y</code></em>,
+                          <em class="parameter"><code><span class="type">ClutterModifierType</span> *mods</code></em>);</pre>
+<p>Gets the pointer coordinates and current modifier key state.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.15.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x</p></td>
+<td class="parameter_description"><p> the X coordinate of the pointer, in global coordinates. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y</p></td>
+<td class="parameter_description"><p> the Y coordinate of the pointer, in global coordinates. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>mods</p></td>
+<td class="parameter_description"><p> the current set of modifier keys that are pressed down. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-begin-work"></a><h3>shell_global_begin_work ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_begin_work (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Marks that we are currently doing work. This is used to to track
+whether we are busy for the purposes of <a class="link" href="ShellGlobal.html#shell-global-run-at-leisure" title="shell_global_run_at_leisure ()"><code class="function">shell_global_run_at_leisure()</code></a>.
+A count is kept and <a class="link" href="ShellGlobal.html#shell-global-end-work" title="shell_global_end_work ()"><code class="function">shell_global_end_work()</code></a> must be called exactly
+as many times as <a class="link" href="ShellGlobal.html#shell-global-begin-work" title="shell_global_begin_work ()"><code class="function">shell_global_begin_work()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.16.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-end-work"></a><h3>shell_global_end_work ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_end_work (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Marks the end of work that we started with <a class="link" href="ShellGlobal.html#shell-global-begin-work" title="shell_global_begin_work ()"><code class="function">shell_global_begin_work()</code></a>.
+If no other work is ongoing and functions have been added with
+<a class="link" href="ShellGlobal.html#shell-global-run-at-leisure" title="shell_global_run_at_leisure ()"><code class="function">shell_global_run_at_leisure()</code></a>, they will be run at the next
+opportunity.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.17.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellLeisureFunction"></a><h3>ShellLeisureFunction ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*ShellLeisureFunction<span class="c_punctuation">)</span> (<em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> data</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-run-at-leisure"></a><h3>shell_global_run_at_leisure ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_run_at_leisure (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                             <em class="parameter"><code><a class="link" href="ShellGlobal.html#ShellLeisureFunction" title="ShellLeisureFunction ()"><span class="type">ShellLeisureFunction</span></a> func</code></em>,
+                             <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data</code></em>,
+                             <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Datasets.html#GDestroyNotify"><span class="type">GDestroyNotify</span></a> notify</code></em>);</pre>
+<p>Schedules a function to be called the next time the shell is idle.
+Idle means here no animations, no redrawing, and no ongoing background
+work. Since there is currently no way to hook into the Clutter master
+clock and know when is running, the implementation here is somewhat
+approximation. Animations done through the shell's Tweener module will
+be handled properly, but other animations may be detected as terminating
+early if they can be drawn fast enough so that the event loop goes idle
+between frames.</p>
+<p>The intent of this function is for performance measurement runs
+where a number of actions should be run serially and each action is
+timed individually. Using this function for other purposes will
+interfere with the ability to use it for performance measurement so
+should be avoided.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.19.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>function to call at leisure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>notify</p></td>
+<td class="parameter_description"><p>function to call to free <em class="parameter"><code>user_data</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-sync-pointer"></a><h3>shell_global_sync_pointer ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_sync_pointer (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Ensures that clutter is aware of the current pointer position,
+causing enter and leave events to be emitted if the pointer moved
+behind our back (ie, during a pointer grab).</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.20.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-create-app-launch-context"></a><h3>shell_global_create_app_launch_context ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/gio/unstable/GAppInfo.html#GAppLaunchContext"><span class="returnvalue">GAppLaunchContext</span></a> *
+shell_global_create_app_launch_context
+                               (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                <em class="parameter"><code><span class="type">int</span> timestamp</code></em>,
+                                <em class="parameter"><code><span class="type">int</span> workspace</code></em>);</pre>
+<p>Create a <a href="https://developer.gnome.org/gio/unstable/GAppInfo.html#GAppLaunchContext"><span class="type">GAppLaunchContext</span></a> set up with the correct timestamp, and
+targeted to activate on the current workspace.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.21.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>timestamp</p></td>
+<td class="parameter_description"><p>the timestamp for the launch (or 0 for current time)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>workspace</p></td>
+<td class="parameter_description"><p>a workspace index, or -1 to indicate the current one</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.21.6"></a><h4>Returns</h4>
+<p> A new <a href="https://developer.gnome.org/gio/unstable/GAppInfo.html#GAppLaunchContext"><span class="type">GAppLaunchContext</span></a>. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-play-theme-sound"></a><h3>shell_global_play_theme_sound ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_play_theme_sound (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                               <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> id</code></em>,
+                               <em class="parameter"><code>const <span class="type">char</span> *name</code></em>,
+                               <em class="parameter"><code>const <span class="type">char</span> *description</code></em>,
+                               <em class="parameter"><code><span class="type">ClutterEvent</span> *for_event</code></em>);</pre>
+<p>Plays a simple sound picked according to Freedesktop sound theme.
+Really just a workaround for libcanberra not being introspected.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.22.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>an id, used to cancel later (0 if not needed)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>the sound name</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>for_event</p></td>
+<td class="parameter_description"><p> a <span class="type">ClutterEvent</span> in response to which the sound is played. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-play-theme-sound-full"></a><h3>shell_global_play_theme_sound_full ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_play_theme_sound_full (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                    <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> id</code></em>,
+                                    <em class="parameter"><code>const <span class="type">char</span> *name</code></em>,
+                                    <em class="parameter"><code>const <span class="type">char</span> *description</code></em>,
+                                    <em class="parameter"><code><span class="type">ClutterEvent</span> *for_event</code></em>,
+                                    <em class="parameter"><code>const <span class="type">char</span> *application_id</code></em>,
+                                    <em class="parameter"><code>const <span class="type">char</span> *application_name</code></em>);</pre>
+<p>Plays a simple sound picked according to Freedesktop sound theme.
+Really just a workaround for libcanberra not being introspected.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.23.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>an id, used to cancel later (0 if not needed)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>the sound name</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>description</p></td>
+<td class="parameter_description"><p>the localized description of the event that triggered this alert</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>for_event</p></td>
+<td class="parameter_description"><p> a <span class="type">ClutterEvent</span> in response to which the sound is played. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>application_id</p></td>
+<td class="parameter_description"><p>application on behalf of which the sound is played</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-play-sound-file"></a><h3>shell_global_play_sound_file ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_play_sound_file (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                              <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> id</code></em>,
+                              <em class="parameter"><code>const <span class="type">char</span> *file_name</code></em>,
+                              <em class="parameter"><code>const <span class="type">char</span> *description</code></em>,
+                              <em class="parameter"><code><span class="type">ClutterEvent</span> *for_event</code></em>);</pre>
+<p>Like <a class="link" href="ShellGlobal.html#shell-global-play-theme-sound" title="shell_global_play_theme_sound ()"><code class="function">shell_global_play_theme_sound()</code></a>, but with an explicit path
+instead of a themed sound.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.24.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>an id, used to cancel later (0 if not needed)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>file_name</p></td>
+<td class="parameter_description"><p>the file name to play</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>description</p></td>
+<td class="parameter_description"><p>the localized description of the event that triggered this alert</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>for_event</p></td>
+<td class="parameter_description"><p> a <span class="type">ClutterEvent</span> in response to which the sound is played. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-play-sound-file-full"></a><h3>shell_global_play_sound_file_full ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_play_sound_file_full (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                   <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> id</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *file_name</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *description</code></em>,
+                                   <em class="parameter"><code><span class="type">ClutterEvent</span> *for_event</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *application_id</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *application_name</code></em>);</pre>
+<p>Like <a class="link" href="ShellGlobal.html#shell-global-play-theme-sound-full" title="shell_global_play_theme_sound_full ()"><code class="function">shell_global_play_theme_sound_full()</code></a>, but with an explicit path
+instead of a themed sound.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.25.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>an id, used to cancel later (0 if not needed)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>file_name</p></td>
+<td class="parameter_description"><p>the file name to play</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>description</p></td>
+<td class="parameter_description"><p>the localized description of the event that triggered this alert</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>for_event</p></td>
+<td class="parameter_description"><p> a <span class="type">ClutterEvent</span> in response to which the sound is played. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>application_id</p></td>
+<td class="parameter_description"><p>application on behalf of which the sound is played</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-cancel-theme-sound"></a><h3>shell_global_cancel_theme_sound ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_cancel_theme_sound (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                 <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a> id</code></em>);</pre>
+<p>Cancels a sound notification.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.26.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>the id previously passed to <a class="link" href="ShellGlobal.html#shell-global-play-theme-sound" title="shell_global_play_theme_sound ()"><code class="function">shell_global_play_theme_sound()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-notify-error"></a><h3>shell_global_notify_error ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_notify_error (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                           <em class="parameter"><code>const <span class="type">char</span> *msg</code></em>,
+                           <em class="parameter"><code>const <span class="type">char</span> *details</code></em>);</pre>
+<p>Show a system error notification.  Use this function
+when a user-initiated action results in a non-fatal problem
+from causes that may not be under system control.  For
+example, an application crash.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.27.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>msg</p></td>
+<td class="parameter_description"><p>Error message</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>details</p></td>
+<td class="parameter_description"><p>Error details</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-init-xdnd"></a><h3>shell_global_init_xdnd ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_init_xdnd (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Enables tracking of Xdnd events</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.28.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-reexec-self"></a><h3>shell_global_reexec_self ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_reexec_self (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+<p>Restart the current process.  Only intended for development purposes.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.29.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-session-mode"></a><h3>shell_global_get_session_mode ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+shell_global_get_session_mode (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-set-runtime-state"></a><h3>shell_global_set_runtime_state ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_set_runtime_state (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                <em class="parameter"><code>const <span class="type">char</span> *property_name</code></em>,
+                                <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="type">GVariant</span></a> *variant</code></em>);</pre>
+<p>Change the value of serialized runtime state.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.31.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property_name</p></td>
+<td class="parameter_description"><p>Name of the property</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>variant</p></td>
+<td class="parameter_description"><p> A <a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="type">GVariant</span></a>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> to unset. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-runtime-state"></a><h3>shell_global_get_runtime_state ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="returnvalue">GVariant</span></a> *
+shell_global_get_runtime_state (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                <em class="parameter"><code>const <span class="type">char</span> *property_type</code></em>,
+                                <em class="parameter"><code>const <span class="type">char</span> *property_name</code></em>);</pre>
+<p>The shell maintains "runtime" state which does not persist across
+logout or reboot.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.32.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property_type</p></td>
+<td class="parameter_description"><p>Expected data type</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property_name</p></td>
+<td class="parameter_description"><p>Name of the property</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.32.6"></a><h4>Returns</h4>
+<p> The value of a serialized property, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if none stored. </p>
+<p><span class="annotation">[<acronym title="Alias for transfer none, used for objects with floating refs."><span class="acronym">transfer floating</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-set-persistent-state"></a><h3>shell_global_set_persistent_state ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_global_set_persistent_state (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *property_name</code></em>,
+                                   <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="type">GVariant</span></a> *variant</code></em>);</pre>
+<p>Change the value of serialized persistent state.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.33.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property_name</p></td>
+<td class="parameter_description"><p>Name of the property</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>variant</p></td>
+<td class="parameter_description"><p> A <a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="type">GVariant</span></a>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> to unset. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-global-get-persistent-state"></a><h3>shell_global_get_persistent_state ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-GVariant.html#GVariant"><span class="returnvalue">GVariant</span></a> *
+shell_global_get_persistent_state (<em class="parameter"><code><a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *global</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *property_type</code></em>,
+                                   <em class="parameter"><code>const <span class="type">char</span> *property_name</code></em>);</pre>
+<p>The shell maintains "persistent" state which will persist after
+logout or reboot.</p>
+<div class="refsect3">
+<a name="id-1.7.4.9.34.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>global</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property_type</p></td>
+<td class="parameter_description"><p>Expected data type</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property_name</p></td>
+<td class="parameter_description"><p>Name of the property</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.7.4.9.34.6"></a><h4>Returns</h4>
+<p> The value of a serialized property, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if none stored. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="ShellMemoryInfo"></a><h3>ShellMemoryInfo</h3>
+<pre class="programlisting">typedef struct {
+  guint glibc_uordblks;
+
+  guint js_bytes;
+
+  guint gjs_boxed;
+  guint gjs_gobject;
+  guint gjs_function;
+  guint gjs_closure;
+
+  /* 32 bit to avoid js conversion problems with 64 bit */
+  guint  last_gc_seconds_ago;
+} ShellMemoryInfo;
+</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="ShellGlobal--datadir"></a><h3>The <code class="literal">“datadir”</code> property</h3>
+<pre class="programlisting">  “datadir”                  <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>Directory containing gnome-shell data files.</p>
+<p>Flags: Read</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--display"></a><h3>The <code class="literal">“display”</code> property</h3>
+<pre class="programlisting">  “display”                  <a href="/usr/share/gtk-doc/html/meta/MetaDisplay.html"><span class="type">MetaDisplay</span></a> *</pre>
+<p>Metacity display object for the shell.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--focus-manager"></a><h3>The <code class="literal">“focus-manager”</code> property</h3>
+<pre class="programlisting">  “focus-manager”            <span class="type">StFocusManager</span> *</pre>
+<p>The shell's StFocusManager.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--frame-finish-timestamp"></a><h3>The <code class="literal">“frame-finish-timestamp”</code> property</h3>
+<pre class="programlisting">  “frame-finish-timestamp”   <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Whether at the end of a frame to call glFinish and log paintCompletedTimestamp.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--frame-timestamps"></a><h3>The <code class="literal">“frame-timestamps”</code> property</h3>
+<pre class="programlisting">  “frame-timestamps”         <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Whether to log frame timestamps in the performance log.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--gdk-screen"></a><h3>The <code class="literal">“gdk-screen”</code> property</h3>
+<pre class="programlisting">  “gdk-screen”               <a href="http://developer.gnome.org/gdk2/GdkScreen.html"><span class="type">GdkScreen</span></a> *</pre>
+<p>Gdk screen object for the shell.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--imagedir"></a><h3>The <code class="literal">“imagedir”</code> property</h3>
+<pre class="programlisting">  “imagedir”                 <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>Directory containing gnome-shell image files.</p>
+<p>Flags: Read</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--screen"></a><h3>The <code class="literal">“screen”</code> property</h3>
+<pre class="programlisting">  “screen”                   <a href="/usr/share/gtk-doc/html/meta/MetaScreen.html"><span class="type">MetaScreen</span></a> *</pre>
+<p>Metacity screen object for the shell.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--screen-height"></a><h3>The <code class="literal">“screen-height”</code> property</h3>
+<pre class="programlisting">  “screen-height”            <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a></pre>
+<p>Screen height, in pixels.</p>
+<p>Flags: Read</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 1</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--screen-width"></a><h3>The <code class="literal">“screen-width”</code> property</h3>
+<pre class="programlisting">  “screen-width”             <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a></pre>
+<p>Screen width, in pixels.</p>
+<p>Flags: Read</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 1</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--session-mode"></a><h3>The <code class="literal">“session-mode”</code> property</h3>
+<pre class="programlisting">  “session-mode”             <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>The session mode to use.</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: "user"</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--settings"></a><h3>The <code class="literal">“settings”</code> property</h3>
+<pre class="programlisting">  “settings”                 <a href="https://developer.gnome.org/gio/unstable/GSettings.html"><span class="type">GSettings</span></a> *</pre>
+<p>GSettings instance for gnome-shell configuration.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--stage"></a><h3>The <code class="literal">“stage”</code> property</h3>
+<pre class="programlisting">  “stage”                    <span class="type">ClutterActor</span> *</pre>
+<p>Stage holding the desktop scene graph.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--top-window-group"></a><h3>The <code class="literal">“top-window-group”</code> property</h3>
+<pre class="programlisting">  “top-window-group”         <span class="type">ClutterActor</span> *</pre>
+<p>Actor holding override-redirect windows.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--userdatadir"></a><h3>The <code class="literal">“userdatadir”</code> property</h3>
+<pre class="programlisting">  “userdatadir”              <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>Directory containing gnome-shell user data.</p>
+<p>Flags: Read</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--window-group"></a><h3>The <code class="literal">“window-group”</code> property</h3>
+<pre class="programlisting">  “window-group”             <span class="type">ClutterActor</span> *</pre>
+<p>Actor holding window actors.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal--window-manager"></a><h3>The <code class="literal">“window-manager”</code> property</h3>
+<pre class="programlisting">  “window-manager”           <a class="link" href="ShellWM.html" title="ShellWM"><span class="type">ShellWM</span></a> *</pre>
+<p>Window management interface.</p>
+<p>Flags: Read</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellGlobal.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ShellGlobal-notify-error"></a><h3>The <code class="literal">“notify-error”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *shellglobal,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>       *arg1,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>       *arg2,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>     user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal-xdnd-enter"></a><h3>The <code class="literal">“xdnd-enter”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *shellglobal,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>     user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal-xdnd-leave"></a><h3>The <code class="literal">“xdnd-leave”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *shellglobal,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>     user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGlobal-xdnd-position-changed"></a><h3>The <code class="literal">“xdnd-position-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGlobal.html" title="ShellGlobal"><span class="type">ShellGlobal</span></a> *shellglobal,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a>         arg1,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a>         arg2,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>     user_data)</pre>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

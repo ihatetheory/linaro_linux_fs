@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ShellGenericContainer: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="ch01.html" title="Actors">
+<link rel="prev" href="ch01.html" title="Actors">
+<link rel="next" href="ShellSlicer.html" title="ShellSlicer">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ShellGenericContainer.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ShellGenericContainer.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ShellGenericContainer.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch01.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ShellSlicer.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ShellGenericContainer"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ShellGenericContainer.top_of_page"></a>ShellGenericContainer</span></h2>
+<p>ShellGenericContainer — A container class with signals for allocation</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ShellGenericContainer.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGenericContainer.html#shell-generic-container-get-n-skip-paint" title="shell_generic_container_get_n_skip_paint ()">shell_generic_container_get_n_skip_paint</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGenericContainer.html#shell-generic-container-get-skip-paint" title="shell_generic_container_get_skip_paint ()">shell_generic_container_get_skip_paint</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellGenericContainer.html#shell-generic-container-set-skip-paint" title="shell_generic_container_set_skip_paint ()">shell_generic_container_set_skip_paint</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellGenericContainer.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGenericContainer.html#ShellGenericContainer-allocate" title="The “allocate” signal">allocate</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGenericContainer.html#ShellGenericContainer-get-preferred-height" title="The “get-preferred-height” signal">get-preferred-height</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ShellGenericContainer.html#ShellGenericContainer-get-preferred-width" title="The “get-preferred-width” signal">get-preferred-width</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="ShellGenericContainerAllocation"></a><div class="refsect1">
+<a name="ShellGenericContainer.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GBoxed
+    <span class="lineart">╰──</span> ShellGenericContainerAllocation
+    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> ClutterActor
+            <span class="lineart">╰──</span> <a href="/home/fmuellner/opt/gnome/share/gtk-doc/html/st/StWidget.html">StWidget</a>
+                <span class="lineart">╰──</span> ShellGenericContainer
+</pre>
+</div>
+<div class="refsect1">
+<a name="ShellGenericContainer.description"></a><h2>Description</h2>
+<p><a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a> is mainly a workaround for the current
+lack of GObject subclassing + vfunc overrides in gjs.  We
+implement the container interface, but proxy the virtual functions
+into signals, which gjs can catch.</p>
+<p><a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a> is an <a href="/home/fmuellner/opt/gnome/share/gtk-doc/html/st/StWidget.html"><span class="type">StWidget</span></a>, and automatically takes its
+borders and padding into account during size request and allocation.</p>
+</div>
+<div class="refsect1">
+<a name="ShellGenericContainer.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="shell-generic-container-get-n-skip-paint"></a><h3>shell_generic_container_get_n_skip_paint ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>
+shell_generic_container_get_n_skip_paint
+                               (<em class="parameter"><code><a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a> *self</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.8.2.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.8.2.5"></a><h4>Returns</h4>
+<p> Number of children which will not be painted.</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-generic-container-get-skip-paint"></a><h3>shell_generic_container_get_skip_paint ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+shell_generic_container_get_skip_paint
+                               (<em class="parameter"><code><a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a> *self</code></em>,
+                                <em class="parameter"><code><span class="type">ClutterActor</span> *child</code></em>);</pre>
+<p>Gets whether or not <em class="parameter"><code>actor</code></em>
+ is skipped when painting.</p>
+<div class="refsect3">
+<a name="id-1.2.2.8.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>child</p></td>
+<td class="parameter_description"><p>Child <span class="type">ClutterActor</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.8.3.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-generic-container-set-skip-paint"></a><h3>shell_generic_container_set_skip_paint ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+shell_generic_container_set_skip_paint
+                               (<em class="parameter"><code><a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a> *self</code></em>,
+                                <em class="parameter"><code><span class="type">ClutterActor</span> *child</code></em>,
+                                <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> skip</code></em>);</pre>
+<p>Set whether or not we should skip painting <em class="parameter"><code>actor</code></em>
+.  Workaround for
+lack of gjs ability to override _paint vfunc.</p>
+<div class="refsect3">
+<a name="id-1.2.2.8.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>child</p></td>
+<td class="parameter_description"><p>Child <span class="type">ClutterActor</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>skip</p></td>
+<td class="parameter_description"><p><a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if we should skip painting</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellGenericContainer.other_details"></a><h2>Types and Values</h2>
+</div>
+<div class="refsect1">
+<a name="ShellGenericContainer.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ShellGenericContainer-allocate"></a><h3>The <code class="literal">“allocate”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a> *self,
+               <span class="type">ClutterActorBox</span>       *box,
+               <span class="type">ClutterAllocationFlags</span> flags,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>               user_data)</pre>
+<p>Emitted when <em class="parameter"><code>self</code></em>
+ is allocated, after chaining up to the parent
+allocate method.</p>
+<p>Note that <em class="parameter"><code>box</code></em>
+ is <em class="parameter"><code>self</code></em>
+'s content box (qv
+<a href="/home/fmuellner/opt/gnome/share/gtk-doc/html/st/st-st-theme-node.html#st-theme-node-get-content-box"><code class="function">st_theme_node_get_content_box()</code></a>), NOT its allocation.</p>
+<div class="refsect3">
+<a name="id-1.2.2.10.2.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>box</p></td>
+<td class="parameter_description"><p><em class="parameter"><code>self</code></em>
+'s content box</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>the allocation flags.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGenericContainer-get-preferred-height"></a><h3>The <code class="literal">“get-preferred-height”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a>           *self,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="type">gfloat</span></a>                           for_width,
+               <a class="link" href="ShellGenericContainer.html#ShellGenericContainerAllocation"><span class="type">ShellGenericContainerAllocation</span></a> *alloc,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>                         user_data)</pre>
+<p>Emitted when <code class="function">clutter_actor_get_preferred_height()</code> is called
+on <em class="parameter"><code>self</code></em>
+. You should fill in the fields of <em class="parameter"><code>alloc</code></em>
+ with the
+your minimum and natural heights. <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a>
+will deal with taking its borders and padding into account
+for you.</p>
+<p><em class="parameter"><code>alloc</code></em>
+'s fields are initialized to 0, so unless you have a fixed
+height specified (via <span class="type">“height”</span> or CSS), you must
+connect to this signal and fill in the values.</p>
+<div class="refsect3">
+<a name="id-1.2.2.10.3.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>for_width</p></td>
+<td class="parameter_description"><p>as in <code class="function">clutter_actor_get_preferred_height()</code></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>alloc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGenericContainer.html#ShellGenericContainerAllocation"><span class="type">ShellGenericContainerAllocation</span></a> to be filled in</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ShellGenericContainer-get-preferred-width"></a><h3>The <code class="literal">“get-preferred-width”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a>           *self,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="type">gfloat</span></a>                           for_height,
+               <a class="link" href="ShellGenericContainer.html#ShellGenericContainerAllocation"><span class="type">ShellGenericContainerAllocation</span></a> *alloc,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>                         user_data)</pre>
+<p>Emitted when <code class="function">clutter_actor_get_preferred_width()</code> is called
+on <em class="parameter"><code>self</code></em>
+. You should fill in the fields of <em class="parameter"><code>alloc</code></em>
+ with the
+your minimum and natural widths. <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a>
+will deal with taking its borders and padding into account
+for you.</p>
+<p><em class="parameter"><code>alloc</code></em>
+'s fields are initialized to 0, so unless you have a fixed
+width specified (via <span class="type">“width”</span> or CSS), you must
+connect to this signal and fill in the values.</p>
+<div class="refsect3">
+<a name="id-1.2.2.10.4.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>the <a class="link" href="ShellGenericContainer.html" title="ShellGenericContainer"><span class="type">ShellGenericContainer</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>for_height</p></td>
+<td class="parameter_description"><p>as in <code class="function">clutter_actor_get_preferred_width()</code></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>alloc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ShellGenericContainer.html#ShellGenericContainerAllocation"><span class="type">ShellGenericContainerAllocation</span></a> to be filled in</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

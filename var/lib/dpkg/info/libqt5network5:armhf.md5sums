@@ -1,0 +1,6 @@
+7c9c4299acccb5bd0a26c423eab3eac0  usr/lib/arm-linux-gnueabihf/libQt5Network.so.5.4.1
+d19a59e6d0906470bf6789ea688f95e3  usr/lib/arm-linux-gnueabihf/qt5/plugins/bearer/libqconnmanbearer.so
+e7126a219c7a3984f46b133c82aaf4d0  usr/lib/arm-linux-gnueabihf/qt5/plugins/bearer/libqgenericbearer.so
+f25ca9cb07dc27d291b033659da8a62f  usr/lib/arm-linux-gnueabihf/qt5/plugins/bearer/libqnmbearer.so
+e7626ab0699ffb4dd320aab29839dad7  usr/share/doc/libqt5network5/copyright
+b3dc5fcd18066b56d871c24b8ca849d0  usr/share/lintian/overrides/libqt5network5

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-select" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="sources-default"/>
+    <link type="seealso" xref="dictionary-select"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Seleccionar una fuente de diccionario</title>
+
+  <p>Puede cambiar la <link xref="sources">fuente de diccionarios</link> que está usando actualmente sin cambiar sus preferencias predeterminadas.</p>
+
+  <steps>
+    <title>Cambiar temporalmente la fuente de diccionarios:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Fuentes de diccionario</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Pulse dos veces sobre el diccionario que quiere usar.</p>
+    </item>
+  </steps>
+
+</page>

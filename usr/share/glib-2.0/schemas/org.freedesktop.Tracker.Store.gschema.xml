@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/freedesktop/tracker/store/" id="org.freedesktop.Tracker.Store" gettext-domain="tracker">
+    <key name="verbosity" enum="org.freedesktop.Tracker.TrackerVerbosity">
+      <default>'errors'</default>
+      <summary>Log verbosity</summary>
+      <description>Log verbosity.</description>
+    </key>
+    <key type="i" name="graphupdated-delay">
+      <default>1000</default>
+      <summary>GraphUpdated delay</summary>
+      <description>Period in milliseconds between GraphUpdated signals being emitted when indexed data has changed inside the database.</description>
+    </key>
+  </schema>
+</schemalist>

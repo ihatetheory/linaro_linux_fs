@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.2.2">
+<!ENTITY manrevision "2.5">
+<!ENTITY date "June 2010">
+<!ENTITY app "GStreamer Properties">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+  
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="cs">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Příručka V2.5 k aplikaci Výběr systému multimédií</title>       
+
+    <copyright>
+      <year>2003</year> 
+      <holder>Christian Fredrik Kalager Schaller</holder> 
+    </copyright><copyright><year>2009.</year><holder>Marek Černocký (marek@manet.cz)</holder></copyright> 
+
+    <abstract role="description">
+      <para>Pomocí aplikace Výběr systému multimédií můžete nastavovat volby vztahující se hardware a multimédiím</para>
+    </abstract>
+
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+    <publisher> 
+      <publishername>Dokumentační projekt GNOME</publishername> 
+    </publisher> 
+
+     <legalnotice id="legalnotice">
+	<para>Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License, verze 1.1 nebo jakékoli další verze vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu jménem <ulink type="help" url="ghelp:fdl">GNU Free Documentation License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou.</para>
+         <para>Tato příručka je součástí kolekce příruček GNOME, distribuovaných pod licencí GNU FDL. Pokud chcete tento dokument šířit odděleně od kolekce, musíte přiložit kopii licence dle popisu v sekci 6 dané licence.</para>
+
+	<para>Mnoho užívaných jmen určených k zviditelnění produktů nebo služeb jsou ochranné známky. Na místech, kde jsou tato jména v dokumentaci užita a členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se jedná o ochrannou známku, je takové jméno psáno velkými písmeny celé nebo s velkým písmenem na začátku.</para>
+
+	<para>DOKUMENT A JEHO UPRAVENÉ VERZE JSOU ŠÍŘENY V SOULADU SE ZNĚNÍM LICENCE GNU FREE DOCUMENTATION LICENSE S NÁSLEDUJÍCÍM USTANOVENÍM: <orderedlist>
+		<listitem>
+		  <para>DOKUMENT JE POSKYTOVÁN V PODOBĚ „JAK JE“ BEZ ZÁRUKY V JAKÉKOLIV PODOBĚ, NEPOSKYTUJÍ SE ANI ODVOZENÉ ZÁRUKY, ZÁRUKY, ŽE DOKUMENT, NEBO JEHO UPRAVENÁ VERZE, JE BEZCHYBNÝ NEBO ZÁRUKY PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL NEBO NEPORUŠENOSTI. RIZIKO NEKVALITY, NEPŘESNOSTI A ŠPATNÉHO PROVEDENÍ DOKUMENTU, NEBO JEHO UPRAVENÉ VERZE, LEŽÍ NA VÁS. POKUD KVŮLI TOMUTO DOKUMENTU, NEBO JEHO UPRAVENÉ VERZI, NASTANE PROBLÉM, VY (NIKOLIV PŮVODNÍ AUTOR NEBO JAKÝKOLIV PŘISPĚVATEL) PŘEBÍRÁTE JAKÉKOLIV NÁKLADY ZA NUTNÉ ÚPRAVY, OPRAVY ČI SLUŽBY. TOTO PROHLÁŠENÍ O ZÁRUCE PŘEDSTAVUJE ZÁKLADNÍ SOUČÁST TÉTO LICENCE. BEZ TOHOTO PROHLÁŠENÍ NENÍ, PODLE TÉTO DOHODY, POVOLENO UŽÍVÁNÍ ANI ÚPRAVY TOHOTO DOKUMENTU; DÁLE</para>
+		</listitem>
+		<listitem>
+		  <para>ZA ŽÁDNÝCH OKOLNOSTÍ A ŽÁDNÝCH PRÁVNÍCH PŘEDPOKLADŮ, AŤ SE JEDNÁ O PŘEČIN (VČETNĚ NEDBALOSTNÍCH), SMLOUVU NEBO JINÉ, NENÍ AUTOR, PŮVODNÍ PISATEL, KTERÝKOLIV PŘISPĚVATEL NEBO KTERÝKOLIV DISTRIBUTOR TOHOTO DOKUMENTU NEBO UPRAVENÉ VERZE DOKUMENTU NEBO KTERÝKOLIV DODAVATEL NĚKTERÉ Z TĚCHTO STRAN ODPOVĚDNÝ NĚJAKÉ OSOBĚ ZA PŘÍMÉ, NEPŘÍMÉ, SPECIÁLNÍ, NAHODILÉ NEBO NÁSLEDNÉ ŠKODY JAKÉHOKOLIV CHARAKTERU, VČETNĚ, ALE NEJEN, ZA POŠKOZENÍ ZE ZTRÁTY DOBRÉHO JMÉNA, PŘERUŠENÍ PRÁCE, PORUCHY NEBO NESPRÁVNÉ FUNKCE POČÍTAČE NEBO JINÉHO A VŠECH DALŠÍCH ŠKOD NEBO ZTRÁT VYVSTÁVAJÍCÍCH Z NEBO VZTAHUJÍCÍCH SE K POUŽÍVÁNÍ TOHOTO DOKUMENTU NEBO UPRAVENÝCH VERZÍ DOKUMENTU, I KDYŽ BY TAKOVÁTO STRANA BYLA INFORMOVANÁ O MOŽNOSTI TAKOVÉHOTO POŠKOZENÍ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+
+    <authorgroup> 
+      <author role="maintainer"> 
+	<firstname>Christian Fredrik</firstname> 
+	<surname>Kalager Schaller</surname> 
+	<affiliation> 
+	  <orgname>gnome.org</orgname> 
+	  <address/> 
+	</affiliation> 
+      </author> 
+
+<!-- This is appropriate place for other contributors: translators,
+      maintainers,  etc. Commented out by default.
+       <othercredit role="translator">
+	<firstname>Latin</firstname> 
+	<surname>Translator 1</surname> 
+	<affiliation> 
+	  <orgname>Latin Translation Team</orgname> 
+	  <address> <email>translator@gnome.org</email> </address> 
+	</affiliation>
+	<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+    <revhistory>
+      <revision> 
+			<revnumber>Příručka V2.5 k aplikaci Výběr systému multimédií</revnumber> 
+			<date>Červen 2010</date> 
+			<revdescription> 
+	  			<para role="author">Marc-Andre Lureau</para>
+	  			<para role="publisher">Dokumentační projekt GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>Příručka V2.4 k aplikaci Výběr systému multimédií</revnumber> 
+			<date>Prosinec 2003</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">Dokumentační projekt GNOME</para>
+			</revdescription> 
+      </revision>
+      <revision> 
+			<revnumber>Příručka V1.0 k aplikaci Výběr systému multimédií</revnumber> 
+			<date>Září 2003</date> 
+			<revdescription> 
+	  			<para role="author">Christian Fredrik Kalager Schaller</para>
+	  			<para role="publisher">Dokumentační projekt GNOME</para>
+			</revdescription> 
+      </revision>
+         </revhistory> 
+
+    <releaseinfo>Tato příručka popisuje aplikaci Výběr systému multimédií ve verzi 2.2.2</releaseinfo> 
+    <legalnotice> 
+      <title>Ohlasy</title> 
+      <para>Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci Výběr systému multimédií nebo této příručce, postupujte dle instrukcí na stránce <ulink url="ghelp:gnome-feedback" type="help">Stránka s ohlasy na GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm> 
+    <primary>Výběr systému multimédií</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+
+  <sect1 id="gstreamer-properties-introduction"> 
+    <title>Úvod</title> 
+    <para>Aplikace <application>Výběr systému multimédií</application> vám umožňuje nastavovat volby týkající se hardwaru a multimédií ve vašem systému.</para>
+    <note><para>Taková nastavení obvykle potřebují měnit pouze pokročilí uživatelé. Váš dodavatel OS by měl systém dodat se správně nastavenými výchozími volbami.</para></note>
+  </sect1>
+
+  <sect1 id="gstreamer-properties-getting-started">
+    <title>Začínáme</title> 
+
+    <para>Aplikaci <application>Výběr systému multimédií</application> můžete spustit následujícími způsoby:</para> 
+    <variablelist>
+    	<varlistentry>
+    		<term>Nabídka <guimenu>Systém</guimenu></term>
+    		<listitem>
+    		<para>Zvolte <menuchoice><guisubmenu>Správa</guisubmenu><guimenuitem>Výběr systému multimédií</guimenuitem></menuchoice>.</para>
+    		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Příkazový řádek</term>
+    		<listitem>
+    		<para>Zadejte <command>gstreamer-properties</command> a stiskněte <keycap>Return</keycap>.</para>
+    		<para> 		 
+    		</para> 
+    		</listitem>
+    	</varlistentry>
+    </variablelist>
+
+    <para>Když spustíte <application>Výběr systému multimédií</application>, zobrazí se následující okno.</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="gstreamer-properties-fig"> 
+	<title>Okno aplikace Výběr systému multimédií</title> 
+	<screenshot> 
+	  <mediaobject> 
+	    <imageobject>
+	    <imagedata fileref="figures/gstreamer_properties_window.png" format="PNG"/> 
+	    </imageobject>
+	    <textobject> 
+	      <phrase>Ukazuje hlavní okno aplikace Výběr systému multimédií. Obsahuje panel nabídek, panel nástrojů a vyskakovací nabídky s volbami pro vstup a výstup zvuku.</phrase> 
+	    </textobject> 
+	  </mediaobject> 
+	</screenshot> 
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+  </sect1>
+
+<!-- ================ Usage ================================ -->
+
+  <sect1 id="gstreamer-properties-usage"> 
+    <title>Použití</title>
+	<para>Aplikace Výběr systému multimédií poskytuje čtyři vyskakovací nabídky umístěné na dvou kartách. Dvě vyskakovací nabídky jsou pro zvuk a dvě pro video. Tyto volby nastaví pro většinu aplikací GNOME výchozí výstup a vstup zvuku a videa.</para>
+
+    <sect2 id="gstreamer-properties-concepts">
+    	<title>Význam voleb nabídek</title>
+
+    	<para>Když se podíváte na kartu s nastavením voleb zvuku, všimnete si dvou částí nazvaných Výchozí výstup a Výchozí vstup. Tyto výrazy se používají v systému GStreamer a GNOME jimi označuje, kam jsou data posílaná a odkud přicházejí. Výchozí výstup znamená jinými slovy, kam aplikace GNOME posílají svůj zvukový výstup, zatímco Výchozí vstup určuje, odkud zvuk přichází.</para>
+
+	<para>Důvodem, proč byste mohli chtít změnit toto nastavení, je, že v Unixu existuje několik odlišných zvukových systémů a zvukových serverů, které můžete použít. Například v Linuxu jsou oblíbenými volbami zvukový server PulseAudio nebo ALSA.</para>
+
+	<para>Pokud si například budete přát, aby aplikace GNOME posílaly svůj zvukový výstup do zvukového serveru PulseAudio, nastavte jako Výchozí výstup PulseAudio. A pokud si přejete, aby aplikace GNOME, které umí zaznamenávat zvuk, používaly zvukový systém ALSA, tak nastavte jako Výchozí vstup ALSA.</para>
+
+	<note><para>Ale jak již bylo řečeno na jiném místě této příručky, tato nastavení jsou míněna jako nástroj pro pokročilé uživatele, kteří mají speciální požadavky. Jako běžný uživatel byste to neměli potřebovat, protože dodavatel vaší distribuce by měl za vás nastavit rozumné výchozí volby.</para></note>
+    	
+    </sect2>
+  </sect1>  
+
+
+</article>

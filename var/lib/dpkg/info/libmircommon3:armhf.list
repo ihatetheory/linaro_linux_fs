@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmircommon3
+/usr/share/doc/libmircommon3/changelog.Debian.gz
+/usr/share/doc/libmircommon3/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmircommon.so.3

@@ -1,0 +1,4 @@
+d4ec23e32abdffd24121be2da96379c6  usr/lib/arm-linux-gnueabihf/gio/modules/libgioremote-volume-monitor.so
+3597fbeb3b79ec5a0b7e031f58244297  usr/lib/arm-linux-gnueabihf/gio/modules/libgvfsdbus.so
+be76aefb66643670103c46607915f7a8  usr/share/doc/gvfs/copyright
+111ca42964af403967fff32410312478  usr/share/lintian/overrides/gvfs

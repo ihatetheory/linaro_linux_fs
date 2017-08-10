@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libdleyna-core-1.0-3
+/usr/share/doc
+/usr/share/doc/libdleyna-core-1.0-3
+/usr/share/doc/libdleyna-core-1.0-3/changelog.Debian.gz
+/usr/share/doc/libdleyna-core-1.0-3/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libdleyna-core-1.0.so.3.0.0
+/usr/lib/arm-linux-gnueabihf/libdleyna-core-1.0.so.3

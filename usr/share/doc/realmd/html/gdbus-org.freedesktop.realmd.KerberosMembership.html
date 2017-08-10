@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968">
+<title>org.freedesktop.realmd.KerberosMembership</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="realmd">
+<link rel="up" href="dbus-interface-reference.html" title="DBus Interface Reference">
+<link rel="prev" href="gdbus-org.freedesktop.realmd.Kerberos.html" title="org.freedesktop.realmd.Kerberos">
+<link rel="next" href="gdbus-org.freedesktop.realmd.Service.html" title="org.freedesktop.realmd.Service">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gdbus-org.freedesktop.realmd.Kerberos.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="dbus-interface-reference.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">realmd</th>
+<td><a accesskey="n" href="gdbus-org.freedesktop.realmd.Service.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gdbus-org.freedesktop.realmd.KerberosMembership.synopsis" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#gdbus-org.freedesktop.realmd.KerberosMembership.description" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#gdbus-org.freedesktop.realmd.KerberosMembership.properties" class="shortcut">Properties</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="gdbus-org.freedesktop.realmd.KerberosMembership"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gdbus-interface-org-freedesktop-realmd-KerberosMembership.top_of_page"></a>org.freedesktop.realmd.KerberosMembership</span></h2>
+<p>org.freedesktop.realmd.KerberosMembership</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Methods</h2>
+<pre class="synopsis">
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-KerberosMembership.Join">Join</GTKDOCLINK>  (IN  (ssv) credentials,
+       IN  a{sv} options);
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-KerberosMembership.Leave">Leave</GTKDOCLINK> (IN  (ssv) credentials,
+       IN  a{sv} options);
+</pre>
+</div>
+<div class="refsect1">
+<a name="idp47562012"></a><h2>Properties</h2>
+<pre class="synopsis">
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-KerberosMembership.SuggestedAdministrator">SuggestedAdministrator</GTKDOCLINK>     readable   s
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-KerberosMembership.SupportedJoinCredentials">SupportedJoinCredentials</GTKDOCLINK>   readable   a(ss)
+<GTKDOCLINK HREF="gdbus-property-org-freedesktop-realmd-KerberosMembership.SupportedLeaveCredentials">SupportedLeaveCredentials</GTKDOCLINK>  readable   a(ss)
+</pre>
+</div>
+<div class="refsect1">
+<a name="gdbus-interface-org-freedesktop-realmd-KerberosMembership"></a><h2>Description</h2>
+<p>	  An interface used to configure this machine by joining a realm.
+</p>
+<p>	  It sets up a computer/host account in the realm for this machine
+	  and a keytab to track the credentials for that account.
+</p>
+<p>	  The various properties are guaranteed to have been updated before
+	  the operation methods return, if they change state.
+</p>
+</div>
+<div class="refsect1">
+<a name="gdbus-methods-org.freedesktop.realmd.KerberosMembership"></a><h2>Method Details</h2>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-KerberosMembership.Join"></a><h3>The Join() method</h3>
+<pre class="programlisting">
+Join (IN  (ssv) credentials,
+      IN  a{sv} options);
+</pre>
+<p>		  Join this machine to the realm and enroll the machine.
+</p>
+<p>		  If this method returns successfully, then the machine will be
+		  joined to the realm. It is not necessary to restart services or the
+		  machine afterward. Relevant properties on the realm will be updated
+		  before the method returns.
+</p>
+<p>		  The <em class="parameter"><code>credentials</code></em> should be set according to one of the
+		  supported credentials returned by
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>:SupportedJoinCredentials.
+		  The first string in the tuple is the type, the second string
+		  is the owner, and the variant contains the credential contents
+		  See the discussion at
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>:SupportedJoinCredentials
+		  for more information.
+</p>
+<p>		  <em class="parameter"><code>options</code></em> can contain, but is not limited to, the following values:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">operation</code>: a string
+		      identifier chosen by the client, which can then later be
+		      passed to <GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Cancel">Cancel()</GTKDOCLINK> in order
+		      to cancel the operation</p></li>
+<li class="listitem"><p><code class="literal">computer-ou</code>: a string
+		      containing an LDAP DN for an organizational unit where the
+		      computer account should be created</p></li>
+<li class="listitem"><p><code class="literal">user-principal</code>: a string
+		      containing an kerberos user principal name to be set on the
+		      computer account</p></li>
+<li class="listitem"><p><code class="literal">membership-software</code>: a string
+		      containing the membership software identifier that the returned
+		      realms should match.</p></li>
+<li class="listitem"><p><code class="literal">manage-system</code>: a boolean
+		      which controls whether this machine should be managed by
+		      the realm or domain or not. Defaults to true.</p></li>
+</ul></div>
+<p>
+</p>
+<p>		  This method requires authorization for the PolicyKit action
+		  called <code class="literal">org.freedesktop.realmd.configure-realm</code>.
+</p>
+<p>		  In addition to common DBus error results, this method may return:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Failed</code>:
+		      may be returned if the join failed for a generic reason.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Cancelled</code>:
+		      returned if the operation was cancelled.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotAuthorized</code>:
+		      returned if the calling client is not permitted to perform a join
+		      operation.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.AuthenticationFailed</code>:
+		      returned if the credentials passed did not authenticate against the realm
+		      correctly. It is appropriate to prompt the user again.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.AlreadyEnrolled</code>:
+		      returned if already enrolled in this realm, or if already enrolled in another realm
+		      (if enrolling in multiple realms is not supported).</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.BadHostname</code>:
+		      returned if the machine has a hostname that is not usable for a join
+		      or is in conflict with those in the domain.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Busy</code>:
+		      returned if the service is currently performing another operation like
+		      join or leave.</p></li>
+</ul></div>
+<p>
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="literal">IN (ssv) <em class="parameter"><code>credentials</code></em></code>:</span></p></td>
+<td><p></p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="literal">IN a{sv} <em class="parameter"><code>options</code></em></code>:</span></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-KerberosMembership.Leave"></a><h3>The Leave() method</h3>
+<pre class="programlisting">
+Leave (IN  (ssv) credentials,
+       IN  a{sv} options);
+</pre>
+<p>		  Leave the realm and unenroll the machine.
+</p>
+<p>		  If this method returns successfully, then the machine will have
+		  left the domain and been unenrolled. It is not necessary to restart
+		  services or the machine afterward. Relevant properties on the realm
+		  will be updated before the method returns.
+</p>
+<p>		  The <em class="parameter"><code>credentials</code></em> should be set according to one of the
+		  supported credentials returned by
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>:SupportedJoinCredentials.
+		  The first string in the tuple is the type, the second string
+		  is the owner, and the variant contains the credential contents
+		  See the discussion at
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>:SupportedJoinCredentials
+		  for more information.
+</p>
+<p>		  <em class="parameter"><code>options</code></em> can contain, but is not limited to, the following values:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p><code class="literal">operation</code>: a string
+		      identifier chosen by the client, which can then later be
+		      passed to <GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Cancel">Cancel()</GTKDOCLINK> in order
+		      to cancel the operation</p></li></ul></div>
+<p>
+</p>
+<p>		  This method requires authorization for the PolicyKit action
+		  called <code class="literal">org.freedesktop.realmd.deconfigure-realm</code>.
+</p>
+<p>		  In addition to common DBus error results, this method may return:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Failed</code>:
+		      may be returned if the unenroll failed for a generic reason.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Cancelled</code>:
+		      returned if the operation was cancelled.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotAuthorized</code>:
+		      returned if the calling client is not permitted to perform an unenroll
+		      operation.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.AuthenticationFailed</code>:
+		      returned if the credentials passed did not authenticate against the realm
+		      correctly. It is appropriate to prompt the user again.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.NotEnrolled</code>:
+		      returned if not enrolled in this realm.</p></li>
+<li class="listitem"><p><code class="literal">org.freedesktop.realmd.Error.Busy</code>:
+		      returned if the service is currently performing another operation like
+		      join or leave.</p></li>
+</ul></div>
+<p>
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="literal">IN (ssv) <em class="parameter"><code>credentials</code></em></code>:</span></p></td>
+<td><p></p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="literal">IN a{sv} <em class="parameter"><code>options</code></em></code>:</span></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1">
+<a name="gdbus-properties-org.freedesktop.realmd.KerberosMembership"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-KerberosMembership.SuggestedAdministrator"></a><h3>The "SuggestedAdministrator" property</h3>
+<pre class="programlisting">
+SuggestedAdministrator  readable   s
+</pre>
+<p>common administrator name</p>
+<p>		  The common administrator name for this type of realm. This
+		  can be used by clients as a hint when prompting the user for
+		  administrative authentication.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-KerberosMembership.SupportedJoinCredentials"></a><h3>The "SupportedJoinCredentials" property</h3>
+<pre class="programlisting">
+SupportedJoinCredentials  readable   a(ss)
+</pre>
+<p>credentials supported for joining</p>
+<p>		  Various kinds of credentials that are supported when calling the
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>.Join() method.
+</p>
+<p>		  Each credential is represented by a type and an owner. The type
+		  denotes which kind of credential is passed to the method. The
+		  owner indicates to the client how to prompt the user or obtain
+		  the credential, and to the service how to use the credential.
+</p>
+<p>		  The various types are:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">ccache</code>:
+		      the credentials should contain an array of bytes as a
+		      <code class="literal">ay</code> containing the data from a kerberos
+		      credential cache file.</p></li>
+<li class="listitem"><p><code class="literal">password</code>:
+		      the credentials should contain a pair of strings as a
+		      <code class="literal">(ss)</code> representing a name and
+		      password. The name may contain a realm in the standard
+		      kerberos format. If a realm is missing, it will default
+		      to this realm. </p></li>
+<li class="listitem"><p><code class="literal">secret</code>:
+		      the credentials should contain a string secret as an
+		      <code class="literal">ay</code> array of bytes. This is usually used
+		      for one time passwords. To pass a string here, encode it
+		      in UTF-8, and place the resulting bytes in the
+		      value.</p></li>
+<li class="listitem"><p><code class="literal">automatic</code>:
+		      the credentials should contain an empty string as a
+		      <code class="literal">s</code>. Using <code class="literal">automatic</code>
+		      indicates that default or system credentials are to be
+		      used.</p></li>
+</ul></div>
+<p>
+</p>
+<p>		  The various owners are:
+		  </p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p><code class="literal">administrator</code>:
+		      the credentials belong to a kerberos administrator principal.
+		      The caller may use this as a hint to prompt the user
+		      for administrative credentials.</p></li>
+<li class="listitem"><p><code class="literal">user</code>:
+		      the credentials belong to a kerberos user principal.
+		      The caller may use this as a hint to prompt the user
+		      for his (possibly non-administrative)
+		      credentials.</p></li>
+<li class="listitem"><p><code class="literal">computer</code>:
+		      the credentials belong to a computer account.</p></li>
+<li class="listitem"><p><code class="literal">none</code>:
+		      the credentials have an unspecified owner, such as a one
+		      time password.</p></li>
+</ul></div>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-property-org-freedesktop-realmd-KerberosMembership.SupportedLeaveCredentials"></a><h3>The "SupportedLeaveCredentials" property</h3>
+<pre class="programlisting">
+SupportedLeaveCredentials  readable   a(ss)
+</pre>
+<p>credentials supported for leaving</p>
+<p>		  Various kinds of credentials that are supported when calling the
+		  <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>.Leave() method.
+</p>
+<p>		  See <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Kerberos.top_of_page">org.freedesktop.realmd.Kerberos</GTKDOCLINK>:SupportedJoinCredentials for
+		  a discussion of what the values represent.
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc
+        </div>
+</body>
+</html>

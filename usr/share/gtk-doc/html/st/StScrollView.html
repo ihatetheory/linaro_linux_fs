@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>StScrollView: St Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="St Reference Manual">
+<link rel="up" href="containers.html" title="Containers">
+<link rel="prev" href="StBoxLayout.html" title="StBoxLayout">
+<link rel="next" href="StTable.html" title="StTable">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#StScrollView.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#StScrollView.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#StScrollView.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#StScrollView.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="containers.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="StBoxLayout.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="StTable.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="StScrollView"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="StScrollView.top_of_page"></a>StScrollView</span></h2>
+<p>StScrollView — a container for scrollable children</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="StScrollView.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-new" title="st_scroll_view_new ()">st_scroll_view_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-get-hscroll-bar" title="st_scroll_view_get_hscroll_bar ()">st_scroll_view_get_hscroll_bar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ClutterActor</span> *
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-get-vscroll-bar" title="st_scroll_view_get_vscroll_bar ()">st_scroll_view_get_vscroll_bar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="returnvalue">gfloat</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-get-column-size" title="st_scroll_view_get_column_size ()">st_scroll_view_get_column_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-set-column-size" title="st_scroll_view_set_column_size ()">st_scroll_view_set_column_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="returnvalue">gfloat</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-get-row-size" title="st_scroll_view_get_row_size ()">st_scroll_view_get_row_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-set-row-size" title="st_scroll_view_set_row_size ()">st_scroll_view_set_row_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-set-mouse-scrolling" title="st_scroll_view_set_mouse_scrolling ()">st_scroll_view_set_mouse_scrolling</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-get-mouse-scrolling" title="st_scroll_view_get_mouse_scrolling ()">st_scroll_view_get_mouse_scrolling</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-set-overlay-scrollbars" title="st_scroll_view_set_overlay_scrollbars ()">st_scroll_view_set_overlay_scrollbars</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-get-overlay-scrollbars" title="st_scroll_view_get_overlay_scrollbars ()">st_scroll_view_get_overlay_scrollbars</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-set-policy" title="st_scroll_view_set_policy ()">st_scroll_view_set_policy</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StScrollView.html#st-scroll-view-update-fade-effect" title="st_scroll_view_update_fade_effect ()">st_scroll_view_update_fade_effect</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StScrollView.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--enable-mouse-scrolling" title="The “enable-mouse-scrolling” property">enable-mouse-scrolling</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">StScrollBar</span> *</td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--hscroll" title="The “hscroll” property">hscroll</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="http://developer.gnome.org/gtk2/GtkScrolledWindow.html#GtkPolicyType"><span class="type">GtkPolicyType</span></a></td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--hscrollbar-policy" title="The “hscrollbar-policy” property">hscrollbar-policy</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--hscrollbar-visible" title="The “hscrollbar-visible” property">hscrollbar-visible</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--overlay-scrollbars" title="The “overlay-scrollbars” property">overlay-scrollbars</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">StScrollBar</span> *</td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--vscroll" title="The “vscroll” property">vscroll</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="http://developer.gnome.org/gtk2/GtkScrolledWindow.html#GtkPolicyType"><span class="type">GtkPolicyType</span></a></td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--vscrollbar-policy" title="The “vscrollbar-policy” property">vscrollbar-policy</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StScrollView.html#StScrollView--vscrollbar-visible" title="The “vscrollbar-visible” property">vscrollbar-visible</a></td>
+<td class="property_flags">Read</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StScrollView.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="StScrollView.html#StScrollView-struct" title="struct StScrollView">StScrollView</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StScrollView.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> ClutterActor
+            <span class="lineart">╰──</span> <a class="link" href="StWidget.html" title="StWidget">StWidget</a>
+                <span class="lineart">╰──</span> <a class="link" href="StBin.html" title="StBin">StBin</a>
+                    <span class="lineart">╰──</span> StScrollView
+</pre>
+</div>
+<div class="refsect1">
+<a name="StScrollView.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+StScrollView implements
+ ClutterContainer,  ClutterScriptable,  ClutterAnimatable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1">
+<a name="StScrollView.description"></a><h2>Description</h2>
+<p><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> is a single child container for actors that implement
+<a class="link" href="StScrollable.html" title="StScrollable"><span class="type">StScrollable</span></a>. It provides scrollbars around the edge of the child to
+allow the user to move around the scrollable area.</p>
+</div>
+<div class="refsect1">
+<a name="StScrollView.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="st-scroll-view-new"></a><h3>st_scroll_view_new ()</h3>
+<pre class="programlisting"><a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+st_scroll_view_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-get-hscroll-bar"></a><h3>st_scroll_view_get_hscroll_bar ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+st_scroll_view_get_hscroll_bar (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>);</pre>
+<p>Gets the horizontal scrollbar of the scrollbiew</p>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>scroll</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.3.6"></a><h4>Returns</h4>
+<p> the horizontal <span class="type">StScrollBar</span>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-get-vscroll-bar"></a><h3>st_scroll_view_get_vscroll_bar ()</h3>
+<pre class="programlisting"><span class="returnvalue">ClutterActor</span> *
+st_scroll_view_get_vscroll_bar (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>);</pre>
+<p>Gets the vertical scrollbar of the scrollbiew</p>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>scroll</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.4.6"></a><h4>Returns</h4>
+<p> the vertical <span class="type">StScrollBar</span>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-get-column-size"></a><h3>st_scroll_view_get_column_size ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="returnvalue">gfloat</span></a>
+st_scroll_view_get_column_size (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-set-column-size"></a><h3>st_scroll_view_set_column_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_scroll_view_set_column_size (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>,
+                                <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="type">gfloat</span></a> column_size</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-get-row-size"></a><h3>st_scroll_view_get_row_size ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="returnvalue">gfloat</span></a>
+st_scroll_view_get_row_size (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-set-row-size"></a><h3>st_scroll_view_set_row_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_scroll_view_set_row_size (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>,
+                             <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gfloat"><span class="type">gfloat</span></a> row_size</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-set-mouse-scrolling"></a><h3>st_scroll_view_set_mouse_scrolling ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_scroll_view_set_mouse_scrolling (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>,
+                                    <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> enabled</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-get-mouse-scrolling"></a><h3>st_scroll_view_get_mouse_scrolling ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+st_scroll_view_get_mouse_scrolling (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-set-overlay-scrollbars"></a><h3>st_scroll_view_set_overlay_scrollbars ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_scroll_view_set_overlay_scrollbars (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>,
+                                       <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> enabled</code></em>);</pre>
+<p>Sets whether scrollbars are painted on top of the content.</p>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.11.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>scroll</p></td>
+<td class="parameter_description"><p>A <a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>enabled</p></td>
+<td class="parameter_description"><p>Whether to enable overlay scrollbars</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-get-overlay-scrollbars"></a><h3>st_scroll_view_get_overlay_scrollbars ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+st_scroll_view_get_overlay_scrollbars (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>);</pre>
+<p>Gets the value set by <a class="link" href="StScrollView.html#st-scroll-view-set-overlay-scrollbars" title="st_scroll_view_set_overlay_scrollbars ()"><code class="function">st_scroll_view_set_overlay_scrollbars()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.12.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>scroll</p></td>
+<td class="parameter_description"><p>A <a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-set-policy"></a><h3>st_scroll_view_set_policy ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_scroll_view_set_policy (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>,
+                           <em class="parameter"><code><a href="http://developer.gnome.org/gtk2/GtkScrolledWindow.html#GtkPolicyType"><span class="type">GtkPolicyType</span></a> hscroll</code></em>,
+                           <em class="parameter"><code><a href="http://developer.gnome.org/gtk2/GtkScrolledWindow.html#GtkPolicyType"><span class="type">GtkPolicyType</span></a> vscroll</code></em>);</pre>
+<p>Set the scroll policy.</p>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.13.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>scroll</p></td>
+<td class="parameter_description"><p>A <a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>hscroll</p></td>
+<td class="parameter_description"><p>Whether to enable horizontal scrolling</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>vscroll</p></td>
+<td class="parameter_description"><p>Whether to enable vertical scrolling</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-scroll-view-update-fade-effect"></a><h3>st_scroll_view_update_fade_effect ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_scroll_view_update_fade_effect (<em class="parameter"><code><a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a> *scroll</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> vfade_offset</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> hfade_offset</code></em>);</pre>
+<p>Sets the height of the fade area area in pixels. A value of 0
+disables the effect.</p>
+<div class="refsect3">
+<a name="id-1.2.4.4.9.14.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>scroll</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StScrollView.html" title="StScrollView"><span class="type">StScrollView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>vfade_offset</p></td>
+<td class="parameter_description"><p>The length of the veritcal fade effect, in pixels.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>hfade_offset</p></td>
+<td class="parameter_description"><p>The length of the horizontal fade effect, in pixels.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="StScrollView.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="StScrollView-struct"></a><h3>struct StScrollView</h3>
+<pre class="programlisting">struct StScrollView;</pre>
+<p>The contents of this structure are private and should only be accessed
+through the public API.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StScrollView.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="StScrollView--enable-mouse-scrolling"></a><h3>The <code class="literal">“enable-mouse-scrolling”</code> property</h3>
+<pre class="programlisting">  “enable-mouse-scrolling”   <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Enable automatic mouse wheel scrolling.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--hscroll"></a><h3>The <code class="literal">“hscroll”</code> property</h3>
+<pre class="programlisting">  “hscroll”                  <span class="type">StScrollBar</span> *</pre>
+<p>Horizontal scroll indicator.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--hscrollbar-policy"></a><h3>The <code class="literal">“hscrollbar-policy”</code> property</h3>
+<pre class="programlisting">  “hscrollbar-policy”        <a href="http://developer.gnome.org/gtk2/GtkScrolledWindow.html#GtkPolicyType"><span class="type">GtkPolicyType</span></a></pre>
+<p>When the horizontal scrollbar is displayed.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: GTK_POLICY_AUTOMATIC</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--hscrollbar-visible"></a><h3>The <code class="literal">“hscrollbar-visible”</code> property</h3>
+<pre class="programlisting">  “hscrollbar-visible”       <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Whether the horizontal scrollbar is visible.</p>
+<p>Flags: Read</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--overlay-scrollbars"></a><h3>The <code class="literal">“overlay-scrollbars”</code> property</h3>
+<pre class="programlisting">  “overlay-scrollbars”       <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Overlay scrollbars over the content.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--vscroll"></a><h3>The <code class="literal">“vscroll”</code> property</h3>
+<pre class="programlisting">  “vscroll”                  <span class="type">StScrollBar</span> *</pre>
+<p>Vertical scroll indicator.</p>
+<p>Flags: Read</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--vscrollbar-policy"></a><h3>The <code class="literal">“vscrollbar-policy”</code> property</h3>
+<pre class="programlisting">  “vscrollbar-policy”        <a href="http://developer.gnome.org/gtk2/GtkScrolledWindow.html#GtkPolicyType"><span class="type">GtkPolicyType</span></a></pre>
+<p>When the vertical scrollbar is displayed.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: GTK_POLICY_AUTOMATIC</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StScrollView--vscrollbar-visible"></a><h3>The <code class="literal">“vscrollbar-visible”</code> property</h3>
+<pre class="programlisting">  “vscrollbar-visible”       <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Whether the vertical scrollbar is visible.</p>
+<p>Flags: Read</p>
+<p>Default value: TRUE</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

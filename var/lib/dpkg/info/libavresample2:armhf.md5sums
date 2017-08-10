@@ -1,0 +1,4 @@
+223493863d664fa1dc3b20050044d7fe  usr/lib/arm-linux-gnueabihf/libavresample.so.2.1.0
+adfbeebf05a10d1809124ca00d4f3446  usr/lib/arm-linux-gnueabihf/neon/vfp/libavresample.so.2.1.0
+323125fc98bc748defccc624b74fd752  usr/share/doc/libavresample2/copyright
+00b5c6506376db8ba568de2d5b0a3f6a  usr/share/lintian/overrides/libavresample2

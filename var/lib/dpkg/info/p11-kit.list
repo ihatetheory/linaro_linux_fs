@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/trust
+/usr/bin/p11-kit
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/p11-kit.1.gz
+/usr/share/doc
+/usr/share/doc/p11-kit
+/usr/share/doc/p11-kit/copyright
+/usr/share/p11-kit
+/usr/share/p11-kit/modules
+/usr/share/p11-kit/modules/p11-kit-trust.module
+/usr/share/doc/p11-kit/changelog.Debian.gz

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-select" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="sources-default"/>
+    <link type="seealso" xref="dictionary-select"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Seleccione unha orixes de dicionario</title>
+
+  <p>Pode cambiar a <link xref="sources">orixe de dicionario</link> que está usando actualmente sen cambiar as súas preferencias por omisión.</p>
+
+  <steps>
+    <title>Para cambiar temporalmente a orixe de dicionarios:</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Orixes de dicionario</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Prema dúas veces sobre a orixe de dicionario que quere usar.</p>
+    </item>
+  </steps>
+
+</page>

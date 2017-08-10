@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak zobrazit související výsledky v jiných slovnících.</desc>
+
+  </info>
+
+  <title>Podobná slova</title>
+
+  <p><app>Slovník</app> zobrazuje v jednu chvíli definici jen z jednoho slovníku. Pokud chcete zkontrolovat, jestli nebyla nalezena i v jiných slovnících:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Vyhledejte</link> požadovaný výraz.</p>
+    </item>
+    <item>
+      <p>V případě, že není zobrazen postranní panel, vyberte <guiseq><gui style="menu">Zobrazit</gui> <gui style="menuitem">Podobná slova</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu <gui>Podobná slova</gui> jsou zobrazeny výsledky z jiných slovníků ve vámi vybraném zdroji slovníků. Dvojitým kliknutím na položku si podobné slovo zobrazíte.</p>
+    </item>
+  </steps>
+
+</page>

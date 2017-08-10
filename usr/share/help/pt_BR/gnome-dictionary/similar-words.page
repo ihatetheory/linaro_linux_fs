@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Veja resultados relacionados em outros dicionários.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sinônimos</title>
+
+  <p>O aplicativo <app>Dicionário</app> irá exibir a definição de apenas um dos seus dicionários. Para verificar se há resultados de pesquisa em outros dicionários:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Consulte</link> o termo desejado.</p>
+    </item>
+    <item>
+      <p>Se a barra lateral não já estiver visível, selecione <guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Sinônimos</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>A barra lateral de <gui>Sinônimos</gui> vai mostrar resultados de pesquisas de outros dicionários na sua fonte de dicionário selecionada. Para ver o sinônimo, clique duas vezes na entrada.</p>
+    </item>
+  </steps>
+
+</page>

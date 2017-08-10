@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eine Wörterbuchquelle entfernen</title>
+
+  <p>Wenn Sie eine bestimmte <link xref="sources">Wörterbuchquelle</link> nicht länger benötigen oder wenn eine für Sie nicht mehr funktioniert, möchten Sie diese womöglich entfernen.</p>
+
+  <steps>
+    <title>So entfernen Sie eine Wörterbuchquelle:</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu"><app>Wörterbuch</app></gui> <gui style="menuitem">Einstellung</gui> <gui style="tab">Quelle</gui></guiseq> aus.</p>
+    </item>
+    <item>
+      <p>Wählen Sie die zu entfernende Quelle aus.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui style="button">Entfernen</gui>.</p>
+    </item>
+    <item>
+      <p>Eine Meldung wird erscheinen, die eine Bestätigung anzeigt, ob Sie die Wörterbuchquelle dauerhaft löschen wollen. Wenn Sie einmal bestätigt haben, wird die Quelle gelöscht.</p>
+    </item>
+  </steps>
+
+</page>

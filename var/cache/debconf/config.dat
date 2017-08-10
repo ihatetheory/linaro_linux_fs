@@ -1,0 +1,570 @@
+Name: adduser/homedir-permission
+Template: adduser/homedir-permission
+Value: true
+Owners: adduser
+
+Name: adduser/title
+Template: adduser/title
+Owners: adduser
+
+Name: base-passwd/group-add
+Template: base-passwd/group-add
+Owners: base-passwd
+
+Name: base-passwd/group-change-gid
+Template: base-passwd/group-change-gid
+Owners: base-passwd
+
+Name: base-passwd/group-move
+Template: base-passwd/group-move
+Owners: base-passwd
+
+Name: base-passwd/group-remove
+Template: base-passwd/group-remove
+Owners: base-passwd
+
+Name: base-passwd/user-add
+Template: base-passwd/user-add
+Owners: base-passwd
+
+Name: base-passwd/user-change-gecos
+Template: base-passwd/user-change-gecos
+Owners: base-passwd
+
+Name: base-passwd/user-change-gid
+Template: base-passwd/user-change-gid
+Owners: base-passwd
+
+Name: base-passwd/user-change-home
+Template: base-passwd/user-change-home
+Owners: base-passwd
+
+Name: base-passwd/user-change-shell
+Template: base-passwd/user-change-shell
+Owners: base-passwd
+
+Name: base-passwd/user-change-uid
+Template: base-passwd/user-change-uid
+Owners: base-passwd
+
+Name: base-passwd/user-move
+Template: base-passwd/user-move
+Owners: base-passwd
+
+Name: base-passwd/user-remove
+Template: base-passwd/user-remove
+Owners: base-passwd
+
+Name: ca-certificates/enable_crts
+Template: ca-certificates/enable_crts
+Value: mozilla/A-Trust-nQual-03.crt, mozilla/ACCVRAIZ1.crt, mozilla/ACEDICOM_Root.crt, mozilla/AC_Raíz_Certicámara_S.A..crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AddTrust_Low-Value_Services_Root.crt, mozilla/AddTrust_Public_Services_Root.crt, mozilla/AddTrust_Qualified_Certificates_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/America_Online_Root_Certification_Authority_1.crt, mozilla/America_Online_Root_Certification_Authority_2.crt, mozilla/ApplicationCA_-_Japanese_Government.crt, mozilla/Atos_TrustedRoot_2011.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_CA_1.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_CA_1.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig.crt, mozilla/CA_Disig_Root_R1.crt, mozilla/CA_Disig_Root_R2.crt, mozilla/CNNIC_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/Camerfirma_Chambers_of_Commerce_Root.crt, mozilla/Camerfirma_Global_Chambersign_Root.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Autorité_Racine.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Root_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/China_Internet_Network_Information_Center_EV_Certificates_Root.crt, mozilla/ComSign_CA.crt, mozilla/ComSign_Secured_CA.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Comodo_Secure_Services_root.crt, mozilla/Comodo_Trusted_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt, mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt, mozilla/DST_ACES_CA_X6.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Assured_ID_Root_G2.crt, mozilla/DigiCert_Assured_ID_Root_G3.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_Global_Root_G2.crt, mozilla/DigiCert_Global_Root_G3.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/DigiCert_Trusted_Root_G4.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt, mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt, mozilla/E-Tugra_Certification_Authority.crt, mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Equifax_Secure_CA.crt, mozilla/Equifax_Secure_Global_eBusiness_CA.crt, mozilla/Equifax_Secure_eBusiness_CA_1.crt, mozilla/GTE_CyberTrust_Global_Root.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Global_CA_2.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/IGC_A.crt, mozilla/Izenpe.com.crt, mozilla/Juur-SK.crt, mozilla/Microsec_e-Szigno_Root_CA.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/NetLock_Business_=Class_B=_Root.crt, mozilla/NetLock_Express_=Class_C=_Root.crt, mozilla/NetLock_Notary_=Class_A=_Root.crt, mozilla/NetLock_Qualified_=Class_QA=_Root.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/PSCProcert.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_1_G3.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_2_G3.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/QuoVadis_Root_CA_3_G3.crt, mozilla/RSA_Security_2048_v3.crt, mozilla/Root_CA_Generalitat_Valenciana.crt, mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt, mozilla/SG_TRUST_SERVICES_RACINE.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_EV_RootCA1.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_1_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/StartCom_Certification_Authority.crt, mozilla/StartCom_Certification_Authority_2.crt, mozilla/StartCom_Certification_Authority_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Platinum_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/Swisscom_Root_CA_1.crt, mozilla/Swisscom_Root_CA_2.crt, mozilla/Swisscom_Root_EV_CA_2.crt, mozilla/T-TeleSec_GlobalRoot_Class_2.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TC_TrustCenter_Class_2_CA_II.crt, mozilla/TC_TrustCenter_Class_3_CA_II.crt, mozilla/TC_TrustCenter_Universal_CA_I.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt, mozilla/TWCA_Global_Root_CA.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/TeliaSonera_Root_CA_v1.crt, mozilla/Thawte_Premium_Server_CA.crt, mozilla/Thawte_Server_CA.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt, mozilla/UTN_DATACorp_SGC_Root_CA.crt, mozilla/UTN_USERFirst_Email_Root_CA.crt, mozilla/UTN_USERFirst_Hardware_Root_CA.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_2.crt, mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Visa_eCommerce_Root.crt, mozilla/WellsSecure_Public_Root_Certificate_Authority.crt, mozilla/WoSign.crt, mozilla/WoSign_China.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt, spi-inc.org/spi-cacert-2008.crt
+Owners: ca-certificates
+Variables:
+ enable_crts = mozilla/A-Trust-nQual-03.crt, mozilla/ACCVRAIZ1.crt, mozilla/ACEDICOM_Root.crt, mozilla/AC_Raíz_Certicámara_S.A..crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AddTrust_Low-Value_Services_Root.crt, mozilla/AddTrust_Public_Services_Root.crt, mozilla/AddTrust_Qualified_Certificates_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/America_Online_Root_Certification_Authority_1.crt, mozilla/America_Online_Root_Certification_Authority_2.crt, mozilla/ApplicationCA_-_Japanese_Government.crt, mozilla/Atos_TrustedRoot_2011.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_CA_1.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_CA_1.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig.crt, mozilla/CA_Disig_Root_R1.crt, mozilla/CA_Disig_Root_R2.crt, mozilla/CNNIC_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/Camerfirma_Chambers_of_Commerce_Root.crt, mozilla/Camerfirma_Global_Chambersign_Root.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Autorité_Racine.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Root_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/China_Internet_Network_Information_Center_EV_Certificates_Root.crt, mozilla/ComSign_CA.crt, mozilla/ComSign_Secured_CA.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Comodo_Secure_Services_root.crt, mozilla/Comodo_Trusted_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt, mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt, mozilla/DST_ACES_CA_X6.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Assured_ID_Root_G2.crt, mozilla/DigiCert_Assured_ID_Root_G3.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_Global_Root_G2.crt, mozilla/DigiCert_Global_Root_G3.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/DigiCert_Trusted_Root_G4.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt, mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt, mozilla/E-Tugra_Certification_Authority.crt, mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Equifax_Secure_CA.crt, mozilla/Equifax_Secure_Global_eBusiness_CA.crt, mozilla/Equifax_Secure_eBusiness_CA_1.crt, mozilla/GTE_CyberTrust_Global_Root.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Global_CA_2.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/IGC_A.crt, mozilla/Izenpe.com.crt, mozilla/Juur-SK.crt, mozilla/Microsec_e-Szigno_Root_CA.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/NetLock_Business_=Class_B=_Root.crt, mozilla/NetLock_Express_=Class_C=_Root.crt, mozilla/NetLock_Notary_=Class_A=_Root.crt, mozilla/NetLock_Qualified_=Class_QA=_Root.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/PSCProcert.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_1_G3.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_2_G3.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/QuoVadis_Root_CA_3_G3.crt, mozilla/RSA_Security_2048_v3.crt, mozilla/Root_CA_Generalitat_Valenciana.crt, mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt, mozilla/SG_TRUST_SERVICES_RACINE.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_EV_RootCA1.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_1_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/StartCom_Certification_Authority.crt, mozilla/StartCom_Certification_Authority_2.crt, mozilla/StartCom_Certification_Authority_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Platinum_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/Swisscom_Root_CA_1.crt, mozilla/Swisscom_Root_CA_2.crt, mozilla/Swisscom_Root_EV_CA_2.crt, mozilla/T-TeleSec_GlobalRoot_Class_2.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TC_TrustCenter_Class_2_CA_II.crt, mozilla/TC_TrustCenter_Class_3_CA_II.crt, mozilla/TC_TrustCenter_Universal_CA_I.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt, mozilla/TWCA_Global_Root_CA.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/TeliaSonera_Root_CA_v1.crt, mozilla/Thawte_Premium_Server_CA.crt, mozilla/Thawte_Server_CA.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt, mozilla/UTN_DATACorp_SGC_Root_CA.crt, mozilla/UTN_USERFirst_Email_Root_CA.crt, mozilla/UTN_USERFirst_Hardware_Root_CA.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_2.crt, mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Visa_eCommerce_Root.crt, mozilla/WellsSecure_Public_Root_Certificate_Authority.crt, mozilla/WoSign.crt, mozilla/WoSign_China.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt, spi-inc.org/spi-cacert-2008.crt
+
+Name: ca-certificates/new_crts
+Template: ca-certificates/new_crts
+Owners: ca-certificates
+Variables:
+ new_crts = 
+
+Name: ca-certificates/title
+Template: ca-certificates/title
+Owners: ca-certificates
+
+Name: ca-certificates/trust_new_crts
+Template: ca-certificates/trust_new_crts
+Value: yes
+Owners: ca-certificates
+
+Name: console-setup/ask_detect
+Template: console-setup/ask_detect
+Owners: keyboard-configuration
+
+Name: console-setup/charmap47
+Template: console-setup/charmap47
+Value: UTF-8
+Owners: console-setup
+Variables:
+ CHOICES = ARMSCII-8, CP1251, CP1255, CP1256, GEORGIAN-ACADEMY, GEORGIAN-PS, IBM1133, ISIRI-3342, ISO-8859-1, ISO-8859-10, ISO-8859-11, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, KOI8-R, KOI8-U, TIS-620, UTF-8, VISCII
+
+Name: console-setup/codeset47
+Template: console-setup/codeset47
+Value: Guess optimal character set
+Owners: console-setup
+
+Name: console-setup/codesetcode
+Template: console-setup/codesetcode
+Value: guess
+Owners: console-setup
+
+Name: console-setup/detect
+Template: console-setup/detect
+Owners: keyboard-configuration
+
+Name: console-setup/detected
+Template: console-setup/detected
+Owners: keyboard-configuration
+
+Name: console-setup/fontface47
+Template: console-setup/fontface47
+Value: Fixed
+Owners: console-setup
+Variables:
+ CHOICES = Fixed, Goha, GohaClassic, Terminus, TerminusBold, TerminusBoldVGA, VGA, Do not change the boot/kernel font, Let the system select a suitable font
+
+Name: console-setup/fontsize
+Template: console-setup/fontsize
+Value: 8x16
+Owners: console-setup
+
+Name: console-setup/fontsize-fb47
+Template: console-setup/fontsize-fb47
+Value: 8x16
+Owners: console-setup
+Variables:
+ CHOICES = 8x13, 8x14, 8x15, 8x16, 8x18
+
+Name: console-setup/fontsize-text47
+Template: console-setup/fontsize-text47
+Value: 8x16
+Owners: console-setup
+
+Name: console-setup/framebuffer_only
+Template: console-setup/framebuffer_only
+Owners: console-setup
+
+Name: console-setup/guess_font
+Template: console-setup/guess_font
+Owners: console-setup
+
+Name: console-setup/store_defaults_in_debconf_db
+Template: console-setup/store_defaults_in_debconf_db
+Value: true
+Owners: console-setup
+
+Name: console-setup/use_system_font
+Template: console-setup/use_system_font
+Owners: console-setup
+
+Name: cupsys/backend
+Template: cupsys/backend
+Value: lpd, socket, usb, snmp, dnssd
+Owners: cups
+
+Name: cupsys/raw-print
+Template: cupsys/raw-print
+Value: true
+Owners: cups
+
+Name: dash/sh
+Template: dash/sh
+Value: true
+Owners: dash
+
+Name: debconf-apt-progress/info
+Template: debconf-apt-progress/info
+Owners: debconf
+
+Name: debconf-apt-progress/media-change
+Template: debconf-apt-progress/media-change
+Owners: debconf
+
+Name: debconf-apt-progress/preparing
+Template: debconf-apt-progress/preparing
+Owners: debconf
+
+Name: debconf-apt-progress/title
+Template: debconf-apt-progress/title
+Owners: debconf
+
+Name: debconf/frontend
+Template: debconf/frontend
+Value: Dialog
+Owners: debconf
+
+Name: debconf/priority
+Template: debconf/priority
+Value: high
+Owners: debconf
+
+Name: debian-installer/console-setup-udeb/title
+Template: debian-installer/console-setup-udeb/title
+Owners: keyboard-configuration
+
+Name: dictionaries-common/debconf_database_corruption
+Template: dictionaries-common/debconf_database_corruption
+Owners: dictionaries-common
+
+Name: dictionaries-common/default-ispell
+Template: dictionaries-common/default-ispell
+Owners: dictionaries-common
+
+Name: dictionaries-common/default-wordlist
+Template: dictionaries-common/default-wordlist
+Value: american (American English)
+Owners: dictionaries-common
+Variables:
+ choices = american (American English)
+ echoices = american (American English)
+
+Name: dictionaries-common/invalid_debconf_value
+Template: dictionaries-common/invalid_debconf_value
+Owners: dictionaries-common
+
+Name: dictionaries-common/ispell-autobuildhash-message
+Template: dictionaries-common/ispell-autobuildhash-message
+Owners: dictionaries-common
+
+Name: dictionaries-common/old_wordlist_link
+Template: dictionaries-common/old_wordlist_link
+Owners: dictionaries-common
+
+Name: dictionaries-common/selecting_ispell_wordlist_default
+Template: dictionaries-common/selecting_ispell_wordlist_default
+Owners: dictionaries-common
+
+Name: evolution/kill_processes
+Template: evolution/kill_processes
+Owners: evolution
+
+Name: evolution/needs_shutdown
+Template: evolution/needs_shutdown
+Owners: evolution
+
+Name: gdm/daemon_name
+Template: gdm/daemon_name
+Owners: gdm
+
+Name: glibc/disable-screensaver
+Template: glibc/disable-screensaver
+Owners: libc6, libc6:armhf
+
+Name: glibc/restart-failed
+Template: glibc/restart-failed
+Owners: libc6, libc6:armhf
+
+Name: glibc/restart-services
+Template: glibc/restart-services
+Owners: libc6, libc6:armhf
+
+Name: glibc/upgrade
+Template: glibc/upgrade
+Owners: libc6, libc6:armhf
+
+Name: keyboard-configuration/altgr
+Template: keyboard-configuration/altgr
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/compose
+Template: keyboard-configuration/compose
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/ctrl_alt_bksp
+Template: keyboard-configuration/ctrl_alt_bksp
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/layout
+Template: keyboard-configuration/layout
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/layoutcode
+Template: keyboard-configuration/layoutcode
+Value: us
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/model
+Template: keyboard-configuration/model
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/modelcode
+Template: keyboard-configuration/modelcode
+Value: pc105
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/optionscode
+Template: keyboard-configuration/optionscode
+Value: 
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/other
+Template: keyboard-configuration/other
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/store_defaults_in_debconf_db
+Template: keyboard-configuration/store_defaults_in_debconf_db
+Value: true
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/switch
+Template: keyboard-configuration/switch
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/toggle
+Template: keyboard-configuration/toggle
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/unsupported_config_layout
+Template: keyboard-configuration/unsupported_config_layout
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/unsupported_config_options
+Template: keyboard-configuration/unsupported_config_options
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/unsupported_layout
+Template: keyboard-configuration/unsupported_layout
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/unsupported_options
+Template: keyboard-configuration/unsupported_options
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/variant
+Template: keyboard-configuration/variant
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/variantcode
+Template: keyboard-configuration/variantcode
+Value: 
+Owners: keyboard-configuration
+
+Name: keyboard-configuration/xkb-keymap
+Template: keyboard-configuration/xkb-keymap
+Owners: keyboard-configuration
+
+Name: libpam-modules/disable-screensaver
+Template: libpam-modules/disable-screensaver
+Owners: libpam-modules
+
+Name: libpam-runtime/conflicts
+Template: libpam-runtime/conflicts
+Owners: libpam-runtime
+
+Name: libpam-runtime/no_profiles_chosen
+Template: libpam-runtime/no_profiles_chosen
+Owners: libpam-runtime
+
+Name: libpam-runtime/override
+Template: libpam-runtime/override
+Value: false
+Owners: libpam-runtime
+
+Name: libpam-runtime/profiles
+Template: libpam-runtime/profiles
+Value: unix, systemd, gnome-keyring, consolekit
+Owners: libpam-runtime
+Variables:
+ profile_names = unix, systemd, mkhomedir, gnome-keyring, consolekit
+ profiles = Unix authentication, Register user sessions in the systemd control group hierarchy, Create home directory on login, GNOME Keyring Daemon - Login keyring management, ConsoleKit Session Management
+
+Name: libpam-runtime/title
+Template: libpam-runtime/title
+Owners: libpam-runtime
+
+Name: libpam0g/restart-failed
+Template: libpam0g/restart-failed
+Owners: libpam0g:armhf
+
+Name: libpam0g/restart-services
+Template: libpam0g/restart-services
+Owners: libpam0g:armhf
+
+Name: libpam0g/xdm-needs-restart
+Template: libpam0g/xdm-needs-restart
+Owners: libpam0g:armhf
+
+Name: libpaper/defaultpaper
+Template: libpaper/defaultpaper
+Value: a4
+Owners: libpaper1:armhf
+
+Name: libraries/restart-without-asking
+Template: libraries/restart-without-asking
+Owners: libc6, libc6:armhf, libpam0g:armhf
+
+Name: libssl1.0.0/restart-failed
+Template: libssl1.0.0/restart-failed
+Owners: libssl1.0.0:armhf
+
+Name: libssl1.0.0/restart-services
+Template: libssl1.0.0/restart-services
+Owners: libssl1.0.0:armhf
+
+Name: linux-sound-base/sound_system
+Template: linux-sound-base/sound_system
+Value: ALSA
+Owners: linux-sound-base
+
+Name: make-ssl-cert/altname
+Template: make-ssl-cert/altname
+Owners: ssl-cert
+
+Name: make-ssl-cert/hostname
+Template: make-ssl-cert/hostname
+Owners: ssl-cert
+
+Name: make-ssl-cert/title
+Template: make-ssl-cert/title
+Owners: ssl-cert
+
+Name: make-ssl-cert/vulnerable_prng
+Template: make-ssl-cert/vulnerable_prng
+Owners: ssl-cert
+
+Name: man-db/auto-update
+Template: man-db/auto-update
+Owners: man-db
+
+Name: man-db/install-setuid
+Template: man-db/install-setuid
+Value: false
+Owners: man-db
+
+Name: openssh-server/permit-root-login
+Template: openssh-server/permit-root-login
+Owners: openssh-server
+
+Name: resolvconf/downup-interfaces
+Template: resolvconf/downup-interfaces
+Value: 
+Owners: resolvconf
+
+Name: resolvconf/link-tail-to-original
+Template: resolvconf/link-tail-to-original
+Value: true
+Owners: resolvconf
+
+Name: resolvconf/linkify-resolvconf
+Template: resolvconf/linkify-resolvconf
+Value: true
+Owners: resolvconf
+
+Name: resolvconf/reboot-recommended-after-removal
+Template: resolvconf/reboot-recommended-after-removal
+Owners: resolvconf
+
+Name: samba-common/dhcp
+Template: samba-common/dhcp
+Value: false
+Owners: samba-common
+
+Name: samba-common/do_debconf
+Template: samba-common/do_debconf
+Value: true
+Owners: samba-common
+
+Name: samba-common/title
+Template: samba-common/title
+Owners: samba-common
+
+Name: samba-common/workgroup
+Template: samba-common/workgroup
+Value: WORKGROUP
+Owners: samba-common
+
+Name: shared/default-x-display-manager
+Template: shared/default-x-display-manager
+Value: gdm
+Owners: gdm
+Variables:
+ choices = gdm
+
+Name: shared/packages-wordlist
+Template: shared/packages-wordlist
+Owners: wamerican
+
+Name: tzdata/Areas
+Template: tzdata/Areas
+Value: Etc
+Owners: tzdata
+Flags: seen
+
+Name: tzdata/Zones/Africa
+Template: tzdata/Zones/Africa
+Owners: tzdata
+
+Name: tzdata/Zones/America
+Template: tzdata/Zones/America
+Owners: tzdata
+
+Name: tzdata/Zones/Antarctica
+Template: tzdata/Zones/Antarctica
+Owners: tzdata
+
+Name: tzdata/Zones/Arctic
+Template: tzdata/Zones/Arctic
+Owners: tzdata
+
+Name: tzdata/Zones/Asia
+Template: tzdata/Zones/Asia
+Owners: tzdata
+
+Name: tzdata/Zones/Atlantic
+Template: tzdata/Zones/Atlantic
+Owners: tzdata
+
+Name: tzdata/Zones/Australia
+Template: tzdata/Zones/Australia
+Owners: tzdata
+
+Name: tzdata/Zones/Etc
+Template: tzdata/Zones/Etc
+Value: UTC
+Owners: tzdata
+Flags: seen
+
+Name: tzdata/Zones/Europe
+Template: tzdata/Zones/Europe
+Owners: tzdata
+
+Name: tzdata/Zones/Indian
+Template: tzdata/Zones/Indian
+Owners: tzdata
+
+Name: tzdata/Zones/Pacific
+Template: tzdata/Zones/Pacific
+Owners: tzdata
+
+Name: tzdata/Zones/SystemV
+Template: tzdata/Zones/SystemV
+Owners: tzdata
+
+Name: tzdata/Zones/US
+Template: tzdata/Zones/US
+Owners: tzdata
+
+Name: ucf/changeprompt
+Template: ucf/changeprompt
+Owners: ucf
+
+Name: ucf/changeprompt_threeway
+Template: ucf/changeprompt_threeway
+Owners: ucf
+
+Name: ucf/conflicts_found
+Template: ucf/conflicts_found
+Owners: ucf
+
+Name: ucf/show_diff
+Template: ucf/show_diff
+Owners: ucf
+
+Name: ucf/title
+Template: ucf/title
+Owners: ucf
+
+Name: wamerican/languages
+Template: wamerican/languages
+Owners: wamerican
+
+Name: x11-common/xwrapper/actual_allowed_users
+Template: x11-common/xwrapper/actual_allowed_users
+Value: console
+Owners: x11-common
+
+Name: x11-common/xwrapper/allowed_users
+Template: x11-common/xwrapper/allowed_users
+Value: Console Users Only
+Owners: x11-common
+

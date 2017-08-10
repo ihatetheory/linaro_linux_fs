@@ -1,0 +1,47 @@
+#!/bin/sh
+
+set -e
+
+case "${1}" in
+	remove)
+		rmdir /lib/plymouth/themes || :
+		rmdir /lib/plymouth || :
+
+		if [ -x /usr/sbin/update-initramfs ]
+		then
+			update-initramfs -u
+		fi
+		;;
+
+	purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+
+		;;
+
+	*)
+		echo "postrm called with unknown argument \`${1}'" >&2
+		exit 1
+		;;
+esac
+
+# Automatically added by dh_systemd_start
+if [ -d /run/systemd/system ]; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_systemd_enable
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask plymouth-poweroff.service plymouth-read-write.service plymouth-start.service plymouth-kexec.service plymouth-halt.service plymouth-quit-wait.service plymouth-reboot.service plymouth-quit.service >/dev/null
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge plymouth-poweroff.service plymouth-read-write.service plymouth-start.service plymouth-kexec.service plymouth-halt.service plymouth-quit-wait.service plymouth-reboot.service plymouth-quit.service >/dev/null
+		deb-systemd-helper unmask plymouth-poweroff.service plymouth-read-write.service plymouth-start.service plymouth-kexec.service plymouth-halt.service plymouth-quit-wait.service plymouth-reboot.service plymouth-quit.service >/dev/null
+	fi
+fi
+# End automatically added section
+
+
+exit 0

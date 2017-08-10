@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.PackageKit
+Exec=/usr/bin/gpk-dbus-service
+

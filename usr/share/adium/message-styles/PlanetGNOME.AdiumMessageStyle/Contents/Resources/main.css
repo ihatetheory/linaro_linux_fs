@@ -1,0 +1,118 @@
+* {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 6px;
+  margin: 0;
+}
+
+div.entry {
+  clear: both;
+  margin-bottom: 0.5em;
+}
+
+div.person-info {
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: 25px !important;
+  margin-left: -12px;
+  padding: 0 24px 0 6px;
+  left: 3px;
+  width: 72px;
+  background: url(Images/nipple.png) top right no-repeat;
+  text-align: center;
+  color: #777;
+  font-size: small;
+}
+
+div.person-info img {
+  border: 0px;
+  margin-bottom: 1ex;
+  width: 50px;
+  height: auto;
+}
+
+div.post {
+  position: relative;
+  margin-left: 89px;
+  padding: 12px;
+}
+
+b.cr {
+  position: absolute;
+  background-image: url(Images/corners.png);
+  width: 50px;
+  height: 50px;
+}
+b.tl { top: 0px; left: 0px; background-position: top left; }
+b.tr { top: 0px; right: 0px; background-position: top right; }
+b.bl { bottom: 0px; left: 0px; background-position: bottom left; }
+b.br { bottom: 0px; right: 0px; background-position: bottom right; }
+
+b.vt {
+  position: absolute;
+  background: url(Images/vertical.png) repeat-y;
+  width: 50px;
+  height: 100%;
+}
+b.lt { top: 0px; left: 0px; background-position: top left; }
+b.rt { top: 0px; right: 0px; background-position: top right; }
+
+b.hz {
+  position: absolute;
+  background: url(Images/horizontal.png) repeat-x;
+  width: 100%;
+  height: 50px;
+}
+b.to { top: 0px; left: 0px; background-position: top left; }
+b.bo { bottom: 0px; left: 0px; background-position: bottom left; }
+
+.post-contents {
+  position: relative;
+  z-index: 1;
+  line-height: 120%;
+  padding: 0;
+  margin: 0 0 2em 0;
+}
+
+.post-body {
+  min-height: 40px;
+}
+
+.post-contents p {
+  padding: 0;
+  margin: 0;
+  padding-top: 0.3em;
+}
+
+.post-contents:after {
+  display: block;
+  clear: both;
+}
+
+.post-footer {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+.post-footer p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-size: small;
+  text-align: right;
+  color: #777;
+}
+
+::selection {
+  background: #4a90d9;
+}

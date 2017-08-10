@@ -1,0 +1,31 @@
+#!/bin/sh
+set -e
+
+# We once shipped fstrim.timer in 2.25.2-2. Undo the timer getting enabled
+# and purge the helper state, if upgrading from that version.
+if [ "$1" = "upgrade" ] && [ "$2" = "2.25.2-2" ] && \
+		[ -x /usr/bin/deb-systemd-helper ] && \
+		deb-systemd-helper debian-installed fstrim.timer; then
+	deb-systemd-helper disable fstrim.timer
+	deb-systemd-helper purge fstrim.timer
+fi
+
+# Automatically added by dh_installinit
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/hwclock-save" ] && [ -L "/etc/init.d/hwclock-save" ] \
+	   && [ $(readlink -f "/etc/init.d/hwclock-save") = /lib/init/upstart-job ]
+	then
+		rm -f "/etc/init.d/hwclock-save"
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/hwclock" ] && [ -L "/etc/init.d/hwclock" ] \
+	   && [ $(readlink -f "/etc/init.d/hwclock") = /lib/init/upstart-job ]
+	then
+		rm -f "/etc/init.d/hwclock"
+	fi
+fi
+# End automatically added section
+

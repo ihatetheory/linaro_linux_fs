@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Print preview and print definitions.</desc>
+
+  </info>
+
+  <title>Print a definition</title>
+
+  <p>You can print a definition to paper or a file. Before printing, you
+  should preview the definition as it would be printed to check that the text
+  fits onto the page, especially if you have changed the
+  <link xref="print-font">print font</link> size.</p>
+
+  <section id="preview">
+    <title>Print preview</title>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">File</gui>
+        <gui style="menuitem">Preview</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>A print preview window will open which will show you the definition
+        exactly as it will be printed.</p>
+      </item>
+      <item>
+	<p>Use the toolbar to browse pages, adjust zoom level and page
+	width.</p>
+      </item>
+      <item>
+        <p>Click the <gui style="button">Print this document</gui> to print
+        the definition or close the window to end the preview.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>The print button in the toolbar may not always work. If it does not
+      work for you, close the window and select
+      <guiseq><gui style="menu">File</gui>
+      <gui style="menuitem">Print</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Print</title>
+
+    <p>You need to <link href="help:gnome-help/printing">have a printer set
+    up</link> to be able to print to paper.</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">File</gui>
+        <gui style="menuitem">Print</gui>
+        <gui style="tab">General</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Select the printer that you want to use from the list of printers
+        or select
+        <gui href="help:gnome-help/print-to-file">Print to File</gui>.</p>
+      </item>
+      <item>
+        <p>Chose your <link href="help:gnome-help/printing#paper">printing
+        settings</link>.</p>
+      </item>
+      <item>
+        <p>Press <gui style="button">Print</gui> to print the definition.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

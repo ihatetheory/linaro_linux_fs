@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Sharing
+Comment=Control what you want to share with others
+Exec=gnome-control-center sharing
+Icon=preferences-system-sharing
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Settings-Panel=sharing
+# Translators: those are keywords for the sharing control-center panel
+Keywords=share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;video;pictures;photos;movies;server;renderer;
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

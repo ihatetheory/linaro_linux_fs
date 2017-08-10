@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -*- indent-tabs-mode: nil -*- -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.9.7">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "Character Palette">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002 
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="fr">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<articleinfo> 
+  <title>Manuel de Palette de caractères</title>
+  <abstract role="description">
+    <para>Palette de caractères permet d'accéder aisément aux caractères absents de votre clavier, tels que les caractères accentués, les symboles mathématiques, les caractères spéciaux et les signes de ponctuation.</para>
+  </abstract>
+  <copyright lang="en">
+    <year>2005</year>
+    <holder>Davyd Madeley</holder>
+  </copyright>
+  <copyright lang="en">
+    <year>2004</year>
+    <holder>Angela Boyle</holder>
+  </copyright>
+  <copyright lang="en"> 
+    <year>2002</year>
+    <year>2003</year>
+    <year>2004</year>
+  <holder>Sun Microsystems</holder> </copyright>
+  <copyright lang="en"> 
+    <year>2000</year>
+    <holder>Dan Mueth</holder>
+  </copyright>
+  <publisher role="maintainer">
+    <publishername>Projet de documentation GNOME</publishername>
+  </publisher>
+
+     <legalnotice id="legalnotice">
+         <para>Permission vous est donnée de copier, distribuer et/ou modifier ce document selon les termes de la Licence GNU Free Documentation License, Version 1.1 ou ultérieure publiée par la Free Software Foundation sans section inaltérable, sans texte de première page de couverture ni texte de dernière page de couverture. Vous trouverez un exemplaire de cette licence en suivant ce <ulink type="help" url="help:fdl">lien</ulink> ou dans le fichier COPYING-DOCS fourni avec le présent manuel.</para>
+          <para>Ce manuel fait partie de la collection de manuels GNOME distribués selon les termes de la licence de documentation libre GNU. Si vous souhaitez distribuer ce manuel indépendamment de la collection, vous devez joindre un exemplaire de la licence au document, comme indiqué dans la section 6 de celle-ci.</para>
+ 
+         <para>La plupart des noms utilisés par les entreprises pour distinguer leurs produits et services sont des marques déposées. Lorsque ces noms apparaissent dans la documentation GNOME et que les membres du projet de Documentation GNOME sont informés de l'existence de ces marques déposées, soit ces noms entiers, soit leur première lettre est en majuscule.</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+   <authorgroup>
+     <author lang="en">
+       <firstname>Sun</firstname>
+       <surname>GNOME Documentation Team</surname>
+       <affiliation>
+	 <orgname>Sun Microsystems</orgname>
+       </affiliation>
+     </author>
+     <author lang="en">
+       <firstname>Dan</firstname>
+       <surname>Mueth</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>d-mueth@uchicago.edu</email>
+     </author>
+     <author lang="en">
+       <firstname>Angela</firstname>
+       <surname>Boyle</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+     </author>
+     <editor lang="en">
+       <firstname>Shaun</firstname>
+       <surname>McCance</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>shaunm@gnome.org</email>
+     </editor>
+     <editor lang="en">
+       <firstname>Davyd</firstname>
+       <surname>Madeley</surname>
+       <affiliation>
+         <orgname>GNOME Project</orgname>
+       </affiliation>
+       <email>davyd@madeley.id.au</email>
+     </editor>
+   </authorgroup>
+   
+   <releaseinfo revision="2.26" role="review"/>
+
+   <revhistory>
+     <revision lang="en">
+       <revnumber>Version 2.10</revnumber>
+       <date>March 2005</date>
+       <revdescription>
+         <para role="author" lang="en">Davyd Madeley</para>
+       </revdescription>
+     </revision>
+     <revision lang="en">
+       <revnumber>Version 2.8</revnumber>
+       <date>Unknown</date>
+       <revdescription>
+	 <para role="author" lang="en">Angela Boyle</para>
+	 <para role="publisher" lang="en">GNOME Documentation Project</para>
+       </revdescription>
+     </revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.6</revnumber>
+		  <date>August 2004</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.4</revnumber>
+		  <date>August 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.3</revnumber>
+		  <date>October 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.2</revnumber>
+		  <date>August 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.1</revnumber>
+		  <date>July 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.0</revnumber>
+		  <date>March 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems	</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Picker Applet</revnumber>
+		  <date>2000</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Dan Mueth <email>d-mueth@uchicago.edu</email>
+				</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+	 </revhistory>
+	 <releaseinfo>Ce manuel documente la version 2.9.7 de Palette de caractères.</releaseinfo>
+	 <legalnotice> 
+		<title>Votre avis</title>
+		<para>Pour rapporter un bogue ou émettre une suggestion concernant concernant l'applet Palette de caractères ou ce manuel, procédez comme indiqué sur la <ulink url="ghelp:gnome-feedback" type="help">Page de réactions sur GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+	 </legalnotice>
+  </articleinfo>
+  <indexterm lang="en"> <primary>Character Palette</primary> </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="charpick-introduction"> 
+	 <title>Introduction</title> 
+       <!-- ==== Figure ============================================= -->
+	 <figure id="applet-fig"> 
+		<title>Palette de caractères</title>
+		<screenshot> 
+		  <mediaobject lang="en"> 
+			 <imageobject><imagedata fileref="figures/charpalette_applet.png" format="PNG"/> </imageobject>
+			 <textobject> <phrase>Character Palette</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+       <!-- ==== End of Figure ======================================= -->
+       <para>L'applet <application>Palette de caractères</application> permet d'accéder aisément aux caractères absents de votre clavier, tels que les caractères accentués, les symboles mathématiques, les caractères spéciaux et les signes de ponctuation. L'applet permet l'insertion de caractères dans des chaînes de texte, par exemple dans des documents textes ou dans une ligne de commande. Par ailleurs, il est possible de personnaliser le contenu de l'applet en fonction de vos besoins.</para>
+       <para><application>Palette de caractères</application> prend en charge le codage UTF-8 permettant ainsi d'afficher ou de copier tous les caractères Unicode.</para>
+
+       <sect2 id="charpick-introduction-add">       
+         <title>Ajout de Palette de caractères à un tableau de bord</title>
+	 <para>Pour ajouter <application>Palette de caractères</application> à un tableau de bord, cliquez avec le bouton droit sur celui-ci, puis choisissez <guimenuitem>Ajouter au tableau de bord</guimenuitem>. Sélectionnez <application>Palette de caractères</application> dans la boîte de dialogue <application>Ajouter au tableau de bord</application>, puis cliquez sur le bouton <guibutton>Valider</guibutton>.</para>
+       </sect2> 
+  </sect1>
+<!-- ================ Usage ================================ -->
+  <sect1 id="charpick-usage"> 
+	 <title>Obtention des caractères</title>
+	 <para>Lorsque vous ajoutez <application>Palette de caractères</application> à un tableau de bord pour la première fois, elle affiche une palette de caractères par défaut. Vous pouvez sélectionner un caractère depuis cette palette, ou depuis d'autres palettes de caractères prédéfinies. Chaque palette prédéfinie est associée à un caractère standard de votre clavier.</para>
+	 <!-- ================ Usage Subsection ================================ -->
+	 <sect2 id="charpick-charselect"> 
+		<title>Sélection d'un caractère</title>
+		<para>Pour sélectionner un caractère de la palette et l'insérer dans une chaîne de texte, procédez comme suit :</para>
+		  <orderedlist> 
+		    <listitem><para>Cliquez sur le caractère requis dans la palette. Le bouton du caractère est enfoncé. Cela indique qu'il est sélectionné.</para></listitem>
+                    <listitem>
+                      <para>Placez le curseur là où vous souhaitez insérer le caractère et appuyez sur le bouton central de la souris. Vous pouvez également coller le caractère dans l'application si celle-ci vous permet de coller à partir du presse-papier.</para>
+                      <para>Vous pouvez répéter l'insertion à l'aide du bouton central autant de fois que nécessaire. En effet, le caractère reste sélectionné jusqu'à ce que vous cliquiez sur un autre caractère de l'applet ou que vous copiez du texte vers le presse-papier à partir d'une autre application.</para>
+                    </listitem>
+                </orderedlist>
+                <para>Pour désélectionner le caractère, cliquez à nouveau dessus ou cliquez sur un autre caractère.</para>
+                <note><para>Il est impossible de coller certains des caractères dans quelques applications.</para></note>
+	 </sect2> 
+	 <sect2 id="charpick-display-chargroup"> 
+		<title>Affichage d'une palette de caractères prédéfinie</title>
+		<para>Vous pouvez changer les caractères affichés en passant de la palette de caractères par défaut à une palette prédéfinie. Pour afficher une palette de caractères prédéfinie, procédez comme suit :</para>
+		  <orderedlist> 
+			 <listitem> 
+				<para>Cliquez sur le bouton <guibutton>Palettes disponibles</guibutton> de l'applet, la flèche vers le bas sur la gauche.</para>
+			 </listitem>
+			 <listitem> 
+				<para>Cliquez sur la palette à afficher.</para>
+			 </listitem>
+		  </orderedlist>
+		<para>Vous pouvez alors sélectionner le caractère dans la palette de caractères puis l'insérer dans votre texte.</para>
+	</sect2>
+	<sect2 id="charpick-charkeys">
+		<title>Les touches de caractères</title>
+		<para>Le tableau suivant liste les caractères du clavier associés à des groupes de caractères. Les caractères du clavier sont répertoriés dans la première colonne de chaque partie du tableau. Les groupes de caractères associés sont affichés dans les autres colonnes.</para>
+		<figure id="charpick-characters"> 
+		  <title>Groupes de caractères associés aux touches du clavier</title>
+		  <screenshot> 
+			 <mediaobject lang="en"> 
+				<imageobject> 
+				  <imagedata fileref="figures/charpick_characters.png" format="PNG"/> </imageobject>
+				<textobject> <phrase>Shows character groups associated
+				with various keyboard keys. </phrase> </textobject> </mediaobject>
+		  </screenshot>
+		</figure> 
+
+	 </sect2> 
+    
+
+
+  </sect1>
+<!-- ============= Preferences ============================= -->
+  <sect1 id="charpick-prefs"> 
+	 <title>Personnalisation de Palette de caractères</title>
+	<figure id="fig-prefs"> 
+	  <title>Préférences de Palette de caractères</title>
+	  <screenshot> 
+	  <mediaobject lang="en"> 
+	   <imageobject><imagedata fileref="figures/charpick-preferences.png" format="PNG"/> </imageobject>
+	<textobject> <phrase>Character Palette Preferences</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+	<sect2 id="charpicks-prefs-prefs">
+		<title>Configuration des palettes</title>
+	 	<para>Pour configurer <application>Palette de caractères</application>, cliquez dessus avec le bouton droit, puis sélectionnez <guimenuitem>Préférences</guimenuitem>. La boîte de dialogue <guilabel>Préférences de la palette de caractères</guilabel> contient la liste <guilabel>Palettes</guilabel> qui répertorie les palettes disponibles de l'applet. Pour fermer la boîte de dialogue <guilabel>Préférences de la palette de caractères</guilabel>, cliquez sur le bouton <guibutton>Fermer</guibutton>.</para>
+		<itemizedlist>
+			<listitem><para>Pour ajouter une nouvelle palette à l'applet, cliquez sur le bouton <guibutton>Ajouter</guibutton>. Reportez-vous à la section <xref linkend="charpick-default-new"/> pour plus d'informations.</para></listitem>
+			<listitem><para>Pour supprimer une palette de l'applet, sélectionnez-la, puis cliquez sur le bouton <guibutton>Supprimer</guibutton>.</para></listitem>
+			<listitem><para>Pour modifier une palette de l'applet, sélectionnez-la, puis cliquez sur le bouton <guibutton>Modifier</guibutton>. Modifiez la palette dans la boîte de dialogue <guilabel>Modifie la palette</guilabel>, puis cliquez sur <guibutton>Valider</guibutton>.</para></listitem>
+		</itemizedlist>
+	</sect2>
+	 <sect2 id="charpick-default-new"> 
+		<title>Définition d'une nouvelle palette de caractères</title>
+		<para>Vous pouvez utiliser une application de sélection de caractères, telle que <application>Table de caractères</application> pour constituer une nouvelle palette. Par exemple, pour créer une nouvelle palette à l'aide de <application>Table de caractères</application>, procédez comme suit :</para>
+		<orderedlist> 
+		  <listitem> 
+			 <para>Cliquez-droit sur l'applet, puis choisissez <guimenuitem>Préférences</guimenuitem>. La boîte de dialogue <guilabel>Préférences de la palette de caractères</guilabel> s'affiche.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Cliquez sur le bouton <guibutton>Ajouter</guibutton> et la boîte de dialogue <guilabel>Ajoute une palette</guilabel> s'affiche.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Ouvrez <application>Table de caractères</application>, puis sélectionnez les caractères à afficher dans la nouvelle palette. Vous pouvez en sélectionner jusqu'à 25.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Copiez le contenu de la zone de texte <guilabel>Texte à copier</guilabel> de <application>Table de caractères</application> vers la zone de texte <guilabel>Palette</guilabel> de la fenêtre <guilabel>Ajoute une palette</guilabel>.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Cliquez sur <guibutton>Valider</guibutton>.</para>
+		  </listitem>
+		</orderedlist>
+		<para><application>Palette de caractères</application> ajoute la nouvelle palette de caractères à la liste des palettes disponibles.</para>
+	 </sect2>
+  </sect1>
+</article>

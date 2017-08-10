@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator Keyboard
+Exec=/usr/lib/arm-linux-gnueabihf/indicator-keyboard/indicator-keyboard-service
+OnlyShowIn=Unity;
+NoDisplay=true
+StartupNotify=false
+Terminal=false
+Hidden=true
+X-Ubuntu-Gettext-Domain=indicator-keyboard

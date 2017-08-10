@@ -1,0 +1,210 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Telepathy-GLib
+Upstream-Contact: mailto:telepathy@lists.freedesktop.org
+Source: http://telepathy.freedesktop.org/releases/telepathy-glib/
+
+Files: *
+Copyright:
+    © 1999 Tom Tromey
+    © 2000 Red Hat, Inc.
+    © 2005-2013 Collabora Limited
+    © 2005-2009 Nokia Corporation
+    © 2005, 2006 Free Software Foundation, Inc.
+    © 2006 INdT
+    © 2010-2011 Morten Mjelva
+License: LGPL-2.1+
+
+Files:
+    examples/client/approver.c
+    examples/client/contact-list.c
+    examples/client/extended-client.c
+    examples/client/inspect-channel.c
+    examples/client/inspect-cm.c
+    examples/client/inspect-connection.c
+    examples/client/inspect-contact.c
+    examples/client/list-connections.c
+    examples/client/list-managers.c
+    examples/client/media-observer.c
+    examples/client/text-handler.c
+    examples/cm/call/*.?
+    examples/cm/channelspecific/*.?
+    examples/cm/contactlist/*.?
+    examples/cm/echo-message-parts/*.?
+    examples/cm/extended/*.?
+    examples/cm/no-protocols/*.?
+    examples/extensions/Connection_Interface_Hats.xml
+    tests/contact-search-result.c
+    tests/dbus/account-channel-request.c
+    tests/dbus/account-manager.c
+    tests/dbus/account-request.c
+    tests/dbus/account.c
+    tests/dbus/base-client.c
+    tests/dbus/channel-dispatch-operation.c
+    tests/dbus/channel-dispatcher.c
+    tests/dbus/channel-introspect.c
+    tests/dbus/channel-manager-request-properties.c
+    tests/dbus/channel-request.c
+    tests/dbus/channel.c
+    tests/dbus/cli-group.c
+    tests/dbus/client-channel-factory.c
+    tests/dbus/client.c
+    tests/dbus/cm.c
+    tests/dbus/connection-aliasing.c
+    tests/dbus/connection-balance.c
+    tests/dbus/connection-bug-18845.c
+    tests/dbus/connection-error.c
+    tests/dbus/connection-getinterfaces-failure.c
+    tests/dbus/connection-handles.c
+    tests/dbus/connection-inject-bug16307.c
+    tests/dbus/connection-interests.c
+    tests/dbus/connection.c
+    tests/dbus/contact-list-client.c
+    tests/dbus/contact-lists.c
+    tests/dbus/contacts-mixin.c
+    tests/dbus/contacts-slow-path.c
+    tests/dbus/contacts.c
+    tests/dbus/dbus-tube.c
+    tests/dbus/debug-client.c
+    tests/dbus/file-transfer-channel.c
+    tests/dbus/finalized-in-invalidated-handler.c
+    tests/dbus/group-mixin.c
+    tests/dbus/invalidated-while-invoking-signals.c
+    tests/dbus/long-connection-name.c
+    tests/dbus/message-mixin.c
+    tests/dbus/protocol-objects.c
+    tests/dbus/proxy-preparation.c
+    tests/dbus/room-list.c
+    tests/dbus/self-handle.c
+    tests/dbus/self-presence.c
+    tests/dbus/simple-approver.c
+    tests/dbus/simple-handler.c
+    tests/dbus/simple-observer.c
+    tests/dbus/stream-tube.c
+    tests/dbus/text-channel.c
+    tests/dbus/text-mixin.c
+    tests/dbus/text-respawn.c
+    tests/dbus/tls-certificate.c
+    tests/dbus/unsupported-interface.c
+    tests/enums.c
+    tests/lib/Makefile.in
+    tests/lib/broken-client-types-conn.c
+    tests/lib/broken-client-types-conn.h
+    tests/lib/bug-19101-conn.c
+    tests/lib/bug-19101-conn.h
+    tests/lib/bug16307-conn.c
+    tests/lib/bug16307-conn.h
+    tests/lib/contact-list-manager.c
+    tests/lib/contact-list-manager.h
+    tests/lib/contacts-conn.c
+    tests/lib/contacts-conn.h
+    tests/lib/dbus-tube-chan.c
+    tests/lib/dbus-tube-chan.h
+    tests/lib/echo-chan.c
+    tests/lib/echo-chan.h
+    tests/lib/echo-channel-manager-conn.c
+    tests/lib/echo-channel-manager-conn.h
+    tests/lib/echo-cm.c
+    tests/lib/echo-cm.h
+    tests/lib/echo-conn.c
+    tests/lib/echo-conn.h
+    tests/lib/echo-im-manager.c
+    tests/lib/echo-im-manager.h
+    tests/lib/file-transfer-chan.c
+    tests/lib/file-transfer-chan.h
+    tests/lib/my-conn-proxy.c
+    tests/lib/my-conn-proxy.h
+    tests/lib/simple-account-manager.c
+    tests/lib/simple-account-manager.h
+    tests/lib/simple-account.c
+    tests/lib/simple-account.h
+    tests/lib/simple-channel-dispatch-operation.c
+    tests/lib/simple-channel-dispatch-operation.h
+    tests/lib/simple-channel-dispatcher.c
+    tests/lib/simple-channel-dispatcher.h
+    tests/lib/simple-channel-manager.c
+    tests/lib/simple-channel-manager.h
+    tests/lib/simple-channel-request.c
+    tests/lib/simple-channel-request.h
+    tests/lib/simple-client.c
+    tests/lib/simple-client.h
+    tests/lib/simple-conn.c
+    tests/lib/simple-conn.h
+    tests/lib/simple-manager.c
+    tests/lib/simple-manager.h
+    tests/lib/stream-tube-chan.c
+    tests/lib/stream-tube-chan.h
+    tests/lib/textchan-group.c
+    tests/lib/textchan-group.h
+    tests/lib/textchan-null.c
+    tests/lib/textchan-null.h
+    tests/lib/util.c
+    tests/lib/util.h
+    tests/message.c
+    tests/signal-connect-object.c
+    tools/git-which-branch.sh
+    tools/make-version-script.py
+    tools/test-wrapper.sh
+Copyright:
+    © 2007-2013 Collabora Limited
+    © 2007-2009 Nokia Corporation
+License: GNU-permissive
+    Copying and distribution of this file, with or without modification,
+    are permitted in any medium without royalty provided the copyright
+    notice and this notice are preserved.
+
+Files: debian/*
+Copyright:
+    © 2006 Daniel Holbach <daniel.holbach@ubuntu.com>
+    © 2006-2014 Collabora Limited
+License: LGPL-2.1+
+
+Files: m4/compiler.m4 m4/linker.m4
+Copyright:
+    © 2005 Scott James Remnant <scott@netsplit.com>.
+License: expat
+
+Files: m4/introspection.m4
+Copyright:
+    © 2009 Johan Dahlin
+License: introspection-permissive
+    This file is free software; the author(s) gives unlimited
+    permission to copy and/or distribute it, with or without
+    modifications, as long as this notice is preserved.
+
+License: LGPL-2.1+
+    This package is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+    .
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+    .
+    You should have received a copy of the GNU Lesser General Public
+    License along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+    .
+    On Debian systems, the complete text of the GNU Lesser General
+    Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: expat
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+    .
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+    .
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+    ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+    CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,12 @@
+6084b0625e5a94ce9638dcb1705cee05  usr/bin/gnome-contacts
+fbb9590b6f1e10f14100523a4c4aa001  usr/lib/gnome-contacts/gnome-contacts-search-provider
+1154eba56fbbb5f304e8c953b8c7d484  usr/share/applications/gnome-contacts.desktop
+d5baf56876bc95d9728cbb99c35ae227  usr/share/dbus-1/services/org.gnome.Contacts.SearchProvider.service
+fa62b34df48093e56ffb9483f76ac798  usr/share/doc/gnome-contacts/AUTHORS
+d47645a5edd3f684f96101843beca8db  usr/share/doc/gnome-contacts/NEWS.gz
+68b329da9893e34099c7d8ad5cb9c940  usr/share/doc/gnome-contacts/README
+eb1a08e56d300c2f5aaa067bbce61047  usr/share/doc/gnome-contacts/changelog.Debian.gz
+26a46b8c9bc739861d94678ca5cbf034  usr/share/doc/gnome-contacts/copyright
+580bdc8083ec5663a57931770a7739ef  usr/share/glib-2.0/schemas/org.gnome.Contacts.enums.xml
+06645ded3850c4a2f61e5c959df9cbff  usr/share/glib-2.0/schemas/org.gnome.Contacts.gschema.xml
+a9701ced9396082bc3a92d6186c60d55  usr/share/gnome-shell/search-providers/gnome-contacts-search-provider.ini

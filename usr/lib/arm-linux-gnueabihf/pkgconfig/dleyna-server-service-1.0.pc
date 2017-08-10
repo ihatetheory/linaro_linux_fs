@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libexecdir=/usr/lib/dleyna-server
+
+Name: dleyna-server-service
+Description: UPnP & DLNA media content management
+Requires.private: glib-2.0 gio-2.0 dleyna-core-1.0 dleyna-server-1.0
+Version: 0.4.0

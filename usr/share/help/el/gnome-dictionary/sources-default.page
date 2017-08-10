@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-default" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ορίστε μια προεπιλεγμένη πηγή λεξικού</title>
+
+  <p>Όταν χρησιμοποιήσετε για πρώτη φορά το <app>Λεξικό</app>, θα πρέπει να έχει κάποια προεγκατεστημένα λεξικά που μπορείτε να χρησιμοποιήσετε. Μπορείτε να αλλάξετε την προεπιλογή <link xref="sources">πηγή λεξικού</link> σε μια άλλη που θα προτιμούσατε να χρησιμοποιήσετε στη θέση της.</p>
+
+  <steps>
+    <title>Αλλαγή της προεπιλεγμένης πηγής λεξικού:</title>
+    <item>
+      <p>Επιλέξτε <guiseq><gui><app>Λεξικό</app></gui> <gui style="menu">Προτιμήσεις</gui> <gui style="tab">Πηγή</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε την πηγή λεξικού που θέλετε να ορίσετε ως προεπιλογή.</p>
+    </item>
+    <item>
+      <p>Η αλλαγή σας θα αποθηκευτεί αυτόματα.</p>
+    </item>
+  </steps>
+
+</page>

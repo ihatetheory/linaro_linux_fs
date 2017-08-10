@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/experimental/ui/" type="task" id="keyboard-shortcuts" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Puede usar los atajos del teclado para moverse por <app>Diccionario</app> más eficientemente.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Atajos de teclado</title>
+
+  <p>Los atajos del teclado son combinaciones de teclas que puede usar en lugar navegar por los menús. Están disponibles los siguientes atajos:</p>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Navegar por <app>Diccionario</app></title>
+    <thead>
+      <tr>
+        <td><p>Acción</p></td>
+        <td><p>Atajo de teclado</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Vista previa de impresión</p></td>
+        <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Imprimir</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Ver la barra lateral</p></td>
+        <td><p><key>F9</key></p></td>
+      </tr>
+      <tr>
+        <td><p>Abrir una ventana nueva de <application>Diccionario</application></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Cerrar la ventana actual de <app>Diccionario</app></p></td>
+        <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Buscar atajos</title>
+    <thead>
+      <tr>
+        <td><p>Acción</p></td>
+        <td><p>Atajo de teclado</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Buscar con una definición</p></td>
+        <td><p><key>/</key> o <keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Buscar siguiente</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Buscar anterior</p></td>
+        <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Navegar por una definición</title>
+    <thead>
+      <tr>
+        <td><p>Acción</p></td>
+        <td><p>Atajo de teclado</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Definición anterior</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Re Pág</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Siguiente definición</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Av Pág</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Primera definición</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Inicio</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Última definición</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>Fin</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table rules="rows" frame="top bottom" ui:expanded="yes">
+    <title>Atajos de definiciones de <app>Diccionario</app>:</title>
+    <thead>
+      <tr>
+        <td><p>Acción</p></td>
+        <td><p>Atajo de teclado</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Palabras similares</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Fuentes de diccionario</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Bases de datos disponibles</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Estrategias disponibles</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+      </tr>
+    </tbody>
+  </table>
+
+</page>

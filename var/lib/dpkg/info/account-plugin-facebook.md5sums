@@ -1,0 +1,6 @@
+8bb2257af24933d0b5cde116491def48  usr/share/accounts/providers/facebook.provider
+6c39f93cb955cb931c873d12255297e8  usr/share/accounts/qml-plugins/facebook/Main.qml
+852d08d3d7ea3af34f5c59a37cf201af  usr/share/accounts/services/facebook-im.service
+e171c94f4076f8f95e84ff1c9ad84b85  usr/share/accounts/services/facebook-microblog.service
+31c78e3bfc9d8dc3a8fa52ccdef6440c  usr/share/accounts/services/facebook-sharing.service
+2ded704009915d85ac9ca024e8f1eac4  usr/share/doc/account-plugin-facebook/copyright

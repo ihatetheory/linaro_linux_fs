@@ -1,0 +1,12 @@
+[Unit]
+Description=Perl-based spam filter using text analysis
+
+[Service]
+Type=forking
+PIDFile=/var/run/spamassassin.pid
+EnvironmentFile=-/etc/default/spamassassin
+ExecStart=/usr/sbin/spamd -d --pidfile=/var/run/spamassassin.pid $OPTIONS
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator Printers
+Exec=/usr/lib/arm-linux-gnueabihf/indicator-printers/indicator-printers-service
+OnlyShowIn=Unity;
+NoDisplay=true
+StartupNotify=false
+Terminal=false
+Hidden=true

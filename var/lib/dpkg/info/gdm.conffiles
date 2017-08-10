@@ -1,0 +1,16 @@
+/etc/dbus-1/system.d/gdm.conf
+/etc/gdm/Init/Default
+/etc/gdm/PostLogin/Default.sample
+/etc/gdm/PostSession/Default
+/etc/gdm/PreSession/Default
+/etc/gdm/Prime/Default
+/etc/gdm/PrimeOff/Default
+/etc/gdm/Xsession
+/etc/gdm/config-error-dialog.sh
+/etc/gdm/custom.conf
+/etc/gdm/greeter.gsettings
+/etc/init.d/gdm
+/etc/init/gdm.conf
+/etc/insserv.conf.d/gdm
+/etc/pam.d/gdm
+/etc/pam.d/gdm-autologin

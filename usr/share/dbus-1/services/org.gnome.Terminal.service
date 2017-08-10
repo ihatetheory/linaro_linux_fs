@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.Terminal
+Exec=/usr/lib/gnome-terminal/gnome-terminal-server

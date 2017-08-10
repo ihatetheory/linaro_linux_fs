@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Úprava zdroje slovníků</title>
+
+  <p>U <link xref="sources">zdroje slovníků</link> si můžete upravit jednotlivé údaje, jako je popis nebo adresa v síti.</p>
+
+  <steps>
+    <title>Když chcete zdroj slovníků upravit:</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Slovník</gui> <gui style="menuitem">Předvolby</gui> <gui style="tab">Zdroj</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Dvojitě klikněte na zdroj slovníků, který chcete upravit.</p>
+    </item>
+    <item>
+      <p>Upravit můžete následující pole:</p>
+      <list>
+        <item>
+          <p><gui>Popis</gui> je název zdroje, který se vám bude zobrazovat.</p>
+        </item>
+        <item>
+          <p><gui>Přenos</gui> je typ serveru.</p>
+        </item>
+        <item>
+          <p><gui>Název počítače</gui> je umístění zdroje slovníku.</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Port</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Na kartě <gui style="tab">Slovníky</gui> se můžete podívat, které slovníky jsou v daném zdroji slovníků dostupné.</p>
+    </item>
+    <item>
+      <p>Zmáčknutím tlačítka <gui style="button">Zavřít</gui> nastavení uložíte.</p>
+    </item>
+  </steps>
+
+</page>

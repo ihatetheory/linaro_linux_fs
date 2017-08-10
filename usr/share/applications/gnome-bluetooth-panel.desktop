@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Bluetooth
+Comment=Turn Bluetooth on and off and connect your devices
+Icon=bluetooth
+Exec=gnome-control-center bluetooth
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=GTK;GNOME;Settings;X-GNOME-NetworkSettings;HardwareSettings;X-GNOME-Settings-Panel;
+OnlyShowIn=GNOME;Unity;
+StartupNotify=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-bluetooth
+X-GNOME-Bugzilla-Component=properties
+X-GNOME-Bugzilla-Version=3.14.2
+X-Ubuntu-Gettext-Domain=gnome-control-center-2.0

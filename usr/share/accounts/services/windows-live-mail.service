@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="windows-live-mail">
+  <type>mail</type>
+  <name>Windows Live Mail</name>
+  <provider>windows-live</provider>
+  <translations>evolution-data-server-3.12</translations>
+
+  
+</service>

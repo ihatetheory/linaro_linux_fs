@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.12.0">
+<!ENTITY applet "CPU Frequency Scaling Monitor">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 06, 2003
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="hu">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+	<title>CPU órajelváltozás-figyelő kézikönyve</title> 
+        <abstract role="description">
+	  <para>A CPU órajelváltozás-figyelő megmutatja a processzor pillanatnyi órajelét, és segítségével könnyen megváltoztatható az órajel, amennyiben a processzor ezt támogatja.</para>
+	</abstract>
+	<copyright><year>2005</year> <holder>Davyd Madeley</holder></copyright>
+        <copyright><year>2004</year> <holder>A GNOME Alapítvány</holder></copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+   -->
+
+	 <publisher role="maintainer"> 
+		<publishername>GNOME dokumentációs projekt</publishername> 
+	 </publisher> 
+
+  <legalnotice id="legalnotice">
+	<para>Engedélyt adunk Önnek a jelen dokumentum sokszorosítására, terjesztésére és/vagy módosítására a Free Software Foundation által kiadott GNU Free Documentation License (GFDL) 1.1-es, vagy bármely azt követő verziójának feltételei alapján. Nincs Nem Változtatható szakasz, nincs Címlapszöveg, nincs Hátlapszöveg. A jelen licenc egy példányát <ulink type="help" url="help:fdl">itt</ulink> vagy a kézikönyv COPYING-DOCS elnevezésű fájljában találhatja.</para>
+         <para>Ez a kézikönyv a GFDL licenc alatt közzétett GNOME kézikönyv-gyűjtemény része. Ezt a kézikönyvet a gyűjteménytől függetlenül szabadon terjesztheti a licenc egy másolatával együtt, a 6. szakaszban leírtaknak megfelelően.</para>
+
+	<para>Számos név, amelyet cégek használnak termékeik és szolgáltatásuk megkülönböztetésére, védjegy alá esnek. Ahol ezek a nevek megjelennek a GNOME dokumentációkban és a GNOME Dokumentációs Projekt tagjai tájékozottak az adott védjegyről, ott ezek nagy kezdőbetűvel vagy csupa nagy betűvel szerepelnek.</para>
+
+	<para>A DOKUMENTUM ÉS A DOKUMENTUM MÓDOSÍTOTT VERZIÓJA A GNU FREE DOCUMENTATION LICENSE (GFDL) ALATT JELENIK MEG AZ ALÁBBI ÉRTELMEZÉSSEL: <orderedlist>
+		<listitem>
+		  <para>A DOKUMENTUM A "JELEN ÁLLAPOTÁBAN" KERÜL KIADÁSRA, MINDENFÉLE GARANCIAVÁLLALÁS NÉLKÜL, LEGYEN AZ KIFEJEZETT VAGY BELEÉRTETT, BELEÉRTVE, DE NEM KIZÁRÓLAGOSAN A DOKUMENTUM VAGY ANNAK MÓDOSÍTOTT VÁLTOZATÁNAK HIBAMENTESSÉGÉRE, FORGALOMBA HOZHATÓSÁGRA VAGY ALKALMAZHATÓSÁGRA VONATKOZÓ GARANCIÁKAT. A DOKUMENTUM VAGY ANNAK MÓDOSÍTOTT VÁLTOZATÁNAK MINŐSÉGÉBŐL ÉS FELHASZNÁLHATÓSÁGÁBÓL FAKADÓ ÖSSZES KOCKÁZAT A FELHASZNÁLÓT TERHELI. HA A PROGRAM HIBÁSAN MŰKÖDIK, A FELHASZNÁLÓNAK MAGÁNAK (NEM AZ ÍRÓNAK, SZERZŐNEK VAGY BÁRMELY KÖZREMŰKÖDŐNEK) KELL VÁLLALNIA A JAVÍTÁSHOZ SZÜKSÉGES MINDEN KÖLTSÉGET. A GARANCIAVÁLLALÁS EZEN ELUTASÍTÁSA A LICENC ELVÁLASZTHATATLAN RÉSZÉT KÉPEZI. A DOKUMENTUMOT VAGY ANNAK BÁRMELY MÓDOSÍTOTT VÁLTOZATÁNAK HASZNÁLATA NEM ENGEDÉLYEZETT, AZ ALÁBBIAKBAN FELSOROLTAKON KÍVÜL; VALAMINT</para>
+		</listitem>
+		<listitem>
+		  <para>KÖRÜLMÉNYEKTŐL ÉS HATÁLYOS JOGSZABÁLYOKTÓL, A KÁRTÓL (BELEÉRTVE A GONDATLANSÁGOT), SZERZŐDÉS VAGY EGYEBEKTŐL FÜGGETLENÜL,A SZERZŐ, A DOKUMENTUM ÍRÓJA VAGY BÁRMELY FÉL BESZÁLLÍTÓJA NEM TEHETŐK FELELŐSSÉ A KÁROKÉRT, BELEÉRTVE MINDEN VÉLETLEN, VAGY KÖVETKEZMÉNYES KÁRT, AMELY A PROGRAM HASZNÁLATÁBÓL VAGY A HASZNÁLAT MEGAKADÁLYOZÁSÁBÓL SZÁRMAZIK (BELEÉRTVE, DE NEM KIZÁRÓLAGOSAN AZ ADATVESZTÉST ÉS A HELYTELEN ADATFELDOLGOZÁST, VALAMINT A MÁS PROGRAMOKKAL VALÓ HIBÁS EGYÜTTMŰKÖDÉST), MÉG AKKOR SEM, HA EZEN FELEK TUDATÁBAN VOLTAK, HOGY ILYEN KÁROK KELETKEZHETNEK.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+<!-- This file  contains link to license for the documentation (GNU FDL), and 
+     other legal stuff such as "NO WARRANTY" statement. Please do not change 
+     any of this. -->
+
+	 <authorgroup> 
+            <author><firstname>Carlos</firstname> <surname>Garcia Campos</surname> <affiliation> <orgname>GNOME projekt</orgname> <address><email>carlosgc@gnome.org</email></address> </affiliation></author>
+	    <author><firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation> <orgname>GNOME projekt</orgname> <address><email>davyd@madeley.id.au</email></address> </affiliation></author>
+      <!-- This is appropriate place for other contributors: translators,
+           maintainers,  etc. Commented out by default.
+        <othercredit role="translator">
+	      <firstname>Latin</firstname> 
+	      <surname>Translator 1</surname> 
+	      <affiliation> 
+	      	<orgname>Latin Translation Team</orgname> 
+	       	<address> <email>translator@gnome.org</email> </address> 
+	      </affiliation>
+	      <contrib>Latin translation</contrib>
+        </othercredit>
+-->
+	 </authorgroup>
+	 
+	 <releaseinfo revision="2.26" role="review"/>
+
+	 <revhistory>
+	   <revision><revnumber>GNOME 2.12</revnumber> <date>2005. augusztus</date> <revdescription>
+	      <para role="author">Davyd Madeley</para>
+	     </revdescription></revision>
+	   <revision><revnumber>GNOME 2.10</revnumber> <date>2005. március</date> <revdescription>
+	      <para role="author">Davyd Madeley</para>
+	     </revdescription></revision>
+		<revision><revnumber>CPU órajelváltozás-figyelő alkalmazás kézikönyve V0.3</revnumber> <date>2004. október</date> <revdescription> 
+                    <para role="author">Carlos Garcia Campos</para>
+                    <para role="publisher">GNOME dokumentációs projekt</para>
+		  </revdescription></revision> 
+	 </revhistory> 
+
+	 <releaseinfo>Ez a kézikönyv a CPU órajelváltozás-figyelő 2.12.0 verzióját írja le.</releaseinfo> 
+
+		<legalnotice> 
+		<title>Visszajelzés</title> 
+		<para>Ha hibajelentést, vagy javaslatot szeretne tenni a CPU órajelváltozás-figyelő alkalmazással, vagy ezzel a kézikönyvvel kapcsolatban, ezt a <ulink url="ghelp:gnome-feedback" type="help">Gnome visszajelzés oldalán</ulink> teheti meg.</para>
+	     </legalnotice>
+
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Meskó Balázs</firstname>
+      </personname>
+      <email>meskobalazs@indamail.hu</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2009.</year>
+      
+      <holder>Meskó Balázs</holder>
+    </copyright>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Úr Balázs</firstname>
+      </personname>
+      <email>urbalazs@gmail.com</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2014.</year>
+      
+      <holder>Úr Balázs</holder>
+    </copyright>
+  </articleinfo> 
+
+  <indexterm zone="index"><primary>CPU órajelváltozás-figyelő</primary></indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<sect1 id="cpufreq-applet-introduction"> 
+	 <title>Bevezetés</title> 
+	 <figure id="cpufreq-applet-figure"> 
+	    <title>CPU órajelváltozás-figyelő</title> 
+		<screenshot> 
+		  <mediaobject> 
+		     <imageobject>
+			<imagedata fileref="figures/cpufreq-applet.png" format="PNG"/> 
+		     </imageobject>
+		  </mediaobject>
+	       </screenshot>
+	 </figure> 
+    <!-- ==== End of Figure ======================================= -->
+    <para>A <application>CPU órajelváltozás-figyelő</application> segítségével egyszerűen követheti az egyes CPU-k órajeleinek változásait.</para> 
+	 <para>A <application>CPU órajelváltozás-figyelő</application> panelhoz adásához kattintson a jobb egérgombbal a panelre, és válassza a <menuchoice> <guimenu>Hozzáadás a panelhez</guimenu> <guimenuitem>CPU órajelváltozás-figyelő</guimenuitem></menuchoice> lehetőséget.</para> 
+	
+    <note><para>A CPU órajelváltozás-figyelő csak olyan linuxos gépeken működik, melyek rendelkeznek kernelszintű támogatással. Ugyanakkor támogatja a kernelben lévő órajelváltozás-figyelő felületek több generációját.</para></note>
+   
+   <para>Ha nincs CPU órajel-módosítási támogatás a rendszerben, akkor a CPU órajelváltozás-figyelő csak a pillanatnyi órajelet jeleníti meg.</para>
+   <para>Ha támogatott a CPU-órajel módosítása, akkor a CPU órajelváltozás-figyelő egy CPU ikont jelenít meg egy folyamatsávval. A sáv a CPU jelenlegi órajelét mutatja a maximálishoz képest.</para>
+   <para>Alapértelmezésben a CPU órajelváltozás-figyelő a pillanatnyi órajelet Hertzben jeleníti meg (a frekvencia alapegységében), de beállítható, hogy ehelyett százalékban adja meg. További információk a CPU órajelváltozás-figyelő beállításához: <xref linkend="cpufreq-applet-prefs"/>. </para>
+   <para>Minden CPU órajelváltozás-figyelő csak egy CPU-t képes kezelni. Ha többprocesszoros számítógéppel rendelkezik, akkor minden processzorhoz külön példány szükséges.</para>
+
+   <sect2 id="gnome-cpufreq-icons">
+     <title>Az ikonok bemutatása</title>
+     <para>A CPU órajelváltozás-figyelő ikonok segítségével jeleníti meg a processzor pillanatnyi órajelét. Ezek:</para>
+      <informaltable frame="all">
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="COLSPEC0" colwidth="50*"/>
+          <colspec colname="COLSPEC1" colwidth="50*"/>
+          <thead>
+            <row valign="top">
+              <entry colname="COLSPEC0">
+                <para>Ikon</para></entry>
+              <entry colname="COLSPEC1">
+                <para>Leírás</para></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject> <imagedata fileref="figures/cpufreq-100.png" format="PNG"/> </imageobject><textobject> <phrase>100% energia</phrase> </textobject></inlinemediaobject></para></entry>
+	      <entry><para>A CPU 100%-os, vagy ahhoz közeli órajelen működik.</para></entry>
+	    </row>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject> <imagedata fileref="figures/cpufreq-75.png" format="PNG"/> </imageobject><textobject> <phrase>75% energia</phrase> </textobject></inlinemediaobject></para></entry>
+	      <entry><para>A CPU 75%-os, vagy ahhoz közeli órajelen működik.</para>
+	      </entry>
+	    </row>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject> <imagedata fileref="figures/cpufreq-50.png" format="PNG"/> </imageobject><textobject> <phrase>50% energia</phrase> </textobject></inlinemediaobject></para></entry>
+	      <entry><para>A CPU 50%-os, vagy ahhoz közeli órajelen működik.</para></entry>
+	    </row>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject> <imagedata fileref="figures/cpufreq-25.png" format="PNG"/> </imageobject><textobject> <phrase>25% energia</phrase> </textobject></inlinemediaobject></para></entry>
+	      <entry><para>A CPU 25%-os, vagy ahhoz közeli órajelen működik.</para></entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </informaltable>
+   </sect2>
+   
+   <sect2 id="gnome-cpufreq-selector">
+      <title>Órajel- és vezérlőválasztó</title>
+      <warning><para>Az órajelválasztó funkció lehet hogy alapértelmezetten nem elérhető a számítógépén. Keresse meg a rendszergazdáját, vagy olvassa el a rendszer szállítójának dokumentációját, vagy ennek a szoftvernek a dokumentációját.</para></warning>
+      <para>A CPU-órajel beállításához kattintson az alkalmazásra, ekkor egy menüt fog látni. A menü felsorolja a lehetséges órajeleket, valamint az órajel-vezérlőket.</para>
+      <tip><para>A <guilabel>Beállítások</guilabel> között választhatja ki, hogy megjelenjenek-e az órajelek és vezérlők. További információkért lásd: <xref linkend="cpufreq-applet-prefs"/></para></tip>
+
+      <figure id="cpufreq-applet-selector-img">
+	 <title>Csak az órajeleket megjelenítő órajel-választó</title>
+	 <screenshot>
+	    <mediaobject>
+	       <imageobject>
+		  <imagedata fileref="figures/cpufreq-applet-selector.png" format="PNG"/>
+	       </imageobject>
+	    </mediaobject>
+	</screenshot>
+      </figure>
+
+      <figure id="cpufreq-applet-selector-both-img">
+	 <title>Az órajeleket és vezérlőket is megjelenítő órajel-választó</title>
+	 <screenshot>
+	    <mediaobject>
+	       <imageobject>
+		  <imagedata fileref="figures/cpufreq-applet-selector-both.png" format="PNG"/>
+	       </imageobject>
+	    </mediaobject>
+	</screenshot>
+      </figure>
+   </sect2>
+</sect1>
+
+<!-- ============= Customization ============================= -->
+<!-- Use this section to describe how to customize the applet. -->
+<sect1 id="cpufreq-applet-prefs"> 
+	 <title>Beállítások</title> 
+	 <para>A <application>CPU órajelváltozás-figyelő</application> beállításához kattintson jobb egérgombbal az alkalmazásra, és válassza a <guimenuitem>Beállítások</guimenuitem> menüpontot.</para> 
+	 <para>A <guimenuitem>Beállítások</guimenuitem> ablak a következőket tartalmazza:</para> 
+	 <figure id="cpufreq-applet-preferences">
+	    <title>CPU órajelváltozás-figyelő Beállítások párbeszédablaka</title>
+	    <screenshot>
+	       <mediaobject><imageobject><imagedata fileref="figures/cpufreq-applet-preferences.png" format="PNG"/> </imageobject> <textobject> <phrase>CPU órajelváltozás-figyelő beállítások párbeszédablaka</phrase> </textobject></mediaobject>
+	    </screenshot>
+	 </figure>
+
+	 <variablelist> 
+	   <varlistentry> 
+	      <term><guilabel>Megfigyelt CPU (többmagos/többprocesszoros rendszer esetén)</guilabel></term> 
+	     <listitem> 
+		<para>Ezt a legördülő listát a megfigyelni kívánt CPU kiválasztására használhatja.</para>
+	 <figure id="cpufreq-applet-preferences-smp">
+	    <title>Megfigyelni kívánt CPU kiválasztása</title>
+	    <screenshot>
+	       <mediaobject><imageobject><imagedata fileref="figures/cpufreq-applet-preferences-smp.png" format="PNG"/> </imageobject> <textobject> <phrase>CPU órajelváltozás-figyelő beállítások párbeszédablakának CPU-választója</phrase> </textobject></mediaobject>
+	    </screenshot>
+	 </figure>
+	<note><para>A <guilabel>Megfigyelt CPU</guilabel> opció csak többmagos/többprocesszoros rendszereknél jelenik meg.</para></note>
+	 
+	     </listitem>
+	   </varlistentry> 
+	   <varlistentry> 
+	      <term><guilabel>Megjelenítés beállításai</guilabel></term> 
+	     <listitem> 
+		<para>Ezt a legördülő listát az alkalmazás megjelenítési módjának megváltoztatására használhatja. A lehetséges módok: Kép, Szöveg vagy mindkettő (Kép és szöveg).</para> 
+	    </listitem>
+	 </varlistentry>
+	 <varlistentry>
+	    <term><guilabel>A CPU órajelének megjelenítése órajelként</guilabel></term>
+	    <listitem>
+	       <para>Válassza ezt az lehetőséget a pillanatnyi CPU órajel megjelenítéséhez.</para>
+	    </listitem>
+	 </varlistentry>
+	 <varlistentry>
+	    <term><guilabel>Órajelegységek megjelenítése</guilabel></term>
+	    <listitem>
+	       <para>Válassza ezt az lehetőséget az órajelegységek megjelenítéséhez.</para>
+	    </listitem>
+	 </varlistentry>
+	  <varlistentry>
+	     <term><guilabel>A CPU órajelének megjelenítése százalékosan</guilabel></term>
+	     <listitem>
+		<para>Válassza ezt a lehetőséget a pillanatnyi órajel százalékos megjelenítéséhez.</para>
+	     </listitem>
+	  </varlistentry>
+
+	  <varlistentry><term><guilabel>Menü megjelenítése</guilabel></term>
+	   <listitem>
+	    <para>Ezzel a lehetőséggel kiválasztható, hogy mennyi információ jelenjen meg az  órajel-választó legördülő menüjében (lásd: <xref linkend="gnome-cpufreq-selector"/>). Megjeleníthet <guilabel>Órajeleket</guilabel>, <guilabel>Vezérlőket</guilabel>, vagy mindkettőt (<guilabel>Órajelek és vezérlők</guilabel>). <figure id="cpufreq-applet-selector-both-2">
+	    <title>A kiválasztás „Órajelek és vezérlőkre” állítva</title>
+	    <screenshot>
+	       <mediaobject><imageobject><imagedata fileref="figures/cpufreq-applet-selector-both.png" format="PNG"/> </imageobject> <textobject> <phrase>CPU-vezérlők kiválasztása</phrase> </textobject></mediaobject>
+	    </screenshot>
+	 </figure></para>
+	  </listitem></varlistentry>
+       </variablelist>
+  </sect1>
+
+</article>

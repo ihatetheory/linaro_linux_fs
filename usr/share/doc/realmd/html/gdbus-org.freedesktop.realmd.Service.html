@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968">
+<title>org.freedesktop.realmd.Service</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="realmd">
+<link rel="up" href="dbus-interface-reference.html" title="DBus Interface Reference">
+<link rel="prev" href="gdbus-org.freedesktop.realmd.KerberosMembership.html" title="org.freedesktop.realmd.KerberosMembership">
+<link rel="next" href="dbus-interface-raw.html" title="Raw DBus Interfaces">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gdbus-org.freedesktop.realmd.KerberosMembership.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="dbus-interface-reference.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">realmd</th>
+<td><a accesskey="n" href="dbus-interface-raw.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gdbus-org.freedesktop.realmd.Service.synopsis" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#gdbus-org.freedesktop.realmd.Service.description" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#gdbus-org.freedesktop.realmd.Service.signals" class="shortcut">Signals</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="gdbus-org.freedesktop.realmd.Service"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gdbus-interface-org-freedesktop-realmd-Service.top_of_page"></a>org.freedesktop.realmd.Service</span></h2>
+<p>org.freedesktop.realmd.Service &#8212; the realmd service</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Methods</h2>
+<pre class="synopsis">
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Cancel">Cancel</GTKDOCLINK>    (IN  s operation);
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.SetLocale">SetLocale</GTKDOCLINK> (IN  s locale);
+<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Release">Release</GTKDOCLINK>   ();
+</pre>
+</div>
+<div class="refsect1">
+<a name="idp48434188"></a><h2>Signals</h2>
+<pre class="synopsis">
+<GTKDOCLINK HREF="gdbus-signal-org-freedesktop-realmd-Service.Diagnostics">Diagnostics</GTKDOCLINK> (s data,
+             s operation);
+</pre>
+</div>
+<div class="refsect1">
+<a name="gdbus-interface-org-freedesktop-realmd-Service"></a><h2>Description</h2>
+<p>	  Global calls for managing the realmd service. Usually you'll want
+	  to use <GTKDOCLINK HREF="gdbus-interface-org-freedesktop-realmd-Provider.top_of_page">org.freedesktop.realmd.Provider</GTKDOCLINK> instead.
+</p>
+<p>	  This interface is implemented by the realmd service, and is always
+	  available at the object path <code class="literal">/org/freedesktop/realmd</code>
+</p>
+<p>	  The service also implements the
+	  <code class="literal">org.freedesktop.DBus.ObjectManager</code> interface which
+	  makes it easy to retrieve all realmd objects and properties in one go.
+</p>
+</div>
+<div class="refsect1">
+<a name="gdbus-methods-org.freedesktop.realmd.Service"></a><h2>Method Details</h2>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-Service.Cancel"></a><h3>The Cancel() method</h3>
+<pre class="programlisting">
+Cancel (IN  s operation);
+</pre>
+<p>		  Cancel a realmd operation. To be able to cancel an operation,
+		  pass a uniquely chosen <code class="literal">operation</code> string
+		  identifier as an option in the method's <code class="literal">options</code>
+		  argument.
+</p>
+<p>		  These operation string identifiers should be unique per client
+		  calling the realmd service.
+</p>
+<p>		  It is not guaranteed that the service can or will cancel the
+		  operation. For example, the operation may have already completed
+		  by the time this method is handled. The caller of the operation
+		  method will receive a
+		  <code class="literal">org.freedesktop.realmd.Error.Cancelled</code>
+		  if the operation was cancelled.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><code class="literal">IN s <em class="parameter"><code>operation</code></em></code>:</span></p></td>
+<td><p>the operation to cancel</p></td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-Service.SetLocale"></a><h3>The SetLocale() method</h3>
+<pre class="programlisting">
+SetLocale (IN  s locale);
+</pre>
+<p>		  Set the language <em class="parameter"><code>locale</code></em> for the client. This locale is used
+		  for error messages. The locale is used until the next time
+		  this method is called, the client disconnects, or the client
+		  calls #<GTKDOCLINK HREF="gdbus-method-org-freedesktop-realmd-Service.Release">Release()</GTKDOCLINK>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><code class="literal">IN s <em class="parameter"><code>locale</code></em></code>:</span></p></td>
+<td><p>the locale for the client</p></td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gdbus-method-org-freedesktop-realmd-Service.Release"></a><h3>The Release() method</h3>
+<pre class="programlisting">
+Release ();
+</pre>
+<p>		  Normally, realmd waits until all clients have disconnected
+		  before exiting itself sometime later. Long lived clients
+		  can call this method to allow the realmd service to quit.
+		  This is an optimization. The daemon will not exit immediately.
+		  It is safe to call this multiple times.
+</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="gdbus-signals-org.freedesktop.realmd.Service"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="gdbus-signal-org-freedesktop-realmd-Service.Diagnostics"></a><h3>The "Diagnostics" signal</h3>
+<pre class="programlisting">
+Diagnostics (s data,
+             s operation);
+</pre>
+<p>		  This signal is fired when diagnostics result from an operation
+		  in the provider or one of its realms.
+</p>
+<p>		  It is not guaranteed that this signal is emitted once per line.
+		  More than one line may be contained in <em class="parameter"><code>data</code></em>, or a partial
+		  line. New line characters are embedded in <em class="parameter"><code>data</code></em>.
+</p>
+<p>		  This signal is sent explicitly to the client which invoked an
+		  operation method. In order to tell which operation this
+		  diagnostic data results from, pass a unique
+		  <code class="literal">operation</code> string identifier in the
+		  <code class="literal">options</code> argument of the operation method.
+		  That same identifier will be passed back via the <em class="parameter"><code>operation</code></em>
+		  argument of this signal.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="literal">s <em class="parameter"><code>data</code></em></code>:</span></p></td>
+<td><p>diagnostic data</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="literal">s <em class="parameter"><code>operation</code></em></code>:</span></p></td>
+<td><p>the operation this data resulted from</p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc
+        </div>
+</body>
+</html>

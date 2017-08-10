@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.12">
+<!ENTITY applet "Weather Report">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="pt-BR">
+   <!-- please do not change the id; for translations, change lang to -->
+   <!-- appropriate code -->
+     
+   <articleinfo>
+      <title>Manual do Relatório Meteorológico</title>
+      <abstract role="description">
+	<para>O Relatório Meteorológico recolhe informações climáticas da internet para uma certa localidade e mostra a temperatura e uma figura indicando as atuais condições do tempo no Painel do GNOME. Ao clicar sobre esta figura são fornecidas todas as informações como a hora do pôr-do-sol, direção do vento, pressão e outras. Todas as unidades de medida são configuráveis.</para>
+      </abstract>
+      <copyright lang="en">
+        <year>2005</year>
+	<holder>Davyd Madeley</holder>
+      </copyright>
+      <copyright lang="en">
+	<year>2004</year>
+	<holder>Angela Boyle</holder>
+      </copyright>
+      <copyright lang="en">
+		<year>2002</year>
+		<year>2003</year>
+		<year>2004</year>
+		<holder>Sun Microsystems</holder>    	 
+      </copyright>
+      <copyright lang="en">
+		<year>1999</year>  		
+		<year>2000</year>
+		<holder>Spiros Papadimitriou</holder>  	 
+      </copyright>
+      <copyright lang="en">
+		<year>1999</year>  		
+		<year>2000</year>
+		<holder>Dan Mueth</holder>  	 
+      </copyright>
+      <!-- translators: uncomment this:
+      
+        <copyright>
+         <year>2002</year>
+         <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+        </copyright>
+      
+         -->
+      <!-- An address can be added to the publisher information.  If a role is 
+           not specified, the publisher/author is the same for all versions of the 
+           document.  -->
+      	 
+      <publisher role="maintainer">
+		<publishername>Projeto de Documentação do GNOME</publishername>  	 
+      </publisher>
+           <legalnotice id="legalnotice">
+         <para>Permissão concedida para copiar, distribuir e/ou modificar este documento dentro dos termos da GNU Free Documentation License (GFDL), Versão 1.1 ou qualquer versão superior publicada pela Free Software Foundation sem nenhuma seção imutável, texto de capa e contra-capa. Você pode achar uma cópia do GFDL neste <ulink type="help" url="help:fdl">link</ulink> ou no arquivo COPYING-DOCS distribuido com este manual.</para>
+          <para>Este manual é parte da coleção dos manuais do GNOME, distribuidos pela GFDL. Se você quiser distribuir este manual separadamente da coleção, você pode fazê-lo ao adicionar uma cópia da licença ao manual, como descrito na seção 6 da licença.</para>
+ 
+         <para>Muitos dos nomes usados por empresas para distingüir seus produtos e serviços são marcas registradas. Quando esses nomes aparecem em qualquer documentação GNOME e os membros do Projeto de Documentação do GNOME estão cientes dessas marcas registradas, os nomes aparecem em letras maíusculas ou com iniciais em maíusculas.</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+      <!-- This file  contains link to license for the documentation (GNU FDL), and 
+           other legal stuff such as "NO WARRANTY" statement. Please do not change 
+           any of this. -->
+      	 
+      <authorgroup>
+        <author lang="en">
+	  <firstname>Davyd</firstname><surname>Madeley</surname>
+	  <affiliation>
+	   <orgname>GNOME Project</orgname>
+	   <address><email>davyd@madeley.id.au</email></address>
+	  </affiliation>
+	</author>
+	<author lang="en">
+	  <firstname>Angela</firstname>
+	  <surname>Boyle</surname>
+	</author>
+           		
+	<author lang="en">
+	<firstname>Sun </firstname>  		  
+	<surname>GNOME Documentation Team</surname>            		  
+
+            <affiliation>
+		<orgname>Sun Microsystems</orgname>  			 
+            </affiliation>
+              		
+        </author>
+           		
+        <author lang="en">
+	<firstname>Spiros</firstname>  		  
+	<surname>Papadimitriou</surname>
+             		  
+            <affiliation>
+		<orgname>GNOME Documentation Project</orgname>  			 
+		<address><email>spapadim+@cs.cmu.edu</email> </address>  		  
+            </affiliation>
+              		
+         </author>
+           		
+         <author lang="en">
+	 <firstname>Dan</firstname>
+	 <surname>Mueth</surname>  	
+	  
+	     <affiliation>
+ 		<orgname>GNOME Documentation Project</orgname>  			 
+		<address><email>d-mueth@uchicago.edu</email> </address>  		  
+             </affiliation>
+              		
+         </author>
+               
+         <!-- This is appropriate place for other contributors: translators,
+                    maintainers,  etc. Commented out by default.
+                    <othercredit role="translator">
+         	     <firstname>Latin</firstname> 
+         	     <surname>Translator 1</surname> 
+         	     <affiliation> 
+         	       <orgname>Latin Translation Team</orgname> 
+         	       <address> <email>translator@gnome.org</email> </address> 
+         	     </affiliation>
+         	     <contrib>Latin translation</contrib>
+                    </othercredit>
+         -->
+         	 
+      </authorgroup>
+	  
+	  <releaseinfo revision="2.26" role="review"/>
+      	 
+      <revhistory>
+        <revision lang="en">
+	  <revnumber>Version 2.12</revnumber>
+	  <date>March 2005</date>
+	  <revdescription>
+	    <para role="author" lang="en">Davyd Madeley</para>
+	  </revdescription>
+	</revision>
+        <revision lang="en">
+	  <revnumber>Version 2.10</revnumber>
+	  <date>March 2005</date>
+	  <revdescription>
+	    <para role="author" lang="en">Davyd Madeley</para>
+	  </revdescription>
+	</revision>
+	<revision lang="en">
+	  <revnumber>Version 2.8</revnumber>
+	  <date>September 2004</date>
+	  <revdescription>
+	    <para role="author" lang="en">Angela Boyle</para>
+	    <para role="publisher" lang="en">GNOME Documentation Project</para>
+	  </revdescription>
+	</revision>
+        <revision lang="en">
+          <revnumber>Weather Report Applet Manual V2.4</revnumber>  		
+          <date>February 2004</date>  		  
+          <revdescription>
+	    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+	    <para role="publisher" lang="en">GNOME Documentation Project</para>
+          </revdescription>
+        </revision>
+        <revision lang="en">
+          <revnumber>Weather Report Applet Manual V2.3</revnumber>  		
+          <date>January 2003</date>  		  
+          <revdescription>
+	    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+	    <para role="publisher" lang="en">GNOME Documentation Project</para>
+          </revdescription>
+        </revision>  
+        <revision lang="en">
+          <revnumber>Weather Report Applet Manual V2.2</revnumber>  		
+          <date>August 2002</date>  		  
+          <revdescription>
+	    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+	    <para role="publisher" lang="en">GNOME Documentation Project</para>
+          </revdescription>
+        </revision>  
+        <revision lang="en">
+          <revnumber>Weather Report Applet Manual V2.1</revnumber>  		
+          <date>July 2002</date>  		  
+          <revdescription>
+	    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+	    <para role="publisher" lang="en">GNOME Documentation Project</para>
+          </revdescription>
+        </revision>
+        <revision lang="en">
+          <revnumber>Weather Report Applet Manual V2.0</revnumber>  		
+          <date>March 2002</date>  		  
+          <revdescription>
+	    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+	    <para role="publisher" lang="en">GNOME Documentation Project</para>
+          </revdescription>
+        </revision>
+        <revision lang="en">
+	  <revnumber>GNOME Weather Applet</revnumber>  		  
+	  <date>2000</date>
+          <revdescription>
+            <para role="author" lang="en">
+              Spiros Papadimitriou 				
+              <email>spapadim+@cs.cmu.edu</email>
+            </para>
+            <para role="author" lang="en">
+              Dan Mueth 				
+	      <email>d-mueth@uchicago.edu</email>
+            </para>
+            <para role="publisher" lang="en">
+              GNOME Documentation Project
+            </para>
+          </revdescription>
+        </revision>
+      </revhistory>
+        	 
+      <releaseinfo>Este manual descreve a versão 2.12 do Relatório Meteorológico.</releaseinfo>
+        	 
+      <legalnotice>
+         <title>Retorno</title>  		
+         <para>Para relatar um erro ou fazer um sugestão a respeito do miniaplicativo Relatório Meteorológico, siga as indicações na <ulink url="ghelp:gnome-feedback" type="help">Página de Feedback do GNOME</ulink>.</para>
+         		 	 
+      </legalnotice>
+          
+   </articleinfo>
+       <indexterm lang="en">  	 
+       <primary>Weather Report</primary>    
+       </indexterm> 
+   <!-- ============= Document Body ============================= -->
+   <!-- ============= Introduction ============================== -->
+   <sect1 id="gweather-introduction">
+      <title>Introdução</title>
+      <!-- ==== Figure ============================================= -->
+      	 
+      <figure id="weather-applet-fig">
+	<title>Relatório Meteorológico</title>  		
+         <screenshot>             		  
+            <mediaobject lang="en">                 			 
+               <imageobject>
+                  <imagedata fileref="figures/gweather_applet.png" format="PNG"/>                  			 
+               </imageobject>
+               <textobject>
+                  <phrase>Shows Weather Report. Contains a weather icon and current temperature</phrase> 			 
+               </textobject>
+            </mediaobject>
+         </screenshot>
+      </figure>
+       
+      <!-- ==== End of Figure ======================================= -->
+      <para>O <application>Relatório Meteorológico</application> recolhe informações climáticas dos servidores do Serviço Nacional do Tempo dos EUA (NWS), incluindo a Rede Interativa de Informações do Tempo (IWIN) e outros serviços climáticos. Você pode usar o <application>Relatório Meteorológico</application> para consultar as informações climáticas e a previsão do tempo no seu computador.</para>
+      <note id="proxies-note-1">
+         <para>Se seu computador estiver atrás de um firewall, então você precisa usar um servidor de proxy para que o aplicativo possa recolher as informações dos servidores de informações climáticas. Para configurar a Área de Trabalho do GNOME para usar um proxy, use as ferramentas de Preferências para informar qual o Servidor de Proxy da rede.</para>
+      </note>   
+      <para>O <application>Relatório Meteorológico</application> apresenta as seguintes informações para a localidade padrão, ou a sua localidade preferida:</para>
+      <itemizedlist>
+         <listitem>
+            <para>Uma figura do tempo que representa as atuais condições do tempo. Veja <xref linkend="gweather-introduction-icons"/>.</para>
+         </listitem>
+         <listitem>
+            <para>Temperatura atual.</para>
+         </listitem>
+      </itemizedlist>
+
+    <sect2 id="gweather-introduction-icons">
+     <title>Ícones do Tempo no Painel</title>
+     <informaltable frame="all">
+      <tgroup cols="2" colsep="1" rowsep="1">
+       <colspec colname="COLSPEC0" colwidth="50*"/>
+       <colspec colname="COLSPEC1" colwidth="50*"/>
+       <thead>
+        <row valign="top">
+	 <entry colname="COLSPEC0"><para>Ícone</para></entry>
+	 <entry colname="COLSPEC1"><para>Descrição</para></entry>
+	</row>
+       </thead>
+       <tbody>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-sunny.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Sunny</phrase>
+	      </textobject></inlinemediaobject>
+	      <inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-night-clear.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Night</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Céu limpo e agradável.</para></entry>
+             </row>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-few-clouds.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Few Clouds</phrase>
+	      </textobject></inlinemediaobject>
+	      <inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-night-few-clouds.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Night Few Clouds</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Está parcialmente nublado.</para></entry>
+             </row>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-cloudy.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Cloudy</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Está nublado.</para></entry>
+             </row>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-fog.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Fog</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Está neblinado e com fortes nuvens.</para></entry>
+             </row>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-showers.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Rain</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Está chovendo ou em ponto de orvalho.</para></entry>
+             </row>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-snow.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Snow</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Está nevando.</para></entry>
+             </row>
+            <row valign="top">
+              <entry><para lang="en"><inlinemediaobject><imageobject>
+	       <imagedata fileref="figures/stock_weather-storm.png" format="PNG"/>
+	      </imageobject><textobject>
+	       <phrase>Stock Storm</phrase>
+	      </textobject></inlinemediaobject></para></entry>
+              <entry><para>Está caindo uma tempestade.</para></entry>
+             </row>
+       </tbody>
+      </tgroup>
+     </informaltable>
+    </sect2>
+
+    <sect2 id="gweather-introduction-add">
+      <title>Para Adicionar o Relatório Meteorológico ao Painel</title>
+      <para>Para adicionar o <application>Relatório Meteorológico</application> ao Painel, clique com o botão direito do mouse sobre o painel e então selecione <guimenuitem>Adicionar ao Painel</guimenuitem>. Selecione <application>Relatório Meteorológico</application> na janela do <application>Adicionar ao Painel</application> e então clique em <guibutton>OK</guibutton>.</para>
+    </sect2>
+
+      
+   </sect1>
+   <!-- ============= Usage ===================================== -->
+   <sect1 id="gweather-usage">
+      <title>Preferências</title>
+      <para lang="en">
+       The preferences dialog is accessed by right-clicking on the Weather Report in
+       the panel.
+      <figure id="weather-applet-menu-prefs">
+	<title lang="en">Weather Report menu</title>
+         <screenshot>
+            <mediaobject lang="en">                 			 
+               <imageobject>
+                  <imagedata fileref="figures/gweather-menu-prefs.png" format="PNG"/>                  			 
+               </imageobject>
+               <textobject>
+                  <phrase>Context menu</phrase>
+               </textobject>
+            </mediaobject>
+         </screenshot>
+      </figure>
+      </para>
+      <sect2 id="gweather-change-location">
+         <title>Alterando a Localidade</title>
+      <figure id="weather-applet-prefs-locations-fig">
+	<title>Preferências da Localidade</title>
+         <screenshot>
+            <mediaobject lang="en">                 			 
+               <imageobject>
+                  <imagedata fileref="figures/gweather-prefs-locations.png" format="PNG"/>                  			 
+               </imageobject>
+               <textobject>
+                  <phrase>Location Preferences</phrase>
+               </textobject>
+            </mediaobject>
+         </screenshot>
+      </figure>
+         <para>Ao adicionar o <application>Relatório Meteorológico</application> ao painel pela primeira vez, o aplicativo mostra o clima para Pittsburg, na Pensilvânia no EUA, por padrão. Para alterar a localidade siga os seguintes passos:</para>
+         <orderedlist>
+            <listitem>
+               <para>Clique com o botão direito do mouse sobre o aplicativo.</para>
+            </listitem>
+            <listitem>
+               <para>Selecione <guimenuitem>Preferências</guimenuitem> no menu do aplicativo. Assim o aplicativo apresentará a janela de <guilabel>Preferências do Relatório Meteorológico</guilabel>.</para>
+            </listitem>
+            <listitem>
+               <para>Selecione a aba <guilabel>Localidade</guilabel>. Esta seção contém uma lista de regiões geográficas, sub-regiões e localidades específicas.</para>
+            </listitem>
+            <listitem>
+               <para>Clique sobre a seta próxima a uma região para mostrar as sub-regiões.</para>
+            </listitem>
+            <listitem>
+               <para>Clique sobre a seta próxima a uma sub-região para mostrar as localidades.</para>
+            </listitem>
+            <listitem>
+               <para>Clique sobre uma localidade. Enquanto o aplicativo recebe as informações climáticas para a nova localidade, a dica "Atualizando" será mostrada quando você aproximar o cursor do mouse do ícone.</para>
+            </listitem>
+            <listitem>
+               <para>Clique em <guibutton>Fechar</guibutton> para fechar a janela de <guilabel>Preferências do Relatório Meteorológico</guilabel>.</para>
+            </listitem>
+         </orderedlist>
+	 <para>Você pode buscar o nome da sua cidade preenchendo o campo <guilabel>Localizar</guilabel>. Observe que para cidades muito próximas, ou cidades sem aeroportos, você deve escolher uma cidade mais próxima da sua região.</para>
+      </sect2>
+      <sect2 id="gweather-update">
+         <title>Atualizando Informações Meteorológicas</title>
+         <para>Para atualizar as informações que o Relatório Meteorológico apresenta no painel, clique com o botão direito no seu ícone e então selecione <guimenuitem>Atualizar</guimenuitem>.</para>
+         <para>Para atualizar automaticamente as informações meteorológicas em intervalos regulares, siga os seguintes passos:</para>
+	    <orderedlist>
+                  <listitem><para>Clique com o botão direito do mouse sobre o aplicativo e selecione <guimenuitem>Preferências</guimenuitem>.</para></listitem>
+                   <listitem><para>Na janela <guilabel>Preferências do Relatório Meteorológico</guilabel> na aba <guilabel>Geral</guilabel>, selecione a opção <guilabel>Atualizar automaticamente a cada ... minutos</guilabel>.</para></listitem>
+		<listitem><para>Use a caixa de rolagem para informar o intervalo em que o Relatório Meteorológico receberá informações atualizadas dos servidores. Por padrão esse intervalo é de trinta minutos.</para></listitem>
+                    <listitem><para>Clique em <guibutton>Fechar</guibutton> para fechar a janela de <guilabel>Preferências do Relatório Meteorológico</guilabel>.</para></listitem>
+	      </orderedlist>
+         </sect2>
+        <sect2 id="gweather-metric"> 
+               <title>Alterando Unidades</title>
+      <figure id="weather-applet-prefs-general-fig">
+	<title>Preferências Gerais</title>
+         <screenshot>
+            <mediaobject lang="en">                 			 
+               <imageobject>
+                  <imagedata fileref="figures/gweather-prefs-general.png" format="PNG"/>
+               </imageobject>
+               <textobject>
+                  <phrase>General Preferences</phrase>
+               </textobject>
+            </mediaobject>
+         </screenshot>
+      </figure>
+		     <para>Clique com o botão direito do mouse sobre o miniaplicativo e selecione <guimenuitem>Preferências</guimenuitem>. Na janela <guilabel>Preferências do Relatório Meteorológico</guilabel> na aba <guilabel>Geral</guilabel>, selecione as unidades de medida de sua preferência.</para>
+		     <para>Várias unidades de medida estão disponíveis, incluindo métrica, imperial, SI e outras. A escolha <guilabel>Padrão</guilabel> usará a unidade mais adequada para sua região, baseada na configuração do seu sistema.</para>
+          </sect2>
+         
+   </sect1>
+   <!-- ============= Preferences ================================== -->
+   <sect1 id="gweather-settings">
+      <title>Detalhes</title>
+
+         <para>Para visualizar as informações detalhadas do clima, clique com o botão direito do mouse sobre o aplicativo e selecione <guimenuitem>Detalhes</guimenuitem>. A janela de <guilabel>Detalhes</guilabel> será apresentada contendo as seguintes abas:</para>
+         <itemizedlist>
+            <listitem>
+               <para lang="en">
+                  <guilabel>Current Conditions</guilabel>
+               </para>
+            </listitem>
+            <listitem>
+               <para lang="en">
+                  <guilabel>Forecast</guilabel>
+               </para>
+            </listitem>
+            <listitem>
+               <para lang="en">
+                  <guilabel>Radar Map (optional)</guilabel>
+               </para>
+            </listitem>
+         </itemizedlist>
+         <sect2 id="gweather-current-conditions">
+            <title>Condições Atuais</title>
+      <figure id="weather-applet-details-fig">
+	<title>Detalhes do Relatório Meteorológico</title>  		
+         <screenshot>             		  
+            <mediaobject lang="en">                 			 
+               <imageobject>
+                  <imagedata fileref="figures/gweather-details.png" format="PNG"/>                  			 
+               </imageobject>
+               <textobject>
+                  <phrase>Weather Report details</phrase>
+               </textobject>
+            </mediaobject>
+         </screenshot>
+      </figure>
+            <para>A aba <guilabel>Condições Atuais</guilabel> mostra as seguintes informações:</para>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colname="col1" colwidth="0.81*"/><colspec colname="col2" colwidth="1.19*"/>
+                  <tbody>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Cidade</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Localização onde se aplicam as condições atuais do tempo.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Última atualização</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Data da última atualização no servidor de tempo.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Condições</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Condições gerais do tempo.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Céu</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Condições gerais do céu.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Temperatura</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Temperatura atual.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Ponto de orvalho</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Temperatura em que se formam gotas d'água.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Umidade relativa</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Porcentagem da mistura de água na atmosfera.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Vento</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Direção e velocidade do vento.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Pressão</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Pressão atmosférica.</para>
+                        </entry>
+                     </row>
+                     <row valign="top">
+                        <entry colname="col1">
+                           <para>Visibilidade</para>
+                        </entry>
+                        <entry colname="col2">
+                           <para>Faixa de visão determinada pela luminosidade e condições da atmosfera.</para>
+                        </entry>
+                     </row>
+		     <row valign="top">
+		      <entry colname="col1">
+		       <para>Nascer do sol</para>
+		      </entry>
+		      <entry colname="col2">
+		       <para>A hora do nascer do sol para sua localidade.</para>
+		      </entry>
+		     </row>
+		     <row valign="top">
+		      <entry colname="col1">
+		       <para>Pôr-do-sol</para>
+		      </entry>
+		      <entry>
+		       <para>A hora pôr do sol para sua localidade.</para>
+		      </entry>
+		     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+
+	    <note><para>As horas do Nascer e Pôr do sol são calculadas a partir da latitude e longitude da sua localidade. Algumas condições, tais como refração da luz através do ar, são difíceis de modelar. Desta forma, os valores calculados podem sofrer imprecisões de até 10 minutos.</para></note>
+         </sect2>
+         <sect2 id="gweather-forecast">
+            <title>Previsão</title>
+            <para>A aba <guilabel>Previsão</guilabel> mostra a previsão do tempo para sua localidade em um futuro próximo, geralmente os próximos cinco dias.</para>
+            <note>
+               <para>As previsões estão apenas disponíveis em algumas localidades nos EUA, Austrália e Reino Unido.</para>
+            </note>
+         </sect2>
+         <sect2 id="gweather-radar-map">
+            <title>Mapa de Radar</title>
+            <para>Por padrão, a aba <guilabel>Mapa de Radar</guilabel> não é exibida. O <application>Relatório Meteorológico</application> recebe os mapas de radar a partir do site www.weather.com. Caso o mapa de radar não esteja disponível para sua localidade será mostrada uma interrogação. Para ir até o site basta clicar sobre o botão <guibutton>Visitar Weather.com</guibutton>.</para>
+            <para lang="en">To enable the radar map, perform the following steps:
+	     <orderedlist>
+		<listitem><para lang="en">Go to the <guilabel>Weather Preferences</guilabel> dialog by selecting <guilabel>Preferences</guilabel> in the right-click menu.</para></listitem>
+ 		<listitem><para lang="en">In the <guilabel>General</guilabel> tab, select the <guilabel>Enable radar map</guilabel> option. </para></listitem>
+		<listitem><para lang="en">By default, <application>Weather Report</application> downloads the radar maps from www.weather.com. Select the <guilabel>Use custom address for radar map</guilabel> option to display radar maps from an alternative Internet address. You must type the address in the <guilabel>Address</guilabel> text box.</para></listitem>
+	      </orderedlist>
+                     </para>
+	<note><para>A maioria das localidades não definem um mapa de radar padrão, especialmente fora dos EUA. Se você deseja ter um mapa de radar numa localidade onde o <application>Relatório Meteorológico</application> não encontrou, você precisará informar uma URL personalizada.</para></note>
+      </sect2>
+   </sect1>
+</article>

@@ -1,0 +1,121 @@
+[ConnectionManager]
+BusName=org.freedesktop.Telepathy.ConnectionManager.gabble
+ObjectPath=/org/freedesktop/Telepathy/ConnectionManager/gabble
+Interfaces=
+
+[Protocol jabber]
+param-account=s required register
+param-password=s register secret
+param-server=s
+param-resource=s
+param-priority=n
+param-port=q
+param-old-ssl=b
+param-require-encryption=b
+param-register=b
+param-low-bandwidth=b
+param-https-proxy-server=s
+param-https-proxy-port=q
+param-fallback-conference-server=s
+param-stun-server=s
+param-stun-port=q
+param-fallback-stun-server=s
+param-fallback-stun-port=q
+param-ignore-ssl-errors=b
+param-alias=s
+param-fallback-socks5-proxies=as
+param-keepalive-interval=u
+param-org.freedesktop.Telepathy.Connection.Interface.ContactList.DownloadAtConnection=b
+param-org.freedesktop.Telepathy.Connection.Interface.Gabble.Decloak.DecloakAutomatically=b
+param-fallback-servers=as
+param-extra-certificate-identities=as
+default-priority=0
+default-port=5222
+default-old-ssl=false
+default-require-encryption=true
+default-register=false
+default-low-bandwidth=false
+default-https-proxy-port=443
+default-fallback-conference-server=conference.telepathy.im
+default-stun-port=3478
+default-fallback-stun-server=stun.telepathy.im
+default-fallback-stun-port=3478
+default-ignore-ssl-errors=false
+default-fallback-socks5-proxies=
+default-keepalive-interval=30
+default-org.freedesktop.Telepathy.Connection.Interface.ContactList.DownloadAtConnection=true
+default-org.freedesktop.Telepathy.Connection.Interface.Gabble.Decloak.DecloakAutomatically=true
+RequestableChannelClasses=filetransfer-1on1-1;filetransfer-1on1-2;text-1on1-3;streamedmedia-1on1-4;call1-1on1-5;text-multi-6;streamtube-multi-7;dbustube-multi-8;call1-multi-9;roomlist-10;contactsearch-11;streamtube-1on1-12;dbustube-1on1-13;
+Interfaces=org.freedesktop.Telepathy.Protocol.Interface.Presence;org.freedesktop.Telepathy.Protocol.Interface.Addressing;
+ConnectionInterfaces=org.freedesktop.Telepathy.Connection.Interface.MailNotification;org.laptop.Telepathy.ActivityProperties;org.laptop.Telepathy.BuddyInfo;org.freedesktop.Telepathy.Connection.Interface.PowerSaving;org.freedesktop.Telepathy.Connection.Interface.Aliasing;org.freedesktop.Telepathy.Connection.Interface.Capabilities;org.freedesktop.Telepathy.Connection.Interface.SimplePresence;org.freedesktop.Telepathy.Connection.Interface.Presence;org.freedesktop.Telepathy.Connection.Interface.Avatars;org.freedesktop.Telepathy.Connection.Interface.ContactInfo;org.freedesktop.Telepathy.Connection.Interface.Contacts;org.freedesktop.Telepathy.Connection.Interface.ContactList;org.freedesktop.Telepathy.Connection.Interface.ContactGroups;org.freedesktop.Telepathy.Connection.Interface.Requests;org.freedesktop.Telepathy.Connection.Interface.ContactCapabilities;org.freedesktop.Telepathy.Connection.Interface.Location;org.freedesktop.Telepathy.Connection.Interface.Gabble.Decloak;org.freedesktop.Telepathy.Connection.FUTURE;org.freedesktop.Telepathy.Connection.Interface.ClientTypes;org.freedesktop.Telepathy.Connection.Interface.Addressing1;
+AuthenticationTypes=org.freedesktop.Telepathy.Channel.Type.ServerTLSConnection;org.freedesktop.Telepathy.Channel.Interface.SASLAuthentication;
+AddressableVCardFields=x-jabber;x-facebook-id;
+AddressableURISchemes=xmpp;
+VCardField=x-jabber
+EnglishName=Jabber
+Icon=im-jabber
+
+[filetransfer-1on1-1]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.FileTransfer
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+allowed=org.freedesktop.Telepathy.Channel.Type.FileTransfer.ContentHashType;org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.FileTransfer.ContentType;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Filename;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Size;org.freedesktop.Telepathy.Channel.Type.FileTransfer.ContentHash;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Description;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Date;org.freedesktop.Telepathy.Channel.Type.FileTransfer.URI;org.freedesktop.Telepathy.Channel.Interface.FileTransfer.Metadata.ServiceName;org.freedesktop.Telepathy.Channel.Interface.FileTransfer.Metadata.Metadata;
+
+[filetransfer-1on1-2]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.FileTransfer
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+org.freedesktop.Telepathy.Channel.Type.FileTransfer.ContentHashType u=1
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.FileTransfer.ContentType;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Filename;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Size;org.freedesktop.Telepathy.Channel.Type.FileTransfer.ContentHash;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Description;org.freedesktop.Telepathy.Channel.Type.FileTransfer.Date;org.freedesktop.Telepathy.Channel.Type.FileTransfer.URI;org.freedesktop.Telepathy.Channel.Interface.FileTransfer.Metadata.ServiceName;org.freedesktop.Telepathy.Channel.Interface.FileTransfer.Metadata.Metadata;
+
+[text-1on1-3]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.Text
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;
+
+[streamedmedia-1on1-4]
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.StreamedMedia
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.StreamedMedia.InitialAudio;org.freedesktop.Telepathy.Channel.Type.StreamedMedia.InitialVideo;
+
+[call1-1on1-5]
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.Call1
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.Call1.InitialAudio;org.freedesktop.Telepathy.Channel.Type.Call1.InitialAudioName;org.freedesktop.Telepathy.Channel.Type.Call1.InitialVideo;org.freedesktop.Telepathy.Channel.Type.Call1.InitialVideoName;org.freedesktop.Telepathy.Channel.Type.Call1.MutableContents;
+
+[text-multi-6]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.Text
+org.freedesktop.Telepathy.Channel.TargetHandleType u=2
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Interface.Conference.InitialChannels;org.freedesktop.Telepathy.Channel.Interface.Conference.InitialInviteeHandles;org.freedesktop.Telepathy.Channel.Interface.Conference.InitialInviteeIDs;org.freedesktop.Telepathy.Channel.Interface.Conference.InvitationMessage;org.freedesktop.Telepathy.Channel.Interface.Room2.RoomName;org.freedesktop.Telepathy.Channel.Interface.Room2.Server;
+
+[streamtube-multi-7]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.StreamTube
+org.freedesktop.Telepathy.Channel.TargetHandleType u=2
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.StreamTube.Service;
+
+[dbustube-multi-8]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.DBusTube
+org.freedesktop.Telepathy.Channel.TargetHandleType u=2
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.DBusTube.ServiceName;
+
+[call1-multi-9]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.Call1
+org.freedesktop.Telepathy.Channel.TargetHandleType u=2
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.Call1.InitialAudio;org.freedesktop.Telepathy.Channel.Type.Call1.InitialAudioName;org.freedesktop.Telepathy.Channel.Type.Call1.InitialVideo;org.freedesktop.Telepathy.Channel.Type.Call1.InitialVideoName;org.freedesktop.Telepathy.Channel.Type.Call1.MutableContents;
+
+[roomlist-10]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.RoomList
+org.freedesktop.Telepathy.Channel.TargetHandleType u=0
+allowed=org.freedesktop.Telepathy.Channel.Type.RoomList.Server;
+
+[contactsearch-11]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.ContactSearch
+allowed=org.freedesktop.Telepathy.Channel.Type.ContactSearch.Server;
+
+[streamtube-1on1-12]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.StreamTube
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.StreamTube.Service;
+
+[dbustube-1on1-13]
+org.freedesktop.Telepathy.Channel.ChannelType s=org.freedesktop.Telepathy.Channel.Type.DBusTube
+org.freedesktop.Telepathy.Channel.TargetHandleType u=1
+allowed=org.freedesktop.Telepathy.Channel.TargetHandle;org.freedesktop.Telepathy.Channel.TargetID;org.freedesktop.Telepathy.Channel.Type.DBusTube.ServiceName;

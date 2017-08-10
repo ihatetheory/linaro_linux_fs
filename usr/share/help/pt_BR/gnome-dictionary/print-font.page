@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Selecione a fonte usada para imprimir as definições.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Barreto</mal:name>
+      <mal:email>gabrieljbl@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fonte de impressão</title>
+
+  <p>Você pode mudar o nome e o tamanho da fonte padrão usada para imprimir as definições.</p>
+
+  <steps>
+    <title>Alterando a fonte</title>
+    <item>
+      <p>Selecione <guiseq><gui style="menu">Dicionário</gui> <gui style="menuitem">Preferências</gui> <gui style="tab">Imprimir</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Clique no botão seletor de fonte.</p>
+    </item>
+    <item>
+      <p>Selecione a fonte que você gostaria de usar.</p>
+    </item>
+    <item>
+      <p>Arraste o deslizador para a direita para aumentar o tamanho da fonte ou para esquerda para diminuí-la. Alternativamente, você pode digitar o tamanho da fonte na caixa de texto ou usar os botões <gui>-</gui> e <gui>+</gui> para diminuir e aumentar o tamanho da fonte.</p>
+    </item>
+    <item>
+      <p>Clique em <gui style="button">Selecionar</gui> para salvar suas configurações de fonte.</p>
+    </item>
+  </steps>
+
+  <p>A definição não é reorganizada para impressão. Então, se você escolher uma fonte maior, alguns textos podem aparecer cortados.</p>
+
+</page>

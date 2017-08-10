@@ -1,0 +1,7 @@
+f0d212f1edadbb3d96b0e2d099bc1515  usr/bin/signond
+f8de7fb857f3c122e8b2ef56784d625f  usr/bin/signonpluginprocess
+50fc7b8a600b85f4efb81d2632eb54bd  usr/share/apport/package-hooks/source_signon.py
+39112994720102ffae50c3bd9b2fe32d  usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service
+f10204c99f2f11ead4ef8ec76cc6d697  usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service
+12ef75bee2df58d26753f4ce5189405a  usr/share/doc/signond/copyright
+bcfa27cc6be9310966d1e90cd4b8cfee  usr/share/session-migration/scripts/03_migrate_signon

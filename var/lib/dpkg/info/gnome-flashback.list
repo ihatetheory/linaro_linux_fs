@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/gnome-flashback
+/usr/share/doc/gnome-flashback/copyright
+/usr/share/doc/gnome-flashback/changelog.Debian.gz
+/usr/share/applications
+/usr/share/applications/gnome-flashback.desktop
+/usr/share/applications/gnome-flashback-init.desktop
+/usr/bin
+/usr/bin/gnome-flashback

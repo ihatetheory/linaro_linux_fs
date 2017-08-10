@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.evolution.dataserver.Sources3
+Exec=/usr/lib/evolution/evolution-source-registry

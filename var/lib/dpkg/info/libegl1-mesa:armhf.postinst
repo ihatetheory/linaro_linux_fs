@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+THIS_PACKAGE=libegl1-mesa
+THIS_SCRIPT=postinst
+
+case "$1" in
+  configure)
+  # Use alternatives to make it easier to switch between Mesa and 3rd party modules
+  update-alternatives --force \
+    --install /etc/ld.so.conf.d/arm-linux-gnueabihf_EGL.conf arm-linux-gnueabihf_egl_conf /usr/lib/arm-linux-gnueabihf/mesa-egl/ld.so.conf 500 \
+
+  # ldconfig needs to be run immediately as we're changing /etc/ld.so.conf.d/ with
+  # alternatives.
+  LDCONFIG_NOTRIGGER=y ldconfig
+
+esac
+
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section
+
+
+exit 0

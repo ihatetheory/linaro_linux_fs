@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcairomm-1.0.so.1.4.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcairomm-1.0-1
+/usr/share/doc/libcairomm-1.0-1/changelog.Debian.gz
+/usr/share/doc/libcairomm-1.0-1/README
+/usr/share/doc/libcairomm-1.0-1/copyright
+/usr/share/doc/libcairomm-1.0-1/NEWS.gz
+/usr/share/doc/libcairomm-1.0-1/AUTHORS
+/usr/lib/arm-linux-gnueabihf/libcairomm-1.0.so.1

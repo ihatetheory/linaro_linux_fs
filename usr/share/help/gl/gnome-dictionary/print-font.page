@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Seleccione un tipo de letra para a impresión de definicións.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tipo de letra de impresión</title>
+
+  <p>Se quere cambiar o nome do tipo de letra e o tamaño usado ao imprimir as definicións:</p>
+
+  <steps>
+    <title>Cambiar o tipo de letra</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Dicionario</gui> <gui style="menuitem">Preferencias</gui> <gui style="tab">Imprimir</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Prema no botón selector de tipo de letra.</p>
+    </item>
+    <item>
+      <p>Seleccione o tipo de letra que quere usar.</p>
+    </item>
+    <item>
+      <p>Arrastre o manexador á dereita para incrementar o tamaño de letra ou á esquerda para reducilo. Doutra forma, pode escribir o tamaño do tipo de letra na caixa de texto ou usar os botóns <gui>-</gui> e<gui>+</gui> para reducir e incrementar o tamaño de tipo de letra.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">Seleccionar</gui> para gardar as súas preferencias de tipo de letra.</p>
+    </item>
+  </steps>
+
+  <p>A definición non se reposicionará para a impresión polo que se escolle un tamaño de letra grande, algún texto podería cortarse.</p>
+
+</page>

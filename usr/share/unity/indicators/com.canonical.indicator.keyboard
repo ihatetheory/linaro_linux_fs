@@ -1,0 +1,16 @@
+[Indicator Service]
+Name=indicator-keyboard
+ObjectPath=/com/canonical/indicator/keyboard
+Position=80
+
+[desktop]
+ObjectPath=/com/canonical/indicator/keyboard/desktop
+
+[desktop_greeter]
+ObjectPath=/com/canonical/indicator/keyboard/desktop_greeter
+
+[desktop_lockscreen]
+ObjectPath=/com/canonical/indicator/keyboard/desktop_lockscreen
+
+[ubiquity]
+ObjectPath=/com/canonical/indicator/keyboard/desktop

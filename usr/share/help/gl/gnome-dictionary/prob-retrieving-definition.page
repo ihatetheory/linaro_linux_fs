@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Erro ao obter as definicións</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Non é posíbel buscar definicións</title>
+
+  <p>Se ve o mensaxe de erro <sys>Erro ao obter a definición</sys> ao buscar por unha definición en calquera dos <link xref="sources-select">dicionarios seleccionados</link>, o problema pode ser un dos seguintes:</p>
+
+  <list>
+    <item>
+      <p>Un ou máis dos servidores <app>DICT</app> seleccionados que está usando para buscar definicións poderían non funcionar. Agarde uns minutos antes de <link xref="definition">buscar</link> de novo a definición.</p>
+    </item>
+    <item>
+      <p>Podería non ter unha conexión a Internet funcional. Para que <app>Dicionario</app> poida buscar termos o seu computador <link href="help:gnome-help/net">debe poder conectarse</link> a <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

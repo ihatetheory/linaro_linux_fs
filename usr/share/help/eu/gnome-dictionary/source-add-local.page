@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-add-local" xml:lang="eu">
+
+  <info>
+    <revision version="0.1" date="2013-03-06" status="draft"/>
+    <link type="guide" xref="sources-guide#guide"/>
+    <!--link type="guide" xref=""/-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Add local dictionary sources</title>
+
+
+</page>

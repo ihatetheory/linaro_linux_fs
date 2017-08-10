@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Menghapus suatu sumber kamus</title>
+
+  <p>Bila Anda tak memerlukan lagi suatu <link xref="sources">sumber kamus</link> atau bila ada yang tak berkerja lagi, Anda mungkin ingin menghapusnya.</p>
+
+  <steps>
+    <title>Menghapus suatu sumber kamus:</title>
+    <item>
+      <p>Pilih <guiseq><gui style="menu"><app>Kamus</app></gui> <gui style="menuitem">Preferensi</gui> <gui style="tab">Sumber</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Pilih sumber kamus yang Anda ingin hapus.</p>
+    </item>
+    <item>
+      <p>Tekan <gui style="button">Hapus</gui>.</p>
+    </item>
+    <item>
+      <p>Suatu dialog akan muncul meminta konfirmasi bahwa Anda ingin menghapus secara permanen sumber yang dipilih. Setelah Anda mengkonfirmasi, sumber akan dihapus.</p>
+    </item>
+  </steps>
+
+</page>

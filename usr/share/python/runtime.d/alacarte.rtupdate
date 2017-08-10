@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p alacarte /usr/share/alacarte
+	pycompile -p alacarte -V 2.4- /usr/share/alacarte
+fi

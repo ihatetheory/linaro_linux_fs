@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-applets-3.0">
+  <schema id="org.gnome.gnome-applets.gweather">
+    <key type="b" name="auto-update">
+      <default>true</default>
+      <summary>Update the data automatically</summary>
+      <description>Determines whether the applet automatically updates its weather statistics or not.</description>
+    </key>
+    <key type="i" name="auto-update-interval">
+      <default>1800</default>
+      <summary>Update interval</summary>
+      <description>The interval, in seconds, between automatic updates.</description>
+    </key>
+    <key type="b" name="enable-radar-map">
+      <default>false</default>
+      <summary>Display radar map</summary>
+      <description>Fetch a radar map on each update.</description>
+    </key>
+    <key type="b" name="show-notifications">
+      <default>false</default>
+      <summary>Show notification</summary>
+      <description>Show notifications for critical weather conditions</description>
+    </key>
+    <key type="b" name="detailed">
+      <default>false</default>
+      <summary>Show detailed forecast</summary>
+      <description>If true, additional details about weather will be downloaded and shown.</description>
+    </key>
+  </schema>
+</schemalist>

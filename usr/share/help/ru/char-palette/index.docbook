@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -*- indent-tabs-mode: nil -*- -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.9.7">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "Character Palette">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002 
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="ru">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<articleinfo> 
+  <title>Руководство Кассы символов</title>
+  <abstract role="description">
+    <para>Касса символов предоставляет удобную возможность получить доступ к символам, которых нет на клавиатуре, таким, как символы под ударением, математические символы, специальные символы, знаки пунктуации.</para>
+  </abstract>
+  <copyright lang="en">
+    <year>2005</year>
+    <holder>Davyd Madeley</holder>
+  </copyright>
+  <copyright lang="en">
+    <year>2004</year>
+    <holder>Angela Boyle</holder>
+  </copyright>
+  <copyright lang="en"> 
+    <year>2002</year>
+    <year>2003</year>
+    <year>2004</year>
+  <holder>Sun Microsystems</holder> </copyright>
+  <copyright lang="en"> 
+    <year>2000</year>
+    <holder>Dan Mueth</holder>
+  </copyright>
+  <publisher role="maintainer">
+    <publishername>Проект документации GNOME</publishername>
+  </publisher>
+
+     <legalnotice id="legalnotice">
+         <para>Следующим разрешается копировать и/или модифицировать этот документ при условии соблюдения GNU Free Documentation License (GFDL), версии 1.1 или любой более поздней опубликованной Фондом свободного программного обеспечения версией без неизменяемых частей, без текстов на обложках. Вы можете найти копию лицензии по этой <ulink type="help" url="help:fdl">ссылке</ulink> или в файле COPYING-DOCS, распространяемом с этим документом.</para>
+          <para>Этот документ является частью документации GNOME, распространяемой под лицензией GFDL. Если вы хотите распространять этот документ отдельно от общей документации, вы должны приложить копию лицензии к документу, как написано в части 6 лицензии.</para>
+ 
+         <para>Многие имена и марки используются компаниями для различения их продуктов и услуг и являются торговыми марками. Эти марки присутствуют в любой части документации GNOME, и члены проекта документирования GNOME знают об этом. Имена выделяются заглавными буквами или начальной заглавной буквой.</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+   <authorgroup>
+     <author lang="en">
+       <firstname>Sun</firstname>
+       <surname>GNOME Documentation Team</surname>
+       <affiliation>
+	 <orgname>Sun Microsystems</orgname>
+       </affiliation>
+     </author>
+     <author lang="en">
+       <firstname>Dan</firstname>
+       <surname>Mueth</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>d-mueth@uchicago.edu</email>
+     </author>
+     <author lang="en">
+       <firstname>Angela</firstname>
+       <surname>Boyle</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+     </author>
+     <editor lang="en">
+       <firstname>Shaun</firstname>
+       <surname>McCance</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>shaunm@gnome.org</email>
+     </editor>
+     <editor lang="en">
+       <firstname>Davyd</firstname>
+       <surname>Madeley</surname>
+       <affiliation>
+         <orgname>GNOME Project</orgname>
+       </affiliation>
+       <email>davyd@madeley.id.au</email>
+     </editor>
+   </authorgroup>
+   
+   <releaseinfo revision="2.26" role="review"/>
+
+   <revhistory>
+     <revision lang="en">
+       <revnumber>Version 2.10</revnumber>
+       <date>March 2005</date>
+       <revdescription>
+         <para role="author" lang="en">Davyd Madeley</para>
+       </revdescription>
+     </revision>
+     <revision lang="en">
+       <revnumber>Version 2.8</revnumber>
+       <date>Unknown</date>
+       <revdescription>
+	 <para role="author" lang="en">Angela Boyle</para>
+	 <para role="publisher" lang="en">GNOME Documentation Project</para>
+       </revdescription>
+     </revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.6</revnumber>
+		  <date>August 2004</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.4</revnumber>
+		  <date>August 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.3</revnumber>
+		  <date>October 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.2</revnumber>
+		  <date>August 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.1</revnumber>
+		  <date>July 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.0</revnumber>
+		  <date>March 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems	</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Picker Applet</revnumber>
+		  <date>2000</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Dan Mueth <email>d-mueth@uchicago.edu</email>
+				</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+	 </revhistory>
+	 <releaseinfo>Это руководство описывает Кассу символов версии 2.9.7.</releaseinfo>
+	 <legalnotice> 
+		<title>Обратная связь</title>
+		<para>Чтобы сообщить об ошибке или внести предложение относительно приложения Касса символов или данного руководства, следуйте ссылке <ulink url="ghelp:gnome-feedback" type="help">Обратная связь с GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+	 </legalnotice>
+  </articleinfo>
+  <indexterm lang="en"> <primary>Character Palette</primary> </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="charpick-introduction"> 
+	 <title>Введение</title> 
+       <!-- ==== Figure ============================================= -->
+	 <figure id="applet-fig"> 
+		<title>Касса символов</title>
+		<screenshot> 
+		  <mediaobject lang="en"> 
+			 <imageobject><imagedata fileref="figures/charpalette_applet.png" format="PNG"/> </imageobject>
+			 <textobject> <phrase>Character Palette</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+       <!-- ==== End of Figure ======================================= -->
+       <para><application>Касса символов</application> предоставляет удобную возможность получить доступ к символам, которых нет на клавиатуре, таким, как символы под ударением, математические символы, специальные символы, знаки пунктуации. Вы можете вставить символы из апплета в текстовую строку, например, в текстовые документы или в командную строку. Вы можете настроить содержание апплета в соответствии с вашими требованиями.</para>
+       <para><application>Касса символов</application> поддерживает кодировку символов UTF-8, так что вы можете использовать шаблоны для отображения или копирования любого символа юникода.</para>
+
+       <sect2 id="charpick-introduction-add">       
+         <title>Добавление Кассы символов на панель</title>
+	 <para>Чтобы добавить <application>Кассу символов</application> на панель, щёлкните правой кнопкой на панели, затем выберите <guimenuitem>Добавить на панель</guimenuitem>. Выберите <application>Касса символов</application> в диалоге <application>Добавить на панель</application>, затем нажмите <guibutton>OK</guibutton>.</para>
+       </sect2> 
+  </sect1>
+<!-- ================ Usage ================================ -->
+  <sect1 id="charpick-usage"> 
+	 <title>Получение символов</title>
+	 <para>Когда вы добавляете <application>Кассу символов</application> на панель в первый раз, приложение отображает шаблон символов по умолчанию. Вы можете выбрать символ из шаблона по умолчанию или же выбрать символ из предопределённых шаблонов символов. Каждый предопределённый шаблон символов ассоциируется со стандартным символом на клавиатуре.</para>
+	 <!-- ================ Usage Subsection ================================ -->
+	 <sect2 id="charpick-charselect"> 
+		<title>Выбор символов</title>
+		<para>Чтобы выбрать символ из шаблона и вставить его в текстовую строку, выполните следующие шаги:</para>
+		  <orderedlist> 
+		    <listitem><para>В шаблоне щёлкните на символе, который вам нужет. Нажатая кнопка с символом показывает, что символ был выбран.</para></listitem>
+                    <listitem>
+                      <para>Перейдите в то место приложения, куда вы хотите поместить символ, и щёлкните средней кнопкой чтобы вставить символ. Вы можете также произвести вставку символа в приложение, если приложение предоставляет вам возможность производить вставку из буфера обмена.</para>
+                      <para>Вы можете повторить вставку, щёлкая средней кнопкой столько раз, сколько вам нужно, до тех пор, пока вы или не снимите выделение с символа или не выделите текст в другой программе. Вы можете продолжить вставку символов из буфера обмена до тех пор, пока вы или не снимите выделение с символа или не скопируете в буфер обмена из другой программы.</para>
+                    </listitem>
+                </orderedlist>
+                <para>Чтобы снять выделение с символа, щёлкните по нему снова или же щёлкните по другому символу.</para>
+                <note><para>Некоторые программы могут не разрешить вам вставить определённые символы.</para></note>
+	 </sect2> 
+	 <sect2 id="charpick-display-chargroup"> 
+		<title>Чтобы отобразить доступные шаблоны символов</title>
+		<para>Вы можете изменить отображаемые приложением символы из шаблона по умолчанию в символы доступных шаблонов. Чтобы отобразить символы доступных шаблонов, выполните следующие шаги:</para>
+		  <orderedlist> 
+			 <listitem> 
+				<para>Щёлкните на кнопке <guibutton>Доступные шаблоны</guibutton> в апплете, на стрелке слева.</para>
+			 </listitem>
+			 <listitem> 
+				<para>Щёлкните на шаблоне, который вы хотите отобразить.</para>
+			 </listitem>
+		  </orderedlist>
+		<para>Вы можете выбрать символ, который вам нужен, из отображённого в приложении шаблона символов, затем вставить символ в вашу текстовую строку.</para>
+	</sect2>
+	<sect2 id="charpick-charkeys">
+		<title>Клавиши символов</title>
+		<para>Следующая карта отображает символы клавиатуры и ассоциируемые с ними группы символов. Символы клавиатуры перечислены в первой колонке каждой секции карты. Группы символов, которые ассоциируются с каждым символом клавиатуры, показаны в других колонках.</para>
+		<figure id="charpick-characters"> 
+		  <title>Группы символов, ассоциируемые с клавишами клавиатуры</title>
+		  <screenshot> 
+			 <mediaobject lang="en"> 
+				<imageobject> 
+				  <imagedata fileref="figures/charpick_characters.png" format="PNG"/> </imageobject>
+				<textobject> <phrase>Shows character groups associated
+				with various keyboard keys. </phrase> </textobject> </mediaobject>
+		  </screenshot>
+		</figure> 
+
+	 </sect2> 
+    
+
+
+  </sect1>
+<!-- ============= Preferences ============================= -->
+  <sect1 id="charpick-prefs"> 
+	 <title>Настройка Кассы символов</title>
+	<figure id="fig-prefs"> 
+	  <title>Параметры Кассы символов</title>
+	  <screenshot> 
+	  <mediaobject lang="en"> 
+	   <imageobject><imagedata fileref="figures/charpick-preferences.png" format="PNG"/> </imageobject>
+	<textobject> <phrase>Character Palette Preferences</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+	<sect2 id="charpicks-prefs-prefs">
+		<title>Настройка шаблонов</title>
+	 	<para>Чтобы настроить <application>Кассу символов</application>, щёлкните правой кнопкой на апплете, затем выберите <guimenuitem>Параметры</guimenuitem>. Диалог <guilabel>Параметры Кассы символов</guilabel> содержит список <guilabel>Шаблоны</guilabel>, который отображает доступные шаблоны из апплета. Чтобы закрыть диалог <guilabel>Параметры Кассы символов</guilabel>, нажмите <guibutton>Закрыть</guibutton>.</para>
+		<itemizedlist>
+			<listitem><para>Чтобы добавить новый шаблон к апплету, нажмите кнопку <guibutton>Добавить</guibutton>. Смотрите <xref linkend="charpick-default-new"/> для более подробной информации.</para></listitem>
+			<listitem><para>Чтобы удалить шаблон из апплета, выберите шаблон, затем нажмите кнопку <guibutton>Удалить</guibutton>.</para></listitem>
+			<listitem><para lang="en">To modify a palette, select the palette, then click on the <guibutton>Edit</guibutton> button. Modify the palette in the <guilabel>Edit Palette</guilabel> dialog, then click <guibutton>OK</guibutton>.</para></listitem>
+		</itemizedlist>
+	</sect2>
+	 <sect2 id="charpick-default-new"> 
+		<title>Установка нового шаблона символов</title>
+		<para>Вы можете использовать приложение для выбора символов, такое, как <application>Таблица символов</application>, чтобы установить новый шаблон символов. Например, чтобы создать новый шаблон с помощью <application>Таблицы символов</application>, выполните следующие шаги:</para>
+		<orderedlist> 
+		  <listitem> 
+			 <para lang="en">Right-click on the applet, then choose <guimenuitem>Preferences</guimenuitem>. The <guilabel>Character Palette Preferences</guilabel> dialog is displayed.</para>
+		  </listitem>
+		  <listitem> 
+			 <para lang="en">Click on the <guibutton>Add</guibutton> button and the <guilabel>Add Palette</guilabel> dialog is displayed.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Откройте <application>Таблицу символов</application>, затем выберите символы, которые вы хотите отобразить в новом шаблоне. Вы можете выбрать до 25 символов.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Копируйте содержимое текстового блока <guilabel>Текст для копирования</guilabel> из <application>Таблицы символов</application> в текстовое поле <guilabel>Шаблон</guilabel> в окне <guilabel>Добавление шаблона</guilabel>.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Нажмите <guibutton>OK</guibutton>.</para>
+		  </listitem>
+		</orderedlist>
+		<para>Апплет <application>Касса символов</application> добавит новый шаблон символов к списку доступных шаблонов.</para>
+	 </sect2>
+  </sect1>
+</article>

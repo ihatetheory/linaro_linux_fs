@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak si zobrazit náhled tisku a vytisknout definici.</desc>
+
+  </info>
+
+  <title>Tisk definice</title>
+
+  <p>Definici můžete vytisknout na papír nebo do souboru. Než začnete tisknout, můžete si zobrazit náhled, jak bude vytisknutá definice vypadat a jestli se vleze na stránku, hlavně pokud jste změnili velikost <link xref="print-font">písma tisku</link>.</p>
+
+  <section id="preview">
+    <title>Náhled tisku</title>
+
+    <steps>
+      <item>
+        <p>Zvolte <guiseq><gui style="menu">Soubor</gui> <gui style="menuitem">Náhled</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Otevře se okno s náhledem, na kterém uvidíte definici přesně tak, jak se vytiskne.</p>
+      </item>
+      <item>
+	<p>Použijte nástrojovu lištu k procházení stránek a změně přiblížení a šířky stránky.</p>
+      </item>
+      <item>
+        <p>Až si náhled prohlédnete, vytiskněte definici kliknutím na <gui style="button">Vytisknout tento dokument</gui> nebo okno jen zavřete.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Tiskové tlačítko na nástrojové liště nemusí vždy fungovat. Pokud nefunguje, zavřete okno a vyberte <guiseq><gui style="menu">Soubor</gui> <gui style="menuitem">Tisk</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Tisk</title>
+
+    <p>Abyste mohli tisknout na papír, <link href="help:gnome-help/printing">musíte mít nastavenou tiskárnu</link>.</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Soubor</gui> <gui style="menuitem">Tisk</gui> <gui style="tab">Obecné</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>V seznamu dostupných tiskáren vyberte tiskárnu, kterou chcete použít, nebo vyberte <gui href="help:gnome-help/print-to-file">Tisknout do souboru</gui>.</p>
+      </item>
+      <item>
+        <p>Podle potřeby upravte <link href="help:gnome-help/printing#paper">nastavení tisku</link>.</p>
+      </item>
+      <item>
+        <p>Zmáčknutím tlačítka <gui style="button">Tisk</gui> definici vytisknete.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

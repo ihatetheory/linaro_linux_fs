@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/spamassassin
+/etc/spamassassin/sa-compile.pre
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/sa-compile
+/usr/share/doc/sa-compile/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/sa-compile.1p.gz
+/usr/bin
+/usr/bin/sa-compile
+/usr/share/doc/sa-compile/changelog.Debian.gz
+/usr/share/doc/sa-compile/NEWS.Debian.gz

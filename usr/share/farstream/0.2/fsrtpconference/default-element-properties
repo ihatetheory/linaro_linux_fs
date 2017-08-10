@@ -1,0 +1,61 @@
+# Put the desired properties in the style of
+#
+# [element name]
+# prop1=val1
+
+#
+# Video codecs default to 256 kbps
+#
+
+# 100ms for the jitterbuffer is a good tradeoff
+[rtpbin]
+latency=100
+
+[x264enc]
+byte-stream=1
+bitrate=256
+profile=baseline
+# Zerolatency is needed because the default latency is pretty high
+tune=zerolatency
+# 3 is "veryfast", presets go from 1 (ultrafast) to 10 (veryslow)
+speed-preset=3
+# These are all included in profile=baseline but stay here for older versions
+bframes=0
+b-adapt=0
+cabac=0
+dct8x8=0
+# With zerolatency, threads are per slice, but slices confuse some decoders
+threads=1
+# Access-Unit Delimiters are a waste of bandwidth
+aud=0
+
+# Try to make GOBs as small as possible
+[ffenc_h263]
+rtp-payload-size=1
+
+[theoraenc]
+bitrate=256
+
+[vp8enc]
+target-bitrate=256000
+deadline=1
+cpu-used=4
+lag-in-frames=0
+error-resilient=1
+
+[rtppcmupay]
+ptime-multiple=20000000
+
+[rtppcmapay]
+ptime-multiple=20000000
+
+# Set appropriate buffer/latency parameters for voip. The key parameter is
+# buffer-time, which determines the latency in the conventional sense (X us of
+# buffering between client and playback/capture. We take a conservatively high
+# value for these to lower CPU load on less powerful systems.
+[pulsesink]
+buffer-time=40000
+latency-time=20000
+
+[pulsesrc]
+buffer-time=20000

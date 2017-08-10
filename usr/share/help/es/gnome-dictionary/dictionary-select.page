@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="dictionary-select" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources-default"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.comm</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Seleccionar otro diccionario</title>
+
+  <p>Una única <link xref="sources">fuente de diccionarios</link> puede tener varios diccionarios diferentes. Puede buscar cualquiera de ellos.</p>
+
+  <steps>
+    <title>Seleccionar un diccionario</title>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Bases de datos disponibles</gui></guiseq>. Se abrirá una barra lateral mostrando los diccionarios disponibles para la fuente de diccionarios seleccionada actualmente.</p>
+    </item>
+    <item>
+      <p>Pulse dos veces sobre el diccionario que quiere usar</p>
+    </item>
+  </steps>
+
+  <p>El siguiente término que <link xref="definition">busque</link> mostrará el resultado sólo para el diccionario seleccionado.</p>
+
+  <note>
+    <p>El diccionario que elija no se recordará la próxima vez que use <app>Diccionario</app>.</p>
+  </note>
+
+</page>

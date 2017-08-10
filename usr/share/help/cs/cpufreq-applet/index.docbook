@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.12.0">
+<!ENTITY applet "CPU Frequency Scaling Monitor">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 06, 2003
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="cs">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+	<title>Příručka k appletu Sledování změny frekvence CPU</title> 
+        <abstract role="description">
+	  <para>Sledování změny frekvence CPU zobrazuje současnou frekvenci CPU a poskytuje rozhraní na změnu frekvence, pokud to daná CPU podporuje.</para>
+	</abstract>
+	<copyright><year>2005</year> <holder>Davyd Madeley</holder></copyright>
+        <copyright><year>2004</year> <holder>GNOME Foundation</holder></copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+   -->
+
+	 <publisher role="maintainer"> 
+		<publishername>Dokumentační projekt GNOME</publishername> 
+	 </publisher> 
+
+  <legalnotice id="legalnotice">
+	<para>Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License (GFDL) ve verzi 1.1 nebo v jakékoli další verzi vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopii licence GFDL naleznete pod <ulink type="help" url="help:fdl">tímto odkazem</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou.</para>
+         <para>Tato příručka je součástí sbírky příruček GNOME šířených za podmínek licence GNU FDL. Pokud chcete tento dokument šířit odděleně od sbírky, musíte přiložit kopii licence dle popisu v oddílu 6 dané licence.</para>
+
+	<para>Mnoho užívaných názvů určených k zviditelnění produktů nebo služeb jsou ochranné známky. Na místech, kde jsou tato jména v dokumentaci užita a členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se jedná o ochrannou známku, je takové jméno psáno velkými písmeny celé nebo s velkým písmenem na začátku.</para>
+
+	<para>DOKUMENT A JEHO UPRAVENÉ VERZE JSOU ŠÍŘENY V SOULADU SE ZNĚNÍM LICENCE GNU FREE DOCUMENTATION LICENSE S NÁSLEDUJÍCÍM USTANOVENÍM: <orderedlist>
+		<listitem>
+		  <para>DOKUMENT JE POSKYTOVÁN V PODOBĚ „JAK JE“, BEZ ZÁRUKY JAKÉHOKOLIV DRUHU, NEPOSKYTUJÍ SE ANI ODVOZENÉ ZÁRUKY, ZÁRUKY, ŽE DOKUMENT, NEBO JEHO UPRAVENÁ VERZE, JE BEZCHYBNÝ, NEBO ZÁRUKY PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL, NEBO NEPORUŠENOSTI. RIZIKO NEKVALITY, NEPŘESNOSTI A ŠPATNÉHO PROVEDENÍ DOKUMENTU, NEBO JEHO UPRAVENÉ VERZE, NESETE VY. POKUD JE TENTO DOKUMENT NEBO JEHO UPRAVENÁ VERZE VADNÁ V JAKÉMKOLIV SMYSLU, VY (NIKOLIV PŮVODCE, AUTOR NEBO JAKÝKOLIV PŘISPĚVATEL) PŘEBÍRÁTE ODPOVĚDNOST ZA JAKÉKOLIV NÁKLADY NA NUTNÉ ÚPRAVY, OPRAVY ČI SLUŽBY. TOTO PROHLÁŠENÍ O ZÁRUCE PŘEDSTAVUJE ZÁKLADNÍ SOUČÁST TÉTO LICENCE. BEZ TOHOTO PROHLÁŠENÍ NENÍ PODLE TÉTO DOHODY POVOLENO UŽÍVÁNÍ ANI ÚPRAVY TOHOTO DOKUMENTU; DÁLE</para>
+		</listitem>
+		<listitem>
+		  <para>ZA ŽÁDNÝCH OKOLNOSTÍ A ŽÁDNÝCH PRÁVNÍCH PŘEDPOKLADŮ, AŤ SE JEDNÁ O PŘEČIN (VČETNĚ NEDBALOSTNÍCH), SMLOUVU NEBO JINÉ, NENÍ AUTOR, PŮVODNÍ PISATEL, KTERÝKOLIV PŘISPĚVATEL NEBO KTERÝKOLIV DISTRIBUTOR TOHOTO DOKUMENTU NEBO UPRAVENÉ VERZE DOKUMENTU NEBO KTERÝKOLIV DODAVATEL NĚKTERÉ Z TĚCHTO STRAN ODPOVĚDNÝ NĚJAKÉ OSOBĚ ZA PŘÍMÉ, NEPŘÍMÉ, SPECIÁLNÍ, NAHODILÉ NEBO NÁSLEDNÉ ŠKODY JAKÉHOKOLIV CHARAKTERU, VČETNĚ, ALE NEJEN, ZA POŠKOZENÍ ZE ZTRÁTY DOBRÉHO JMÉNA, PŘERUŠENÍ PRÁCE, PORUCHY NEBO NESPRÁVNÉ FUNKCE POČÍTAČE NEBO JINÉHO A VŠECH DALŠÍCH ŠKOD NEBO ZTRÁT VYVSTÁVAJÍCÍCH Z NEBO VZTAHUJÍCÍCH SE K POUŽÍVÁNÍ TOHOTO DOKUMENTU NEBO UPRAVENÝCH VERZÍ DOKUMENTU, I KDYŽ BY TAKOVÁTO STRANA BYLA INFORMOVANÁ O MOŽNOSTI TAKOVÉHOTO POŠKOZENÍ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+<!-- This file  contains link to license for the documentation (GNU FDL), and 
+     other legal stuff such as "NO WARRANTY" statement. Please do not change 
+     any of this. -->
+
+	 <authorgroup> 
+            <author><firstname>Carlos</firstname> <surname>Garcia Campos</surname> <affiliation><orgname>Projekt GNOME</orgname> <address><email>carlosgc@gnome.org</email></address></affiliation></author>
+	    <author><firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation><orgname>Projekt GNOME</orgname> <address><email>davyd@madeley.id.au</email></address></affiliation></author>
+      <!-- This is appropriate place for other contributors: translators,
+           maintainers,  etc. Commented out by default.
+        <othercredit role="translator">
+	      <firstname>Latin</firstname> 
+	      <surname>Translator 1</surname> 
+	      <affiliation> 
+	      	<orgname>Latin Translation Team</orgname> 
+	       	<address> <email>translator@gnome.org</email> </address> 
+	      </affiliation>
+	      <contrib>Latin translation</contrib>
+        </othercredit>
+-->
+	 </authorgroup>
+	 
+	 <releaseinfo revision="2.26" role="review"/>
+
+	 <revhistory>
+	   <revision><revnumber>GNOME 2.12</revnumber> <date>srpen 2005</date> <revdescription>
+	      <para role="author">Davyd Madeley</para>
+	     </revdescription></revision>
+	   <revision><revnumber>GNOME 2.10</revnumber> <date>březen 2005</date> <revdescription>
+	      <para role="author">Davyd Madeley</para>
+	     </revdescription></revision>
+		<revision><revnumber>Příručka V0.3 k apletu Sledování změny frekvence CPU</revnumber> <date>říjen 2004</date> <revdescription> 
+                    <para role="author">Carlos Garcia Campos</para>
+                    <para role="publisher">Dokumentační projekt GNOME</para>
+		  </revdescription></revision> 
+	 </revhistory> 
+
+	 <releaseinfo>Tato příručka popisuje Sledování změny frekvence CPU verze 2.12.0</releaseinfo> 
+
+		<legalnotice> 
+		<title>Ohlasy</title> 
+		<para>Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k appletu <application>Sledování změny frekvence CPU</application> nebo této příručce, postupujte dle instrukcí na stránce <ulink url="ghelp:gnome-feedback" type="help">Stránka s ohlasy na GNOME</ulink>.</para>
+	     </legalnotice>
+
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Marek Černocký</firstname>
+      </personname>
+      <email>marek@manet.cz</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2009</year>
+      
+        <year>2013</year>
+      
+      <holder>Marek Černocký</holder>
+    </copyright>
+  </articleinfo> 
+
+  <indexterm zone="index"><primary>Sledování změny frekvence CPU</primary></indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<sect1 id="cpufreq-applet-introduction"> 
+	 <title>Úvod</title> 
+	 <figure id="cpufreq-applet-figure"> 
+	    <title>Sledování změny frekvence CPU</title> 
+		<screenshot> 
+		  <mediaobject> 
+		     <imageobject>
+			<imagedata fileref="figures/cpufreq-applet.png" format="PNG"/> 
+		     </imageobject>
+		  </mediaobject>
+	       </screenshot>
+	 </figure> 
+    <!-- ==== End of Figure ======================================= -->
+    <para><application>Sledování změny frekvence CPU</application> poskytuje pohodlný způsob, jak sledovat změnu frekvence každé CPU.</para> 
+	 <para><application>Sledování změny frekvence CPU</application> přidáte na panel tak, že otevřete vyskakovací nabídku kliknutím na panel pravým tlačítkem a zvolíte <menuchoice><guimenu>Přidat na panel</guimenu> <guimenuitem>Sledování změny frekvence CPU</guimenuitem></menuchoice>.</para> 
+	
+    <note><para>Škálování frekvence CPU lze zatím bohužel sledovat pouze na Linuxových strojích, které mají příslušnou podporu v jádře. Nicméně applet podporuje několik různých generací rozhraní jádra pro škálování frekvence.</para></note>
+   
+   <para>Pokud v systému není podpora pro škálování frekvence CPU, bude applet Sledování změny frekvence CPU pouze zobrazovat současnou frekvenci CPU.</para>
+   <para>Pokud systém škálování frekvence CPU podporuje, tak applet Sledování změny frekvence CPU zobrazuje ikonu CPU s ukazatelem. Stav ukazatele představuje současnou frekvenci CPU vzhledem k maximální možné frekvenci.</para>
+   <para>Standardně zobrazuje applet Sledování změny frekvence CPU frekvenci v Hertzech (hlavní jednotka SI pro frekvenci), ale můžete si nastavit, aby se místo ní zobrazovalo vyjádření v procentech. Více informací o tom, jak applet Sledování změny frekvence CPU nastavit, uvádí <xref linkend="cpufreq-applet-prefs"/>.</para>
+   <para>Každý spuštěný applet Sledování změny frekvence CPU může sledovat pouze jednu CPU. Pokud chcete ve víceprocesorových systémech (SMP) sledovat každou CPU, tak musíte applet spustit pro každou zvlášť.</para>
+
+   <sect2 id="gnome-cpufreq-icons">
+     <title>Význam ikon</title>
+     <para>Applet Sledování změny frekvence CPU má řadu ikon, které graficky vyjadřují současnou úroveň sledovaného procesoru. Jsou to:</para>
+      <informaltable frame="all">
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="COLSPEC0" colwidth="50*"/>
+          <colspec colname="COLSPEC1" colwidth="50*"/>
+          <thead>
+            <row valign="top">
+              <entry colname="COLSPEC0">
+                <para>Ikona</para></entry>
+              <entry colname="COLSPEC1">
+                <para>Popis</para></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject> <imagedata fileref="figures/cpufreq-100.png" format="PNG"/></imageobject> <textobject><phrase>100% výkon</phrase></textobject></inlinemediaobject></para></entry>
+	      <entry><para>CPU běží na nebo okolo 100% kapacity</para></entry>
+	    </row>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject><imagedata fileref="figures/cpufreq-75.png" format="PNG"/></imageobject><textobject> <phrase>75% výkon</phrase></textobject></inlinemediaobject></para></entry>
+	      <entry><para>CPU běží na nebo okolo 75% kapacity</para>
+	      </entry>
+	    </row>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject><imagedata fileref="figures/cpufreq-50.png" format="PNG"/></imageobject><textobject> <phrase>50% výkon</phrase></textobject></inlinemediaobject></para></entry>
+	      <entry><para>CPU běží na nebo okolo 50% kapacity</para></entry>
+	    </row>
+            <row valign="top">
+              <entry><para><inlinemediaobject><imageobject><imagedata fileref="figures/cpufreq-25.png" format="PNG"/></imageobject><textobject> <phrase>25% výkon</phrase></textobject></inlinemediaobject></para></entry>
+	      <entry><para>CPU běží na nebo okolo 25% kapacity</para></entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </informaltable>
+   </sect2>
+   
+   <sect2 id="gnome-cpufreq-selector">
+      <title>Výběr frekvence a regulace</title>
+      <warning><para>Funkcionalita výběru frekvence nemusí být ve výchozím stavu ve vašem pracovním prostředí GNOME dostupná. Poraďte se prosím se svým systémovým správcem, dokumentací dodavatele nebo dokumentací dodanou spolu se software.</para></warning>
+      <para>Frekvenci CPU nastavíte tak, že kliknete na applet a objeví se nabídka. V nabídce si můžete vybrat ze seznamu dostupných frekvencí a/nebo regulátorů frekvencí pro váš stroj.</para>
+      <tip><para>V <guilabel>Předvolbách</guilabel> si můžete nastavit, zda chcete zobrazovat frekvence nebo regulátory. Více informací podává <xref linkend="cpufreq-applet-prefs"/>.</para></tip>
+
+      <figure id="cpufreq-applet-selector-img">
+	 <title>Volič frekvence nabízející možné frekvence</title>
+	 <screenshot>
+	    <mediaobject>
+	       <imageobject>
+		  <imagedata fileref="figures/cpufreq-applet-selector.png" format="PNG"/>
+	       </imageobject>
+	    </mediaobject>
+	</screenshot>
+      </figure>
+
+      <figure id="cpufreq-applet-selector-both-img">
+	 <title>Volič frekvence nabízející jak frekvence tak regulace</title>
+	 <screenshot>
+	    <mediaobject>
+	       <imageobject>
+		  <imagedata fileref="figures/cpufreq-applet-selector-both.png" format="PNG"/>
+	       </imageobject>
+	    </mediaobject>
+	</screenshot>
+      </figure>
+   </sect2>
+</sect1>
+
+<!-- ============= Customization ============================= -->
+<!-- Use this section to describe how to customize the applet. -->
+<sect1 id="cpufreq-applet-prefs"> 
+	 <title>Předvolby</title> 
+	 <para>Pokud hodláte nastavovat applet <application>Sledování změny frekvence CPU</application>, tak na něj klikněte pravým tlačítkem a vyberte ve vyskakovací nabídce <guimenuitem>Předvolby</guimenuitem>.</para> 
+	 <para>Dialog <guimenuitem>Předvolby</guimenuitem> obsahuje následující prvky:</para> 
+	 <figure id="cpufreq-applet-preferences">
+	    <title>Dialog Předvolby sledování frekvence CPU</title>
+	    <screenshot>
+	       <mediaobject><imageobject><imagedata fileref="figures/cpufreq-applet-preferences.png" format="PNG"/></imageobject> <textobject><phrase>Dialogové okno předvoleb apletu Sledování změny frekvence CPU</phrase> </textobject></mediaobject>
+	    </screenshot>
+	 </figure>
+
+	 <variablelist> 
+	   <varlistentry> 
+	      <term><guilabel>Sledovaná CPU (pouze ve víceprocesorových systémech)</guilabel></term> 
+	     <listitem> 
+		<para>K volbě CPU, kterou chcete sledovat, použijte vyskakovací seznam.</para>
+	 <figure id="cpufreq-applet-preferences-smp">
+	    <title>Volba sledované CPU</title>
+	    <screenshot>
+	       <mediaobject><imageobject><imagedata fileref="figures/cpufreq-applet-preferences.png" format="PNG"/></imageobject> <textobject><phrase>Výběr procesoru v dialogovém okně předvoleb apletu Sledování změny frekvence CPU</phrase> </textobject></mediaobject>
+	    </screenshot>
+	 </figure>
+	<note><para>Volba <guilabel>Sledovaná CPU</guilabel> se objevuje pouze na víceprocesorových systémech (SMP).</para></note>
+	 
+	     </listitem>
+	   </varlistentry> 
+	   <varlistentry> 
+	      <term><guilabel>Vzhled</guilabel></term> 
+	     <listitem> 
+		<para>Pomocí tohoto vyskakovacího seznamu můžete zvolit, co chcete, aby applet zobrazoval. Dostupné jsou tyto režimy: Grafika, Text a obojí (Grafika a text)</para> 
+	    </listitem>
+	 </varlistentry>
+	 <varlistentry>
+	    <term><guilabel>Zobrazovat frekvenci CPU jako frekvenci</guilabel></term>
+	    <listitem>
+	       <para>Zvolte, pokud chcete zobrazovat současnou frekvenci CPU.</para>
+	    </listitem>
+	 </varlistentry>
+	 <varlistentry>
+	    <term><guilabel>Zobrazovat jednotky frekvence</guilabel></term>
+	    <listitem>
+	       <para>Vyberte si, jestli chcete při zobrazování frekvence uvádět jednotky nebo ne.</para>
+	    </listitem>
+	 </varlistentry>
+	  <varlistentry>
+	     <term><guilabel>Zobrazovat frekvenci CPU jako procenta</guilabel></term>
+	     <listitem>
+		<para>Zvolte, pokud chcete zobrazovat současnou frekvenci v procentech.</para>
+	     </listitem>
+	  </varlistentry>
+
+	  <varlistentry><term><guilabel>Zobrazovat nabídku</guilabel></term>
+	   <listitem>
+	    <para>Tato volba umožňuje vybrat, kolik informací chcete zobrazit ve vyskakovací nabídce pro výběr frekvence (viz <xref linkend="gnome-cpufreq-selector"/>). Můžete zvolit zobrazování <guilabel>Frekvencí</guilabel>, <guilabel>Regulátorů</guilabel> nebo obojího <guilabel>Frekvencí i regulátorů</guilabel>. <figure id="cpufreq-applet-selector-both-2">
+	    <title>Volič nastavený tak, aby zobrazoval frekvence a regulátory</title>
+	    <screenshot>
+	       <mediaobject><imageobject><imagedata fileref="figures/cpufreq-applet-selector-both.png" format="PNG"/></imageobject> <textobject><phrase>Výběr regulátoru CPU</phrase></textobject></mediaobject>
+	    </screenshot>
+	 </figure></para>
+	  </listitem></varlistentry>
+       </variablelist>
+  </sect1>
+
+</article>

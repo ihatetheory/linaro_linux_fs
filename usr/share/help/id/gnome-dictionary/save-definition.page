@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="save-definition" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Simpan suatu salinan definisi ke suatu berkas teks.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Simpan suatu definisi</title>
+
+  <p>Anda dapat menyimpan suatu definisi ke suatu berkas teks. Ini mungkin berguna bila Anda ingin memakainya di luar <app>Kamus</app>.</p>
+
+  <steps>
+    <title>Untuk menyimpan definisi:</title>
+    <item>
+      <p>Pilih <guiseq><gui style="menu">Berkas</gui> <gui style="menuitem">Simpan suatu Salinan…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Pilih tempat dimana Anda ingin menyimpan definisi dan suatu nama bagi berkas. Anda mungkin ingin menambahkan ekstensi berkas <file>.txt</file> di akhir nama berkas.</p>
+    </item>
+    <item>
+      <p>Tekan <gui style="button">Simpan</gui> untuk menyimpan definisi.</p>
+    </item>
+  </steps>
+
+</page>

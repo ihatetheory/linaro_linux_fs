@@ -1,0 +1,4 @@
+13bed3c07e613c789529bd1f3e9db591  usr/lib/arm-linux-gnueabihf/alsa-lib/libasound_module_ctl_bluetooth.so
+65173a626cb985c466735642ca5aabc1  usr/lib/arm-linux-gnueabihf/alsa-lib/libasound_module_pcm_bluetooth.so
+e70878f558e3f5cba774d4ad007183fa  usr/share/alsa/alsa.conf.d/bluetooth.conf
+3b032ce14319270ad12d0d318de495d8  usr/share/doc/bluez-alsa/copyright

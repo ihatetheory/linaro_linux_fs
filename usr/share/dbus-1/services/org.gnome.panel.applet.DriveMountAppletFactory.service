@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.panel.applet.DriveMountAppletFactory
+Exec=/usr/lib/gnome-applets/drivemount_applet2

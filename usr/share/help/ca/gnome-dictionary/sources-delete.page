@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Delete a dictionary source</title>
+
+  <p>If you no longer need a specific
+  <link xref="sources">dictionary source</link> or if one stops
+  working for you, you may want to delete it.</p>
+
+  <steps>
+    <title>Delete a dictionary source:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu"><app>Dictionary</app></gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select the dictionary source that you want to delete.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Remove</gui>.</p>
+    </item>
+    <item>
+      <p>A dialog will pop up asking you to confirm that you wish to
+      permanently delete the selected source. Once you confirm, the source will
+      be deleted.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">gpk-application.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <name>GNOME Packages</name>
+  <name xml:lang="as">GNOME পেকেইজসমূহ</name>
+  <name xml:lang="be">Кіраўнік пакункаў GNOME</name>
+  <name xml:lang="bn_IN">GNOME প্যাকেজ</name>
+  <name xml:lang="ca">Paquets GNOME</name>
+  <name xml:lang="ca@valencia">Paquets GNOME</name>
+  <name xml:lang="cs">Balíčky GNOME</name>
+  <name xml:lang="da">GNOME Pakker</name>
+  <name xml:lang="de">GNOME Pakete</name>
+  <name xml:lang="el">Πακέτα GNOME</name>
+  <name xml:lang="es">Paquetes de GNOME</name>
+  <name xml:lang="eu">GNOMEren paketeak</name>
+  <name xml:lang="fi">Paketit</name>
+  <name xml:lang="fr">GNOME Paquets</name>
+  <name xml:lang="gl">Instalador do paquete de GNOME</name>
+  <name xml:lang="gu">GNOME પેકેજો</name>
+  <name xml:lang="hi">गनोम संकुल</name>
+  <name xml:lang="hu">GNOME Csomagok</name>
+  <name xml:lang="id">GNOME Paket</name>
+  <name xml:lang="it">Pacchetti GNOME</name>
+  <name xml:lang="ja">GNOME パッケージ</name>
+  <name xml:lang="kk">GNOME дестелері</name>
+  <name xml:lang="kn">GNOME ಪ್ಯಾಕೇಜುಗಳು</name>
+  <name xml:lang="ko">그놈 패키지</name>
+  <name xml:lang="lt">GNOME paketai</name>
+  <name xml:lang="lv">GNOME Pakotnes</name>
+  <name xml:lang="mr">GNOME संकुल</name>
+  <name xml:lang="ms">Pakej-Pakej GNOME</name>
+  <name xml:lang="nb">GNOME pakker</name>
+  <name xml:lang="ne">जिनोम प्याकेजहरू</name>
+  <name xml:lang="nl">Gnome Pakketinstallatie</name>
+  <name xml:lang="pa">ਗਨੋਮ ਪੈਕੇਜ</name>
+  <name xml:lang="pl">Menedżer pakietów GNOME</name>
+  <name xml:lang="pt">Pacotes GNOME</name>
+  <name xml:lang="pt_BR">Pacotes do GNOME</name>
+  <name xml:lang="ru">Пакеты GNOME</name>
+  <name xml:lang="sk">Balíky prostredia GNOME</name>
+  <name xml:lang="sl">Paketi GNOME</name>
+  <name xml:lang="sr">Гномови пакети</name>
+  <name xml:lang="sr@latin">Gnomovi paketi</name>
+  <name xml:lang="ta">GNOME Packages</name>
+  <name xml:lang="te">గ్నోమ్ ప్యాకేజీలు</name>
+  <name xml:lang="tg">Бастаҳои GNOME</name>
+  <name xml:lang="th">เครื่องมือจัดการแพกเกจของ GNOME</name>
+  <name xml:lang="uk">Пакунки GNOME</name>
+  <name xml:lang="zh_CN">GNOME Packages</name>
+  <name xml:lang="zh_TW">GNOME 軟體包</name>
+  <description>
+    <p>Packages allows you to install and remove packages on your system. You can view and search packages by name, details or even file name and also see dependencies of one package on other packages. Searching by groups is possible and is an easy way to find software in your favorite desktop environment.</p>
+    <p xml:lang="as">পেকেইজসমূহে আপোনাক চিস্টেমত পেকেইজসমূহ ইনস্টল কৰিব আৰু আতৰাব অনুমতি দিয়ে। আপুনি পেকেইজসমূহক নাম, বিৱীণ অথবা ফাইল নামৰ সহায়ত দৰ্শন আৰু সন্ধান কৰিব পাৰিব আৰু লগতে এটা পেকেইজৰ অন্য পেকেইজসমূহৰ ওপৰত নিৰ্ভৰতা চাব পাৰিব। দলসমূহৰ দ্বাৰা সন্ধান কৰাটো সম্ভব আৰু আপোনাৰ ডেস্কটপ পৰিৱেশত চফ্টৱেৰ সন্ধান কৰাৰ ই এটা সহজ পদ্ধতি।</p>
+    <p xml:lang="be">Кіраўнік пакункаў дазваляе ўсталёўваць і выдаляць праграмныя пакункі з сістэмы. Таксама з яго дапамогай можна праглядаць і шукаць пакункі паводле назвы, падрабязнага апісання або нават назвы патрэбнага файла. Таксама магчыма паглядзець узаемныя залежнасці пакункаў. Але і гэта не ўсё: таксама можна шукаць пакункі ў пэўных катэгорыях, напрыклад, каб адшукаць патрэбную праграму, адмыслова выпушчаную для вашага ўлюбёнага працоўнага асяроддзя.</p>
+    <p xml:lang="bn_IN">প্যাকেজগুলি অাপনাকে অাপনার সিস্টেমে প্যাকেজগুলি ইনস্টল করতে এবং সরাতে দেয়। অাপনি নাম, বিস্তারিত বা এমনকি ফাইল নাম দিয়ে প্যাকেজগুলি দেখতে এবং অনুসন্ধান করতে পারবেন এবং একটি প্যাকেজের সংগে অন্য প্যাকেজের নির্ভরশীলতাও দেখতে পাবেন। গোষ্ঠীগুলি দিয়ে অনুসন্ধান সম্ভব এবং অাপনার পছন্দের ডেস্কটপ এনভায়রনমেন্টে সফ্টওয়্যার খুঁজে পাওয়ার একটি সহজ মাধ্যম।</p>
+    <p xml:lang="ca">El Paquets us permet instal·lar i suprimir paquets del sistema. Podeu veure i cercar paquets per nom, dades o fins i tot per nom de fitxer així com també veure les dependències d'un paquet amb altres paquets. La cerca per grups també és possible i és una manera fàcil de trobar programari per al vostre entorn d'escriptori preferit.</p>
+    <p xml:lang="ca@valencia">El Paquets vos permet instal·lar i suprimir paquets del sistema. Podeu veure i cercar paquets per nom, dades o fins i tot per nom de fitxer així com també veure les dependències d'un paquet amb altres paquets. La cerca per grups també és possible i és una manera fàcil de trobar programari per al vostre entorn d'escriptori preferit.</p>
+    <p xml:lang="cs">Aplikace Balíčky vám umožňuje instalovat a odebírat balíčky ve vašem systému. Balíčky můžete hledat podle názvu, podrobného popisu i názvu souboru a můžete vidět závislosti balíčku na jiných balíčcích. Balíčky můžete procházet také roztříděné do skupin, což je snadný způsob, jak najít software pro své oblíbené pracovní prostředí.</p>
+    <p xml:lang="da">Pakker lader dig installere og fjerne pakker på dit system. Du kan gennemse og søge efter pakker efter navn, detaljer eller endda filnavn, samt se hvilke andre pakker, en pakke afhænger af. Det er muligt at søge ved gruppe, hvilket er en nem måde at finde software til dit foretrukne skrivebordsmiljø.</p>
+    <p xml:lang="de">Pakete ermöglicht es Ihnen Softwarepakete auf Ihrem System installieren oder entfernen. Sie können nach Paketen nach Name, Details oder sogar Dateinamen suchen und Abhängigkeiten zwischen Paketen anzeigen. Auch die Suche nach Gruppen ist möglich und die einfachste Möglichkeit Software für Ihre Lieblingsarbeitsumgebung zu finden.</p>
+    <p xml:lang="el">Τα πακέτα σας επιτρέπουν να εγκαταστήσετε και να αφαιρέσετε πακέτα στο σύστημά σας. Μπορείτε να εμφανίσετε και να κάνετε αναζήτηση για πακέτα ανά όνομα, λεπτομέρειες ή ακόμα και ανά όνομα αρχείων καθώς και να δείτε επίσης τις εξαρτήσεις ενός πακέτου από άλλα πακέτα. Η αναζήτηση ανά ομάδα είναι δυνατή και είναι ένας εύκολος τρόπος εύρεσης λογισμικού στο αγαπημένο σας περιβάλλον επιφάνειας εργασίας.</p>
+    <p xml:lang="es">Paquetes le permite instalar y quitar paquetes de su sistema. Puede ver y buscar paquetes por nombre, detalles o cualquier nombre de archivo y también ver las dependencias de un paquete sobre otros. Es posible buscar por grupos y es una buena manera de encontrar software para su entorno de escritorio preferido.</p>
+    <p xml:lang="eu">'Paketeak' aplikazioak sisteman paketeak instalatzea edo kentzea baimentzen dizu. Paketeak izenaren, xehetasunen edo fitxategi-izenen arabera bila eta ikus ditzakezu, edo pakete batek beste batzuekiko dituen mendekotasunak ere ikus ditzakezu. Taldeka bilatzea ere baimentzen du, gogoko duzun mahagaineko softwarea modu errazean bilatzeko modu bat da.</p>
+    <p xml:lang="fi">Paketit mahdollistaa pakettien asentamisen ja poistamisen. Voit selata ja etsiä paketteja nimen, kuvauksen tai jopa tiedostonimen perusteella. Lisäksi esitetään pakettien riippuvuudet. Myös hakeminen ryhmien perusteella on tuettu, tämän ansiosta esimerkiksi tiettyyn työpöytäympäristöön liittyvät sovellukset on helppo löytää.</p>
+    <p xml:lang="fr">Paquets vous permet d'installer et de supprimer des paquets de votre système. Vous pouvez visualiser et chercher les paquets d'après leurs noms, d'autres détails et même des noms de fichiers. Vous pouvez aussi prendre connaissance des dépendances d'un paquet envers d'autres. La recherche par groupes est possible et facilite la recherch des logiciels dans votre environnement de bureau préféré.</p>
+    <p xml:lang="gl">Paquetes permítenlle instalar e retirar paquetes no seu sistema. Pode buscar paquetes por nome, descrición ou incluso por nome de ficheiro e ver as dependencias que ten un paquete noutros. A busca por grupos é posíbel e é unha forma doada de atopar software para o seu ambiente de escritorio favorito.</p>
+    <p xml:lang="gu">પેકેજો તમારી સિસ્ટમ પર પેકેજોને સ્થાપિત અને દૂર કરવા તમને પરવાનગી આપે છે. તમે નામ, વિગતો અથવા ફાઇલ દ્દારા પેકેજોને શોધી અને જોઇ શકો છો અને બીજા પેકેજો પર એક પેકેજની આધારપણાને પણ જોઇ શકો છો. જૂથ વડે શોધવાનું શક્ય છે અને તમારી પસંદીદા ડેસ્કટોપ પર્યાવરણમાં સોફ્ટવેરને શોધવાનો સરળ રસ્તો છે.</p>
+    <p xml:lang="hi">संकुल आपको आपके तंत्र पर संकुल को संस्थापित या हटाने की अनुमति देता है. आप संकुल को नाम से देख या खोज सकते हैं, और साथ ही अन्य संकुल पर निर्भरता देख सकते हैं. खोज के द्वारा समूह संभव है और अपने पसंदीदा डेस्कटॉप वातावरण में सॉफ़्टवेयर ढूँढ़ने का आसान तरीका है.</p>
+    <p xml:lang="hu">A Csomagok lehetővé teszi csomagok telepítését és eltávolítását a számítógépen. Megjeleníthet és kereshet csomagokat név, részletek vagy akár fájlnév szerint, és láthatja a csomagok függőségeit is. Csoportok szerint is kereshet, ezáltal egyszerűen találhat kedvenc asztali környezetéhez illeszkedő szoftvereket.</p>
+    <p xml:lang="id">Paket memungkinkan Anda memasang dan menghapus paket pada sistem Anda. Anda dapat menilik dan mencari paket menurut nama, rincian, atau bahkan nama berkas, dan juga melihat kebergantungan satu paket ke lainnya. Mencari menurut grup dimungkinkan dan adalah cara mudah untuk mencari perangkat lunak dalam lingkungan desktop favorit Anda.</p>
+    <p xml:lang="it">Pacchetti consente di installare e rimuovere i pacchetti nel sistema. È possibile visualizzare e cercare i pacchetti per nome, dettagli o addirittura per nome del file e vedere anche le dipendenze di un pacchetto da altri pacchetti. La ricerca per gruppi è possibile ed è un modo semplice per trovare il software nell'ambiente desktop preferito.</p>
+    <p xml:lang="kn">ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಪ್ಯಾಕೇಜುಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸಲು ಮತ್ತು ತೆಗೆದುಹಾಕಲು ಪ್ಯಾಕೇಜಸ್‌ ನೆರವಾಗುತ್ತದೆ. ನೀವು ಪ್ಯಾಕೇಜುಗಳನ್ನು ಅವುಗಳ ಹೆಸರು, ವಿವರಗಳು ಅಥವ ಕಡತದ ಹೆಸರಿನಿಂದಲೂ ಸಹ ಹುಡುಕಬಹುದು ಮತ್ತು ಇತರೆ ಪ್ಯಾಕೇಜುಗಳ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುವ ಇನ್ನೊಂದು ಪ್ಯಾಕೇಜನ್ನೂ ನೋಡಲು ಸಾಧ್ಯವಿರುತ್ತದೆ. ಗುಂಪಿನ ಆಧಾರದಲ್ಲಿ ಹುಡುಕುವುದು ಸಾಧ್ಯವಿರುತ್ತದೆ ಮತ್ತು ಇದು ನಿಮ್ಮ ಮೆಚ್ಚಿನ ಗಣಕತೆರೆ ಪರಿಸರದಲ್ಲಿನ ತಂತ್ರಾಂಶವನ್ನು ಹುಡುಕಲು ಸುಲಭವಾದ ಮಾರ್ಗವಾಗಿರುತ್ತದೆ.</p>
+    <p xml:lang="ko">패키지 프로그램에서는 시스템에 패키지를 설치하거나 제거합니다. 이름이나 상세 정보, 심지어 파일 이름으로도 패키지를 보고 검색할 수 있습니다. 그룹으로 검색하는 기능도 가능하고 데스크톱 환경에 따라 소프트웨어를 검색하는데 효과적으로 사용할 수 있습니다.</p>
+    <p xml:lang="lt">Paketai leidžia įdiegti bei pašalinti paketus iš jūsų sistemos. Galite matyti paketus pagal pavadinimą, detalią informaciją ar net failo pavadinimą, taip pat matyti paketo priklausomybes nuo kitų paketų. Galima paieška pagal grupes, kuri yra paprastas būdas rasti jūsų mėgiamą darbastalio aplinką.</p>
+    <p xml:lang="lv">Pakotnes jums ļauj instalēt un izņemt pakotnes no datora. Jūs varat apskatīt un meklēt lietotnes pēc to nosaukuma, informācija vai pēc datņu nosaukumiem, kā arī skatīt pakotņu atkarību no citām pakotnēm. Var meklēt pa grupām un tas ir viegls veids, kā atrast pakotnes savai darbvirsmas videi.</p>
+    <p xml:lang="mr">संकुल तुम्हाला प्रणालीवरील संकुल इंस्टॉल आणि काढून टाकण्यास परवानगी देते. नाव, तपशीलवार किंवा फाइन नावाने देखील संकुलाचे अवलोकन आणि शोध करू शकता आणि एका संकुलाचे दुसऱ्यावरील अवलंबन पाहू शकता. गटप्रमाणे शोध शक्य आहे आणि पसंतीच्या डेस्कटॉप वातावरणात सॉफ्टवेअर शोधण्याचे सोपे पर्याय आहे.</p>
+    <p xml:lang="nb">Pakker lar deg installere og fjerne pakker på ditt system. Du kan vise og søke etter pakker ved navn, detaljer eller til og med filnavn og også se avhengigheter mellom pakker. Du kan søke etter pakkegrupper og dette er en lettere måte å finne programmer på ditt favorittskrivebord.</p>
+    <p xml:lang="nl">Gnome Pakketinstallatie laat u pakketten op uw systeem installeren en verwijderen. U kunt pakketten op naam, details of zelfs bestandsnamen doorzoeken en afhankelijkheden zien van een pakket op andere pakketten. U kunt zoeken op groep, waarmee het makkelijk is om software voor uw favoriete grafische werkomgeving te vinden.</p>
+    <p xml:lang="pa">ਪੈਕੇਜਸ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸਿਸਟਮ ਉੱਤੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰਨ ਤੇ ਹਟਾਉਣ ਲਈ ਸਹਾਇਕ ਹੈ। ਤੁਸੀਂ ਨਾਂ, ਵੇਰਵੇ ਜਾਂ ਫਾਇਲ ਨਾਂ ਨਾਲ ਵੀ ਪੈਕੇਜ ਵੇਖ ਅਤੇ ਲੱਭ ਸਕਦੇ ਹੋ ਅਤੇ ਇੱਕ ਪੈਕੇਜ ਉੱਤੇ ਹੋਰ ਪੈਕੇਜਾਂ ਦੀ ਨਿਰਭਰਤਾ ਨੂੰ ਵੀ ਵੇਖ ਸਕਦੇ ਹੋ। ਗਰੁੱਪ ਰਾਹੀਂ ਲੱਭਣਾ ਸੰਭਵ ਹੈ ਅਤੇ ਆਪਣੇ ਪਸੰਦੀਦਾ ਡੈਸਕਟਾਪ ਇੰਵਾਇਰਨਮੈਂਟ ਵਿੱਚ ਸਾਫਟਵੇਅਰ ਲੱਭਣਾ ਸੌਖਾ ਹੈ।</p>
+    <p xml:lang="pl">Menedżer pakietów umożliwia instalowanie i usuwanie pakietów w komputerze. Można przeglądać i wyszukiwać pakiety według nazwy, dodatkowych informacji lub nazwach plików, a także wyświetlać zależności danego pakietu od innych pakietów. Wyszukiwanie według grup jest także możliwe, co jest łatwym sposobem na znajdowanie oprogramowania dla ulubionego środowiska.</p>
+    <p xml:lang="pt">Pacotes permite-lhe instalar e remover pacotes no seu sistema. Pode visualizar e procurar pacotes por nome, detalhes ou mesmo nome do ficheiro. Também pode visualizar as dependências de um pacote relativamente a outro. É possível procurar por grupos e é uma forma simples de encontrar aplicações para o seu ambiente de trabalho favorito.</p>
+    <p xml:lang="pt_BR">Pacotes permite que você instale ou remova pacotes do seu sistema. Você pode ver e pesquisar pacotes por nome, detalhes ou até mesmo nome de arquivo e também ver dependências de um pacote por outros pacotes. Pesquisar por grupos é possível e é uma forma fácil de localizar softwares em seu ambiente de área de trabalho favorito.</p>
+    <p xml:lang="ru">Приложение «Пакеты» предназначено для установки пакетов в систему и удаления пакетов из системы. Оно позволяет выполнять поиск пакетов по имени, подробному описанию пакета и даже по имени файла, а также позволяет просматривать зависимости пакетов. Также возможен поиск пакетов по группам. С помощью такого поиска можно легко отыскать приложения для нужной среды рабочего стола.</p>
+    <p xml:lang="sk">Program Balíky umožňuje inštalovať a odstraňovať balíky v systéme. Dokáže zobraziť a vyhľadať balíky podľa názvu, podrobností alebo dokonca aj podľa názvu súboru. Zohľadňuje závislosti balíka na ostatných balíkoch. Vyhľadávanie podľa skupín umožňuje rýchlo nájsť softvér v obľúbenom pracovnom prostredí.</p>
+    <p xml:lang="sl">Program omogoča nameščanje in odstranjevanje paketov sistema. Pakete je mogoče iskati po imenu, podrobnosti, imenih datotek, odvisnostih in drugem. Podpira tudi iskanje po skupinah programov za enostavno nameščanje želenih v okolje namizja.</p>
+    <p xml:lang="sr">Пакети вам омогућава инсталацију и уклањање пакета на вашем систему. Можете прегледати и тражити пакете према називу, подацима или чак према називу датотеке а такође и видети зависности једног пакета од других. Претрага по групама је могућа и то је лак начин за налажење програма у вашем омиљеном радном окружењу.</p>
+    <p xml:lang="sr@latin">Paketi vam omogućava instalaciju i uklanjanje paketa na vašem sistemu. Možete pregledati i tražiti pakete prema nazivu, podacima ili čak prema nazivu datoteke a takođe i videti zavisnosti jednog paketa od drugih. Pretraga po grupama je moguća i to je lak način za nalaženje programa u vašem omiljenom radnom okruženju.</p>
+    <p xml:lang="ta">தொகுப்பு நிறுவி மூலம் நீங்கள் கணினியில் தொகுப்புகளை நிறுவலாம், நீக்கலாம். இதில் நீங்கள் தொகுப்புகளை பெயரின்படி, விவரங்களின் படி அல்லது கோப்புப் பெயரின் படியும் காணலாம், தேடலாம்.அதுமட்டுமின்றி நீங்கள் தொகுப்புகளின் ஒன்றுக்கொன்று சார்ந்துள்ள சார்புத் தொகுப்புகளையும் காணலாம். குழுவாரியாகத் தேடவும் முடியும். இது உங்களுக்குப் பிடித்தமான பணிமேசை சூழலில் மென்பொருளைக் கண்டறிய எளிய வழி.</p>
+    <p xml:lang="te">ప్యాకేజీలు అనునది మీరు ప్యాకేజీలను మీ వ్యవస్థపైన సంస్థాపించుటకు మరియు తీసివేయుటకు సహాయపడును. మీరు ప్యాకేజీలను పేరు ద్వారా, వివరాల ద్వారా లేదా దస్త్రము పేరు ద్వారా దర్శించవచ్చు వెతకవచ్చు మరియు ఒక ప్యాకేజీ ఏఏ ప్యాకేజీలపై ఆధారపడివుండో కూడా చూడవచ్చు. సమూహం ద్వారా వెతకడం సాధ్యమే మరియు మీ అభీష్ట డెస్కుటాప్ ఎన్విరాన్మెంట్ నందు సాఫ్టువేర్ కనుగొనుటకు సులువైన మార్గంకూడా.</p>
+    <p xml:lang="tg">Бастаҳо ба шумо имкон медиҳанд, ки тавонед бастаҳоро аз системаи худ тоза кунед ё онҳоро насб намоед. Шумо метавонед бастаҳои лозимиро аз рӯи ном, тавсилот ё номи файл аз назар гузаронед ва инчунин файлҳои вобастагии онҳоро бинед. Шумо инчунин метавонед аз ҷустуҷӯи гурӯҳӣ истифода баред, то ки тавонед нармафзорро дар муҳити мизи кории дӯстдоштаи худ пайдо намоед.</p>
+    <p xml:lang="th">เครื่องมือจัดการแพกเกจช่วยคุณติดตั้งและถอดถอนแพกเกจในระบบของคุณ คุณสามารถดูและค้นหาแพกเกจด้วยชื่อ รายละเอียด หรือแม้แต่ชื่อแฟ้ม และยังสามารถดูความขึ้นต่อกันของแพกเกจหนึ่งๆ ต่อแพกเกจอื่นได้ นอกจากนี้ยังสามารถค้นหาเป็นกลุ่มได้ ซึ่งเป็นวิธีที่ง่ายในการหาซอฟต์แวร์ในสภาพแวดล้อมเดสก์ท็อปโปรดของคุณ</p>
+    <p xml:lang="uk">Пакунки дозволяють установлювати і вилучати пакунки на вашій системі. Можна переглядати і шукати пакунки за назвою, подробицями або навіть назвою файла та бачити залежності одного пакунка до інших. Пошук за групами можливий і простий спосіб знайти програму в улюбленому стільничному середовищі. </p>
+    <p xml:lang="zh_CN">Packages 允许您安装和卸载系统里的软件包。您可以按包名、描述或者文件名查看和搜索软件包，并能看到软件包之间的依赖关系。同时提供了分类搜索，查找您喜爱的桌面环境下的软件会更加容易。</p>
+    <p xml:lang="zh_TW">《軟體包》程式讓您在系統上安裝、移除軟體包。您可以根據名稱、細節資訊，甚至檔案名稱來檢視搜尋的軟體包，也可以查看某軟體包對其他軟體包的依賴關係。您可以根據群組搜尋，這同時也是您在喜愛的桌面環境上尋找軟體的簡易方法。</p>
+    <p>Packages uses PackageKit and can work on any distribution using the native package management framework.</p>
+    <p xml:lang="as">পেকেইজসমূহে PackageKit ব্যৱহাৰ কৰে আৰু স্থানীয় পেকেইজ ব্যৱস্থাপনা ফ্ৰেইমৱাৰ্ক ব্যৱহাৰ কৰি যিকোনো বিতৰনত কাৰ্য্য কৰিব পাৰে।</p>
+    <p xml:lang="be">Кіраўнік пакункаў выкарыстоўвае бібліятэку PackageKit і працуе ў любым дыстрыбутыве праз адпаведную сістэму кіравання пакункамі.</p>
+    <p xml:lang="bn_IN">প্যাকেজগুলি PackageKit ব্যবহার করে এবং নেটিভ প্যাকেজ ব্যবস্থাপনা ফ্রেমওয়ার্ক ব্যবহার করে যেকোনো ডিস্ট্রিবিউশনে কাজ করতে পারে।</p>
+    <p xml:lang="ca">El Paquets utilitza el PackageKit i pot treballar en qualsevol distribució utilitzant l'entorn de treball nadiu de gestió de paquets.</p>
+    <p xml:lang="ca@valencia">El Paquets utilitza el PackageKit i pot treballar en qualsevol distribució utilitzant l'entorn de treball nadiu de gestió de paquets.</p>
+    <p xml:lang="cs">Balíčky využívají PackageKit a dokáží pracovat v libovolné distribuci pomocí jejího původního jádra pro správu balíčků.</p>
+    <p xml:lang="da">Pakker bruger PackageKit og kan fungere på enhver distribution ved brug af det indbyggede pakkehåndteringsrammeværk.</p>
+    <p xml:lang="de">Pakete verwendet »PackageKit« und funktioniert auf jeder Distribution basierend auf den nativen Paketverwaltungswerkzeugen.</p>
+    <p xml:lang="el">Τα πακέτα χρησιμοποιούν το PackageKit και μπορούν να δουλέψουν σε οποιαδήποτε διανομή χρησιμοποιώντας τον εγγενή πλαίσιο διαχείρισης πακέτων.</p>
+    <p xml:lang="es">Paquetes usa PackageKit y puede usarse en cualquier distribución junto con el gestor de paquetes nativo.</p>
+    <p xml:lang="eu">'Paketeak' PackageKit erabiltzen du, eta edozer banaketan funtzionatzen du, banaketak bereziki duen pakete-kudeatzailearen lanmarkoa erabiliz.</p>
+    <p xml:lang="fi">Paketit käyttää PackageKitiä, ja voi toimia kaikilla jakeluilla käyttäen jakelun omaa paketinhallintajärjestelmää.</p>
+    <p xml:lang="fr">Paquets utilise PackageKit et peut fonctionner dans toutes les distributions en utilisant leur gestion native des paquets.</p>
+    <p xml:lang="gl">Paquetes usa PackageKit e pode funcionar en calquera distribución usando o marco de traballo de xestión de paquetes nativo.</p>
+    <p xml:lang="gu">પેકેજ એ PackageKit ને વાપરે છે અને મૂળ પેકેજ સંચાલન ફ્રેમવર્કની મદદથી કોઇપણ વિતરણ પર કામ કરી શકે છે.</p>
+    <p xml:lang="hi">संकुल पैकेजकिट का उपयोग करता है और किसी वितरण पर काम कर सकता है नेटिव संकुल प्रबंधन फ्रेमवर्क के उपयोग.</p>
+    <p xml:lang="hu">A Csomagok a PackageKitet használja, és bármely disztribúción működhet a natív csomagkezelő keretrendszer használatával.</p>
+    <p xml:lang="id">Paket memakai PackageKit dan bisa bekerja pada sebarang distribusi memakai kerangka kerja manajemen paket asli.</p>
+    <p xml:lang="it">Pacchetti usa PackageKit e può funzionare su qualsiasi distribuzione usando la piattaforma nativa di gestione dei pacchetti.</p>
+    <p xml:lang="kn">ಪ್ಯಾಕೇಜಸ್‌ PackageKit ಅನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಸ್ಥಳೀಯ ಪ್ಯಾಕೇಜ್ ವ್ಯವಸ್ಥಾಪನೆ ಫ್ರೇಮ್‌ವರ್ಕ್‌ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಯಾವುದೆ ವಿತರಣೆಯಲ್ಲಿ ಕೆಲಸ ಮಾಡಬಲ್ಲದು.</p>
+    <p xml:lang="ko">패키지 프로그램은 패키지키트를 사용하므로 자체 패키지 관리 프레임워크를 사용하는 어떤 배포판에서도 동작합니다.</p>
+    <p xml:lang="lt">Paketai naudoja PackageKit ir gali veikti bet kurioje distribucijoje naudojant jos įprastinę paketų valdymo sistemą.</p>
+    <p xml:lang="lv">“Pakotnes” izmanto PackageKit un var darboties uz visām distribūcijām, izmantojot to vietējos pakotņu pārvaldības ietvarus.</p>
+    <p xml:lang="mr">पॅकेज अपडेटर हे पॅकजेकिटचा वापर करते आणि कोणत्याही डिस्ट्रिब्युशनवर मुळ संकुल व्यवस्थापक मांडणीचा वापर करून कार्य करू शकते.</p>
+    <p xml:lang="nb">Pakker bruker PackageKit og kan fungere på alle distribusjoner ved bruk av det innebyggede pakkehåndteringsrammeverk.</p>
+    <p xml:lang="nl">Pakketinstallatie gebruikt PackageKit and werkt op elke distributie met gebruikmaking van het oorspronkelijke pakketbeheer-framework.</p>
+    <p xml:lang="pa">ਪੈਕੇਜਸ ਪੈਕੇਜਕਿੱਟ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ ਅਤੇ ਨੇਟਿਵ ਪੈਕੇਜ ਪ੍ਰਬੰਧ ਫਰੇਮਵਰਕ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕਿਸੇ ਵੀ ਡਿਸਟਰੀਬਿਊਸ਼ਨ ਨਾਲ ਕੰਮ ਕਰ ਸਕਦਾ ਹੈ।</p>
+    <p xml:lang="pl">Menedżer pakietów używa usługi PackageKit i może działać na każdej dystrybucji używając natywnego mechanizmu zarządzania pakietami.</p>
+    <p xml:lang="pt">Pacotes utiliza o PackageKit e pode funcionar em qualquer distribuição utilizando a arquitetura nativa de gestão de pacotes.</p>
+    <p xml:lang="pt_BR">Pacotes usa PackageKit e pode funcionar em qualquer distribuição usando um framework de gerenciamento de pacotes.</p>
+    <p xml:lang="ru">Приложение «Пакеты» использует PackageKit и может работать в любом дистрибутиве, используя систему управления пакетами дистрибутива.</p>
+    <p xml:lang="sk">Program Balíky používa PackageKit a dokáže pracovať v akejkoľvek distribúcii používajúcej vlastný systém balíkov.</p>
+    <p xml:lang="sl">Program uporablja sistem PackageKit in deluje na različnih distribucijah preko programov za upravljanje s paketi.</p>
+    <p xml:lang="sr">Пакети користи Каталог пакета и може да ради на било којој дистрибуцији користећи изворни радни склоп управљања пакетима.</p>
+    <p xml:lang="sr@latin">Paketi koristi Katalog paketa i može da radi na bilo kojoj distribuciji koristeći izvorni radni sklop upravljanja paketima.</p>
+    <p xml:lang="ta">Packages பயன்பாடு PackageKit ஐப் பயன்படுத்துகிறது, பூர்வீக தொகுப்பு நிர்வாக சட்டமைப்பைப் பயன்படுத்தும் பதிப்பு விநியோகங்கள் எதிலும் இயங்கும்.</p>
+    <p xml:lang="te">ప్యాకేజీలు ప్యాకేజీకిట్ ఉపయోగించును మరియు ఏ పంపిణీ పైనైనా నేటివ్ ప్యాకేజ్ మేనేజ్‌మెంట్ ఫ్రేమ్‌వర్క్ ఉపయోగించి పనిచేయును.</p>
+    <p xml:lang="tg">Насби бастаҳо абзори маҷмӯи бастаҳоро истифода мебарад ва метавонад дар ҳамаи дистрибутивҳо тавассути платформаи идоракунии бастаҳои аслӣ кор кунад.</p>
+    <p xml:lang="th">เครื่องมือจัดการแพกเกจใช้ PackageKit และสามารถทำงานกับชุดจัดแจกใดๆ ก็ได้ โดยใช้กรอบงานจัดการแพกเกจแบบเฉพาะของชุดจัดแจก</p>
+    <p xml:lang="uk">Пакунки використовують PackageKit і може працювати з будь-яким дистрибутивом через рідний модуль керування пакунками.</p>
+    <p xml:lang="zh_CN">Packages 使用 PackageKit ，它使用原生的软件包管理框架，可以在任何发行版上运行。</p>
+    <p xml:lang="zh_TW">《軟體包》程式使用 Packagekit，得以運用各 Linux 散布版的原生軟體包管裡架構，所以能在任何散布版上運作。</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">https://git.gnome.org/browse/gnome-packagekit/plain/data/appdata/ss-application.png</screenshot>
+    <screenshot>https://git.gnome.org/browse/gnome-packagekit/plain/data/appdata/ss-application-details.png</screenshot>
+  </screenshots>
+  <url type="homepage">http://www.packagekit.org/</url>
+  <updatecontact>richard_at_hughsie.com</updatecontact>
+</application>

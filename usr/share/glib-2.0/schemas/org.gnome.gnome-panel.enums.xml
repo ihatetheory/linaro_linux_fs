@@ -1,0 +1,34 @@
+
+<!-- Generated data (by glib-mkenums) -->
+
+<schemalist>
+  <enum id='org.gnome.gnome-panel.PanelObjectPackType'>
+    <value nick='start' value='0'/>
+    <value nick='center' value='1'/>
+    <value nick='end' value='2'/>
+  </enum>
+  <enum id='org.gnome.gnome-panel.PanelOrientation'>
+    <value nick='top' value='1'/>
+    <value nick='right' value='2'/>
+    <value nick='bottom' value='4'/>
+    <value nick='left' value='8'/>
+  </enum>
+  <enum id='org.gnome.gnome-panel.PanelAnimationSpeed'>
+    <value nick='slow' value='0'/>
+    <value nick='medium' value='1'/>
+    <value nick='fast' value='2'/>
+  </enum>
+  <enum id='org.gnome.gnome-panel.PanelBackgroundType'>
+    <value nick='none' value='0'/>
+    <value nick='color' value='1'/>
+    <value nick='image' value='2'/>
+  </enum>
+  <enum id='org.gnome.gnome-panel.PanelBackgroundImageStyle'>
+    <value nick='none' value='0'/>
+    <value nick='stretch' value='1'/>
+    <value nick='fit' value='2'/>
+  </enum>
+</schemalist>
+
+<!-- Generated data ends here -->
+

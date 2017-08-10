@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdouble-conversion1
+/usr/share/doc/libdouble-conversion1/changelog.Debian.gz
+/usr/share/doc/libdouble-conversion1/README
+/usr/share/doc/libdouble-conversion1/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libdouble-conversion.so.1.0
+/usr/lib/arm-linux-gnueabihf/libdouble-conversion.so.1

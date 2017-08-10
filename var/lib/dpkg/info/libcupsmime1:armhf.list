@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcupsmime.so.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcupsmime1
+/usr/share/doc/libcupsmime1/copyright
+/usr/share/doc/libcupsmime1/changelog.Debian.gz

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ]; then
+  update-alternatives --remove \
+    x-session-manager /usr/lib/gnome-flashback/gnome-flashback-metacity
+fi
+
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-edit" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Modification d'une source de dictionnaires</title>
+
+  <p>Vous pouvez personnaliser une <link xref="sources">source de dictionnaires</link> pour mettre à jour les informations telles que la description ou les adresses distantes.</p>
+
+  <steps>
+    <title>Pour modifier une source de dictionnaires :</title>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu">Dictionnaire</gui> <gui style="menuitem">Préférences</gui> <gui style="tab">Source</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Double-cliquez sur la source de dictionnaires que vous souhaitez modifier.</p>
+    </item>
+    <item>
+      <p>Vous pouvez modifier les champs suivants :</p>
+      <list>
+        <item>
+          <p><gui>Description</gui> : le nom de la source telle qu'elle sera affichée pour vous.</p>
+        </item>
+        <item>
+          <p><gui>Transport</gui> est le type de serveur.</p>
+        </item>
+        <item>
+          <p><gui>Nom d'hôte</gui> est le nom d'hôte du serveur de dictionnaire</p>
+        </item>
+        <item>
+          <!-- TODO: explain that the user should not need to set it, maybe
+          explain when one may want to set it. -->
+          <p><gui>Port</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Visualisez les dictionnaires qui sont disponibles avec la source de dictionnaires en sélectionnant l'onglet <gui style="tab">Dictionnaires</gui></p>
+    </item>
+    <item>
+      <p>Appuyez sur <gui style="button">Fermer</gui> pour enregistrer les paramètres.</p>
+    </item>
+  </steps>
+
+</page>

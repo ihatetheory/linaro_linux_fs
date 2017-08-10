@@ -1,0 +1,14 @@
+[GNOME Session]
+Name=GNOME Flashback (Metacity)
+Name[cs]=GNOME historické (Metacity)
+Name[de]=GNOME Flashback (Metacity)
+Name[es]=GNOME Flashback (Metacity)
+Name[hu]=GNOME Flashback (Metacity)
+Name[id]=GNOME Flashback (Metacity)
+Name[pl]=Tradycyjne środowisko GNOME (Metacity)
+Name[pt_BR]=GNOME Flashback (Metacity)
+Name[ru]=GNOME Flashback (Metacity)
+Name[sl]=GNOME Flashback (Metacity)
+Name[sr]=Стари Гном (Метасити)
+Name[sr@latin]=Stari Gnom (Metasiti)
+RequiredComponents=gnome-flashback-init;gnome-flashback;gnome-panel;metacity;unity-settings-daemon;gnome-flashback-services;

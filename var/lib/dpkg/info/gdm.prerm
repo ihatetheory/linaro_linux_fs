@@ -1,0 +1,69 @@
+#!/bin/bash
+# Debian gdm package pre-removal script
+# Copyright 2001 Branden Robinson.
+# Licensed under the GNU General Public License, version 2.  See the file
+# /usr/share/common-licenses/GPL or <http://www.gnu.org/copyleft/gpl.txt>.
+# Acknowlegements to Stephen Early, Mark Eichin, and Manoj Srivastava.
+
+set -e
+
+THIS_PACKAGE=gdm
+DEFAULT_DISPLAY_MANAGER_FILE=/etc/X11/default-display-manager
+
+if [ "$1" = "remove" -o "$1" = "deconfigure" ]; then
+  if [ -e /usr/share/debconf/confmodule ]; then
+    . /usr/share/debconf/confmodule
+    # disown this question
+    db_unregister shared/default-x-display-manager
+    # does the question still exist?
+    if db_get shared/default-x-display-manager; then
+      db_metaget shared/default-x-display-manager owners
+      db_subst shared/default-x-display-manager choices "$RET"
+      db_get shared/default-x-display-manager
+      # are we removing the currently selected display manager?
+      if [ "$THIS_PACKAGE" = "$RET" ]; then
+        if [ -e "$DEFAULT_DISPLAY_MANAGER_FILE" ]; then
+      if db_get "$RET"/daemon_name; then
+          if [ "$(cat $DEFAULT_DISPLAY_MANAGER_FILE)" = "$RET" ]; then
+            rm "$DEFAULT_DISPLAY_MANAGER_FILE"
+          fi
+        fi
+          fi
+        # ask the user to choose a new default
+        db_fset shared/default-x-display-manager seen false
+        db_input critical shared/default-x-display-manager || true
+        db_go
+        # if the display manager file doesn't exist, write it with the path
+        # to the new default display manager
+        if ! [ -e "$DEFAULT_DISPLAY_MANAGER_FILE" ]; then
+          DEFAULT_DISPLAY_MANAGER=
+          if db_get shared/default-x-display-manager; then
+            DEFAULT_DISPLAY_MANAGER="$RET"
+          fi
+          if [ -n "$DEFAULT_DISPLAY_MANAGER" ]; then
+            DAEMON_NAME=
+            if db_get "$DEFAULT_DISPLAY_MANAGER"/daemon_name; then
+              DAEMON_NAME="$RET"
+            fi
+            if [ -z "$DAEMON_NAME" ]; then
+              # if we were unable to determine the name of the selected daemon (for
+              # instance, if the selected default display manager doesn't provide a
+              # daemon_name question), guess
+              DAEMON_NAME=$(which "$DEFAULT_DISPLAY_MANAGER" 2>/dev/null)
+            fi
+            if [ -n "$DAEMON_NAME" ]; then
+              echo "$DAEMON_NAME" > "$DEFAULT_DISPLAY_MANAGER_FILE"
+            fi
+          fi
+        fi
+      fi
+    fi
+  fi
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/gdm/greeter.gconf-defaults 3.4 -- "$@"
+# End automatically added section
+
+
+exit 0

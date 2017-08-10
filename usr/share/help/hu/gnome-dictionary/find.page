@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="find" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Szöveg keresése egy meghatározásban.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>urbalazs at gmail dot com</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Keresés egy meghatározáson belül</title>
+
+  <p>Néhány szótárbejegyzés nagyon hosszú lehet, és számos találatot tartalmazhat, ezért érdemes lehet bennük keresni, hogy megtalálja a releváns szakaszt.</p>
+
+  <steps>
+    <title>A meghatározásokban való kereséshez:</title>
+    <item>
+      <p>Válassza a <guiseq><gui style="menu">Szerkesztés</gui> <gui style="menuitem">Keresés</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>Meg fog jelenni a <gui>Keresés</gui> sáv a <app>Szótár</app> ablak alján. Gépelje be a keresési kifejezést az aktuálisan megjelenített meghatározáson belüli kereséshez.</p>
+    </item>
+    <item>
+      <p>Kattintson az <gui style="button">Előző</gui> vagy a <gui style="button">Következő</gui> gombra az eredmények görgetéséhez. A keresés nem fog körbefordulni: másként fogalmazva nem fog az oldal tetejére ugrani, ha az utolsó találatnál tart és megnyomja a <gui style="button">Következő</gui> gombot.</p>
+    </item>
+  </steps>
+
+</page>

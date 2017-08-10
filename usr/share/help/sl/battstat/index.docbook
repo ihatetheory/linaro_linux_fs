@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.12.0">
+<!ENTITY applet "Battery Charge Monitor">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="sl">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title lang="en">Battery Charge Monitor Manual</title> 
+    <abstract role="description">
+      <para lang="en">Battery Charge Monitor shows the current charge of the 
+        battery and provides notifications if charge drops below a certain
+        threshold.</para>
+    </abstract>
+    <copyright lang="en">
+      <year>2005</year>
+      <holder>Davyd Madeley</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2004</year>
+      <holder>Angela Boyle</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2004</year>
+      <holder>Sun Microsystems</holder>
+    </copyright>
+    <copyright lang="en">
+      <year>2002</year>
+      <holder>Trevor Curtis</holder>
+    </copyright>
+    <copyright lang="en"> 
+      <year>1999</year> 
+      <year>2000</year> 
+      <holder>Jorgen Pehrson</holder> 
+    </copyright>
+<!-- translators: uncomment this:
+
+    <copyright>
+     <year>2002</year>
+     <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+    </copyright>
+
+   -->
+
+    <publisher role="maintainer"> 
+      <publishername lang="en"> GNOME Documentation Project </publishername> 
+    </publisher> 
+  
+      <legalnotice id="legalnotice">
+	<para lang="en">
+	  Permission is granted to copy, distribute and/or modify this
+	  document under the terms of the GNU Free Documentation
+	  License (GFDL), Version 1.1 or any later version published
+	  by the Free Software Foundation with no Invariant Sections,
+	  no Front-Cover Texts, and no Back-Cover Texts.  You can find
+	  a copy of the GFDL at this <ulink type="help" url="help:fdl">link</ulink> or in the file COPYING-DOCS
+	  distributed with this manual.
+         </para>
+         <para lang="en"> This manual is part of a collection of GNOME manuals
+          distributed under the GFDL.  If you want to distribute this
+          manual separately from the collection, you can do so by
+          adding a copy of the license to the manual, as described in
+          section 6 of the license.
+	</para>
+
+	<para lang="en">
+	  Many of the names used by companies to distinguish their
+	  products and services are claimed as trademarks. Where those
+	  names appear in any GNOME documentation, and the members of
+	  the GNOME Documentation Project are made aware of those
+	  trademarks, then the names are in capital letters or initial
+	  capital letters.
+	</para>
+
+	<para lang="en">
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+	  UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+	  WITH THE FURTHER UNDERSTANDING THAT:
+
+	  <orderedlist>
+		<listitem>
+		  <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                    WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                    IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                    THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                    A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                    RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                    OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                    MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                    YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                    CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                    SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                    OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                    LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                    VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                    EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                       THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                       CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                       INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                       DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                       OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                       PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                       DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                       CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                       INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                       OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                       MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                       LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                       DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                       EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                       THE POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+
+
+<!-- This file  contains link to license for the documentation (GNU FDL), and 
+     other legal stuff such as "NO WARRANTY" statement. Please do not change 
+     any of this. -->
+
+    <authorgroup> 
+      <author lang="en">
+        <firstname>Sun</firstname>
+        <surname>GNOME Documentation Team</surname>
+        <affiliation><orgname>Sun Microsystems</orgname></affiliation>
+      </author>
+      <author lang="en">
+        <firstname>Trevor</firstname>
+        <surname>Curtis</surname>
+        <affiliation>
+          <orgname>GNOME Documentation Project</orgname>
+          <address> <email>tcurtis@somaradio.ca</email> </address>
+        </affiliation>
+      </author>
+      <author lang="en"> 
+        <firstname>Jorgen </firstname> 
+        <surname> Pehrson</surname> 
+        <affiliation> 
+          <orgname>GNOME Documentation Project</orgname> 
+          <address> <email>jp@spektr.eu.org</email> </address> 
+        </affiliation> 
+      </author> 
+      <author lang="en">
+	<firstname>Angela</firstname>
+	<surname>Boyle</surname>
+	<affiliation>
+	  <orgname>GNOME Documentation Project</orgname>
+	</affiliation>
+      </author>
+      <author lang="en">
+        <firstname>Davyd</firstname>
+	<surname>Madeley</surname>
+	<affiliation>
+	  <orgname>GNOME Project</orgname>
+	</affiliation>
+      </author>
+        <!-- This is appropriate place for other contributors: translators,
+             maintainers,  etc. Commented out by default.
+             <othercredit role="translator">
+	       <firstname>Latin</firstname> 
+	       <surname>Translator 1</surname> 
+	       <affiliation> 
+	         <orgname>Latin Translation Team</orgname> 
+	         <address> <email>translator@gnome.org</email> </address> 
+	       </affiliation>
+	       <contrib>Latin translation</contrib>
+             </othercredit>
+-->
+
+    </authorgroup>
+	
+	<releaseinfo revision="2.26" role="review"/>
+
+    <revhistory>
+      <revision lang="en">
+        <revnumber>Version 2.12</revnumber>
+	<date>September 2005</date>
+	<revdescription>
+	  <para role="author" lang="en">Davyd Madeley</para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+        <revnumber>Version 2.10</revnumber>
+	<date>March 2005</date>
+	<revdescription>
+	 <para role="author" lang="en">Davyd Madeley</para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+	<revnumber>Version 2.8</revnumber>
+	<date>September 2004</date>
+	<revdescription>
+	  <para role="author" lang="en">Angela Boyle</para>
+	  <para role="publisher" lang="en">GNOME Documentation Project</para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+        <revnumber>Battery Charge Monitor Applet Manual V2.2</revnumber>
+        <date>August 2004</date>
+        <revdescription>
+          <para role="author" lang="en">Sun GNOME Documentation Team</para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+      <revision lang="en">
+        <revnumber>Battery Charge Monitor Applet Manual V2.0</revnumber>
+        <date>May 2002</date>
+        <revdescription>
+          <para role="author" lang="en">Trevor Curtis
+            <email>tcurtis@somaradio.ca</email>
+          </para>
+          <para role="author" lang="en">Jorgen Pehrson
+            <email>jp@spektr.eu.org</email>
+          </para>
+          <para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+    </revhistory>
+                                                                                                  
+    <releaseinfo lang="en">This manual describes version 2.12.0 of Battery Charge Monitor.
+    </releaseinfo>
+                                                                                                  
+    <legalnotice>
+      <title lang="en">Feedback</title>
+      <para lang="en">
+        To report a bug or make a suggestion regarding the Battery Charge Monitor applet or
+        this manual, follow the directions in the <ulink url="ghelp:gnome-feedback" type="help">GNOME Feedback Page</ulink>.
+      </para>
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index" lang="en"> 
+	 <primary>Battery Charge Monitor Applet</primary> 
+  </indexterm> 
+
+  <indexterm zone="index" lang="en"> 
+	 <primary>Battstat Applet</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="battstat-introduction"> 
+    <title lang="en">Introduction</title> 
+
+    <figure id="battstat-applet-fig"> 
+      <title lang="en">Battery Charge Monitor Applet</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-applet.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>The Battery Charge Monitor applet.</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+
+    <para lang="en">
+      The <application>Battery Charge Monitor</application> shows the
+      status of any batteries in your laptop computer. The monitor can tell you
+      the capacity remaining both visually and as a percentage, as well as offer
+      you an estimate of the time remaining based off the current usage rate.
+    </para>
+
+    <sect2 id="battstat-introduction-add">
+      <title lang="en">To Add Battery Charge Monitor to a Panel</title>
+      <para lang="en">To add <application>Battery Charge Monitor</application> to a panel,
+      right-click on the panel, then choose <guimenuitem>Add to
+      Panel</guimenuitem>.  Select <application>Battery Charge Monitor</application>
+      in the <application>Add to the panel</application> dialog, then
+      click <guibutton>OK</guibutton>.</para>
+      <para lang="en">
+        The layout of the <application>Battery Charge Monitor</application> applet varies depending on the size and type of panel in which the applet resides.
+      </para>
+    </sect2>
+
+    <sect2 id="battstat-power-backends">
+     <title lang="en">Power Management Backends</title>
+
+     <para lang="en">
+      The battery monitor supports a number of power management backends.
+      If it is available, the monitor will attempt to use the freedesktop.org
+      <ulink url="http://upower.freedesktop.org/">upower</ulink> interface.
+      If it is unavailable or unsupported on your platform, it will fall back
+      to the freedesktop.org
+      <ulink url="http://freedesktop.org/Software/hal">HAL (Hardware
+      Abstraction Layer)</ulink>. If that is also not availble, the
+      battery monitor will attempt direct access to the power management system.
+     </para>
+     <para lang="en">
+      Not all power management backends are available from all vendors, and some
+      vendors add their own additional backends for specific platforms and
+      hardware. If the battery monitor is misreporting information from your
+      battery see <xref linkend="battstat-troubleshooting"/>.
+     </para>
+    </sect2>
+
+    <sect2 id="battstat-getting-help">
+      <title lang="en">Getting Help</title>
+      <para lang="en">
+        If the battery monitor doesn't work for you,
+	see these additional resources:
+      </para>
+      <itemizedlist>
+       <listitem><para lang="en">
+        <xref linkend="battstat-troubleshooting"/>;
+       </para></listitem>
+       <listitem><para lang="en">
+        <ulink url="http://mail.gnome.org/archives/">GNOME mailing
+	lists</ulink>
+       </para></listitem>
+      </itemizedlist>
+    </sect2>
+
+</sect1>
+
+<!-- ================ Customizing the Appearance ========================= -->
+
+  <sect1 id="battstat-appearance">
+    <title lang="en">Preferences</title>
+          <para lang="en">To bring up the preferences for the monitor, right-click on
+	  the monitor in the panel and then choose
+	  <guimenuitem>Preferences</guimenuitem></para>
+    <figure id="battstat-applet-prefs-menu"> 
+      <title lang="en">Battery Charge Monitor context (right-click) menu</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/context-menu.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Battery Charge Monitor context menu</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+    <figure id="battstat-applet-prefs"> 
+      <title lang="en">Preferences Dialog</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-preferences.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Preferences Dialog</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+      <variablelist>
+        <varlistentry>
+          <term lang="en"><guilabel>Appearance</guilabel></term>
+	  <listitem>
+	  <variablelist>
+	    <varlistentry>
+	      <term lang="en"><guilabel>Compact view</guilabel></term>
+	      <listitem><para lang="en">
+	       This view shows only a single graphic in the panel, either an
+	       upright battery to indicate remaining capacity or a plug to
+	       indicate your laptop is connected to an external power source.
+    <figure id="battstat-applet-compact"> 
+      <title lang="en">Compact view</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-applet.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Compact View</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+              </para>
+	      <para lang="en">
+	       The compact view is the default view for the monitor as of GNOME
+	       2.12.
+	      </para></listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term lang="en"><guilabel>Expanded view</guilabel></term>
+	      <listitem><para lang="en">
+	       The expanded view is old look from previous versions of GNOME. It
+	       has the larger graphic for the battery as well as a separate
+	       graphic to indicate what state the battery is in.
+    <figure id="battstat-applet-expanded"> 
+      <title lang="en">Expanded view</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-applet-expanded.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Expanded View</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+	      </para></listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term lang="en"><guilabel>Show time/percentage</guilabel></term>
+	      <listitem><para lang="en">Selecting this option will display one of two
+	      pieces of information. <guilabel>Show time remaining</guilabel>
+	      will tell you how many hours and minutes until the battery is
+	      fully discharged or recharged. <guilabel>Show percentage
+	      remaining</guilabel> will tell you the percentage charge remaining
+	      in the battery.</para></listitem>
+	    </varlistentry>
+	  </variablelist>
+	  </listitem>
+        </varlistentry>
+	<varlistentry>
+	 <term lang="en"><guilabel>Notifications</guilabel></term>
+	  <listitem>
+	  <itemizedlist>
+	   <listitem><para lang="en"><guilabel>
+	    Warn when battery charge drops to
+	   </guilabel></para>
+	   <para lang="en">
+	    Selecting this option will cause a warning dialog to be displayed 
+	    whenever your laptop
+	    battery reaches specified value, either as a percentage remaining or
+	    a number of minutes remaining. This indicates that the amount of
+	    charge remaining in your battery is critically low.
+	    charge. You can dismiss this warning dialog yourself, otherwise it
+	    will vanish automatically when you plug your laptop into mains
+	    power.
+	   </para>
+	   </listitem>
+	   <listitem>
+	    <para lang="en"><guilabel>
+	     Notify when the battery is fully recharged
+	    </guilabel></para>
+	    <para lang="en">
+	     Selecting this option notifies when your battery is fully
+	     recharged. If you have compiled the Battery Charge Monitor with libnotify
+	     support a non-intrusive notification will popup from the monitor on
+	     the panel.
+	    </para>
+	   </listitem>
+	  </itemizedlist>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+   </sect1>
+
+   <sect1 id="battstat-troubleshooting">
+    <title lang="en">Troubleshooting</title>
+    
+    <para lang="en">
+      Due to the complexities of power management and the vast differences
+      between each of the different power management systems available,
+      debugging errors in the battery monitor can be difficult. You will need to
+      determine if the error exists in the battery monitor or is a bug in the
+      information provided by your machine.
+    </para>
+    <para lang="en">
+     The following information may be useful for troubleshooting what is wrong
+     with your battery monitor. It is by no means exhaustive. If you find a bug
+     with the Battery Charge Monitor (that is not caused by bad information being reported
+     by ACPI), please <ulink url="http://bugzilla.gnome.org/">report it</ulink>.
+    </para>
+
+    <sect2 id="battstat-troubleshooting-backends">
+     <title lang="en">Determining the backend</title>
+     <para lang="en">
+       If you are using the upower interface, or the Hardware
+       Abstraction Layer (see <xref linkend="battstat-power-backends"/>) then
+       that will be indicated in the about dialog by placing a star next to the
+       author of the HAL backend.
+    <figure id="battstat-credits-hal"> 
+      <title lang="en">Check you're using the HAL backend</title> 
+      <screenshot> 
+        <mediaobject lang="en"> 
+          <imageobject><imagedata fileref="figures/battstat-credits-hal.png" format="PNG"/> 
+          </imageobject>
+          <textobject> 
+            <phrase>Expanded View</phrase>
+          </textobject> 
+        </mediaobject> 
+      </screenshot> 
+    </figure>
+     </para>
+
+     <para lang="en">
+      Other backends do not currently give indication they are being used, so
+      you will have to guess based on your hardware. Most modern PC laptops are
+      using ACPI as the backend. This is also the backend with the largest
+      number of inconsistencies.
+     </para>
+    </sect2>
+
+    <sect2 id="battstat-troubleshooting-acpi">
+      <title lang="en">Checking the ACPI information</title>
+      <para lang="en">
+        If you are using the ACPI backend for the Battery Charge Monitor, it is important to
+	check that ACPI is giving you the right information. If it isn't, then
+	you will need to look into upgrading your DSDT or something else related
+	to ACPI.
+      </para>
+      <example><title lang="en">Example ACPI output</title>
+       <screen lang="en">
+[rupert@laptop ~]$ cat /proc/acpi/battery/BAT1/info
+present:                 yes
+design capacity:         41040 mWh
+last full capacity:      37044 mWh
+battery technology:      rechargeable
+design voltage:          10800 mV
+design capacity warning: 745 mWh
+design capacity low:     0 mWh
+capacity granularity 1:  10 mWh
+capacity granularity 2:  10 mWh
+model number:            G71C00056110
+serial number:           0000000008
+battery type:            Li-ION
+OEM info:
+[rupert@laptop ~]$ cat /proc/acpi/battery/BAT1/state
+present:                 yes
+capacity state:          ok
+charging state:          discharging
+present rate:            11232 mW
+remaining capacity:      27140 mWh
+present voltage:         11400 mV
+[rupert@laptop ~]$</screen>
+      </example>
+      <para lang="en">
+       You can quickly calculate the percentage remaining using <guilabel>remaining
+       capacity</guilabel> divided by <guilabel>last full capacity</guilabel>, you can
+       calculate the time remaining by taking <guilabel>remaining capacity</guilabel>
+       divided by <guilabel>present rate</guilabel>.
+      </para>
+    </sect2>
+
+    <sect2 id="battstat-troubleshooting-nohal">
+      <title lang="en">Hardware Abstraction Layer</title>
+      <para lang="en">
+        You can check that your battery is detected by HAL using the command
+	<command>hal-device-manager</command>. If your battery is not detected
+	by HAL or the wrong information is being reported, you can attempt to
+	disable the HAL backend by setting a GConf key.
+      </para>
+      <para lang="en">
+       Select <guimenuitem>Configuration Editor</guimenuitem> from the
+       <guimenu>Applications</guimenu> menu, under
+       <guisubmenu>System Tools</guisubmenu>. Search for the key value
+       <prompt>OAFIID:GNOME_BattstatApplet</prompt> which should be located in
+       the path <filename>/apps/panel/applets</filename>.
+      </para>
+      <para lang="en">
+       Assuming the path is <filename>/apps/panel/applets/applet_1</filename>.
+       In <filename>/apps/panel/applets/applet_1/prefs</filename> add a
+       <guimenuitem>New Key...</guimenuitem> called <guilabel>no_hal</guilabel>
+       and set it to the boolean value of true. This will disable the usage of
+       HAL (see <xref linkend="battstat-troubleshooting-backends"/> to learn how
+       to check this).
+      </para>
+    </sect2>
+    
+   </sect1>
+
+</article>

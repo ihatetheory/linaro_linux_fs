@@ -1,0 +1,8 @@
+19b8fb5ee2722ca55ca965b084fd65b3  usr/bin/mutter
+34b1e5c7d3b29455ce443f11bbc0df94  usr/lib/mutter/mutter-restart-helper
+45f4b635b778d61df852cb70f518fce3  usr/lib/mutter/plugins/default.so
+4c5b7c8a597e006402b53776c9675fc0  usr/share/applications/mutter-wayland.desktop
+1786878f9355098296f3f37b6fa5260a  usr/share/applications/mutter.desktop
+2b429d5a02c13e817aec8f6840ff2621  usr/share/doc/mutter/README.Debian
+49b47739ec25ba1bf2c7b52182ffc72d  usr/share/doc/mutter/copyright
+dd21dde7fdeb8bc6387fbba80805e957  usr/share/doc/mutter/theme-format.txt.gz

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -*- indent-tabs-mode: nil -*- -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.9.7">
+<!ENTITY manrevision "2.10">
+<!ENTITY date "March 2005">
+<!ENTITY applet "Character Palette">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Feb 12, 2002 
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="it">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<articleinfo> 
+  <title>Manuale di Tavolozza caratteri</title>
+  <abstract role="description">
+    <para>Tavolozza caratteri consente un comodo accesso a tutti quei caratteri non presenti sulla tastiera, come ad esempio le lettere accentate, i simboli matematici, i simboli speciali e i segni di punteggiatura.</para>
+  </abstract>
+  <copyright lang="en">
+    <year>2005</year>
+    <holder>Davyd Madeley</holder>
+  </copyright>
+  <copyright lang="en">
+    <year>2004</year>
+    <holder>Angela Boyle</holder>
+  </copyright>
+  <copyright lang="en"> 
+    <year>2002</year>
+    <year>2003</year>
+    <year>2004</year>
+  <holder>Sun Microsystems</holder> </copyright>
+  <copyright lang="en"> 
+    <year>2000</year>
+    <holder>Dan Mueth</holder>
+  </copyright>
+  <publisher role="maintainer">
+    <publishername>Progetto di documentazione GNOME</publishername>
+  </publisher>
+
+     <legalnotice id="legalnotice">
+         <para>Questo documento può essere copiato, distribuito o modificato solo in conformità con i termini della GNU Free Documentation License (GFDL) Versione 1.1 o delle versioni successive pubblicate dalla Free Software Foundation senza sezioni invariabili, frontespizi e testi di copertina. Una copia della GFDL è disponibile su questo <ulink type="help" url="help:fdl">collegamento</ulink> o nel file COPYING-DOCS distribuito con questo manuale.</para>
+          <para>Questo manuale fa parte di una raccolta di manuali GNOME distribuita in conformità con la GFDL. Per poter distribuire questo manuale separatamente, è necessario inserirvi una copia della licenza, come descritto nella sezione 6 della licenza.</para>
+ 
+         <para>Molti dei nomi usati dalle aziende per distinguere i propri prodotti e servizi sono rivendicati come marchi. Quando questi nomi compaiono nella documentazione di GNOME, e i partecipanti al GNOME Documentation Project sono consapevoli del loro utilizzo, essi vengono scritti in lettere maiuscole o con l'iniziale maiuscola.</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+   <authorgroup>
+     <author lang="en">
+       <firstname>Sun</firstname>
+       <surname>GNOME Documentation Team</surname>
+       <affiliation>
+	 <orgname>Sun Microsystems</orgname>
+       </affiliation>
+     </author>
+     <author lang="en">
+       <firstname>Dan</firstname>
+       <surname>Mueth</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>d-mueth@uchicago.edu</email>
+     </author>
+     <author lang="en">
+       <firstname>Angela</firstname>
+       <surname>Boyle</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+     </author>
+     <editor lang="en">
+       <firstname>Shaun</firstname>
+       <surname>McCance</surname>
+       <affiliation>
+	 <orgname>GNOME Documentation Project</orgname>
+       </affiliation>
+       <email>shaunm@gnome.org</email>
+     </editor>
+     <editor lang="en">
+       <firstname>Davyd</firstname>
+       <surname>Madeley</surname>
+       <affiliation>
+         <orgname>GNOME Project</orgname>
+       </affiliation>
+       <email>davyd@madeley.id.au</email>
+     </editor>
+   </authorgroup>
+   
+   <releaseinfo revision="2.26" role="review"/>
+
+   <revhistory>
+     <revision lang="en">
+       <revnumber>Version 2.10</revnumber>
+       <date>March 2005</date>
+       <revdescription>
+         <para role="author" lang="en">Davyd Madeley</para>
+       </revdescription>
+     </revision>
+     <revision lang="en">
+       <revnumber>Version 2.8</revnumber>
+       <date>Unknown</date>
+       <revdescription>
+	 <para role="author" lang="en">Angela Boyle</para>
+	 <para role="publisher" lang="en">GNOME Documentation Project</para>
+       </revdescription>
+     </revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.6</revnumber>
+		  <date>August 2004</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.4</revnumber>
+		  <date>August 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.3</revnumber>
+		  <date>October 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.2</revnumber>
+		  <date>August 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.1</revnumber>
+		  <date>July 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Palette Applet Manual V2.0</revnumber>
+		  <date>March 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun Microsystems	</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Character Picker Applet</revnumber>
+		  <date>2000</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Dan Mueth <email>d-mueth@uchicago.edu</email>
+				</para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+	 </revhistory>
+	 <releaseinfo>Questo manuale descrive la versione 2.9.7 della Tavolozza caratteri.</releaseinfo>
+	 <legalnotice> 
+		<title>Commenti</title>
+		<para>Per segnalare un problema o inviare suggerimenti sull'applicazione Tavolozza caratteri o su questo manuale, seguire le istruzioni presenti alla <ulink url="ghelp:gnome-feedback" type="help">pagina di commenti su GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+	 </legalnotice>
+  </articleinfo>
+  <indexterm lang="en"> <primary>Character Palette</primary> </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="charpick-introduction"> 
+	 <title>Introduzione</title> 
+       <!-- ==== Figure ============================================= -->
+	 <figure id="applet-fig"> 
+		<title>Tavolozza caratteri</title>
+		<screenshot> 
+		  <mediaobject lang="en"> 
+			 <imageobject><imagedata fileref="figures/charpalette_applet.png" format="PNG"/> </imageobject>
+			 <textobject> <phrase>Character Palette</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+       <!-- ==== End of Figure ======================================= -->
+       <para>L'applet <application>Tavolozza caratteri</application> consente un comodo accesso a tutti quei caratteri non standard, come ad esempio le lettere accentate, i simboli matematici, i simboli speciali e i segni di punteggiatura. È possibile inserire i caratteri presentati dall'applet in stringhe di testo, ad esempio in un documento o sulla riga di comando. È possibile personalizzare il contenuto dell'applet per adattarla alle proprie esigenze.</para>
+       <para>L'applet <application>Tavolozza caratteri</application> supporta la codifica di caratteri UTF-8, perciò può essere utilizzata per visualizzare o per copiare qualunque carattere Unicode.</para>
+
+       <sect2 id="charpick-introduction-add">       
+         <title>Aggiungere Tavolozza caratteri ad un pannello</title>
+	 <para>Per aggiungere <application>Tavolozza caratteri</application> ad un pannello, fare clic col tasto destro sul pannello, quindi scegliere <guimenuitem>Aggiungi al pannello</guimenuitem>. Selezionare <application>Tavolozza caratteri</application> nel dialogo <application>Aggiungi al pannello</application>, quindi fare clic su <guibutton>Aggiungi</guibutton>.</para>
+       </sect2> 
+  </sect1>
+<!-- ================ Usage ================================ -->
+  <sect1 id="charpick-usage"> 
+	 <title>Utilizzo dei caratteri</title>
+	 <para>Quando si aggiunge per la prima volta <application>Tavolozza caratteri</application> ad un pannello, l'applicazione mostra una tavolozza di caratteri predefinita. È possibile scegliere un carattere dalla tavolozza predefinita o scegliere un carattere dalle tavolozze di caratteri già predisposte. Ognuna di queste tavolozza è associate a un carattere standard presente sulla tastiera.</para>
+	 <!-- ================ Usage Subsection ================================ -->
+	 <sect2 id="charpick-charselect"> 
+		<title>Selezionare un carattere</title>
+		<para>Per selezionare un carattere dalla tavolozza ed inserirlo in una stringa di testo, procedere come segue:</para>
+		  <orderedlist> 
+		    <listitem><para>Fare clic sul carattere desiderato nella tavolozza. Il pulsante che corrisponde al carattere appare premuto per indicare che il carattere è stato selezionato.</para></listitem>
+                    <listitem>
+                      <para>Spostare il puntatore nel punto in cui inserire il carattere e fare clic con il pulsante centrale del mouse per inserirlo. È anche possibile incollare il carattere nell'applicazione se questa consente di incollare dagli appunti.</para>
+                      <para>È possibile ripetere l'inserimento usando il clic col tasto centrarle quante volte si desidera, finché non si deseleziona il carattere o si seleziona del testo in un'altra applicazione. Allo stesso modo è possibile continuare ad incollare il carattere dagli appunti finché non si deseleziona in carattere o si copia negli appunti da un'altra applicazione.</para>
+                    </listitem>
+                </orderedlist>
+                <para>Per deselezionare il carattere, fare nuovamente clic su di esso o fare clic su un altro carattere.</para>
+                <note><para>In alcune applicazioni potrebbe non essere consentito di incollare certi caratteri.</para></note>
+	 </sect2> 
+	 <sect2 id="charpick-display-chargroup"> 
+		<title>Mostrare una tavolozza di caratteri predisposta</title>
+		<para>È possibile cambiare i caratteri mostrati nell'applicazione, passando dalla tavolozza predefinita ad una di quelle predisposte. Per mostrare una tavolozza di caratteri predisposti, procedere come segue:</para>
+		  <orderedlist> 
+			 <listitem> 
+				<para>Fare clic sul pulsante <guibutton>Tavolozze disponibili</guibutton>, ossia la freccia verso il basso posta sulla destra.</para>
+			 </listitem>
+			 <listitem> 
+				<para>Fare clic sulla tavolozza che si vuole mostrare.</para>
+			 </listitem>
+		  </orderedlist>
+		<para>È possibile selezionare il carattere necessario dalla tavolozza di caratteri mostrata nell'applicazione, quindi inserire il carattere nella stringa di testo voluta.</para>
+	</sect2>
+	<sect2 id="charpick-charkeys">
+		<title>Tasti dei caratteri</title>
+		<para>Il seguente grafico elenca i caratteri su tastiera e i gruppi di caratteri loro associati. I caratteri su tastiera sono elencati nella prima colonna di ciascuna sezione del grafico. I gruppi di caratteri associati con ciascun carattere su tastiera sono mostrati nelle altre colonne.</para>
+		<figure id="charpick-characters"> 
+		  <title>Gruppi di caratteri associati con tasti della tastiera</title>
+		  <screenshot> 
+			 <mediaobject lang="en"> 
+				<imageobject> 
+				  <imagedata fileref="figures/charpick_characters.png" format="PNG"/> </imageobject>
+				<textobject> <phrase>Shows character groups associated
+				with various keyboard keys. </phrase> </textobject> </mediaobject>
+		  </screenshot>
+		</figure> 
+
+	 </sect2> 
+    
+
+
+  </sect1>
+<!-- ============= Preferences ============================= -->
+  <sect1 id="charpick-prefs"> 
+	 <title>Personalizzazione di Tavolozza caratteri</title>
+	<figure id="fig-prefs"> 
+	  <title>Preferenze di Tavolozza caratteri</title>
+	  <screenshot> 
+	  <mediaobject lang="en"> 
+	   <imageobject><imagedata fileref="figures/charpick-preferences.png" format="PNG"/> </imageobject>
+	<textobject> <phrase>Character Palette Preferences</phrase> </textobject> </mediaobject>
+		</screenshot>
+	 </figure> 
+	<sect2 id="charpicks-prefs-prefs">
+		<title>Configurazione delle tavolozze</title>
+	 	<para>Per configurare <application>Tavolozza caratteri</application>, fare clic col tasto destro sull'applet, quindi scegliere <guimenuitem>Preferenze</guimenuitem>. Il dialogo <guilabel>Preferenze di Tavolozza caratteri</guilabel> contiene la casella ad elenco <guilabel>Tavolozze</guilabel>, che elenca le tavolozze disponibili. Per chiudere il dialogo <guilabel>Preferenze di Tavolozza caratteri</guilabel>, fare clic su <guibutton>Chiudi</guibutton>.</para>
+		<itemizedlist>
+			<listitem><para>Per aggiungere una nuova tavolozza all'applet, fare clic sul pulsante <guibutton>Aggiungi</guibutton>. Per maggiori informazioni, consultare <xref linkend="charpick-default-new"/>.</para></listitem>
+			<listitem><para>Per eliminare una tavolozza dall'applet, selezionare la tavolozza, quindi fare clic sul pulsante <guibutton>Elimina</guibutton>.</para></listitem>
+			<listitem><para>Per modificare una tavolozza, selezionare la tavolozza desiderata, quindi fare clic sul pulsante <guibutton>Modifica</guibutton>. Dopo aver modificato la tavolozza nel dialogo <guilabel>Modifica tavolozza</guilabel>, fare clic su <guibutton>OK</guibutton>.</para></listitem>
+		</itemizedlist>
+	</sect2>
+	 <sect2 id="charpick-default-new"> 
+		<title>Impostazione di una nuova tavolozza di caratteri</title>
+		<para>Per configurare un nuovo insieme di caratteri è possibile usare un'applicazione di selezione dei caratteri, come <application>Tabella caratteri</application>. Ad esempio, per creare un nuovo insieme con <application>Tabella caratteri</application>, procedere come segue:</para>
+		<orderedlist> 
+		  <listitem> 
+			 <para lang="en">Right-click on the applet, then choose <guimenuitem>Preferences</guimenuitem>. The <guilabel>Character Palette Preferences</guilabel> dialog is displayed.</para>
+		  </listitem>
+		  <listitem> 
+			 <para lang="en">Click on the <guibutton>Add</guibutton> button and the <guilabel>Add Palette</guilabel> dialog is displayed.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Aprire <application>Tabella caratteri</application>, quindi selezionare i caratteri da visualizzare nella nuova tavolozza. È possibile selezionare fino a 25 caratteri.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Copiare il contenuto della casella di testo <guilabel>Testo da copiare</guilabel> dalla <application>Tabella caratteri</application> alla casella di testo <guilabel>Tavolozza</guilabel> nella finestra <guilabel>Aggiungi tavolozza</guilabel>.</para>
+		  </listitem>
+		  <listitem> 
+			 <para>Fare clic su <guibutton>OK</guibutton>.</para>
+		  </listitem>
+		</orderedlist>
+		<para>La nuova tavolozza di caratteri viene aggiunta alla lista delle tavolozze disponibili per <application>Tavolozza caratteri</application>.</para>
+	 </sect2>
+  </sect1>
+</article>

@@ -1,0 +1,9 @@
+5dc6785c93b6be9c9728b7b3b522d9ef  bin/running-in-container
+90b446b61cc729d6467ddc0fd6b9684e  lib/init/apparmor-profile-load
+193deb1d7d28cb479dbed7bce3304ec8  usr/bin/deb-systemd-helper
+ca045d1154266747adbbec9d8bc5d05e  usr/bin/deb-systemd-invoke
+a2039cc00700f4fe41651119f9d922b5  usr/share/doc/init-system-helpers/changelog.gz
+550ef2327a7be2e71f13444ee6e56ab0  usr/share/doc/init-system-helpers/copyright
+84080577f78ec76ac54179517c8b4cf6  usr/share/lintian/overrides/init-system-helpers
+2e26192daf5640e9c4cda144435ee8de  usr/share/man/man1/deb-systemd-helper.1p.gz
+c0f69350126f828814e4d9547ce20d63  usr/share/man/man1/deb-systemd-invoke.1p.gz

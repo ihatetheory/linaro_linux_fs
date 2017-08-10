@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Επιλέξτε τη γραμματοσειρά για εκτύπωση ορισμών.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Γραμματοσειρά εκτύπωσης</title>
+
+  <p>Μπορείτε να αλλάξετε την προεπιλεγμένη γραμματοσειρά και το μέγεθος που χρησιμοποιούνται για εκτύπωση των ορισμών.</p>
+
+  <steps>
+    <title>Αλλαγή της γραμματοσειράς</title>
+    <item>
+      <p>Επιλέξτε <guiseq><gui style="menu">Λεξικό</gui> <gui style="menuitem">Προτιμήσεις</gui> <gui style="tab">Εκτύπωση</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο κουμπί επιλογέα γραμματοσειράς.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε τη γραμματοσειρά που θέλετε να χρησιμοποιηθεί.</p>
+    </item>
+    <item>
+      <p>Μεταφέρτε τον ολισθητή στα δεξιά για αύξηση του μεγέθους της γραμματοσειράς ή στα αριστερά για μείωσή της. Εναλλακτικά, μπορείτε να πληκτρολογήσετε το μέγεθος της γραμματοσειράς στο πλαίσιο κειμένου, ή να χρησιμοποιήσετε τα κουμπιά <gui>-</gui> και <gui>+</gui> για μείωση και αύξηση του μεγέθους της γραμματοσειράς.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui style="button">Επιλογή</gui> για αποθήκευση των ρυθμίσεων της γραμματοσειράς σας.</p>
+    </item>
+  </steps>
+
+  <p>Ο ορισμός δεν επιστρέφεται για εκτύπωση, έτσι εάν διαλέξετε μια γραμματοσειρά μεγάλου μεγέθους, μπορεί να αποκοπεί μέρος του κειμένου.</p>
+
+</page>

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+dpkg-divert --package linaro-overlay-minimal --add --rename \
+     --divert /lib/systemd/system/serial-getty@.service.orig /lib/systemd/system/serial-getty@.service
+

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/ntdb.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-ntdb
+/usr/share/doc/python-ntdb/copyright
+/usr/share/doc/python-ntdb/changelog.Debian.gz

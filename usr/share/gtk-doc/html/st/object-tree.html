@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Object Hierarchy: St Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="St Reference Manual">
+<link rel="up" href="index.html" title="St Reference Manual">
+<link rel="prev" href="StTextureCache.html" title="StTextureCache">
+<link rel="next" href="api-index-full.html" title="API Index">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><img src="up-insensitive.png" width="16" height="16" border="0"></td>
+<td><a accesskey="p" href="StTextureCache.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="api-index-full.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="chapter">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="object-tree"></a>Object Hierarchy</h1></div></div></div>
+<pre class="screen">
+    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">├──</span> StAdjustment
+    <span class="lineart">├──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+    <span class="lineart">│</span>   <span class="lineart">├──</span> ClutterActor
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StWidget.html" title="StWidget">StWidget</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StBin.html" title="StBin">StBin</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StButton.html" title="StButton">StButton</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="StScrollView.html" title="StScrollView">StScrollView</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StBoxLayout.html" title="StBoxLayout">StBoxLayout</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StDrawingArea.html" title="StDrawingArea">StDrawingArea</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StEntry.html" title="StEntry">StEntry</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StIcon.html" title="StIcon">StIcon</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> <a class="link" href="StLabel.html" title="StLabel">StLabel</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">├──</span> StScrollBar
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> <a class="link" href="StTable.html" title="StTable">StTable</a>
+    <span class="lineart">│</span>   <span class="lineart">│</span>   <span class="lineart">╰──</span> ClutterText
+    <span class="lineart">│</span>   <span class="lineart">│</span>       <span class="lineart">╰──</span> StIMText
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> ClutterActorMeta
+    <span class="lineart">│</span>       <span class="lineart">╰──</span> ClutterEffect
+    <span class="lineart">│</span>           <span class="lineart">╰──</span> ClutterOffscreenEffect
+    <span class="lineart">│</span>               <span class="lineart">╰──</span> ClutterShaderEffect
+    <span class="lineart">│</span>                   <span class="lineart">╰──</span> StScrollViewFade
+    <span class="lineart">├──</span> StBorderImage
+    <span class="lineart">├──</span> ClutterChildMeta
+    <span class="lineart">│</span>   <span class="lineart">├──</span> StBoxLayoutChild
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> StTableChild
+    <span class="lineart">├──</span> StClipboard
+    <span class="lineart">├──</span> StFocusManager
+    <span class="lineart">├──</span> AtkObject
+    <span class="lineart">│</span>   <span class="lineart">╰──</span> AtkGObjectAccessible
+    <span class="lineart">│</span>       <span class="lineart">╰──</span> CallyActor
+    <span class="lineart">│</span>           <span class="lineart">╰──</span> <a class="link" href="StWidgetAccessible.html" title="StWidgetAccessible">StWidgetAccessible</a>
+    <span class="lineart">│</span>               <span class="lineart">╰──</span> StGenericAccessible
+    <span class="lineart">├──</span> <a class="link" href="StTextureCache.html" title="StTextureCache">StTextureCache</a>
+    <span class="lineart">├──</span> <a class="link" href="st-st-theme-node.html#StThemeContext">StThemeContext</a>
+    <span class="lineart">├──</span> <a class="link" href="st-st-theme-node.html#StTheme">StTheme</a>
+    <span class="lineart">├──</span> <a class="link" href="st-st-theme-node.html#StThemeNode">StThemeNode</a>
+    <span class="lineart">╰──</span> <a class="link" href="StThemeNodeTransition.html" title="StThemeNodeTransition">StThemeNodeTransition</a>
+    GInterface
+    <span class="lineart">╰──</span> <a class="link" href="StScrollable.html" title="StScrollable">StScrollable</a>
+    GBoxed
+    <span class="lineart">├──</span> StIconColors
+    <span class="lineart">├──</span> StShadow
+    <span class="lineart">╰──</span> StShadowHelper
+</pre>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

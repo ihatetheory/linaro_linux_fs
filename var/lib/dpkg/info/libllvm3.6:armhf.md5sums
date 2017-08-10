@@ -1,0 +1,5 @@
+7a856ff373d9dc8929972359b254a9f3  usr/lib/arm-linux-gnueabihf/libLLVM-3.6.so.1
+cd9af74cb702da339bc962e28fbcfabc  usr/share/doc/libllvm3.6/NEWS.Debian.gz
+94c545774e881680ed29fcebf0435b3f  usr/share/doc/libllvm3.6/changelog.Debian.gz
+57558fc3f6acd2fe800cc173328779bd  usr/share/doc/libllvm3.6/copyright
+793315d9d5fd3cb0dc45924c84d8b3ca  usr/share/lintian/overrides/libllvm3.6

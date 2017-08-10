@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.panel.applet.BattstatAppletFactory
+Exec=/usr/lib/gnome-applets/battstat-applet-2

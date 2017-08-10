@@ -1,0 +1,18 @@
+
+<!-- Generated data (by glib-mkenums) -->
+
+<schemalist>
+  <enum id='org.gnome.gnome-applets.cpufreq.CPUFreqShowMode'>
+    <value nick='graphic' value='0'/>
+    <value nick='text' value='1'/>
+    <value nick='both' value='2'/>
+  </enum>
+  <enum id='org.gnome.gnome-applets.cpufreq.CPUFreqShowTextMode'>
+    <value nick='frequency' value='0'/>
+    <value nick='frequency-unit' value='1'/>
+    <value nick='percentage' value='2'/>
+  </enum>
+</schemalist>
+
+<!-- Generated data ends here -->
+

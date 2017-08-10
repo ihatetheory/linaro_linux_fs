@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-default" xml:lang="gl">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Estabelecer unha orixe de dicionario por omisión</title>
+
+  <p>Cando inicia pro primeira vez <app>Dicionario</app> debería ter algúns dicionarios preinstalados que pode usar. Pode cambiar a <link xref="sources">orixe de dicionario</link> por omisión a un dos que prefira no lugar.</p>
+
+  <steps>
+    <title>Cambie ao orixe de dicionario por omisión:</title>
+    <item>
+      <p>Seleccione <guiseq><gui><app>Dicionario</app></gui> <gui style="menu">Preferencias</gui> <gui style="tab">Orixe</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccione a orixe de dicionario que quere estabelecer como predeterminado.</p>
+    </item>
+    <item>
+      <p>O seu cambio gardarase automaticamente.</p>
+    </item>
+  </steps>
+
+</page>

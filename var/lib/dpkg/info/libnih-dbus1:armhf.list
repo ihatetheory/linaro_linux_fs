@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/lib
+/lib/arm-linux-gnueabihf
+/lib/arm-linux-gnueabihf/libnih-dbus.so.1.0.0
+/usr/share/doc/libnih-dbus1
+/lib/arm-linux-gnueabihf/libnih-dbus.so.1

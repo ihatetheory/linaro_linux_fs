@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -ex
+
+if [ -d $HOME/.signon ]; then
+    mkdir -p $HOME/.config/signond || true
+    mv $HOME/.signon/* $HOME/.config/signond/ || true
+    rmdir $HOME/.signon || true
+fi

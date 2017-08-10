@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-list domain="system">
+
+  <error type="info" id="simple-info">
+    <secondary>{0}</secondary>
+  </error>
+
+  <error type="warning" id="simple-warning">
+    <secondary>{0}</secondary>
+  </error>
+
+  <error type="error" id="simple-error">
+    <secondary>{0}</secondary>
+  </error>
+
+  <error type="error" id="ask-save-file-exists-overwrite" default="GTK_RESPONSE_CANCEL">
+    <primary>A file named "{0}" already exists. Do you want to replace it?</primary>
+    <secondary>The file already exists in "{0}". Replacing it will overwrite its contents.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_OK" label="_Replace"></button>
+  </error>
+
+  <error type="error" id="no-save-file">
+    <primary>Cannot save file "{0}".</primary>
+    <secondary>Because "{1}".</secondary>
+  </error>
+
+  <error type="error" id="no-load-file">
+    <primary>Cannot open file "{0}".</primary>
+    <secondary>Because "{1}".</secondary>
+  </error>
+
+  <error type="error" id="remove-source-fail">
+    <primary>Failed to remove data source &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{1}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="write-source-fail">
+    <primary>Failed to update data source &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{1}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="delete-resource-fail">
+    <primary>Failed to delete resource &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{1}&quot;.</secondary>
+  </error>
+
+ <error type="error" id="address-book-backend-died">
+  <primary>The address book backend servicing &quot;{0}&quot; has quit unexpectedly.</primary>
+  <secondary>Some of your contacts may not be available until Evolution is restarted.</secondary>
+ </error>
+
+ <error type="error" id="calendar-backend-died">
+  <primary>The calendar backend servicing &quot;{0}&quot; has quit unexpectedly.</primary>
+  <secondary>Some of your appointments may not be available until Evolution is restarted.</secondary>
+ </error>
+
+ <error type="error" id="memo-list-backend-died">
+  <primary>The memo list backend servicing &quot;{0}&quot; has quit unexpectedly.</primary>
+  <secondary>Some of your memos may not be available until Evolution is restarted.</secondary>
+ </error>
+
+ <error type="error" id="task-list-backend-died">
+  <primary>The task list backend servicing &quot;{0}&quot; has quit unexpectedly.</primary>
+  <secondary>Some of your tasks may not be available until Evolution is restarted.</secondary>
+ </error>
+
+ <error type="warning" id="address-book-backend-error">
+  <primary>The address book backend servicing &quot;{0}&quot; encountered an error.</primary>
+  <secondary>The reported error was &quot;{1}&quot;.</secondary>
+ </error>
+
+ <error type="warning" id="calendar-backend-error">
+  <primary>The calendar backend servicing &quot;{0}&quot; encountered an error.</primary>
+  <secondary>The reported error was &quot;{1}&quot;.</secondary>
+ </error>
+
+ <error type="warning" id="memo-list-backend-error">
+  <primary>The memo list backend servicing &quot;{0}&quot; encountered an error.</primary>
+  <secondary>The reported error was &quot;{1}&quot;.</secondary>
+ </error>
+
+ <error type="warning" id="task-list-backend-error">
+  <primary>The task list backend servicing &quot;{0}&quot; encountered an error.</primary>
+  <secondary>The reported error was &quot;{1}&quot;.</secondary>
+ </error>
+
+</error-list>

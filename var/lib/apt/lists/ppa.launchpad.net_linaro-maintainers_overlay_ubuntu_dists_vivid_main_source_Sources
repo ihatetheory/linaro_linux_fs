@@ -1,0 +1,769 @@
+Package: gator
+Binary: gator, gator-daemon, arm-ds5-target, gator-module-dkms
+Version: 5.21.1-20150511144936
+Section: devel
+Maintainer: Pawel Moll <pawel.moll@arm.com>
+Build-Depends: debhelper (>= 7.0.5), vim-common
+Architecture: armhf
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/main/g/gator
+Files:
+ d0fda41b062ca92452bb1ac870e30604 1137117 gator_5.21.1-20150511144936.tar.gz
+ a6996f887f37d7fce49ed413d9e5090e 1303 gator_5.21.1-20150511144936.dsc
+Checksums-Sha1:
+ dc43a4b26c39bda1997845dff1cae8df685580d7 1137117 gator_5.21.1-20150511144936.tar.gz
+ facecf1c59732c74e88fc156bf0992a2f19fea63 1303 gator_5.21.1-20150511144936.dsc
+Checksums-Sha256:
+ 80d1ee3d4a21dca2e7f2bfe0e1fcbc87eee3e355501e61ec61149fc67b890376 1137117 gator_5.21.1-20150511144936.tar.gz
+ cb1a448e9f9ec4f644325bf509f44d93f04283b22fa534e28b7bda5a9ac8bffb 1303 gator_5.21.1-20150511144936.dsc
+Homepage: http://www.arm.com/ds-5
+Package-List: arm-ds5-target deb devel extra arch=armhf
+ gator deb devel extra arch=armhf
+ gator-daemon deb devel extra arch=armhf
+ gator-module-dkms deb kernel extra arch=armhf
+
+Package: linux-meta-linaro-lt-vexpress
+Binary: linux-headers-linaro-lt-vexpress, linux-image-linaro-lt-vexpress, linux-tools-linaro-lt-vexpress
+Version: 4.3.0.1.1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Architecture: armhf
+Standards-Version: 3.6.1
+Format: 1.0
+Directory: pool/main/l/linux-meta-linaro-lt-vexpress
+Files:
+ 199ab6306603b1f422ab0db0900f13ce 3769 linux-meta-linaro-lt-vexpress_4.3.0.1.1.tar.gz
+ 05e0cfded6725c6ee034e228e3175444 1278 linux-meta-linaro-lt-vexpress_4.3.0.1.1.dsc
+Checksums-Sha1:
+ b7ca96fb4d8b74b92b7a13993962c030106a688d 3769 linux-meta-linaro-lt-vexpress_4.3.0.1.1.tar.gz
+ 49574fa98e120ce70c86a9bbaaeae0a0218bdf49 1278 linux-meta-linaro-lt-vexpress_4.3.0.1.1.dsc
+Checksums-Sha256:
+ 24ddae49b418a89906b606c85266338365929fecd9f3921cec0b33536ac1bd53 3769 linux-meta-linaro-lt-vexpress_4.3.0.1.1.tar.gz
+ e20a7bc26e7e893b1e2e3d59ba21cc4786cea90edbc2b6ef0bf7a123dd4a544b 1278 linux-meta-linaro-lt-vexpress_4.3.0.1.1.dsc
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Package-List: linux-headers-linaro-lt-vexpress deb devel optional
+ linux-image-linaro-lt-vexpress deb metapackages optional
+ linux-tools-linaro-lt-vexpress deb metapackages optional
+
+Package: linux-meta-linaro-vexpress
+Binary: linux-headers-linaro-vexpress, linux-image-linaro-vexpress, linux-tools-linaro-vexpress
+Version: 4.3.0.1.1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Architecture: armhf
+Standards-Version: 3.6.1
+Format: 1.0
+Directory: pool/main/l/linux-meta-linaro-vexpress
+Files:
+ f8d9aa6e3ddd758cbb49a5141a89bd3f 3728 linux-meta-linaro-vexpress_4.3.0.1.1.tar.gz
+ a6710bfe7e9533086d5426657939f998 1248 linux-meta-linaro-vexpress_4.3.0.1.1.dsc
+Checksums-Sha1:
+ d26d4ef494ee0ddd0db4e9b094f0eb401a819607 3728 linux-meta-linaro-vexpress_4.3.0.1.1.tar.gz
+ d1cf9b8e3d4ea57a93fe35b2f3b029cb2d458703 1248 linux-meta-linaro-vexpress_4.3.0.1.1.dsc
+Checksums-Sha256:
+ ada0b144157c039da46210c0ea17d1b2cd43b111424b335fa65b4e02e458f5a8 3728 linux-meta-linaro-vexpress_4.3.0.1.1.tar.gz
+ 92f1308f0b4e0d5e15483f50f3f81dd3b0df4dc2d9f8f5713a847ac24c9575ca 1248 linux-meta-linaro-vexpress_4.3.0.1.1.dsc
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Package-List: linux-headers-linaro-vexpress deb devel optional
+ linux-image-linaro-vexpress deb metapackages optional
+ linux-tools-linaro-vexpress deb metapackages optional
+
+Package: linux-meta-linaro-arndale
+Binary: linux-headers-linaro-arndale, linux-image-linaro-arndale, linux-tools-linaro-arndale
+Version: 4.3.0.1.1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Architecture: armhf
+Standards-Version: 3.6.1
+Format: 1.0
+Directory: pool/main/l/linux-meta-linaro-arndale
+Files:
+ 0c7c4364c638434cf18273066246704d 3717 linux-meta-linaro-arndale_4.3.0.1.1.tar.gz
+ 956047d9d461729460e72e76e299b079 1238 linux-meta-linaro-arndale_4.3.0.1.1.dsc
+Checksums-Sha1:
+ 342e0281cf0a468f09df0a87c0334d640bfde891 3717 linux-meta-linaro-arndale_4.3.0.1.1.tar.gz
+ e4d6f6940d5d82c335125350b647aa3e97435b40 1238 linux-meta-linaro-arndale_4.3.0.1.1.dsc
+Checksums-Sha256:
+ 1f06203cd334c88bba7740894f87c3084845e1ab837043610f835ca45467117d 3717 linux-meta-linaro-arndale_4.3.0.1.1.tar.gz
+ 11812e1a8fdca70c7510050b7cf4e5fd27a84936dd78f86f7a3583942e1fa127 1238 linux-meta-linaro-arndale_4.3.0.1.1.dsc
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Package-List: linux-headers-linaro-arndale deb devel optional
+ linux-image-linaro-arndale deb metapackages optional
+ linux-tools-linaro-arndale deb metapackages optional
+
+Package: linux-meta-linaro-omap
+Binary: linux-headers-linaro-omap, linux-image-linaro-omap, linux-tools-linaro-omap
+Version: 4.3.0.1.1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Architecture: armhf
+Standards-Version: 3.6.1
+Format: 1.0
+Directory: pool/main/l/linux-meta-linaro-omap
+Files:
+ 713040012b27d7b952132500f061c21f 3713 linux-meta-linaro-omap_4.3.0.1.1.tar.gz
+ ac9b98fbd568f2de55540b049f675f11 1208 linux-meta-linaro-omap_4.3.0.1.1.dsc
+Checksums-Sha1:
+ b1a55241ca9f59fcb1ee824c7eb2dedcce84f405 3713 linux-meta-linaro-omap_4.3.0.1.1.tar.gz
+ 6e3b0834f9e3f09a76c75167bf22faa30374f56d 1208 linux-meta-linaro-omap_4.3.0.1.1.dsc
+Checksums-Sha256:
+ d55e4d4342f4c49c440063e97037028a6a3aa26afd505b796a73e2d3b122fc90 3713 linux-meta-linaro-omap_4.3.0.1.1.tar.gz
+ aa3393cc58a0298e9aad23fecdef1cabd175301adaf99460c62b406512cab47a 1208 linux-meta-linaro-omap_4.3.0.1.1.dsc
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Package-List: linux-headers-linaro-omap deb devel optional
+ linux-image-linaro-omap deb metapackages optional
+ linux-tools-linaro-omap deb metapackages optional
+
+Package: linux-meta-linaro-am335x
+Binary: linux-headers-linaro-am335x, linux-image-linaro-am335x, linux-tools-linaro-am335x
+Version: 4.3.0.1.1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Architecture: armhf
+Standards-Version: 3.6.1
+Format: 1.0
+Directory: pool/main/l/linux-meta-linaro-am335x
+Files:
+ 1dfcb5c64ad464865815eed20f453e5d 3740 linux-meta-linaro-am335x_4.3.0.1.1.tar.gz
+ b058cc9498c87a8ce94ec3b398b9cefe 1228 linux-meta-linaro-am335x_4.3.0.1.1.dsc
+Checksums-Sha1:
+ d7ba901ab893c24402a21476801e7f5aaff2ffda 3740 linux-meta-linaro-am335x_4.3.0.1.1.tar.gz
+ 85ab19e7f4909c9f8c4fd8b702f96cce13ed014c 1228 linux-meta-linaro-am335x_4.3.0.1.1.dsc
+Checksums-Sha256:
+ c6ed6f42de8cec8f50e46173508d293a96790e6f2e2553a6e67d4ea3f14426d4 3740 linux-meta-linaro-am335x_4.3.0.1.1.tar.gz
+ 4a76641260b764ac966e413a91763845f6e562585e1b32a7e7f91975d0734b6b 1228 linux-meta-linaro-am335x_4.3.0.1.1.dsc
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Package-List: linux-headers-linaro-am335x deb devel optional
+ linux-image-linaro-am335x deb metapackages optional
+ linux-tools-linaro-am335x deb metapackages optional
+
+Package: linux-meta-linaro-arndale-octa
+Binary: linux-headers-linaro-arndale-octa, linux-image-linaro-arndale-octa, linux-tools-linaro-arndale-octa
+Version: 4.3.0.1.1
+Section: devel
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Architecture: armhf
+Standards-Version: 3.6.1
+Format: 1.0
+Directory: pool/main/l/linux-meta-linaro-arndale-octa
+Files:
+ 920e67c3017968025c6f4fabaf6b699d 3743 linux-meta-linaro-arndale-octa_4.3.0.1.1.tar.gz
+ f8893af12ab57849f8f0a032739f4e48 1288 linux-meta-linaro-arndale-octa_4.3.0.1.1.dsc
+Checksums-Sha1:
+ 200e874d674e76a36834e6e2aac485aa18ac95e7 3743 linux-meta-linaro-arndale-octa_4.3.0.1.1.tar.gz
+ ffd08bfaea5b9a83e8e2fad49f2e7e75c7065aae 1288 linux-meta-linaro-arndale-octa_4.3.0.1.1.dsc
+Checksums-Sha256:
+ 6e4eb9cbd7bffbb435b7ffa665d533e6c91e17b92e150bfbeb374397e13c0e44 3743 linux-meta-linaro-arndale-octa_4.3.0.1.1.tar.gz
+ 25a644fe536801673fe3f8cea35cb4ddfbdc640b01ad7988bf670fdf1922b018 1288 linux-meta-linaro-arndale-octa_4.3.0.1.1.dsc
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Package-List: linux-headers-linaro-arndale-octa deb devel optional
+ linux-image-linaro-arndale-octa deb metapackages optional
+ linux-tools-linaro-arndale-octa deb metapackages optional
+
+Package: linux-linaro-lsk-vexpress-3.10.74
+Binary: linux-linaro-lsk-vexpress-3.10.74-headers-3.10.74.0-1, linux-linaro-tools-3.10.74.0-1-linaro-lsk-vexpress, linux-image-3.10.74.0-1-linaro-lsk-vexpress, linux-image-extra-3.10.74.0-1-linaro-lsk-vexpress, linux-headers-3.10.74.0-1-linaro-lsk-vexpress, linux-image-3.10.74.0-1-linaro-lsk-vexpress-dbgsym, kernel-image-3.10.74.0-1-linaro-lsk-vexpress-di
+Version: 3.10.74.0-1.1ubuntu1~ci+150521101438
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-lsk-vexpress-3.10.74
+Files:
+ 8675f2918646ec0c09bb3ef8847102fd 115071754 linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1~ci+150521101438.tar.gz
+ 7ec9ab37b276c3a762c025a4ee65ca82 2505 linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1~ci+150521101438.dsc
+Checksums-Sha1:
+ cfad7a37b0ed55b35ea01b49cbb96a76376fbf51 115071754 linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1~ci+150521101438.tar.gz
+ b2dc683f4b839f4de6808b2213b4fcba6404fdae 2505 linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1~ci+150521101438.dsc
+Checksums-Sha256:
+ 398043ad4a524d63795672c49f3fbb0d6d7316f325c293942b6e64f1e805ce26 115071754 linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1~ci+150521101438.tar.gz
+ 30e3d9c4c2610ba4f6c3f1dfc4c4b1e4c18c3e86709c259839b17265f47dc87f 2505 linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1~ci+150521101438.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-lsk-vexpress-3.10.74_3.10.74.0-1.1ubuntu1--ci+150424094218
+Package-List: kernel-image-3.10.74.0-1-linaro-lsk-vexpress-di udeb debian-installer extra arch=armhf
+ linux-headers-3.10.74.0-1-linaro-lsk-vexpress deb devel optional arch=armhf
+ linux-image-3.10.74.0-1-linaro-lsk-vexpress deb kernel optional arch=armhf
+ linux-image-3.10.74.0-1-linaro-lsk-vexpress-dbgsym deb devel optional arch=armhf
+ linux-image-extra-3.10.74.0-1-linaro-lsk-vexpress deb kernel optional arch=armhf
+ linux-linaro-lsk-vexpress-3.10.74-headers-3.10.74.0-1 deb devel optional arch=armhf
+ linux-linaro-tools-3.10.74.0-1-linaro-lsk-vexpress deb devel optional arch=armhf
+
+Package: linux-linaro-arndale-octa-4.1
+Binary: linux-linaro-arndale-octa-4.1-headers-4.1.0-1, linux-linaro-tools-4.1.0-1-linaro-arndale-octa, linux-image-4.1.0-1-linaro-arndale-octa, linux-image-extra-4.1.0-1-linaro-arndale-octa, linux-headers-4.1.0-1-linaro-arndale-octa, linux-image-4.1.0-1-linaro-arndale-octa-dbgsym, kernel-image-4.1.0-1-linaro-arndale-octa-di
+Version: 4.1.0-1.1ubuntu1~ci+150619162316
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-arndale-octa-4.1
+Files:
+ 49e6e9a245449459694ffffa579afed5 127668273 linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1~ci+150619162316.tar.gz
+ b2a46f14c34575330e4edc70e74203f9 2500 linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1~ci+150619162316.dsc
+Checksums-Sha1:
+ 2ca056cbfa8cca3e73ba8560ee21ac38b49374c4 127668273 linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1~ci+150619162316.tar.gz
+ a1393f5ac956bf0d473173d2dfa820a9c3c7bf80 2500 linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1~ci+150619162316.dsc
+Checksums-Sha256:
+ 6fd2a2708234e9dce2b16341a1bc98b90f0593f1ed619e54a52fdd610fd90146 127668273 linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1~ci+150619162316.tar.gz
+ 12054176b65f5c54d9db1a83e8ea3462b799ce4b664fb8bad583c5297a95e522 2500 linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1~ci+150619162316.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-arndale-octa-4.1_4.1.0-1.1ubuntu1--ci+150619162316
+Package-List: kernel-image-4.1.0-1-linaro-arndale-octa-di udeb debian-installer extra
+ linux-headers-4.1.0-1-linaro-arndale-octa deb devel optional
+ linux-image-4.1.0-1-linaro-arndale-octa deb kernel optional
+ linux-image-4.1.0-1-linaro-arndale-octa-dbgsym deb devel optional
+ linux-image-extra-4.1.0-1-linaro-arndale-octa deb kernel optional
+ linux-linaro-arndale-octa-4.1-headers-4.1.0-1 deb devel optional
+ linux-linaro-tools-4.1.0-1-linaro-arndale-octa deb devel optional
+
+Package: linux-linaro-omap-4.1
+Binary: linux-linaro-omap-4.1-headers-4.1.0-1, linux-linaro-tools-4.1.0-1-linaro-omap, linux-image-4.1.0-1-linaro-omap, linux-image-extra-4.1.0-1-linaro-omap, linux-headers-4.1.0-1-linaro-omap, linux-image-4.1.0-1-linaro-omap-dbgsym, kernel-image-4.1.0-1-linaro-omap-di
+Version: 4.1.0-1.1ubuntu1~ci+150619152613
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-omap-4.1
+Files:
+ eab0d17a1971c3ce9fd17097e2c24f66 127665802 linux-linaro-omap-4.1_4.1.0-1.1ubuntu1~ci+150619152613.tar.gz
+ b8a1e76774f65189421e2ce11f06bd2d 2348 linux-linaro-omap-4.1_4.1.0-1.1ubuntu1~ci+150619152613.dsc
+Checksums-Sha1:
+ 29a03ac2caafd8e344bc57bb26ad32e6adc6cf16 127665802 linux-linaro-omap-4.1_4.1.0-1.1ubuntu1~ci+150619152613.tar.gz
+ ca3794bc5521ec19951d0c0cc710b9800a87d746 2348 linux-linaro-omap-4.1_4.1.0-1.1ubuntu1~ci+150619152613.dsc
+Checksums-Sha256:
+ e13270269d885308c55982d447fa59076a282fe0d22ddf2bf0ba4524ccf3f8df 127665802 linux-linaro-omap-4.1_4.1.0-1.1ubuntu1~ci+150619152613.tar.gz
+ 8fdaa640c2d073f40a6093e71375c62ecbfece7c3f75eeac4a3748d7b99f0fa8 2348 linux-linaro-omap-4.1_4.1.0-1.1ubuntu1~ci+150619152613.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-omap-4.1_4.1.0-1.1ubuntu1--ci+150619152613
+Package-List: kernel-image-4.1.0-1-linaro-omap-di udeb debian-installer extra
+ linux-headers-4.1.0-1-linaro-omap deb devel optional
+ linux-image-4.1.0-1-linaro-omap deb kernel optional
+ linux-image-4.1.0-1-linaro-omap-dbgsym deb devel optional
+ linux-image-extra-4.1.0-1-linaro-omap deb kernel optional
+ linux-linaro-omap-4.1-headers-4.1.0-1 deb devel optional
+ linux-linaro-tools-4.1.0-1-linaro-omap deb devel optional
+
+Package: linux-linaro-am335x-4.1
+Binary: linux-linaro-am335x-4.1-headers-4.1.0-1, linux-linaro-tools-4.1.0-1-linaro-am335x, linux-image-4.1.0-1-linaro-am335x, linux-image-extra-4.1.0-1-linaro-am335x, linux-headers-4.1.0-1-linaro-am335x, linux-image-4.1.0-1-linaro-am335x-dbgsym, kernel-image-4.1.0-1-linaro-am335x-di
+Version: 4.1.0-1.1ubuntu1~ci+150619160422
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-am335x-4.1
+Files:
+ f03c5b1b9ea03d9ca3128d62f75b3478 127669140 linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1~ci+150619160422.tar.gz
+ f7d6ae0e82cb3158601f60e4900399c1 2386 linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1~ci+150619160422.dsc
+Checksums-Sha1:
+ 8128752df2fa75857d2569a9b015a38323a3b3dc 127669140 linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1~ci+150619160422.tar.gz
+ 8022655cd18f7a4893ed416b71b59438443217f1 2386 linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1~ci+150619160422.dsc
+Checksums-Sha256:
+ e229e82200a5c8c345ba90729ba42a7e68ec759599501bb05aaf7f723cfc6f85 127669140 linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1~ci+150619160422.tar.gz
+ ed8632f4430df53bfe11df84b6dd64c975ab2d096ff7355925fa8d227b9f8c60 2386 linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1~ci+150619160422.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-am335x-4.1_4.1.0-1.1ubuntu1--ci+150619160422
+Package-List: kernel-image-4.1.0-1-linaro-am335x-di udeb debian-installer extra
+ linux-headers-4.1.0-1-linaro-am335x deb devel optional
+ linux-image-4.1.0-1-linaro-am335x deb kernel optional
+ linux-image-4.1.0-1-linaro-am335x-dbgsym deb devel optional
+ linux-image-extra-4.1.0-1-linaro-am335x deb kernel optional
+ linux-linaro-am335x-4.1-headers-4.1.0-1 deb devel optional
+ linux-linaro-tools-4.1.0-1-linaro-am335x deb devel optional
+
+Package: linux-linaro-vexpress-4.1
+Binary: linux-linaro-vexpress-4.1-headers-4.1.0-1, linux-linaro-tools-4.1.0-1-linaro-vexpress, linux-image-4.1.0-1-linaro-vexpress, linux-image-extra-4.1.0-1-linaro-vexpress, linux-headers-4.1.0-1-linaro-vexpress, linux-image-4.1.0-1-linaro-vexpress-dbgsym, kernel-image-4.1.0-1-linaro-vexpress-di
+Version: 4.1.0-1.1ubuntu1~ci+150619154554
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-vexpress-4.1
+Files:
+ 979399b35b13a6500abf441de5ddbcd6 127656745 linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619154554.tar.gz
+ 246375a6ef87ac3103a249b76c168bbb 2424 linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619154554.dsc
+Checksums-Sha1:
+ 16c8ce5cfd8869398818f78152c4ccce9ed5a1d4 127656745 linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619154554.tar.gz
+ 3798cb193332c3b2e82aae2423caaf57fb75a3fa 2424 linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619154554.dsc
+Checksums-Sha256:
+ ddb879774e3b5414d78c682b29940c69744d934ef20836eac47b5b3bd0ab1dc3 127656745 linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619154554.tar.gz
+ ad990b0c07b2fd37c18109c722e9d5c64fd0b3bc96d799d9a1cc92eacdc9a242 2424 linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619154554.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-vexpress-4.1_4.1.0-1.1ubuntu1--ci+150619154554
+Package-List: kernel-image-4.1.0-1-linaro-vexpress-di udeb debian-installer extra
+ linux-headers-4.1.0-1-linaro-vexpress deb devel optional
+ linux-image-4.1.0-1-linaro-vexpress deb kernel optional
+ linux-image-4.1.0-1-linaro-vexpress-dbgsym deb devel optional
+ linux-image-extra-4.1.0-1-linaro-vexpress deb kernel optional
+ linux-linaro-tools-4.1.0-1-linaro-vexpress deb devel optional
+ linux-linaro-vexpress-4.1-headers-4.1.0-1 deb devel optional
+
+Package: linux-linaro-lt-vexpress-4.1
+Binary: linux-linaro-lt-vexpress-4.1-headers-4.1.0-1, linux-linaro-tools-4.1.0-1-linaro-lt-vexpress, linux-image-4.1.0-1-linaro-lt-vexpress, linux-image-extra-4.1.0-1-linaro-lt-vexpress, linux-headers-4.1.0-1-linaro-lt-vexpress, linux-image-4.1.0-1-linaro-lt-vexpress-dbgsym, kernel-image-4.1.0-1-linaro-lt-vexpress-di
+Version: 4.1.0-1.1ubuntu1~ci+150619170040
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-lt-vexpress-4.1
+Files:
+ 17bbf19ed806a9a81b32359d8f8dc80b 127337081 linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619170040.tar.gz
+ a22faf0a6f0d1176b4235c6b2245c3d1 2481 linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619170040.dsc
+Checksums-Sha1:
+ 73c075e1b0887f8aa620c64b0477c6f5d9b6a909 127337081 linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619170040.tar.gz
+ f2ad8671588970f9d9b4ef824bc7996e56e496e3 2481 linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619170040.dsc
+Checksums-Sha256:
+ 461ac2a1c3585b69a0359cdfe3144b143fb5035b43ee1a8548d316bcb57dc631 127337081 linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619170040.tar.gz
+ 3935c3e56c0288497ccac46b19884abb213819be9e6615a2ae9ae56b37657779 2481 linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1~ci+150619170040.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-lt-vexpress-4.1_4.1.0-1.1ubuntu1--ci+150619170040
+Package-List: kernel-image-4.1.0-1-linaro-lt-vexpress-di udeb debian-installer extra
+ linux-headers-4.1.0-1-linaro-lt-vexpress deb devel optional
+ linux-image-4.1.0-1-linaro-lt-vexpress deb kernel optional
+ linux-image-4.1.0-1-linaro-lt-vexpress-dbgsym deb devel optional
+ linux-image-extra-4.1.0-1-linaro-lt-vexpress deb kernel optional
+ linux-linaro-lt-vexpress-4.1-headers-4.1.0-1 deb devel optional
+ linux-linaro-tools-4.1.0-1-linaro-lt-vexpress deb devel optional
+
+Package: linux-linaro-arndale-4.1
+Binary: linux-linaro-arndale-4.1-headers-4.1.0-1, linux-linaro-tools-4.1.0-1-linaro-arndale, linux-image-4.1.0-1-linaro-arndale, linux-image-extra-4.1.0-1-linaro-arndale, linux-headers-4.1.0-1-linaro-arndale, linux-image-4.1.0-1-linaro-arndale-dbgsym, kernel-image-4.1.0-1-linaro-arndale-di
+Version: 4.1.0-1.1ubuntu1~ci+150619171913
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-arndale-4.1
+Files:
+ bfc7984dd2a5d9c3b288c584b0f45091 127666721 linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1~ci+150619171913.tar.gz
+ 4788c1669d30c9b583b8863e397bf599 2405 linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1~ci+150619171913.dsc
+Checksums-Sha1:
+ 870c49a25d47ccc5e3cf031ebe8393adf0db6b9e 127666721 linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1~ci+150619171913.tar.gz
+ 73108857e6e09917e9c44ac1dd2bb39285a211f9 2405 linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1~ci+150619171913.dsc
+Checksums-Sha256:
+ dbdd585992eb7f0d287ad6eed214c7cb2294e9c7d994cbb036a1ee3eeb023a2c 127666721 linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1~ci+150619171913.tar.gz
+ 5e6dbfa31a06ebf69102709ec9c30668bdb9bc7ae01227e1ca5d3d3f45fee1b5 2405 linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1~ci+150619171913.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-arndale-4.1_4.1.0-1.1ubuntu1--ci+150619171913
+Package-List: kernel-image-4.1.0-1-linaro-arndale-di udeb debian-installer extra
+ linux-headers-4.1.0-1-linaro-arndale deb devel optional
+ linux-image-4.1.0-1-linaro-arndale deb kernel optional
+ linux-image-4.1.0-1-linaro-arndale-dbgsym deb devel optional
+ linux-image-extra-4.1.0-1-linaro-arndale deb kernel optional
+ linux-linaro-arndale-4.1-headers-4.1.0-1 deb devel optional
+ linux-linaro-tools-4.1.0-1-linaro-arndale deb devel optional
+
+Package: linux-linaro-lsk-vexpress-3.10.79
+Binary: linux-linaro-lsk-vexpress-3.10.79-headers-3.10.79.0-1, linux-linaro-tools-3.10.79.0-1-linaro-lsk-vexpress, linux-image-3.10.79.0-1-linaro-lsk-vexpress, linux-image-extra-3.10.79.0-1-linaro-lsk-vexpress, linux-headers-3.10.79.0-1-linaro-lsk-vexpress, linux-image-3.10.79.0-1-linaro-lsk-vexpress-dbgsym, kernel-image-3.10.79.0-1-linaro-lsk-vexpress-di
+Version: 3.10.79.0-1.1ubuntu1~ci+150617141032
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-lsk-vexpress-3.10.79
+Files:
+ 3340995fc3e8f4d63e5984609a2fc812 115110301 linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1~ci+150617141032.tar.gz
+ 84c84638f847ef29421ae3408807afa3 2430 linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1~ci+150617141032.dsc
+Checksums-Sha1:
+ 97d44b6347377d7332e87743398d2f5d21b3dbdd 115110301 linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1~ci+150617141032.tar.gz
+ a218bbcca095a208a440bfac1c1b03151018e6e6 2430 linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1~ci+150617141032.dsc
+Checksums-Sha256:
+ 3b93db31b8c3afa0d1871fa62f3e4545822a3aaf476f35388156f9a0a890d845 115110301 linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1~ci+150617141032.tar.gz
+ 69375f6178e4e6519158d2c8c3bcd24957854580192b1d63c6fe1519e64b176f 2430 linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1~ci+150617141032.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-lsk-vexpress-3.10.79_3.10.79.0-1.1ubuntu1--ci+150617141032
+Package-List: kernel-image-3.10.79.0-1-linaro-lsk-vexpress-di udeb debian-installer extra
+ linux-headers-3.10.79.0-1-linaro-lsk-vexpress deb devel optional
+ linux-image-3.10.79.0-1-linaro-lsk-vexpress deb kernel optional
+ linux-image-3.10.79.0-1-linaro-lsk-vexpress-dbgsym deb devel optional
+ linux-image-extra-3.10.79.0-1-linaro-lsk-vexpress deb kernel optional
+ linux-linaro-lsk-vexpress-3.10.79-headers-3.10.79.0-1 deb devel optional
+ linux-linaro-tools-3.10.79.0-1-linaro-lsk-vexpress deb devel optional
+
+Package: linux-linaro-lt-vexpress-4.2
+Binary: linux-linaro-lt-vexpress-4.2-headers-4.2.0-1, linux-linaro-tools-4.2.0-1-linaro-lt-vexpress, linux-image-4.2.0-1-linaro-lt-vexpress, linux-image-extra-4.2.0-1-linaro-lt-vexpress, linux-headers-4.2.0-1-linaro-lt-vexpress, linux-image-4.2.0-1-linaro-lt-vexpress-dbgsym, kernel-image-4.2.0-1-linaro-lt-vexpress-di
+Version: 4.2.0-1.1ubuntu1~ci+150912114354
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-lt-vexpress-4.2
+Files:
+ 457ddad6042b94d96d3259c97308dec1 132549555 linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912114354.tar.gz
+ ea8e9c519f05809c7fa3bc67b475dcb0 2481 linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912114354.dsc
+Checksums-Sha1:
+ b3fda35b1b64e925bb624cf8cfba166bcc5256c3 132549555 linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912114354.tar.gz
+ 6427c1e9d86174cdee463fe2ed469b342a423edc 2481 linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912114354.dsc
+Checksums-Sha256:
+ 9983af6a33cdd3923f432593cd3af31392a0c1f6c1f83c440fc1aec3cdceeb54 132549555 linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912114354.tar.gz
+ c1d29ffbea72ce3237ffd5eedae5be26fbc83245c0254fceee836ea3f5b24495 2481 linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912114354.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-lt-vexpress-4.2_4.2.0-1.1ubuntu1--ci+150912114354
+Package-List: kernel-image-4.2.0-1-linaro-lt-vexpress-di udeb debian-installer extra
+ linux-headers-4.2.0-1-linaro-lt-vexpress deb devel optional
+ linux-image-4.2.0-1-linaro-lt-vexpress deb kernel optional
+ linux-image-4.2.0-1-linaro-lt-vexpress-dbgsym deb devel optional
+ linux-image-extra-4.2.0-1-linaro-lt-vexpress deb kernel optional
+ linux-linaro-lt-vexpress-4.2-headers-4.2.0-1 deb devel optional
+ linux-linaro-tools-4.2.0-1-linaro-lt-vexpress deb devel optional
+
+Package: linux-linaro-vexpress-4.2
+Binary: linux-linaro-vexpress-4.2-headers-4.2.0-1, linux-linaro-tools-4.2.0-1-linaro-vexpress, linux-image-4.2.0-1-linaro-vexpress, linux-image-extra-4.2.0-1-linaro-vexpress, linux-headers-4.2.0-1-linaro-vexpress, linux-image-4.2.0-1-linaro-vexpress-dbgsym, kernel-image-4.2.0-1-linaro-vexpress-di
+Version: 4.2.0-1.1ubuntu1~ci+150912130741
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-vexpress-4.2
+Files:
+ b0d715b978cc62bac9037169470c21f8 132958907 linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912130741.tar.gz
+ 4b2878d462e579c26146c080f16befe1 2424 linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912130741.dsc
+Checksums-Sha1:
+ 23afbfef547aeec59177c3a936dc381ce710c290 132958907 linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912130741.tar.gz
+ 9046d474a45bcd22a8f6fe9c70de6565c3874511 2424 linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912130741.dsc
+Checksums-Sha256:
+ d2f79aa059cfc17c32f1f49ca10f124de06ce668dc325d05a25de995953548cc 132958907 linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912130741.tar.gz
+ e65258f1c858b3703781223a3b69401dcbf0d7717b82960116aca6470262141f 2424 linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1~ci+150912130741.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-vexpress-4.2_4.2.0-1.1ubuntu1--ci+150912130741
+Package-List: kernel-image-4.2.0-1-linaro-vexpress-di udeb debian-installer extra
+ linux-headers-4.2.0-1-linaro-vexpress deb devel optional
+ linux-image-4.2.0-1-linaro-vexpress deb kernel optional
+ linux-image-4.2.0-1-linaro-vexpress-dbgsym deb devel optional
+ linux-image-extra-4.2.0-1-linaro-vexpress deb kernel optional
+ linux-linaro-tools-4.2.0-1-linaro-vexpress deb devel optional
+ linux-linaro-vexpress-4.2-headers-4.2.0-1 deb devel optional
+
+Package: linux-linaro-omap-4.2
+Binary: linux-linaro-omap-4.2-headers-4.2.0-1, linux-linaro-tools-4.2.0-1-linaro-omap, linux-image-4.2.0-1-linaro-omap, linux-image-extra-4.2.0-1-linaro-omap, linux-headers-4.2.0-1-linaro-omap, linux-image-4.2.0-1-linaro-omap-dbgsym, kernel-image-4.2.0-1-linaro-omap-di
+Version: 4.2.0-1.1ubuntu1~ci+150912140844
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-omap-4.2
+Files:
+ 1124ca81f231b326809e9b220733445f 132951025 linux-linaro-omap-4.2_4.2.0-1.1ubuntu1~ci+150912140844.tar.gz
+ 60cd7f267ce0bafa0175cd6de17d325c 2348 linux-linaro-omap-4.2_4.2.0-1.1ubuntu1~ci+150912140844.dsc
+Checksums-Sha1:
+ a50a1f429c4a53ca73d17a29c32d5e16516d7596 132951025 linux-linaro-omap-4.2_4.2.0-1.1ubuntu1~ci+150912140844.tar.gz
+ be90e341734f327f2e49fdb5bf9e1629ff874ec2 2348 linux-linaro-omap-4.2_4.2.0-1.1ubuntu1~ci+150912140844.dsc
+Checksums-Sha256:
+ d56deb01c79732c9862114120aad1ab1b0c0a642ea75dc7827299212c093d055 132951025 linux-linaro-omap-4.2_4.2.0-1.1ubuntu1~ci+150912140844.tar.gz
+ c933743d256a6a6b1f2185d8deae8b0d5a096c629557230d91d8bec4da15a6de 2348 linux-linaro-omap-4.2_4.2.0-1.1ubuntu1~ci+150912140844.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-omap-4.2_4.2.0-1.1ubuntu1--ci+150912140844
+Package-List: kernel-image-4.2.0-1-linaro-omap-di udeb debian-installer extra
+ linux-headers-4.2.0-1-linaro-omap deb devel optional
+ linux-image-4.2.0-1-linaro-omap deb kernel optional
+ linux-image-4.2.0-1-linaro-omap-dbgsym deb devel optional
+ linux-image-extra-4.2.0-1-linaro-omap deb kernel optional
+ linux-linaro-omap-4.2-headers-4.2.0-1 deb devel optional
+ linux-linaro-tools-4.2.0-1-linaro-omap deb devel optional
+
+Package: linux-linaro-arndale-4.2
+Binary: linux-linaro-arndale-4.2-headers-4.2.0-1, linux-linaro-tools-4.2.0-1-linaro-arndale, linux-image-4.2.0-1-linaro-arndale, linux-image-extra-4.2.0-1-linaro-arndale, linux-headers-4.2.0-1-linaro-arndale, linux-image-4.2.0-1-linaro-arndale-dbgsym, kernel-image-4.2.0-1-linaro-arndale-di
+Version: 4.2.0-1.1ubuntu1~ci+150912122635
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-arndale-4.2
+Files:
+ 81ed90c4260301639934627c14b79818 132960220 linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1~ci+150912122635.tar.gz
+ cdb8c767f8d15cee43a6da72b5ba61f3 2405 linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1~ci+150912122635.dsc
+Checksums-Sha1:
+ eb3a69f7715e873e08fee06c54cbeb40fe60425b 132960220 linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1~ci+150912122635.tar.gz
+ af99c62c2904c556aab73e4e5a996e61fd0995de 2405 linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1~ci+150912122635.dsc
+Checksums-Sha256:
+ 2f8baea07f04a76c49f8919afe4355282746ffde402fee9ffeb6616a3b0cc2ce 132960220 linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1~ci+150912122635.tar.gz
+ cea9879fa9f9c7b55e7bb5139bd83c7f1893001bab42cb96dac10ce7c0f3306e 2405 linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1~ci+150912122635.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-arndale-4.2_4.2.0-1.1ubuntu1--ci+150912122635
+Package-List: kernel-image-4.2.0-1-linaro-arndale-di udeb debian-installer extra
+ linux-headers-4.2.0-1-linaro-arndale deb devel optional
+ linux-image-4.2.0-1-linaro-arndale deb kernel optional
+ linux-image-4.2.0-1-linaro-arndale-dbgsym deb devel optional
+ linux-image-extra-4.2.0-1-linaro-arndale deb kernel optional
+ linux-linaro-arndale-4.2-headers-4.2.0-1 deb devel optional
+ linux-linaro-tools-4.2.0-1-linaro-arndale deb devel optional
+
+Package: linux-linaro-am335x-4.2
+Binary: linux-linaro-am335x-4.2-headers-4.2.0-1, linux-linaro-tools-4.2.0-1-linaro-am335x, linux-image-4.2.0-1-linaro-am335x, linux-image-extra-4.2.0-1-linaro-am335x, linux-headers-4.2.0-1-linaro-am335x, linux-image-4.2.0-1-linaro-am335x-dbgsym, kernel-image-4.2.0-1-linaro-am335x-di
+Version: 4.2.0-1.1ubuntu1~ci+150912124724
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-am335x-4.2
+Files:
+ 76ef0119f66f6734063767de366efb09 132948630 linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1~ci+150912124724.tar.gz
+ 95ed19cd68e866bc947b5a4a09366d22 2386 linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1~ci+150912124724.dsc
+Checksums-Sha1:
+ 6a167a9ec43696780c595314b1fcf57ccb2e5aa3 132948630 linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1~ci+150912124724.tar.gz
+ cab4180a6b385ff375d39716e8ee86b5ce2b1f29 2386 linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1~ci+150912124724.dsc
+Checksums-Sha256:
+ a2d264baa688e346fd2f0b353f356c002764e813365347a00be9f099bd0fcd89 132948630 linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1~ci+150912124724.tar.gz
+ a27d370332da86364481325580b45313afc54c0a90077dd108b02bda0b900171 2386 linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1~ci+150912124724.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-am335x-4.2_4.2.0-1.1ubuntu1--ci+150912124724
+Package-List: kernel-image-4.2.0-1-linaro-am335x-di udeb debian-installer extra
+ linux-headers-4.2.0-1-linaro-am335x deb devel optional
+ linux-image-4.2.0-1-linaro-am335x deb kernel optional
+ linux-image-4.2.0-1-linaro-am335x-dbgsym deb devel optional
+ linux-image-extra-4.2.0-1-linaro-am335x deb kernel optional
+ linux-linaro-am335x-4.2-headers-4.2.0-1 deb devel optional
+ linux-linaro-tools-4.2.0-1-linaro-am335x deb devel optional
+
+Package: linux-linaro-arndale-octa-4.2
+Binary: linux-linaro-arndale-octa-4.2-headers-4.2.0-1, linux-linaro-tools-4.2.0-1-linaro-arndale-octa, linux-image-4.2.0-1-linaro-arndale-octa, linux-image-extra-4.2.0-1-linaro-arndale-octa, linux-headers-4.2.0-1-linaro-arndale-octa, linux-image-4.2.0-1-linaro-arndale-octa-dbgsym, kernel-image-4.2.0-1-linaro-arndale-octa-di
+Version: 4.2.0-1.1ubuntu1~ci+150912120445
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-arndale-octa-4.2
+Files:
+ d69dc56d377fb20db530d5b8f6100c98 132957647 linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1~ci+150912120445.tar.gz
+ e32e29803fc2bfa0370b98ec6c2f53fb 2500 linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1~ci+150912120445.dsc
+Checksums-Sha1:
+ e061db107a3506528614492dfa6621e06f178f7a 132957647 linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1~ci+150912120445.tar.gz
+ d3d454aa455f897d8536ad9428da71a55b16bd1b 2500 linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1~ci+150912120445.dsc
+Checksums-Sha256:
+ c47b72089fc2a07ee7502bb4b5ec38ecfe011156e2f270c94e428e3ebaa87a73 132957647 linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1~ci+150912120445.tar.gz
+ 7a0d80218684afb41afe3721d3d27567cc9ae4be7d8c21dca66c6749a337bafc 2500 linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1~ci+150912120445.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-arndale-octa-4.2_4.2.0-1.1ubuntu1--ci+150912120445
+Package-List: kernel-image-4.2.0-1-linaro-arndale-octa-di udeb debian-installer extra
+ linux-headers-4.2.0-1-linaro-arndale-octa deb devel optional
+ linux-image-4.2.0-1-linaro-arndale-octa deb kernel optional
+ linux-image-4.2.0-1-linaro-arndale-octa-dbgsym deb devel optional
+ linux-image-extra-4.2.0-1-linaro-arndale-octa deb kernel optional
+ linux-linaro-arndale-octa-4.2-headers-4.2.0-1 deb devel optional
+ linux-linaro-tools-4.2.0-1-linaro-arndale-octa deb devel optional
+
+Package: linux-linaro-lt-vexpress-4.3
+Binary: linux-linaro-lt-vexpress-4.3-headers-4.3.0-1, linux-linaro-tools-4.3.0-1-linaro-lt-vexpress, linux-image-4.3.0-1-linaro-lt-vexpress, linux-image-extra-4.3.0-1-linaro-lt-vexpress, linux-headers-4.3.0-1-linaro-lt-vexpress, linux-image-4.3.0-1-linaro-lt-vexpress-dbgsym, kernel-image-4.3.0-1-linaro-lt-vexpress-di
+Version: 4.3.0-1.1ubuntu1~ci+151120064726
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-lt-vexpress-4.3
+Files:
+ b1fb28ec463ccf242315e655db2d1c68 134185680 linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120064726.tar.gz
+ a1579f958ceec1a8ae74f425d5da1b1b 2481 linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120064726.dsc
+Checksums-Sha1:
+ 8338f2a0f8f441b7b14a05465944ab63261198ed 134185680 linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120064726.tar.gz
+ e6a2a05c8e28d3109bd9c70a0f480e35446aee71 2481 linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120064726.dsc
+Checksums-Sha256:
+ 5bbb5b961b9338237dedb8fc4c487d612a95a13b428a3eea1d1833a1cd534227 134185680 linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120064726.tar.gz
+ 0ea10a77b08f7b2f1fb7a117eaba0cfb2619084b32632d718d9399fb1dd874af 2481 linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120064726.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-lt-vexpress-4.3_4.3.0-1.1ubuntu1--ci+151120064726
+Package-List: kernel-image-4.3.0-1-linaro-lt-vexpress-di udeb debian-installer extra
+ linux-headers-4.3.0-1-linaro-lt-vexpress deb devel optional
+ linux-image-4.3.0-1-linaro-lt-vexpress deb kernel optional
+ linux-image-4.3.0-1-linaro-lt-vexpress-dbgsym deb devel optional
+ linux-image-extra-4.3.0-1-linaro-lt-vexpress deb kernel optional
+ linux-linaro-lt-vexpress-4.3-headers-4.3.0-1 deb devel optional
+ linux-linaro-tools-4.3.0-1-linaro-lt-vexpress deb devel optional
+
+Package: linux-linaro-arndale-4.3
+Binary: linux-linaro-arndale-4.3-headers-4.3.0-1, linux-linaro-tools-4.3.0-1-linaro-arndale, linux-image-4.3.0-1-linaro-arndale, linux-image-extra-4.3.0-1-linaro-arndale, linux-headers-4.3.0-1-linaro-arndale, linux-image-4.3.0-1-linaro-arndale-dbgsym, kernel-image-4.3.0-1-linaro-arndale-di
+Version: 4.3.0-1.1ubuntu1~ci+151120055854
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-arndale-4.3
+Files:
+ b1e85fcae190f0701af1b8d77a127532 134565398 linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1~ci+151120055854.tar.gz
+ dc45177f5b014b43ec0a2ecaaa736e3f 2405 linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1~ci+151120055854.dsc
+Checksums-Sha1:
+ a71351e82e9b814f9c0077d9008d8406ed54bc7f 134565398 linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1~ci+151120055854.tar.gz
+ beb5def25814babc5719c1f27917e0539728679d 2405 linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1~ci+151120055854.dsc
+Checksums-Sha256:
+ 908a7f092ec6036ae2926de50163068e4b838dba1127e57eb6a9c913672b48fc 134565398 linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1~ci+151120055854.tar.gz
+ f22ed0c0b756eaeb8b62907c3b1ede6f0c6dd681300679ba4c1b07d02048df36 2405 linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1~ci+151120055854.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-arndale-4.3_4.3.0-1.1ubuntu1--ci+151120055854
+Package-List: kernel-image-4.3.0-1-linaro-arndale-di udeb debian-installer extra
+ linux-headers-4.3.0-1-linaro-arndale deb devel optional
+ linux-image-4.3.0-1-linaro-arndale deb kernel optional
+ linux-image-4.3.0-1-linaro-arndale-dbgsym deb devel optional
+ linux-image-extra-4.3.0-1-linaro-arndale deb kernel optional
+ linux-linaro-arndale-4.3-headers-4.3.0-1 deb devel optional
+ linux-linaro-tools-4.3.0-1-linaro-arndale deb devel optional
+
+Package: linux-linaro-vexpress-4.3
+Binary: linux-linaro-vexpress-4.3-headers-4.3.0-1, linux-linaro-tools-4.3.0-1-linaro-vexpress, linux-image-4.3.0-1-linaro-vexpress, linux-image-extra-4.3.0-1-linaro-vexpress, linux-headers-4.3.0-1-linaro-vexpress, linux-image-4.3.0-1-linaro-vexpress-dbgsym, kernel-image-4.3.0-1-linaro-vexpress-di
+Version: 4.3.0-1.1ubuntu1~ci+151120071006
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-vexpress-4.3
+Files:
+ 1b543ed758f6501286b429fd8e50ab5e 134571244 linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120071006.tar.gz
+ 441f9e183f5f21dd58e3fa3aff4ab9d9 2424 linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120071006.dsc
+Checksums-Sha1:
+ c8be954ee19859f7064d0d700a194bafb8bc6f96 134571244 linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120071006.tar.gz
+ b5a41ca4b42eadf298169675bf7ca05c35f6d82e 2424 linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120071006.dsc
+Checksums-Sha256:
+ 939420938c081cb7e8c85ac3462dff98b6705e479701363ed1bad5f14a640f53 134571244 linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120071006.tar.gz
+ 4786ec5b2c1fe5aef8e61cea580c1cc1338eee56225f96f7cec4ade6ce5486b1 2424 linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1~ci+151120071006.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-vexpress-4.3_4.3.0-1.1ubuntu1--ci+151120071006
+Package-List: kernel-image-4.3.0-1-linaro-vexpress-di udeb debian-installer extra
+ linux-headers-4.3.0-1-linaro-vexpress deb devel optional
+ linux-image-4.3.0-1-linaro-vexpress deb kernel optional
+ linux-image-4.3.0-1-linaro-vexpress-dbgsym deb devel optional
+ linux-image-extra-4.3.0-1-linaro-vexpress deb kernel optional
+ linux-linaro-tools-4.3.0-1-linaro-vexpress deb devel optional
+ linux-linaro-vexpress-4.3-headers-4.3.0-1 deb devel optional
+
+Package: linux-linaro-arndale-octa-4.3
+Binary: linux-linaro-arndale-octa-4.3-headers-4.3.0-1, linux-linaro-tools-4.3.0-1-linaro-arndale-octa, linux-image-4.3.0-1-linaro-arndale-octa, linux-image-extra-4.3.0-1-linaro-arndale-octa, linux-headers-4.3.0-1-linaro-arndale-octa, linux-image-4.3.0-1-linaro-arndale-octa-dbgsym, kernel-image-4.3.0-1-linaro-arndale-octa-di
+Version: 4.3.0-1.1ubuntu1~ci+151120053757
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-arndale-octa-4.3
+Files:
+ 529596842f775d289165b8a7fe4142bd 134574256 linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1~ci+151120053757.tar.gz
+ 29233e3324e4de98fc19239bece944cf 2500 linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1~ci+151120053757.dsc
+Checksums-Sha1:
+ 4060be6b16a3e2cc91d1120eb8809776fe3c3527 134574256 linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1~ci+151120053757.tar.gz
+ 5aaedef027bde406449fd33b7655e73db73083cc 2500 linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1~ci+151120053757.dsc
+Checksums-Sha256:
+ 20ff62a3c12f349ca086b7749d1d194f76945128608a9392c07605e1fa47c347 134574256 linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1~ci+151120053757.tar.gz
+ 1e62c7baf38d455d297693e13de32aabcdb3ab06d129e29307d88d4c060558d3 2500 linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1~ci+151120053757.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-arndale-octa-4.3_4.3.0-1.1ubuntu1--ci+151120053757
+Package-List: kernel-image-4.3.0-1-linaro-arndale-octa-di udeb debian-installer extra
+ linux-headers-4.3.0-1-linaro-arndale-octa deb devel optional
+ linux-image-4.3.0-1-linaro-arndale-octa deb kernel optional
+ linux-image-4.3.0-1-linaro-arndale-octa-dbgsym deb devel optional
+ linux-image-extra-4.3.0-1-linaro-arndale-octa deb kernel optional
+ linux-linaro-arndale-octa-4.3-headers-4.3.0-1 deb devel optional
+ linux-linaro-tools-4.3.0-1-linaro-arndale-octa deb devel optional
+
+Package: linux-linaro-omap-4.3
+Binary: linux-linaro-omap-4.3-headers-4.3.0-1, linux-linaro-tools-4.3.0-1-linaro-omap, linux-image-4.3.0-1-linaro-omap, linux-image-extra-4.3.0-1-linaro-omap, linux-headers-4.3.0-1-linaro-omap, linux-image-4.3.0-1-linaro-omap-dbgsym, kernel-image-4.3.0-1-linaro-omap-di
+Version: 4.3.0-1.1ubuntu1~ci+151120062011
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-omap-4.3
+Files:
+ 87cac12a1f8f1ad750b54da4c2a435f3 134569196 linux-linaro-omap-4.3_4.3.0-1.1ubuntu1~ci+151120062011.tar.gz
+ 576900143634c63d017fbc4c332c1005 2348 linux-linaro-omap-4.3_4.3.0-1.1ubuntu1~ci+151120062011.dsc
+Checksums-Sha1:
+ 12ecef6921a7a0e320f260d03c1ab5d83f1ca52f 134569196 linux-linaro-omap-4.3_4.3.0-1.1ubuntu1~ci+151120062011.tar.gz
+ 56a094e781d8e7f91d8783cd9f9e1adb78b06bfe 2348 linux-linaro-omap-4.3_4.3.0-1.1ubuntu1~ci+151120062011.dsc
+Checksums-Sha256:
+ b09d1f62e40f3a1ebee943d86a5198fef378928ea6c5358d2a1a36a1f285c09e 134569196 linux-linaro-omap-4.3_4.3.0-1.1ubuntu1~ci+151120062011.tar.gz
+ e8b76aa1c37e210c6f67ac8d575f2a6502591bbce832c1e186a095957f2a5b4a 2348 linux-linaro-omap-4.3_4.3.0-1.1ubuntu1~ci+151120062011.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-omap-4.3_4.3.0-1.1ubuntu1--ci+151120062011
+Package-List: kernel-image-4.3.0-1-linaro-omap-di udeb debian-installer extra
+ linux-headers-4.3.0-1-linaro-omap deb devel optional
+ linux-image-4.3.0-1-linaro-omap deb kernel optional
+ linux-image-4.3.0-1-linaro-omap-dbgsym deb devel optional
+ linux-image-extra-4.3.0-1-linaro-omap deb kernel optional
+ linux-linaro-omap-4.3-headers-4.3.0-1 deb devel optional
+ linux-linaro-tools-4.3.0-1-linaro-omap deb devel optional
+
+Package: linux-linaro-am335x-4.3
+Binary: linux-linaro-am335x-4.3-headers-4.3.0-1, linux-linaro-tools-4.3.0-1-linaro-am335x, linux-image-4.3.0-1-linaro-am335x, linux-image-extra-4.3.0-1-linaro-am335x, linux-headers-4.3.0-1-linaro-am335x, linux-image-4.3.0-1-linaro-am335x-dbgsym, kernel-image-4.3.0-1-linaro-am335x-di
+Version: 4.3.0-1.1ubuntu1~ci+151120065925
+Section: devel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, libunwind8-dev, libaudit-dev [amd64 i386], bc, lzop
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Architecture: armhf
+Standards-Version: 3.8.4.0
+Format: 1.0
+Directory: pool/main/l/linux-linaro-am335x-4.3
+Files:
+ 0cad9d166fc62a32fdce6452e86cb3f4 134581061 linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1~ci+151120065925.tar.gz
+ 27ba183ec65cad24a935bb8f21e9fcb9 2386 linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1~ci+151120065925.dsc
+Checksums-Sha1:
+ 047953b88a128e78bcdcb6200a755ca8f8ac014d 134581061 linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1~ci+151120065925.tar.gz
+ 5559aa89fee94a4d5a9933b51ffc7fc2d828bae9 2386 linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1~ci+151120065925.dsc
+Checksums-Sha256:
+ 0e36356f57e440d518134dc86ad1eee6fd7e7721c8b85c3a166e44b27f24ca91 134581061 linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1~ci+151120065925.tar.gz
+ 0219fc672190498d3114d7832f47b43a8f9949aa7c9f3a7a6a4b71f843fe90f5 2386 linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1~ci+151120065925.dsc
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-am335x-4.3_4.3.0-1.1ubuntu1--ci+151120065925
+Package-List: kernel-image-4.3.0-1-linaro-am335x-di udeb debian-installer extra
+ linux-headers-4.3.0-1-linaro-am335x deb devel optional
+ linux-image-4.3.0-1-linaro-am335x deb kernel optional
+ linux-image-4.3.0-1-linaro-am335x-dbgsym deb devel optional
+ linux-image-extra-4.3.0-1-linaro-am335x deb kernel optional
+ linux-linaro-am335x-4.3-headers-4.3.0-1 deb devel optional
+ linux-linaro-tools-4.3.0-1-linaro-am335x deb devel optional
+

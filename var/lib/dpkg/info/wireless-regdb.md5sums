@@ -1,0 +1,5 @@
+312b5adfa4d5e2fdac136b237be42077  lib/crda/pubkeys/ubuntu-devel-discuss@lists.ubuntu.com.key.pub.pem
+113b98a57715e069a9859a8b29c38476  lib/crda/regulatory.bin
+1a3bceead593342e24b81e5b2e514cfe  usr/share/doc/wireless-regdb/changelog.Debian.gz
+73ae886251415012f240fc04423646d9  usr/share/doc/wireless-regdb/copyright
+80d5e1c12c839ed19e2d74355a30ec4d  usr/share/man/man5/regulatory.bin.5.gz

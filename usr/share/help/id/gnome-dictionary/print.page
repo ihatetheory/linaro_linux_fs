@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pratinjau cetak dan cetak definisi.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mencetak suatu definisi</title>
+
+  <p>Anda dapat mencetak suatu definisi ke kertas atau suatu berkas. Sebelum mencetak, Anda mesti mempratinjau definisi bagaimana akan dicetak untuk memeriksa bahwa teks cukup termuat pada halaman, khususnya bila Anda telah mengubah ukuran <link xref="print-font">fonta cetak</link>.</p>
+
+  <section id="preview">
+    <title>Pratinjau cetak</title>
+
+    <steps>
+      <item>
+        <p>Pilih <guiseq><gui style="menu">Berkas</gui> <gui style="menuitem">Pratinjau</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Suatu jendela pratinjau cetak akan terbuka yang menunjukkan definisi akan dicetak tepat seperti apa.</p>
+      </item>
+      <item>
+	<p>Gunakan bilah alat untuk meramban halaman, menyesuaikan tingkat zum, dan lebar halaman.</p>
+      </item>
+      <item>
+        <p>Klik <gui style="button">Cetak dokumen ini</gui> untuk mencetak definisi atau tutup jendela untuk mengakhiri pratinjau.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Tombol cetak dalam bilah alat mungkin tak selalu bekerja. Bila itu tak bekerja bagi Anda, tutup jendela dan pilih <guiseq><gui style="menu">Berkas</gui> <gui style="menuitem">Cetak</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Cetak</title>
+
+    <p>Anda perlu <link href="help:gnome-help/printing">pencetak yang telah disiapkan</link> untuk bisa mencetak ke kertas.</p>
+
+    <steps>
+      <item>
+        <p>Pilih <guiseq><gui style="menu">Berkas</gui> <gui style="menuitem">Cetak</gui> <gui style="tab">Umum</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Pilih pencetak yang ingin Anda pakai dari daftar pencetak atau pilih <gui href="help:gnome-help/print-to-file">Cetak ke Berkas</gui>.</p>
+      </item>
+      <item>
+        <p>Pilih <link href="help:gnome-help/printing#paper">pengaturan pencetak</link> Anda.</p>
+      </item>
+      <item>
+        <p>Tekan <gui style="button">Cetak</gui> untuk mencetak definisi.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

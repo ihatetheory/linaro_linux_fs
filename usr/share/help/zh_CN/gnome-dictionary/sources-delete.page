@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-delete" xml:lang="zh-CN">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+    <link type="seealso" xref="prob-retrieving-definition"/>
+
+    <credit type="author copyright">
+      <name>Sinduhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyrighti editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3767@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jason Yu</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yu Zhijingcheng</mal:name>
+      <mal:email>yuzhijingcheng1996@hotmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>删除字典源</title>
+
+  <p>如果您不再需要某一<link xref="sources">字典源</link>或者有某个字典源不再正常工作，您可能希望删除它。</p>
+
+  <steps>
+    <title>若要删除字典源，请这样操作：</title>
+    <item>
+      <p>选择<guiseq><gui style="menu"><app>字典</app></gui> <gui style="menuitem">首选项</gui> <gui style="tab">源</gui></guiseq>。</p>
+    </item>
+    <item>
+      <p>选中您想删除的源。</p>
+    </item>
+    <item>
+      <p>按下<gui style="button">移除</gui>。</p>
+    </item>
+    <item>
+      <p>一个对话框会弹出，要求您确认希望永久删除选中的源。一旦您确认了，您选中的源就会被删除。</p>
+    </item>
+  </steps>
+
+</page>

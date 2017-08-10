@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-list domain="widgets">
+
+  <error type="question" id="ask-signature-changed" default="GTK_RESPONSE_YES">
+    <primary>Do you wish to save your changes?</primary>
+    <secondary xml:space="preserve">This signature has been changed, but has not been saved.</secondary>
+    <button response="GTK_RESPONSE_NO" label="_Discard changes"></button>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button stock="gtk-save" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="error" id="blank-signature">
+    <primary>Blank Signature</primary>
+    <secondary>Please provide an unique name to identify this signature.</secondary>
+  </error>
+
+  <error type="warning" id="no-image-copy">
+    <primary>Unable to copy image to clipboard.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="warning" id="no-image-save">
+    <primary>Unable to save image.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="error" id="no-load-signature">
+    <primary>Could not load signature.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="error" id="no-save-signature">
+    <primary>Could not save signature.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+</error-list>

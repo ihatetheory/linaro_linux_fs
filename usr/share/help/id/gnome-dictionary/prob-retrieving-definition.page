@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Galat ketika mengambil definisi</sys>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tak bisa temukan definisi</title>
+
+  <p>Bila Anda menemui pesan kesalahan <sys>Galat ketika mengambil definisi</sys> ketika mencari suatu definisi dari sebarang <link xref="sources-select">kamus yang dipilih</link>, masalahnya sangat mungkin satu dari yang berikut:</p>
+
+  <list>
+    <item>
+      <p>Satu atau lebih server <app>DICT</app> yang dipilih yang dipakai untuk mencari definisi mungkin tak bekerja. Anda dapat mencoba menunggu sebentar sebelum <link xref="definition">mencari</link> definisi lagi.</p>
+    </item>
+    <item>
+      <p>Anda mungkin tak memiliki koneksi Internet. Agar <app>Kamus</app> mencari istilah Anda, komputer Anda <link href="help:gnome-help/net">harus bisa menyambung</link> ke <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

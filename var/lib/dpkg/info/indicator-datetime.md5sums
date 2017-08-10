@@ -1,0 +1,7 @@
+10adcef3f62c1ad3dfe0a2190ea9fb75  usr/lib/arm-linux-gnueabihf/indicator-datetime/indicator-datetime-service
+dadc95c39175743157eefcc9f416a9e4  usr/share/doc/indicator-datetime/changelog.Debian.gz
+a22816b8675a812f21a2d7acfe534ca6  usr/share/doc/indicator-datetime/copyright
+8a5e6f803a72d808bdafd34264539cf2  usr/share/glib-2.0/schemas/com.canonical.indicator.datetime.gschema.xml
+572d6a28f09cdfa6cd2f0fa4ff2cd77a  usr/share/unity/indicators/com.canonical.indicator.datetime
+498417075b26b2f62c18e2833813f7dd  usr/share/upstart/sessions/indicator-datetime.conf
+5906b2e3593d66f064828aaeee96c53b  usr/share/upstart/xdg/autostart/indicator-datetime.desktop

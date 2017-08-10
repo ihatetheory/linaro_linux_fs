@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=System Default
+Comment=The default session on the system
+Exec=default
+Icon=
+Type=Application
+X-Ubuntu-Gettext-Domain=gdm

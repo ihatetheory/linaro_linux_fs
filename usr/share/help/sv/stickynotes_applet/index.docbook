@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.12">
+<!ENTITY applet "Sticky Notes">
+]>
+<!-- (Do not remove this comment block.)
+Maintained by the GNOME Documentation Project
+http://developer.gnome.org/projects/gdp
+Template version: 2.0 beta
+Template last modified Mar 12, 2002
+-->
+<article id="index" lang="sv">
+<!-- please do not change the id; for translations, change lang to appropriate code -->
+    
+    <articleinfo> 
+      <title>Handbok för Klisterlappar</title> 
+      <abstract role="description">
+	<para>Klisterlappar låter dig skapa, visa och hantera klisterlappar på ditt skrivbord.</para>
+      </abstract>
+
+      <copyright lang="en">
+        <year>2005</year>
+	<holder>Davyd Madeley</holder>
+      </copyright>
+      <copyright lang="en">
+        <year>2004</year>
+        <holder>Shaun McCance</holder>
+      </copyright>
+      <copyright lang="en">
+        <year>2004</year>
+        <holder>Angela Boyle</holder>
+      </copyright>
+      <copyright lang="en"> 
+        <year>2003</year>  
+        <year>2004</year>  
+        <holder>Sun Microsystems</holder> 
+      </copyright> 
+      <copyright lang="en"> 
+        <year>2003</year>  
+        <holder>Loban A Rahman</holder> 
+      </copyright> 
+
+	<!-- Translators: uncomment this:
+	<copyright>
+	    <year>2002</year>
+	    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+	</copyright>
+	-->
+
+	<publisher role="maintainer"> 
+	    <publishername>Dokumentationsprojekt för GNOME</publishername> 
+	</publisher> 
+	
+	   <legalnotice id="legalnotice">
+         <para>Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type="help" url="help:fdl">länk</ulink> eller i filen COPYING-DOCS som medföljer denna handbok.</para>
+          <para>Denna handbok utgör en av flera GNOME-handböcker som distribueras under villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga handböcker kan du göra detta genom att lägga till en kopia av licensavtalet i handboken enligt instruktionerna i avsnitt 6 i licensavtalet.</para>
+ 
+         <para>Flera namn på produkter och tjänster är registrerade varumärken. I de fall dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med versaler eller med inledande versal.</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+	<authorgroup>
+          <author lang="en">
+            <firstname>Shaun</firstname>
+            <surname>McCance</surname>
+            <affiliation>
+              <orgname>GNOME Documentation Project</orgname>
+	      <address><email>shaunm@gnome.org</email></address>
+            </affiliation>
+          </author>
+          <author lang="en">
+            <firstname>Angela</firstname>
+            <surname>Boyle</surname>
+	    <affiliation>
+             <address><email>aboyle@aboyle.com</email></address>
+	    </affiliation>
+          </author>
+          <author lang="en"> 
+            <firstname>Loban</firstname> 
+            <surname>Rahman</surname> 
+	    <affiliation>
+             <address><email>loban@earthling.net</email></address>
+	    </affiliation>
+          </author>
+	  <author lang="en">
+	    <firstname>Davyd</firstname><surname>Madeley</surname>
+	    <affiliation>
+	     <orgname>GNOME Project</orgname>
+	     <address><email>davyd@madeley.id.au</email></address>
+	    </affiliation>
+	  </author>
+
+	    <!-- This is appropriate place for other contributors: translators, maintainers, etc. Commented out by default.
+	    <othercredit role="translator">
+		<firstname>Latin</firstname> 
+		<surname>Translator 1</surname> 
+		<affiliation> 
+		    <orgname>Latin Translation Team</orgname> 
+		    <address> <email>translator@gnome.org</email> </address> 
+		</affiliation>
+		<contrib>Latin translation</contrib>
+	    </othercredit>
+	    -->
+	</authorgroup>
+	
+	<releaseinfo revision="2.26" role="review"/>
+
+	<revhistory>
+	    <revision lang="en">
+	      <revnumber>Version 2.12</revnumber>
+	      <date>September 2005</date>
+	      <revdescription>
+	       <para role="author" lang="en">Davyd Madeley</para>
+	      </revdescription>
+	    </revision>
+	    <revision lang="en">
+	      <revnumber>Version 2.10</revnumber>
+	      <date>March 2005</date>
+	      <revdescription>
+	       <para role="author" lang="en">Davyd Madeley</para>
+	      </revdescription>
+	    </revision>
+	    <revision lang="en">
+		<revnumber>Version 2.8</revnumber> 
+		<date>September 2004</date> 
+		<revdescription> 
+                    <para role="author" lang="en">Angela Boyle</para>
+                    <para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+	    </revision>
+	    <revision lang="en">
+		<revnumber>Sticky Notes Applet Manual V2.3</revnumber> 
+		<date>February 2004</date> 
+		<revdescription> 
+                    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+                    <para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+	    </revision>
+	    <revision lang="en"> 
+		<revnumber>Sticky Notes Applet Manual V2.2</revnumber> 
+		<date>November 2003</date> 
+		<revdescription>
+                    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+                    <para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+	    </revision>
+	    <revision lang="en"> 
+		<revnumber>Sticky Notes Applet Manual V2.1</revnumber> 
+		<date>August 2003</date> 
+		<revdescription> 
+                    <para role="author" lang="en">Sun GNOME Documentation Team</para>
+                    <para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+	    </revision>
+	    <revision lang="en"> 
+		<revnumber>Sticky Notes Applet Manual V2.0</revnumber> 
+		<date>May 2003</date> 
+		<revdescription> 
+		    <para role="author" lang="en">Loban A Rahman
+			<email>loban@earthling.net</email></para> 
+		    <para role="publisher"/> 
+		</revdescription> 
+	    </revision>
+	</revhistory> 
+	
+	<releaseinfo>Denna handbok beskriver version 2.12 av Klisterlappar.</releaseinfo> 
+	
+	<legalnotice> 
+	    <title>Återkoppling</title> 
+	    <para>För att rapportera ett fel eller komma med förslag angående programmet <application>Klisterlappar</application> eller denna handbok, följ anvisningarna på <ulink url="ghelp:gnome-feedback" type="help">GNOME:s återkopplingssida</ulink>.</para>
+	</legalnotice> 
+    </articleinfo> 
+    
+    <indexterm lang="en"> 
+	<primary>Sticky Notes</primary> 
+    </indexterm> 
+
+<sect1 id="stickynotes-introduction">
+  <title>Introduktion</title>
+  <figure id="stickynotes-fig">
+    <title>Klisterlappar</title>
+    <screenshot>
+      <mediaobject lang="en">
+        <imageobject>
+          <imagedata fileref="figures/stickynotes_applet.png" format="PNG"/>
+        </imageobject>
+        <textobject><phrase>Shows Sticky Notes</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+
+  <para>Panelprogrammet <application>Klisterlappar</application> låter dig skapa, visa, och hantera klisterlappar på ditt skrivbord. Du kan redigera titeln, innehållet, dimensionerna, och stilen på klisterlapparna. När panelen startas om, till exempel när du loggar ut och in igen kommer alla klisterlappar som har sparats och som öppnas igen, att få samma position med samma dimensioner och stil.</para>
+
+  <para>För att lägga till <application>Klisterlappar</application> till en panel, högerklicka på panelen, välj sedan <guimenuitem>Lägg till i panel</guimenuitem>. Välj <application>Klisterlappar</application> i dialogrutan <application>Lägg till i panelen</application>, klicka sedan på <guibutton>OK</guibutton>.</para>
+</sect1>
+    
+<sect1 id="stickynotes-usage"> 
+  <title>Användning av Klisterlappar</title>
+
+  <sect2 id="stickynotes-show-hide">
+   <title>Visa och dölj klisterlappar</title>
+   <para>För att dölja alla dina lappar, klicka antingen på skrivbordet eller högerklicka på panelprogrammet <application>Klisterlappar</application> och välj <guimenuitem>Dölj lappar</guimenuitem>.</para>
+    <para>För att visa alla dina lappar, klicka på panelprogrammet <application>Klisterlappar</application>.</para>
+  </sect2>
+
+  <sect2 id="stickynotes-create-note">
+    <title>Skapa en klisterlapp</title>
+  <figure id="stickynotes-using-right-new-fig">
+    <title>skapa en ny klisterlapp</title>
+    <screenshot>
+      <mediaobject lang="en">
+        <imageobject>
+          <imagedata fileref="figures/stickynote-right-menu-new.png" format="PNG"/>
+        </imageobject>
+        <textobject><phrase>creating a new sticky note</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+   </figure>
+    <para>Du kan skapa en klisterlapp genom att högerklicka på klisterlappsikonen och välja <guilabel>Ny lapp</guilabel>, eller genom att dubbelklicka på panelprogrammet.</para>
+    <para>Skapandet av en lapp gör att alla dolda lappar kommer att visas.</para>
+  </sect2>
+
+  <sect2 id="stickynotes-lock-notes">
+    <title>Lås och lås upp klisterlappar</title>
+    <para>Du kan låsa eller låsa upp alla klisterlappar samtidigt, eller så kan du låsa eller låsa upp individuella klisterlappar. Låsa en klisterlapp förhindrar att du ändrar lappens innehåll av misstag.</para>
+    <variablelist>
+      <varlistentry>
+        <term lang="en"><phrase>To Lock or Unlock All Sticky Notes</phrase></term>
+        <listitem>
+  <figure id="stickynotes-using-right-lock-fig">
+    <title>Högerklicka på ikonen</title>
+    <screenshot>
+      <mediaobject lang="en">
+        <imageobject>
+          <imagedata fileref="figures/stickynote-right-menu-lock.png" format="PNG"/>
+        </imageobject>
+        <textobject><phrase>Right Clicking on the Icon</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+          <para>För att låsa alla klisterlappar så att lapparna inte kan redigeras, välj <guimenuitem>Lås lappar</guimenuitem> från ikonens högerklicksmeny så att det visas en bock bredvid den. För att låsa upp alla klisterlappar, välj <guimenuitem>Lås lappar</guimenuitem> från ikonens högerklicksmeny igen så att bocken bredvid den försvinner.</para>
+          <para>Observera att alla panelprogramm har objektet <guimenuitem>Lås till panel</guimenuitem> i högerklicksmenyn, vilket låser positionen på panelprogrammet i panelen. Blanda inte ihop det här med objektet <guimenuitem>Lås lappar</guimenuitem>.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term lang="en"><phrase>To Lock or Unlock Individual Sticky Notes</phrase></term>
+        <listitem><para>För att låsa en individuell klisterlapp, högerklicka på lappens titel och välj <guimenuitem>Lås lapp</guimenuitem> från popuppmenyn. För att låsa upp en individuell lapp, högerklicka på lappens titel och välj <guimenuitem>Lås lapp</guimenuitem> från popuppmenyn igen. Du kan även växla lås/lås upp-tillståndet för en klisterlapp genom att klicka på låsknappen i vänstra överkanten av klisterlappen.</para></listitem>
+      </varlistentry>
+    </variablelist>
+  </sect2>
+
+  <sect2 id="stickynotes-delete-notes">
+    <title>Ta bort klisterlappar</title>
+    <para>Du kan ta bort alla klisterlappar på samma gång, eller ta bort individuella klisterlappar.</para>
+    <variablelist>
+      <varlistentry>
+        <term>Ta bort alla klisterlappar</term>
+        <listitem><para>För att ta bort alla klisterlappar, välj <guimenuitem>Ta bort lappar</guimenuitem> från ikonens högerklicksmeny. En bekräftelsedialog kommer att visas; klicka på knappen <guibutton>Ta bort alla</guibutton> för att bekräfta borttagningen.</para></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Ta bort individuella klisterlappar</term>
+        <listitem><para>För att ta bort en individuell klisterlapp, högerklicka på lappens titel och välj <guimenuitem>Ta bort lapp</guimenuitem> från popuppmenyn. Du kan även ta bort en klisterlapp genom att klicka på <guibutton>x</guibutton> i höger överkant.</para></listitem>
+      </varlistentry>
+    </variablelist>
+  </sect2>
+
+</sect1>
+
+<sect1 id="stickynotes-advanced-settings"> 
+  <title>Inställningar</title>
+  
+  <figure id="stickynotes-prefs-fig">
+    <title>Inställningar för Klisterlappar</title>
+    <screenshot>
+      <mediaobject lang="en">
+        <imageobject>
+          <imagedata fileref="figures/stickynotes-prefs.png" format="PNG"/>
+        </imageobject>
+        <textobject><phrase>Shows Sticky Notes preferences</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+
+  <sect2 id="stickynotes-size">
+    <title>Justera storleken</title> 
+    <para>För att konfigurera standardstorleken för alla klisterlappar, högerklicka på klisterlappsikonen och välj <guimenu>Inställningar</guimenu> från popuppmenyn. Dialogrutan <application>Inställningar för klisterlappar</application> kommer att visas.</para>
+    <variablelist> 
+      <varlistentry> 
+        <term lang="en"><guilabel>Width</guilabel></term> 
+        <listitem><para>Använd den här väljaren för att ange standardbredden för nya klisterlappar, i bildpunkter.</para></listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Height</guilabel></term> 
+        <listitem><para>Använd den här väljaren för att ange standardhöjden för nya klisterlappar, i bildpunkter.</para></listitem>
+      </varlistentry>
+    </variablelist>
+  </sect2>
+
+  <sect2 id="stickynotes-color">
+    <title>Ändra färg och typsnitt</title>
+    <para>För att konfigurera färgen och typsnittet för alla klisterlappar, högerklicka på ikonen och välj <guimenu>Inställningar</guimenu> från popuppmenyn. Dialogrutan <application>Inställningar för klisterlappar</application> kommer att visas.</para>
+    <variablelist>
+      <varlistentry>
+        <term lang="en"><guilabel>Font Color</guilabel></term>
+	<listitem>
+	 <para>Klicka på färgväljaren för att visa färgväljardialogen. Använd färghjulet eller väljaren för att välja standardtypsnittsfärgen för klisterlappar.</para>
+	 <para>Om du har valt <guilabel>Använd färg från systemtemat</guilabel>, kommer de aktuella temafärgerna att användas och du kommer inte att kunna välja nya standardvärden.</para>
+	</listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Note Color</guilabel></term> 
+        <listitem>
+          <para>Klicka på färgväljaren för att visa färgväljardialogen. Använd färghjulet eller väljaren för att välja standardbasfärgen för klisterlappar.</para>
+          <para>Om du har valt <guilabel>Använd färg från systemtemat</guilabel>, kommer de aktuella temafärgerna att användas och du kommer inte att kunna välja nya standardvärden.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Font</guilabel></term> 
+        <listitem>
+          <para>Klicka på typsnittsväljaren för att visa typsnittsväljardialogen. Använd listrutorna för att välja standardtypsnittet för klisterlappar.</para>
+	  <para>Om du har valt <guilabel>Använd typsnitt från systemtemat</guilabel>, kommer det aktuella programtypsnittet som är inställt i typsnittsinställningarna att användas och du kommer inte att kunna välja nya standardvärden.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist> 
+  </sect2>
+  <sect2 id="stickynotes-behavior">
+    <title>Anpassa beteendet</title>
+    <para>För att anpassa beteendet för <application>Klisterlappar</application>, högerklicka på ikonen och välj <guimenu>Inställningar</guimenu> från popuppmenyn. Dialogrutan <application>Inställningar för klisterlappar</application> kommer att visas.</para>
+    <para>För att specificera att klisterlappar ska vara synliga på alla arbetsytor på skrivbordet, välj <guilabel>Placera lappar på alla arbetsytor</guilabel> i dialogrutan <guilabel>Inställningar för klisterlappar</guilabel>. Om du använder flera arbetsytor kommer det här göra att alla klisterlappar kommer att vara synliga på alla arbetsytor.</para>
+
+    <para>Alternativet <guilabel>Tvinga standardfärg och standardtypsnitt på lappar</guilabel>, kommer att tvinga att alla klisterlappar på ditt skrivbord att använda färgen och typsnittet som angivits i <guilabel>Standardlappegenskaper</guilabel> ovanför (se <xref linkend="stickynotes-color"/>).</para>
+  </sect2>
+
+  </sect1>
+
+  <sect1 id="stickynotes-settings-individual"> 
+    <title>Anpassa individuella lappar</title>
+  <figure id="stickynotes-note-prefs-fig">
+    <title>Inställningar för klisterlappar</title>
+    <screenshot>
+      <mediaobject lang="en">
+        <imageobject>
+          <imagedata fileref="figures/stickynotes-note-prefs.png" format="PNG"/>
+        </imageobject>
+        <textobject><phrase>a Sticky Note's preferences</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+    <para>Du kan anpassa utseendet för varje individuell klisterlapp. Det här kan vara användbart för att visuellt särskilja olika typer av lappar. För att konfigurera inställningarna för en individuell klisterlapp, högerklicka på lappens titel och välj <guimenu>Egenskaper</guimenu> från popuppmenyn. Dialogrutan <application>Egenskaper för klisterlapp</application> kommer att visas.</para>
+    <variablelist> 
+      <varlistentry> 
+        <term lang="en"><guilabel>Title</guilabel></term> 
+        <listitem><para>Använd den här textrutan för att ange titeln för klisterlappen.</para></listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Use default color</guilabel></term> 
+        <listitem><para>Välj det här alternativet för att använda standardbasfärgen för den här klisterlappen. För information om hur man ställer in standardbasfärgen, se <xref linkend="stickynotes-color"/>.</para></listitem>
+      </varlistentry>
+      <varlistentry>
+       <term lang="en"><guilabel>Font Color</guilabel></term>
+       <listitem>
+        <para>Klicka på färgväljaren för att visa färgväljardialogen. Använd färghjulet eller väljaren för att välja typsnittsfärgen för den här klisterlappen.</para>
+       </listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Note Color</guilabel></term> 
+        <listitem><para>Klicka på färgväljaren för att visa färgväljardialogen. Använd färghjulet eller väljaren för att välja basfärgen för den här klisterlappen.</para></listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Use default font</guilabel></term> 
+        <listitem><para>Välj det här alternativet för att använda standardtypsnittet för den här klisterlappen. För information om hur man ställer in standardtypsnittet, se <xref linkend="stickynotes-color"/>.</para></listitem>
+      </varlistentry>
+      <varlistentry> 
+        <term lang="en"><guilabel>Font</guilabel></term> 
+        <listitem><para>Klicka på typsnittsväljaren för att visa typsnittsväljardialogen. Använd listrutorna för att välja typsnittet för den här klisterlappen.</para></listitem>
+      </varlistentry>
+    </variablelist> 
+</sect1>
+</article>

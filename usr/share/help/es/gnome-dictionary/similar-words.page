@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="similar-words" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="sources"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ver resultados relacionados en otros diccionarios.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Palabras similares</title>
+
+  <p><app>Diccionario</app> sólo mostrará la definición de uno de sus diccionarios. Para comprobar si hay resultados en otros diccionarios:</p>
+
+  <steps>
+    <item>
+      <p><link xref="definition">Busque</link> el término que quiere.</p>
+    </item>
+    <item>
+      <p>Si la barra latera no está visible todavía, seleccione <guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Palabras similares</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>La barra lateral de <gui>Palabras similares</gui> mostrará resultados de búsqueda para otros diccionarios en la fuente de diccionarios seleccionada. Para ver la palabra similar, pulse dos veces en la entrada.</p>
+    </item>
+  </steps>
+
+</page>

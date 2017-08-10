@@ -1,0 +1,17 @@
+1f7965887af21c2f5807f08c605ca5c3  usr/bin/vino-passwd
+7d46a5b84da7e1a8f69938327e1ff1df  usr/bin/vino-preferences
+af503cb10d58314d4423142ab34fce40  usr/lib/vino/vino-server
+1149c67a8c33d951568b59c8cc64aac8  usr/share/GConf/gsettings/org.gnome.Vino.convert
+ce6d09924705f8e6174de1de3fd0a148  usr/share/applications/vino-preferences.desktop
+b51d17aee13d9b230fbf89a1772df61c  usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service
+3abb2b558ecf37122d0835af45ecb533  usr/share/doc/vino/AUTHORS
+7e5f882c8518c489320b9eb83ce18004  usr/share/doc/vino/NEWS.gz
+4816cc3e3b9a7dc3f3c7e86e25821973  usr/share/doc/vino/README
+03b16c7d9df9e9fe816c865bd34e45bd  usr/share/doc/vino/changelog.Debian.gz
+e09407eec72e89010aff477a0293be23  usr/share/doc/vino/copyright
+1864b2a25ec61bc55f90683d8d40d5fb  usr/share/glib-2.0/schemas/org.gnome.Vino.enums.xml
+c414fdbf3dbd920dcf0ea1d0083358b0  usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
+0947110c1f51afefed3af6ea3c3b783d  usr/share/telepathy/clients/Vino.client
+16193fec3041ef2bda74b57b9e6dcae3  usr/share/vino/vino-preferences.ui
+72eaec0e15cfd2904469d3722312f4e4  usr/share/vino/vino-prompt.ui
+c6675483b3eff3039972c570b51b15e4  usr/share/vino/webservices

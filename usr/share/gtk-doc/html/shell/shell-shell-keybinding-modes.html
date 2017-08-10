@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>shell-keybinding-modes: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="ch06.html" title="Integration helpers and utilities">
+<link rel="prev" href="ShellGlobal.html" title="ShellGlobal">
+<link rel="next" href="ShellWM.html" title="ShellWM">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#shell-shell-keybinding-modes.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#shell-shell-keybinding-modes.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch06.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ShellGlobal.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ShellWM.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="shell-shell-keybinding-modes"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="shell-shell-keybinding-modes.top_of_page"></a>shell-keybinding-modes</span></h2>
+<p>shell-keybinding-modes</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="shell-shell-keybinding-modes.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="shell-shell-keybinding-modes.html#ShellKeyBindingMode" title="enum ShellKeyBindingMode">ShellKeyBindingMode</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="shell-shell-keybinding-modes.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GFlags
+    <span class="lineart">╰──</span> ShellKeyBindingMode
+</pre>
+</div>
+<div class="refsect1">
+<a name="shell-shell-keybinding-modes.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="shell-shell-keybinding-modes.functions_details"></a><h2>Functions</h2>
+</div>
+<div class="refsect1">
+<a name="shell-shell-keybinding-modes.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="ShellKeyBindingMode"></a><h3>enum ShellKeyBindingMode</h3>
+<p>Controls in which GNOME Shell states a keybinding should be handled.</p>
+<div class="refsect3">
+<a name="id-1.7.5.7.2.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-NONE:CAPS"></a>SHELL_KEYBINDING_MODE_NONE</p></td>
+<td class="enum_member_description">
+<p>block keybinding</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-NORMAL:CAPS"></a>SHELL_KEYBINDING_MODE_NORMAL</p></td>
+<td class="enum_member_description">
+<p>allow keybinding when in window mode,
+    e.g. when the focus is in an application window</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-OVERVIEW:CAPS"></a>SHELL_KEYBINDING_MODE_OVERVIEW</p></td>
+<td class="enum_member_description">
+<p>allow keybinding while the overview
+    is active</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-LOCK-SCREEN:CAPS"></a>SHELL_KEYBINDING_MODE_LOCK_SCREEN</p></td>
+<td class="enum_member_description">
+<p>allow keybinding when the screen
+    is locked, e.g. when the screen shield is shown</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-UNLOCK-SCREEN:CAPS"></a>SHELL_KEYBINDING_MODE_UNLOCK_SCREEN</p></td>
+<td class="enum_member_description">
+<p>allow keybinding in the unlock
+    dialog</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-LOGIN-SCREEN:CAPS"></a>SHELL_KEYBINDING_MODE_LOGIN_SCREEN</p></td>
+<td class="enum_member_description">
+<p>allow keybinding in the login screen</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-MESSAGE-TRAY:CAPS"></a>SHELL_KEYBINDING_MODE_MESSAGE_TRAY</p></td>
+<td class="enum_member_description">
+<p>allow keybinding while the message
+    tray is popped up</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-SYSTEM-MODAL:CAPS"></a>SHELL_KEYBINDING_MODE_SYSTEM_MODAL</p></td>
+<td class="enum_member_description">
+<p>allow keybinding when a system modal
+    dialog (e.g. authentification or session dialogs) is open</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-LOOKING-GLASS:CAPS"></a>SHELL_KEYBINDING_MODE_LOOKING_GLASS</p></td>
+<td class="enum_member_description">
+<p>allow keybinding in looking glass</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-TOPBAR-POPUP:CAPS"></a>SHELL_KEYBINDING_MODE_TOPBAR_POPUP</p></td>
+<td class="enum_member_description">
+<p>allow keybinding while a top bar menu
+    is open</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="SHELL-KEYBINDING-MODE-ALL:CAPS"></a>SHELL_KEYBINDING_MODE_ALL</p></td>
+<td class="enum_member_description">
+<p>always allow keybinding</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

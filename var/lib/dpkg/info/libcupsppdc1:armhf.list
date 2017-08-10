@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcupsppdc.so.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcupsppdc1
+/usr/share/doc/libcupsppdc1/copyright
+/usr/share/doc/libcupsppdc1/changelog.Debian.gz

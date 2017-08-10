@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Wacom Tablet
+Comment=Set button mappings and adjust stylus sensitivity for graphics tablets
+Exec=unity-control-center wacom
+Icon=input-tablet
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel;
+OnlyShowIn=Unity;
+X-Unity-Settings-Panel=wacom
+# Translators: those are keywords for the wacom tablet control-center panel
+Keywords=Tablet;Wacom;Stylus;Eraser;Mouse;
+X-Ubuntu-Gettext-Domain=unity-control-center

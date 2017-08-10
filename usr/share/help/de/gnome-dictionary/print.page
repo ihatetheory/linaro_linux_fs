@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Druckvorschau und Definitionen drucken.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eine Definition drucken</title>
+
+  <p>Sie können eine Definition auf Papier oder in eine Datei drucken. Sie sollten vor dem Drucken eine Vorschau der Definition betrachten, um zu prüfen, ob der Text auf die Seite passt, insbesondere wenn Sie die Größe der <link xref="print-font">Druckschrift</link> verändert haben.</p>
+
+  <section id="preview">
+    <title>Druckvorschau</title>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Datei</gui> <gui style="menuitem">Vorschau</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Ein Fenster der Druckvorschau erscheint, welches die Definition exakt so anzeigt, wie diese gedruckt werden wird.</p>
+      </item>
+      <item>
+	<p>Benutzen Sie die Werkzeugleiste, um Seiten durchzusehen sowie die Ansicht und Seitenhöhe anzupassen.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf <gui style="button">Dieses Dokument drucken</gui>, um die Definition zu drucken oder schließen Sie das Fenster, um die Vorschau zu beenden.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Der Druckknopf in der Werkzeugleiste funktioniert manchmal nicht. Falls er bei Ihnen nicht funktioniert, schließen Sie bitte das Fenster und wählen Sie <guiseq><gui style="menu">Datei</gui> <gui style="menuitem">Drucken</gui></guiseq> aus.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Drucken</title>
+
+    <p>Sie müssen <link href="help:gnome-help/printing">einen Drucker konfiguriert haben</link>, um auf Papier drucken zu können.</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Datei</gui> <gui style="menuitem">Drucken</gui> <gui style="tab">Allgemein</gui></guiseq> aus.</p>
+      </item>
+      <item>
+        <p>Wählen Sie den Drucker aus der Liste aus, den Sie nutzen möchten oder wählen Sie <gui href="help:gnome-help/print-to-file">Eine Datei drucken</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie Ihre <link href="help:gnome-help/printing#paper">Druckeinstellungen</link>.</p>
+      </item>
+      <item>
+        <p>Drücken Sie <gui style="button">Drucken</gui>, um eine Definition zu drucken.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

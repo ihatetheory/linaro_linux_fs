@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+<id type="desktop">evolution.desktop</id>
+<licence>CC0</licence>
+<description>
+<p>Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.</p>
+<p xml:lang="as">Evolution এটা ব্যক্তিগত তথ্য ব্যৱস্থাপনা এপ্লিকেচন যি অনুকূলিত মেইল, কেলেন্ডাৰিং আৰু ঠিকনা বহীৰ কাৰ্য্যকৰিতা প্ৰদান কৰে।</p>
+<p xml:lang="bg">Evolution е програма за управление на лична информация, която предоставя поща, календар, адресник и др.</p>
+<p xml:lang="ca">L'Evolution és una aplicació de gestió d'informació personal que proporciona funcions integrades de correu, de calendari i de llibreta d'adreces.</p>
+<p xml:lang="ca@valencia">L'Evolution és una aplicació de gestió d'informació personal que proporciona funcions integrades de correu, de calendari i de llibreta d'adreces.</p>
+<p xml:lang="cs">Evolution je aplikace sloužící ke správě osobních informací. Pro tento účel poskytuje integrovaný e-mail, kalendář a adresář.</p>
+<p xml:lang="da">Evolution er et program til håndtering af personlig information som indeholder integreret funktionalitet til e-post, kalender og adressebøger.</p>
+<p xml:lang="de">Evolution ist eine Anwendung zur Verwaltung persönlicher Informationen, die ein E-Mail-Programm, einen Kalender und ein Adressbuch enthält.</p>
+<p xml:lang="el">Το Evolution είναι μια προσωπική εφαρμογή διαχείρισης πληροφοριών που παρέχει ολοκληρωμένη λειτουργικότητα αλληλογραφίας, ημερολογίου και βιβλίου διευθύνσεων.</p>
+<p xml:lang="es">Evolution es una aplicación de gestión de información personal que integra funcionalidades de correo, calendario y libreta de direcciones.</p>
+<p xml:lang="eu">Evolution informazio pertsonala kudeatzeko aplikazio bat da, bateratutako posta elektronikoa, egutegia eta helbide-liburuaren funtzionalitatea eskaintzen du.</p>
+<p xml:lang="fi">Evolution on henkilökohtaisen tiedon hallintasovellus, joka tarjoaa sähköpostin, kalenterin ja osoitekirjan.</p>
+<p xml:lang="fr">Evolution est une application de gestion des informations personnelles qui regroupe les fonctions de courriel, d'agenda et de carnet d'adresses.</p>
+<p xml:lang="gl">Evolution é un aplicativo de xestión de información persoal que lle fornece funcionalidades integradas de correo electrónico, calendario e axenda de enderezos.</p>
+<p xml:lang="gu">Evolution એ એક વ્યક્તિગત જાણકારી સંચાલન કાર્યક્રમ છે કે જે એકત્રિત થયેલ મેઇલ, કૅલેન્ડરીંગ અને સરનામાં પુસ્તિકા કાર્યક્ષમતાને પૂરુ પાડે છે.</p>
+<p xml:lang="hi">एवोल्यूशन निजी सूचना प्रबंधन अनुप्रयोग है जो एकीकृत मेल, कैलेंडरिंग और पता पुस्तिका कार्यशीलता प्रदान करता है.</p>
+<p xml:lang="hu">Az Evolution egy személyes információkezelő alkalmazás, amely integrált levelező, naptárkezelő és címjegyzékfunkciókat biztosít.</p>
+<p xml:lang="id">Evolution adalah aplikasi manajemen informasi personal yang menyediakan fungsionalitas buku alamat, kalender, dan surel terintegrasi.</p>
+<p xml:lang="it">Evolution è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di mail, calendario e rubrica.</p>
+<p xml:lang="ja">Evolution は個人情報管理アプリケーションで、メールやカレンダー、アドレス帳の機能を統合した環境を提供します。</p>
+<p xml:lang="kn">Evolution ಒಂದು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ನಿರ್ವಹಣಾ ಅನ್ವಯವಾಗಿದ್ದು, ಇದು ಸಂಯೋಜಿತ ಅಂಚೆ, ಕ್ಯಾಲೆಂಡರ್‌ ವ್ಯವಸ್ಥೆ ಮತ್ತು ವಿಳಾಸ ಪುಸ್ತಕದ ಸೌಲಭ್ಯವನ್ನು ಒದಗಿಸುತ್ತದೆ.</p>
+<p xml:lang="ko">에볼루션은 개인 정보 관리 프로그램으로 메일, 달력, 주소록 기능이 통합되어 있습니다.</p>
+<p xml:lang="lt">Evolution yra asmeninė informacijos valdymo programa, kuri suteikia integruotą pašto, kalendoriaus ir adresų knygos funkcionalumą.</p>
+<p xml:lang="lv">Evolution ir personīgās informācijas pārvaldības lietotne, kas sniedz integrētu pasta, kalendāra un adrešu grāmatas funkcionalitāti.</p>
+<p xml:lang="mr">इवोल्युशन वैयक्तिक माहिती व्यवस्थापन ॲप्लिकेशन आहे जे एकत्रीत मेल, दिनदर्शिका आणि पत्ता पुस्तिका कार्यक्षमता पुरवते.</p>
+<p xml:lang="nb">Evolution er et program for håndtering av personlig informasjon som gir deg integrert e-post, kalender og adressebokfunksjonalitet.</p>
+<p xml:lang="nl">Evolution is een programma voor het beheren van persoonlijke informatie met geïntegreerde e-mail-, agenda- en adresboekfunctionaliteit.</p>
+<p xml:lang="pl">Program Evolution pomaga zarządzać informacjami osobistymi, oferując funkcje klienta poczty e-mail, kalendarza oraz książki adresowej. </p>
+<p xml:lang="pt">O Evolution é uma aplicação de gestão de informação pessoal que disponibiliza funcionalidades de email, calendários e livros de endereços integrados.</p>
+<p xml:lang="pt_BR">Evolution é um aplicativo de gerenciamento de informações pessoais que provê funcionalidades de correio, agenda e catálogo de endereços.</p>
+<p xml:lang="ru">Evolution — это приложение для управления персональной информацией, которое включает в себя почту, календарь и адресную книгу.</p>
+<p xml:lang="sl">Program Evolution je osebni upravljalnik podatkov, povezanih z elektronsko pošto, koledarjem in imenikom.</p>
+<p xml:lang="sr">Еволуција је програм за управљање личним подацима који обезбеђује обједињену функционалност поште, календара и адресара.</p>
+<p xml:lang="sr@latin">Evolucija je program za upravljanje ličnim podacima koji obezbeđuje objedinjenu funkcionalnost pošte, kalendara i adresara.</p>
+<p xml:lang="sv">Evolution är ett program som hanterar personlig information, med funktionalitet så som E-post, Kalender och Adressbok.</p>
+<p xml:lang="ta">Evolution ஒரு தனிப்பட்ட தகவல் நிர்வாகப் பயன்பாடு, இது ஒருங்கிணைந்த அஞ்சல், நாள்காட்டி மற்றும் முகவரிப்புத்தக செயலம்சங்களை வழங்குகிறது.</p>
+<p xml:lang="te">ఎవాల్యూషన్ అనునది వ్యక్తిగత సమాచర నిర్వహణా అనువర్తనము దానియందు మెయిల్, కాలెండర్ మరియు చిరునామా పుస్తకం వంటివి అందుబాటులో ఉంటాయి.</p>
+<p xml:lang="uk">Evolution — програма керування особистими відомостями, яка забезпечує спільні можливості пошти, календаря та адресної книги.</p>
+<p xml:lang="zh_CN">Evolution 是一款个人信息管理应用，提供集成的邮件、日历和地址簿功能。</p>
+<p xml:lang="zh_HK">Evolution 是一套個人資料管理應用程式，提供了整合郵件、行事曆和通訊錄等功能。</p>
+<p xml:lang="zh_TW">Evolution 是一套個人資訊管理應用程式，提供了整合郵件、行事曆和通訊錄等功能。</p>
+<p>Evolution supports a wide range of industry standard data formats and network protocols for information exchange, with an emphasis on standards compliance and security. Evolution can also integrate smoothly with Microsoft Exchange by way of the "Exchange Web Services" (EWS) extension.</p>
+<p xml:lang="as">Evolution এ তথ্য বিনিময়ৰ বাবে ইনডাচস্ট্ৰি প্ৰামাণিক তথ্য বিন্যাসসমূহ আৰু নেটৱৰ্ক প্ৰটোকলসমূহৰ এটা বিস্তাৰ সমৰ্থন কৰে, প্ৰামাণিক সংগতি আৰু সুৰক্ষাৰ ওপৰত প্ৰাথমিকতাৰ সৈতে। Evolution এ লগতে "Exchange Web Services" (EWS) সম্প্ৰসাৰনৰ সহায়ত সহজতে Microsoft Exchange ৰ সৈতে অনুকূলন কৰিব পাৰে।</p>
+<p xml:lang="bg">Evolution поддържа широк набор от формати за данни, както и мрежови протоколи за обмен на информация с акцент върху сигурността и спазването на стандартите. Evolution също може да работи отлично с Microsoft Excahnge чрез разширението „Уеб услуги за Exchange“ (EWS).</p>
+<p xml:lang="ca">L'Evolution és compatible amb un gran ventall de formats estàndard de dades i de protocols de xarxa per a l'intercanvi d'informació, amb un èmfasi en el compliment d'estàndards i de seguretat. L'Evolution també pot integrar-se sense problemes amb el Microsoft Exchange amb l'extensió «Exchange Web Services» (EWS).</p>
+<p xml:lang="ca@valencia">L'Evolution és compatible amb un gran ventall de formats estàndard de dades i de protocols de xarxa per a l'intercanvi d'informació, amb un èmfasi en el compliment d'estàndards i de seguretat. L'Evolution també pot integrar-se sense problemes amb el Microsoft Exchange amb l'extensió «Exchange Web Services» (EWS).</p>
+<p xml:lang="cs">Evolution podporuje širokou škálu datových formátů a síťových protokolů sloužících k výměně informací, vše s důrazem na dodržování standardů a bezpečnost. Lze jej také hladce integrovat s Microsoft Exchange pomocí rozšíření EWS (Exchange Web Service).</p>
+<p xml:lang="da">Evolution understøtter en bred vifte af industristandardiserede dataformater og netværksprotokoller til informationsudveksling, med fokus på overensstemmelse med standarderne og sikkerhed. Evolution kan også på nem vis integreres med Microsoft Exchange ved hjælp at "Exchange Web Services"-udvidelsen (EWS).</p>
+<p xml:lang="de">Evolution unterstützt eine Vielzahl von industriellen Standard-Formaten und Netzwerk-Protokollen zum Informationsaustausch, mit einem Schwerpunkt auf Standard-Konformität und Sicherheit. Evolution arbeitet außerdem problemlos mit Microsoft Exchange mittels der Erweiterung »Exchange Web Services« (EWS) zusammen.</p>
+<p xml:lang="el">Το Evolution υποστηρίζει μια ευρεία περιοχή βιομηχανιών προτύπων μορφών δεδομένων και πρωτοκόλλων δικτύου για ανταλλαγή πληροφοριών, με έμφαση στα πρότυπα συμμόρφωσης και ασφαλείας. Το Evolution μπορεί επίσης να ενσωματώσει ομαλά το Microsoft Exchange μέσα από την επέκταση "Exchange Web Services" (EWS).</p>
+<p xml:lang="es">Evolution soporta un amplio rango de estándares industriales de formatos de datos y protocolos de red para intercambiar información, haciendo hincapié en el cumplimiento de estándares y de seguridad. Evolution también se puede integrar con Microsoft Exchange usando la extensión «Exchange Web Services» (EWS).</p>
+<p xml:lang="eu">Evolution-ek industriaren datu-formatuen eta sareko protokoloen barruti handia onartzen du informazioa trukatzeko, eta bereziki estandarrak eta segurtasuna betetzen du. Evolution-ek Microsoft Exchange-rekin ere bateratzen da "Exchange Web Services" (EWS) hedapenaren bidez.</p>
+<p xml:lang="fi">Evolution tukee lukuisia standardeja tiedostomuotoja ja verkkoprotokollia tiedonvaihtoa varten, painoarvoa on asetettu erityisesti standardien noudattamiseen ja tietoturvaan. Evolution voi myös integroitua Microsoft Exchange -palvelimeen Exchange Web Services (EWS) -laajennuksen avulla.</p>
+<p xml:lang="fr">Evolution prend en charge un large éventail de formats et de protocoles réseaux standards de l'industrie de l'échange d'informations, avec un fort accent mis sur la compatibilité et la sécurité. Evolution peut aussi facilement s'intégrer à Microsoft Exchange gràce à l'extension « Exchange Web Services » (EWS).</p>
+<p xml:lang="gl">Evolution admite un amplo conxunto de formatos de datos estándar na industria e protocolos estándares de intercambio de información, xa que lle fornece un gran apoio ao cumplimento de estándares e seguridade. Evolution tamén pode integrarse perfectamente con Microsoft Exchange empregando a extensión "Exchange Web Services" (EWS).</p>
+<p xml:lang="gu">Evolution એ જાણકારી ફેરબદલ માટે ઇન્ડસ્ટ્રી મૂળભૂત માહિતી બંધારણ અને નેટવર્ક પ્રોટોકોલની વિશાળ સીમાને આધાર આપે છે, મૂળભૂત પાલન અને સુરક્ષા સાથે. Evolution પણ "Exchange Web Services" (EWS) એક્સટેન્શનની રીતે Microsoft એક્સચેન્જ સાથે સરળ રીતે એકત્રિત કરી શકાય છે.</p>
+<p xml:lang="hi">एवोल्यूशन इंडस्ट्री मानक आँकड़ा प्रारूप और सूचना विनिमय के लिए व्यापक परिसर का समर्थन करता है जिसमें संगतता और सुरक्षा पर जोर रहता है. एवोल्यूशन माइक्रोसॉफ़्ट एक्सचेंज के साथ सुगमता से "एक्सचेंज वेब सेवा" (EWS) विस्तार से जुड़ जाता है.</p>
+<p xml:lang="hu">Az Evolution adatcserére használt ipari szabvány adatformátumok és hálózati protokollok széles körét támogatja, a szabványoknak megfelelés és biztonság hangsúlyozásával. Az Evolution képes simán integrálódni a Microsoft Exchange-dzsel, az „Exchange Web Services” (EWS) kiterjesztés révén.</p>
+<p xml:lang="id">Evolution mendukung protokol jaringan dan format data standar industri yang lebar untuk pertukaran informasi, dengan penekanan pada keamanan dan kepatuhan standar. Evolution juga dapat mengintegrasi secara mulus dengan Microsoft Exchange melalui ekstensi "Exchange Web Services" (EWS).</p>
+<p xml:lang="it">Evolution supporta una vasta gamma di formati di dati standard di settore e protocolli di rete per lo scambio di informazioni, con particolare attenzione alla conformità degli standard e alla sicurezza. Evolution può anche integrarsi senza problemi con Microsoft Exchange tramite l'estensione «Servizi web di Exchange» (EWS).</p>
+<p xml:lang="kn">Evolution ಮಾಹಿತಿ ವಿನಿಮಯಕ್ಕಾಗಿ ಶಿಷ್ಟತೆಯ ಅನುಸರಣೆ ಮತ್ತು ಸುರಕ್ಷತೆಗೆ ಒತ್ತುನೀಡುತ್ತಾ, ಒಂದು ವಿಸ್ತಾರ ವ್ಯಾಪ್ತಿಯ ಉದ್ಯಮ ಶಿಷ್ಟ ಮಾಹಿತಿ ವಿನ್ಯಾಸಗಳನ್ನು ಮತ್ತು ಜಾಲಬಂಧ ಪ್ರೊಟೊಕಾಲ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.  "Exchange Web Services" (EWS) ವಿಸ್ತರಣೆಯನ್ನು ಬಳಸಿಕೊಂಡು Microsoft Exchange  ನೊಂದಿಗೂ ಸಹ Evolution ಉತ್ತಮವಾಗಿ ಸಂಯೋಜಿತಗೊಳ್ಳುತ್ತದೆ.</p>
+<p xml:lang="ko">에볼루션은 광범위한 산업 표준 데이터 포맷과 정보 교환용 네트워크 프로토콜을 표준 준수와 보안을 염두에 두고 지원합니다. 또 에볼루션은 "익스체인지 웹 서비스"(EWS) 확장 기능을 이용해 마이크로소프트 익스체인지와 연동할 수도 있습니다.</p>
+<p xml:lang="lt">Evolution palaiko daug standartinių duomenų formatų bei tinklo protokolų apsikeitimui informacija, ypač siekiant suderinamumo su standartais bei saugumo. Evolution taip pat gali sklandžiai integruotis su Microsoft Exchange naudojant „Exchange Web Services“ plėtinį.</p>
+<p xml:lang="lv">Evolution atbalsta plašu industrijas standarta datu formātu un tīkla protokolu spektru informācijas apmaiņai, ar uzsvaru uz atbilstību standartiem un drošību. Evolution var integrēt ar Microsoft Exchange, izmantojot “Exchange Web Services” (EWS) paplašinājumu.</p>
+<p xml:lang="mr">इवोल्युशन औद्योगिक मानक डाटा रूपण आणि नेटवर्क प्रोटोकॉल्सकरिता माहिती अदलाबदलकरिता समर्थन पुरवते, मानकाचे पालन आणि सुरक्षावर भर असते. "एक्सचेंज वेब सर्व्हिसेस" (EWS) एक्सटेंशनमार्फत, इवोल्युशन Microsoft एक्सचेंजसह सहजतेने एकाग्र होते.</p>
+<p xml:lang="nb">Evolution støtter en rekke forskjellige industristandarder for dataformater og nettverksprotokoller for utveksling av informasjon med fokus på standarder og sikkerhet. Evolution kan også integreres med Microsoft Exchange via «Exchange Web Services» (EWS) utvidelsen.</p>
+<p xml:lang="nl">Evolution ondersteunt een groot aantal industriële standaard dataformaten en netwerkprotocollen voor het uitwisselen van informatie, waarbij de nadruk ligt op het overeenstemmen met standaarden en de beveiliging. Evolution kan goed overweg met Microsoft Exchange via de extensie "Exchange Web Services" (EWS).</p>
+<p xml:lang="pl">Program Evolution obsługuje szeroką gamę standardowych formatów zapisu danych i protokołów sieciowych do wymiany informacji. Szczególny nacisk położono na zgodność ze standardami i bezpieczeństwo. Program można także z łatwością zintegrować z systemem pocztowym Microsoft Exchange za pomocą rozszerzenia "Exchange Web Services" (EWS).</p>
+<p xml:lang="pt">O Evolution suporta uma gama alargada de padrões de formato de dados e protocolos de rede para troca de informação, com um enfoque na adequação a standards e na segurança. O Evolution também se pode integrar facilmente com o Microsoft Exchange através da extensão "Exchange Web Services" (EWS).</p>
+<p xml:lang="pt_BR">Evolution tem suporte uma ampla gama de formatos de dados padrão da indústria e protocolos de rede para troca de informações, com ênfase em padrões de conformidade e segurança. O Evolution também pode integrar perfeitamente com o Microsoft Exchange por meio da extensão Exchange Web Services (EWS).</p>
+<p xml:lang="ru">Evolution поддерживает широкий спектр промышленных стандартов форматов данных и сетевых протоколов для информационного обмена с упором на совместимость со стандартами и конфиденциальность. Evolution поддерживает интеграцию с Microsoft Exchange посредством расширения Exchange Web Services (EWS).</p>
+<p xml:lang="sl">Program Evulution podpira širok nabor standardnih podatkovnih zapisov in omrežnih protokolov za izmenjavo podatkov. Poudarjeni so standardi, ki so znani zaradi splošne uporabnosti in varnosti. Evolution podpira tudi povezavo s sistemom Microsoft Exchange preko razširitve EWS - "Exchange Web Services".</p>
+<p xml:lang="sr">Еволуција подржава широк опсег записа индустријских стандардних података и мрежних протокола за размену информација, са нагласком на сагласност стандарда и безебдност. Еволуција може такође глатко да се обједини са Мајкрософтовом разменом посредством проширења „Услуге веб размене“.</p>
+<p xml:lang="sr@latin">Evolucija podržava širok opseg zapisa industrijskih standardnih podataka i mrežnih protokola za razmenu informacija, sa naglaskom na saglasnost standarda i bezebdnost. Evolucija može takođe glatko da se objedini sa Majkrosoftovom razmenom posredstvom proširenja „Usluge veb razmene“.</p>
+<p xml:lang="sv">Evolution stöder ett stort antal dataformat av industristandard och nätverksprotokoll för informationsutbyte, med en tonvikt på att uppfylla standarder och säkerhet. Evolution kan också enkelt användas med Microsoft Exchange genom användning av tilläget "Exchange Web Services" (EWS).</p>
+<p xml:lang="ta">Evolution தொழிற்துறை தரநிலை தரவு வடிவமைப்புகள் பலவற்றையும் தகவல் பரிமாற்றத்துக்கான பிணைய நெறிமுறைகள் பலவற்றையும் ஆதரிக்கிறது. இது இணக்கத்தன்மையையும் பாதுகாப்பையும் முக்கியமான அம்சங்களாகக் கொண்டது. Evolution "Exchange Web Services" (EWS) நீட்டிப்பின் மூலம்Microsoft Exchange உடனும் சுமூகமாக ஒருங்கிணைந்து செயல்படுகிறது.</p>
+<p xml:lang="te">సమాచార మారకం కొరకు ఎవాల్యూషన్ విస్తృత స్థాయి పరిశ్రమ ప్రామాణిక డేటా ఫార్మాట్లకు మరియు నెట్వర్క్ ప్రొటోకాల్సుకు తోడ్పాటునిచ్చును. "ఎక్స్చేంజ్ వెబ్ సర్వీసెస్" (EWS) పొడిగింత విధానంలో Microsoft Exchange తో ఎవాల్యూషన్ కలవగలదు.</p>
+<p xml:lang="uk">Evolution підтримує широкий ряд стандартних форматів даних і мережевих протоколів для обміну інформацією, орієнтуючись на догідливість стандартам і безпеки. Evolution також інтегровано з Microsoft Exchange через розширення "Exchange Web Services" (EWS).</p>
+<p xml:lang="zh_CN">Evolution 支持众多的工业标准数据格式和信息交换的网络协议，并强化了标准兼容性和安全。Evolution 也能与 Microsoft Exchange 通过“Exchange 网络服务”(EWS) 扩展进行顺利集成。</p>
+<p xml:lang="zh_HK">Evolution 支援了用於資訊交換的廣範圍的工業標準資料格式與網絡協定，着重於標準的兼容性與安全性。Evolution 也可以與 Microsoft Exchange 透過「交換網頁服務」(EWS)延伸功能平順的整合。</p>
+<p xml:lang="zh_TW">Evolution 支援了用於資訊交換的廣範圍的工業標準資料格式與網路協定，著重於標準的相容性與安全性。Evolution 也可以與 Microsoft Exchange 透過「交換網頁服務」(EWS)延伸功能平順的整合。</p>
+</description>
+<url type="homepage">https://live.gnome.org/Apps/Evolution</url>
+<screenshots>
+  <screenshot type="default">https://wiki.gnome.org/Apps/Evolution/Screenshots?action=AttachFile&amp;do=get&amp;target=evolution_mail.png</screenshot>
+</screenshots>
+<updatecontact>evolution-hackers_at_gnome.org</updatecontact>
+</application>

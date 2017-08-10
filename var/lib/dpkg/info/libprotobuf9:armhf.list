@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libprotobuf.so.9.0.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libprotobuf9
+/usr/share/doc/libprotobuf9/changelog.Debian.gz
+/usr/share/doc/libprotobuf9/copyright
+/usr/lib/arm-linux-gnueabihf/libprotobuf.so.9

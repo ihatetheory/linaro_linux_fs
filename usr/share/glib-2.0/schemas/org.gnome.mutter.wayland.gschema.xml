@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/mutter/wayland/keybindings/" id="org.gnome.mutter.wayland.keybindings" gettext-domain="@GETTEXT_DOMAIN@">
+    <key type="as" name="switch-to-session-1">
+      <default><![CDATA[['<Primary><Alt>F1']]]></default>
+      <summary>Switch to VT 1</summary>
+    </key>
+    <key type="as" name="switch-to-session-2">
+      <default><![CDATA[['<Primary><Alt>F2']]]></default>
+      <summary>Switch to VT 2</summary>
+    </key>
+    <key type="as" name="switch-to-session-3">
+      <default><![CDATA[['<Primary><Alt>F3']]]></default>
+      <summary>Switch to VT 3</summary>
+    </key>
+    <key type="as" name="switch-to-session-4">
+      <default><![CDATA[['<Primary><Alt>F4']]]></default>
+      <summary>Switch to VT 4</summary>
+    </key>
+    <key type="as" name="switch-to-session-5">
+      <default><![CDATA[['<Primary><Alt>F5']]]></default>
+      <summary>Switch to VT 5</summary>
+    </key>
+    <key type="as" name="switch-to-session-6">
+      <default><![CDATA[['<Primary><Alt>F6']]]></default>
+      <summary>Switch to VT 6</summary>
+    </key>
+    <key type="as" name="switch-to-session-7">
+      <default><![CDATA[['<Primary><Alt>F7']]]></default>
+      <summary>Switch to VT 7</summary>
+    </key>
+  </schema>
+</schemalist>

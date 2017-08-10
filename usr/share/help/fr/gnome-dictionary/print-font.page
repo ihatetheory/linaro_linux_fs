@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print-font" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Sélectionner la police pour l'impression des définitions.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>paroz@email.ch</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Police d'impression</title>
+
+  <p>Vous pouvez modifier le nom de la police et la taille utilisée pour l'impression des définitions.</p>
+
+  <steps>
+    <title>Modifier la police</title>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu">Dictionnaire</gui> <gui style="menuitem">Préférences</gui> <gui style="tab">Imprimer</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton de sélection de police.</p>
+    </item>
+    <item>
+      <p>Sélectionnez la police que vous souhaitez utiliser.</p>
+    </item>
+    <item>
+      <p>Faites glisser le curseur vers la droite pour augmenter la taille de la police ou la gauche pour la diminuer. À la place, vous pouvez taper la taille de la police dans la zone de texte, ou utilisez les boutons <gui>-</gui> et <gui>+</gui> afin de diminuer et augmenter la taille de la police.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui style="button">Sélectionner</gui> pour enregistrer vos paramètres de police.</p>
+    </item>
+  </steps>
+
+  <p>La définition n'est pas adaptée pour l'impression, donc si vous choisissez une taille de police assez large, une partie du texte risque d'être coupée.</p>
+
+</page>

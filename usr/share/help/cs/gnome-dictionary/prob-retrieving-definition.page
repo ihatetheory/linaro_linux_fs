@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="prob-retrieving-definition" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="definition"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><sys>Chyba při získávání definice</sys>.</desc>
+
+  </info>
+
+  <title>Nelze najít definici</title>
+
+  <p>V případě, že se při hledání definice ve <link xref="sources-select">vybraných slovnících</link> setkáte s hlášením <sys>Chyba při získávání definice</sys>, může být příčinou něco z následujícího:</p>
+
+  <list>
+    <item>
+      <p>Jeden nebo více vybraných serverů <app>DICT</app>, které k hledání využíváte, je mimo provoz. Zkuste nějakou chvíli počkat a pak definici <link xref="definition">vyhledat</link> znovu.</p>
+    </item>
+    <item>
+      <p>Nefunguje vám připojení k Internetu. Aby <app>Slovník</app> mohl vyhledávat výrazy, můsí být váš počítač <link href="help:gnome-help/net">připojen</link> k <sys href="http://dict.org">dict.org</sys>.</p>
+    </item>
+  </list>
+
+</page>

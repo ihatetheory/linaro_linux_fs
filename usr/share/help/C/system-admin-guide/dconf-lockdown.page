@@ -1,0 +1,72 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="dconf-lockdown">
+
+  <info>
+    <link type="guide" xref="user-settings#lockdown" />
+<!--    <link type="seealso" xref="dconf-profiles" />-->
+    <revision version="0.1" date="2012-05-21" status="review"/>
+    <revision pkgversion="3.8" version="0.1" date="2013-04-26" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ryan Lortie</name>
+      <email its:translate="no">desrt@desrt.ca</email>
+      <years>2012</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Use the <em>lockdown</em> mode in <sys its:translate="no">dconf</sys>
+    to prevent users from changing specific settings.</desc>
+  </info>
+
+  <title>Lock down specific settings</title>
+
+  <p>To <em>lock down</em> a <sys its:translate="no">dconf</sys> key, you will
+  need to create a <file its:translate="no">locks</file> subdirectory in the
+  keyfile directory.  The files inside this directory contain a list of keys to
+  lock. Just as with the
+  <!--<link xref="dconf-keyfiles">-->keyfiles<!--</link>-->, you may add any
+  number of files to this directory. Here is an example of what one might look
+  like:</p>
+
+  <steps>
+    <title>How to lock the default wallpaper</title>
+    <item>
+      <p>First, set a setting, such as a default background which will be used
+      for this example.</p>
+    </item>
+    <item>
+      <p>Create a directory named
+      <file its:translate="no">/etc/dconf/db/local.d/locks</file>.</p>
+    </item>
+    <item>
+      <p>Edit
+      <file its:translate="no">/etc/dconf/db/local.d/locks/00_default-wallpaper</file>,
+      listing one key per line:</p>
+<code its:translate="no">
+# <span its:translate="yes">prevent changes to the background</span>
+/org/gnome/desktop/background/picture-uri
+/org/gnome/desktop/background/picture-options
+/org/gnome/desktop/background/primary-color
+/org/gnome/desktop/background/secondary-color
+</code>
+    </item>
+    <include href="dconf-snippets.xml"
+      xpointer="xpointer(/*/*[@xml:id='dconf-update'])"
+      xmlns="http://www.w3.org/2001/XInclude"/>
+  </steps>
+
+  <note>
+    <p>As of <app its:translate="no">dconf</app> 0.7.4, lockdown is only
+    supported on a per-key basis for performance reasons; you may not yet lock
+    entire subpaths. There are plans to address this in future releases.</p>
+  </note>
+
+</page>

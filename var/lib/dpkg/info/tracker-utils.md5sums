@@ -1,0 +1,13 @@
+00f4d6d43aeed107f701c8b3121edf14  usr/bin/tracker-import
+7331930c09b507ae2cb1eb02b48fab17  usr/bin/tracker-info
+f7aadc71c490a853668049cadf2a2010  usr/bin/tracker-search
+525e7d9ce0d5dccbd6826607a8d88cd6  usr/bin/tracker-sparql
+cd131ce97235d812bfbc2d9857c95efe  usr/bin/tracker-stats
+345931813b25974556a2dcaf75d03b2d  usr/bin/tracker-tag
+8aaa5ca2929afc1f9cc04bd2d8f9cdbc  usr/share/doc/tracker-utils/copyright
+dfeada607fea869371beeaa58968486c  usr/share/man/man1/tracker-import.1.gz
+61a751164f12354084cf1642a8746b31  usr/share/man/man1/tracker-info.1.gz
+4085ff7c9328ee5c6d43184026e91bc8  usr/share/man/man1/tracker-search.1.gz
+de5a32f4b916a0cd45c07ee1ab261a57  usr/share/man/man1/tracker-sparql.1.gz
+ba1b7f37c69ee8b1656b9cd7a6b341b8  usr/share/man/man1/tracker-stats.1.gz
+e6a286ae69ee0490bbb131f309d8e34c  usr/share/man/man1/tracker-tag.1.gz

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="yahoo-calendar">
+  <type>calendar</type>
+  <name>Yahoo! Calendar</name>
+  <provider>yahoo</provider>
+  <translations>evolution-data-server-3.12</translations>
+
+  
+  <template>
+    <group name="auth">
+      <setting name="method">password</setting>
+      <setting name="mechanism">password</setting>
+    </group>
+  </template>
+</service>

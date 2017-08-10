@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-list domain="mail">
+
+  <error type="warning" id="camel-service-auth-invalid">
+    <primary>Invalid authentication</primary>
+    <secondary xml:space="preserve">This server does not support this type of authentication and may not support authentication at all.</secondary>
+  </error>
+
+  <error type="warning" id="camel-service-auth-failed">
+    <primary>Your login to your server "{0}" as "{0}" failed.</primary>
+    <secondary xml:space="preserve">Check to make sure your password is spelled correctly. Remember that many passwords are case sensitive; your caps lock might be on.</secondary>
+  </error>
+
+  <error type="question" id="ask-send-html" default="GTK_RESPONSE_YES">
+    <primary>Are you sure you want to send a message in HTML format?</primary>
+    <secondary xml:space="preserve">Please make sure the following recipients are willing and able to receive HTML email:
+{0}</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Send"></button>
+  </error>
+
+  <error type="question" id="ask-send-no-subject" default="GTK_RESPONSE_YES">
+    <primary>Are you sure you want to send a message without a subject?</primary>
+    <secondary xml:space="preserve">Adding a meaningful Subject line to your messages will give your recipients an idea of what your mail is about.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Send"></button>
+  </error>
+
+  <error type="question" id="ask-send-only-bcc-contact" default="GTK_RESPONSE_YES">
+    <primary>Are you sure you want to send a message with only BCC recipients?</primary>
+    <secondary xml:space="preserve">The contact list you are sending to is configured to hide list recipients.
+
+Many email systems add an Apparently-To header to messages that only have BCC recipients. This header, if added, will list all of your recipients in your message. To avoid this, you should add at least one To: or CC: recipient. </secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Send"></button>
+  </error>
+
+  <error type="warning" id="ask-send-only-bcc" default="GTK_RESPONSE_YES">
+    <primary>Are you sure you want to send a message with only BCC recipients?</primary>
+    <secondary xml:space="preserve">Many email systems add an Apparently-To header to messages that only have BCC recipients. This header, if added, will list all of your recipients to your message anyway. To avoid this, you should add at least one To: or CC: recipient.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Send"></button>
+  </error>
+
+  <error type="question" id="ask-send-invalid-recip-one" default="GTK_RESPONSE_YES">
+    <primary>Are you sure you want to send a message with invalid address?</primary>
+    <secondary xml:space="preserve">The following recipient was not recognized as a valid mail address:
+{0}</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Send"></button>
+  </error>
+
+  <error type="question" id="ask-send-invalid-recip-multi" default="GTK_RESPONSE_YES">
+    <primary>Are you sure you want to send a message with invalid addresses?</primary>
+    <secondary xml:space="preserve">The following recipients were not recognized as valid mail addresses:
+{0}</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Send"></button>
+  </error>
+
+  <error type="question" id="ask-list-honour-reply-to" default="GTK_RESPONSE_CANCEL">
+    <primary>Send private reply?</primary>
+    <secondary>You are replying privately to a message which arrived via a mailing list, but the list is trying to redirect your reply to go back to the list. Are you sure you want to proceed?</secondary>
+    <button response="GTK_RESPONSE_NO" label="Reply _Privately"></button>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_OK" label="Reply to _List"></button>
+  </error>
+
+  <error type="question" id="ask-list-private-reply" default="GTK_RESPONSE_CANCEL">
+    <primary>Send private reply?</primary>
+    <secondary>You are replying to a message which arrived via a mailing list, but you are replying privately to the sender; not to the list. Are you sure you want to proceed?</secondary>
+    <button response="GTK_RESPONSE_NO" label="Reply _Privately"></button>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="Reply to _All"></button>
+    <button response="GTK_RESPONSE_OK" label="Reply to _List"></button>
+  </error>
+
+  <error type="question" id="ask-reply-many-recips" default="GTK_RESPONSE_CANCEL">
+    <primary>Send reply to all recipients?</primary>
+    <secondary>You are replying to a message which was sent to many recipients. Are you sure you want to reply to ALL of them?</secondary>
+    <button response="GTK_RESPONSE_YES" label="Reply to _All"></button>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_NO" label="Reply _Privately"></button>
+  </error>
+
+  <error type="warning" id="send-no-recipients">
+    <primary>This message cannot be sent because you have not specified any recipients</primary>
+    <secondary xml:space="preserve">Please enter a valid email address in the To: field. You can search for email addresses by clicking on the To: button next to the entry box.</secondary>
+  </error>
+
+  <error type="question" id="ask-default-drafts" default="GTK_RESPONSE_YES">
+    <primary>Use default drafts folder?</primary>
+    <secondary xml:space="preserve">Unable to open the drafts folder for this account. Use the system drafts folder instead?</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="Use _Default"></button>
+  </error>
+
+  <error type="question" id="ask-expunge" default="GTK_RESPONSE_CANCEL">
+    <primary>Are you sure you want to permanently remove all the deleted messages in folder "{0}"?</primary>
+    <secondary xml:space="preserve">If you continue, you will not be able to recover these messages.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Expunge"></button>
+  </error>
+
+  <error type="warning" id="ask-empty-trash" default="GTK_RESPONSE_CANCEL">
+    <primary>Are you sure you want to permanently remove all the deleted messages in all folders?</primary>
+    <secondary xml:space="preserve">If you continue, you will not be able to recover these messages.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Empty Trash"></button>
+  </error>
+
+  <error type="warning" id="ask-open-many" default="GTK_RESPONSE_CANCEL">
+    <primary>{0}</primary>
+    <secondary xml:space="preserve">Opening too many messages at once may take a long time.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="_Open Messages"></button>
+  </error>
+
+  <error type="warning" id="exit-unsaved" default="GTK_RESPONSE_NO">
+    <primary>You have unsent messages, do you wish to quit anyway?</primary>
+    <secondary xml:space="preserve">If you quit, these messages will not be sent until Evolution is started again.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_NO"/>
+    <button stock="gtk-quit" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="warning" id="async-error">
+    
+    <primary>Error while {0}.</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+  <error type="warning" scroll="yes" id="async-error-nodescribe">
+    <primary>Error while performing operation.</primary>
+    <secondary>{0}</secondary>
+  </error>
+
+  <error type="question" id="ask-session-password" default="GTK_RESPONSE_OK">
+    <primary>Enter password.</primary>
+    <secondary>{0}</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button stock="gtk-ok" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="error" id="filter-load-error">
+    <primary>Error loading filter definitions.</primary>
+    <secondary>{0}</secondary>
+  </error>
+
+  <error type="error" id="no-save-path">
+    <primary>Cannot save to directory "{0}".</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+  <error type="error" id="no-create-path">
+    <primary>Cannot save to file "{0}".</primary>
+    <secondary xml:space="preserve">Cannot create the save directory, because "{1}"</secondary>
+  </error>
+
+  <error type="error" id="no-create-tmp-path">
+    <primary>Cannot create temporary save directory.</primary>
+    <secondary xml:space="preserve">{1}.</secondary>
+  </error>
+
+  <error type="error" id="no-write-path-exists">
+    <primary>Cannot save to file "{0}".</primary>
+    <secondary xml:space="preserve">File exists but cannot overwrite it.</secondary>
+  </error>
+
+  <error type="error" id="no-write-path-notfile">
+    <primary>Cannot save to file "{0}".</primary>
+    <secondary xml:space="preserve">File exists but is not a regular file.</secondary>
+  </error>
+
+  <error type="error" id="no-delete-folder">
+    <primary>Cannot delete folder "{0}".</primary>
+    <secondary xml:space="preserve">{1}.</secondary>
+  </error>
+
+  <error type="error" id="no-delete-special-folder">
+    <primary>Cannot delete system folder "{0}".</primary>
+    <secondary xml:space="preserve">System folders are required for Evolution to function correctly and cannot be renamed, moved, or deleted.</secondary>
+  </error>
+
+  <error type="warning" id="no-expunge-folder">
+    <primary>Failed to expunge folder &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{1}&quot;.</secondary>
+  </error>
+
+  <error type="warning" id="no-refresh-folder">
+    <primary>Failed to refresh folder &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{1}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="no-rename-special-folder">
+    <primary>Cannot rename or move system folder "{0}".</primary>
+    <secondary xml:space="preserve">System folders are required for Evolution to function correctly and cannot be renamed, moved, or deleted.</secondary>
+  </error>
+
+  <error type="question" id="ask-delete-folder" default="GTK_RESPONSE_CANCEL">
+    <primary>Really delete folder "{0}" and all of its subfolders?</primary>
+    <secondary xml:space="preserve">If you delete the folder, all of its contents and its subfolders' contents will be deleted permanently.</secondary>
+    <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="question" id="ask-delete-vfolder" default="GTK_RESPONSE_CANCEL">
+    <primary>Really delete folder "{0}" and all of its subfolders?</primary>
+    <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="question" id="ask-delete-folder-nochild" default="GTK_RESPONSE_CANCEL">
+    <primary>Really delete folder "{0}"?</primary>
+    <secondary xml:space="preserve">If you delete the folder, all of its contents will be deleted permanently.</secondary>
+    <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="question" id="ask-delete-vfolder-nochild" default="GTK_RESPONSE_CANCEL">
+    <primary>Really delete folder "{0}"?</primary>
+    <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="warning" id="ask-delete-vfolder-msg" default="GTK_RESPONSE_CANCEL">
+    <primary>These messages are not copies.</primary>
+    <secondary xml:space="preserve">Messages shown in Search Folders are not copies. Deleting them from a Search Folder will delete the actual messages from the folder or folders in which they physically reside. Do you really want to delete these messages?</secondary>
+    <button response="GTK_RESPONSE_CANCEL" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="error" id="no-rename-folder-exists">
+    <primary>Cannot rename "{0}" to "{1}".</primary>
+    <secondary xml:space="preserve">A folder named "{1}" already exists. Please use a different name.</secondary>
+  </error>
+
+  <error type="error" id="no-rename-folder">
+    <primary>Cannot rename "{0}" to "{1}".</primary>
+    <secondary xml:space="preserve">{2}.</secondary>
+  </error>
+
+  <error type="error" id="no-move-folder-nostore">
+    <primary>Cannot move folder "{0}" to "{1}".</primary>
+    <secondary xml:space="preserve">Cannot open source folder. Error: {2}</secondary>
+  </error>
+
+  <error type="error" id="no-move-folder-to-nostore">
+    <primary>Cannot move folder "{0}" to "{1}".</primary>
+    <secondary xml:space="preserve">Cannot open target folder. Error: {2}</secondary>
+  </error>
+
+  <error type="error" id="no-copy-folder-nostore">
+    <primary>Cannot copy folder "{0}" to "{1}".</primary>
+    <secondary xml:space="preserve">Cannot open source folder. Error: {2}</secondary>
+  </error>
+
+  <error type="error" id="no-copy-folder-to-nostore">
+    <primary>Cannot copy folder "{0}" to "{1}".</primary>
+    <secondary xml:space="preserve">Cannot open target folder. Error: {2}</secondary>
+  </error>
+
+  <error type="error" id="no-create-folder-nostore">
+    <primary>Cannot create folder "{0}".</primary>
+    <secondary xml:space="preserve">Cannot open folder. Error: {1}</secondary>
+  </error>
+
+  <error type="error" id="account-incomplete">
+    <primary>Cannot save changes to account.</primary>
+    <secondary xml:space="preserve">You have not filled in all of the required information.</secondary>
+  </error>
+
+  <error type="error" id="account-notunique">
+    <primary>Cannot save changes to account.</primary>
+    <secondary xml:space="preserve">You may not create two accounts with the same name.</secondary>
+  </error>
+
+  <error type="question" id="ask-delete-account" default="GTK_RESPONSE_NO">
+    <primary>Are you sure you want to delete this account?</primary>
+    <secondary xml:space="preserve">If you proceed, the account information will be deleted permanently.</secondary>
+    <button response="GTK_RESPONSE_NO" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="question" id="ask-delete-account-with-proxies" default="GTK_RESPONSE_NO">
+    <primary>Are you sure you want to delete this account and all its proxies?</primary>
+    <secondary xml:space="preserve">If you proceed, the account information and
+all proxy information will be deleted permanently.</secondary>
+    <button response="GTK_RESPONSE_NO" label="Do _Not Delete"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="question" id="ask-delete-proxy-accounts" default="GTK_RESPONSE_NO">
+    <primary>Are you sure you want to disable this account and delete all its proxies?</primary>
+    <secondary xml:space="preserve">If you proceed, all proxy accounts will be deleted permanently.</secondary>
+    <button response="GTK_RESPONSE_NO" label="Do _Not Disable"></button>
+    <button response="GTK_RESPONSE_YES" label="_Disable"></button>
+  </error>
+
+  <error type="error" id="vfolder-notexist">
+    <primary>Cannot edit Search Folder "{0}" as it does not exist.</primary>
+    <secondary xml:space="preserve">This folder may have been added implicitly,
+go to the Search Folder editor to add it explicitly, if required.</secondary>
+  </error>
+
+  <error type="error" id="vfolder-notunique">
+    <primary>Cannot add Search Folder "{0}".</primary>
+    <secondary xml:space="preserve">A folder named "{0}" already exists. Please use a different name.</secondary>
+  </error>
+
+  <error type="info" id="vfolder-updated">
+    <primary>Search Folders automatically updated.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="info" id="filter-updated">
+    <primary>Mail filters automatically updated.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="error" id="no-folder">
+    <primary>Missing folder.</primary>
+    <secondary xml:space="preserve">You must specify a folder.</secondary>
+  </error>
+
+  <error type="error" id="no-name-vfolder">
+    <primary>Missing name.</primary>
+    <secondary xml:space="preserve">You must name this Search Folder.</secondary>
+  </error>
+
+  <error type="error" id="vfolder-no-source">
+    <primary>No folder selected.</primary>
+    <secondary xml:space="preserve">You must specify at least one folder as a source.
+Either by selecting the folders individually, and/or by selecting all local folders, all remote folders, or both.</secondary>
+  </error>
+
+  <error type="question" id="ask-migrate-existing" default="GTK_RESPONSE_CANCEL">
+    <primary>Problem migrating old mail folder "{0}".</primary>
+    <secondary xml:space="preserve">A non-empty folder at "{1}" already exists.
+
+You can choose to ignore this folder, overwrite or append its contents, or quit.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_REJECT" label="Ignore"></button>
+    <button stock="gtk-delete" response="GTK_RESPONSE_ACCEPT" label="_Overwrite"></button>
+    <button response="GTK_RESPONSE_OK" label="_Append"></button>
+  </error>
+  
+  <error type="question" id="ask-migrate-store" default="GTK_RESPONSE_YES">
+    <primary>Evolution's local mail format has changed.</primary>
+    <secondary xml:space="preserve">Evolution's local mail format has changed from mbox to Maildir. Your local mail must be migrated to the new format before Evolution can proceed. Do you want to migrate now?
+
+An mbox account will be created to preserve the old mbox folders. You can delete the account after ensuring the data is safely migrated. Please make sure there is enough disk space if you choose to migrate now.</secondary>
+    <button response="GTK_RESPONSE_CANCEL" label="_Exit Evolution"></button>
+    <button response="GTK_RESPONSE_OK" label="_Migrate Now"></button>
+  </error>
+
+  <error type="error" id="no-load-license">
+    <primary>Unable to read license file.</primary>
+    <secondary xml:space="preserve">Cannot read the license file "{0}", due to an installation problem. You will not be able to use this provider until you can accept its license.</secondary>
+  </error>
+
+  <error type="info" id="checking-service">
+    <primary>Please wait.</primary>
+    <secondary xml:space="preserve">Querying server for a list of supported authentication mechanisms.</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+  </error>
+
+  <error type="error" id="checking-service-error">
+    <primary>Failed to query server for a list of supported authentication mechanisms.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="question" id="ask-quick-offline" default="GTK_RESPONSE_NO">
+    <primary>Synchronize folders locally for offline usage?</primary>
+    <secondary xml:space="preserve">Do you want to locally synchronize the folders that are marked for offline usage?</secondary>
+    <button response="GTK_RESPONSE_NO" label="Do _Not Synchronize"></button>
+    <button response="GTK_RESPONSE_YES" label="_Synchronize"></button>
+  </error>
+
+  <error type="question" id="ask-mark-all-read" default="GTK_RESPONSE_NO">
+    <primary>Do you want to mark all messages as read?</primary>
+    <secondary xml:space="preserve">This will mark all messages as read in the selected folder.</secondary>
+    <button stock="gtk-no" response="GTK_RESPONSE_NO"/>
+    <button stock="gtk-yes" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="question" id="ask-mark-all-read-sub" default="GTK_RESPONSE_NO">
+    <primary>Also mark messages in subfolders?</primary>
+    <secondary xml:space="preserve">Do you want to mark messages as read in the current folder only, or in the current folder as well as all subfolders?</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button response="GTK_RESPONSE_YES" label="In Current Folder and _Subfolders"></button>
+    <button response="GTK_RESPONSE_NO" label="In Current _Folder Only"></button>
+  </error>
+
+  <error type="question" id="browser-close-on-reply" default="GTK_RESPONSE_NO">
+    <secondary>Should Evolution close this window when replying or forwarding?</secondary>
+    <button response="GTK_RESPONSE_YES" label="_Yes, Always"></button>
+    <button response="GTK_RESPONSE_NO" label="_No, Never"></button>
+  </error>
+
+  <error type="question" id="ask-folder-drop-copy" default="GTK_RESPONSE_YES">
+    <primary>Copy folder in folder tree.</primary>
+    <secondary xml:space="preserve">Are you sure you want to copy folder '{0}' to folder '{1}'?</secondary>
+    <button response="GTK_RESPONSE_YES" label="_Yes"></button>
+    <button response="GTK_RESPONSE_NO" label="_No"></button>
+    <button response="GTK_RESPONSE_OK" label="_Always"></button>
+    <button response="GTK_RESPONSE_CANCEL" label="N_ever"></button>
+  </error>
+
+  <error type="question" id="ask-folder-drop-move" default="GTK_RESPONSE_YES">
+    <primary>Move folder in folder tree.</primary>
+    <secondary xml:space="preserve">Are you sure you want to to move folder '{0}' to folder '{1}'?</secondary>
+    <button response="GTK_RESPONSE_YES" label="_Yes"></button>
+    <button response="GTK_RESPONSE_NO" label="_No"></button>
+    <button response="GTK_RESPONSE_OK" label="_Always"></button>
+    <button response="GTK_RESPONSE_CANCEL" label="N_ever"></button>
+  </error>
+
+  <error type="warning" id="send-no-account-enabled">
+    <primary>This message cannot be sent because the account you chose to send with is not enabled</primary>
+    <secondary xml:space="preserve">Please enable the account or send using another account.</secondary>
+  </error>
+
+  <error type="warning" id="no-delete-permission">
+    <primary>Mail Deletion Failed</primary>
+    <secondary xml:space="preserve">You do not have sufficient permissions to delete this mail.</secondary>
+  </error>
+
+  <error type="error" id="junk-check-error">
+    <primary>"Check Junk" Failed</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="error" id="junk-report-error">
+    <primary>"Report Junk" Failed</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="error" id="junk-not-report-error">
+    <primary>"Report Not Junk" Failed</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="question" id="ask-remove-duplicates" default="GTK_RESPONSE_YES">
+    <primary>Remove duplicate messages?</primary>
+    <secondary>{0}</secondary>
+    <button stock="gtk-cancel" response="GTK_RESPONSE_CANCEL"/>
+    <button stock="gtk-delete" response="GTK_RESPONSE_YES"/>
+  </error>
+
+  <error type="info" id="info-no-remove-duplicates" default="GTK_RESPONSE_OK">
+    <primary>No duplicate messages found.</primary>
+    
+    <secondary>Folder '{0}' doesn't contain any duplicate message.</secondary>
+    <button stock="gtk-ok" response="GTK_RESPONSE_OK"/>
+  </error>
+
+  <error type="warning" id="disconnect">
+    <primary>Failed to disconnect account &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="warning" id="folder-unsubscribe">
+    <primary>Failed to unsubscribe from folder &quot;{0}&quot;.</primary>
+    <secondary>The reported error was &quot;{1}&quot;.</secondary>
+  </error>
+
+  <error type="warning" id="no-retrieve-message">
+    <primary>Unable to retrieve message.</primary>
+    <secondary xml:space="preserve">{0}</secondary>
+  </error>
+
+  <error type="error" id="folder-open">
+    <primary>Failed to open folder.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="find-duplicate-messages">
+    <primary>Failed to find duplicate messages.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="get-multiple-messages">
+    <primary>Failed to retrieve messages.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="mark-all-read">
+    <primary>Failed to mark messages as read.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="remove-attachments">
+    <primary>Failed to remove attachments from messages.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="warning" id="prepare-for-offline">
+    <primary>Failed to download messages for offline viewing.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="save-messages">
+    <primary>Failed to save messages to disk.</primary>
+    <secondary>The reported error was &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="warning" id="blacklisted-file">
+    <primary>Hidden file is attached.</primary>
+    <secondary xml:space="preserve">The attachment named {0} is a hidden file and may contain sensitive data. Please review it before sending.</secondary>
+  </error>
+
+  <error type="error" id="printing-failed">
+    <primary>Printing failed.</primary>
+    <secondary>The printer replied &quot;{0}&quot;.</secondary>
+  </error>
+
+  <error type="error" id="online-operation">
+    <primary>Could not perform this operation on {0}.</primary>
+    <secondary xml:space="preserve">You must be working online to complete this operation.</secondary>
+  </error>
+
+  <error type="info" id="user-alert-info">
+    <primary>Message from &quot;{0}&quot; account:</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+  <error type="warning" id="user-alert-warning">
+    <primary>Message from &quot;{0}&quot; account:</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+  <error type="error" id="user-alert-error">
+    <primary>Message from &quot;{0}&quot; account:</primary>
+    <secondary>{1}</secondary>
+  </error>
+
+</error-list>

@@ -1,0 +1,8 @@
+6077df3166d78a2782bf4152e76bc5ae  lib/systemd/system/usbmuxd.service
+b58809e0e9f6d6165f4133a74f802eec  lib/udev/rules.d/39-usbmuxd.rules
+c8b25391b95cd531e96c0e809459c4c7  usr/sbin/usbmuxd
+1dc223b821dcacfcc967cd1f2755be37  usr/share/doc/usbmuxd/AUTHORS
+8f426e766a359deb47135be501859404  usr/share/doc/usbmuxd/README
+1d4d539ed7b9b7892dcb1831308c1c22  usr/share/doc/usbmuxd/changelog.Debian.gz
+0692612ebd4d4d1e7d9f7fc8b6f09f88  usr/share/doc/usbmuxd/copyright
+77d521c344f86522e3d50b87b7903cf2  usr/share/man/man1/usbmuxd.1.gz

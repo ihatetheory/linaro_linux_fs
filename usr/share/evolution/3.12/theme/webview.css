@@ -1,0 +1,189 @@
+html, body {
+ padding: 0;
+ margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  /* Use margin so that children can safely use width=100% */
+  margin: 10px;
+}
+
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+span.navigable, div.navigable, p.navigable {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #003399;
+}
+
+img#__evo-contact-photo {
+  max-width: 96px;
+  max-height: 96px;
+}
+
+img.navigable {
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.attachments {
+  background: #FFF;
+  border: 1px solid silver;
+  margin: 10px 10px 10px 10px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.attachment {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.attachment-wrapper
+{
+  margin-right: 8px;
+}
+
+.part-container {
+  height: 100%;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  border-width: 1px;
+  border-style: solid;
+  right: 0;
+}
+
+.part-container-inner-margin {
+  margin: 8px;
+}
+
+object { /* GtkWidgets */
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.__evo-highlight {
+  color: purple;
+  font-weight: bold;
+}
+
+a {
+	white-space:normal;
+	word-break:break-all;
+}
+
+/**** HEADERS ****/
+
+table.header {
+  border-spacing: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 100%;
+}
+
+tr.header {
+  vertical-align: top;
+  width: 100%;
+}
+
+th.header {
+  white-space: nowrap;
+}
+
+td.header {
+  width: inherit;
+}
+
+.ltr {
+  text-align: left;
+}
+
+th.ltr {
+  padding-right: 6px;
+  text-align: right;
+  width: auto;
+}
+
+.rtl {
+  text-align: right;
+}
+
+th.rtl {
+  padding-left: 6px;
+  text-align: left;
+  width: auto;
+}
+
+/***** PRINTING *******/
+
+.printing-header {
+  margin-bottom: 20px;
+}
+
+.printing-header h1,
+.attachments-list h1 {
+  font-size: 20px;
+}
+
+.printing-header th {
+  text-align: right;
+  font-weight: bold;
+}
+
+.attachments-list th {
+  font-weight: bold;
+}
+
+/******* ITIP *********/
+.itip.icon {
+  float: left;
+  margin-right: 5px;
+}
+
+.itip.content {
+  float: left;
+  max-width: 90%;
+}
+
+.itip.description {
+  margin: 5px;
+}
+
+.itip tr {
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.itip th {
+  vertical-align: middle;
+}
+
+#table_row_summary td {
+  font-weight: bold;
+}
+
+#table_row_buttons button {
+  line-height: 28px;
+  min-width: 150px;
+  white-space: nowrap;
+}
+
+#table_row_buttons img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#text_row_buttons td {
+  text-align: center;
+}

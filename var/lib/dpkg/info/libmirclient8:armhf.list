@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmirclient8
+/usr/share/doc/libmirclient8/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmirclient.so.8
+/usr/share/doc/libmirclient8/changelog.Debian.gz

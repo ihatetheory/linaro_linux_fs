@@ -1,0 +1,668 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>StButton: St Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="St Reference Manual">
+<link rel="up" href="widgets.html" title="Widgets">
+<link rel="prev" href="widgets.html" title="Widgets">
+<link rel="next" href="StDrawingArea.html" title="StDrawingArea">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#StButton.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#StButton.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#StButton.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#StButton.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#StButton.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="widgets.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="widgets.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="StDrawingArea.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="StButton"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="StButton.top_of_page"></a>StButton</span></h2>
+<p>StButton — Button widget</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="StButton.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-new" title="st_button_new ()">st_button_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-new-with-label" title="st_button_new_with_label ()">st_button_new_with_label</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-get-label" title="st_button_get_label ()">st_button_get_label</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-set-label" title="st_button_set_label ()">st_button_set_label</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-set-toggle-mode" title="st_button_set_toggle_mode ()">st_button_set_toggle_mode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-get-toggle-mode" title="st_button_get_toggle_mode ()">st_button_get_toggle_mode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-set-checked" title="st_button_set_checked ()">st_button_set_checked</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-get-checked" title="st_button_get_checked ()">st_button_get_checked</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-fake-release" title="st_button_fake_release ()">st_button_fake_release</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-set-button-mask" title="st_button_set_button_mask ()">st_button_set_button_mask</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="StButton.html#StButtonMask" title="enum StButtonMask"><span class="returnvalue">StButtonMask</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="StButton.html#st-button-get-button-mask" title="st_button_get_button_mask ()">st_button_get_button_mask</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StButton.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><a class="link" href="StButton.html#StButtonMask" title="enum StButtonMask"><span class="type">StButtonMask</span></a></td>
+<td class="property_name"><a class="link" href="StButton.html#StButton--button-mask" title="The “button-mask” property">button-mask</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StButton.html#StButton--checked" title="The “checked” property">checked</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="StButton.html#StButton--label" title="The “label” property">label</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StButton.html#StButton--pressed" title="The “pressed” property">pressed</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></td>
+<td class="property_name"><a class="link" href="StButton.html#StButton--toggle-mode" title="The “toggle-mode” property">toggle-mode</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StButton.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="StButton.html#StButton-clicked" title="The “clicked” signal">clicked</a></td>
+<td class="signal_flags"><a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StButton.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="StButton.html#StButton-struct" title="struct StButton">StButton</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="StButton.html#StButtonMask" title="enum StButtonMask">StButtonMask</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="StButton.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+        <span class="lineart">╰──</span> ClutterActor
+            <span class="lineart">╰──</span> <a class="link" href="StWidget.html" title="StWidget">StWidget</a>
+                <span class="lineart">╰──</span> <a class="link" href="StBin.html" title="StBin">StBin</a>
+                    <span class="lineart">╰──</span> StButton
+</pre>
+</div>
+<div class="refsect1">
+<a name="StButton.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+StButton implements
+ ClutterContainer,  ClutterScriptable,  ClutterAnimatable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1">
+<a name="StButton.description"></a><h2>Description</h2>
+<p>A button widget with support for either a text label or icon, toggle mode
+and transitions effects between states.</p>
+</div>
+<div class="refsect1">
+<a name="StButton.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="st-button-new"></a><h3>st_button_new ()</h3>
+<pre class="programlisting"><a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+st_button_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Create a new button</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.2.5"></a><h4>Returns</h4>
+<p> a new <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-new-with-label"></a><h3>st_button_new_with_label ()</h3>
+<pre class="programlisting"><a class="link" href="StWidget.html" title="StWidget"><span class="returnvalue">StWidget</span></a> *
+st_button_new_with_label (<em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *text</code></em>);</pre>
+<p>Create a new <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> with the specified label</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p>text to set the label to</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.3.6"></a><h4>Returns</h4>
+<p> a new <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-get-label"></a><h3>st_button_get_label ()</h3>
+<pre class="programlisting">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+st_button_get_label (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>);</pre>
+<p>Get the text displayed on the button</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.4.6"></a><h4>Returns</h4>
+<p> the text for the button. This must not be freed by the application</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-set-label"></a><h3>st_button_set_label ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_button_set_label (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>,
+                     <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *text</code></em>);</pre>
+<p>Sets the text displayed on the button</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <span class="type">Stbutton</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p>text to set the label to</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-set-toggle-mode"></a><h3>st_button_set_toggle_mode ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_button_set_toggle_mode (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>,
+                           <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> toggle</code></em>);</pre>
+<p>Enables or disables toggle mode for the button. In toggle mode, the active
+state will be "toggled" when the user clicks the button.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.6.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <span class="type">Stbutton</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toggle</p></td>
+<td class="parameter_description"><p><a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-get-toggle-mode"></a><h3>st_button_get_toggle_mode ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+st_button_get_toggle_mode (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>);</pre>
+<p>Get the toggle mode status of the button.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.7.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.7.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if toggle mode is set, otherwise <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-set-checked"></a><h3>st_button_set_checked ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_button_set_checked (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>,
+                       <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> checked</code></em>);</pre>
+<p>Sets the pressed state of the button. This is only really useful if the
+button has <span class="type">toggle-mode</span> mode set to <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.8.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <span class="type">Stbutton</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>checked</p></td>
+<td class="parameter_description"><p><a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-get-checked"></a><h3>st_button_get_checked ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+st_button_get_checked (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>);</pre>
+<p>Get the state of the button that is in toggle mode.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.9.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.9.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the button is checked, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if not</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-fake-release"></a><h3>st_button_fake_release ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_button_fake_release (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>);</pre>
+<p>If this widget is holding a pointer grab, this function will
+will ungrab it, and reset the pressed state.  The effect is
+similar to if the user had released the mouse button, but without
+emitting the clicked signal.</p>
+<p>This function is useful if for example you want to do something
+after the user is holding the mouse button for a given period of
+time, breaking the grab.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.10.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>an <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-set-button-mask"></a><h3>st_button_set_button_mask ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+st_button_set_button_mask (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>,
+                           <em class="parameter"><code><a class="link" href="StButton.html#StButtonMask" title="enum StButtonMask"><span class="type">StButtonMask</span></a> mask</code></em>);</pre>
+<p>Sets which mouse buttons <em class="parameter"><code>button</code></em>
+ emits <a class="link" href="StButton.html#StButton-clicked" title="The “clicked” signal"><span class="type">“clicked”</span></a> for.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.11.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <span class="type">Stbutton</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>mask</p></td>
+<td class="parameter_description"><p>the mask of mouse buttons that <em class="parameter"><code>button</code></em>
+responds to</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="st-button-get-button-mask"></a><h3>st_button_get_button_mask ()</h3>
+<pre class="programlisting"><a class="link" href="StButton.html#StButtonMask" title="enum StButtonMask"><span class="returnvalue">StButtonMask</span></a>
+st_button_get_button_mask (<em class="parameter"><code><a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button</code></em>);</pre>
+<p>Gets the mask of mouse buttons that <em class="parameter"><code>button</code></em>
+ emits the
+<a class="link" href="StButton.html#StButton-clicked" title="The “clicked” signal"><span class="type">“clicked”</span></a> signal for.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.12.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>a <a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.3.2.10.12.6"></a><h4>Returns</h4>
+<p> the mask of mouse buttons that <em class="parameter"><code>button</code></em>
+emits the
+<a class="link" href="StButton.html#StButton-clicked" title="The “clicked” signal"><span class="type">“clicked”</span></a> signal for.</p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="StButton.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="StButton-struct"></a><h3>struct StButton</h3>
+<pre class="programlisting">struct StButton;</pre>
+<p>The contents of this structure is private and should only be accessed using
+the provided API.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StButtonMask"></a><h3>enum StButtonMask</h3>
+<p>A mask representing which mouse buttons an StButton responds to.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.11.3.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="ST-BUTTON-ONE:CAPS"></a>ST_BUTTON_ONE</p></td>
+<td class="enum_member_description">
+<p>button 1 (left)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="ST-BUTTON-TWO:CAPS"></a>ST_BUTTON_TWO</p></td>
+<td class="enum_member_description">
+<p>button 2 (middle)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="ST-BUTTON-THREE:CAPS"></a>ST_BUTTON_THREE</p></td>
+<td class="enum_member_description">
+<p>button 3 (right)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="StButton.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="StButton--button-mask"></a><h3>The <code class="literal">“button-mask”</code> property</h3>
+<pre class="programlisting">  “button-mask”              <a class="link" href="StButton.html#StButtonMask" title="enum StButtonMask"><span class="type">StButtonMask</span></a></pre>
+<p>Which buttons trigger the 'clicked' signal.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: ST_BUTTON_ONE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StButton--checked"></a><h3>The <code class="literal">“checked”</code> property</h3>
+<pre class="programlisting">  “checked”                  <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Indicates if a toggle button is "on" or "off".</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StButton--label"></a><h3>The <code class="literal">“label”</code> property</h3>
+<pre class="programlisting">  “label”                    <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>Label of the button.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StButton--pressed"></a><h3>The <code class="literal">“pressed”</code> property</h3>
+<pre class="programlisting">  “pressed”                  <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Indicates if the button is pressed in.</p>
+<p>Flags: Read</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="StButton--toggle-mode"></a><h3>The <code class="literal">“toggle-mode”</code> property</h3>
+<pre class="programlisting">  “toggle-mode”              <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a></pre>
+<p>Enable or disable toggling.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="StButton.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="StButton-clicked"></a><h3>The <code class="literal">“clicked”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="StButton.html" title="StButton"><span class="type">StButton</span></a> *button,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a>      clicked_button,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>  user_data)</pre>
+<p>Emitted when the user activates the button, either with a mouse press and
+release or with the keyboard.</p>
+<div class="refsect3">
+<a name="id-1.2.3.2.13.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>button</p></td>
+<td class="parameter_description"><p>the object that received the signal</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>clicked_button</p></td>
+<td class="parameter_description"><p>the mouse button that was used</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="https://developer.gnome.org/gobject/unstable/gobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

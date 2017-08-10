@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/signon
+/usr/lib/arm-linux-gnueabihf/signon/liboauth2plugin.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/signon-plugin-oauth2
+/usr/share/doc/signon-plugin-oauth2/changelog.Debian.gz
+/usr/share/doc/signon-plugin-oauth2/copyright

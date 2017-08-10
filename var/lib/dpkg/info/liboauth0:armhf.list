@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/liboauth0
+/usr/share/doc/liboauth0/changelog.Debian.gz
+/usr/share/doc/liboauth0/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/liboauth.so.0.8.5
+/usr/lib/arm-linux-gnueabihf/liboauth.so.0

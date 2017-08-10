@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="save-definition" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak uložit kopii definice do textového souboru.</desc>
+
+  </info>
+
+  <title>Uložení definice</title>
+
+  <p>Definici můžete uložit do textového souboru. To se může hodit, pokud ji chcete použít někde mimo <app>Slovník</app>.</p>
+
+  <steps>
+    <title>Když chcete definici uložit:</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Soubor</gui> <gui style="menuitem">Uložit kopii…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Zvolte, kam definici chcete uložit a název pro soubor. Za název souboru je vhodné přidat příponu <file>.txt</file>.</p>
+    </item>
+    <item>
+      <p>Zmáčknutím tlačítka <gui style="button">Uložit</gui> definici uložíte.</p>
+    </item>
+  </steps>
+
+</page>

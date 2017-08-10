@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/folks
+/usr/lib/arm-linux-gnueabihf/folks/42
+/usr/lib/arm-linux-gnueabihf/folks/42/backends
+/usr/lib/arm-linux-gnueabihf/folks/42/backends/telepathy
+/usr/lib/arm-linux-gnueabihf/folks/42/backends/telepathy/telepathy.so
+/usr/lib/arm-linux-gnueabihf/libfolks-telepathy.so.25.17.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfolks-telepathy25
+/usr/share/doc/libfolks-telepathy25/copyright
+/usr/lib/arm-linux-gnueabihf/libfolks-telepathy.so.25
+/usr/share/doc/libfolks-telepathy25/changelog.Debian.gz

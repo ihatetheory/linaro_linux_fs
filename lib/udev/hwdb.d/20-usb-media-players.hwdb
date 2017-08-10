@@ -1,0 +1,3061 @@
+# YP-U2
+usb:v04E8p5050*
+ ID_MEDIA_PLAYER=samsung_yp-u2
+
+# Walkman NWD-B105
+usb:v054Cp0317*
+ ID_MEDIA_PLAYER=sony_walkman-nwd-b105
+
+# Incredible
+usb:v0BB4p0C9E*
+ ID_MEDIA_PLAYER=htc_incredible
+
+# YP-S2
+usb:v04E8p5095*
+ ID_MEDIA_PLAYER=samsung_yp-s2
+
+# Yepp YP-K3
+usb:v04E8p5080*
+ ID_MEDIA_PLAYER=samsung_yepp-yp-k3
+
+# YP-P2
+usb:v04E8p5082*
+ ID_MEDIA_PLAYER=samsung_yp-p2
+
+# Xperia X8
+usb:v0FCEp3149*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x8
+
+# Xperia X8
+usb:v0FCEp3149*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x8
+
+usb:v0FCEp2149*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x8
+
+# GoGear SA52XX
+usb:v0471p2022*
+ ID_MEDIA_PLAYER=philips_gogear-sa52xx
+
+# Atrix
+usb:v22B8p7086*
+ ID_MEDIA_PLAYER=motorola_atrix
+
+# Xperia Play
+usb:v0FCEpE15D*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-play
+
+# U6
+usb:v04E8p5133*
+ ID_MEDIA_PLAYER=samsung_u6
+
+# W705
+usb:v0FCEpE105*
+ ID_MEDIA_PLAYER=sony-ericsson_w705
+
+# Pulse
+usb:v12D1p1501*
+ ID_MEDIA_PLAYER=huawei_pulse
+
+# IS03
+usb:v04DDp939A*
+ ID_MEDIA_PLAYER=sharp-is03
+
+# NS-8V24
+usb:v19FFp0308*
+ ID_MEDIA_PLAYER=insignia_ns-8v24
+
+# Zen Stone Plus
+usb:v041Ep4155*
+ ID_MEDIA_PLAYER=creative_zen-stone-plus
+
+# i.Beat cebrax fx
+usb:v0738p1738*
+ ID_MEDIA_PLAYER=trekstor_i.beat-cebrax-fx
+
+# YP-U4
+usb:v04E8p5092*
+ ID_MEDIA_PLAYER=samsung_yp-u4
+
+# MP-130
+usb:v1332p1325*
+ ID_MEDIA_PLAYER=jens-of-sweeden_mp-130
+
+# Nexus S
+usb:v18D1p4E21*
+ ID_MEDIA_PLAYER=google_nexus-s
+
+# Nexus S
+usb:v18D1p4E21*
+ ID_MEDIA_PLAYER=google_nexus-s
+
+usb:v18D1p4E22*
+ ID_MEDIA_PLAYER=google_nexus-s
+
+# i.Beat Jess
+usb:v0835p2835*
+ ID_MEDIA_PLAYER=trekstor_i.beat-jess
+
+usb:v0F9Cp9111*
+ ID_MEDIA_PLAYER=q-be_0x9111
+
+# Walkman NWZ-S760 Series
+usb:v054Cp05A8*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-s760
+
+# GoGear RaGa (SA2RGA)
+usb:v0471p20B4*
+ ID_MEDIA_PLAYER=philips_gogear-sa2rga
+
+# iAUDIO U3
+usb:v0E21p0700*
+ ID_MEDIA_PLAYER=cowon_iaudio-u3
+
+# Droid 4
+usb:v22B8p4332*
+ ID_MEDIA_PLAYER=motorola_droid-4
+
+# C905
+usb:v0FCEpE0EF*
+ ID_MEDIA_PLAYER=sony-ericsson_c905
+
+# 6110 Navigator
+usb:v0421p0471*
+ ID_MEDIA_PLAYER=nokia_6110
+
+# H320, H340
+usb:v1006p3003*
+ ID_MEDIA_PLAYER=iriver_h320_h340
+
+# Galaxy Ace/Gio
+usb:v04E8p689E*
+ ID_MEDIA_PLAYER=samsung_galaxy-ace_gio
+
+# U5
+usb:v04E8p5121*
+ ID_MEDIA_PLAYER=samsung_u5
+
+# iAUDIO G3, 5
+usb:v0E21p0601*
+ ID_MEDIA_PLAYER=cowon_0x0601_0x0602_0x0604
+
+# iAUDIO G3, 5
+usb:v0E21p0601*
+ ID_MEDIA_PLAYER=cowon_0x0601_0x0602_0x0604
+
+usb:v0E21p0602*
+ ID_MEDIA_PLAYER=cowon_0x0601_0x0602_0x0604
+
+# iAUDIO G3, 5
+usb:v0E21p0601*
+ ID_MEDIA_PLAYER=cowon_0x0601_0x0602_0x0604
+
+usb:v0E21p0602*
+ ID_MEDIA_PLAYER=cowon_0x0601_0x0602_0x0604
+
+usb:v0E21p0604*
+ ID_MEDIA_PLAYER=cowon_0x0601_0x0602_0x0604
+
+# Mini Player M6
+usb:v0492p0140*
+ ID_MEDIA_PLAYER=meizu-mini_player_m6
+
+# Nexus One
+usb:v18D1p4E11*
+ ID_MEDIA_PLAYER=google_nexus-one
+
+# Nexus One
+usb:v18D1p4E11*
+ ID_MEDIA_PLAYER=google_nexus-one
+
+usb:v18D1p4E12*
+ ID_MEDIA_PLAYER=google_nexus-one
+
+# Yepp YP-ST5
+usb:v04E8p5021*
+ ID_MEDIA_PLAYER=samsung_yepp-yp-st5
+
+# Android A60
+usb:v19D2pFFE2*
+ ID_MEDIA_PLAYER=micromax_a60
+
+# DMP-100
+usb:v0DDAp0302*
+ ID_MEDIA_PLAYER=hama_dmp-100
+
+# E100
+usb:v4102p1041*
+ ID_MEDIA_PLAYER=iriver_e100
+
+# DS-2 voice recorder
+usb:v07B4p020E*
+ ID_MEDIA_PLAYER=olympus_ds-2
+
+# YP-Z5
+usb:v04E8p5041*
+ ID_MEDIA_PLAYER=samsung_yp-z5
+
+# Sansa e200 Series
+usb:v0781p7421*
+ ID_MEDIA_PLAYER=sandisk_sansa-e200-series
+
+# Network Walkman
+usb:v054Cp01FB*
+ ID_MEDIA_PLAYER=sony_network-walkman
+
+# iGP 100
+usb:v1006p2001*
+ ID_MEDIA_PLAYER=sony_igp-100
+
+# V630i
+usb:v0FCEpE043*
+ ID_MEDIA_PLAYER=sony-ericsson_v630i
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4120*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4120*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep411E*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4120*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep411E*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4128*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4120*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep411E*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4128*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep412B*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4120*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep411E*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4128*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep412B*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4130*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+# MuVo NX, MuVo2, MuVo TX, MuVo TX FM, Zen Micro,NOMAD Jukebox Zen Xtra, MuVo N200 (MuVo Micro), Zen Micro, Zen Touch
+usb:v041Ep4115*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4116*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4117*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4120*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep411E*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4128*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep412B*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4130*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v041Ep4131*
+ ID_MEDIA_PLAYER=creative_0x4xxx
+
+usb:v1718p1013*
+ ID_MEDIA_PLAYER=nexia-1013
+
+# ROKR e2 Memory Card mode
+usb:v22B8p608D*
+ ID_MEDIA_PLAYER=motorola_rokr-e2
+
+# YP-T7F
+usb:v04E8p503D*
+ ID_MEDIA_PLAYER=samsung_yp-t7f
+
+# 32 IT
+usb:v0E79p1416*
+ ID_MEDIA_PLAYER=archos_32-it
+
+# Zen X-Fi Style
+usb:v041Ep200A*
+ ID_MEDIA_PLAYER=creative_zen-x-fi-style
+
+# GoGear Opus
+usb:v0471p2079*
+ ID_MEDIA_PLAYER=philips_gogear-opus
+
+# TH1100A
+usb:v069Bp0778*
+ ID_MEDIA_PLAYER=lyra_th1100a
+
+# Zen Stone
+usb:v041Ep4154*
+ ID_MEDIA_PLAYER=creative_zen-stone
+
+# Zen X-Fi 2
+usb:v041Ep2020*
+ ID_MEDIA_PLAYER=creative_zen-x-fi-2
+
+# XS 100
+usb:v0E79p1205*
+ ID_MEDIA_PLAYER=archos_xs-100
+
+# RD1072, RD2212, MC2021C, TH1501
+usb:v069Bp0713*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+# RD1072, RD2212, MC2021C, TH1501
+usb:v069Bp0713*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+usb:v069Bp0718*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+# RD1072, RD2212, MC2021C, TH1501
+usb:v069Bp0713*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+usb:v069Bp0718*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+usb:v069Bp0756*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+# RD1072, RD2212, MC2021C, TH1501
+usb:v069Bp0713*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+usb:v069Bp0718*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+usb:v069Bp0756*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+usb:v069Bp0767*
+ ID_MEDIA_PLAYER=rca_0x0713_0x0718_0x0756_0x0767
+
+# Key
+usb:v0402p7108*
+ ID_MEDIA_PLAYER=archos_key
+
+# Walkman NWZ-135F
+usb:v054Cp036E*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-135f
+
+# Snap
+usb:v0BB4p0C5F*
+ ID_MEDIA_PLAYER=htc_snap
+
+# 5300
+usb:v0421p04B9*
+ ID_MEDIA_PLAYER=nokia_5300
+
+# Sansa View
+usb:v0781p74B1*
+ ID_MEDIA_PLAYER=sandisk_sansa-view
+
+# Coby
+usb:v1E74p2211*
+ ID_MEDIA_PLAYER=coby_mp705-4g
+
+# Xperia X10 mini
+usb:v0FCEp3137*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini
+
+# Xperia X10 mini
+usb:v0FCEp3137*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini
+
+usb:v0FCEp2137*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini
+
+# Xperia X10 mini
+usb:v0FCEp3137*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini
+
+usb:v0FCEp2137*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini
+
+usb:v0FCEp612E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini
+
+# W595
+usb:v0FCEpE0F3*
+ ID_MEDIA_PLAYER=sony-ericsson_w595
+
+# Sansa m200 Series V4
+usb:v0781p7431*
+ ID_MEDIA_PLAYER=sandisk_sansa-m200-series-v4
+
+usb:v1011p0001*
+ ID_MEDIA_PLAYER=mobile-media_0x0001
+
+# A43 IT
+usb:v0E79p1417*
+ ID_MEDIA_PLAYER=archos_a43
+
+# Sansa Clip
+usb:v0781p7433*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip
+
+# Droid/Milestone
+usb:v22B8p41D9*
+ ID_MEDIA_PLAYER=motorola_droid_milestone
+
+# Droid/Milestone
+usb:v22B8p41D9*
+ ID_MEDIA_PLAYER=motorola_droid_milestone
+
+usb:v22B8p41DB*
+ ID_MEDIA_PLAYER=motorola_droid_milestone
+
+# V640i
+usb:v0FCEpE0AF*
+ ID_MEDIA_PLAYER=sony-ericsson_v640i
+
+# Liquid
+usb:v0502p3202*
+ ID_MEDIA_PLAYER=acer_liquid
+
+# Liquid
+usb:v0502p3202*
+ ID_MEDIA_PLAYER=acer_liquid
+
+usb:v0502p3203*
+ ID_MEDIA_PLAYER=acer_liquid
+
+# Liquid
+usb:v0502p3202*
+ ID_MEDIA_PLAYER=acer_liquid
+
+usb:v0502p3203*
+ ID_MEDIA_PLAYER=acer_liquid
+
+usb:v0502p3317*
+ ID_MEDIA_PLAYER=acer_liquid
+
+# Sansa Fuze+
+usb:v0781p74E0*
+ ID_MEDIA_PLAYER=sandisk_sansa-fuze-plus
+
+# C7-00
+usb:v0421p03C0*
+ ID_MEDIA_PLAYER=nokia_c7-00
+
+# iAUDIO M3
+usb:v0E21p0500*
+ ID_MEDIA_PLAYER=cowon_iaudio-m3
+
+# Sansa Clip+
+usb:v0781p74D1*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip-plus
+
+# Sansa Clip+
+usb:v0781p74D1*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip-plus
+
+usb:v0781p74D0*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip-plus
+
+# Media Player
+usb:v10D6p1100*
+ ID_MEDIA_PLAYER=actions-semiconductor_0x1100_0x1101
+
+# Media Player
+usb:v10D6p1100*
+ ID_MEDIA_PLAYER=actions-semiconductor_0x1100_0x1101
+
+usb:v10D6p1101*
+ ID_MEDIA_PLAYER=actions-semiconductor_0x1100_0x1101
+
+# Coby
+usb:v1E74p2211*
+ ID_MEDIA_PLAYER=coby_mp300
+
+# GoGear Raga
+usb:v0471p20E3*
+ ID_MEDIA_PLAYER=philips_gogear-raga
+
+# Xperia Arc/X12
+usb:v0FCEpE14F*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x12
+
+# Xperia Arc/X12
+usb:v0FCEpE14F*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x12
+
+usb:v0FCEp614F*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x12
+
+# MegaStick-1 Flash Stick
+usb:v1462p5512*
+ ID_MEDIA_PLAYER=msi-megastick-1_flash_stick
+
+# D2
+usb:v0E21p0800*
+ ID_MEDIA_PLAYER=cowon_d2
+
+# Sansa e200 Series V2
+usb:v0781p7423*
+ ID_MEDIA_PLAYER=sandisk_sansa-e200-series-v2
+
+# 5310 XpressMusic
+usb:v0421p006A*
+ ID_MEDIA_PLAYER=nokia_5310
+
+# 5310 XpressMusic
+usb:v0421p006A*
+ ID_MEDIA_PLAYER=nokia_5310
+
+usb:v0421p006C*
+ ID_MEDIA_PLAYER=nokia_5310
+
+# iAUDIO 9
+usb:v0E21p0910*
+ ID_MEDIA_PLAYER=cowon_iaudio-9
+
+# Android phone
+usb:v0BB4p0FF9*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+# Android phone
+usb:v0BB4p0FF9*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C99*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+# Android phone
+usb:v0BB4p0FF9*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C99*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0CA2*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+# Android phone
+usb:v0BB4p0FF9*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C99*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0CA2*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C87*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+# Android phone
+usb:v0BB4p0FF9*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C99*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0CA2*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C87*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C8D*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+# Android phone
+usb:v0BB4p0FF9*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C99*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0CA2*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C87*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C8D*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+usb:v0BB4p0C97*
+ ID_MEDIA_PLAYER=htc_desire_hero_evo-4g_legend
+
+# M20
+usb:v1890p0001*
+ ID_MEDIA_PLAYER=m-cody_m20
+
+# SIRIUS alpha
+usb:v10A9p6021*
+ ID_MEDIA_PLAYER=pantech_sirius-alpha
+
+# Sansa Fuze
+usb:v0781p74C1*
+ ID_MEDIA_PLAYER=sandisk_sansa-fuze
+
+# GoGear SA1330
+usb:v0471p0165*
+ ID_MEDIA_PLAYER=philips_gogear-sa1330
+
+# iFP 100 UMS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS
+usb:v4102p1101*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+# iFP 100 UMS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS
+usb:v4102p1101*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+usb:v4102p1103*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+# iFP 100 UMS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS
+usb:v4102p1101*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+usb:v4102p1103*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+usb:v4102p1105*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+# iFP 100 UMS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS
+usb:v4102p1101*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+usb:v4102p1103*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+usb:v4102p1105*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+usb:v4102p1111*
+ ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6603*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6603*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6640*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6603*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6640*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681C*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6603*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6640*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681C*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681D*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6603*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6640*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681C*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681D*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p685B*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# Galaxy
+usb:v04E8p6602*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6603*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6640*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681C*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p681D*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p685B*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+usb:v04E8p6877*
+ ID_MEDIA_PLAYER=samsung_galaxy
+
+# 6600i
+usb:v0421p0295*
+ ID_MEDIA_PLAYER=nokia_6600i
+
+# Yepp YP-35
+usb:v04E8p5010*
+ ID_MEDIA_PLAYER=samsung_yepp-yp-35
+
+# N91
+usb:v0421p0444*
+ ID_MEDIA_PLAYER=nokia_n91
+
+# Galaxy S2
+usb:v04E8p6860*
+ ID_MEDIA_PLAYER=samsung_galaxy-s2
+
+# Galaxy S2
+usb:v04E8p6860*
+ ID_MEDIA_PLAYER=samsung_galaxy-s2
+
+usb:v04E8p685E*
+ ID_MEDIA_PLAYER=samsung_galaxy-s2
+
+# Galaxy S2
+usb:v04E8p6860*
+ ID_MEDIA_PLAYER=samsung_galaxy-s2
+
+usb:v04E8p685E*
+ ID_MEDIA_PLAYER=samsung_galaxy-s2
+
+usb:v04E8p685B*
+ ID_MEDIA_PLAYER=samsung_galaxy-s2
+
+# N9
+usb:v0421p0518*
+ ID_MEDIA_PLAYER=nokia_n9
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1291*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1291*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1293*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1291*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1293*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1296*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1291*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1293*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1296*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1299*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1291*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1293*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1296*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1299*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp129E*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iPods with video
+usb:v05ACp1209*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1261*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1262*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1263*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1265*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1266*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1223*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1224*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1225*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1231*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1255*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1242*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1243*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1245*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1246*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1290*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1292*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1294*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1297*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1291*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1293*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1296*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp1299*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp129E*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+usb:v05ACp129A*
+ ID_MEDIA_PLAYER=apple_video-ipod
+
+# iAUDIO 7
+usb:v0E21p0751*
+ ID_MEDIA_PLAYER=cowon_iaudio-7
+
+# Sansa Clip Sport
+usb:v0781p74E7*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip-sport
+
+# Zen Style 300
+usb:v041Ep2016*
+ ID_MEDIA_PLAYER=creative_zen-style-300
+
+# T7 Volcano
+usb:v4102p1043*
+ ID_MEDIA_PLAYER=iriver_t7-volcano
+
+# Sansa c250
+usb:v0781p7451*
+ ID_MEDIA_PLAYER=sandisk_sansa-c250
+
+# K850i
+usb:v0FCEpE075*
+ ID_MEDIA_PLAYER=sony-ericsson_k850i
+
+# Coby
+usb:v0402p5667*
+ ID_MEDIA_PLAYER=coby_mpc843_mpc853
+
+# LifeTouch Note
+usb:v0409p0300*
+ ID_MEDIA_PLAYER=nec_lifetouch-note
+
+# LifeTouch Note
+usb:v0409p0300*
+ ID_MEDIA_PLAYER=nec_lifetouch-note
+
+usb:v0409p0301*
+ ID_MEDIA_PLAYER=nec_lifetouch-note
+
+# Music Mediatouch
+usb:v071Bp32BB*
+ ID_MEDIA_PLAYER=dane-elec_music-mediatouch
+
+# YP-T7
+usb:v04E8p5027*
+ ID_MEDIA_PLAYER=samsung_yp-t7
+
+# iAUDIO X5
+usb:v0E21p0510*
+ ID_MEDIA_PLAYER=cowon_iaudio-x5
+
+# Sansa Clip V2
+usb:v0781p7435*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip-v2
+
+# Galaxy Reality
+usb:v04E8p68AA*
+ ID_MEDIA_PLAYER=samsung_reality
+
+# Zen Nano
+usb:v041Ep412C*
+ ID_MEDIA_PLAYER=creative_zen-nano
+
+# Veer
+usb:v0830p8034*
+ ID_MEDIA_PLAYER=hp_veer
+
+# Veer
+usb:v0830p8034*
+ ID_MEDIA_PLAYER=hp_veer
+
+usb:v0830p8032*
+ ID_MEDIA_PLAYER=hp_veer
+
+# Dream/ADP1/G1/Magic/Tattoo
+usb:v0BB4p0C01*
+ ID_MEDIA_PLAYER=htc_dream_adp1_g1_magic_tattoo
+
+# Dream/ADP1/G1/Magic/Tattoo
+usb:v0BB4p0C01*
+ ID_MEDIA_PLAYER=htc_dream_adp1_g1_magic_tattoo
+
+usb:v0BB4p0C02*
+ ID_MEDIA_PLAYER=htc_dream_adp1_g1_magic_tattoo
+
+# Sansa m200 Series
+usb:v0781p7401*
+ ID_MEDIA_PLAYER=sandisk_sansa-m200-series
+
+# T.Sonic 520
+usb:v0402p5661*
+ ID_MEDIA_PLAYER=transcend_t.sonic-520
+
+# XPERIA X1
+usb:v0BB4p0C1F*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x1
+
+# XPERIA X1
+usb:v0BB4p0C1F*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x1
+
+usb:v0BB4p0B1F*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x1
+
+# W302i
+usb:v0FCEpE0C8*
+ ID_MEDIA_PLAYER=sony-ericsson_w302i
+
+# N97
+usb:v0421p026A*
+ ID_MEDIA_PLAYER=nokia_n97
+
+# 5 IT
+usb:v0E79p1356*
+ ID_MEDIA_PLAYER=archos_5it
+
+# iHP-100,115 / HP-120,140
+usb:v1006p3001*
+ ID_MEDIA_PLAYER=iriver_0x3001_0x3002
+
+# iHP-100,115 / HP-120,140
+usb:v1006p3001*
+ ID_MEDIA_PLAYER=iriver_0x3001_0x3002
+
+usb:v1006p3002*
+ ID_MEDIA_PLAYER=iriver_0x3001_0x3002
+
+# 6120
+usb:v0421p002D*
+ ID_MEDIA_PLAYER=nokia_6120
+
+# GoGear SA3125
+usb:v0471p084A*
+ ID_MEDIA_PLAYER=philips_gogear-sa3125
+
+# 6700
+usb:v0421p0199*
+ ID_MEDIA_PLAYER=nokia_6700
+
+# Adam
+usb:v0955p7100*
+ ID_MEDIA_PLAYER=notion-ink_adam
+
+# S9
+usb:v0E21p0900*
+ ID_MEDIA_PLAYER=cowon_s9
+
+# i.Beat Blaxx
+usb:v1890p0210*
+ ID_MEDIA_PLAYER=trekstor_i.beat-blaxx
+
+# Mobile phone
+usb:v1004p6018*
+ ID_MEDIA_PLAYER=lg_0x6018
+
+# Optimus One P500
+usb:v1004p61A6*
+ ID_MEDIA_PLAYER=lg_optimus-one-p500
+
+# Rio Carbon
+usb:v045Ap5224*
+ ID_MEDIA_PLAYER=sonicblue_rio-carbon
+
+# GoGear Aria
+usb:v0471p2076*
+ ID_MEDIA_PLAYER=philips_gogear-aria
+
+# GoGear SA1100
+usb:v0471p0163*
+ ID_MEDIA_PLAYER=philips_gogear-sa1100
+
+# IS01
+usb:v04DDp9337*
+ ID_MEDIA_PLAYER=sharp-is01
+
+# PDP9512FM
+usb:v069Bp076B*
+ ID_MEDIA_PLAYER=thomson_pdp9512fm
+
+# YP-MT6V
+usb:v04E8p5026*
+ ID_MEDIA_PLAYER=samsung_yp-mt6v
+
+# 5 Tablet
+usb:v0E79p1330*
+ ID_MEDIA_PLAYER=archos_5
+
+# Mobile phone
+usb:v04E8p6601*
+ ID_MEDIA_PLAYER=samsung_0x6601-phones
+
+# YP-U1
+usb:v04E8p503B*
+ ID_MEDIA_PLAYER=samsung_yp-u1
+
+# W880i/890i Walkman Phone
+usb:v0FCEpE068*
+ ID_MEDIA_PLAYER=sony_0xe068_0xe0b3
+
+# W880i/890i Walkman Phone
+usb:v0FCEpE068*
+ ID_MEDIA_PLAYER=sony_0xe068_0xe0b3
+
+usb:v0FCEpE0B3*
+ ID_MEDIA_PLAYER=sony_0xe068_0xe0b3
+
+# T30
+usb:v4102p1019*
+ ID_MEDIA_PLAYER=iriver_t30
+
+# T30
+usb:v4102p1019*
+ ID_MEDIA_PLAYER=iriver_t30
+
+usb:v4102p1023*
+ ID_MEDIA_PLAYER=iriver_t30
+
+# Vision
+usb:v0BB4p0C94*
+ ID_MEDIA_PLAYER=htc_vision
+
+# YP-J70
+usb:v04E8p5032*
+ ID_MEDIA_PLAYER=samsung_yp-j70
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8008*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8008*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8206*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8008*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8206*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp821F*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8008*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8206*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp821F*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp829C*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8008*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8206*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp821F*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp829C*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp82E0*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# Music Player
+usb:v066Fp8000*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8008*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp8206*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp821F*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp829C*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp82E0*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+usb:v066Fp835D*
+ ID_MEDIA_PLAYER=jetflash_0x8000_0x8008_0x8206_0x821f_0x829c_0x82e0_0x835d
+
+# YP-T10
+usb:v04E8p508A*
+ ID_MEDIA_PLAYER=samsung_yp-t10
+
+# vibez
+usb:v066Fp842A*
+ ID_MEDIA_PLAYER=trekstor_vibez
+
+# Sansa Fuze V2
+usb:v0781p74C3*
+ ID_MEDIA_PLAYER=sandisk_sansa-fuze-v2
+
+# W995
+usb:v0FCEpE112*
+ ID_MEDIA_PLAYER=sony-ericsson_w995
+
+# GoGear RaGa (SA1942/02)
+usb:v0471p204E*
+ ID_MEDIA_PLAYER=philips_gogear-sa1942
+
+# ALBA MP3128D6
+usb:v066Fp8305*
+ ID_MEDIA_PLAYER=jetflash_alba-mp3128d6
+
+# SV-MP31V
+usb:v04DAp3701*
+ ID_MEDIA_PLAYER=panasonic_sv-mp31v
+
+# Music Player
+usb:v0402p5661*
+ ID_MEDIA_PLAYER=ali_0x5661-0x5667
+
+# Music Player
+usb:v0402p5661*
+ ID_MEDIA_PLAYER=ali_0x5661-0x5667
+
+usb:v0402p5663*
+ ID_MEDIA_PLAYER=ali_0x5661-0x5667
+
+# MP-375SD
+usb:v0402p5668*
+ ID_MEDIA_PLAYER=teac_mp-375sd
+
+# Digital Live250
+usb:v066Fp80E0*
+ ID_MEDIA_PLAYER=jetflash_digital-live250
+
+# Media Player
+usb:v071Bp3203*
+ ID_MEDIA_PLAYER=domain-technologies_0x3203
+
+# K800i
+usb:v0FCEpE039*
+ ID_MEDIA_PLAYER=sony-ericsson_k800i
+
+# Zen MX
+usb:v041Ep201F*
+ ID_MEDIA_PLAYER=creative_zen-mx
+
+# K810i
+usb:v0FCEpE0A1*
+ ID_MEDIA_PLAYER=sony-ericsson_k810i
+
+# Sansa e100 Series
+usb:v0781p7302*
+ ID_MEDIA_PLAYER=sandisk_sansa-e100-series
+
+# Prē
+usb:v0830p8004*
+ ID_MEDIA_PLAYER=palm_pre
+
+# Prē
+usb:v0830p8004*
+ ID_MEDIA_PLAYER=palm_pre
+
+usb:v0830p8002*
+ ID_MEDIA_PLAYER=palm_pre
+
+# W950i
+usb:v0FCEpD037*
+ ID_MEDIA_PLAYER=sony-ericsson_w950i
+
+# W810i
+usb:v0FCEpE042*
+ ID_MEDIA_PLAYER=sony-ericsson_w810i
+
+# Walkman NWZ-E443
+usb:v054Cp03FD*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-e443
+
+# Walkman NWZ-S750 Series
+usb:v054Cp04CC*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-s750
+
+# W910i
+usb:v0FCEpE076*
+ ID_MEDIA_PLAYER=sony-ericsson_w910i
+
+# Yepp YP-M1
+usb:v04E8p5123*
+ ID_MEDIA_PLAYER=samsung_yepp-yp-m1
+
+# Hiptop/Sidekick 3
+usb:v0DA0p1001*
+ ID_MEDIA_PLAYER=danger_hiptop_sidekick
+
+# YP-Q2
+usb:v04E8p511C*
+ ID_MEDIA_PLAYER=samsung_yp-q2
+
+# Phone
+usb:v05C6p1000*
+ ID_MEDIA_PLAYER=qualcomm_0x05c6_0x1000
+
+# P1i
+usb:v0FCEpE092*
+ ID_MEDIA_PLAYER=sony-ericsson_p1i
+
+# Walkman NWZ-E355
+usb:v054Cp04CB*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-e355
+
+# W200
+usb:v0FCEpE090*
+ ID_MEDIA_PLAYER=sony-ericsson_w200
+
+# Music Player
+usb:v066Fp8004*
+ ID_MEDIA_PLAYER=jetflash_0x8004
+
+# MuVo V100
+usb:v041Ep200C*
+ ID_MEDIA_PLAYER=creative_muvo-v100
+
+# N950
+usb:v0421p03D1*
+ ID_MEDIA_PLAYER=nokia_n950
+
+# W660i
+usb:v0FCEpE0A3*
+ ID_MEDIA_PLAYER=sony-ericsson_w660i
+
+# Yepp YP-P3
+usb:v04E8p5119*
+ ID_MEDIA_PLAYER=samsung_yepp-yp-p3
+
+# iAUDIO E2
+usb:v0E21p0681*
+ ID_MEDIA_PLAYER=cowon_iaudio-e2
+
+# Coby
+usb:v1E74p2211*
+ ID_MEDIA_PLAYER=coby_mp705-8g
+
+# Walkman NWZ-S500 Series
+usb:v054Cp03FE*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-s500
+
+# YP-F1
+usb:v04E8p502B*
+ ID_MEDIA_PLAYER=samsung_yp-f1
+
+# Walkman Video MP3 NWZ-xxxx
+usb:v054Cp035B*
+ ID_MEDIA_PLAYER=sony_0x035b_0x035c
+
+# Walkman Video MP3 NWZ-xxxx
+usb:v054Cp035B*
+ ID_MEDIA_PLAYER=sony_0x035b_0x035c
+
+usb:v054Cp035C*
+ ID_MEDIA_PLAYER=sony_0x035b_0x035c
+
+# E71
+usb:v0421p00AA*
+ ID_MEDIA_PLAYER=nokia_e71
+
+# K750i
+usb:v0FCEpD016*
+ ID_MEDIA_PLAYER=sony-ericsson_k750i
+
+# Rio Karma
+usb:v045Ap5210*
+ ID_MEDIA_PLAYER=sonicblue_rio-karma
+
+# Maxfield MAX-SIN TOUCH
+usb:v1890p0110*
+ ID_MEDIA_PLAYER=maxfield_max-sin-touch
+
+# Droid X
+usb:v22B8p4285*
+ ID_MEDIA_PLAYER=motorola_droid-x
+
+# CLIQ/DEXT
+usb:v22B8p2D67*
+ ID_MEDIA_PLAYER=motorola_cliq
+
+# Nook
+usb:v2080p0001*
+ ID_MEDIA_PLAYER=barnes-and-noble_nook
+
+# Nook
+usb:v2080p0001*
+ ID_MEDIA_PLAYER=barnes-and-noble_nook
+
+usb:v2080p0002*
+ ID_MEDIA_PLAYER=barnes-and-noble_nook
+
+# Nook
+usb:v2080p0001*
+ ID_MEDIA_PLAYER=barnes-and-noble_nook
+
+usb:v2080p0002*
+ ID_MEDIA_PLAYER=barnes-and-noble_nook
+
+usb:v2080p0002*
+ ID_MEDIA_PLAYER=barnes-and-noble_nook
+
+# Vivaz
+usb:v0FCEpE133*
+ ID_MEDIA_PLAYER=sony-ericsson_vivaz
+
+# U8120
+usb:v12D1p1035*
+ ID_MEDIA_PLAYER=huawei_u8120
+
+# GMini 400m A404
+usb:v0E79p1109*
+ ID_MEDIA_PLAYER=archos_0x1109_0x1300
+
+# GMini 400m A404
+usb:v0E79p1109*
+ ID_MEDIA_PLAYER=archos_0x1109_0x1300
+
+usb:v0E79p1300*
+ ID_MEDIA_PLAYER=archos_0x1109_0x1300
+
+# T60
+usb:v4102p1034*
+ ID_MEDIA_PLAYER=iriver_t60
+
+# W800i
+usb:v0FCEpD028*
+ ID_MEDIA_PLAYER=sony-ericsson_w800i
+
+# GT S8000 Jet
+usb:v04E8p4005*
+ ID_MEDIA_PLAYER=samsung_gt-s8000-jet
+
+# W580i
+usb:v0FCEpD089*
+ ID_MEDIA_PLAYER=sony-ericsson_w580i
+
+# W580i
+usb:v0FCEpD089*
+ ID_MEDIA_PLAYER=sony-ericsson_w580i
+
+usb:v0FCEpE089*
+ ID_MEDIA_PLAYER=sony-ericsson_w580i
+
+# YP-T9
+usb:v04E8p5055*
+ ID_MEDIA_PLAYER=samsung_yp-t9
+
+# Xperia mini
+usb:v0FCEpE167*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-mini
+
+# GoGear Vibe
+usb:v0471p20B6*
+ ID_MEDIA_PLAYER=philips_gogear-vibe
+
+# K320i
+usb:v0FCEpE072*
+ ID_MEDIA_PLAYER=sony-ericsson_k320i
+
+usb:v0D7Dp1651*
+ ID_MEDIA_PLAYER=peak_0x1651
+
+# GoGear Mix
+usb:v0471p2070*
+ ID_MEDIA_PLAYER=philips_gogear-mix
+
+# S10
+usb:v4102p1023*
+ ID_MEDIA_PLAYER=iriver_s10
+
+# Sansa Clip Zip
+usb:v0781p74E5*
+ ID_MEDIA_PLAYER=sandisk_sansa-clip-zip
+
+# Ideos
+usb:v12D1p1037*
+ ID_MEDIA_PLAYER=huawei_ideos
+
+# Ideos
+usb:v12D1p1037*
+ ID_MEDIA_PLAYER=huawei_ideos
+
+usb:v12D1p1038*
+ ID_MEDIA_PLAYER=huawei_ideos
+
+# Kindle
+usb:v1949p0001*
+ ID_MEDIA_PLAYER=amazon_kindle
+
+# Kindle
+usb:v1949p0001*
+ ID_MEDIA_PLAYER=amazon_kindle
+
+usb:v1949p0002*
+ ID_MEDIA_PLAYER=amazon_kindle
+
+# Kindle
+usb:v1949p0001*
+ ID_MEDIA_PLAYER=amazon_kindle
+
+usb:v1949p0002*
+ ID_MEDIA_PLAYER=amazon_kindle
+
+usb:v1949p0003*
+ ID_MEDIA_PLAYER=amazon_kindle
+
+# iAUDIO X5, M5, F2, 7
+usb:v0E21p0510*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+# iAUDIO X5, M5, F2, 7
+usb:v0E21p0510*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0520*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+# iAUDIO X5, M5, F2, 7
+usb:v0E21p0510*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0520*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0710*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+# iAUDIO X5, M5, F2, 7
+usb:v0E21p0510*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0520*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0710*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0730*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+# iAUDIO X5, M5, F2, 7
+usb:v0E21p0510*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0520*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0710*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0730*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+usb:v0E21p0750*
+ ID_MEDIA_PLAYER=cowon_0x0510_0x0520_0x0710_0x0730_0x0750
+
+# iAUDIO U2
+usb:v0E21p0600*
+ ID_MEDIA_PLAYER=cowon_iaudio-u2
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1107*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1107*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1108*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1107*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1108*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1109*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1107*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1108*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1109*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1110*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1107*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1108*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1109*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1110*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p2001*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+# T10 1G, T20 UMS, T30 UMS, T10 UMS,iFP 700/800/900/1000 UMS, H10 20GB/50GB UMS
+usb:v4102p1013*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1014*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1018*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1020*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1107*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1108*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1109*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p1110*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p2001*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v4102p2002*
+ ID_MEDIA_PLAYER=iriver_0x1xxx
+
+usb:v045Ap5042*
+ ID_MEDIA_PLAYER=sonicblue_0x5042
+
+# N900
+usb:v0421p01C7*
+ ID_MEDIA_PLAYER=nokia_n900
+
+# J3
+usb:v0E21p0920*
+ ID_MEDIA_PLAYER=cowon_j3
+
+# Walkman NWZ-A800 Series
+usb:v054Cp0325*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-a800
+
+# E30
+usb:v4102p1067*
+ ID_MEDIA_PLAYER=iriver_e30
+
+# H100A
+usb:v069Bp0761*
+ ID_MEDIA_PLAYER=rca_h100a
+
+# Touch HD
+usb:v0BB4p0C25*
+ ID_MEDIA_PLAYER=htc_touch-hd
+
+# YP-F2R
+usb:v04E8p5051*
+ ID_MEDIA_PLAYER=samsung_yp-f2r
+
+# Ally/Optimus One/Vortex
+usb:v1004p618E*
+ ID_MEDIA_PLAYER=lg_ally_optimus-one_vortex
+
+# Ally/Optimus One/Vortex
+usb:v1004p618E*
+ ID_MEDIA_PLAYER=lg_ally_optimus-one_vortex
+
+usb:v1004p618F*
+ ID_MEDIA_PLAYER=lg_ally_optimus-one_vortex
+
+# Ally/Optimus One/Vortex
+usb:v1004p618E*
+ ID_MEDIA_PLAYER=lg_ally_optimus-one_vortex
+
+usb:v1004p618F*
+ ID_MEDIA_PLAYER=lg_ally_optimus-one_vortex
+
+usb:v1004p61C6*
+ ID_MEDIA_PLAYER=lg_ally_optimus-one_vortex
+
+# Walkman NWZ-S638F
+usb:v054Cp038E*
+ ID_MEDIA_PLAYER=sony_walkman-nwz-s638f
+
+# Meizu M6 MiniPlayer
+usb:v04E8p5A0F*
+ ID_MEDIA_PLAYER=samsung_meizu-m6-miniplayer
+
+# KC910 Renoir
+usb:v1004pA400*
+ ID_MEDIA_PLAYER=lg_kc910-renoir
+
+# 770, N800, N810
+usb:v0421p0431*
+ ID_MEDIA_PLAYER=nokia_0x0431_0x04c3_0x0096
+
+# 770, N800, N810
+usb:v0421p0431*
+ ID_MEDIA_PLAYER=nokia_0x0431_0x04c3_0x0096
+
+usb:v0421p04C3*
+ ID_MEDIA_PLAYER=nokia_0x0431_0x04c3_0x0096
+
+# 770, N800, N810
+usb:v0421p0431*
+ ID_MEDIA_PLAYER=nokia_0x0431_0x04c3_0x0096
+
+usb:v0421p04C3*
+ ID_MEDIA_PLAYER=nokia_0x0431_0x04c3_0x0096
+
+usb:v0421p0096*
+ ID_MEDIA_PLAYER=nokia_0x0431_0x04c3_0x0096
+
+# N95
+usb:v0421p006D*
+ ID_MEDIA_PLAYER=nokia_n95
+
+# Pre 3
+usb:v0830p8054*
+ ID_MEDIA_PLAYER=hp_pre3
+
+# Pre 3
+usb:v0830p8054*
+ ID_MEDIA_PLAYER=hp_pre3
+
+usb:v0830p8052*
+ ID_MEDIA_PLAYER=hp_pre3
+
+# Xperia X10
+usb:v0FCEp312E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10
+
+# Xperia X10
+usb:v0FCEp312E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10
+
+usb:v0FCEpD12E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10
+
+# Xperia X10
+usb:v0FCEp312E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10
+
+usb:v0FCEpD12E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10
+
+usb:v0FCEpE12E*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10
+
+# Xperia X10 mini pro
+usb:v0FCEp3138*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini-pro
+
+# Xperia X10 mini pro
+usb:v0FCEp3138*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini-pro
+
+usb:v0FCEp2138*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-x10-mini-pro
+
+# MP-120
+usb:v066Fp82D4*
+ ID_MEDIA_PLAYER=jens-of-sweeden_mp-120
+
+# W300i
+usb:v0FCEpE053*
+ ID_MEDIA_PLAYER=sony-ericsson_w300i
+
+# YP-S5
+usb:v04E8p508C*
+ ID_MEDIA_PLAYER=samsung_yp-s5
+
+# YP-S3
+usb:v04E8p5090*
+ ID_MEDIA_PLAYER=samsung_yp-s3
+
+# iAUDIO
+usb:v0E21p0760*
+ ID_MEDIA_PLAYER=cowon_iaudio-u5_g2
+
+# i1
+usb:v0C44p41D9*
+ ID_MEDIA_PLAYER=motorola_i1
+
+# K610i
+usb:v0FCEpD046*
+ ID_MEDIA_PLAYER=sony-ericsson_k610i
+
+# K610i
+usb:v0FCEpD046*
+ ID_MEDIA_PLAYER=sony-ericsson_k610i
+
+usb:v0FCEpE046*
+ ID_MEDIA_PLAYER=sony-ericsson_k610i
+
+# 6300
+usb:v0421p04FA*
+ ID_MEDIA_PLAYER=nokia_6300
+
+# 6730
+usb:v0421p023A*
+ ID_MEDIA_PLAYER=nokia_6730
+
+# 5 IMT
+usb:v0E79p1332*
+ ID_MEDIA_PLAYER=archos_5imt
+
+# TS-300
+usb:v10C7pC000*
+ ID_MEDIA_PLAYER=touchstone_ts-300
+
+# 5800 XpressMusic
+usb:v0421p0156*
+ ID_MEDIA_PLAYER=nokia_5800
+
+# 6303
+usb:v0421p01B1*
+ ID_MEDIA_PLAYER=nokia_6303
+
+# i.Beat Rock
+usb:v1671p1632*
+ ID_MEDIA_PLAYER=trekstor_i.beat-rock
+
+# Zen Nano Plus
+usb:v041Ep4139*
+ ID_MEDIA_PLAYER=creative_zen-nano-plus
+
+# MP3 Player
+usb:v066Fp8038*
+ ID_MEDIA_PLAYER=jetflash_0x8038
+
+# Xperia mini pro
+usb:v0FCEpE166*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-mini-pro
+
+# Xperia mini pro
+usb:v0FCEpE166*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-mini-pro
+
+usb:v0FCEp6166*
+ ID_MEDIA_PLAYER=sony-ericsson_xperia-mini-pro
+
+# Diamond
+usb:v0BB4p0C13*
+ ID_MEDIA_PLAYER=htc_diamond
+
+# MuVo V200
+usb:v041Ep4129*
+ ID_MEDIA_PLAYER=creative_muvo-v200
+
+# Droid 2
+usb:v22B8p42A4*
+ ID_MEDIA_PLAYER=motorola_droid-2
+
+# Touchpad
+usb:v0830p8074*
+ ID_MEDIA_PLAYER=hp_touchpad
+
+# Touchpad
+usb:v0830p8074*
+ ID_MEDIA_PLAYER=hp_touchpad
+
+usb:v0830p8072*
+ ID_MEDIA_PLAYER=hp_touchpad
+
+# C902
+usb:v0FCEpE0D4*
+ ID_MEDIA_PLAYER=sony-ericsson_c902
+
+# Optimus S
+usb:v1004p61CC*
+ ID_MEDIA_PLAYER=lg_optimus-s
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0006*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0006*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0008*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0006*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0008*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp8001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0006*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0008*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp8001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp8004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+# Blackberry
+usb:v0FCAp0001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0006*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp0008*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp8001*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp8004*
+ ID_MEDIA_PLAYER=rim_blackberry
+
+usb:v0FCAp8007*
+ ID_MEDIA_PLAYER=rim_blackberry
+

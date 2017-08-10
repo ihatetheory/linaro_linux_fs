@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcolorhug.so.2.0.3
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcolorhug2
+/usr/share/doc/libcolorhug2/copyright
+/usr/lib/arm-linux-gnueabihf/libcolorhug.so.2
+/usr/share/doc/libcolorhug2/changelog.Debian.gz

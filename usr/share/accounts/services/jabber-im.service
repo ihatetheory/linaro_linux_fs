@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Generated using empathy/ubuntu-online-accounts/cc-plugins/generate-plugins.py
+     Do NOT edit manually -->
+<service id="jabber-im">
+  <type>IM</type>
+  <name>Jabber</name>
+  <icon>jabber</icon>
+  <provider>jabber</provider>
+
+  <!-- default settings (account settings have precedence over these) -->
+  <template>
+    <group name="telepathy">
+      <setting name="manager">gabble</setting>
+      <setting name="protocol">jabber</setting>
+    </group>
+    <group name="auth">
+      <setting name="method">password</setting>
+      <setting name="mechanism">password</setting>
+    </group>
+  </template>
+
+</service>

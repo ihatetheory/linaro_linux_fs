@@ -1,0 +1,4 @@
+5ef5e62fab6ec1b6cbbae3dc1471e006  usr/lib/arm-linux-gnueabihf/libheimbase.so.1.0.0
+42e7523b1006275a73e8e4c11c00df88  usr/share/doc/libheimbase1-heimdal/changelog.Debian.gz
+f932bf346a38dc8820bde606a033564b  usr/share/doc/libheimbase1-heimdal/copyright
+4c8c72b927c3b6d985e7183dbe70e5e4  usr/share/lintian/overrides/libheimbase1-heimdal

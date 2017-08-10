@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appletversion "2.8">
+<!ENTITY manrevision "2.8">
+<!ENTITY date "September 2004">
+<!ENTITY applet "Geyes">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Mar 12, 2002  
+-->
+<article id="index" lang="zh-TW">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+	 <title>Geyes 使用手冊</title> 
+	 <abstract role="description">
+	   <para>Geyes 提供一雙眼睛這個很有趣的方式來讓您知道您的滑鼠指標在螢幕上的甚麼位置</para>
+	 </abstract>
+	 <copyright lang="en"> 
+		<year>2002</year>
+		<year>2003</year> 
+		<year>2004</year> 
+		<holder>Sun Microsystems</holder> 
+	 </copyright>  
+	 <copyright lang="en"> 
+		<year>2000</year> 
+		<holder>Telsa Gwynne</holder> 
+	 </copyright>
+	 <copyright lang="en"> 
+		<year>2000</year> 
+		<holder>Arjan Scherpenisse</holder> 
+	 </copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2003</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+
+	 <publisher role="maintainer"> 
+		<publishername>GNOME 文件計劃</publishername> 
+	 </publisher> 
+   <legalnotice id="legalnotice">
+         <para>根據自由軟體基金會 (Free Software Foundation) 所發佈 的 GNU 自由文件授權 (GNU Free Documentation License, GFDL) 1.1 (含) 以後版本， 使用者可以複製、散佈，或修改本文件，但不得增刪章節，不得加上封面文字， 亦不得加上封底文字。 如要取得 GFDL 的副本，請參閱此<ulink type="help" url="help:fdl">連結</ulink>，或是參閱與本手冊一同隨附的 COPYING-DOCS 檔案。</para>
+          <para>本手冊是屬於依 GFDL 授權所發佈之 GNOME 手冊集中的一部份。 如果您只要單獨散佈本手冊，依據授權聲明第六節之敘述， 您必須另外將授權聲明加入本手冊中。</para>
+ 
+         <para>許多公司為了突顯其產品與服務，會使用特別名稱，並亦已聲明這些名稱為其商標。當這些名稱出現在 GNOME 文件中，同時 GNOME 文件 專案小組成員亦明白這些名稱為商標時， 這些名稱會以大寫字母或是首字母大寫表示。</para>
+ 
+         <para lang="en">
+           DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+           UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+           WITH THE FURTHER UNDERSTANDING THAT:
+ 
+           <orderedlist>
+                 <listitem>
+                   <para lang="en">DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                     IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                     THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                     A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                     RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                     OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                     DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                     MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                     YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                     CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                     SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                     LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                     VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                     EXCEPT UNDER THIS DISCLAIMER; AND
+                   </para>
+                 </listitem>
+                 <listitem>
+                   <para lang="en">UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                        THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                        CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                        INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                        DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                        OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                        PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                        DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                        CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                        INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                        OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                        MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                        LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                        DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                        EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                        THE POSSIBILITY OF SUCH DAMAGES.
+                   </para>
+                 </listitem>
+           </orderedlist>
+         </para>
+   </legalnotice>
+ 
+
+	 <authorgroup> 
+		<author lang="en"> 
+		  <firstname>Sun</firstname> 
+		  <surname>GNOME Documentation Team</surname> 
+		  <affiliation> 
+			 <orgname>Sun Microsystems</orgname> 
+			 <address/> 
+		  </affiliation> 
+		</author> 
+		<author lang="en"> 
+		  <firstname>Telsa</firstname> 
+		  <surname>Gwynne</surname> 
+		  <affiliation> 
+			 <orgname>GNOME Documentation Project</orgname> 
+			 <address> <email>hobbit@aloss.ukuu.org.uk</email> </address> 
+		  </affiliation> 
+		</author>
+		<author lang="en"> 
+		  <firstname>Arjan</firstname> 
+		  <surname>Scherpenisse</surname> 
+		  <affiliation> 
+			 <orgname>GNOME Documentation Project</orgname> 
+			 <address> <email>acscherp@wins.uva.nl</email> </address> 
+		  </affiliation> 
+		</author> 
+      <!-- This is appropriate place for other contributors: translators,
+           maintainers,  etc. Commented out by default.
+           <othercredit role="translator">
+	     <firstname>Latin</firstname> 
+	     <surname>Translator 1</surname> 
+	     <affiliation> 
+	       <orgname>Latin Translation Team</orgname> 
+	       <address> <email>translator@gnome.org</email> </address> 
+	     </affiliation>
+	     <contrib>Latin translation</contrib>
+           </othercredit>
+-->
+	 </authorgroup>
+	 
+	 <releaseinfo revision="2.26" role="review"/>
+
+	 <revhistory>
+	   <revision lang="en">
+	     <revnumber>Version 2.8</revnumber>
+	     <date>September 2004</date>
+	     <revdescription>
+	       <para role="author" lang="en">GNOME Documentation Team</para>
+	       <para role="publisher" lang="en">GNOME Documentation Project</para>
+	     </revdescription>
+	   </revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.6</revnumber> 
+		  <date>February 2004</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.5</revnumber> 
+		  <date>September 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.4</revnumber> 
+		  <date>August 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.3</revnumber> 
+		  <date>January 2003</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision>
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.2</revnumber> 
+		  <date>August 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.1</revnumber> 
+		  <date>June 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision lang="en"> 
+		  <revnumber>Geyes Applet Manual V2.0</revnumber> 
+		  <date>March 2002</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Sun GNOME Documentation Team</para> 
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+		<revision lang="en"> 
+		  <revnumber>gEyes Applet</revnumber> 
+		  <date>2000</date> 
+		  <revdescription> 
+			 <para role="author" lang="en">Telsa Gwynne
+				<email>hobbit@aloss.ukuu.org.uk</email></para> 
+			 <para role="author" lang="en">Arjan Scherpenisse
+				<email>acscherp@wins.uva.nl</email></para>
+			 <para role="publisher" lang="en">GNOME Documentation Project</para> 
+		  </revdescription> 
+		</revision> 
+	 </revhistory> 
+	 <releaseinfo>這份說明手冊描述的 Geyes 小眼睛版本是 2.8</releaseinfo> 
+	 <legalnotice> 
+		<title>回饋</title> 
+		<para>要回報Geyes 小眼睛或這本手冊的錯誤或給予建議，請依照 <ulink url="ghelp:gnome-feedback" type="help">GNOME 回饋頁面</ulink> 中的指示。</para>
+		
+	 </legalnotice> 
+  </articleinfo> 
+  <indexterm lang="en"> 
+	 <primary>Geyes</primary> 
+  </indexterm> 
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<sect1 id="geyes-introduction">
+<title>介紹</title>
+<!-- ==== Figure ============================================= -->
+	 <figure id="geyes-fig"> 
+		<title>Geyes 小眼睛程式</title> 
+		<screenshot> 
+		  <mediaobject lang="en"> 
+			 <imageobject><imagedata fileref="figures/geyes_applet.png" format="PNG"/> 
+			 </imageobject>
+			 <textobject> 
+				<phrase>Shows Geyes applet.</phrase> 
+			 </textobject> 
+		  </mediaobject> 
+		</screenshot> 
+	 </figure> 
+    <!-- ==== End of Figure ======================================= -->
+<para><application>Geyes 小眼睛</application>提供一雙眼睛這個很有趣的方式來讓您知道您的滑鼠指標在螢幕上的甚麼位置。這個程式提供了一個或多個眼睛來跟隨您滑鼠指標的位置。</para>
+<para>要在面板上面新增<application>Geyes 小眼睛</application>，請在面板上按右鍵並選擇<guimenuitem>加入面板</guimenuitem>，並在<application>加入面板</application>對話盒中選擇<application>小眼睛</application></para>
+</sect1>
+<!-- ============= Preferences  ================================ -->
+<sect1 id="geyes-settings">
+<title>偏好設定</title>
+<para>要設定<application>Geyes 小眼睛</application>，請再 <application>Geyes 小眼睛</application>程式上按滑鼠右鍵然後選擇<guimenuitem>偏好設定</guimenuitem>，您可以選擇一些不同的主題，不同的主題將會影響您的眼睛將如何來呈獻。</para>
+</sect1>
+</article>

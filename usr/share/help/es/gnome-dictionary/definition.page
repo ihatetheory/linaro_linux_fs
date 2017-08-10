@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="definition" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="similar-words"/>
+    <link type="seealso" xref="sources-select"/>
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Buscar la definición de una palabra o un término</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2005, 2007-2008.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Buscar una palabra o un término</title>
+
+  <p>Puede usar <app>Diccionario</app> para buscar el significado de un <em>término</em>. Un término puede ser una única palabra, por ejemplo <input>manzana</input> o una palabra compuesta como <input>tabla de cortar</input>. El resultado de la búsqueda también puede mostrar el origen, la importancia y el uso de una palabra. Para buscar un término:</p>
+
+  <steps>
+    <item>
+      <p>Escriba el término que quiere buscar en <gui>Buscar</gui>.</p>
+    </item>
+    <item>
+      <p>Pulse <key>Intro</key> o <gui style="button">Buscar:</gui> para buscar.</p>
+    </item>
+  </steps>
+
+  <p><app>Diccionario</app> buscará la fuente de diccionarios que seleccione y le mostrará el resultado del primer diccionario en la fuente. Para ver los resultados de otros diccionarios que estén en la misma fuente, seleccione <link xref="similar-words"><guiseq><gui style="menu">Ver</gui> <gui style="menuitem">Palabras similares</gui></guiseq></link> para mostrar una barra lateral que muestre los resultados.</p>
+
+</page>

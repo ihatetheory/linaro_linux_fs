@@ -1,0 +1,6 @@
+#
+# Testsuite failures, someone should be working towards
+# fixing these! They are listed here for the purpose of
+# regression testing during builds.
+#
+rt/tst-cpuclock2

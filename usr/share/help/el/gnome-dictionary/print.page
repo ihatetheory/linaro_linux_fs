@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="print" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="definition"/>
+    <link type="seealso" xref="print-font"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Προεπισκόπηση εκτύπωσης και ορισμοί εκτύπωσης.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Νίκος Χαρωνιτάκης</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2006</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εκτύπωση ορισμού</title>
+
+  <p>Μπορείτε να εκτυπώσετε έναν ορισμό σε χαρτί ή αρχείο. Πριν την εκτύπωση, θα πρέπει να προεπισκοπήσετε τον ορισμό όπως θα εκτυπωθεί για να ελέγξετε ότι το κείμενο ταιριάζει στη σελίδα, ειδικά αν έχετε αλλάξει το μέγεθος της <link xref="print-font">γραμματοσειράς εκτύπωσης</link>.</p>
+
+  <section id="preview">
+    <title>Προεπισκόπηση εκτύπωσης</title>
+
+    <steps>
+      <item>
+        <p>Επιλέξτε <guiseq><gui style="menu">Αρχείο</gui> <gui style="menuitem">Προεπισκόπηση</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Ένα παράθυρο προεπισκόπησης εκτύπωσης θα ανοίξει που θα εμφανίσει τον ορισμό ακριβώς όπως θα τυπωθεί.</p>
+      </item>
+      <item>
+	<p>Χρησιμοποιήστε την εργαλειοθήκη για περιήγηση των σελίδων, ρυθμίστε το επίπεδο εστίασης και το πλάτος της σελίδας.</p>
+      </item>
+      <item>
+        <p>Πατήστε το <gui style="button">Εκτύπωση αυτού του εγγράφου</gui> για να εκτυπώσετε τον ορισμό ή να κλείσετε το παράθυρο για να τελειώσετε την προεπισκόπηση.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Το κουμπί εκτύπωσης στην εργαλειοθήκη μπορεί να μην δουλεύει πάντα. Αν δεν δουλέψει για σας, κλείστε το παράθυρο και επιλέξτε <guiseq><gui style="menu">Αρχείο</gui> <gui style="menuitem">Εκτύπωση</gui></guiseq>.</p>
+    </note>
+
+  </section>
+
+  <section id="print">
+    <title>Εκτύπωση</title>
+
+    <p>Χρειάζεται να <link href="help:gnome-help/printing">έχετε έναν εγκατεστημένο εκτυπωτή</link> για να μπορέσετε να εκτυπώσετε σε χαρτί.</p>
+
+    <steps>
+      <item>
+        <p>Επιλέξτε <guiseq><gui style="menu">Αρχείο</gui> <gui style="menuitem">Εκτύπωση</gui> <gui style="tab">Γενικά</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε τον επιθυμητό εκτυπωτή από τη λίστα των εκτυπωτών ή επιλέξτε <gui href="help:gnome-help/print-to-file">Εκτύπωση σε αρχείο</gui>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε τις <link href="help:gnome-help/printing#paper">ρυθμίσεις εκτύπωσης</link>.</p>
+      </item>
+      <item>
+        <p>Πατήστε στο <gui style="button">Εκτύπωση</gui> για να εκτυπώσετε τον ορισμό.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

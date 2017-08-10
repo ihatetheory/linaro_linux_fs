@@ -1,0 +1,12 @@
+80f1d8cc5b230472d7e25e75be2a4f6f  usr/bin/gnome-desktop-item-edit
+fb20d4fff3e4d2aa1cb0ca9f7776554e  usr/bin/gnome-panel
+63fd494b1739a79921d93208052c2f63  usr/bin/panel-test-applets
+bbe6c26dcc50ef095e771592c4ad4a9b  usr/lib/gnome-panel/5.0/libclock-applet.so
+e322aed14edda303f9aa727d0648dd8c  usr/lib/gnome-panel/5.0/libfish-applet.so
+331c831f6e7426617ba15865f022b534  usr/lib/gnome-panel/5.0/libnotification-area-applet.so
+29283bf04148f11acb576e4d610e9683  usr/lib/gnome-panel/5.0/libwnck-applet.so
+52af77e91bfcf033e8537abcee83a254  usr/share/applications/gnome-panel.desktop
+8172ca04d3894ec33f3a62dcf2a6c3df  usr/share/doc/gnome-panel/copyright
+0ea6f2e83d97fb6da5889794d0091d05  usr/share/man/man1/gnome-desktop-item-edit.1.gz
+00d43b8902c4dc7cb32775be43a518c6  usr/share/man/man1/gnome-panel.1.gz
+e4b55aec677c3e98b7dbfb67e568b7ff  usr/share/man/man1/panel-test-applets.1.gz

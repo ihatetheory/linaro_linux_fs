@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ShellAppUsage: Shell Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Shell Reference Manual">
+<link rel="up" href="ch02.html" title="Application tracking">
+<link rel="prev" href="ShellApp.html" title="ShellApp">
+<link rel="next" href="ShellWindowTracker.html" title="ShellWindowTracker">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ShellAppUsage.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ShellAppUsage.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ShellApp.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ShellWindowTracker.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ShellAppUsage"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ShellAppUsage.top_of_page"></a>ShellAppUsage</span></h2>
+<p>ShellAppUsage — Track application usage/state data</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ShellAppUsage.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="ShellAppUsage.html" title="ShellAppUsage"><span class="returnvalue">ShellAppUsage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellAppUsage.html#shell-app-usage-get-default" title="shell_app_usage_get_default ()">shell_app_usage_get_default</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ShellAppUsage.html#shell-app-usage-get-most-used" title="shell_app_usage_get_most_used ()">shell_app_usage_get_most_used</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="ShellAppUsage.html#shell-app-usage-compare" title="shell_app_usage_compare ()">shell_app_usage_compare</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ShellAppUsage.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> ShellAppUsage
+</pre>
+</div>
+<div class="refsect1">
+<a name="ShellAppUsage.description"></a><h2>Description</h2>
+<p>This class maintains some usage and state statistics for
+applications by keeping track of the approximate time an application's
+windows are focused, as well as the last workspace it was seen on.
+This time tracking is implemented by watching for focus notifications,
+and computing a time delta between them.  Also we watch the
+GNOME Session "StatusChanged" signal which by default is emitted after 5
+minutes to signify idle.</p>
+</div>
+<div class="refsect1">
+<a name="ShellAppUsage.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="shell-app-usage-get-default"></a><h3>shell_app_usage_get_default ()</h3>
+<pre class="programlisting"><a class="link" href="ShellAppUsage.html" title="ShellAppUsage"><span class="returnvalue">ShellAppUsage</span></a> *
+shell_app_usage_get_default (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.3.3.6.2.4"></a><h4>Returns</h4>
+<p> The global <a class="link" href="ShellAppUsage.html" title="ShellAppUsage"><span class="type">ShellAppUsage</span></a> instance. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-usage-get-most-used"></a><h3>shell_app_usage_get_most_used ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Singly-Linked-Lists.html#GSList"><span class="returnvalue">GSList</span></a> *
+shell_app_usage_get_most_used (<em class="parameter"><code><a class="link" href="ShellAppUsage.html" title="ShellAppUsage"><span class="type">ShellAppUsage</span></a> *usage</code></em>,
+                               <em class="parameter"><code>const <span class="type">char</span> *context</code></em>);</pre>
+<p>Get a list of most popular applications for a given context.</p>
+<div class="refsect3">
+<a name="id-1.3.3.6.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>usage</p></td>
+<td class="parameter_description"><p>the usage instance to request</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>Activity identifier</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.3.6.3.6"></a><h4>Returns</h4>
+<p> List of applications. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> ShellApp][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="shell-app-usage-compare"></a><h3>shell_app_usage_compare ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+shell_app_usage_compare (<em class="parameter"><code><a class="link" href="ShellAppUsage.html" title="ShellAppUsage"><span class="type">ShellAppUsage</span></a> *self</code></em>,
+                         <em class="parameter"><code>const <span class="type">char</span> *context</code></em>,
+                         <em class="parameter"><code>const <span class="type">char</span> *id_a</code></em>,
+                         <em class="parameter"><code>const <span class="type">char</span> *id_b</code></em>);</pre>
+<p>Compare <em class="parameter"><code>id_a</code></em>
+ and <em class="parameter"><code>id_b</code></em>
+ based on frequency of use.</p>
+<div class="refsect3">
+<a name="id-1.3.3.6.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>the usage instance to request</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>Activity identifier</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id_a</p></td>
+<td class="parameter_description"><p>ID of first app</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id_b</p></td>
+<td class="parameter_description"><p>ID of second app</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.3.6.4.6"></a><h4>Returns</h4>
+<p> -1 if <em class="parameter"><code>id_a</code></em>
+ranks higher than <em class="parameter"><code>id_b</code></em>
+, 1 if <em class="parameter"><code>id_b</code></em>
+ranks higher
+than <em class="parameter"><code>id_a</code></em>
+, and 0 if both rank equally.</p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ShellAppUsage.other_details"></a><h2>Types and Values</h2>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

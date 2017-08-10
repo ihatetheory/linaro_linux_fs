@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="sources-default" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="complete"/>
+    <link type="guide" xref="sources#guide"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@googlemail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Chrsitian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eine Standardwörterbuchquelle einrichten</title>
+
+  <p>Wenn Sie zum ersten mal <app>Wörterbuch</app> starten, sollte es einige vorinstallierte Wörterbucher enthalten, die Sie sofort nutzen können. Sie können die Standard-<link xref="sources">Wörterbuchquelle</link> auf eine andere umstellen, die Sie verwenden möchten.</p>
+
+  <steps>
+    <title>Ändern der Standard-Wörterbuchquelle:</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui><app>Wörterbuch</app></gui> <gui style="menu">Einstellungen</gui> <gui style="tab">Quelle</gui></guiseq> aus.</p>
+    </item>
+    <item>
+      <p>Wählen Sie die Wörterbuchquelle aus, die Sie als Standard einstellen möchten.</p>
+    </item>
+    <item>
+      <p>Ihre Änderungen werden automatisch gespeichert.</p>
+    </item>
+  </steps>
+
+</page>

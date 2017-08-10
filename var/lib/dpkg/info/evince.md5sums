@@ -1,0 +1,11 @@
+60a616121cc4dde29f67ec27e944ac7e  usr/bin/evince
+b08b8697a7f94c92f9d11cf471aaec3c  usr/bin/evince-previewer
+866e6adc54058a6b3532bbd8596cbc55  usr/bin/evince-thumbnailer
+4fe8ba5a4635380b70fad80d2c8ca712  usr/lib/evince/evinced
+2ae5d9d4b67010512a3359db77f99402  usr/lib/mime/packages/evince
+f6b8efb7ca8a65db19726fdf69369747  usr/lib/nautilus/extensions-3.0/libevince-properties-page.so
+8959ff5ac6b84a1b09a4dcfe04b1a550  usr/share/bug/evince/presubj
+8a7f0492f44950cf5517189d5f231153  usr/share/doc/evince/README.Debian
+a7a11af71a57ada9f5d3eea021233304  usr/share/doc/evince/copyright
+96affe5201c6a4e946062c0a4cc5d489  usr/share/lintian/overrides/evince
+7b3ab35d078b96cee49bdfa6ade348d2  usr/share/menu/evince

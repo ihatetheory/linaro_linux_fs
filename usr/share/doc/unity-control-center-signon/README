@@ -1,0 +1,36 @@
+Ubuntu Online Accounts configuration panel
+------------------------------------------
+
+This project is a configuration interface for the Online Accounts framework in
+Ubuntu. Under Unity, it appears as a panel in the Unity Control Center.
+Alternatively, a standalone credentials-preferences binary can be built, which
+allows distributions without the Unity Control Center to use the
+configuration UI.
+
+libaccount-plugin
+-----------------
+
+libaccount-plugin is an auxiliary library which provides support for account
+plugins. See the gtk-doc documentation or the online-accounts-account-plugins
+project for more details.
+
+Dependencies
+------------
+
+The panel and libaccount-plugin depend on:
+
+gtk+
+libaccounts-glib
+libsignon-glib
+signond
+
+Licence
+-------
+
+The UI is licensed under the GNU GPL version 3. libaccount-plugin is licensed
+under the GNU LGPL version 3.
+
+Resources
+---------
+
+https://launchpad.net/gnome-control-center-signon

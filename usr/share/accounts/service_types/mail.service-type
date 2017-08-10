@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service-type id="mail">
+  <name>Mail</name>
+  <description>Integrate your mailboxes</description>
+  <icon>emblem-mail</icon>
+  <translations>evolution-data-server-3.12</translations>
+</service-type>

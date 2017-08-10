@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="text-copy" xml:lang="id">
+
+  <info>
+    <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <link type="guide" xref="index#features"/>
+    <link type="seealso" xref="keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pilih dan salin suatu definisi ke aplikasi lain.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Paula</mal:name>
+      <mal:email>aninditapaula@yahoo.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Salin definisi</title>
+
+  <p>Anda dapat menyalin dan menempel definisi dari <app>Kamus</app> ke aplikasi lain.</p>
+
+  <steps>
+    <title>Menyalin suatu definisi</title>
+    <item>
+      <p>Pilih teks yang ingin Anda salin dalam <app>Kamus</app>. Sebagai alternatif, Anda dapat memilih seluruh definisi memakai <guiseq><gui style="menu">Sunting</gui> <gui style="menuitem">Pilih Semua</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Pilih <guiseq><gui style="menu">Sunting</gui> <gui style="menuitem">Salin</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Tempelkan teks ke dalam aplikasi lain. Ini biasanya dapat dilakukan memakai pintasan papan tik<keyseq><key>Ctrl</key><key>P</key></keyseq> atau melalui satu dari menu.</p>
+    </item>
+  </steps>
+
+</page>

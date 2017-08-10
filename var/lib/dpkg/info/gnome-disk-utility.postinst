@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_icons
+if which update-icon-caches >/dev/null 2>&1 ; then
+	update-icon-caches /usr/share/icons/HighContrast
+fi
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/xdg/autostart/gdu-notification-daemon.desktop 3.6.1-1~ gnome-disk-utility -- "$@"
+# End automatically added section
